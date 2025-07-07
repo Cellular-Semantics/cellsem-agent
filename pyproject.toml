@@ -10,11 +10,16 @@ packages = [
   {include = "cellsem_agent"}
 ]
 
+[tool.poetry.scripts]
+cellsem-agent = "cellsem_agent.cli:cli"
+
 [tool.poetry.dependencies]
-python = ">=3.8,<4.0"
+python = ">=3.11,<4.0"
+click = "^8.2.1"
+aurelian = {git = "https://github.com/monarch-initiative/aurelian.git"}
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.2.0"
+pytest = "^8.2.0"
 mypy = "^1.5.1"
 pre-commit = "^3.4.0"
 tox = "^4.11.1"

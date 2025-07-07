@@ -9,7 +9,7 @@ def foo(bar: str) -> str:
     Returns:
         Description of return value
     """
-
+    print("This is a function in the foo module.")
     return bar
 
 
