@@ -1,0 +1,54 @@
+site_name: cellsem-agent
+repo_url: https://github.com/hkir-dev/cellsem-agent
+site_url: https://hkir-dev.github.io/cellsem-agent
+site_description: This is a template repository for Python projects that use Poetry for their dependency management.
+site_author: CellularSemantics
+edit_uri: edit/main/docs/
+repo_name: hkir-dev/cellsem-agent
+copyright: Maintained by <a href="https://hkir-dev.com">Florian</a>.
+
+nav:
+  - Home: index.md
+  - Modules: modules.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          setup_commands:
+            - import sys
+            - sys.path.append('../')
+theme:
+  name: material
+  feature:
+    tabs: true
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hkir-dev/cellsem-agent
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/cellsem-agent
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
