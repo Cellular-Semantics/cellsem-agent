@@ -11,12 +11,15 @@ packages = [
 ]
 
 [tool.poetry.scripts]
-cellsem-agent = "cellsem_agent.cli:cli"
+cellsem-agent = "cellsem_agent.cli:main"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<4.0"
 click = "^8.2.1"
 aurelian = {git = "https://github.com/monarch-initiative/aurelian.git"}
+gradio = "^5.23.3"
+pydantic-ai = ">=0.2.0"
+logfire = ">=3.5.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"
@@ -42,6 +45,9 @@ check_untyped_defs = "True"
 warn_return_any = "True"
 warn_unused_ignores = "True"
 show_error_codes = "True"
+
+[tool.poetry.extras]
+gradio = ["gradio"]
 
 
 
