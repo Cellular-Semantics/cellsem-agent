@@ -63,6 +63,12 @@ def start(bar):
     result = foo(bar)
     click.echo(result)
 
+@main.command()
+@ui_option
+@click.argument("query", nargs=-1, required=False)
+def cell(ui, query, **kwargs):
+    print(f"Running PaperQA with query: {query} and UI: {ui}")
+    run_agent("cell", "cellsem_agent.agents.cell", query=query, ui=ui, **kwargs)
 
 @main.command()
 @ui_option
