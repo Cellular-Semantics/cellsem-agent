@@ -1,11 +1,11 @@
 site_name: cellsem-agent
-repo_url: https://github.com/hkir-dev/cellsem-agent
-site_url: https://hkir-dev.github.io/cellsem-agent
+repo_url: https://github.com/Cellular-Semantics/cellsem-agent
+site_url: https://Cellular-Semantics.github.io/cellsem-agent
 site_description: This is a template repository for Python projects that use Poetry for their dependency management.
 site_author: CellularSemantics
 edit_uri: edit/main/docs/
-repo_name: hkir-dev/cellsem-agent
-copyright: Maintained by <a href="https://hkir-dev.com">Florian</a>.
+repo_name: Cellular-Semantics/cellsem-agent
+copyright: Maintained by <a href="https://Cellular-Semantics.com">Florian</a>.
 
 nav:
   - Home: index.md
@@ -43,7 +43,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/hkir-dev/cellsem-agent
+      link: https://github.com/Cellular-Semantics/cellsem-agent
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/cellsem-agent
 
