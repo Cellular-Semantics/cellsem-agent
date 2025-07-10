@@ -7,8 +7,6 @@ from pydantic_ai.models.openai import OpenAIModel
 from pydantic_ai.providers.openai import OpenAIProvider
 from aurelian import __version__
 
-from .foo import foo
-
 __all__ = [
     "main",
 ]
@@ -55,14 +53,6 @@ def main(verbose: int, quiet: bool):
 
     logfire.configure()
 
-
-@main.command()
-@click.argument("bar")
-def start(bar):
-    """Run the foo function with the given BAR argument."""
-    result = foo(bar)
-    click.echo(result)
-
 @main.command()
 @ui_option
 @click.argument("query", nargs=-1, required=False)
@@ -73,7 +63,7 @@ def cell(ui, query, **kwargs):
 @main.command()
 @ui_option
 @click.argument("query", nargs=-1, required=False)
-def paperqa(ui, query, **kwargs):
+def paperqaa(ui, query, **kwargs):
     """Start the PaperQA Agent for scientific literature search and analysis.
 
     The PaperQA Agent helps search, organize, and analyze scientific papers. It can
@@ -82,9 +72,9 @@ def paperqa(ui, query, **kwargs):
 
     Run with a query for direct mode or with --ui for interactive chat mode.
 
-    Use `aurelian paperqa` subcommands for paper management:
-      - `aurelian paperqa index` to index papers for searching
-      - `aurelian paperqa list` to list papers in your collection
+    Use `aurelian paperqa_agent` subcommands for paper management:
+      - `aurelian paperqa_agent index` to index papers for searching
+      - `aurelian paperqa_agent list` to list papers in your collection
     """
     print(f"Running PaperQA with query: {query} and UI: {ui}")
     run_agent("paperqa", "aurelian.agents.paperqa", query=query, ui=ui, **kwargs)
