@@ -1,9 +1,9 @@
 # cellsem-agent
 
-[![Release](https://img.shields.io/github/v/release/hkir-dev/cellsem-agent)](https://img.shields.io/github/v/release/hkir-dev/cellsem-agent)
-[![Build status](https://img.shields.io/github/actions/workflow/status/hkir-dev/cellsem-agent/main.yml?branch=main)](https://github.com/hkir-dev/cellsem-agent/actions/workflows/main.yml?query=branch%3Amain)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/hkir-dev/cellsem-agent)](https://img.shields.io/github/commit-activity/m/hkir-dev/cellsem-agent)
-[![License](https://img.shields.io/github/license/hkir-dev/cellsem-agent)](https://img.shields.io/github/license/hkir-dev/cellsem-agent)
+[![Release](https://img.shields.io/github/v/release/Cellular-Semantics/cellsem-agent)](https://img.shields.io/github/v/release/Cellular-Semantics/cellsem-agent)
+[![Build status](https://img.shields.io/github/actions/workflow/status/Cellular-Semantics/cellsem-agent/main.yml?branch=main)](https://github.com/Cellular-Semantics/cellsem-agent/actions/workflows/main.yml?query=branch%3Amain)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/Cellular-Semantics/cellsem-agent)](https://img.shields.io/github/commit-activity/m/Cellular-Semantics/cellsem-agent)
+[![License](https://img.shields.io/github/license/Cellular-Semantics/cellsem-agent)](https://img.shields.io/github/license/Cellular-Semantics/cellsem-agent)
 
 ### Prerequisites
 
@@ -16,7 +16,7 @@ Ensure you have the following installed:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/hkir-dev/cellsem-agent.git
+   git clone https://github.com/Cellular-Semantics/cellsem-agent.git
    cd cellsem-agent
    ```
 2. **Install dependencies:**

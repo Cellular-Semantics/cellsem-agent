@@ -7,11 +7,11 @@ from pydantic_ai.models.openai import OpenAIModel
 from pydantic_ai.providers.openai import OpenAIProvider
 from aurelian import __version__
 
-from .foo import foo
-
 __all__ = [
     "main",
 ]
+
+from cellsem_agent.file_utils import tsv_to_string
 
 logger = logging.getLogger(__name__)
 
@@ -55,19 +55,39 @@ def main(verbose: int, quiet: bool):
 
     logfire.configure()
 
+@main.command()
+@ui_option
+@click.option("--tsv", type=click.Path(exists=True, dir_okay=False), help="Path to a TSV file to include.")
+@click.argument("query", nargs=-1, required=False)
+def annotate(ui, query, tsv=None, **kwargs):
+    print(f"Running Annotator Agent with query: {query} and UI: {ui}")
+    query_str = " ".join(query)
+    extra_data = ""
+    if tsv:
+        extra_data += tsv_to_string(tsv)
+    if extra_data:
+        query_str += "\n\n" + extra_data
+    run_agent("annotator", "cellsem_agent.agents.annotator", query=query, ui=ui, **kwargs)
 
 @main.command()
-@click.argument("bar")
-def start(bar):
-    """Run the foo function with the given BAR argument."""
-    result = foo(bar)
-    click.echo(result)
+@ui_option
+@click.option("--tsv", type=click.Path(exists=True, dir_okay=False), help="Path to a TSV file to include.")
+@click.argument("query", nargs=-1, required=False)
+def cell(ui, query, tsv=None, **kwargs):
+    print(f"Running Cell Agent with query: {query} and UI: {ui}")
+    query_str = " ".join(query)
+    extra_data = ""
+    if tsv:
+        extra_data += tsv_to_string(tsv)
+    if extra_data:
+        query_str += "\n\n" + extra_data
+    run_agent("cell", "cellsem_agent.agents.cell", query=(query_str,), ui=ui, **kwargs)
 
 
 @main.command()
 @ui_option
 @click.argument("query", nargs=-1, required=False)
-def paperqa(ui, query, **kwargs):
+def paperqaa(ui, query, **kwargs):
     """Start the PaperQA Agent for scientific literature search and analysis.
 
     The PaperQA Agent helps search, organize, and analyze scientific papers. It can
@@ -76,9 +96,9 @@ def paperqa(ui, query, **kwargs):
 
     Run with a query for direct mode or with --ui for interactive chat mode.
 
-    Use `aurelian paperqa` subcommands for paper management:
-      - `aurelian paperqa index` to index papers for searching
-      - `aurelian paperqa list` to list papers in your collection
+    Use `aurelian paperqa_agent` subcommands for paper management:
+      - `aurelian paperqa_agent index` to index papers for searching
+      - `aurelian paperqa_agent list` to list papers in your collection
     """
     print(f"Running PaperQA with query: {query} and UI: {ui}")
     run_agent("paperqa", "aurelian.agents.paperqa", query=query, ui=ui, **kwargs)
@@ -178,7 +198,6 @@ def run_agent(
         # print the messages
         import json
         all_messages = json.loads(mjb)
-        import yaml
         # print(yaml.dump(all_messages, indent=2))
     else:
         print(f"Running {agent_name} in UI mode, agent options: {agent_options}")

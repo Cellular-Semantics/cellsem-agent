@@ -3,8 +3,8 @@ name = "cellsem_agent"
 version = "0.0.1"
 description = "This is a template repository for Python projects that use Poetry for their dependency management."
 authors = ["CellularSemantics <fpgmaas@gmail.com>"]
-repository = "https://github.com/hkir-dev/cellsem-agent"
-documentation = "https://hkir-dev.github.io/cellsem-agent/"
+repository = "https://github.com/Cellular-Semantics/cellsem-agent"
+documentation = "https://Cellular-Semantics.github.io/cellsem-agent/"
 readme = "README.md"
 packages = [
   {include = "cellsem_agent"}
@@ -20,6 +20,8 @@ aurelian = {git = "https://github.com/monarch-initiative/aurelian.git"}
 gradio = "^5.23.3"
 pydantic-ai = ">=0.2.0"
 logfire = ">=3.5.3"
+fastobo = ">=0.12.3"
+oaklib = ">=0.6.21"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"
