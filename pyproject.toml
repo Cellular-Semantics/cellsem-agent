@@ -20,6 +20,8 @@ aurelian = {git = "https://github.com/monarch-initiative/aurelian.git"}
 gradio = "^5.23.3"
 pydantic-ai = ">=0.2.0"
 logfire = ">=3.5.3"
+fastobo = ">=0.12.3"
+oaklib = ">=0.6.21"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"

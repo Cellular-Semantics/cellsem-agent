@@ -11,6 +11,8 @@ __all__ = [
     "main",
 ]
 
+from cellsem_agent.file_utils import tsv_to_string
+
 logger = logging.getLogger(__name__)
 
 
@@ -55,10 +57,32 @@ def main(verbose: int, quiet: bool):
 
 @main.command()
 @ui_option
+@click.option("--tsv", type=click.Path(exists=True, dir_okay=False), help="Path to a TSV file to include.")
 @click.argument("query", nargs=-1, required=False)
-def cell(ui, query, **kwargs):
-    print(f"Running PaperQA with query: {query} and UI: {ui}")
-    run_agent("cell", "cellsem_agent.agents.cell", query=query, ui=ui, **kwargs)
+def annotate(ui, query, tsv=None, **kwargs):
+    print(f"Running Annotator Agent with query: {query} and UI: {ui}")
+    query_str = " ".join(query)
+    extra_data = ""
+    if tsv:
+        extra_data += tsv_to_string(tsv)
+    if extra_data:
+        query_str += "\n\n" + extra_data
+    run_agent("annotator", "cellsem_agent.agents.annotator", query=query, ui=ui, **kwargs)
+
+@main.command()
+@ui_option
+@click.option("--tsv", type=click.Path(exists=True, dir_okay=False), help="Path to a TSV file to include.")
+@click.argument("query", nargs=-1, required=False)
+def cell(ui, query, tsv=None, **kwargs):
+    print(f"Running Cell Agent with query: {query} and UI: {ui}")
+    query_str = " ".join(query)
+    extra_data = ""
+    if tsv:
+        extra_data += tsv_to_string(tsv)
+    if extra_data:
+        query_str += "\n\n" + extra_data
+    run_agent("cell", "cellsem_agent.agents.cell", query=(query_str,), ui=ui, **kwargs)
+
 
 @main.command()
 @ui_option
@@ -174,7 +198,6 @@ def run_agent(
         # print the messages
         import json
         all_messages = json.loads(mjb)
-        import yaml
         # print(yaml.dump(all_messages, indent=2))
     else:
         print(f"Running {agent_name} in UI mode, agent options: {agent_options}")

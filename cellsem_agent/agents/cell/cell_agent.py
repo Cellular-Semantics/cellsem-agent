@@ -15,12 +15,12 @@ cell_logger.addHandler(console)
 cell_logger.propagate = False
 
 from .cell_config import  CellDependencies
-from .cell_tools import get_cells
+from .cell_tools import search_cl
 
 CELL_SYSTEM_PROMPT = """
     You are an AI assistant that help Cell Ontology curators.
     You can use different functions to support curators in their tasks:
-    - `get_cells` Retrieve a list of cell types from the Cell Ontology.
+    - `search_cl` Search the cl ontology for a term.
 """
 
 cell_agent = Agent(
@@ -31,4 +31,4 @@ cell_agent = Agent(
     defer_model_check=True,
 )
 
-cell_agent.tool(get_cells)
+cell_agent.tool(search_cl)
