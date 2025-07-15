@@ -30,9 +30,9 @@ cl_validation_logger.propagate = False
 logfire.configure()
 
 # Literature directory
-CELL_DATA_DIR = "/Users/hk9/Downloads/data"
+CELL_DATA_DIR = "/Users/hk9/workspaces/workspace1/agentic-pipeline-testdata/data"
 # Test mode flag (only processes TEST_TERMS)
-IS_TEST_MODE = True
+IS_TEST_MODE = False
 # CL_4052003
 TEST_TERMS = ["CL_4052001", "CL_4033092", "CL_4033088", "CL_4052055", "CL_4033094", "CL_4033084"]
 REFERENCES_DATA_DIR = os.path.join(CELL_DATA_DIR, "reference")
@@ -43,7 +43,7 @@ CELLS_DATA_FILE = os.path.join(CELL_DATA_DIR, "cells_data.json")
 OUT_FOLDER = os.path.join(CELL_DATA_DIR, "output")
 os.makedirs(OUT_FOLDER, exist_ok=True)
 CL_FALSE_DEFINITIONS_FILE = os.path.join(OUT_FOLDER, "cells_false_data.json")
-FALSE_ASSERTION_PROBABILITY = 0.5  # Probability of generating a false assertion
+FALSE_ASSERTION_PROBABILITY = 0.6  # Probability of generating a false assertion
 
 @dataclass
 class CellTypeInfo:
@@ -78,6 +78,7 @@ class GenerateReport(BaseNode[State, None, str]):
         for pqa_result in ctx.state.paperqa_result:
             out_file = os.path.join(pqa_json_folder, pqa_result.cell_type.cl_id + ".json")
             if not os.path.exists(out_file):
+                cl_validation_logger.info("Generating table JSON for cell type: " + pqa_result.cell_type.cl_id)
                 prompt = ("From the following input, extract only the markdown table and convert it into a JSON array of objects. "
                           "Each object should have the keys assertion, validated (True/False), summary_text, and references. "
                           "Ignore all non-table text and output only the JSON."
@@ -273,8 +274,6 @@ def paperqa_index_folder(path):
         raise RuntimeError(f"Command failed: {result.stderr}")
     elif result.stderr:
         print("Warning: " + result.stderr)
-        raise RuntimeError(f"Command failed: {result.stderr}")
-
 
 async def main():
     state = State(list(), list(), list(), is_test_mode=IS_TEST_MODE)

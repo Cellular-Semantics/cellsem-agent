@@ -2,5 +2,7 @@
 title: validation_graph
 ---
 stateDiagram-v2
-  PaperQAAssertions --> FormatReport
-  FormatReport --> [*]
+  GetCLDefinitions --> SeedNegativeTests
+  SeedNegativeTests --> PaperQAAssertions
+  PaperQAAssertions --> GenerateReport
+  GenerateReport --> [*]
