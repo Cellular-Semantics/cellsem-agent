@@ -1,0 +1,8 @@
+---
+title: validation_graph
+---
+stateDiagram-v2
+  GetCLDefinitions --> SeedNegativeTests
+  SeedNegativeTests --> PaperQAAssertions
+  PaperQAAssertions --> GenerateReport
+  GenerateReport --> [*]
