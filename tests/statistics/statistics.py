@@ -20,7 +20,7 @@ def prepare_validation_labels(df, truth_col='Curator Validation', pred_col='Agen
 def compute_validation_stats(df, truth_col='Curator Validation', pred_col='Agent Validation'):
     mask, y_true, y_pred = prepare_validation_labels(df, truth_col, pred_col)
 
-    precision, recall, f1, mask = precision_recall_fscore_support(
+    precision, recall, f1, true_sum = precision_recall_fscore_support(
         y_true, y_pred, pos_label=1, average='binary', zero_division=0
     )
 
