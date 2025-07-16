@@ -22,6 +22,8 @@ pydantic-ai = ">=0.2.0"
 logfire = ">=3.5.3"
 fastobo = ">=0.12.3"
 oaklib = ">=0.6.21"
+scikit-learn = "^1.7.0"
+matplotlib = "^3.10.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"
