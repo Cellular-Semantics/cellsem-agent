@@ -55,7 +55,7 @@ def plot_auc(df, truth_col='Curator Validation', pred_col='Agent Validation'):
 
 if __name__ == "__main__":
     current_folder = os.path.dirname(os.path.abspath(__file__))
-    test_file = os.path.join(current_folder, '../test_data/cell_type_validation_report_test.tsv')
+    test_file = os.path.join(current_folder, '../test_data/cell_type_validation_report_aggregated.tsv')
     test_df = pd.read_csv(test_file, sep='\t', dtype=str)
     stats = compute_validation_stats(test_df)
     print(stats)

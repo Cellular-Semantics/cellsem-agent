@@ -37,7 +37,11 @@ def is_empty(val):
 
 if __name__ == "__main__":
     current_folder = os.path.dirname(os.path.abspath(__file__))
-    main_file = os.path.join(current_folder, '../test_data/cell_type_validation_report.tsv')
-    copy_file = os.path.join(current_folder, '../test_data/LLM_False_assertions.tsv')
-    target_file = os.path.join(current_folder, '../test_data/cell_type_validation_report_2.tsv')
+    # main_file = os.path.join(current_folder, '../test_data/cell_type_validation_report.tsv')
+    # copy_file = os.path.join(current_folder, '../test_data/LLM_False_assertions.tsv')
+    # target_file = os.path.join(current_folder, '../test_data/cell_type_validation_report_2.tsv')
+    # copy_missing_values(main_file, copy_file, target_file, ["Cell ID", "Assertion"], ["Curator Validation"])
+    main_file = os.path.join(current_folder, '../test_data/cell_type_validation_report_2.tsv')
+    copy_file = os.path.join(current_folder, '../test_data/False_assertions_curators_error.tsv')
+    target_file = os.path.join(current_folder, '../test_data/cell_type_validation_report_aggregated.tsv')
     copy_missing_values(main_file, copy_file, target_file, ["Cell ID", "Assertion"], ["Curator Validation"])

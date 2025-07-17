@@ -1,0 +1,1 @@
+Manual curator annotations are located at: https://docs.google.com/spreadsheets/d/151Se8JuCEk1XcFDQGJkaQ64J0wQR7ZrDFWGHbcC2jko/edit?gid=1572153803#gid=1572153803
