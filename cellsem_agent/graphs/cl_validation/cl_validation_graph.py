@@ -146,6 +146,7 @@ class PaperQAAssertions(BaseNode[State, None, str]):
             ctx.state.paperqa_result.append(PaperQAResult(cell_type=cell_type, result=result))
         return GenerateReport()
 
+@dataclass
 class SeedNegativeTests(BaseNode[State, None, str]):
 
     async def run(self, ctx: GraphRunContext[State]) -> PaperQAAssertions:
@@ -195,7 +196,7 @@ class SeedNegativeTests(BaseNode[State, None, str]):
                 f"Failed to parse JSON string: {result.output}\nException: {e}")
             raise ValueError("Failed to parse JSON output from cell agent. ")
 
-
+@dataclass
 class GetCLDefinitions(BaseNode[State, None, str]):
 
     async def run(self, ctx: GraphRunContext[State]) -> SeedNegativeTests:
