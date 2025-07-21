@@ -284,6 +284,6 @@ async def main():
     # print(validation_graph.mermaid_code())
 
 if __name__ == "__main__":
-    load_dotenv(dotenv_path=os.path.join(CURRENT_DIR, "../../", ".env"))
+    load_dotenv(dotenv_path=os.path.join(CURRENT_DIR, "../../../", ".env"))
     print(os.environ.get("OPENAI_API_KEY"))
     asyncio.run(main())

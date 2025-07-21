@@ -1,0 +1,302 @@
+﻿[
+  {
+    "cc.label": "DB4",
+    "disssections": [
+      {
+        "label": "peripheral region of retina",
+        "id": "UBERON:0013682",
+        "percent_cells": [
+          "17.57"
+        ]
+      },
+      {
+        "label": "fovea centralis",
+        "id": "UBERON:0001786",
+        "percent_cells": [
+          "82.43"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "ON-bipolar cell"
+    ],
+    "ancestor_cell_sets": [
+      "ON-bipolar cell"
+    ]
+  },
+  {
+    "cc.label": "FMB",
+    "disssections": [
+      {
+        "label": "peripheral region of retina",
+        "id": "UBERON:0013682",
+        "percent_cells": [
+          "17.15"
+        ]
+      },
+      {
+        "label": "fovea centralis",
+        "id": "UBERON:0001786",
+        "percent_cells": [
+          "82.85"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "OFF-bipolar cell"
+    ],
+    "ancestor_cell_sets": [
+      "OFF-bipolar cell"
+    ]
+  },
+  {
+    "cc.label": "IMB",
+    "disssections": [
+      {
+        "label": "peripheral region of retina",
+        "id": "UBERON:0013682",
+        "percent_cells": [
+          "10.74"
+        ]
+      },
+      {
+        "label": "fovea centralis",
+        "id": "UBERON:0001786",
+        "percent_cells": [
+          "89.26"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "ON-bipolar cell"
+    ],
+    "ancestor_cell_sets": [
+      "ON-bipolar cell"
+    ]
+  },
+  {
+    "cc.label": "DB1",
+    "disssections": [
+      {
+        "label": "peripheral region of retina",
+        "id": "UBERON:0013682",
+        "percent_cells": [
+          "29.86"
+        ]
+      },
+      {
+        "label": "fovea centralis",
+        "id": "UBERON:0001786",
+        "percent_cells": [
+          "70.14"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "OFF-bipolar cell"
+    ],
+    "ancestor_cell_sets": [
+      "OFF-bipolar cell"
+    ]
+  },
+  {
+    "cc.label": "DB3b",
+    "disssections": [
+      {
+        "label": "fovea centralis",
+        "id": "UBERON:0001786",
+        "percent_cells": [
+          "86.79"
+        ]
+      },
+      {
+        "label": "peripheral region of retina",
+        "id": "UBERON:0013682",
+        "percent_cells": [
+          "13.21"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "OFF-bipolar cell"
+    ],
+    "ancestor_cell_sets": [
+      "OFF-bipolar cell"
+    ]
+  },
+  {
+    "cc.label": "DB3a",
+    "disssections": [
+      {
+        "label": "fovea centralis",
+        "id": "UBERON:0001786",
+        "percent_cells": [
+          "45.84"
+        ]
+      },
+      {
+        "label": "peripheral region of retina",
+        "id": "UBERON:0013682",
+        "percent_cells": [
+          "54.16"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "OFF-bipolar cell"
+    ],
+    "ancestor_cell_sets": [
+      "OFF-bipolar cell"
+    ]
+  },
+  {
+    "cc.label": "DB6",
+    "disssections": [
+      {
+        "label": "fovea centralis",
+        "id": "UBERON:0001786",
+        "percent_cells": [
+          "63.50"
+        ]
+      },
+      {
+        "label": "peripheral region of retina",
+        "id": "UBERON:0013682",
+        "percent_cells": [
+          "36.50"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "ON-bipolar cell"
+    ],
+    "ancestor_cell_sets": [
+      "ON-bipolar cell"
+    ]
+  },
+  {
+    "cc.label": "OFFx",
+    "disssections": [
+      {
+        "label": "fovea centralis",
+        "id": "UBERON:0001786",
+        "percent_cells": [
+          "28.50"
+        ]
+      },
+      {
+        "label": "peripheral region of retina",
+        "id": "UBERON:0013682",
+        "percent_cells": [
+          "71.50"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "OFF-bipolar cell"
+    ],
+    "ancestor_cell_sets": [
+      "OFF-bipolar cell"
+    ]
+  },
+  {
+    "cc.label": "BB+GB*",
+    "disssections": [
+      {
+        "label": "fovea centralis",
+        "id": "UBERON:0001786",
+        "percent_cells": [
+          "70.30"
+        ]
+      },
+      {
+        "label": "peripheral region of retina",
+        "id": "UBERON:0013682",
+        "percent_cells": [
+          "29.70"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "ON-bipolar cell"
+    ],
+    "ancestor_cell_sets": [
+      "ON-bipolar cell"
+    ]
+  },
+  {
+    "cc.label": "DB5*",
+    "disssections": [
+      {
+        "label": "fovea centralis",
+        "id": "UBERON:0001786",
+        "percent_cells": [
+          "80.03"
+        ]
+      },
+      {
+        "label": "peripheral region of retina",
+        "id": "UBERON:0013682",
+        "percent_cells": [
+          "19.97"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "ON-bipolar cell"
+    ],
+    "ancestor_cell_sets": [
+      "ON-bipolar cell"
+    ]
+  },
+  {
+    "cc.label": "RB1",
+    "disssections": [
+      {
+        "label": "fovea centralis",
+        "id": "UBERON:0001786",
+        "percent_cells": [
+          "16.90"
+        ]
+      },
+      {
+        "label": "peripheral region of retina",
+        "id": "UBERON:0013682",
+        "percent_cells": [
+          "83.10"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "ON-bipolar cell"
+    ],
+    "ancestor_cell_sets": [
+      "ON-bipolar cell"
+    ]
+  },
+  {
+    "cc.label": "DB2",
+    "disssections": [
+      {
+        "label": "peripheral region of retina",
+        "id": "UBERON:0013682",
+        "percent_cells": [
+          "27.64"
+        ]
+      },
+      {
+        "label": "fovea centralis",
+        "id": "UBERON:0001786",
+        "percent_cells": [
+          "72.36"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "OFF-bipolar cell"
+    ],
+    "ancestor_cell_sets": [
+      "OFF-bipolar cell"
+    ]
+  }
+]

@@ -1,0 +1,599 @@
+﻿[
+  {
+    "cc.label": "Conj_Epi-Basal",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "99.90"
+        ]
+      },
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "0.10"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "conjunctival epithelial cell"
+    ],
+    "ancestor_cell_sets": [
+      "conjunctival epithelial cell"
+    ]
+  },
+  {
+    "cc.label": "K_Fibro",
+    "disssections": [
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "1.01"
+        ]
+      },
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "98.99"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "fibroblast"
+    ],
+    "ancestor_cell_sets": [
+      "fibroblast"
+    ]
+  },
+  {
+    "cc.label": "Conj_Epi-Superficial",
+    "disssections": [
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "0.07"
+        ]
+      },
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "99.93"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "conjunctival epithelial cell"
+    ],
+    "ancestor_cell_sets": [
+      "conjunctival epithelial cell"
+    ]
+  },
+  {
+    "cc.label": "FibroX",
+    "disssections": [
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "40.87"
+        ]
+      },
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "59.13"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "fibroblast"
+    ],
+    "ancestor_cell_sets": [
+      "fibroblast"
+    ]
+  },
+  {
+    "cc.label": "Mast",
+    "disssections": [
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "K_Epi-Wing",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "corneal epithelial cell"
+    ],
+    "ancestor_cell_sets": [
+      "corneal epithelial cell"
+    ]
+  },
+  {
+    "cc.label": "Pericyte",
+    "disssections": [
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "43.50"
+        ]
+      },
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "56.50"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "K_Epi-Basal",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "basal cell"
+    ],
+    "ancestor_cell_sets": [
+      "basal cell"
+    ]
+  },
+  {
+    "cc.label": "Sclera_Fibro",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "99.40"
+        ]
+      },
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "0.60"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "fibroblast"
+    ],
+    "ancestor_cell_sets": [
+      "fibroblast"
+    ]
+  },
+  {
+    "cc.label": "CC_VenEndo",
+    "disssections": [
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "0.11"
+        ]
+      },
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "99.89"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "endothelial cell"
+    ],
+    "ancestor_cell_sets": [
+      "endothelial cell"
+    ]
+  },
+  {
+    "cc.label": "K_Epi-Superficial",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "corneal epithelial cell"
+    ],
+    "ancestor_cell_sets": [
+      "corneal epithelial cell"
+    ]
+  },
+  {
+    "cc.label": "Lymphatic_Endo",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "K_Endo",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "90.54"
+        ]
+      },
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "9.46"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "Limbal_Epi-Basal",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "basal cell"
+    ],
+    "ancestor_cell_sets": [
+      "basal cell"
+    ]
+  },
+  {
+    "cc.label": "Conj_Epi-Wing",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "conjunctival epithelial cell"
+    ],
+    "ancestor_cell_sets": [
+      "conjunctival epithelial cell"
+    ]
+  },
+  {
+    "cc.label": "Macrophage",
+    "disssections": [
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "75.83"
+        ]
+      },
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "24.17"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "Uveal_Melanocyte",
+    "disssections": [
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "81.67"
+        ]
+      },
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "18.33"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "melanocyte"
+    ],
+    "ancestor_cell_sets": [
+      "melanocyte"
+    ]
+  },
+  {
+    "cc.label": "Limbal_Epi-Wing",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "basal cell"
+    ],
+    "ancestor_cell_sets": [
+      "basal cell"
+    ]
+  },
+  {
+    "cc.label": "Goblet",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "99.66"
+        ]
+      },
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "0.34"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "Ciliary_Muscle",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "12.61"
+        ]
+      },
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "87.39"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "Lymphocyte",
+    "disssections": [
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "52.46"
+        ]
+      },
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "47.54"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "TM_Fibro",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "22.71"
+        ]
+      },
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "77.29"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "fibroblast"
+    ],
+    "ancestor_cell_sets": [
+      "fibroblast"
+    ]
+  },
+  {
+    "cc.label": "Uveal_Fibro",
+    "disssections": [
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "87.52"
+        ]
+      },
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "12.48"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "fibroblast"
+    ],
+    "ancestor_cell_sets": [
+      "fibroblast"
+    ]
+  },
+  {
+    "cc.label": "VascEndo",
+    "disssections": [
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "15.05"
+        ]
+      },
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "84.95"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "Limbal_Epi-Superficial",
+    "disssections": [
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "0.13"
+        ]
+      },
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "99.87"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "basal cell"
+    ],
+    "ancestor_cell_sets": [
+      "basal cell"
+    ]
+  },
+  {
+    "cc.label": "Conj_Melanocyte",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "melanocyte"
+    ],
+    "ancestor_cell_sets": [
+      "melanocyte"
+    ]
+  },
+  {
+    "cc.label": "Schwann",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "13.40"
+        ]
+      },
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "86.60"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "Schlemm_Endo",
+    "disssections": [
+      {
+        "label": "corneo-scleral junction",
+        "id": "UBERON:0006761",
+        "percent_cells": [
+          "29.02"
+        ]
+      },
+      {
+        "label": "eye trabecular meshwork",
+        "id": "UBERON:0005969",
+        "percent_cells": [
+          "70.98"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "endothelial cell"
+    ],
+    "ancestor_cell_sets": [
+      "endothelial cell"
+    ]
+  }
+]

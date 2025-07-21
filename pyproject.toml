@@ -24,6 +24,9 @@ fastobo = ">=0.12.3"
 oaklib = ">=0.6.21"
 scikit-learn = "^1.7.0"
 matplotlib = "^3.10.3"
+pymupdf = "^1.26.3"
+pdfminer-six = {optional=true, version="*"}
+PyPDF2 = {optional=true, version="*"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"
