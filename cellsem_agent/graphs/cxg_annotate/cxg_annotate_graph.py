@@ -51,13 +51,43 @@ class GetGroundings(BaseNode[State, None, str]):
         for dataset_name in ctx.state.paper_expansion:
             cxg_annotate_logger.info(f"Dataset: {dataset_name}")
             expansions = ctx.state.paper_expansion[dataset_name]
-            expansions_json = json.dumps([entry.model_dump() for entry in expansions], indent=2)
+            # expansions_json = json.dumps([entry.model_dump() for entry in expansions], indent=2)
+            batch_size = 4
+            all_annotations = []
+            for i in range(0, len(expansions), batch_size):
+                batch = expansions[i:i + batch_size]
+                expansions_json = json.dumps([entry.model_dump() for entry in batch], indent=2)
+                agent_response = await annotator_agent.run(expansions_json)
+                all_annotations.extend(agent_response.output.annotations)
 
-            agent_response = await annotator_agent.run(expansions_json)
-            data = [entry.model_dump() for entry in agent_response.output.annotations]
+            data = [entry.model_dump() for entry in all_annotations]
             df = pd.DataFrame(data)
-            df.to_csv(os.path.join(DATASETS_DIR, dataset_name + "/cell_type_annotations.tsv"), sep='\t', index=False)
+            filtered_df = self.filter_annotations(df)
+            filtered_df.to_csv(os.path.join(DATASETS_DIR, dataset_name + "/cell_type_annotations.tsv"), sep='\t', index=False)
         return End("Report generated and saved to individual dataset folders.")
+
+    def filter_annotations(self, df):
+        df['orig_idx'] = df.index
+
+        df = df[df['cl_id'].str.startswith('CL:')]
+
+        def filter_no_match(group):
+            if (group['cl_id'] != 'NO MATCH found').any():
+                return group[group['cl_id'] != 'NO MATCH found']
+            return group
+
+        # For each input_name, remove "NO MATCH found" if any valid cl_id exists
+        df = df.groupby('input_name', group_keys=False).apply(filter_no_match).reset_index(
+            drop=True)
+
+        # For each input_name, keep only the first row for each unique cl_id
+        df = df.drop_duplicates(subset=['input_name', 'cl_id'],
+                                                                     keep='first')
+
+        # Restore original order
+        df = df.sort_values('orig_idx').drop(columns='orig_idx').reset_index(drop=True)
+        return df
+
 
 @dataclass
 class GetFullNames(BaseNode[State, None, str]):
