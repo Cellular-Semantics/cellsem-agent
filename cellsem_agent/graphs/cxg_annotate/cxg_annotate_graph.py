@@ -24,10 +24,10 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 console.setFormatter(formatter)
 cxg_annotate_logger.addHandler(console)
 
-cxg_annotate_logger.propagate = False
+cxg_annotate_logger.propagate = True
 logfire.configure()
 
-IS_TEST_MODE = True
+IS_TEST_MODE = False
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATASETS_DIR = os.path.join(CURRENT_DIR, "../../../", "tests/test_data/cell_mappings_input")
@@ -63,6 +63,9 @@ class GetGroundings(BaseNode[State, None, str]):
             data = [entry.model_dump() for entry in all_annotations]
             df = pd.DataFrame(data)
             filtered_df = self.filter_annotations(df)
+            df.to_csv(
+                os.path.join(DATASETS_DIR, dataset_name + "/cell_type_annotations_un_filtered.tsv"), sep='\t',
+                index=False)
             filtered_df.to_csv(os.path.join(DATASETS_DIR, dataset_name + "/cell_type_annotations.tsv"), sep='\t', index=False)
         return End("Report generated and saved to individual dataset folders.")
 

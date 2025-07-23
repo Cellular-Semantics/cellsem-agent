@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Conj_Epi-Basal",
+    "full_name": "conjunctival epithelial cell basal layer",
+    "paper_synonyms": null,
+    "tissue_context": "corneo-scleral junction; eye trabecular meshwork"
+  },
+  {
+    "name": "K_Fibro",
+    "full_name": "keratocyte fibroblast",
+    "paper_synonyms": "corneal fibroblasts",
+    "tissue_context": "corneo-scleral junction; eye trabecular meshwork"
+  },
+  {
+    "name": "Conj_Epi-Superficial",
+    "full_name": "conjunctival epithelial cell superficial layer",
+    "paper_synonyms": null,
+    "tissue_context": "eye trabecular meshwork; corneo-scleral junction"
+  },
+  {
+    "name": "FibroX",
+    "full_name": "scleral fibroblast subtype FibroX",
+    "paper_synonyms": "FibroX",
+    "tissue_context": "eye trabecular meshwork; corneo-scleral junction"
+  },
+  {
+    "name": "Mast",
+    "full_name": "mast cell",
+    "paper_synonyms": "mast cells",
+    "tissue_context": "eye trabecular meshwork"
+  },
+  {
+    "name": "K_Epi-Wing",
+    "full_name": "corneal epithelial cell wing layer",
+    "paper_synonyms": "wing cells",
+    "tissue_context": "corneo-scleral junction"
+  },
+  {
+    "name": "Pericyte",
+    "full_name": "pericyte",
+    "paper_synonyms": "pericytes",
+    "tissue_context": "eye trabecular meshwork; corneo-scleral junction"
+  },
+  {
+    "name": "K_Epi-Basal",
+    "full_name": "corneal epithelial cell basal layer",
+    "paper_synonyms": "basal cells",
+    "tissue_context": "corneo-scleral junction"
+  },
+  {
+    "name": "Sclera_Fibro",
+    "full_name": "scleral fibroblast",
+    "paper_synonyms": "scleral fibroblasts",
+    "tissue_context": "corneo-scleral junction; eye trabecular meshwork"
+  },
+  {
+    "name": "CC_VenEndo",
+    "full_name": "collector channel venous endothelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "eye trabecular meshwork; corneo-scleral junction"
+  },
+  {
+    "name": "K_Epi-Superficial",
+    "full_name": "corneal epithelial cell superficial layer",
+    "paper_synonyms": "superficial cells",
+    "tissue_context": "corneo-scleral junction"
+  },
+  {
+    "name": "Lymphatic_Endo",
+    "full_name": "lymphatic endothelial cell",
+    "paper_synonyms": "lymphatic endothelium",
+    "tissue_context": "corneo-scleral junction"
+  },
+  {
+    "name": "K_Endo",
+    "full_name": "corneal endothelial cell",
+    "paper_synonyms": "corneal endothelium",
+    "tissue_context": "corneo-scleral junction; eye trabecular meshwork"
+  },
+  {
+    "name": "Limbal_Epi-Basal",
+    "full_name": "limbal epithelial cell basal layer",
+    "paper_synonyms": "limbal basal cells",
+    "tissue_context": "corneo-scleral junction"
+  },
+  {
+    "name": "Conj_Epi-Wing",
+    "full_name": "conjunctival epithelial cell wing layer",
+    "paper_synonyms": "conjunctival wing cells",
+    "tissue_context": "corneo-scleral junction"
+  },
+  {
+    "name": "Macrophage",
+    "full_name": "macrophage",
+    "paper_synonyms": "corneal dendritic cells; macrophages",
+    "tissue_context": "eye trabecular meshwork; corneo-scleral junction"
+  },
+  {
+    "name": "Uveal_Melanocyte",
+    "full_name": "uveal melanocyte",
+    "paper_synonyms": null,
+    "tissue_context": "eye trabecular meshwork; corneo-scleral junction"
+  },
+  {
+    "name": "Limbal_Epi-Wing",
+    "full_name": "limbal epithelial cell wing layer",
+    "paper_synonyms": "limbal wing cells",
+    "tissue_context": "corneo-scleral junction"
+  },
+  {
+    "name": "Goblet",
+    "full_name": "goblet cell",
+    "paper_synonyms": null,
+    "tissue_context": "corneo-scleral junction; eye trabecular meshwork"
+  },
+  {
+    "name": "Ciliary_Muscle",
+    "full_name": "ciliary muscle cell",
+    "paper_synonyms": "ciliary muscle",
+    "tissue_context": "corneo-scleral junction; eye trabecular meshwork"
+  },
+  {
+    "name": "Lymphocyte",
+    "full_name": "lymphocyte",
+    "paper_synonyms": "lymphocytes",
+    "tissue_context": "eye trabecular meshwork; corneo-scleral junction"
+  },
+  {
+    "name": "TM_Fibro",
+    "full_name": "trabecular meshwork fibroblast",
+    "paper_synonyms": "trabecular meshwork fibroblasts",
+    "tissue_context": "corneo-scleral junction; eye trabecular meshwork"
+  },
+  {
+    "name": "Uveal_Fibro",
+    "full_name": "uveal fibroblast",
+    "paper_synonyms": "uveal fibroblasts",
+    "tissue_context": "eye trabecular meshwork; corneo-scleral junction"
+  },
+  {
+    "name": "VascEndo",
+    "full_name": "vascular endothelial cell",
+    "paper_synonyms": "vascular endothelium",
+    "tissue_context": "eye trabecular meshwork; corneo-scleral junction"
+  },
+  {
+    "name": "Limbal_Epi-Superficial",
+    "full_name": "limbal epithelial cell superficial layer",
+    "paper_synonyms": "limbal superficial cells",
+    "tissue_context": "eye trabecular meshwork; corneo-scleral junction"
+  },
+  {
+    "name": "Conj_Melanocyte",
+    "full_name": "conjunctival melanocyte",
+    "paper_synonyms": null,
+    "tissue_context": "corneo-scleral junction"
+  },
+  {
+    "name": "Schwann",
+    "full_name": "Schwann cell",
+    "paper_synonyms": "Schwann cells",
+    "tissue_context": "corneo-scleral junction; eye trabecular meshwork"
+  },
+  {
+    "name": "Schlemm_Endo",
+    "full_name": "Schlemm canal endothelial cell",
+    "paper_synonyms": "Schlemm canal endothelium",
+    "tissue_context": "corneo-scleral junction; eye trabecular meshwork"
+  }
+]

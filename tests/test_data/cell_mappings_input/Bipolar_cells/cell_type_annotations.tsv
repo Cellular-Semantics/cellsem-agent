@@ -1,0 +1,20 @@
+input_name	text	cl_id	cl_label
+DB4	DB4	CL:4033031	diffuse bipolar 4 cell
+DB4	OFF-bipolar cell type DB4	CL:0000750	OFF-bipolar cell
+FMB	FMB	CL:4033033	flat midget bipolar cell
+FMB	OFF-bipolar cell type FMB	CL:0000750	OFF-bipolar cell
+IMB	IMB	CL:4033034	invaginating midget bipolar cell
+IMB	ON-bipolar cell type IMB	CL:0000749	ON-bipolar cell
+DB1	DB1	CL:4033027	diffuse bipolar 1 cell
+DB1	OFF-bipolar cell type DB1	CL:0000750	OFF-bipolar cell
+DB3b	DB3b	CL:4033030	diffuse bipolar 3b cell
+DB3b	OFF-bipolar cell type DB3b	CL:0000750	OFF-bipolar cell
+DB3a	DB3a	CL:4033029	diffuse bipolar 3a cell
+DB3a	OFF-bipolar cell type DB3a	CL:0000750	OFF-bipolar cell
+DB6	DB6	CL:4033032	diffuse bipolar 6 cell
+DB6	ON-bipolar cell type DB6	CL:0000749	ON-bipolar cell
+OFFx	OFFx	CL:4033036	OFFx cell
+OFFx	OFF-bipolar cell type OFFx	CL:0000750	OFF-bipolar cell
+DB5*	DB5*	CL:4033085	diffuse bipolar 5 cell
+RB1	ON-bipolar cell type RB1	CL:0000749	ON-bipolar cell
+DB2	OFF-bipolar cell type DB2	CL:4033028	diffuse bipolar 2 cell

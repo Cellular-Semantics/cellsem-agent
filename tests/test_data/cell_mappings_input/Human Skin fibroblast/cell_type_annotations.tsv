@@ -1,0 +1,16 @@
+input_name	text	cl_id	cl_label
+Erythrocytes	erythrocytes	CL:0000232	erythrocyte
+Pro-inflammatory fibroblasts	pro-inflammatory fibroblasts	CL:0000057	fibroblast
+Secretory-papillary fibroblasts	secretory-papillary fibroblasts	CL:1000302	fibroblast of papillary layer of dermis
+Melanocytes	melanocytes	CL:0000148	melanocyte
+Mesenchymal fibroblasts	mesenchymal fibroblasts	CL:0002551	fibroblast of dermis
+EpSC and undiff. progenitors	epidermal stem cells	CL:1000428	stem cell of epidermis
+EpSC and undiff. progenitors	undifferentiated progenitors	CL:0011026	progenitor cell
+Lymphatic EC	lymphatic endothelial cells	CL:0002138	endothelial cell of lymphatic vessel
+Macrophages+DC	macrophages	CL:0000235	macrophage
+Macrophages+DC	dendritic cells	CL:0000451	dendritic cell
+Pericytes	Pericytes	CL:0000669	pericyte
+Secretory-reticular fibroblasts	Secretory-reticular fibroblasts	CL:2000096	fibroblast of the reticular layer of dermis
+Diff. Keratinocytes	Diff. Keratinocytes	CL:0000312	keratinocyte
+Vascular EC	Vascular EC	CL:0002139	endothelial cell of vascular tree
+T cells	T cells	CL:0000084	T cell
