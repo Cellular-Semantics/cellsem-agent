@@ -1,0 +1,13 @@
+﻿cc.label,disssections,parent_cell_sets,ancestor_cell_sets
+MG_OFF,"[{""label"":fovea centralis,""id"":UBERON:0001786,""percent_cells"":[89.05]},{""label"":peripheral region of retina,""id"":UBERON:0013682,""percent_cells"":[10.95]}]",[retinal ganglion cell],[retinal ganglion cell]
+MG_ON,"[{""label"":peripheral region of retina,""id"":UBERON:0013682,""percent_cells"":[10.02]},{""label"":fovea centralis,""id"":UBERON:0001786,""percent_cells"":[89.98]}]",[retinal ganglion cell],[retinal ganglion cell]
+RGC10,"[{""label"":peripheral region of retina,""id"":UBERON:0013682,""percent_cells"":[38.46]},{""label"":fovea centralis,""id"":UBERON:0001786,""percent_cells"":[61.54]}]",[retinal ganglion cell],[retinal ganglion cell]
+RGC9,"[{""label"":fovea centralis,""id"":UBERON:0001786,""percent_cells"":[43.75]},{""label"":peripheral region of retina,""id"":UBERON:0013682,""percent_cells"":[56.25]}]",[retinal ganglion cell],[retinal ganglion cell]
+RGC7,"[{""label"":peripheral region of retina,""id"":UBERON:0013682,""percent_cells"":[47.37]},{""label"":fovea centralis,""id"":UBERON:0001786,""percent_cells"":[52.63]}]",[retinal ganglion cell],[retinal ganglion cell]
+RGC12,"[{""label"":fovea centralis,""id"":UBERON:0001786,""percent_cells"":[37.50]},{""label"":peripheral region of retina,""id"":UBERON:0013682,""percent_cells"":[62.50]}]",[retinal ganglion cell],[retinal ganglion cell]
+PG_ON,"[{""label"":peripheral region of retina,""id"":UBERON:0013682,""percent_cells"":[17.52]},{""label"":fovea centralis,""id"":UBERON:0001786,""percent_cells"":[82.48]}]",[retinal ganglion cell],[retinal ganglion cell]
+RGC5,"[{""label"":fovea centralis,""id"":UBERON:0001786,""percent_cells"":[84.57]},{""label"":peripheral region of retina,""id"":UBERON:0013682,""percent_cells"":[15.43]}]",[retinal ganglion cell],[retinal ganglion cell]
+RGC11,"[{""label"":peripheral region of retina,""id"":UBERON:0013682,""percent_cells"":[15.79]},{""label"":fovea centralis,""id"":UBERON:0001786,""percent_cells"":[84.21]}]",[retinal ganglion cell],[retinal ganglion cell]
+RGC8,"[{""label"":peripheral region of retina,""id"":UBERON:0013682,""percent_cells"":[25.00]},{""label"":fovea centralis,""id"":UBERON:0001786,""percent_cells"":[75.00]}]",[retinal ganglion cell],[retinal ganglion cell]
+PG_OFF,"[{""label"":peripheral region of retina,""id"":UBERON:0013682,""percent_cells"":[3.90]},{""label"":fovea centralis,""id"":UBERON:0001786,""percent_cells"":[96.10]}]",[retinal ganglion cell],[retinal ganglion cell]
+RGC6,"[{""label"":peripheral region of retina,""id"":UBERON:0013682,""percent_cells"":[5.13]},{""label"":fovea centralis,""id"":UBERON:0001786,""percent_cells"":[94.87]}]",[retinal ganglion cell],[retinal ganglion cell]

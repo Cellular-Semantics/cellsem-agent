@@ -1,0 +1,74 @@
+[
+  {
+    "name": "DB4",
+    "full_name": "OFF-bipolar cell type DB4",
+    "paper_synonyms": null,
+    "tissue_context": "fovea; peripheral region of retina"
+  },
+  {
+    "name": "FMB",
+    "full_name": "OFF-bipolar cell type FMB",
+    "paper_synonyms": null,
+    "tissue_context": "fovea; peripheral region of retina"
+  },
+  {
+    "name": "IMB",
+    "full_name": "ON-bipolar cell type IMB",
+    "paper_synonyms": null,
+    "tissue_context": "fovea; peripheral region of retina"
+  },
+  {
+    "name": "DB1",
+    "full_name": "OFF-bipolar cell type DB1",
+    "paper_synonyms": null,
+    "tissue_context": "fovea; peripheral region of retina"
+  },
+  {
+    "name": "DB3b",
+    "full_name": "OFF-bipolar cell type DB3b",
+    "paper_synonyms": null,
+    "tissue_context": "fovea; peripheral region of retina"
+  },
+  {
+    "name": "DB3a",
+    "full_name": "OFF-bipolar cell type DB3a",
+    "paper_synonyms": null,
+    "tissue_context": "fovea; peripheral region of retina"
+  },
+  {
+    "name": "DB6",
+    "full_name": "ON-bipolar cell type DB6",
+    "paper_synonyms": null,
+    "tissue_context": "fovea; peripheral region of retina"
+  },
+  {
+    "name": "OFFx",
+    "full_name": "OFF-bipolar cell type OFFx",
+    "paper_synonyms": "tentatively called OFFx in macaque",
+    "tissue_context": "fovea; peripheral region of retina"
+  },
+  {
+    "name": "BB+GB*",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "fovea; peripheral region of retina"
+  },
+  {
+    "name": "DB5*",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "fovea; peripheral region of retina"
+  },
+  {
+    "name": "RB1",
+    "full_name": "ON-bipolar cell type RB1",
+    "paper_synonyms": null,
+    "tissue_context": "fovea; peripheral region of retina"
+  },
+  {
+    "name": "DB2",
+    "full_name": "OFF-bipolar cell type DB2",
+    "paper_synonyms": null,
+    "tissue_context": "fovea; peripheral region of retina"
+  }
+]

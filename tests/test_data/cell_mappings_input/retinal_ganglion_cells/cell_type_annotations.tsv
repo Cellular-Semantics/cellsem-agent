@@ -1,0 +1,12 @@
+input_name	text	cl_id	cl_label
+MG_OFF	Müller glial cell OFF subtype	CL:0000636	Mueller cell
+MG_ON	Müller glial cell ON subtype	CL:0000636	Mueller cell
+RGC10	retinal ganglion cell 10	CL:0003013	G10 retinal ganglion cell
+RGC9	retinal ganglion cell 9	CL:0003012	G9 retinal ganglion cell
+RGC7	retinal ganglion cell 7	CL:0003010	G7 retinal ganglion cell
+PG_ON	parasol ganglion cell ON subtype	CL:4033052	ON parasol ganglion cell
+RGC5	retinal ganglion cell 5	CL:0003008	G5 retinal ganglion cell
+RGC11	retinal ganglion cell 11	CL:0003014	G11 retinal ganglion cell
+RGC8	retinal ganglion cell 8	CL:0003011	G8 retinal ganglion cell
+PG_OFF	parasol ganglion cell OFF subtype	CL:4033051	OFF parasol ganglion cell
+RGC6	retinal ganglion cell 6	CL:0003009	G6 retinal ganglion cell

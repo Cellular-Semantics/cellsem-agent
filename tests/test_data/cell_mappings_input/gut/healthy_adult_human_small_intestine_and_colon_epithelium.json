@@ -1,0 +1,1164 @@
+﻿[
+  {
+    "cc.label": "C_lateACC",
+    "disssections": [
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "27.36"
+        ]
+      },
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "26.09"
+        ]
+      },
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "46.56"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "enterocyte of epithelium of large intestine"
+    ],
+    "ancestor_cell_sets": [
+      "enterocyte of epithelium of large intestine",
+      "absorptive"
+    ]
+  },
+  {
+    "cc.label": "SI_ISC",
+    "disssections": [
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "12.71"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "33.45"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "53.84"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "ISC"
+    ],
+    "ancestor_cell_sets": [
+      "ISC"
+    ]
+  },
+  {
+    "cc.label": "SI_FAE",
+    "disssections": [
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "68.42"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "21.05"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "10.53"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "C_tuft",
+    "disssections": [
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "35.11"
+        ]
+      },
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "32.06"
+        ]
+      },
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "32.82"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "tuft"
+    ],
+    "ancestor_cell_sets": [
+      "tuft"
+    ]
+  },
+  {
+    "cc.label": "BEST4+",
+    "disssections": [
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "18.75"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "9.68"
+        ]
+      },
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "18.01"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "17.28"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "14.58"
+        ]
+      },
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "21.69"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "SI_paneth",
+    "disssections": [
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "18.37"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "53.06"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "28.57"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "SI_secretory"
+    ],
+    "ancestor_cell_sets": [
+      "SI_secretory"
+    ]
+  },
+  {
+    "cc.label": "SI_intermAE",
+    "disssections": [
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "23.84"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "44.70"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "31.46"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "enterocyte of epithelium of small intestine"
+    ],
+    "ancestor_cell_sets": [
+      "enterocyte of epithelium of small intestine",
+      "absorptive"
+    ]
+  },
+  {
+    "cc.label": "ISC",
+    "disssections": [
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "6.44"
+        ]
+      },
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "12.96"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "8.82"
+        ]
+      },
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "11.21"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "37.36"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "23.21"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "SI_goblet",
+    "disssections": [
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "23.45"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "55.41"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "21.13"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "goblet",
+      "SI_secretory"
+    ],
+    "ancestor_cell_sets": [
+      "goblet",
+      "SI_secretory"
+    ]
+  },
+  {
+    "cc.label": "C_goblet",
+    "disssections": [
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "22.62"
+        ]
+      },
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "38.86"
+        ]
+      },
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "38.52"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "goblet"
+    ],
+    "ancestor_cell_sets": [
+      "goblet"
+    ]
+  },
+  {
+    "cc.label": "goblet",
+    "disssections": [
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "29.30"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "13.63"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "5.20"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "5.77"
+        ]
+      },
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "29.04"
+        ]
+      },
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "17.06"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "C_earlyACC",
+    "disssections": [
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "32.45"
+        ]
+      },
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "26.50"
+        ]
+      },
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "41.05"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "enterocyte of epithelium of large intestine"
+    ],
+    "ancestor_cell_sets": [
+      "enterocyte of epithelium of large intestine",
+      "absorptive"
+    ]
+  },
+  {
+    "cc.label": "C_TA",
+    "disssections": [
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "52.90"
+        ]
+      },
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "18.92"
+        ]
+      },
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "28.19"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "TA"
+    ],
+    "ancestor_cell_sets": [
+      "TA"
+    ]
+  },
+  {
+    "cc.label": "absorptive",
+    "disssections": [
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "9.03"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "27.64"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "21.37"
+        ]
+      },
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "12.51"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "21.59"
+        ]
+      },
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "7.86"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "SI_tuft",
+    "disssections": [
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "51.09"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "32.07"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "16.85"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "tuft"
+    ],
+    "ancestor_cell_sets": [
+      "tuft"
+    ]
+  },
+  {
+    "cc.label": "C_EEC",
+    "disssections": [
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "32.93"
+        ]
+      },
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "25.61"
+        ]
+      },
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "41.46"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "EEC"
+    ],
+    "ancestor_cell_sets": [
+      "EEC"
+    ]
+  },
+  {
+    "cc.label": "C_secretory_prog",
+    "disssections": [
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "39.68"
+        ]
+      },
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "12.70"
+        ]
+      },
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "47.62"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "secretory_prog"
+    ],
+    "ancestor_cell_sets": [
+      "secretory_prog"
+    ]
+  },
+  {
+    "cc.label": "SI_matureAE",
+    "disssections": [
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "34.16"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "44.10"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "21.73"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "enterocyte of epithelium of small intestine"
+    ],
+    "ancestor_cell_sets": [
+      "enterocyte of epithelium of small intestine",
+      "absorptive"
+    ]
+  },
+  {
+    "cc.label": "TA",
+    "disssections": [
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "22.75"
+        ]
+      },
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "14.31"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "15.69"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "10.78"
+        ]
+      },
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "9.61"
+        ]
+      },
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "26.86"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "C_ISC",
+    "disssections": [
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "21.04"
+        ]
+      },
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "42.34"
+        ]
+      },
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "36.62"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "ISC"
+    ],
+    "ancestor_cell_sets": [
+      "ISC"
+    ]
+  },
+  {
+    "cc.label": "SI_earlyAE",
+    "disssections": [
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "36.14"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "22.15"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "41.71"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "enterocyte of epithelium of small intestine"
+    ],
+    "ancestor_cell_sets": [
+      "enterocyte of epithelium of small intestine",
+      "absorptive"
+    ]
+  },
+  {
+    "cc.label": "C_BEST4",
+    "disssections": [
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "30.82"
+        ]
+      },
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "32.08"
+        ]
+      },
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "37.11"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "BEST4+"
+    ],
+    "ancestor_cell_sets": [
+      "BEST4+"
+    ]
+  },
+  {
+    "cc.label": "SI_EEC",
+    "disssections": [
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "40.28"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "19.44"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "40.28"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "EEC"
+    ],
+    "ancestor_cell_sets": [
+      "EEC"
+    ]
+  },
+  {
+    "cc.label": "SI_secretory_prog",
+    "disssections": [
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "37.14"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "20.00"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "42.86"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "secretory_prog"
+    ],
+    "ancestor_cell_sets": [
+      "secretory_prog"
+    ]
+  },
+  {
+    "cc.label": "SI_BEST4",
+    "disssections": [
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "23.30"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "41.59"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "35.10"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "BEST4+"
+    ],
+    "ancestor_cell_sets": [
+      "BEST4+"
+    ]
+  },
+  {
+    "cc.label": "SI_secretory",
+    "disssections": [
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "55.15"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "20.82"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "24.03"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "SI_AE2",
+    "disssections": [
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "14.21"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "80.37"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "5.41"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "enterocyte of epithelium of small intestine"
+    ],
+    "ancestor_cell_sets": [
+      "enterocyte of epithelium of small intestine",
+      "absorptive"
+    ]
+  },
+  {
+    "cc.label": "EEC",
+    "disssections": [
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "17.53"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "18.83"
+        ]
+      },
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "22.08"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "9.09"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "18.83"
+        ]
+      },
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "13.64"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "tuft",
+    "disssections": [
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "8.33"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "4.38"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "13.28"
+        ]
+      },
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "25.99"
+        ]
+      },
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "23.73"
+        ]
+      },
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "24.29"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "SI_TA",
+    "disssections": [
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "21.66"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "47.36"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "30.98"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "transit amplifying cell of small intestine"
+    ],
+    "ancestor_cell_sets": [
+      "transit amplifying cell of small intestine",
+      "TA"
+    ]
+  },
+  {
+    "cc.label": "secretory_prog",
+    "disssections": [
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "10.53"
+        ]
+      },
+      {
+        "label": "ascending colon",
+        "id": "UBERON:0001156",
+        "percent_cells": [
+          "18.80"
+        ]
+      },
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "22.56"
+        ]
+      },
+      {
+        "label": "descending colon",
+        "id": "UBERON:0001158",
+        "percent_cells": [
+          "6.02"
+        ]
+      },
+      {
+        "label": "transverse colon",
+        "id": "UBERON:0001157",
+        "percent_cells": [
+          "22.56"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "19.55"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "SI_TA2",
+    "disssections": [
+      {
+        "label": "jejunum",
+        "id": "UBERON:0002115",
+        "percent_cells": [
+          "35.24"
+        ]
+      },
+      {
+        "label": "ileum",
+        "id": "UBERON:0002116",
+        "percent_cells": [
+          "41.90"
+        ]
+      },
+      {
+        "label": "duodenum",
+        "id": "UBERON:0002114",
+        "percent_cells": [
+          "22.86"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "transit amplifying cell of small intestine"
+    ],
+    "ancestor_cell_sets": [
+      "transit amplifying cell of small intestine",
+      "TA"
+    ]
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "name": "C_lateACC",
+    "full_name": "colon late absorptive colonocyte",
+    "paper_synonyms": "absorptive colonocyte; ACC",
+    "tissue_context": "descending colon; ascending colon; transverse colon"
+  },
+  {
+    "name": "SI_ISC",
+    "full_name": "small intestine intestinal stem cell",
+    "paper_synonyms": "ISC",
+    "tissue_context": "ileum; duodenum; jejunum"
+  },
+  {
+    "name": "SI_FAE",
+    "full_name": "small intestine follicle-associated epithelium",
+    "paper_synonyms": "follicle-associated epithelium; FAE",
+    "tissue_context": "ileum; duodenum; jejunum"
+  },
+  {
+    "name": "C_tuft",
+    "full_name": "colon tuft cell",
+    "paper_synonyms": "tuft cell",
+    "tissue_context": "transverse colon; descending colon; ascending colon"
+  },
+  {
+    "name": "BEST4+",
+    "full_name": "Bestrophin 4-positive cell",
+    "paper_synonyms": "BEST4",
+    "tissue_context": "descending colon; duodenum; ascending colon; jejunum; ileum; transverse colon"
+  },
+  {
+    "name": "SI_paneth",
+    "full_name": "small intestine Paneth cell",
+    "paper_synonyms": "Paneth cell",
+    "tissue_context": "duodenum; jejunum; ileum"
+  },
+  {
+    "name": "SI_intermAE",
+    "full_name": "small intestine intermediate absorptive enterocyte",
+    "paper_synonyms": "absorptive enterocyte; intermediate AE",
+    "tissue_context": "jejunum; duodenum; ileum"
+  },
+  {
+    "name": "ISC",
+    "full_name": "intestinal stem cell",
+    "paper_synonyms": "ISC",
+    "tissue_context": "descending colon; transverse colon; ileum; ascending colon; jejunum; duodenum"
+  },
+  {
+    "name": "SI_goblet",
+    "full_name": "small intestine goblet cell",
+    "paper_synonyms": "goblet cell; GC",
+    "tissue_context": "ileum; jejunum; duodenum"
+  },
+  {
+    "name": "C_goblet",
+    "full_name": "colon goblet cell",
+    "paper_synonyms": "goblet cell; GC",
+    "tissue_context": "descending colon; ascending colon; transverse colon"
+  },
+  {
+    "name": "goblet",
+    "full_name": "goblet cell",
+    "paper_synonyms": "goblet cell; GC",
+    "tissue_context": "ascending colon; jejunum; duodenum; ileum; transverse colon; descending colon"
+  },
+  {
+    "name": "C_earlyACC",
+    "full_name": "colon early absorptive colonocyte",
+    "paper_synonyms": "absorptive colonocyte; ACC",
+    "tissue_context": "ascending colon; descending colon; transverse colon"
+  },
+  {
+    "name": "C_TA",
+    "full_name": "colon transit amplifying cell",
+    "paper_synonyms": "transit amplifying cell; TA",
+    "tissue_context": "transverse colon; descending colon; ascending colon"
+  },
+  {
+    "name": "absorptive",
+    "full_name": "absorptive cell",
+    "paper_synonyms": "absorptive",
+    "tissue_context": "ascending colon; ileum; duodenum; transverse colon; jejunum; descending colon"
+  },
+  {
+    "name": "SI_tuft",
+    "full_name": "small intestine tuft cell",
+    "paper_synonyms": "tuft cell",
+    "tissue_context": "ileum; jejunum; duodenum"
+  },
+  {
+    "name": "C_EEC",
+    "full_name": "colon enteroendocrine cell",
+    "paper_synonyms": "enteroendocrine cell; EEC",
+    "tissue_context": "transverse colon; descending colon; ascending colon"
+  },
+  {
+    "name": "C_secretory_prog",
+    "full_name": "colon secretory progenitor",
+    "paper_synonyms": "secretory progenitor; Sec. Prog.",
+    "tissue_context": "ascending colon; descending colon; transverse colon"
+  },
+  {
+    "name": "SI_matureAE",
+    "full_name": "small intestine mature absorptive enterocyte",
+    "paper_synonyms": "absorptive enterocyte; mature AE",
+    "tissue_context": "jejunum; ileum; duodenum"
+  },
+  {
+    "name": "TA",
+    "full_name": "transit amplifying cell",
+    "paper_synonyms": "transit amplifying cell; TA",
+    "tissue_context": "ileum; ascending colon; jejunum; duodenum; descending colon; transverse colon"
+  },
+  {
+    "name": "C_ISC",
+    "full_name": "colon intestinal stem cell",
+    "paper_synonyms": "intestinal stem cell; ISC",
+    "tissue_context": "descending colon; transverse colon; ascending colon"
+  },
+  {
+    "name": "SI_earlyAE",
+    "full_name": "small intestine early absorptive enterocyte",
+    "paper_synonyms": "absorptive enterocyte; early AE",
+    "tissue_context": "duodenum; ileum; jejunum"
+  },
+  {
+    "name": "C_BEST4",
+    "full_name": "colon Bestrophin 4-positive cell",
+    "paper_synonyms": "BEST4+; BEST4",
+    "tissue_context": "ascending colon; descending colon; transverse colon"
+  },
+  {
+    "name": "SI_EEC",
+    "full_name": "small intestine enteroendocrine cell",
+    "paper_synonyms": "enteroendocrine cell; EEC",
+    "tissue_context": "duodenum; ileum; jejunum"
+  },
+  {
+    "name": "SI_secretory_prog",
+    "full_name": "small intestine secretory progenitor",
+    "paper_synonyms": "secretory progenitor; Sec. Prog.",
+    "tissue_context": "ileum; duodenum; jejunum"
+  },
+  {
+    "name": "SI_BEST4",
+    "full_name": "small intestine Bestrophin 4-positive cell",
+    "paper_synonyms": "BEST4+; BEST4",
+    "tissue_context": "duodenum; jejunum; ileum"
+  },
+  {
+    "name": "SI_secretory",
+    "full_name": "small intestine secretory cell",
+    "paper_synonyms": "SI_secretory",
+    "tissue_context": "jejunum; duodenum; ileum"
+  },
+  {
+    "name": "SI_AE2",
+    "full_name": "small intestine absorptive enterocyte 2",
+    "paper_synonyms": "AE2",
+    "tissue_context": "jejunum; ileum; duodenum"
+  },
+  {
+    "name": "EEC",
+    "full_name": "enteroendocrine cell",
+    "paper_synonyms": "enteroendocrine cell; EEC",
+    "tissue_context": "transverse colon; jejunum; ascending colon; ileum; duodenum; descending colon"
+  },
+  {
+    "name": "tuft",
+    "full_name": "tuft cell",
+    "paper_synonyms": "tuft cell",
+    "tissue_context": "jejunum; duodenum; ileum; transverse colon; descending colon; ascending colon"
+  },
+  {
+    "name": "SI_TA",
+    "full_name": "small intestine transit amplifying cell",
+    "paper_synonyms": "transit amplifying cell; TA",
+    "tissue_context": "duodenum; ileum; jejunum"
+  },
+  {
+    "name": "secretory_prog",
+    "full_name": "secretory progenitor",
+    "paper_synonyms": "secretory progenitor; Sec. Prog.",
+    "tissue_context": "duodenum; ascending colon; jejunum; descending colon; transverse colon; ileum"
+  },
+  {
+    "name": "SI_TA2",
+    "full_name": "small intestine transit amplifying cell 2",
+    "paper_synonyms": "transit amplifying 2; TA2",
+    "tissue_context": "jejunum; ileum; duodenum"
+  }
+]

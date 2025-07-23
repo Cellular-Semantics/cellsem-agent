@@ -1,0 +1,74 @@
+[
+  {
+    "name": "MG_OFF",
+    "full_name": "M\u00fcller glial cell OFF subtype",
+    "paper_synonyms": null,
+    "tissue_context": "fovea centralis; peripheral region of retina"
+  },
+  {
+    "name": "MG_ON",
+    "full_name": "M\u00fcller glial cell ON subtype",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral region of retina; fovea centralis"
+  },
+  {
+    "name": "RGC10",
+    "full_name": "retinal ganglion cell 10",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral region of retina; fovea centralis"
+  },
+  {
+    "name": "RGC9",
+    "full_name": "retinal ganglion cell 9",
+    "paper_synonyms": null,
+    "tissue_context": "fovea centralis; peripheral region of retina"
+  },
+  {
+    "name": "RGC7",
+    "full_name": "retinal ganglion cell 7",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral region of retina; fovea centralis"
+  },
+  {
+    "name": "RGC12",
+    "full_name": "retinal ganglion cell 12",
+    "paper_synonyms": null,
+    "tissue_context": "fovea centralis; peripheral region of retina"
+  },
+  {
+    "name": "PG_ON",
+    "full_name": "parasol ganglion cell ON subtype",
+    "paper_synonyms": "ON parasol RGC",
+    "tissue_context": "peripheral region of retina; fovea centralis"
+  },
+  {
+    "name": "RGC5",
+    "full_name": "retinal ganglion cell 5",
+    "paper_synonyms": null,
+    "tissue_context": "fovea centralis; peripheral region of retina"
+  },
+  {
+    "name": "RGC11",
+    "full_name": "retinal ganglion cell 11",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral region of retina; fovea centralis"
+  },
+  {
+    "name": "RGC8",
+    "full_name": "retinal ganglion cell 8",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral region of retina; fovea centralis"
+  },
+  {
+    "name": "PG_OFF",
+    "full_name": "parasol ganglion cell OFF subtype",
+    "paper_synonyms": "OFF parasol RGC",
+    "tissue_context": "peripheral region of retina; fovea centralis"
+  },
+  {
+    "name": "RGC6",
+    "full_name": "retinal ganglion cell 6",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral region of retina; fovea centralis"
+  }
+]

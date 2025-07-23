@@ -1,0 +1,200 @@
+﻿[
+  {
+    "cc.label": "Erythrocytes",
+    "disssections": [
+      {
+        "label": "zone of skin",
+        "id": "UBERON:0000014",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "Pro-inflammatory fibroblasts",
+    "disssections": [
+      {
+        "label": "zone of skin",
+        "id": "UBERON:0000014",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "skin fibroblast"
+    ],
+    "ancestor_cell_sets": [
+      "skin fibroblast"
+    ]
+  },
+  {
+    "cc.label": "Secretory-papillary fibroblasts",
+    "disssections": [
+      {
+        "label": "zone of skin",
+        "id": "UBERON:0000014",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "skin fibroblast"
+    ],
+    "ancestor_cell_sets": [
+      "skin fibroblast"
+    ]
+  },
+  {
+    "cc.label": "Melanocytes",
+    "disssections": [
+      {
+        "label": "zone of skin",
+        "id": "UBERON:0000014",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "Mesenchymal fibroblasts",
+    "disssections": [
+      {
+        "label": "zone of skin",
+        "id": "UBERON:0000014",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "skin fibroblast"
+    ],
+    "ancestor_cell_sets": [
+      "skin fibroblast"
+    ]
+  },
+  {
+    "cc.label": "EpSC and undiff. progenitors",
+    "disssections": [
+      {
+        "label": "zone of skin",
+        "id": "UBERON:0000014",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "Lymphatic EC",
+    "disssections": [
+      {
+        "label": "zone of skin",
+        "id": "UBERON:0000014",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "Macrophages+DC",
+    "disssections": [
+      {
+        "label": "zone of skin",
+        "id": "UBERON:0000014",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "Pericytes",
+    "disssections": [
+      {
+        "label": "zone of skin",
+        "id": "UBERON:0000014",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "Secretory-reticular fibroblasts",
+    "disssections": [
+      {
+        "label": "zone of skin",
+        "id": "UBERON:0000014",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [
+      "skin fibroblast"
+    ],
+    "ancestor_cell_sets": [
+      "skin fibroblast"
+    ]
+  },
+  {
+    "cc.label": "Diff. Keratinocytes",
+    "disssections": [
+      {
+        "label": "zone of skin",
+        "id": "UBERON:0000014",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "Vascular EC",
+    "disssections": [
+      {
+        "label": "zone of skin",
+        "id": "UBERON:0000014",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  },
+  {
+    "cc.label": "T cells",
+    "disssections": [
+      {
+        "label": "zone of skin",
+        "id": "UBERON:0000014",
+        "percent_cells": [
+          "100.00"
+        ]
+      }
+    ],
+    "parent_cell_sets": [],
+    "ancestor_cell_sets": []
+  }
+]

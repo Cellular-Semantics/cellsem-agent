@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Erythrocytes",
+    "full_name": "erythrocytes",
+    "paper_synonyms": "",
+    "tissue_context": "zone of skin"
+  },
+  {
+    "name": "Pro-inflammatory fibroblasts",
+    "full_name": "pro-inflammatory fibroblasts",
+    "paper_synonyms": "",
+    "tissue_context": "zone of skin"
+  },
+  {
+    "name": "Secretory-papillary fibroblasts",
+    "full_name": "secretory-papillary fibroblasts",
+    "paper_synonyms": "papillary fibroblasts",
+    "tissue_context": "zone of skin"
+  },
+  {
+    "name": "Melanocytes",
+    "full_name": "melanocytes",
+    "paper_synonyms": "",
+    "tissue_context": "zone of skin"
+  },
+  {
+    "name": "Mesenchymal fibroblasts",
+    "full_name": "mesenchymal fibroblasts",
+    "paper_synonyms": "dermal papilla fibroblasts",
+    "tissue_context": "zone of skin"
+  },
+  {
+    "name": "EpSC and undiff. progenitors",
+    "full_name": "epidermal stem cells and undifferentiated progenitors",
+    "paper_synonyms": "EpSC; undifferentiated keratinocytes",
+    "tissue_context": "zone of skin"
+  },
+  {
+    "name": "Lymphatic EC",
+    "full_name": "lymphatic endothelial cells",
+    "paper_synonyms": "lymphatic endothelial cells",
+    "tissue_context": "zone of skin"
+  },
+  {
+    "name": "Macrophages+DC",
+    "full_name": "macrophages and dendritic cells",
+    "paper_synonyms": "macrophages; dendritic cells",
+    "tissue_context": "zone of skin"
+  },
+  {
+    "name": "Pericytes",
+    "full_name": "pericytes",
+    "paper_synonyms": "",
+    "tissue_context": "zone of skin"
+  },
+  {
+    "name": "Secretory-reticular fibroblasts",
+    "full_name": "secretory-reticular fibroblasts",
+    "paper_synonyms": "reticular fibroblasts",
+    "tissue_context": "zone of skin"
+  },
+  {
+    "name": "Diff. Keratinocytes",
+    "full_name": "differentiated keratinocytes",
+    "paper_synonyms": "differentiated keratinocytes",
+    "tissue_context": "zone of skin"
+  },
+  {
+    "name": "Vascular EC",
+    "full_name": "vascular endothelial cells",
+    "paper_synonyms": "vascular endothelial cells",
+    "tissue_context": "zone of skin"
+  },
+  {
+    "name": "T cells",
+    "full_name": "T cells",
+    "paper_synonyms": "T cells",
+    "tissue_context": "zone of skin"
+  }
+]

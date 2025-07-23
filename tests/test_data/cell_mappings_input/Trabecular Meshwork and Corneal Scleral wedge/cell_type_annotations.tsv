@@ -1,0 +1,31 @@
+input_name	text	cl_id	cl_label
+Conj_Epi-Basal	Conj_Epi-Basal	CL:0000646	basal cell
+Conj_Epi-Basal	conjunctival epithelial cell basal layer	CL:1000432	conjunctival epithelial cell
+K_Fibro	keratocyte fibroblast	CL:0002363	keratocyte
+Conj_Epi-Superficial	conjunctival epithelial cell superficial layer	CL:1000432	conjunctival epithelial cell
+FibroX	scleral fibroblast subtype FibroX	CL:0000347	scleral cell
+Mast	Mast	CL:0000097	mast cell
+K_Epi-Wing	corneal epithelial cell wing layer	CL:0000575	corneal epithelial cell
+Pericyte	Pericyte	CL:0000669	pericyte
+K_Epi-Basal	corneal epithelial cell basal layer	CL:0000575	corneal epithelial cell
+Sclera_Fibro	scleral fibroblast	CL:0000057	fibroblast
+CC_VenEndo	collector channel venous endothelial cell	CL:0002543	vein endothelial cell
+K_Epi-Superficial	corneal epithelial cell superficial layer	CL:0000575	corneal epithelial cell
+Lymphatic_Endo	lymphatic endothelial cell	CL:0002138	endothelial cell of lymphatic vessel
+K_Endo	corneal endothelial cell	CL:0000132	corneal endothelial cell
+Limbal_Epi-Basal	limbal epithelial cell basal layer	CL:4033093	limbal epithelial stem cell of cornea
+Conj_Epi-Wing	conjunctival epithelial cell wing layer	CL:1000432	conjunctival epithelial cell
+Macrophage	Macrophage	CL:0000235	macrophage
+Uveal_Melanocyte	uveal melanocyte	CL:4030000	choroidal melanocyte
+Limbal_Epi-Wing	limbal epithelial cell wing layer	CL:4033093	limbal epithelial stem cell of cornea
+Goblet	Goblet	CL:0000160	goblet cell
+Ciliary_Muscle	ciliary muscle cell	CL:1000443	ciliary muscle cell
+Lymphocyte	Lymphocyte	CL:0000542	lymphocyte
+TM_Fibro	trabecular meshwork fibroblast	CL:0000057	fibroblast
+Uveal_Fibro	uveal fibroblast	CL:0000057	fibroblast
+VascEndo	vascular endothelial cell	CL:0000115	endothelial cell
+Limbal_Epi-Superficial	Limbal_Epi-Superficial	CL:0002161	superficial external epithelial cell of tympanic membrane
+Limbal_Epi-Superficial	limbal epithelial cell superficial layer	CL:4033093	limbal epithelial stem cell of cornea
+Conj_Melanocyte	conjunctival melanocyte	CL:0000148	melanocyte
+Schwann	Schwann	CL:0002573	Schwann cell
+Schlemm_Endo	Schlemm canal endothelial cell	CL:4033097	Schlemm's canal endothelial cell
