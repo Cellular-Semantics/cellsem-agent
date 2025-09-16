@@ -27,7 +27,7 @@ cxg_annotate_logger.propagate = True
 logfire.configure()
 
 IS_TEST_MODE = True
-TEST_ARTICLE_COUNT = 100  # Number of articles to process in test mode
+TEST_ARTICLE_COUNT = 50  # Number of articles to process in test mode
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 RESOURCES_DIR = os.path.join(CURRENT_DIR, "resources")

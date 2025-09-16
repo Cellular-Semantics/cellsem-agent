@@ -1,6 +1,6 @@
 import csv
 
-tsv_path = './resources/groundings_10.tsv'
+tsv_path = './resources/groundings_50.tsv'
 
 tp = fp = fn = tn = 0
 
