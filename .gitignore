@@ -1,5 +1,5 @@
 literature/
-/cellsem_agent/graphs/cl_validation/resources/
+/cellsem_agent/graphs/cl_validation/resources/val_annotations.json
 
 docs/source
 
@@ -251,3 +251,4 @@ http-client.private.env.json
 # Apifox Helper cache
 .idea/.cache/.Apifox_Helper
 .idea/ApifoxUploaderProjectSetting.xml
+/cellsem_agent/graphs/nlm_annotate/resources/val_annotations.json
