@@ -1,0 +1,146 @@
+[
+  {
+    "name": "splenocytes",
+    "full_name": "splenocytes",
+    "paper_synonyms": null,
+    "tissue_context": "spleens; splenocytes"
+  },
+  {
+    "name": "NK and T -cell",
+    "full_name": "Natural Killer and T-cell",
+    "paper_synonyms": null,
+    "tissue_context": "spleens; splenocytes"
+  },
+  {
+    "name": "T cells",
+    "full_name": "T cells",
+    "paper_synonyms": null,
+    "tissue_context": "spleens; bone marrows; cervical and thoracic thymuses"
+  },
+  {
+    "name": "T-cell",
+    "full_name": "T-cell",
+    "paper_synonyms": null,
+    "tissue_context": "spleens; bone marrows; cervical and thoracic thymuses"
+  },
+  {
+    "name": "thymocyte",
+    "full_name": "thymocyte",
+    "paper_synonyms": null,
+    "tissue_context": "cervical and thoracic thymuses"
+  },
+  {
+    "name": "gammadeltaT-cell",
+    "full_name": "\u03b3\u03b4 T cell",
+    "paper_synonyms": "\u03b3\u03b4 T cells; \u03b3\u03b4T cells",
+    "tissue_context": "spleens; bone marrows; cervical and thoracic thymuses"
+  },
+  {
+    "name": "Cyt",
+    "full_name": "Cytotoxic",
+    "paper_synonyms": "Cytotoxic",
+    "tissue_context": "spleens"
+  },
+  {
+    "name": "Cytotoxic",
+    "full_name": "Cytotoxic",
+    "paper_synonyms": "Cyt",
+    "tissue_context": "spleens"
+  },
+  {
+    "name": "DC",
+    "full_name": "Dendritic Cell",
+    "paper_synonyms": "Dendritic Cell",
+    "tissue_context": "spleens"
+  },
+  {
+    "name": "Dendritic Cell",
+    "full_name": "Dendritic Cell",
+    "paper_synonyms": "DC",
+    "tissue_context": "spleens"
+  },
+  {
+    "name": "DP",
+    "full_name": "Double Positive",
+    "paper_synonyms": "Double Positive",
+    "tissue_context": "cervical and thoracic thymuses"
+  },
+  {
+    "name": "Double Positive",
+    "full_name": "Double Positive",
+    "paper_synonyms": "DP",
+    "tissue_context": "cervical and thoracic thymuses"
+  },
+  {
+    "name": "ILC",
+    "full_name": "Innate Lymphoid Cell",
+    "paper_synonyms": "Innate Lymphoid Cell",
+    "tissue_context": "spleens"
+  },
+  {
+    "name": "Innate Lymphoid Cell",
+    "full_name": "Innate Lymphoid Cell",
+    "paper_synonyms": "ILC",
+    "tissue_context": "spleens"
+  },
+  {
+    "name": "NK",
+    "full_name": "Natural Killer",
+    "paper_synonyms": "Natural Killer",
+    "tissue_context": "spleens; bone marrows"
+  },
+  {
+    "name": "Natural Killer",
+    "full_name": "Natural Killer",
+    "paper_synonyms": "NK",
+    "tissue_context": "spleens; bone marrows"
+  },
+  {
+    "name": "NKT",
+    "full_name": "Natural Killer T",
+    "paper_synonyms": "Natural Killer T",
+    "tissue_context": "spleens"
+  },
+  {
+    "name": "Natural Killer T",
+    "full_name": "Natural Killer T",
+    "paper_synonyms": "NKT",
+    "tissue_context": "spleens"
+  },
+  {
+    "name": "RBC",
+    "full_name": "Red Blood Cell",
+    "paper_synonyms": "Red Blood Cell",
+    "tissue_context": "spleens; bone marrows"
+  },
+  {
+    "name": "Red Blood Cell",
+    "full_name": "Red Blood Cell",
+    "paper_synonyms": "RBC",
+    "tissue_context": "spleens; bone marrows"
+  },
+  {
+    "name": "SP",
+    "full_name": "Single Positive",
+    "paper_synonyms": "Single Positive",
+    "tissue_context": "cervical and thoracic thymuses"
+  },
+  {
+    "name": "Single Positive",
+    "full_name": "Single Positive",
+    "paper_synonyms": "SP",
+    "tissue_context": "cervical and thoracic thymuses"
+  },
+  {
+    "name": "Treg",
+    "full_name": "Regulatory T",
+    "paper_synonyms": "Regulatory T; Tregs",
+    "tissue_context": "spleens"
+  },
+  {
+    "name": "Regulatory T",
+    "full_name": "Regulatory T",
+    "paper_synonyms": "Treg; Tregs",
+    "tissue_context": "spleens"
+  }
+]

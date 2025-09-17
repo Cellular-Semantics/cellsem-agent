@@ -1,0 +1,14 @@
+[
+  {
+    "name": "cardiomyocytes",
+    "full_name": "cardiomyocytes",
+    "paper_synonyms": "CMs",
+    "tissue_context": "human atria"
+  },
+  {
+    "name": "pluripotent stem cells",
+    "full_name": "pluripotent stem cells",
+    "paper_synonyms": "PSCs; iPSCs; hiPSCs; human-induced pluripotent stem cells; hESC; human embryonic stem cell",
+    "tissue_context": "cord blood"
+  }
+]

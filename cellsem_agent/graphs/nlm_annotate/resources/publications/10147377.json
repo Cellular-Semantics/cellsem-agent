@@ -1,0 +1,62 @@
+[
+  {
+    "name": "IHC",
+    "full_name": "inner hair cell",
+    "paper_synonyms": "inner hair cell",
+    "tissue_context": "cochlea; Organ of Corti"
+  },
+  {
+    "name": "inner hair cell",
+    "full_name": "inner hair cell",
+    "paper_synonyms": "IHC",
+    "tissue_context": "cochlea; Organ of Corti"
+  },
+  {
+    "name": "OHC",
+    "full_name": "outer hair cell",
+    "paper_synonyms": "outer hair cell",
+    "tissue_context": "cochlea; OHC region"
+  },
+  {
+    "name": "outer hair cell",
+    "full_name": "outer hair cell",
+    "paper_synonyms": "OHC",
+    "tissue_context": "cochlea; OHC region"
+  },
+  {
+    "name": "SGN",
+    "full_name": "spiral ganglion neuron",
+    "paper_synonyms": "spiral ganglion neuron",
+    "tissue_context": "cochlea; inner spiral bundle (ISB)"
+  },
+  {
+    "name": "spiral ganglion neuron",
+    "full_name": "spiral ganglion neuron",
+    "paper_synonyms": "SGN",
+    "tissue_context": "cochlea; inner spiral bundle (ISB)"
+  },
+  {
+    "name": "motor neuron",
+    "full_name": "motor neuron",
+    "paper_synonyms": null,
+    "tissue_context": "ventral brainstem"
+  },
+  {
+    "name": "neuronal",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "oligodendrocyte",
+    "full_name": "oligodendrocyte",
+    "paper_synonyms": null,
+    "tissue_context": "ventral brainstem"
+  },
+  {
+    "name": "brainstem motor neurons",
+    "full_name": "brainstem motor neurons",
+    "paper_synonyms": null,
+    "tissue_context": "ventral brainstem; facial motor nucleus (VII); trigeminal motor nucleus (V)"
+  }
+]

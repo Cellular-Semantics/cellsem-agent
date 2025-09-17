@@ -1,0 +1,32 @@
+[
+  {
+    "name": "liver sinusoidal endothelial cell",
+    "full_name": "liver sinusoidal endothelial cell",
+    "paper_synonyms": "LSEC",
+    "tissue_context": "liver"
+  },
+  {
+    "name": "LSEC",
+    "full_name": "liver sinusoidal endothelial cell",
+    "paper_synonyms": "liver sinusoidal endothelial cell",
+    "tissue_context": "liver"
+  },
+  {
+    "name": "cholangiocyte",
+    "full_name": "cholangiocyte",
+    "paper_synonyms": null,
+    "tissue_context": "liver"
+  },
+  {
+    "name": "HSC",
+    "full_name": "hepatic stellate cell",
+    "paper_synonyms": "hepatic stellate cells",
+    "tissue_context": "liver"
+  },
+  {
+    "name": "cholangiocytes",
+    "full_name": "cholangiocyte",
+    "paper_synonyms": null,
+    "tissue_context": "liver"
+  }
+]

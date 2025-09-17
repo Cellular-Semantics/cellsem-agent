@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Lin-Sca-1 + c-Kit +",
+    "full_name": "Lin-Sca-1+ c-Kit+",
+    "paper_synonyms": "LSK",
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "LSK",
+    "full_name": "Lin-Sca-1+ c-Kit+",
+    "paper_synonyms": "Lin-Sca-1+ c-Kit+",
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "multipotent progenitors",
+    "full_name": "multipotent progenitors",
+    "paper_synonyms": "MPPs",
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "MPPs",
+    "full_name": "multipotent progenitors",
+    "paper_synonyms": "multipotent progenitors",
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "long-term HSCs",
+    "full_name": "long-term hematopoietic stem cells",
+    "paper_synonyms": "HSC LT",
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "HSCLT",
+    "full_name": "long-term hematopoietic stem cells",
+    "paper_synonyms": "HSC LT; long-term HSCs",
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "short-term HSCs",
+    "full_name": "short-term hematopoietic stem cells",
+    "paper_synonyms": "HSC ST",
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "HSCST",
+    "full_name": "short-term hematopoietic stem cells",
+    "paper_synonyms": "HSC ST; short-term HSCs",
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "erythroid",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "Proerythroblasts",
+    "full_name": "Proerythroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "basophilic erythroblasts",
+    "full_name": "basophilic erythroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "polychromatic erythroblasts",
+    "full_name": "polychromatic erythroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "orthochromatic erythroblasts",
+    "full_name": "orthochromatic erythroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "erythroblasts",
+    "full_name": "erythroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  },
+  {
+    "name": "erythroid progenitors",
+    "full_name": "erythroid progenitors",
+    "paper_synonyms": "erythroid precursors",
+    "tissue_context": "bone marrow (BM); spleen (SPL)"
+  }
+]

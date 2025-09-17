@@ -1,0 +1,32 @@
+[
+  {
+    "name": "PPN Vglut2+ neurons",
+    "full_name": "pedunculopontine nucleus glutamatergic neurons (Vglut2-positive)",
+    "paper_synonyms": "PPN glutamatergic neurons",
+    "tissue_context": "pedunculopontine nucleus (PPN); mesencephalic locomotor region (MLR)"
+  },
+  {
+    "name": "spiny projection neurons",
+    "full_name": "spiny projection neurons",
+    "paper_synonyms": "",
+    "tissue_context": "striatum"
+  },
+  {
+    "name": "cholinergic interneurons",
+    "full_name": "cholinergic interneurons",
+    "paper_synonyms": "",
+    "tissue_context": "striatum"
+  },
+  {
+    "name": "GABAergic fast-spiking interneurons",
+    "full_name": "GABAergic fast-spiking interneurons",
+    "paper_synonyms": "",
+    "tissue_context": "striatum"
+  },
+  {
+    "name": "medium spiny neurons",
+    "full_name": "medium spiny neurons",
+    "paper_synonyms": "",
+    "tissue_context": "striatum"
+  }
+]

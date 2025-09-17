@@ -1,0 +1,56 @@
+[
+  {
+    "name": "GP38+ FRCs",
+    "full_name": "GP38+ fibroblast reticular cells",
+    "paper_synonyms": "fibroblastic reticular cells; GP38+ stromal cells",
+    "tissue_context": "murine meninges"
+  },
+  {
+    "name": "FDC",
+    "full_name": "follicular dendritic cell",
+    "paper_synonyms": "follicular dendritic cells; FDCs",
+    "tissue_context": "murine meninges"
+  },
+  {
+    "name": "lymphatic endothelial cells",
+    "full_name": "lymphatic endothelial cells",
+    "paper_synonyms": "LECs",
+    "tissue_context": "murine meninges"
+  },
+  {
+    "name": "LECs",
+    "full_name": "lymphatic endothelial cells",
+    "paper_synonyms": "lymphatic endothelial cells",
+    "tissue_context": "murine meninges"
+  },
+  {
+    "name": "blood endothelial cells",
+    "full_name": "blood endothelial cells",
+    "paper_synonyms": "BECs",
+    "tissue_context": "murine meninges"
+  },
+  {
+    "name": "BECs",
+    "full_name": "blood endothelial cells",
+    "paper_synonyms": "blood endothelial cells",
+    "tissue_context": "murine meninges"
+  },
+  {
+    "name": "fibroblast",
+    "full_name": "fibroblast",
+    "paper_synonyms": null,
+    "tissue_context": "dura mater layer of the meninges"
+  },
+  {
+    "name": "myofibroblasts",
+    "full_name": "myofibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "murine meninges"
+  },
+  {
+    "name": "FRCs",
+    "full_name": "fibroblast reticular cells",
+    "paper_synonyms": "fibroblastic reticular cells; FRCs",
+    "tissue_context": "murine meninges"
+  }
+]

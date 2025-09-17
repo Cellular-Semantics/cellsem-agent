@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Treg cells",
+    "full_name": "Regulatory T cells",
+    "paper_synonyms": "Tregs; FOXP3+ Treg cells; CD4+CD25+CD127lowTreg",
+    "tissue_context": "prostate transition zone tissues; prostatic transitional zone tissue"
+  },
+  {
+    "name": "Treg",
+    "full_name": "Regulatory T cells",
+    "paper_synonyms": "Tregs; Treg cells; FOXP3+ Treg cells; CD4+CD25+CD127lowTreg",
+    "tissue_context": "prostate transition zone tissues; prostatic transitional zone tissue"
+  },
+  {
+    "name": "Inactive Treg cells",
+    "full_name": "Inactive regulatory T cells",
+    "paper_synonyms": "Tregs; Treg cells",
+    "tissue_context": "peripheral blood; small prostate"
+  }
+]

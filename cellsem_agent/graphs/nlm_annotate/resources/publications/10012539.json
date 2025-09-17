@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Neutrophil",
+    "full_name": "Neutrophil",
+    "paper_synonyms": "",
+    "tissue_context": "alveolar bone marrow"
+  },
+  {
+    "name": "Macrophage",
+    "full_name": "Macrophage",
+    "paper_synonyms": "",
+    "tissue_context": "alveolar bone marrow; long bone marrow"
+  },
+  {
+    "name": "Dendritic cell",
+    "full_name": "Dendritic cell",
+    "paper_synonyms": "",
+    "tissue_context": "alveolar bone marrow"
+  },
+  {
+    "name": "B cell",
+    "full_name": "B cell",
+    "paper_synonyms": "",
+    "tissue_context": "alveolar bone marrow"
+  },
+  {
+    "name": "Pro-B cell",
+    "full_name": "Pro-B cell",
+    "paper_synonyms": "",
+    "tissue_context": "alveolar bone marrow"
+  },
+  {
+    "name": "T cell",
+    "full_name": "T cell",
+    "paper_synonyms": "",
+    "tissue_context": "alveolar bone marrow"
+  },
+  {
+    "name": "Natural killer cell",
+    "full_name": "Natural killer cell",
+    "paper_synonyms": "",
+    "tissue_context": "alveolar bone marrow"
+  },
+  {
+    "name": "Megakaryocyte",
+    "full_name": "Megakaryocyte",
+    "paper_synonyms": "",
+    "tissue_context": "alveolar bone marrow"
+  },
+  {
+    "name": "Erythrocyte",
+    "full_name": "Erythrocyte",
+    "paper_synonyms": "",
+    "tissue_context": "alveolar bone marrow"
+  },
+  {
+    "name": "Mesenchymal cell",
+    "full_name": "Mesenchymal cell",
+    "paper_synonyms": "",
+    "tissue_context": "alveolar bone marrow"
+  },
+  {
+    "name": "Myeloid progenitor",
+    "full_name": "Myeloid progenitor",
+    "paper_synonyms": "",
+    "tissue_context": "alveolar bone marrow"
+  }
+]

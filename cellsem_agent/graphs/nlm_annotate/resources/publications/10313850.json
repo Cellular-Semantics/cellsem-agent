@@ -1,0 +1,32 @@
+[
+  {
+    "name": "endocrine",
+    "full_name": "endocrine cells",
+    "paper_synonyms": "islet cells; Langerhans islet cells",
+    "tissue_context": "islets of Langerhans; endocrine pancreas"
+  },
+  {
+    "name": "exocrine cells",
+    "full_name": "exocrine pancreatic cells",
+    "paper_synonyms": null,
+    "tissue_context": "exocrine pancreas; exocrine acini; interlobular duct; intralobular ducts; secretory ducts"
+  },
+  {
+    "name": "endocrine and exocrine cells",
+    "full_name": "endocrine and exocrine pancreatic cells",
+    "paper_synonyms": null,
+    "tissue_context": "pancreas; pancreatic tissue"
+  },
+  {
+    "name": "exocrine acinar cells",
+    "full_name": "acinar cells of the exocrine pancreas",
+    "paper_synonyms": "acinar cells",
+    "tissue_context": "exocrine pancreas; exocrine acini"
+  },
+  {
+    "name": "islet cells",
+    "full_name": "Langerhans islet cells",
+    "paper_synonyms": null,
+    "tissue_context": "islets of Langerhans; endocrine pancreas"
+  }
+]

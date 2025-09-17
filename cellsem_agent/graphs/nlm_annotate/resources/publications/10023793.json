@@ -1,0 +1,20 @@
+[
+  {
+    "name": "MSCs",
+    "full_name": "mesenchymal stem/stromal cells",
+    "paper_synonyms": "mesenchymal stem cells; mesenchymal stromal cells",
+    "tissue_context": "bone marrow"
+  },
+  {
+    "name": "MSC",
+    "full_name": "mesenchymal stem/stromal cell",
+    "paper_synonyms": "mesenchymal stem/stromal cells; mesenchymal stem cells; mesenchymal stromal cells",
+    "tissue_context": "bone marrow"
+  },
+  {
+    "name": "cBMSCs",
+    "full_name": "clonal bone marrow stem (stromal) cells",
+    "paper_synonyms": "clonal human bone marrow MSCs; clonal BMSCs",
+    "tissue_context": "bone marrow"
+  }
+]

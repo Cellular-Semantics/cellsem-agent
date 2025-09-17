@@ -1,0 +1,14 @@
+[
+  {
+    "name": "B-cell",
+    "full_name": "B cells",
+    "paper_synonyms": null,
+    "tissue_context": "blood"
+  },
+  {
+    "name": "T cells",
+    "full_name": "T cells",
+    "paper_synonyms": null,
+    "tissue_context": "blood; tonsil"
+  }
+]
