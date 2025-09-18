@@ -85,14 +85,15 @@ class GetGroundings(BaseNode[State, None, str]):
             for annotation in batch:
                 if "grounding_cl_id" not in annotation:
                     related_groundings = [gr for gr in agent_response.output.annotations if gr.input_name == annotation['annotation_text']]
-                    valid_grounding = next((g for g in related_groundings if "NO MATCH" not in g.cl_id), None)
-                    if valid_grounding:
-                        grounding_to_use = valid_grounding
-                    else:
-                        grounding_to_use = related_groundings[0]
-                    annotation['grounding_cl_id'] = grounding_to_use.cl_id
-                    annotation['grounding_cl_label'] = grounding_to_use.cl_label
-                    # convert enrichment to json to make df mode readable
+                    if related_groundings:
+                        valid_grounding = next((g for g in related_groundings if "NO MATCH" not in g.cl_id), None)
+                        if valid_grounding:
+                            grounding_to_use = valid_grounding
+                        else:
+                            grounding_to_use = related_groundings[0]
+                        annotation['grounding_cl_id'] = grounding_to_use.cl_id
+                        annotation['grounding_cl_label'] = grounding_to_use.cl_label
+                        # convert enrichment to json to make df mode readable
                     annotation['enrichment'] = annotation['enrichment'].model_dump()
 
         data = [entry.model_dump() for entry in all_groundings]
