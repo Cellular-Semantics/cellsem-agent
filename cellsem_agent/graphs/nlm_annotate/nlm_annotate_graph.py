@@ -27,7 +27,7 @@ cxg_annotate_logger.propagate = True
 logfire.configure()
 
 IS_TEST_MODE = True
-TEST_ARTICLE_COUNT = 50  # Number of articles to process in test mode
+TEST_ARTICLE_COUNT = 10  # Number of articles to process in test mode
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 RESOURCES_DIR = os.path.join(CURRENT_DIR, "resources")
@@ -83,6 +83,8 @@ class GetGroundings(BaseNode[State, None, str]):
             all_groundings.extend(agent_response.output.annotations)
             # update batch annotations with grounding results
             for annotation in batch:
+                # convert enrichment to json to make df mode readable
+                annotation['enrichment'] = annotation['enrichment'].model_dump()
                 if "grounding_cl_id" not in annotation:
                     related_groundings = [gr for gr in agent_response.output.annotations if gr.input_name == annotation['annotation_text']]
                     if related_groundings:
@@ -93,8 +95,10 @@ class GetGroundings(BaseNode[State, None, str]):
                             grounding_to_use = related_groundings[0]
                         annotation['grounding_cl_id'] = grounding_to_use.cl_id
                         annotation['grounding_cl_label'] = grounding_to_use.cl_label
-                        # convert enrichment to json to make df mode readable
-                    annotation['enrichment'] = annotation['enrichment'].model_dump()
+                else:
+                    annotation['grounding_cl_id'] = ""
+                    annotation['grounding_cl_label'] = ""
+
 
         data = [entry.model_dump() for entry in all_groundings]
         df = pd.DataFrame(data)
