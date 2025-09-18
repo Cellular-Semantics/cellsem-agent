@@ -82,18 +82,18 @@ class GetGroundings(BaseNode[State, None, str]):
             agent_response = await annotator_agent.run(expansions_json)
             all_groundings.extend(agent_response.output.annotations)
             # update batch annotations with grounding results
-            for grounding in agent_response.output.annotations:
-                for annotation in batch:
-                    print(annotation)
-                    if annotation['annotation_text'] == grounding.input_name:
-                        # TODO: we are using the first match only
-                        if "grounding_cl_id" not in annotation:
-                            annotation['grounding_cl_id'] = grounding.cl_id
-                            annotation['grounding_cl_label'] = grounding.cl_label
-                            # clean up enrichment to make df transformation easier
-                            del annotation['enrichment']
-                            break
-
+            for annotation in batch:
+                if "grounding_cl_id" not in annotation:
+                    related_groundings = [gr for gr in agent_response.output.annotations if gr.input_name == annotation['annotation_text']]
+                    valid_grounding = next((g for g in related_groundings if "NO MATCH" not in g.cl_id), None)
+                    if valid_grounding:
+                        grounding_to_use = valid_grounding
+                    else:
+                        grounding_to_use = related_groundings[0]
+                    annotation['grounding_cl_id'] = grounding_to_use.cl_id
+                    annotation['grounding_cl_label'] = grounding_to_use.cl_label
+                    # convert enrichment to json to make df mode readable
+                    annotation['enrichment'] = annotation['enrichment'].model_dump()
 
         data = [entry.model_dump() for entry in all_groundings]
         df = pd.DataFrame(data)
@@ -263,6 +263,7 @@ def load_nlm_annotations():
         annotation = {
             'annotation_text': entry['annotation_text'],
             'cl_id': entry['cl_id'],
+            'cl_label': entry['cl_label'],
             'article_id_pmc': entry['article_id_pmc']
         }
         passage_to_annotations.setdefault(passage, []).append(annotation)

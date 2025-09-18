@@ -44,7 +44,17 @@ Input table: " --tsv data/annotations.tsv
 #  Annotator Agent
 
 ```bash
+poetry run cellsem-agent annotate "{'name': 'cBMSCs', 'full_name': 'clonal bone marrow stem (stromal) cells', 'paper_synonyms': 'clonal human bone marrow MSCs; clonal BMSCs', 'tissue_context': 'bone marrow'}"
+```
+
+or
+
+```bash
 poetry run cellsem-agent annotate 'C_gobletColon goblet cellsColonic goblet cells; Mucus-producing cells; GCCrypt-resident goblet cells; Intercrypt goblet cells; Early goblet cells'
 ```
 
-Then check for `annotations=` in the output to see the results.
+Then check for `annotations=` in the output to see the results. Example output:
+
+```python
+annotations=[TextAnnotation(input_name='cBMSCs', text='clonal bone marrow stem (stromal) cell', cl_id='CL:0002540', cl_label='mesenchymal stem cell of the bone marrow'), TextAnnotation(input_name='cBMSCs', text='cBMSC', cl_id='CL:0002540', cl_label='mesenchymal stem cell of the bone marrow')]
+```
