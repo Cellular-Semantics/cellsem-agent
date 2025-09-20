@@ -1,0 +1,13 @@
+{
+  "function_name": "DNA Homologous Recombination",
+  "description": "Repair of DNA double-strand breaks through the homologous recombination pathway, critical for maintaining genomic stability",
+  "evidence_summary": "Multiple biochemical and genetic studies demonstrate essential roles in HR repair. BRCA1 and BRCA2 mutations lead to HR deficiency and cancer susceptibility",
+  "confidence_score": 0.95,
+  "supporting_genes": ["BRCA1", "BRCA2", "RAD51", "PALB2"],
+  "pathway_details": {
+    "pathway_name": "Homologous Recombination",
+    "key_interactions": ["RAD51-BRCA2", "BRCA1-BARD1", "ATM-CHEK2"],
+    "cellular_location": ["Nucleus", "DNA damage foci"]
+  },
+  "disease_associations": ["Hereditary breast cancer", "Ovarian cancer", "Fanconi anemia"]
+}

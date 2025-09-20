@@ -1,0 +1,13 @@
+# DNA Repair Genes - Breast Cancer Susceptibility
+# Example gene list for testing the annotation workflow
+
+BRCA1
+BRCA2
+TP53
+ATM
+CHEK2
+PALB2
+RAD51
+BARD1
+NBN
+BRIP1

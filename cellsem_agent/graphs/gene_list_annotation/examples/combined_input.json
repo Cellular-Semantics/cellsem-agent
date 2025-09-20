@@ -1,0 +1,43 @@
+{
+  "genes": [
+    "BRCA1",
+    "BRCA2",
+    "TP53",
+    "ATM",
+    "CHEK2",
+    "PALB2",
+    "RAD51",
+    "BARD1",
+    "NBN",
+    "BRIP1"
+  ],
+  "context_description": "DNA damage response and repair in hereditary breast and ovarian cancer. Focus on homologous recombination pathway defects and their implications for cancer susceptibility, therapeutic response, and synthetic lethality approaches.",
+  "schema_example": {
+    "function_name": "DNA Homologous Recombination Repair",
+    "description": "High-fidelity repair of DNA double-strand breaks through homologous recombination pathway",
+    "evidence_summary": "Extensive biochemical and genetic evidence demonstrates critical roles in HR repair. Loss of function leads to genomic instability and cancer predisposition",
+    "confidence_score": 0.95,
+    "supporting_genes": ["BRCA1", "BRCA2", "RAD51", "PALB2"],
+    "pathway_details": {
+      "pathway_id": "GO:0000724",
+      "key_interactions": [
+        "BRCA1-BARD1 heterodimer formation",
+        "PALB2-mediated BRCA1-BRCA2 interaction",
+        "RAD51 nucleofilament formation"
+      ],
+      "cellular_localization": ["Nuclear foci", "DNA damage sites"],
+      "regulation": ["ATM-mediated phosphorylation", "Cell cycle checkpoints"]
+    },
+    "clinical_relevance": {
+      "disease_associations": ["Hereditary breast cancer", "Ovarian cancer", "Prostate cancer"],
+      "therapeutic_targets": ["PARP inhibitors", "Platinum compounds"],
+      "biomarkers": ["HRD score", "RAD51 foci formation"]
+    }
+  },
+  "analysis_parameters": {
+    "include_pathway_analysis": true,
+    "include_drug_targets": true,
+    "include_biomarkers": true,
+    "confidence_threshold": 0.7
+  }
+}

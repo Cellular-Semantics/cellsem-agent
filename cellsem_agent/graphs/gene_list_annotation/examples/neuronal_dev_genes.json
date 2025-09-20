@@ -1,0 +1,16 @@
+{
+  "genes": [
+    "NEUROD1",
+    "NEUROG2",
+    "ASCL1",
+    "HES1",
+    "NOTCH1",
+    "SOX2",
+    "PAX6",
+    "TBR2",
+    "TBR1",
+    "SATB2"
+  ],
+  "context": "Neuronal differentiation and cortical development",
+  "description": "Transcription factors and signaling molecules controlling neurogenesis and cortical layer specification"
+}

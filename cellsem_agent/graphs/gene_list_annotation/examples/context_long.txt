@@ -1,0 +1,15 @@
+DNA damage response and repair pathways in hereditary breast and ovarian cancer susceptibility
+
+The DNA damage response (DDR) encompasses a complex network of cellular pathways that detect, signal, and repair DNA lesions to maintain genomic stability. This system is particularly critical in rapidly dividing cells such as those found in breast and ovarian tissues, where replication stress and hormonal influences create an environment prone to DNA damage.
+
+Hereditary breast and ovarian cancer (HBOC) syndrome is primarily associated with germline mutations in BRCA1 and BRCA2 genes, which encode essential components of the homologous recombination (HR) repair pathway. These genes facilitate the repair of DNA double-strand breaks (DSBs) through a high-fidelity mechanism that maintains chromosomal integrity.
+
+The BRCA1 protein functions as a tumor suppressor by coordinating multiple cellular processes including DNA repair, cell cycle checkpoint control, and transcriptional regulation. It localizes to sites of DNA damage and recruits additional repair factors to facilitate HR-mediated DSB repair. BRCA2 plays a crucial role in loading RAD51 recombinase onto single-strand DNA, a critical step in the HR process.
+
+Beyond BRCA1 and BRCA2, several other genes contribute to hereditary cancer susceptibility through their roles in DNA repair pathways. ATM (Ataxia Telangiectasia Mutated) serves as a key kinase in the DDR signaling cascade, phosphorylating numerous substrates including p53, CHEK2, and BRCA1 in response to DSBs. CHEK2 functions as a checkpoint kinase that mediates cell cycle arrest to allow time for DNA repair.
+
+PALB2 (Partner and Localizer of BRCA2) acts as a molecular scaffold that connects BRCA1 and BRCA2 in the HR pathway. RAD51 forms nucleoprotein filaments on single-strand DNA and catalyzes homologous strand invasion and exchange. BARD1 (BRCA1 Associated RING Domain 1) forms a heterodimer with BRCA1 and is essential for BRCA1 stability and function.
+
+The clinical relevance of these DNA repair defects extends beyond cancer predisposition to influence therapeutic strategies. Tumors with HR deficiency, particularly those with BRCA1/2 mutations, exhibit enhanced sensitivity to platinum-based chemotherapy and PARP inhibitors, exploiting the concept of synthetic lethality.
+
+Understanding the molecular mechanisms underlying these DNA repair pathways is crucial for developing targeted prevention strategies, improving risk assessment, and designing personalized therapeutic approaches for individuals with hereditary cancer predisposition.

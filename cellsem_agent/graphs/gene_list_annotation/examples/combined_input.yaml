@@ -1,0 +1,48 @@
+# YAML Example for Gene List Annotation
+# Alternative format to JSON for better readability
+
+genes:
+  - NEUROD1
+  - NEUROG2
+  - ASCL1
+  - HES1
+  - NOTCH1
+  - SOX2
+  - PAX6
+  - TBR2
+  - TBR1
+  - SATB2
+
+context_description: >
+  Neuronal differentiation and cortical layer specification during embryonic
+  brain development. Focus on transcriptional regulatory networks controlling
+  neurogenesis, cell fate determination, and cortical layer identity in the
+  developing mammalian cerebral cortex.
+
+schema_example:
+  function_name: Neuronal Fate Specification
+  description: >
+    Transcriptional control of neuronal cell fate and identity during
+    cortical development
+  evidence_summary: >
+    Single-cell RNA-seq and genetic studies demonstrate coordinated
+    expression programs controlling neuronal differentiation
+  confidence_score: 0.88
+  supporting_genes:
+    - NEUROD1
+    - NEUROG2
+    - ASCL1
+  pathway_details:
+    pathway_name: Neurogenesis
+    temporal_expression: Early to mid-neurogenesis
+    spatial_expression: Ventricular and subventricular zones
+    downstream_targets:
+      - Cell cycle exit genes
+      - Migration guidance molecules
+      - Synaptic proteins
+
+analysis_parameters:
+  include_temporal_analysis: true
+  include_spatial_analysis: true
+  development_stage: embryonic
+  species_focus: human
