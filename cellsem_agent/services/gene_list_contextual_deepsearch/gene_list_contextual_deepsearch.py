@@ -3,12 +3,15 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-#print(os.getenv('WORKDIR'))
+# print(os.getenv('WORKDIR'))
 drc = DeepResearchClient()
 
+
 def run_contextual_deepsearch(gene_list, context):
-    with open('./cellsem_agent/services/gene_list_contextual_deepsearch/schema/deepsearch_results_schema.json',
-              "r") as f:
+    with open(
+        "./cellsem_agent/services/gene_list_contextual_deepsearch/schema/deepsearch_results_schema.json",
+        "r",
+    ) as f:
         schema = f.read()
 
     user_prompt = f"""
@@ -21,7 +24,7 @@ def run_contextual_deepsearch(gene_list, context):
     **Analysis Requirements**
     
     1. Search current scientific literature for **functional roles of each gene in the input list**.
-    2. Identify **clusters of genes that converge on shared pathways, processes, or regulatory modules**.
+    2. Identify **clusters of genes that act together in a single pathway, process, or state**.
     3. Treat each cluster as a potential **gene program** within the list.
     4. For each gene program, predict the **functional implications for the specified cell type, 
     in the context of the provided disease and (if available) tissue environment**, including, but not limited to:
@@ -74,12 +77,14 @@ def run_contextual_deepsearch(gene_list, context):
     ```
     """
 
-    result: DeepResearchResult = drc.run(user_query=user_prompt)  # Using default system prompt and model
+    result: DeepResearchResult = drc.run(
+        user_query=user_prompt
+    )  # Using default system prompt and model
     # better if this can be logged somewhere
     if result.success:
         print("Status:", result.status)
         print("ID:", result.response_id)
         print("Elapsed (s):", result.elapsed_sec)
-        return (result.output_text)
+        return result.output_text
     else:
         print("FAILED:", result.status, result.error_type, result.error_message)

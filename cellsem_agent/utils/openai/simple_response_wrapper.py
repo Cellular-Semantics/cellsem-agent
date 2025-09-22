@@ -7,10 +7,11 @@ from openai._exceptions import APIError, RateLimitError, APIStatusError
 
 DEFAULT_MODEL = "gpt-4o-mini"  # pick any standard text model you use
 
+
 @dataclass
 class SingleResponseResult:
     success: bool
-    status: str                # "completed", "http_timeout", "rate_limited", "api_error"
+    status: str  # "completed", "http_timeout", "rate_limited", "api_error"
     response_id: Optional[str]
     output_text: Optional[str]
     error_type: Optional[str]
@@ -20,8 +21,14 @@ class SingleResponseResult:
     elapsed_sec: float
     raw_response: Optional[Any]
 
+
 class SimpleResponder:
-    def __init__(self, api_key: Optional[str] = None, timeout: float = 60.0, base_url: Optional[str] = None):
+    def __init__(
+        self,
+        api_key: Optional[str] = None,
+        timeout: float = 60.0,
+        base_url: Optional[str] = None,
+    ):
         # The official OpenAI Python SDK uses httpx under the hood and supports a per-client timeout. :contentReference[oaicite:3]{index=3}
         self.client = OpenAI(api_key=api_key, base_url=base_url, timeout=timeout)
 
@@ -42,12 +49,12 @@ class SimpleResponder:
         try:
             payload: Dict[str, Any] = dict(
                 model=model,
-                input=prompt,                # Responses API accepts simple strings or rich content. :contentReference[oaicite:4]{index=4}
+                input=prompt,  # Responses API accepts simple strings or rich content. :contentReference[oaicite:4]{index=4}
             )
             if instructions:
                 payload["instructions"] = instructions
-            if temperature is not None:
-                payload["temperature"] = temperature
+            # if temperature is not None:
+            # payload["temperature"] = temperature
             if max_output_tokens is not None:
                 payload["max_output_tokens"] = max_output_tokens
             if extra:

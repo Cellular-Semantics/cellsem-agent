@@ -1,0 +1,27 @@
+{
+  "genes": [
+    "CXCL8",
+    "CXCR2",
+    "CXCL6",
+    "CTSG",
+    "S100A9",
+    "S100A8",
+    "S100a9 (Mmus)",
+    "S100a8 (Mmus)",
+    "CXCR1",
+    "JAML",
+    "FCER1G",
+    "ITGB2",
+    "Csf3r",
+    "Il1b",
+    "Cxcr2",
+    "Fcer1g (Mmus)",
+    "TREM1",
+    "ANXA3",
+    "PECAM1",
+    "CD177",
+    "PRTN3"
+  ],
+  "context": "enriched gene list for cluster of cells in scRNAseq data",
+  "description": ""
+}
