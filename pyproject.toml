@@ -27,6 +27,7 @@ matplotlib = "^3.10.3"
 pymupdf = "^1.26.3"
 pdfminer-six = {optional=true, version="*"}
 PyPDF2 = {optional=true, version="*"}
+openai = {optional=true, version="*"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"

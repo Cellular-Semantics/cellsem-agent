@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Gene Program Functional Analysis",
+  "type": "object",
+  "required": ["context", "input_genes", "programs", "version"],
+  "properties": {
+    "context": {
+      "type": "object",
+      "required": ["cell_type", "disease"],
+      "properties": {
+        "cell_type": { "type": "string" },
+        "disease": { "type": "string" },
+        "tissue": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "input_genes": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "programs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "program_name",
+          "description",
+          "predicted_cellular_impact",
+          "evidence_summary",
+          "citations",
+          "confidence_score",
+          "significance_score",
+          "supporting_genes",
+          "supporting_gene_count"
+        ],
+        "properties": {
+          "program_name": { "type": "string", "minLength": 1 },
+          "theme": { "type": "string", "description": "Optional higher-order theme" },
+          "description": { "type": "string", "minLength": 1 },
+          "predicted_cellular_impact": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "description": "Concise bullet-level impacts (e.g., ‘enhanced focal adhesion signaling’)"
+            }
+          },
+          "evidence_summary": { "type": "string", "minLength": 1 },
+          "citations": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["reference"],
+              "properties": {
+                "reference": { 
+                  "type": "string", 
+                  "description": "Free-text reference (e.g., authors, title, journal, year)" 
+                },
+                "id": { "type": "string", "description": "Optional PMID, DOI, or URL" },
+                "type": { "type": "string", "enum": ["PMID", "DOI", "URL"] },
+                "notes": { "type": "string", "description": "Why this citation supports the claim" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "confidence_score": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+          "significance_score": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+          "supporting_genes": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" },
+            "uniqueItems": true
+          },
+          "supporting_gene_count": { "type": "integer", "minimum": 1 },
+          "required_components_present": {
+            "type": "boolean",
+            "description": "Whether most/all required pathway components are present"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "method": {
+      "type": "object",
+      "description": "Optional trace of how programs were derived",
+      "properties": {
+        "clustering_basis": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "e.g., pathway databases, co-citation, PPI, co-expression"
+        },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
