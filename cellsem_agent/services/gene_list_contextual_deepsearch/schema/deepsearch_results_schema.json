@@ -3,6 +3,57 @@
   "title": "Gene Program Functional Analysis",
   "type": "object",
   "required": ["context", "input_genes", "programs", "version"],
+  "definitions": {
+    "atomic_term": {
+      "type": "object",
+      "required": ["name", "citation"],
+      "properties": {
+        "ontology_id": {
+          "type": "string",
+          "description": "ontology term CURIE e.g., GO:0005576, GO:0008150, GO:0003674."
+        },
+        "name": {
+          "type": "string",
+          "description": "atomic term to be mapped"
+        },
+        "ontology_label": {
+          "type": "string",
+          "description": "ontology label e.g., cellular_component, biological_process, molecular_function"
+        },
+        "citation": {
+          "type":"array",
+          "items": {
+            "$ref": "#/definitions/citation"
+          },
+          "description": "Supporting citations."
+        }
+      },
+      "additionalProperties": false
+    },
+    "citation": {
+      "type": "object",
+      "required": ["reference"],
+      "properties": {
+        "reference": {
+          "type": "string",
+          "description": "Free-text reference (e.g., authors, title, journal, year)"
+        },
+        "id": {
+          "type": "string",
+          "description": "Optional PMID, DOI, or URL"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["PMID", "DOI", "URL"]
+        },
+        "notes": {
+          "type": "string",
+          "description": "Why this citation supports the claim"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
   "properties": {
     "context": {
       "type": "object",
@@ -46,12 +97,12 @@
           "atomic_biological_processes": {
             "type": "array",
             "description": "A list of atomic biological process terms extracted from the description.",
-            "items": { "type": "string" }
+            "items": { "$ref": "#/definitions/atomic_term" }
           },
           "atomic_cellular_components": {
             "type": "array",
             "description": "A list of atomic cellular component terms extracted from the description.",
-            "items": { "type": "string" }
+            "items": { "$ref": "#/definitions/atomic_term" }
           },
           "predicted_cellular_impact": {
             "type": "array",
@@ -66,18 +117,7 @@
             "type": "array",
             "minItems": 1,
             "items": {
-              "type": "object",
-              "required": ["reference"],
-              "properties": {
-                "reference": {
-                  "type": "string",
-                  "description": "Free-text reference (e.g., authors, title, journal, year)"
-                },
-                "id": { "type": "string", "description": "Optional PMID, DOI, or URL" },
-                "type": { "type": "string", "enum": ["PMID", "DOI", "URL"] },
-                "notes": { "type": "string", "description": "Why this citation supports the claim" }
-              },
-              "additionalProperties": false
+              "$ref": "#/definitions/citation"
             }
           },
           "confidence_score": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
