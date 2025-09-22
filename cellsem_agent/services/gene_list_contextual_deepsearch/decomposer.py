@@ -23,10 +23,13 @@ def decompose(genelist_annotation):
        ```
        """
     res = sr.ask(
-        model='gpt5',
+        model='gpt-5',
         prompt=prompt,
-        instructions="""You understand how to break down the meaning of the language of biology into its component parts.
-        You can fluently and accurately read JSON schema and write compliant JSON""",
+        instructions="""You are an expert biologist who understand how to break down the meaning
+        of the language of biology into its component parts. You can fluently and accurately read
+        and understand JSON schema and write compliant JSON.  Your job is to rewrite input JSON
+        using your latent knowledge of the language of biology, not to add novel content not 
+        implicit in the input.""",
         temperature=0.3,
         max_output_tokens=500,
     )
