@@ -1,15 +1,19 @@
+# To reduce the cost, we cache the results of each step in the output folder.
+# Delete the cached files to re-run the steps.
+# - DeepSearch cache: input_file_name_ds.json
+# - Decompose cache: input_file_name_decompose.json
+# - Annotate cache: input_file_name_result.json
+
 import asyncio
 import os.path
 import json
 from typing import Any
 
-import pandas as pd
 import logfire
 import logging
 
 from dataclasses import dataclass
 from dotenv import load_dotenv
-from jsonasobj import items
 from pydantic_graph import BaseNode, End, Graph, GraphRunContext
 
 from cellsem_agent.agents.ontology_mapping.ontology_mapping_agent import ontology_mapping_agent
@@ -41,7 +45,7 @@ class GeneData:
     description: str
     file_name: str
     deep_search_result: dict = None
-    decompose_result: dict = None
+    # decompose_result: dict = None
 
 @dataclass
 class State:
@@ -55,79 +59,72 @@ class AnnotateData(BaseNode[State, None, str]):
         gene_data = ctx.state.gene_data
         for j in gene_data:
             output_file = os.path.join(OUTPUT_DIR, j.file_name.replace(".json", "_result.json"))
-            if not os.path.exists(output_file):
-                if j.decompose_result:
-                    programs = j.decompose_result.get("programs", [])
-                    for program in programs:
-                        print("Input data: ", program["atomic_biological_processes"])
-                        agent_response = await ontology_mapping_agent.run(program["atomic_biological_processes"])
-                        result = agent_response.mappings
-                        print(result)
-                        program["atomic_biological_processes"] = await self.format_mapping_output(program["atomic_biological_processes"], result)
-                else:
-                    print("No decompose result to annotate for file: ", j.file_name)
-            else:
-                print("Skipping the annotation step for: ", j.file_name)
-        return End("Report generated and saved to individual dataset folders.")
-
-    async def format_mapping_output(self, plain_list, result) -> list[Any]:
-        results = []
-        for list_item in plain_list:
-            item_results = [r for r in result if r["original_term"] == list_item]
-            if not item_results:
-                results.append({
-                    "biological_process": list_item,
-                    "ontology_id": "",
-                    "ontology_label": "",
-                    "confidence": 0.0,
-                    "mapping_method": ""
-                })
-            else:
-                results.append({
-                    "biological_process": list_item,
-                    "ontology_id": list_item[0].get("ontology_id", ""),
-                    "ontology_label": list_item[0].get("ontology_label", ""),
-                    "confidence": list_item[0].get("confidence_score", ""),
-                    "mapping_method": list_item[0].get("mapping_method", "")
-                })
-        return results
-
-
-@dataclass
-class DecomposeProcess(BaseNode[State, None, str]):
-
-    async def run(self, ctx: GraphRunContext[State]) -> AnnotateData:
-        gene_data = ctx.state.gene_data
-        for j in gene_data:
-            output_file = os.path.join(OUTPUT_DIR, j.file_name.replace(".json", "_decompose.json"))
+            # don't re-run existing results for cost reasons
             if not os.path.exists(output_file):
                 if j.deep_search_result:
-                    print("Decomposing deep search results for file: ", j.file_name)
-                    out_text = decompose(j.deep_search_result)
-                    if out_text and out_text.strip():
-                        print("Decompose result obtained for file: ", j.file_name)
-                        try:
-                            rj = json.loads(out_text)
-                            with open(output_file, "w") as f:
-                                json.dump(rj, f, indent=4)
-                            j.decompose_result = rj
-                        except Exception as e:
-                            print("Error parsing JSON from out_text:")
-                            print(out_text)
-                            print("Exception:", e)  
-                    else:
-                            print(f"No output_text returned from decompose for '{j.file_name}'; see status/error above.")
+                    programs = j.deep_search_result.get("programs", [])
+                    for program in programs:
+                        await self.annotate_properties(program["atomic_biological_processes"])
+                        await self.annotate_properties(program["atomic_cellular_components"])
+                else:
+                    print("No decompose result to annotate for file: ", j.file_name)
+            await write_json(j.deep_search_result, output_file)
+        return End("Results saved to the output folder.")
+
+    async def annotate_properties(self, properties):
+        names = json.dumps([atomic_item["name"] for atomic_item in properties])
+        print("Input data: ", names)
+        agent_response = await ontology_mapping_agent.run(names)
+        print(agent_response.output.mappings)
+        await self.update_with_mappings(properties, agent_response.output.mappings)
+
+    async def update_with_mappings(self, atomic_terms, result):
+        for atomic_term in atomic_terms:
+            item_results = [r for r in result if r.original_term == atomic_term["name"]]
+            if not item_results:
+                atomic_term["ontology_label"] = ""
+                atomic_term["ontology_id"] = ""
             else:
-                # read the existing file as cache
-                with open(output_file, "r") as f:               
-                    j.decompose_result = json.load(f)
-                print("Using cached decompose result for file: ", j.file_name)
-        return AnnotateData()
+                del atomic_term["ontology_label"]
+                atomic_term["ontology_label"] = item_results[0].ontology_label
+                atomic_term["ontology_id"] = item_results[0].ontology_id
+
+
+# @dataclass
+# class DecomposeProcess(BaseNode[State, None, str]):
+#
+#     async def run(self, ctx: GraphRunContext[State]) -> AnnotateData:
+#         gene_data = ctx.state.gene_data
+#         for j in gene_data:
+#             output_file = os.path.join(OUTPUT_DIR, j.file_name.replace(".json", "_decompose.json"))
+#             if not os.path.exists(output_file):
+#                 if j.deep_search_result:
+#                     print("Decomposing deep search results for file: ", j.file_name)
+#                     out_text = decompose(j.deep_search_result)
+#                     if out_text and out_text.strip():
+#                         print("Decompose result obtained for file: ", j.file_name)
+#                         try:
+#                             rj = json.loads(out_text)
+#                             with open(output_file, "w") as f:
+#                                 json.dump(rj, f, indent=4)
+#                             j.decompose_result = rj
+#                         except Exception as e:
+#                             print("Error parsing JSON from out_text:")
+#                             print(out_text)
+#                             print("Exception:", e)
+#                     else:
+#                             print(f"No output_text returned from decompose for '{j.file_name}'; see status/error above.")
+#             else:
+#                 # read the existing file as cache
+#                 with open(output_file, "r") as f:
+#                     j.decompose_result = json.load(f)
+#                 print("Using cached decompose result for file: ", j.file_name)
+#         return AnnotateData()
 
 @dataclass
 class DeepSearchGene(BaseNode[State, None, str]):
 
-    async def run(self, ctx: GraphRunContext[State]) -> DecomposeProcess:
+    async def run(self, ctx: GraphRunContext[State]) -> AnnotateData:
         gene_data = ctx.state.gene_data
         os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -139,8 +136,7 @@ class DeepSearchGene(BaseNode[State, None, str]):
                 if result:
                     print("Deep search result obtained for file: ", j.file_name)
                     rj = json.loads(result)
-                    with open(output_file, "w") as f:
-                        json.dump(rj, f, indent=4)
+                    await write_json(rj, output_file)
                     j.deep_search_result = rj
                 else:
                     print(f"No result returned from deepsearch for '{j.file_name}'; see status/error above.")
@@ -150,7 +146,7 @@ class DeepSearchGene(BaseNode[State, None, str]):
                     j.deep_search_result = json.load(f)
                 print("Using cached deep search result for file: ", j.file_name)
 
-        return DecomposeProcess()
+        return AnnotateData()
 
 @dataclass
 class ReadGeneData(BaseNode[State, None, str]):
@@ -170,13 +166,19 @@ class ReadGeneData(BaseNode[State, None, str]):
                         file_name=file
                     )
                     ctx.state.gene_data.append(gene_data)
+                if ctx.state.is_test_mode:
+                    # run only one example in test mode
+                    break
         print("Total datasets loaded: ", len(ctx.state.gene_data))
         return DeepSearchGene()
 
+async def write_json(data: Any, output_file: str):
+    with open(output_file, "w") as f:
+        json.dump(data, f, indent=4)
 
 async def main():
     state = State(list(), is_test_mode=IS_TEST_MODE)
-    validation_graph = Graph(nodes=(ReadGeneData, DeepSearchGene, DecomposeProcess, AnnotateData))
+    validation_graph = Graph(nodes=(ReadGeneData, DeepSearchGene, AnnotateData))
     result = await validation_graph.run(ReadGeneData(), state=state)
     print(result.output)
     # print(validation_graph.mermaid_code())

@@ -112,14 +112,14 @@ def search_multi_ontology(ctx: RunContext[str], term: str, ontologies: List[str]
         A dictionary mapping ontology names to lists of (ID, label) tuples.
     """
     if ontologies is None:
-        ontologies = ['GO', 'CL', 'UBERON', 'CHEBI']
+        ontologies = ['GO', 'CL', 'UBERON', 'ChEBI']
 
     results = {}
     search_functions = {
         'GO': search_go,
         'CL': search_cl,
         'UBERON': search_uberon,
-        'CHEBI': search_chebi
+        'ChEBI': search_chebi
     }
 
     for ont in ontologies:

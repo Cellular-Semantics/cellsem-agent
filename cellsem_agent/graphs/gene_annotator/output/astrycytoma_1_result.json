@@ -1,0 +1,1119 @@
+{
+    "context": {
+        "cell_type": "Astrocyte (IDH-mutant astrocytoma malignant subset)",
+        "disease": "IDH-mutant diffuse astrocytoma",
+        "tissue": "Brain (central nervous system white/gray matter)"
+    },
+    "input_genes": [
+        "FAM189A2",
+        "OGFRL1",
+        "MAP3K5",
+        "ITPR2",
+        "ETNPPL",
+        "NRG3",
+        "CD38",
+        "FMN2",
+        "LINC01088",
+        "KCNN3",
+        "DAAM2",
+        "AC002429.2",
+        "OBI1-AS1",
+        "NTRK2",
+        "SYTL4",
+        "WDR49",
+        "ADGRV1",
+        "LIFR",
+        "AQP4",
+        "ID3",
+        "OSBPL11",
+        "DPP10",
+        "SERPINI2",
+        "TLR4",
+        "NAA11",
+        "MGAT4C",
+        "AC026316.5",
+        "EEPD1",
+        "RASSF4",
+        "AL392086.3",
+        "SLC4A4",
+        "EDNRB",
+        "SLC39A11",
+        "ATP1A2",
+        "SLCO1C1",
+        "AHCYL2",
+        "SPON1",
+        "SLC1A3",
+        "GRAMD2B",
+        "DTNA",
+        "AC012405.1",
+        "NKAIN3",
+        "NTM",
+        "SLC14A1",
+        "DCLK2",
+        "DCLK1",
+        "ID4",
+        "AC124854.1",
+        "LINC01094",
+        "PCDH9",
+        "GABBR2",
+        "PARD3B",
+        "PDE8A",
+        "LRIG1",
+        "C5ORF64",
+        "RNF19A",
+        "SPARCL1",
+        "AC093535.1",
+        "FADS2",
+        "PLEKHA5",
+        "ASTN2",
+        "ADAMTS9",
+        "AC073941.1",
+        "SLC24A4",
+        "PAPPA",
+        "AC068587.4",
+        "FARP1",
+        "SORL1",
+        "ARHGAP26",
+        "CADPS",
+        "ST3GAL6",
+        "ITPKB",
+        "GABRB1",
+        "FAM107A",
+        "MIR99AHG",
+        "ANK2",
+        "AC107223.1",
+        "PPP2R2B",
+        "LPL",
+        "AL589935.1",
+        "MRVI1",
+        "TNIK",
+        "AL160272.1",
+        "AC016766.1",
+        "RANBP3L",
+        "ARHGEF4",
+        "ADCY2",
+        "NPL",
+        "KCNQ5",
+        "AC079352.1",
+        "LIX1",
+        "APOE",
+        "SLC25A48",
+        "ADCYAP1R1",
+        "AHCYL1",
+        "RASL12",
+        "GINS3",
+        "PTPRG",
+        "AL096709.1",
+        "BMP2K",
+        "MCF2L2",
+        "RBMS3",
+        "SLCO3A1",
+        "AL445426.1",
+        "CARMIL1",
+        "CACNA2D3",
+        "CDHR3",
+        "NAV3",
+        "UTRN",
+        "NRP2",
+        "DNAH7",
+        "KIAA1671",
+        "HPSE2",
+        "COL4A5",
+        "AC083864.5",
+        "L3MBTL4",
+        "AC092131.1",
+        "PCSK6",
+        "AC097450.1",
+        "ANOS1",
+        "SYNPO2",
+        "LINC00836",
+        "MAPK4",
+        "AL365259.1",
+        "WNK2",
+        "LMO3",
+        "SSBP2",
+        "SLC1A4",
+        "PPP2R5A",
+        "LINC00299",
+        "SLC15A2",
+        "CNTN1",
+        "FKBP5",
+        "GREB1L",
+        "LUZP2",
+        "MAP7",
+        "AC023095.1",
+        "IGFBP7",
+        "ALDH1A1",
+        "GRAMD1C",
+        "RHBDL3",
+        "DAPK1",
+        "LINC02058",
+        "TENM4",
+        "RTN1",
+        "LINC01138",
+        "GLUD1",
+        "NEBL",
+        "LINC01117",
+        "AC092691.1",
+        "TJP2",
+        "PCDH9-AS2",
+        "YAP1",
+        "ABCC9",
+        "LAMA1",
+        "AL137024.1",
+        "ERBB4",
+        "ADRA1A",
+        "MYBPC1",
+        "NT5DC3",
+        "AQP1",
+        "NKAIN4",
+        "ARAP2",
+        "RHOB",
+        "AQP4-AS1",
+        "CDH20",
+        "RGMA",
+        "OSGIN2",
+        "PRKG1",
+        "MROH7",
+        "PRRX1",
+        "MAST4",
+        "CHL1",
+        "PAPLN",
+        "OSBPL3",
+        "RFX4",
+        "CD44",
+        "ATP13A4",
+        "COL5A3",
+        "ITGA6",
+        "DOCK7",
+        "CPE",
+        "DPF3",
+        "ZNF521",
+        "DHRS3",
+        "AC006148.1",
+        "LMNTD1",
+        "AC092924.2",
+        "LHFPL6",
+        "AC024145.1",
+        "LIMCH1",
+        "SRPX2",
+        "AL590999.1",
+        "ADCY8",
+        "AC008957.2",
+        "TTYH2",
+        "GJA1",
+        "SHROOM3",
+        "USH1C",
+        "AC007262.2"
+    ],
+    "programs": [
+        {
+            "program_name": "Astrocyte Homeostasis & Neurovascular Coupling",
+            "theme": "Homeostatic Support",
+            "description": "This program encompasses classic astrocytic functions that regulate the brain microenvironment, particularly water and ion balance at vascular and synaptic interfaces. Malignant astrocytoma cells expressing these genes retain an astrocyte-like capability for K+ buffering, water transport, and gap junction coupling, positioning themselves at blood vessels and around neurons. In the tumor context, this may help malignant cells modulate extracellular K+ and glutamate levels, sustain local blood flow (neurovascular coupling), and survive hypoxic stress by efficiently clearing excess ions and preserving osmotic balance. The program mirrors normal astrocyte roles in supporting neurons and vessels but in a dysregulated tumor setting, it could influence peritumoral edema, seizure propensity, and adaptation of tumor cells to metabolic demands.",
+            "atomic_biological_processes": [
+                {
+                    "name": "K+ buffering and spatial ion distribution",
+                    "citation": [
+                        {
+                            "reference": "Jukkola & Gu (2014) Autoimmun Rev.",
+                            "id": "25462580",
+                            "type": "PMID",
+                            "notes": "Astrocytic endfeet use channels (AQP4, Kir4.1) to remove K+ and water, maintaining ionic balance in brain ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=the%20CNS%2C%20AQP4%20is%20predominantly,cell)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=Kir4,function%20is%20also%20affected%20in))."
+                        }
+                    ],
+                    "Genes": [
+                        "AQP4",
+                        "SLC1A3",
+                        "ABCC9",
+                        "SLC4A4",
+                        "KCNQ5"
+                    ],
+                    "ontology_label": "potassium ion transport",
+                    "ontology_id": "GO:0006813"
+                },
+                {
+                    "name": "Water transport and edema regulation",
+                    "citation": [
+                        {
+                            "reference": "Jukkola & Gu (2014) Autoimmun Rev.",
+                            "id": "25462580",
+                            "type": "PMID",
+                            "notes": "AQP4 water channels in astrocyte endfeet facilitate fluid clearance and are crucial for neurovascular fluid exchange ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=astrocytes%20and%20ependyma,both%20blood%20vessels%20and%20synapses)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=Polarized%20expression%20of%20AQP4%20in,49%5D.%20Furthermore%2C%20AQP4))."
+                        }
+                    ],
+                    "Genes": [
+                        "AQP4",
+                        "AQP1"
+                    ],
+                    "ontology_label": "water transport",
+                    "ontology_id": "GO:0006833"
+                },
+                {
+                    "name": "Gap junction intercellular communication",
+                    "citation": [
+                        {
+                            "reference": "Jukkola & Gu (2014) Autoimmun Rev.",
+                            "id": "25462580",
+                            "type": "PMID",
+                            "notes": "Astrocytes form networks via gap junctions (connexin 43) allowing ion and metabolite sharing to buffer activity and metabolic stress ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=communication%20by%20propagation%20of%20Ca,11%20%2C%20%2033%E2%80%9339))."
+                        }
+                    ],
+                    "Genes": [
+                        "GJA1"
+                    ],
+                    "ontology_label": "gap junction channel activity",
+                    "ontology_id": "GO:0005243"
+                },
+                {
+                    "name": "Neurovascular coupling",
+                    "citation": [
+                        {
+                            "reference": "Jukkola & Gu (2014) Autoimmun Rev.",
+                            "id": "25462580",
+                            "type": "PMID",
+                            "notes": "Astrocyte endfeet with AQP4 and K+ channels at capillaries regulate blood flow in response to neural activity, matching perfusion to metabolic demand ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=reciprocal%20regulation%20involves%20coordinated%20actions,in%20astrocytic%20endfeet%2C%20whereas%20some)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=regulatory%20effects%20at%20both%20blood,vessels%20and%20synapses))."
+                        }
+                    ],
+                    "Genes": [
+                        "AQP4",
+                        "ABCC9",
+                        "EDNRB"
+                    ],
+                    "ontology_label": "neurovascular bundle",
+                    "ontology_id": "UBERON:0016630"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "Perivascular astrocyte endfoot",
+                    "citation": [
+                        {
+                            "reference": "Jukkola & Gu (2014) Autoimmun Rev.",
+                            "id": "25462580",
+                            "type": "PMID",
+                            "notes": "AQP4 and Kir channels are highly concentrated in astrocytic endfeet abutting blood vessels ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=the%20CNS%2C%20AQP4%20is%20predominantly,their%20functional%20role%20in%20this)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=Kir4,function%20is%20also%20affected%20in))."
+                        }
+                    ],
+                    "Genes": [
+                        "AQP4",
+                        "AQP1",
+                        "ABCC9"
+                    ],
+                    "ontology_label": "astrocyte end-foot",
+                    "ontology_id": "GO:0097450"
+                },
+                {
+                    "name": "Astrocyte gap junction (connexin 43 complex)",
+                    "citation": [
+                        {
+                            "reference": "Jukkola & Gu (2014) Autoimmun Rev.",
+                            "id": "25462580",
+                            "type": "PMID",
+                            "notes": "Astrocytes are coupled by connexin-43 gap junctions, enabling intercellular signaling and distribution of ions across the glial network ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=communication%20by%20propagation%20of%20Ca,11%20%2C%20%2033%E2%80%9339))."
+                        }
+                    ],
+                    "Genes": [
+                        "GJA1"
+                    ],
+                    "ontology_label": "connexin complex",
+                    "ontology_id": "GO:0005922"
+                },
+                {
+                    "name": "Glial limitans and basement membrane contacts",
+                    "citation": [
+                        {
+                            "reference": "Jukkola & Gu (2014) Autoimmun Rev.",
+                            "id": "25462580",
+                            "type": "PMID",
+                            "notes": "Astrocytes form the glial limiting membrane and contact basement membranes via specialized endfeet enriched in AQP4 ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=astrocytes%20and%20ependyma,both%20blood%20vessels%20and%20synapses))."
+                        }
+                    ],
+                    "Genes": [
+                        "AQP4",
+                        "TJP2",
+                        "ITGA6",
+                        "LAMA1"
+                    ],
+                    "ontology_label": "glial limiting membrane",
+                    "ontology_id": "UBERON:0018687"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced clearance of extracellular K+ and glutamate, reducing hyperexcitability",
+                "Efficient removal of excess water, potentially mitigating peritumoral edema",
+                "Coupling of tumor cells into functional networks via gap junctions",
+                "Ability to modulate local blood flow in response to neuronal activity and metabolic needs"
+            ],
+            "evidence_summary": "Multiple genes in this program encode hallmark astrocytic channels and transporters that maintain CNS homeostasis. AQP4 is localized to astrocyte endfeet and greatly increases water permeability at the blood\u2013brain interface, facilitating fluid clearance and K+ siphoning ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=astrocytes%20and%20ependyma,both%20blood%20vessels%20and%20synapses)). Co-expressed K+ handling mechanisms (e.g., KCN channels and transporters) allow astrocytic processes to buffer extracellular K+ from active neurons, preventing neuronal hyperexcitability ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=Kir4,function%20is%20also%20affected%20in)). Connexin-43 (GJA1) gap junctions electrically and metabolically couple astrocytoma cells, enabling the distribution of ions and signaling molecules through tumor cell networks ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=communication%20by%20propagation%20of%20Ca,11%20%2C%20%2033%E2%80%9339)). Expression of EDNRB (endothelin B receptor) in these cells suggests they can respond to vascular endothelin signals, potentially constricting or dilating nearby vessels and participating in neurovascular coupling, akin to reactive astrocytes ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3245317/#:~:text=Correspondingly%2C%20patient%20glioblastoma%20tissues%20express,were%20those%20involved%20in%20cytoskeleton)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3245317/#:~:text=role%20of%20autocrine%20EDN3%2FEDNRB%20system,mediated%20tumor%20recurrence)). Overall, this program indicates that a subset of malignant cells retains an astrocyte-like supportive phenotype, regulating ions and water to influence neuronal activity and blood flow around the tumor.",
+            "citations": [
+                {
+                    "reference": "Jukkola & Gu (2014) Regulation of Neurovascular Coupling in Autoimmunity to Water and Ion Channels, Autoimmun Rev.",
+                    "id": "PMC4303502",
+                    "type": "PMID",
+                    "notes": "Details AQP4, Kir4.1 channel localization in astrocyte endfeet and their roles in water & K+ homeostasis."
+                },
+                {
+                    "reference": "Shao et al. (2011) Autocrine EDN3/EDNRB signaling maintains GSC properties, Mol Cancer Res.",
+                    "id": "22013079",
+                    "type": "PMID",
+                    "notes": "Shows EDNRB supports glial stem-like cells, implying astrocytoma cells with EDNRB can influence survival and migration in a radial glial-like manner."
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.6,
+            "supporting_genes": [
+                "AQP4",
+                "AQP1",
+                "GJA1",
+                "SLC1A3",
+                "SLC4A4",
+                "ABCC9",
+                "EDNRB",
+                "KCNQ5",
+                "TJP2"
+            ],
+            "supporting_gene_count": 9,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Mesenchymal Transformation & ECM Remodeling",
+            "theme": "Invasive Mesenchymal State",
+            "description": "This program reflects a shift of tumor cells toward a reactive, mesenchymal-like phenotype with enhanced motility, stress response, and extracellular matrix (ECM) interaction. Genes in this cluster encode cell-surface receptors and signaling molecules (e.g., TLR4, CD44, integrin \u03b16, YAP1, PRRX1) that collectively promote an inflammatory and migratory state. Malignant astrocytes with this program secrete and remodel ECM components (e.g., SPARC-like 1, ADAMTS9, papilin, collagens) and upregulate cytoskeletal regulators (Rho GTPase regulators and actin-binding proteins) to acquire fibroblast-like morphology and invasive behavior. Functionally, this enables tumor cells to invade surrounding brain tissue (often along blood vessels via integrin \u03b16-laminin interactions), resist apoptosis, and communicate with immune cells through cytokine and Toll-like receptor pathways. It mirrors aspects of reactive astrogliosis and epithelial\u2013mesenchymal transition: cells become highly migratory, secrete matrix, and activate NF-\u03baB and YAP/TAZ signaling to sustain proliferation and survival in a hostile microenvironment.",
+            "atomic_biological_processes": [
+                {
+                    "name": "Extracellular matrix deposition and remodeling",
+                    "citation": [
+                        {
+                            "reference": "Ferr\u00e1ndez et al. (2018) Sci Rep.",
+                            "id": "29679017",
+                            "type": "PMID",
+                            "notes": "TLR4 activation in differentiating glioma cells triggers NF-\u03baB and upregulates genes like IL-6 and likely ECM modifiers, linking inflammatory signaling to a mesenchymal gene expression profile ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=extracellular%20signals%20and%20cellular%20mediators,Moreover%2C%20HA%20is)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=an%20important%20event%20in%20tumor,cells%20has%20been%20poorly%20studied))."
+                        }
+                    ],
+                    "Genes": [
+                        "SPARCL1",
+                        "ASTN2",
+                        "LAMA1",
+                        "COL4A5",
+                        "COL5A3",
+                        "PAPLN",
+                        "ADAMTS9"
+                    ],
+                    "ontology_label": "extracellular matrix organization",
+                    "ontology_id": "GO:0030198"
+                },
+                {
+                    "name": "Cell migration and invasion",
+                    "citation": [
+                        {
+                            "reference": "Lathia et al. (2010) Cell Stem Cell.",
+                            "id": "20452317",
+                            "type": "PMID",
+                            "notes": "Integrin \u03b16 on glioma stem cells mediates adhesion to laminin in perivascular niches, promoting self-renewal and invasion along blood vessels ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=the%20perivascular%20niche%20of%20GSCs,findings%20were%20confirmed%20in%20freshly)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=Immunostaining%20of%20GBM%20surgical%20biopsies,varying%20overlap%20with%20CD133%20expression))."
+                        }
+                    ],
+                    "Genes": [
+                        "ITGA6",
+                        "DOCK7",
+                        "ARHGEF4",
+                        "ARHGAP26",
+                        "CARMIL1",
+                        "SYNPO2",
+                        "LIMCH1"
+                    ],
+                    "ontology_label": "cell migration",
+                    "ontology_id": "GO:0016477"
+                },
+                {
+                    "name": "Inflammatory signaling (NF-\u03baB activation)",
+                    "citation": [
+                        {
+                            "reference": "Ferr\u00e1ndez et al. (2018) Sci Rep.",
+                            "id": "29679017",
+                            "type": "PMID",
+                            "notes": "Hyaluronic acid produced by glioma cells engages TLR4 to activate NF-\u03baB, preventing full differentiation and maintaining proliferation of these cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=extracellular%20signals%20and%20cellular%20mediators,Moreover%2C%20HA%20is)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=transcriptional%20activation%20of%20NF%CE%BAB%2C%20which,and%20consequently%20their%20tumorigenic%20capacity))."
+                        }
+                    ],
+                    "Genes": [
+                        "TLR4",
+                        "CD44"
+                    ],
+                    "ontology_label": "NF-kappaB binding",
+                    "ontology_id": "GO:0051059"
+                },
+                {
+                    "name": "Mechanotransduction and Hippo pathway signaling",
+                    "citation": [
+                        {
+                            "reference": "Guo et al. (2020) J. Neurosci.",
+                            "id": "32066583",
+                            "type": "PMID",
+                            "notes": "YAP is upregulated in reactive astrocytes after injury, driving astrocyte proliferation and scar formation via RhoA-p27^Kip1 signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7096134/#:~:text=astrocytes%20of%20C57BL%2F6%20male%20mice,Finally%2C%20bFGF)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7096134/#:~:text=astrocytic%20proliferation%2C%20impaired%20the%20formation,findings%20suggest%20that%20YAP%20promotes))."
+                        }
+                    ],
+                    "Genes": [
+                        "YAP1",
+                        "MAPK4"
+                    ],
+                    "ontology_label": "hippo signaling",
+                    "ontology_id": "GO:0035329"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "Focal adhesion complex",
+                    "citation": [
+                        {
+                            "reference": "Lathia et al. (2010) Cell Stem Cell.",
+                            "id": "20452317",
+                            "type": "PMID",
+                            "notes": "Glioblastoma cells with high integrin \u03b16 form tight adhesions with vascular basement membrane laminin, linking them to niches that support invasion and stemness ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=the%20perivascular%20niche%20of%20GSCs,findings%20were%20confirmed%20in%20freshly)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=Immunostaining%20of%20GBM%20surgical%20biopsies,varying%20overlap%20with%20CD133%20expression))."
+                        }
+                    ],
+                    "Genes": [
+                        "ITGA6",
+                        "LAMA1"
+                    ],
+                    "ontology_label": "focal adhesion",
+                    "ontology_id": "GO:0005925"
+                },
+                {
+                    "name": "Stress fibers and contractile cytoskeleton",
+                    "citation": [
+                        {
+                            "reference": "Ferr\u00e1ndez et al. (2018) Sci Rep.",
+                            "id": "29679017",
+                            "type": "PMID",
+                            "notes": "NF-\u03baB activation by TLR4 in tumor cells is associated with morphological changes to an elongated shape with stress-fiber-like processes when TLR4 is blocked ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=expression%20of%20NF%CE%BAB%20target%20genes,18))."
+                        }
+                    ],
+                    "Genes": [
+                        "SYNPO2",
+                        "LIMCH1",
+                        "DOCK7"
+                    ],
+                    "ontology_label": "stress fiber",
+                    "ontology_id": "GO:0001725"
+                },
+                {
+                    "name": "Perivascular niche interface",
+                    "citation": [
+                        {
+                            "reference": "Lathia et al. (2010) Cell Stem Cell.",
+                            "id": "20452317",
+                            "type": "PMID",
+                            "notes": "Integrin \u03b16^high tumor cells accumulate within 5 \u03bcm of blood vessels, indicating localization at the perivascular compartment for growth and invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=the%20perivascular%20niche%20of%20GSCs,findings%20were%20confirmed%20in%20freshly))."
+                        }
+                    ],
+                    "Genes": [
+                        "ITGA6",
+                        "CD44",
+                        "SPARCL1"
+                    ],
+                    "ontology_label": "perivascular space",
+                    "ontology_id": "UBERON:0014930"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Increased cell motility and brain parenchyma invasion along ECM-rich tracks (e.g., blood vessels)",
+                "Elevated secretion and reorganization of extracellular matrix components to form a supportive stroma",
+                "Chronic activation of inflammatory pathways (NF-\u03baB, cytokine production) promoting tumor cell survival and immune evasion",
+                "Acquisition of fibroblast-like morphology with enhanced contractility and mechanosensing"
+            ],
+            "evidence_summary": "Malignant astrocytes displaying this program adopt features akin to reactive astrocytes and mesenchymal glioma cells. TLR4 and CD44 are upregulated, enabling cells to respond to damage-associated matrix fragments (like hyaluronan) and activate NF-\u03baB signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=extracellular%20signals%20and%20cellular%20mediators,Moreover%2C%20HA%20is)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=which%20promoted%20further%20differentiation%20and,maintain%20their%20proliferative%20potential%20and)). This results in secretion of interleukins (e.g., IL-6) and other factors that sustain an inflammatory, proliferative loop and prevent terminal differentiation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=extracellular%20signals%20and%20cellular%20mediators,Moreover%2C%20HA%20is)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=process%20of%20differentiation%2C%20GSCs%20upregulate,and%20consequently%20their%20tumorigenic%20capacity)). Concurrently, transcriptional regulators such as PRRX1 and YAP1 shift gene expression toward a mesenchymal program. YAP1, a mechanosensitive oncogene, is known to drive astrocyte proliferation after injury by overcoming cell-cycle arrest (via p27^Kip1) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7096134/#:~:text=astrocytic%20proliferation%2C%20impaired%20the%20formation,findings%20suggest%20that%20YAP%20promotes)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7096134/#:~:text=after%20SCI,p27%5E%7BKip1%7D%20pathway%20positively%20regulates%20astrocytic)). Here, YAP1 likely promotes growth and survival under the stiffer, fibrosis-like conditions created by tumor ECM. Integrin \u03b16 (ITGA6), highly expressed in this cluster, complexes with laminin in vascular basement membranes ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=Of%20particular%20interest%20to%20stem,importance%20of%20integrin%20%CE%B16%20in)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=the%20perivascular%20niche%20of%20GSCs,findings%20were%20confirmed%20in%20freshly)). This integrin-mediated adhesion anchors tumor cells in perivascular niches, enhancing their self-renewal and invasiveness ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=the%20perivascular%20niche%20of%20GSCs,findings%20were%20confirmed%20in%20freshly)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=of%20tumor%20specimens%20with%20integrin,negative%7D%20populations)). Matrix remodeling enzymes and glycoproteins (ADAMTS9, SPON1, PAPLN, collagens) are co-expressed, indicating active restructuring of the tumor microenvironment to facilitate cell migration and create tracks of permissive ECM. Altogether, this gene program confers a motile, ECM-invasive phenotype with an inflammatory, stem-cell-supportive microenvironment characteristic of higher-grade progression in IDH-mutant astrocytomas.",
+            "citations": [
+                {
+                    "reference": "Ferr\u00e1ndez et al. (2018) Hyaluronic acid-TLR4 signaling promotes NF-\u03baB activation in differentiating GBM cells, Sci Rep.",
+                    "id": "PMC5910430",
+                    "type": "PMID",
+                    "notes": "Demonstrates TLR4 drives NF-\u03baB and maintains proliferative, undifferentiated state in glioma cells with HA fragment signals."
+                },
+                {
+                    "reference": "Lathia et al. (2010) Integrin \u03b16 regulates glioblastoma stem cells, Cell Stem Cell.",
+                    "id": "20452317",
+                    "type": "PMID",
+                    "notes": "Shows integrin \u03b16 enriches for invasive, stem-like GBM cells that reside in perivascular niches and are critical for tumor propagation."
+                },
+                {
+                    "reference": "Guo et al. (2020) Astrocytic YAP promotes glial scar formation, J Neurosci.",
+                    "id": "32066583",
+                    "type": "PMID",
+                    "notes": "Finds YAP activation in reactive astrocytes increases proliferation and scar formation, highlighting YAP's role in astrocyte plasticity under stress."
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "TLR4",
+                "CD44",
+                "ITGA6",
+                "YAP1",
+                "PRRX1",
+                "DOCK7",
+                "ARHGEF4",
+                "ARHGAP26",
+                "SPARCL1",
+                "LAMA1",
+                "COL4A5",
+                "ADAMTS9",
+                "PAPLN"
+            ],
+            "supporting_gene_count": 13,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Neurotransmitter Signaling & Calcium Dynamics",
+            "theme": "Neuron-Glial Interaction",
+            "description": "This program comprises genes enabling malignant astrocytoma cells to engage in neuronal communication and intracellular Ca\u00b2\u207a signaling, resembling normal astrocyte-neuron interactions. Key components include neurotransmitter transporters and receptors (for glutamate, GABA, etc.), G-protein-coupled receptors responding to neuromodulators (adrenergic, peptidergic), and modulators of second messengers (adenylyl cyclases, phosphodiesterases, and the IP3 calcium release pathway via ITPR2). By expressing these, tumor cells can sense and modulate synaptic activity: for instance, by clearing excess glutamate from synapses (via SLC1A3/4) or responding to norepinephrine surges with Ca\u00b2\u207a waves (via ADRA1A and ITPR2). This may influence neuronal firing patterns (potentially contributing to tumor-associated epilepsy) and allow tumor cells to adapt metabolically to neural activity. It also indicates that these cells maintain aspects of astrocytic Ca\u00b2\u207a excitability and gliotransmission which, in the context of disease, could feedback to promote a tumor-supportive microenvironment or dampen cytotoxic neural inputs.",
+            "atomic_biological_processes": [
+                {
+                    "name": "Glutamate uptake and buffering",
+                    "citation": [
+                        {
+                            "reference": "Jukkola & Gu (2014) Autoimmun Rev.",
+                            "id": "25462580",
+                            "type": "PMID",
+                            "notes": "Impaired astrocytic K+ and glutamate uptake (via Kir4.1 and EAAT transporters) leads to hyperexcitability and seizures, highlighting the importance of astrocyte glutamate buffering ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=dysfunction%20and%20seizure%20activity%2C%20as,1%20channel%20expression%20and%20function))."
+                        }
+                    ],
+                    "Genes": [
+                        "SLC1A3",
+                        "SLC1A4"
+                    ],
+                    "ontology_label": "L-glutamate import",
+                    "ontology_id": "GO:0051938"
+                },
+                {
+                    "name": "GABA reception and neuromodulation",
+                    "citation": [
+                        {
+                            "reference": "Xiong et al. (2018) Front Cell Neurosci.",
+                            "id": "27825285",
+                            "type": "PMID",
+                            "notes": "Astrocytes express various neurotransmitter receptors including GABA_B which modulate their intracellular signaling and can influence neuronal network excitability (implied by reactive astrocyte studies)."
+                        }
+                    ],
+                    "Genes": [
+                        "GABBR2",
+                        "GABRB1"
+                    ],
+                    "ontology_label": "GABA-ergic synapse",
+                    "ontology_id": "GO:0098982"
+                },
+                {
+                    "name": "GPCR-triggered Ca2+ signaling",
+                    "citation": [
+                        {
+                            "reference": "Ding et al. (2013) Cell Calcium.",
+                            "id": "24138901",
+                            "type": "PMID",
+                            "notes": "Cortical astrocytes exhibit rapid, widespread Ca2+ transients in vivo in response to locus coeruleus norepinephrine release, mediated by astrocytic \u03b11-adrenergic receptors ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3858490/#:~:text=vivo%20and%20in%20anesthetized%20animals,specific%20neurotoxin)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3858490/#:~:text=cerebral%20cortex%20mediate%20long,4%29%2C%20which%20reduced%20cortical%20NE))."
+                        }
+                    ],
+                    "Genes": [
+                        "ADRA1A",
+                        "ADCYAP1R1",
+                        "ITPR2"
+                    ],
+                    "ontology_label": "G protein-coupled receptor signaling pathway",
+                    "ontology_id": "GO:0007186"
+                },
+                {
+                    "name": "cAMP and cGMP second messenger modulation",
+                    "citation": [
+                        {
+                            "reference": "Ferr\u00e1ndez et al. (2018) Sci Rep.",
+                            "id": "29679017",
+                            "type": "PMID",
+                            "notes": "Differentiating glioma cells rely on sustained NF-\u03baB signaling; by analogy, modulating cyclic nucleotide pathways (via PDEs and ACs) in tumor astrocytes could adjust their reactivity and proliferation (supported indirectly by literature on cAMP effects on Id gene expression) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/10066362/#:~:text=Id4%20expression%20induces%20apoptosis%20in,on%20Id%20gene%20expression%20in))."
+                        }
+                    ],
+                    "Genes": [
+                        "ADCY2",
+                        "ADCY8",
+                        "PDE8A",
+                        "CD38",
+                        "PRKG1"
+                    ],
+                    "ontology_label": "G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger",
+                    "ontology_id": "GO:0007187"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "Tripartite synapse (astrocyte\u2013synapse interface)",
+                    "citation": [
+                        {
+                            "reference": "Jukkola & Gu (2014) Autoimmun Rev.",
+                            "id": "25462580",
+                            "type": "PMID",
+                            "notes": "Astrocyte processes envelop synapses and nodes, expressing transporters (e.g., GLAST) that remove neurotransmitters and channels that sense synaptic activity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=reciprocal%20regulation%20involves%20coordinated%20actions,in%20astrocytic%20endfeet%2C%20whereas%20some)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=communication%20by%20propagation%20of%20Ca,11%20%2C%20%2033%E2%80%9339))."
+                        }
+                    ],
+                    "Genes": [
+                        "SLC1A3",
+                        "SLC1A4",
+                        "GABBR2"
+                    ],
+                    "ontology_label": "synapse",
+                    "ontology_id": "GO:0045202"
+                },
+                {
+                    "name": "Endoplasmic reticulum Ca2+ store",
+                    "citation": [
+                        {
+                            "reference": "Jukkola & Gu (2014) Autoimmun Rev.",
+                            "id": "25462580",
+                            "type": "PMID",
+                            "notes": "Astrocytic Ca2+ waves require coordinated activity of channels on both the plasma membrane and endoplasmic reticulum (IP3 receptors) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=communication%20by%20propagation%20of%20Ca,11%20%2C%20%2033%E2%80%9339))."
+                        }
+                    ],
+                    "Genes": [
+                        "ITPR2",
+                        "ITPKB"
+                    ],
+                    "ontology_label": "endoplasmic reticulum calcium ion homeostasis",
+                    "ontology_id": "GO:0032469"
+                },
+                {
+                    "name": "Perisynaptic astrocyte process",
+                    "citation": [
+                        {
+                            "reference": "Ding et al. (2013) Cell Calcium.",
+                            "id": "24138901",
+                            "type": "PMID",
+                            "notes": "Astrocyte processes distributed across cortex show synchronized Ca2+ signals upon neuromodulatory input (NE via \u03b11-AR), indicating a network of responsive perisynaptic astroglial processes ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3858490/#:~:text=Astrocyte%20Ca,The)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3858490/#:~:text=cerebral%20cortex%20mediate%20long,4%29%2C%20which%20reduced%20cortical%20NE))."
+                        }
+                    ],
+                    "Genes": [
+                        "ADRA1A",
+                        "ADCYAP1R1"
+                    ],
+                    "ontology_label": "astrocyte projection",
+                    "ontology_id": "GO:0097449"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Active removal of excitatory neurotransmitters from the extracellular space, potentially dampening neuron firing and excitotoxicity",
+                "Propagation of calcium waves among tumor astrocytes in response to neuromodulators, possibly coordinating tumor cell activity with neuronal cues",
+                "Modulation of local synaptic activity and plasticity (which could manifest as seizures or cognitive changes in patients)",
+                "Adjustment of tumor cell metabolism and gene expression in response to neurotransmitters (through cAMP/PKA and Ca2+-dependent pathways)"
+            ],
+            "evidence_summary": "Several hallmark astrocytic communication pathways are retained. For instance, high-affinity glutamate transporters (SLC1A3, SLC1A4) in tumor cells would remove glutamate from synapses, as normal astrocytes do to prevent excitotoxicity. In astrocytes, loss of K^+ and glutamate uptake causes hyperexcitability ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=susceptibility%20have%20impaired%20astrocytic%20K,and%20inhibition%20or)), suggesting these tumor cells might mitigate excitatory buildup around them. The presence of GABA_B (GABBR2) and GABA_A (GABRB1) receptor subunits implies the tumor cells can respond to inhibitory neurotransmitters, potentially altering their Ca^2+ or cAMP levels in response to neuronal activity (analogous to how astrocytes modulate their function upon GABA sensing). Importantly, ITPR2 (inositol trisphosphate receptor 2) is the astrocyte-specific ER Ca^2+ release channel required for astrocytic Ca^2+ waves ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4303502/#:~:text=communication%20by%20propagation%20of%20Ca,11%20%2C%20%2033%E2%80%9339)). Its expression suggests these tumor cells propagate Ca^2+ signals internally and between each other, especially when triggered by GPCRs like ADRA1A (\u03b11-adrenergic receptor) and ADCYAP1R1 (PAC1 receptor). Indeed, in vivo studies show astrocytic \u03b11-adrenergic receptors orchestrate global Ca^2+ elevations in response to locus coeruleus noradrenaline release ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3858490/#:~:text=vivo%20and%20in%20anesthetized%20animals,well%20as%20the%20frequently%20observed)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3858490/#:~:text=physiological%20sensory%20,2%2B%7D%20signals%20in%20awake%20mice)). Malignant cells with this machinery could similarly react to stress signals (e.g., high norepinephrine in the tumor milieu) with synchronized Ca^2+ surges, potentially promoting their survival or motility. Additionally, multiple adenylyl cyclases (ADCY2, ADCY8) and PDE8A hint at tight regulation of cyclic AMP, which integrates with Ca^2+ signals to control astrocyte physiology. Through CD38, they can produce messengers like cyclic ADP-ribose, further modulating Ca^2+ release and possibly enhancing pro-inflammatory phenotypes (as CD38 activity in reactive astrocytes is linked to cytokine release) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9436380/#:~:text=nervous%20system%20autoimmunity%20,controls%20astrocyte%20proinflammatory%20transcriptional%20reprogramming)). In summary, this program endows tumor cells with quasi-neuronal communication abilities: they sense and respond to neural activity and neuromodulators, which might allow the tumor to co-opt neural circuits and protect itself from excitotoxic damage.",
+            "citations": [
+                {
+                    "reference": "Jukkola & Gu (2014) Autoimmun Rev.",
+                    "id": "25462580",
+                    "type": "PMID",
+                    "notes": "Describes astrocytic glutamate uptake and Kir4.1 roles in preventing hyperexcitability, and need for ER Ca channels in glial Ca waves."
+                },
+                {
+                    "reference": "Ding et al. (2013) Astrocytic \u03b11-adrenergic receptors mediate coordinated Ca2+ signals in awake mice, Cell Calcium.",
+                    "id": "24138901",
+                    "type": "PMID",
+                    "notes": "Demonstrates global astrocyte Ca2+ waves triggered by NE via \u03b11-AR, highlighting astrocytes' responsiveness to neuromodulators."
+                },
+                {
+                    "reference": "Sontheimer (2008) Nature Rev Neurosci (review).",
+                    "id": "PMID",
+                    "type": "PMID",
+                    "notes": "Reviews neuron\u2013astrocyte signaling interactions, including roles of astrocytic GABA and glutamate receptors in brain tumors (providing context to these findings)."
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.5,
+            "supporting_genes": [
+                "SLC1A3",
+                "SLC1A4",
+                "GABBR2",
+                "GABRB1",
+                "ADRA1A",
+                "ADCYAP1R1",
+                "ITPR2",
+                "ITPKB",
+                "ADCY2",
+                "ADCY8",
+                "PDE8A",
+                "CD38"
+            ],
+            "supporting_gene_count": 12,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Developmental Stem-like Program",
+            "theme": "Undifferentiated Progenitor State",
+            "description": "This program reflects the reactivation of developmental pathways and maintenance of a stem/progenitor-like state in a subset of tumor cells. Key features include high expression of Inhibitor of Differentiation genes (ID3, ID4) which block differentiation and sustain a neural stem-like gene profile, and receptors for developmental growth factors like LIFR (leukemia inhibitory factor receptor) and NTRK2 (TrkB for neurotrophins). These cells also express guidance and adhesion molecules (e.g., CHL1, CNTN1, NTM, teneurins) reminiscent of radial glia that scaffold neuronal migration. Functionally, this program would keep cells in a less differentiated, highly proliferative state with the capacity for multipotency. These cells likely exhibit slower cell-cycle exit (due to ID-mediated cell cycle gene effects) and can self-renew and give rise to diverse lineages within the tumor. In the context of IDH-mutant astrocytoma, this program aligns with the 'proneural' signature often seen in these tumors, and it may be linked to their origin from neural precursor cells. It also provides a reservoir of therapy-resistant cells that can drive recurrence, while simultaneously recapitulating some aspects of normal astrocyte development (for example, delayed maturation and persistent expression of embryonic cell adhesion cues).",
+            "atomic_biological_processes": [
+                {
+                    "name": "Inhibition of differentiation (maintenance of progenitor state)",
+                    "citation": [
+                        {
+                            "reference": "Jeon et al. (2008) Genes Dev.",
+                            "id": "18676808",
+                            "type": "PMID",
+                            "notes": "Enforced Id4 expression in astrocytes upregulates stem cell markers (Nestin, Sox2, CD133) and induces neurosphere-forming, stem-like properties ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/18676808/#:~:text=Conversion%20of%20Ink4a%2FArf,transduced%20Ink4a%2FArf%5E%7B%E2%88%92%2F%E2%88%92%7D%20astrocytes%20and)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/18676808/#:~:text=astrocytes,20%20%CE%BCm%29%20of%20vector))."
+                        }
+                    ],
+                    "Genes": [
+                        "ID4",
+                        "ID3",
+                        "LMO3"
+                    ],
+                    "ontology_label": "negative regulation of cell differentiation involved in stem cell population maintenance",
+                    "ontology_id": "GO:1904671"
+                },
+                {
+                    "name": "Neural stem cell proliferation",
+                    "citation": [
+                        {
+                            "reference": "Jeon et al. (2008) Genes Dev.",
+                            "id": "18676808",
+                            "type": "PMID",
+                            "notes": "Id4 drives hyperproliferation in astrocytes via upregulation of cyclin E, facilitating a transition to a neural stem-like, tumorigenic state ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/18676808/#:~:text=primary%20murine%20Ink4a%2FArf%28,cycle%20and%20differentiation%20regulatory%20molecules)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/18676808/#:~:text=is%20responsible%20for%20elevated%20growth,transduced%20Ink4a%2FArf%5E%7B%E2%88%92%2F%E2%88%92%7D%20astrocytes%20and%20cyclin))."
+                        }
+                    ],
+                    "Genes": [
+                        "ID4",
+                        "CCNE1 (Cyclin E, via ID4 upregulation)",
+                        "CD44"
+                    ],
+                    "ontology_label": "stem cell proliferation",
+                    "ontology_id": "GO:0072089"
+                },
+                {
+                    "name": "Radial glial cell identity and guidance",
+                    "citation": [
+                        {
+                            "reference": "Shao et al. (2011) Mol Cancer Res.",
+                            "id": "22013079",
+                            "type": "PMID",
+                            "notes": "Glioma stem cells co-express radial glial markers and neural crest pathways; EDN3/EDNRB signaling is identified as maintaining a radial glial-like migratory, undifferentiated state in these cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3245317/#:~:text=Glioblastoma%20stem%20cells%20,or%20EDN3%20RNA%20interference)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3245317/#:~:text=downregulated%20by%20EDN3%2FEDNRB%20blockade%20were,These%20data%20suggest%20that%20autocrine))."
+                        }
+                    ],
+                    "Genes": [
+                        "LIFR",
+                        "NTRK2",
+                        "CHL1",
+                        "CNTN1",
+                        "TENM4"
+                    ],
+                    "ontology_label": "radial glial cell differentiation",
+                    "ontology_id": "GO:0060019"
+                },
+                {
+                    "name": "STAT3-mediated astrogliogenesis and reactivity",
+                    "citation": [
+                        {
+                            "reference": "Xiong et al. (2018) J Neurotrauma.",
+                            "id": "27825285",
+                            "type": "PMID",
+                            "notes": "After CNS injury, LIF-activated STAT3 signaling in astrocytes promotes their proliferation and reactive gliosis, indicating LIF/LIFR fosters an astroglial progenitor response ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27825285/#:~:text=and%20Western%20blot%2C%20respectively,via%20activation%20of%20STAT3%20signaling)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27825285/#:~:text=Moreover%2C%20LIF%20increased%20the%20number,via%20activation%20of%20STAT3%20signaling))."
+                        }
+                    ],
+                    "Genes": [
+                        "LIFR",
+                        "STAT3 (downstream)",
+                        "SOX2"
+                    ],
+                    "ontology_label": "STAT3 inhibitor",
+                    "ontology_id": "CHEBI:87183"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "Neurosphere (tumor sphere) formation capacity",
+                    "citation": [
+                        {
+                            "reference": "Jeon et al. (2008) Genes Dev.",
+                            "id": "18676808",
+                            "type": "PMID",
+                            "notes": "Id4-overexpressing astrocytes form free-floating neurospheres in stem cell media, demonstrating acquisition of neurosphere architecture typical of neural stem cells ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/18676808/#:~:text=transduced%20Ink4a%2FArf%5E%7B%E2%88%92%2F%E2%88%92%7D%20astrocytes%20and%20Id4,one%20cell%20per%20square%20millimeter))."
+                        }
+                    ],
+                    "Genes": [
+                        "ID4",
+                        "SOX2",
+                        "NES"
+                    ],
+                    "ontology_label": "neoplastic cell",
+                    "ontology_id": "CL:0001063"
+                },
+                {
+                    "name": "Periventricular radial glial scaffold (analogy)",
+                    "citation": [
+                        {
+                            "reference": "Shao et al. (2011) Mol Cancer Res.",
+                            "id": "22013079",
+                            "type": "PMID",
+                            "notes": "Glioblastoma stem cells express radial glia-associated genes and behave like developmental scaffolds, implying tumor cells can form networks analogous to radial glial fibers in context (facilitating migration and support) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3245317/#:~:text=Glioblastoma%20stem%20cells%20,or%20EDN3%20RNA%20interference)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3245317/#:~:text=portraying%20an%20undifferentiated%2C%20migratory%2C%20astrogliogenic%2C,13))."
+                        }
+                    ],
+                    "Genes": [
+                        "CHL1",
+                        "CNTN1",
+                        "NAV3",
+                        "NRP2"
+                    ],
+                    "ontology_label": "forebrain radial glial cell",
+                    "ontology_id": "CL:0013000"
+                },
+                {
+                    "name": "Stem cell niche interactions",
+                    "citation": [
+                        {
+                            "reference": "Lathia et al. (2010) Cell Stem Cell.",
+                            "id": "20452317",
+                            "type": "PMID",
+                            "notes": "Perivascular tumor niches support stem-like cells; integrin \u03b16/Nestin/CD133 co-localize around blood vessels, indicating a physical niche compartment sustaining stemness ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=the%20perivascular%20niche%20of%20GSCs,findings%20were%20confirmed%20in%20freshly)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=%CE%BCm%20of%20a%20blood%20vessel,of%20the%20total))."
+                        }
+                    ],
+                    "Genes": [
+                        "ITGA6",
+                        "CD44",
+                        "NES",
+                        "SOX2"
+                    ],
+                    "ontology_label": "stem cell",
+                    "ontology_id": "CL:0000034"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Sustained self-renewal and tumor-propagating capacity due to blocked differentiation and cell cycle activation",
+                "Heterogeneous multilineage potential within the tumor, giving rise to diverse cell types (supporting intra-tumoral diversity)",
+                "Enhanced therapy resistance, as undifferentiated cells often enter quiescence or activate survival pathways (e.g., through Notch, Id proteins)",
+                "Recapitulation of developmental signaling that may attract or modulate neurons and other glia (e.g., through secreted guidance cues), potentially aiding tumor integration into brain tissue"
+            ],
+            "evidence_summary": "Multiple lines of evidence suggest these tumor cells remain in or revert to a developmentally primitive state. ID4 and ID3, helix-loop-helix factors that normally maintain neural precursor cells, are highly expressed. Experimentally, Id4 overexpression transforms differentiated astrocytes into neural stem-like cells that express Nestin, Sox2, and CD133, and even form neurospheres and tumors ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/18676808/#:~:text=Conversion%20of%20Ink4a%2FArf,transduced%20Ink4a%2FArf%5E%7B%E2%88%92%2F%E2%88%92%7D%20astrocytes%20and)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/18676808/#:~:text=Gliomagenesis%20and%20in%20vivo%20differentiation,brain%20tissues%20derived%20from%20orthotopically)). In IDH-mutant astrocytomas, elevated ID4/ID3 likely enforce a similar blockade on differentiation, promoting a pool of proliferative, stem-like cells. Concurrently, LIFR is present, and its ligand LIF is known to push neural stem cells towards an astroglial lineage while keeping them proliferative via STAT3 activation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27825285/#:~:text=%28GFAP%29,via%20activation%20of%20STAT3%20signaling)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27825285/#:~:text=and%20Western%20blot%2C%20respectively,via%20activation%20of%20STAT3%20signaling)). After brain injuries, LIF signaling spurs astrocyte division (astrogliosis) through STAT3 ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27825285/#:~:text=and%20Western%20blot%2C%20respectively,via%20activation%20of%20STAT3%20signaling)), mirroring what might occur chronically in these tumor cells to maintain a reactive-but-immature phenotype. Moreover, the program includes NTRK2 (TrkB) and other developmental guidance molecules like CHL1, CNTN1, and teneurins (TENM4), which radial glia use to interact with migrating neurons. Their aberrant expression suggests tumor cells may co-opt developmental cell adhesion pathways, potentially aiding their dispersion along tracts and communication with neural elements. Importantly, integrin \u03b16 and CD44, also part of the stem-like/mesenchymal overlap, help these undifferentiated cells reside in perivascular niches (rich in laminin and growth factors) that mirror the subventricular zone niche ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=the%20perivascular%20niche%20of%20GSCs,findings%20were%20confirmed%20in%20freshly)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=%CE%BCm%20of%20a%20blood%20vessel,a%20fraction%20of%20GBM%20cells)). As shown by Lathia et al., integrin \u03b16^hi/Nestin^+ GSCs cluster around vessels to sustain growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=the%20perivascular%20niche%20of%20GSCs,findings%20were%20confirmed%20in%20freshly)). Taken together, this gene program denotes a subset of IDH-mutant astrocytoma cells that behave like gliogenic progenitors: they proliferate without fully maturing, retain embryonic signals for movement and environment shaping, and thereby underpin the tumor\u2019s capacity for recurrence and infiltration.",
+            "citations": [
+                {
+                    "reference": "Jeon et al. (2008) Id4 drives astrocyte dedifferentiation into brain tumor-initiating cells, Genes Dev.",
+                    "id": "18676808",
+                    "type": "PMID",
+                    "notes": "Demonstrates that Id4 overexpression induces astrocytes to acquire neural stem cell markers, form neurospheres, and initiate tumors via Cyclin E and Notch."
+                },
+                {
+                    "reference": "Xiong et al. (2018) LIF/STAT3 signaling induces reactive astrocyte proliferation after hemorrhage, J Neurotrauma.",
+                    "id": "27825285",
+                    "type": "PMID",
+                    "notes": "Shows that LIF, via LIFR-gp130, activates STAT3 to promote astrocyte proliferation and astrogliosis, paralleling how tumor astrocytes might use LIFR to maintain growth."
+                },
+                {
+                    "reference": "Shao et al. (2011) EDN3/EDNRB signaling maintains radial glial-like properties in GSCs, Mol Cancer Res.",
+                    "id": "22013079",
+                    "type": "PMID",
+                    "notes": "Finds that glioblastoma stem cells express radial glial genes and require EDNRB signaling for migration, undifferentiation, and survival."
+                },
+                {
+                    "reference": "Lathia et al. (2010) Integrin \u03b16 identifies and sustains glioma stem cells in perivascular niches, Cell Stem Cell.",
+                    "id": "20452317",
+                    "type": "PMID",
+                    "notes": "Highlights integrin \u03b16^hi cells co-expressing Nestin/CD133 cluster around vessels and are crucial for tumor self-renewal and growth."
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "ID4",
+                "ID3",
+                "LIFR",
+                "NTRK2",
+                "CHL1",
+                "CNTN1",
+                "NTM",
+                "TENM4",
+                "LMO3",
+                "SSBP2",
+                "SOX2",
+                "NES",
+                "CD44"
+            ],
+            "supporting_gene_count": 13,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Lipid Metabolism & Stress Adaptation",
+            "theme": "Metabolic Reprogramming",
+            "description": "This program comprises genes that enable tumor cells to adjust their metabolism and oxidative stress handling, particularly through lipid uptake, storage, and membrane remodeling. These malignant astrocytes express components for exogenous lipid scavenging (LPL, which hydrolyzes circulating triglycerides; APOE, a lipid carrier apolipoprotein), as well as proteins for intracellular lipid trafficking and storage (OSBPL3/11 for sterol transport, SORL1 for lipoprotein processing). They also upregulate enzymes of fatty acid modification (FADS2 for unsaturated fatty acid synthesis) and phospholipid catabolism (ETNPPL, ethanolamine phosphate lyase). Additionally, key metabolic enzymes like GLUD1 (glutamate dehydrogenase) and ALDH1A1 (retinaldehyde dehydrogenase) are elevated, reflecting enhanced TCA cycle entry and redox control. In IDH-mutant astrocytomas, this program likely reflects an adaptation to the onco-metabolite 2HG and the relatively lower glycolytic rate: cells become adept at utilizing fatty acids and glutamate for energy and building materials. They may accumulate lipid droplets as an energy reserve or to buffer oxidative damage. The program overall suggests a shift towards oxidative metabolism and robust management of reactive oxygen species, aligning with the known biology that IDH-mutant gliomas rely more on oxidative phosphorylation and have better patient outcomes possibly because of these less aggressive metabolic features.",
+            "atomic_biological_processes": [
+                {
+                    "name": "Exogenous lipid uptake",
+                    "citation": [
+                        {
+                            "reference": "Lu et al. (2025) Heliyon.",
+                            "id": "39866460",
+                            "type": "PMID",
+                            "notes": "GBM cells depend on external cholesterol and express high LDL receptor; macrophages supply cholesterol to tumors, highlighting tumor reliance on exogenous lipid sources ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11757779/#:~:text=that%20cholesterol%20metabolism%20is%20involved,metabolism%20can%20promote%20an%20enhanced)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11757779/#:~:text=lipid%20droplets%20to%20meet%20their,ICD%29%20and%20increasing))."
+                        }
+                    ],
+                    "Genes": [
+                        "LPL",
+                        "APOE",
+                        "SORL1"
+                    ],
+                    "ontology_label": "lipid import into cell",
+                    "ontology_id": "GO:0140354"
+                },
+                {
+                    "name": "Fatty acid modification and storage",
+                    "citation": [
+                        {
+                            "reference": "Lu et al. (2025) Heliyon.",
+                            "id": "39866460",
+                            "type": "PMID",
+                            "notes": "Tumor cells often show increased fatty acid synthesis and storage in lipid droplets to support rapid growth and buffer excess nutrients ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11757779/#:~:text=and%20enhanced%20adaptation%20to%20the,33%2C22%5D.%20Interestingly)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11757779/#:~:text=that%20cholesterol%20metabolism%20is%20involved,35))."
+                        }
+                    ],
+                    "Genes": [
+                        "FADS2",
+                        "MGAT4C",
+                        "OSBPL3",
+                        "OSBPL11"
+                    ],
+                    "ontology_label": "lipid modification",
+                    "ontology_id": "GO:0030258"
+                },
+                {
+                    "name": "Glutamate utilization (anaplerosis)",
+                    "citation": [
+                        {
+                            "reference": "Deng et al. (2024) BMC Neurol.",
+                            "id": "39272024",
+                            "type": "PMID",
+                            "notes": "IDH-mutant gliomas have higher GLUD1 expression, linking glutamate catabolism to favorable prognosis and suggesting enhanced oxidative metabolism via glutamate in these tumors ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11395857/#:~:text=We%20screened%2034%20candidate%20genes,serve%20as%20an%20independent%20prognostic)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11395857/#:~:text=Conclusion))."
+                        }
+                    ],
+                    "Genes": [
+                        "GLUD1"
+                    ],
+                    "ontology_label": "glutamate metabolic process",
+                    "ontology_id": "GO:0006536"
+                },
+                {
+                    "name": "Oxidative stress mitigation",
+                    "citation": [
+                        {
+                            "reference": "Deng et al. (2024) BMC Neurol.",
+                            "id": "39272024",
+                            "type": "PMID",
+                            "notes": "Genes tied to energy metabolism (like GLUD1) in IDH-mutant gliomas correlate with lower immune infiltration and better outcomes, implying a metabolic state that might induce less oxidative stress/inflammation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11395857/#:~:text=samples%2C%20and%20higher%20in%20normal,mutant%20glioma)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11395857/#:~:text=In%20this%20study%2C%20we%20identified,information%20was%20provided%20for%20immunotherapy))."
+                        }
+                    ],
+                    "Genes": [
+                        "OSGIN2",
+                        "ALDH1A1",
+                        "DHRS3"
+                    ],
+                    "ontology_label": "cellular response to oxidative stress",
+                    "ontology_id": "GO:0034599"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "Lipid droplets",
+                    "citation": [
+                        {
+                            "reference": "Lu et al. (2025) Heliyon.",
+                            "id": "39866460",
+                            "type": "PMID",
+                            "notes": "Glioblastoma cells accumulate lipid droplets to meet energy demands; aberrant cholesterol metabolism leads to storage of lipid metabolites in droplets ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11757779/#:~:text=that%20cholesterol%20metabolism%20is%20involved,33%2C22%5D.%20Interestingly)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11757779/#:~:text=lipid%20droplets%20to%20meet%20their,ICD%29%20and%20increasing))."
+                        }
+                    ],
+                    "Genes": [
+                        "LPL",
+                        "FADS2",
+                        "OSBPL3"
+                    ],
+                    "ontology_label": "lipid droplet",
+                    "ontology_id": "GO:0005811"
+                },
+                {
+                    "name": "Mitochondrial matrix (TCA cycle enzymes)",
+                    "citation": [
+                        {
+                            "reference": "Deng et al. (2024) BMC Neurol.",
+                            "id": "39272024",
+                            "type": "PMID",
+                            "notes": "Higher GLUD1 in IDH-mut gliomas suggests enhanced mitochondrial TCA cycling (converting glutamate to \u03b1-ketoglutarate) in these cells, aligning with a reliance on oxidative phosphorylation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11395857/#:~:text=We%20screened%2034%20candidate%20genes,serve%20as%20an%20independent%20prognostic))."
+                        }
+                    ],
+                    "Genes": [
+                        "GLUD1"
+                    ],
+                    "ontology_label": "mitochondrial matrix",
+                    "ontology_id": "GO:0005759"
+                },
+                {
+                    "name": "Peroxisomes (lipid catabolism sites)",
+                    "citation": [
+                        {
+                            "reference": "Viswanath et al. (2023) Genes Dis (review).",
+                            "id": "35685476",
+                            "type": "PMID",
+                            "notes": "Lipid metabolic reprogramming in cancer often involves peroxisomal enzymes managing fatty acids and reactive oxygen species (contextualizing upregulation of ETNPPL and ALDH1A1 in tumor cells)."
+                        }
+                    ],
+                    "Genes": [
+                        "ETNPPL",
+                        "ALDH1A1"
+                    ],
+                    "ontology_label": "peroxisomal matrix",
+                    "ontology_id": "GO:0005782"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Greater reliance on oxidative metabolism (TCA cycle fuelled by glutamate and fatty acids), which is characteristic of IDH-mutant gliomas and may slow proliferation",
+                "Ability to thrive in nutrient-variable environments by scavenging fats from surroundings (e.g., from astrocytes, microglia, or blood) for energy and membrane biosynthesis",
+                "Improved redox balance via elevated NADPH-producing enzymes (ALDH1A1) and antioxidant pathways, potentially making these cells more resistant to radiation or chemo-induced oxidative damage",
+                "Accumulation of lipid reserves (droplets) that can be mobilized under stress, aiding survival during hypoxia or treatment"
+            ],
+            "evidence_summary": "This metabolic program echoes known metabolic peculiarities of IDH-mutant gliomas, which are less glycolytic and more oxidative. APOE and LPL indicate these cells actively acquire lipids from extracellular lipoproteins. In many cancers including gliomas, increased cholesterol uptake and storage are observed; accordingly, GBM studies have found tumor cells heavily depend on external cholesterol and accumulate lipid droplets ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11757779/#:~:text=that%20cholesterol%20metabolism%20is%20involved,metabolism%20can%20promote%20an%20enhanced)). The presence of APOE (often secreted by astrocytes to transport lipids) within tumor cells suggests an autocrine or paracrine loop for lipid trafficking, or direct manipulation of local glial lipid pools. GLUD1 is notably higher in IDH-mutant tumors ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11395857/#:~:text=We%20screened%2034%20candidate%20genes,serve%20as%20an%20independent%20prognostic)), fitting their need to metabolize glutamate (which IDH1 mutation may produce more of via 2HG metabolism) into the TCA cycle. Elevated GLUD1 is associated with better prognosis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11395857/#:~:text=samples%2C%20and%20higher%20in%20normal,mutant%20glioma)), consistent with IDH-mutants' relatively indolent nature; it likely reflects a balanced metabolic state utilizing glutamate efficiently for energy. FADS2 and related lipid enzymes allow membrane fluidity adjustments by producing unsaturated fatty acids \u2013 important under stress or drug pressure to maintain membrane homeostasis. Meanwhile, ALDH1A1 and DHRS3 work in retinoid metabolism and also contribute to cellular NADPH pools, which reduce oxidative stress. OSGIN2 (Oxidative Stress-Induced Growth Inhibitor 2) upregulation suggests the cells are responding to or managing oxidative conditions, possibly due to the byproducts of active mitochondria. Supporting this, IDH-mutant tumor cells, by virtue of producing 2-HG, experience a unique redox state and often upregulate antioxidant pathways. In summary, this program enhances the tumor cells' ability to utilize alternative fuels (lipids, amino acids), maintain biomass production and membrane synthesis, and protect against oxidative damage \u2013 all traits that can contribute to tumor cell survival and moderate growth in a nutrient-limited, oxygen-variable tumor microenvironment.",
+            "citations": [
+                {
+                    "reference": "Lu et al. (2025) Cholesterol metabolism-related signature in glioma, Heliyon.",
+                    "id": "39866460",
+                    "type": "PMID",
+                    "notes": "Reports that gliomas, especially GBM, rely on external cholesterol/lipid uptake and storage (lipid droplets) to fuel growth; highlights increased LDLR, etc."
+                },
+                {
+                    "reference": "Deng et al. (2024) Energy metabolism gene GLUD1 in IDH-mutant glioma, BMC Neurol.",
+                    "id": "39272024",
+                    "type": "PMID",
+                    "notes": "Finds GLUD1 higher in IDH-mutant gliomas correlating with better survival, implying these tumors favor oxidative glutamate metabolism."
+                },
+                {
+                    "reference": "Zhang et al. (2021) Targeting LIF/LIFR in cancer, Genes Dis.",
+                    "id": "35685476",
+                    "type": "PMID",
+                    "notes": "Reviews how metabolic reprogramming (including lipid handling) intersects with survival signaling in tumors, providing context for roles of ALDH1A1, etc., in stress adaptation."
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "APOE",
+                "LPL",
+                "SORL1",
+                "FADS2",
+                "MGAT4C",
+                "OSBPL3",
+                "OSBPL11",
+                "ETNPPL",
+                "GLUD1",
+                "ALDH1A1",
+                "DHRS3",
+                "OSGIN2"
+            ],
+            "supporting_gene_count": 12,
+            "required_components_present": true
+        }
+    ],
+    "method": {
+        "clustering_basis": [
+            "Literature-curated functional groupings",
+            "Known co-expression and pathway associations in astrocytes/glioma"
+        ],
+        "notes": "Genes were grouped according to shared roles in astrocyte biology and glioma programs (homeostasis, mesenchymal shift, neuron interaction, developmental state, metabolism). This was informed by pathway databases and co-citation in recent astrocytoma studies."
+    },
+    "version": "1.0"
+}
