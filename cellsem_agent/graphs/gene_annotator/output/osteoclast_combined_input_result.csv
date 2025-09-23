@@ -1,0 +1,15 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+osteoclast differentiation,GO:0030316,osteoclast differentiation,GO,1.0,exact_match
+NFATc1-mediated gene transcription,PR:000003113,"nuclear factor of activated T-cells, cytoplasmic 1",GO,0.7,synonym_match
+NF-κB signaling,GO:0038061,non-canonical NF-kappaB signal transduction,GO,1.0,exact_match
+proliferation of myeloid precursors,CL:0000049,common myeloid progenitor,CL,0.8,component_match
+RANK receptor (TNFRSF11A),PR:000001954,tumor necrosis factor receptor superfamily member 11A,CL,0.9,exact_match
+CSF1 receptor (c-FMS) complex,PR:000002062,macrophage colony-stimulating factor 1 receptor,CL,0.9,exact_match
+ITAM signal transduction,GO:0007165,signal transduction,GO,0.7,partial_match
+osteoclast precursor cell fusion,GO:0072675,osteoclast fusion,GO,0.8,synonym_match
+osteoclast migration and resorption,GO:0045453,bone resorption,GO,0.8,related_process_match
+DAP12 (TYROBP) adaptor complex,,,,0.0,no_match_found
+dephosphorylation of bone matrix proteins,GO:0006470,protein dephosphorylation,GO,0.8,partial_match
+acidification of resorption lacuna,GO:0045453,bone resorption,GO,0.8,partial_match
+mineralized bone matrix resorption,GO:0045453,bone resorption,GO,0.9,exact_match
+bone extracellular matrix,UBERON:4000020,mineralized extracellular matrix,UBERON,0.95,exact_match

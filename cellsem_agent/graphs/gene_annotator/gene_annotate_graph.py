@@ -9,6 +9,7 @@ import asyncio
 import os.path
 import json
 from typing import Any
+import pandas as pd
 
 import logfire
 import logging
@@ -62,33 +63,59 @@ class AnnotateData(BaseNode[State, None, str]):
             output_file = os.path.join(OUTPUT_DIR, j.file_name.replace(".json", "_result.json"))
             # don't re-run existing results for cost reasons
             if not os.path.exists(output_file):
+                print("Ontology mapping for file: ", j.file_name)
                 if j.deep_search_result:
                     programs = j.deep_search_result.get("programs", [])
+                    all_mappings = []
+                    iteration = 1
                     for program in programs:
-                        await self.annotate_properties(program["atomic_biological_processes"])
-                        await self.annotate_properties(program["atomic_cellular_components"])
+                        print("Processing program: ", iteration, " of ", len(programs))
+                        await self.annotate_properties(program["atomic_biological_processes"], all_mappings)
+                        await self.annotate_properties(program["atomic_cellular_components"], all_mappings)
+                        iteration += 1
+                    await self.save_all_mappings(all_mappings, output_file)
                 else:
                     print("No decompose result to annotate for file: ", j.file_name)
             await write_json(j.deep_search_result, output_file)
         return End("Results saved to the output folder.")
 
-    async def annotate_properties(self, properties):
-        names = json.dumps([atomic_item["name"] for atomic_item in properties])
-        print("Input data: ", names)
-        agent_response = await ontology_mapping_agent.run(names)
-        print(agent_response.output.mappings)
-        await self.update_with_mappings(properties, agent_response.output.mappings)
+    async def save_all_mappings(self, all_mappings: list[Any], output_file: str):
+        mapping_file = output_file.replace(".json", ".csv")
+        df = pd.DataFrame(all_mappings)
+        df.to_csv(mapping_file, index=False)
 
-    async def update_with_mappings(self, atomic_terms, result):
+    async def annotate_properties(self, properties, all_mappings):
+        names = json.dumps([atomic_item["name"] for atomic_item in properties])
+        agent_response = await ontology_mapping_agent.run(names)
+        await self.update_with_mappings(properties, agent_response.output.mappings, all_mappings)
+
+    async def update_with_mappings(self, atomic_terms, result, all_mappings):
         for atomic_term in atomic_terms:
             item_results = [r for r in result if r.original_term == atomic_term["name"]]
             if not item_results:
                 atomic_term["ontology_label"] = ""
                 atomic_term["ontology_id"] = ""
+                all_mappings.append({
+                    "original_term": atomic_term["name"],
+                    "ontology_id": "",
+                    "ontology_label": "",
+                    "ontology_source": "",
+                    "confidence_score": 0.0,
+                    "mapping_method": ""
+                })
             else:
-                del atomic_term["ontology_label"]
+                if "ontology_label" in atomic_term:
+                    del atomic_term["ontology_label"]
                 atomic_term["ontology_label"] = item_results[0].ontology_label
                 atomic_term["ontology_id"] = item_results[0].ontology_id
+                all_mappings.append({
+                    "original_term": atomic_term["name"],
+                    "ontology_id": item_results[0].ontology_id,
+                    "ontology_label": item_results[0].ontology_label,
+                    "ontology_source": item_results[0].ontology_source,
+                    "confidence_score": item_results[0].confidence_score,
+                    "mapping_method": item_results[0].mapping_method
+                })
 
 
 # @dataclass

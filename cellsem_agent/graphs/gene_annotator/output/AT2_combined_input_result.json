@@ -1,0 +1,185 @@
+{
+    "context": {
+        "cell_type": "Alveolar type II epithelial cell",
+        "disease": "Not specified",
+        "tissue": "lung"
+    },
+    "input_genes": [
+        "ABCA3",
+        "NAPSA",
+        "CTSH",
+        "SFTPB",
+        "SFTPC"
+    ],
+    "programs": [
+        {
+            "program_name": "Surfactant protein processing and maturation",
+            "theme": "Surfactant metabolism",
+            "description": "In alveolar type II cells, nascent surfactant protein precursors (SP-B and SP-C) are processed in intracellular compartments to yield mature surfactant peptides that reduce alveolar surface tension. Proteases NAPSA (napsin A) and CTSH (cathepsin H) cleave the N- and C-terminal domains of pro-SP-B and the N-terminal domain of pro-SP-C within multivesicular bodies and lamellar bodies, facilitating assembly of functional surfactant. This process is essential for surfactant homeostasis in lung alveoli.",
+            "atomic_biological_processes": [
+                {
+                    "name": "Proteolytic processing of surfactant protein precursors",
+                    "citation": [
+                        {
+                            "reference": "Brasch et al., J Biol Chem, 2003",
+                            "id": "10.1074/jbc.M306844200",
+                            "type": "DOI",
+                            "notes": "Napsin A and Cathepsin H cleave pro-SP-B to generate mature SP-B and SP-C in type II cells ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/14766755/#:~:text=SP,B%20peptide))."
+                        },
+                        {
+                            "reference": "Brasch et al., Am J Respir Cell Mol Biol, 2002",
+                            "id": "10.1165/rcmb.26.6.4744",
+                            "type": "DOI",
+                            "notes": "Cathepsin H mediates initial proteolytic processing of pro-SP-C in alveolar type II cells ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/12034564/#:~:text=enzyme%20activities%20comparable%20to%20those,bodies%20of%20type%20II%20pneumocytes))."
+                        }
+                    ],
+                    "Genes": [
+                        "NAPSA",
+                        "CTSH",
+                        "SFTPB",
+                        "SFTPC"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "Multivesicular body",
+                    "citation": [
+                        {
+                            "reference": "Brasch et al., Am J Respir Cell Mol Biol, 2002",
+                            "id": "10.1165/rcmb.26.6.4744",
+                            "type": "DOI",
+                            "notes": "Cathepsin H and pro-SP-C are found in multivesicular bodies of type II cells ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/12034564/#:~:text=enzyme%20activities%20comparable%20to%20those,bodies%20of%20type%20II%20pneumocytes))."
+                        }
+                    ],
+                    "Genes": [
+                        "NAPSA",
+                        "CTSH"
+                    ]
+                },
+                {
+                    "name": "Lamellar body",
+                    "citation": [
+                        {
+                            "reference": "Matsuzaki et al., Am J Respir Cell Mol Biol, 2008",
+                            "id": "10.1165/rcmb.2007-0311OC",
+                            "type": "DOI",
+                            "notes": "ABCA3 and surfactant-processing enzymes localize to lamellar bodies for surfactant storage; STAT3 deletion impairs lamellar body formation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2335336/#:~:text=ATP,study%2C%20we%20demonstrate%20that%20STAT3)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2335336/#:~:text=role%20of%20STAT3%2C%20intratracheal%20IL,inhibited%20by%20deletion%20of%20Stat3))."
+                        }
+                    ],
+                    "Genes": [
+                        "NAPSA",
+                        "CTSH"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enables generation of mature SP-B and SP-C peptides for functional surfactant",
+                "Maintains alveolar stability by lowering surface tension",
+                "Supports packaging of surfactant into lamellar bodies"
+            ],
+            "evidence_summary": "Napsin A (NAPSA) and Cathepsin H (CTSH) are proteases in alveolar type II cells that cleave pro-surfactant protein precursors. Studies show NAPSA cleaves the N- and C-terminal peptides of pro-SP-B and CTSH cleaves pro-SP-B and pro-SP-C, and knockdown of NAPSA reduces levels of mature SP-B and SP-C ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/13129928/#:~:text=napsin%20A%20in%20the%20processing,Two%20of%20the%20four)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/14766755/#:~:text=fusion%20protein%2013%20amino%20acids,B%20peptide)). These processing steps occur in lamellar bodies and multivesicular bodies of type II pneumocytes, yielding active hydrophobic surfactant proteins that decrease surface tension in alveoli ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/13129928/#:~:text=napsin%20A%20in%20the%20processing,Two%20of%20the%20four)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/12034564/#:~:text=enzyme%20activities%20comparable%20to%20those,bodies%20of%20type%20II%20pneumocytes)).",
+            "citations": [
+                {
+                    "reference": "Brasch et al., J Biol Chem, 2003",
+                    "id": "10.1074/jbc.M306844200",
+                    "type": "DOI",
+                    "notes": "Napsin A and Cathepsin H cleavage of pro-SP-B and pro-SP-C in alveolar type II cells ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/14766755/#:~:text=SP,B%20peptide))."
+                },
+                {
+                    "reference": "Brasch et al., Am J Respir Cell Mol Biol, 2002",
+                    "id": "10.1165/rcmb.26.6.4744",
+                    "type": "DOI",
+                    "notes": "Cathepsin H is required for processing of pro-SP-C in type II cells ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/12034564/#:~:text=enzyme%20activities%20comparable%20to%20those,bodies%20of%20type%20II%20pneumocytes))."
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "NAPSA",
+                "CTSH",
+                "SFTPB",
+                "SFTPC"
+            ],
+            "supporting_gene_count": 4
+        },
+        {
+            "program_name": "Surfactant lipid transport and lamellar body formation",
+            "theme": "Surfactant metabolism",
+            "description": "ABCA3 is a lamellar body membrane lipid transporter in alveolar type II cells that imports phospholipids into lamellar bodies for surfactant assembly. This process enables formation of functional phospholipid-rich surfactant and proper lamellar body biogenesis. Dysfunctional ABCA3 leads to defective lamellar bodies, altered surfactant composition, and impaired alveolar surface tension regulation.",
+            "atomic_biological_processes": [
+                {
+                    "name": "Phospholipid transport into lamellar bodies",
+                    "citation": [
+                        {
+                            "reference": "Matsuzaki et al., Am J Respir Cell Mol Biol, 2008",
+                            "id": "10.1165/rcmb.2007-0311OC",
+                            "type": "DOI",
+                            "notes": "Describes ABCA3 as a lamellar body lipid transporter essential for normal surfactant lipid uptake in type II cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2335336/#:~:text=ATP,study%2C%20we%20demonstrate%20that%20STAT3))."
+                        }
+                    ],
+                    "Genes": [
+                        "ABCA3"
+                    ]
+                },
+                {
+                    "name": "Lamellar body assembly and surfactant storage",
+                    "citation": [
+                        {
+                            "reference": "Matsuzaki et al., Am J Respir Cell Mol Biol, 2008",
+                            "id": "10.1165/rcmb.2007-0311OC",
+                            "type": "DOI",
+                            "notes": "Shows that STAT3-regulated ABCA3 expression influences lamellar body formation in type II cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2335336/#:~:text=ATP,study%2C%20we%20demonstrate%20that%20STAT3)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2335336/#:~:text=role%20of%20STAT3%2C%20intratracheal%20IL,inhibited%20by%20deletion%20of%20Stat3))."
+                        }
+                    ],
+                    "Genes": [
+                        "ABCA3"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "Lamellar body",
+                    "citation": [
+                        {
+                            "reference": "Shulenin et al., Am J Respir Cell Mol Biol, 2004",
+                            "id": "11718719",
+                            "type": "PMID",
+                            "notes": "Immunohistochemistry shows ABCA3 localizes to the limiting membrane of lamellar bodies in type II cells ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/11718719/#:~:text=membrane%20fraction%20of%20human%20lung,surfactant%20in%20type%20II%20cells))."
+                        }
+                    ],
+                    "Genes": [
+                        "ABCA3"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enables phospholipid loading into surfactant",
+                "Promotes lamellar body formation and surfactant storage",
+                "Supports alveolar surface tension regulation"
+            ],
+            "evidence_summary": "ABCA3 is exclusively expressed in lung alveolar type II cells and localizes to lamellar body membranes ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/11718719/#:~:text=membrane%20fraction%20of%20human%20lung,surfactant%20in%20type%20II%20cells)). It transports phospholipids into lamellar bodies, enabling surfactant biogenesis. Genetic deficiency of ABCA3 leads to smaller lamellar bodies, altered surfactant lipid composition, and respiratory failure in neonates ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2335336/#:~:text=ATP,study%2C%20we%20demonstrate%20that%20STAT3)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10786693/#:~:text=Mutations%20in%20ATP,with%20pathological%20variants%20of%20ABCA3)).",
+            "citations": [
+                {
+                    "reference": "Matsuzaki et al., Am J Respir Cell Mol Biol, 2008",
+                    "id": "10.1165/rcmb.2007-0311OC",
+                    "type": "DOI",
+                    "notes": "ABCA3 is a lamellar body-associated lipid transporter required for normal surfactant synthesis and storage ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2335336/#:~:text=ATP,study%2C%20we%20demonstrate%20that%20STAT3))."
+                },
+                {
+                    "reference": "Shulenin et al., Am J Respir Cell Mol Biol, 2004",
+                    "id": "11718719",
+                    "type": "PMID",
+                    "notes": "Shows ABCA3 localization to lamellar bodies in alveolar type II cells ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/11718719/#:~:text=membrane%20fraction%20of%20human%20lung,surfactant%20in%20type%20II%20cells))."
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "ABCA3"
+            ],
+            "supporting_gene_count": 1
+        }
+    ],
+    "version": "1.0"
+}

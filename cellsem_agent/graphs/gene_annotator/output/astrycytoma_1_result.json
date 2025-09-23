@@ -229,8 +229,8 @@
                         "SLC4A4",
                         "KCNQ5"
                     ],
-                    "ontology_label": "potassium ion transport",
-                    "ontology_id": "GO:0006813"
+                    "ontology_label": "potassium ion homeostasis",
+                    "ontology_id": "GO:0055075"
                 },
                 {
                     "name": "Water transport and edema regulation",
@@ -335,8 +335,8 @@
                         "ITGA6",
                         "LAMA1"
                     ],
-                    "ontology_label": "glial limiting membrane",
-                    "ontology_id": "UBERON:0018687"
+                    "ontology_label": "glial limiting end-foot",
+                    "ontology_id": "GO:0097451"
                 }
             ],
             "predicted_cellular_impact": [
@@ -439,8 +439,8 @@
                         "TLR4",
                         "CD44"
                     ],
-                    "ontology_label": "NF-kappaB binding",
-                    "ontology_id": "GO:0051059"
+                    "ontology_label": "canonical NF-kappaB signal transduction",
+                    "ontology_id": "GO:0007249"
                 },
                 {
                     "name": "Mechanotransduction and Hippo pathway signaling",
@@ -581,8 +581,8 @@
                         "SLC1A3",
                         "SLC1A4"
                     ],
-                    "ontology_label": "L-glutamate import",
-                    "ontology_id": "GO:0051938"
+                    "ontology_label": "glutamate reuptake",
+                    "ontology_id": "GO:0051935"
                 },
                 {
                     "name": "GABA reception and neuromodulation",
@@ -636,13 +636,14 @@
                         "CD38",
                         "PRKG1"
                     ],
-                    "ontology_label": "G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger",
-                    "ontology_id": "GO:0007187"
+                    "ontology_label": "cAMP-mediated signaling",
+                    "ontology_id": "GO:0019933"
                 }
             ],
             "atomic_cellular_components": [
                 {
                     "name": "Tripartite synapse (astrocyte\u2013synapse interface)",
+                    "ontology_label": "",
                     "citation": [
                         {
                             "reference": "Jukkola & Gu (2014) Autoimmun Rev.",
@@ -656,8 +657,7 @@
                         "SLC1A4",
                         "GABBR2"
                     ],
-                    "ontology_label": "synapse",
-                    "ontology_id": "GO:0045202"
+                    "ontology_id": ""
                 },
                 {
                     "name": "Endoplasmic reticulum Ca2+ store",
@@ -760,8 +760,8 @@
                         "ID3",
                         "LMO3"
                     ],
-                    "ontology_label": "negative regulation of cell differentiation involved in stem cell population maintenance",
-                    "ontology_id": "GO:1904671"
+                    "ontology_label": "inhibition of neuroepithelial cell differentiation",
+                    "ontology_id": "GO:0002085"
                 },
                 {
                     "name": "Neural stem cell proliferation",
@@ -778,8 +778,8 @@
                         "CCNE1 (Cyclin E, via ID4 upregulation)",
                         "CD44"
                     ],
-                    "ontology_label": "stem cell proliferation",
-                    "ontology_id": "GO:0072089"
+                    "ontology_label": "neural precursor cell proliferation",
+                    "ontology_id": "GO:0061351"
                 },
                 {
                     "name": "Radial glial cell identity and guidance",
@@ -798,8 +798,8 @@
                         "CNTN1",
                         "TENM4"
                     ],
-                    "ontology_label": "radial glial cell differentiation",
-                    "ontology_id": "GO:0060019"
+                    "ontology_label": "radial glial cell",
+                    "ontology_id": "CL:0000681"
                 },
                 {
                     "name": "STAT3-mediated astrogliogenesis and reactivity",
@@ -855,8 +855,8 @@
                         "NAV3",
                         "NRP2"
                     ],
-                    "ontology_label": "forebrain radial glial cell",
-                    "ontology_id": "CL:0013000"
+                    "ontology_label": "regulation of formation of radial glial scaffolds",
+                    "ontology_id": "GO:0061924"
                 },
                 {
                     "name": "Stem cell niche interactions",
@@ -874,8 +874,8 @@
                         "NES",
                         "SOX2"
                     ],
-                    "ontology_label": "stem cell",
-                    "ontology_id": "CL:0000034"
+                    "ontology_label": "stem cell differentiation",
+                    "ontology_id": "GO:0048863"
                 }
             ],
             "predicted_cellular_impact": [
@@ -970,8 +970,8 @@
                         "OSBPL3",
                         "OSBPL11"
                     ],
-                    "ontology_label": "lipid modification",
-                    "ontology_id": "GO:0030258"
+                    "ontology_label": "fatty acid homeostasis",
+                    "ontology_id": "GO:0055089"
                 },
                 {
                     "name": "Glutamate utilization (anaplerosis)",
@@ -1004,8 +1004,8 @@
                         "ALDH1A1",
                         "DHRS3"
                     ],
-                    "ontology_label": "cellular response to oxidative stress",
-                    "ontology_id": "GO:0034599"
+                    "ontology_label": "response to oxidative stress",
+                    "ontology_id": "GO:0006979"
                 }
             ],
             "atomic_cellular_components": [
@@ -1057,8 +1057,8 @@
                         "ETNPPL",
                         "ALDH1A1"
                     ],
-                    "ontology_label": "peroxisomal matrix",
-                    "ontology_id": "GO:0005782"
+                    "ontology_label": "membrane lipid catabolic process",
+                    "ontology_id": "GO:0046466"
                 }
             ],
             "predicted_cellular_impact": [
