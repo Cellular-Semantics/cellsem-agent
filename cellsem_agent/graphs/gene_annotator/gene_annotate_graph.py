@@ -1,12 +1,15 @@
 import asyncio
 import os.path
 import json
+from typing import Any
+
 import pandas as pd
 import logfire
 import logging
 
 from dataclasses import dataclass
 from dotenv import load_dotenv
+from jsonasobj import items
 from pydantic_graph import BaseNode, End, Graph, GraphRunContext
 
 from cellsem_agent.agents.ontology_mapping.ontology_mapping_agent import ontology_mapping_agent
@@ -54,14 +57,41 @@ class AnnotateData(BaseNode[State, None, str]):
             output_file = os.path.join(OUTPUT_DIR, j.file_name.replace(".json", "_result.json"))
             if not os.path.exists(output_file):
                 if j.decompose_result:
-                    programs = j.decompose_result.get("program", [])
-                    agent_response = await ontology_mapping_agent.run(expansions_json)
-                    result = agent_response.output.annotations
+                    programs = j.decompose_result.get("programs", [])
+                    for program in programs:
+                        print("Input data: ", program["atomic_biological_processes"])
+                        agent_response = await ontology_mapping_agent.run(program["atomic_biological_processes"])
+                        result = agent_response.mappings
+                        print(result)
+                        program["atomic_biological_processes"] = await self.format_mapping_output(program["atomic_biological_processes"], result)
                 else:
                     print("No decompose result to annotate for file: ", j.file_name)
             else:
                 print("Skipping the annotation step for: ", j.file_name)
         return End("Report generated and saved to individual dataset folders.")
+
+    async def format_mapping_output(self, plain_list, result) -> list[Any]:
+        results = []
+        for list_item in plain_list:
+            item_results = [r for r in result if r["original_term"] == list_item]
+            if not item_results:
+                results.append({
+                    "biological_process": list_item,
+                    "ontology_id": "",
+                    "ontology_label": "",
+                    "confidence": 0.0,
+                    "mapping_method": ""
+                })
+            else:
+                results.append({
+                    "biological_process": list_item,
+                    "ontology_id": list_item[0].get("ontology_id", ""),
+                    "ontology_label": list_item[0].get("ontology_label", ""),
+                    "confidence": list_item[0].get("confidence_score", ""),
+                    "mapping_method": list_item[0].get("mapping_method", "")
+                })
+        return results
+
 
 @dataclass
 class DecomposeProcess(BaseNode[State, None, str]):

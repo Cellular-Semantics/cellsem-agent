@@ -2,9 +2,11 @@
 Ontology Mapping Agent for mapping terms to multiple ontologies.
 """
 import logging
+from typing import List, Optional
+
+from pydantic import BaseModel
 from pydantic_ai import Agent
 
-from cellsem_agent.graphs.gene_list_annotation.gene_annotation_schemas import MappingResult
 from .ontology_mapping_config import OntologyMappingDependencies
 from .ontology_mapping_tools import search_go, search_cl, search_uberon, search_chebi, search_multi_ontology
 
@@ -21,6 +23,7 @@ ontology_mapping_logger.propagate = False
 ONTOLOGY_MAPPING_SYSTEM_PROMPT = """
 You are an expert bioinformatics specialist and ontology curator focused on mapping biological terms to standardized ontologies.
 
+You will be provided with a JSON array where each item represents a biological term that may include atomic functions, cellular components, or other relevant biological concepts.
 Your task is to map atomic functions, cellular components, and other biological terms to appropriate terms in multiple ontologies including:
 
 - **GO (Gene Ontology)**: For molecular functions, biological processes, and cellular components
@@ -51,7 +54,7 @@ Your task is to map atomic functions, cellular components, and other biological 
 - If no suitable match is found in any ontology, set cl_id to "NO MATCH found"
 
 **Output Format**:
-For each input term, create a mapping object with:
+For each input term, create a MappingResult object with:
 - `original_term`: The input term exactly as provided
 - `ontology_id`: The matched ontology term ID (e.g., "GO:0008150", "CL:0000000")
 - `ontology_label`: The official label from the ontology
@@ -67,10 +70,25 @@ Available tools:
 - `search_multi_ontology`: Search multiple ontologies at once
 """
 
+class MappingResult(BaseModel):
+    """
+    A mapping result is a span of text and the ontology ID and label for the term it mentions.
+    Use `original_term` for the source text, and `ontology_id` and `ontology_label` for the ID and label of the entity in the ontology.
+    """
+    original_term: str
+    ontology_id: Optional[str] = None
+    ontology_label: Optional[str] = None
+    ontology_source: Optional[str] = None
+    confidence_score: Optional[float] = None
+    mapping_method: Optional[str] = None
+
+class MappingResults(BaseModel):
+    mappings: List[MappingResult]
+
 ontology_mapping_agent = Agent(
     model="openai:gpt-4o-2024-11-20",
     deps_type=OntologyMappingDependencies,
-    output_type=MappingResult,
+    output_type=MappingResults,
     system_prompt=ONTOLOGY_MAPPING_SYSTEM_PROMPT,
     defer_model_check=True,
 )
