@@ -224,8 +224,7 @@
           "reference": "Van Landeghem et al. (2010) Isomorphic astrocytoma: contact adhesion to ECM. Glia.",
           "id": "21323850",
           "type": "PMID",
-          "notes": "Astrocyte processes use integrins (e.g. α6β1) to bind laminins and collagens in basement membranes, regulating migration.
-"
+          "notes": "Astrocyte processes use integrins (e.g. α6β1) to bind laminins and collagens in basement membranes, regulating migration."
         }
       ],
       "confidence_score": 0.8,

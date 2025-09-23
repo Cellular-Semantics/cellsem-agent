@@ -7,7 +7,8 @@ load_dotenv()
 drc = DeepResearchClient()
 
 
-def run_contextual_deepsearch(gene_list, context):
+def run_contextual_deepsearch(gene_list, context, model=None):
+
     with open(
         "./cellsem_agent/services/gene_list_contextual_deepsearch/schema/deepsearch_results_schema.json",
         "r",
@@ -15,7 +16,7 @@ def run_contextual_deepsearch(gene_list, context):
         schema = f.read()
 
     user_prompt = f"""
-Perform comprehensive literature analysis for the following gene list in the specified biological context.
+Perform ***comprehensive*** literature analysis for the following gene list in the specified biological context.
 
 **Gene List**: {gene_list}
 
@@ -27,7 +28,7 @@ Perform comprehensive literature analysis for the following gene list in the spe
 2. Identify **clusters of genes that act together in a single pathway, process, or state**.
 3. Treat each cluster as a potential **gene program** within the list.
 4. For each gene program:
-   i. predict the **functional implications for the specified cell type, in the context of the provided disease and (if available) tissue environment**, including, but not limited to:
+   i. Predict the **functional implications for the specified cell type, in the context of the provided disease and (if available) tissue environment**, including, but not limited to:
       * Cellular structure and morphology
       * Biological processes and signaling pathways
       * Metabolic state
@@ -77,10 +78,15 @@ The response MUST conform to the following JSON schema on be ONLY JSON - no pros
 {schema}
 ```
 """
-
-    result: DeepResearchResult = drc.run(
-        user_query=user_prompt
-    )  # Using default system prompt and model
+    if not model:
+        result: DeepResearchResult = drc.run(
+            user_query=user_prompt
+        )  # Using default system prompt and model
+    else:
+        result: DeepResearchResult = drc.run(
+            user_query=user_prompt,
+            model=model
+        )
     # better if this can be logged somewhere
     if result.success:
         print("Status:", result.status)
