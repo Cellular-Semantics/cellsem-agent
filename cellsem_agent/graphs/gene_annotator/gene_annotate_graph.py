@@ -1,4 +1,5 @@
 # To reduce the cost, we cache the results of each step in the output folder.
+#
 # Delete the cached files to re-run the steps.
 # - DeepSearch cache: input_file_name_ds.json
 # - Decompose cache: input_file_name_decompose.json
