@@ -1,7 +1,11 @@
 original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
-Proteolytic processing of surfactant protein precursors,NO MATCH found,,,,Extensive search through multiple ontologies with no direct match found
-Multivesicular body,GO:0005771,multivesicular body,GO,1.0,exact_match
-Lamellar body,GO:0042599,lamellar body,GO,1.0,exact_match
-Phospholipid transport into lamellar bodies,GO:0015914,phospholipid transport,GO,0.9,partial_match
-Lamellar body assembly and surfactant storage,GO:0042599,lamellar body,GO,0.8,partial_match
-Lamellar body,GO:0042599,lamellar body,GO,1.0,exact_match
+Proteolytic processing of surfactant protein precursors,GO:0016485,protein processing,GO,0.7,partial_match
+Phospholipid transport into lamellar bodies,GO:0015914,phospholipid transport,GO,0.8,partial_match
+Lamellar body biogenesis,GO:0042599,lamellar body,GO,0.9,exact_match
+Surfactant secretion to alveolar space,GO:0160069,surfactant secretion,GO,1.0,exact_match
+Extracellular protease activity in alveoli,GO:0008236,serine-type peptidase activity,GO,0.7,partial_match
+Lamellar body,GO:0042599,lamellar body,GO,0.9,exact_match
+Multivesicular body (MVB),GO:0005771,multivesicular body,GO,0.95,exact_match
+Golgi apparatus,GO:0005794,Golgi apparatus,GO,1.0,exact_match
+Endoplasmic reticulum,GO:0005783,endoplasmic reticulum,GO,1.0,exact_match
+Alveolar space (bronchoalveolar fluid),UBERON:0004903,bronchoalveolar duct junction,UBERON,0.8,synonym_match
