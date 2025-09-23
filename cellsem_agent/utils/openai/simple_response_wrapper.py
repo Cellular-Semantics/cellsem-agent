@@ -53,8 +53,9 @@ class SimpleResponder:
             )
             if instructions:
                 payload["instructions"] = instructions
-            # if temperature is not None:
-            # payload["temperature"] = temperature
+            if temperature is not None and model not in ["gpt-5"]:
+                # gpt-5 do not support temperature param
+                payload["temperature"] = temperature
             if max_output_tokens is not None:
                 payload["max_output_tokens"] = max_output_tokens
             if extra:
@@ -80,6 +81,7 @@ class SimpleResponder:
             )
 
         except httpx.TimeoutException as e:
+            print(e)
             done = time.time()
             return SingleResponseResult(
                 success=False,
@@ -94,6 +96,7 @@ class SimpleResponder:
                 raw_response=None,
             )
         except RateLimitError as e:
+            print(e)
             done = time.time()
             return SingleResponseResult(
                 success=False,
@@ -108,6 +111,7 @@ class SimpleResponder:
                 raw_response=getattr(e, "response", None),
             )
         except (APIStatusError, APIError) as e:
+            print(e)
             done = time.time()
             return SingleResponseResult(
                 success=False,

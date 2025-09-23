@@ -2,17 +2,15 @@ from cellsem_agent.utils.openai.deepsearch import DeepResearchClient, DeepResear
 from dotenv import load_dotenv
 import os
 
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+
 load_dotenv()
-# print(os.getenv('WORKDIR'))
+#print(os.getenv('WORKDIR'))
 drc = DeepResearchClient()
 
-
 def run_contextual_deepsearch(gene_list, context, model=None):
-
-    with open(
-        "./cellsem_agent/services/gene_list_contextual_deepsearch/schema/deepsearch_results_schema.json",
-        "r",
-    ) as f:
+    with open(os.path.join(CURRENT_DIR, 'schema/deepsearch_results_schema.json'),
+              "r") as f:
         schema = f.read()
 
     user_prompt = f"""
