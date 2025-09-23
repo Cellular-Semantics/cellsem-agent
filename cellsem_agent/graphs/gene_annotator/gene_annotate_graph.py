@@ -76,7 +76,7 @@ class AnnotateData(BaseNode[State, None, str]):
                     await self.save_all_mappings(all_mappings, output_file)
                 else:
                     print("No decompose result to annotate for file: ", j.file_name)
-            await write_json(j.deep_search_result, output_file)
+                await write_json(j.deep_search_result, output_file)
         return End("Results saved to the output folder.")
 
     async def save_all_mappings(self, all_mappings: list[Any], output_file: str):

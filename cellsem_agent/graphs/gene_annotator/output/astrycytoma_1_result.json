@@ -229,8 +229,8 @@
                         "SLC4A4",
                         "KCNQ5"
                     ],
-                    "ontology_label": "potassium ion homeostasis",
-                    "ontology_id": "GO:0055075"
+                    "ontology_label": "regulation of potassium ion transport",
+                    "ontology_id": "GO:0043266"
                 },
                 {
                     "name": "Water transport and edema regulation",
@@ -262,8 +262,8 @@
                     "Genes": [
                         "GJA1"
                     ],
-                    "ontology_label": "gap junction channel activity",
-                    "ontology_id": "GO:0005243"
+                    "ontology_label": "gap junction-mediated intercellular transport",
+                    "ontology_id": "GO:1990349"
                 },
                 {
                     "name": "Neurovascular coupling",
@@ -335,8 +335,8 @@
                         "ITGA6",
                         "LAMA1"
                     ],
-                    "ontology_label": "glial limiting end-foot",
-                    "ontology_id": "GO:0097451"
+                    "ontology_label": "glial limiting membrane",
+                    "ontology_id": "UBERON:0018687"
                 }
             ],
             "predicted_cellular_impact": [
@@ -427,6 +427,7 @@
                 },
                 {
                     "name": "Inflammatory signaling (NF-\u03baB activation)",
+                    "ontology_label": "",
                     "citation": [
                         {
                             "reference": "Ferr\u00e1ndez et al. (2018) Sci Rep.",
@@ -439,8 +440,7 @@
                         "TLR4",
                         "CD44"
                     ],
-                    "ontology_label": "canonical NF-kappaB signal transduction",
-                    "ontology_id": "GO:0007249"
+                    "ontology_id": ""
                 },
                 {
                     "name": "Mechanotransduction and Hippo pathway signaling",
@@ -581,8 +581,8 @@
                         "SLC1A3",
                         "SLC1A4"
                     ],
-                    "ontology_label": "glutamate reuptake",
-                    "ontology_id": "GO:0051935"
+                    "ontology_label": "L-glutamate import",
+                    "ontology_id": "GO:0051938"
                 },
                 {
                     "name": "GABA reception and neuromodulation",
@@ -598,8 +598,8 @@
                         "GABBR2",
                         "GABRB1"
                     ],
-                    "ontology_label": "GABA-ergic synapse",
-                    "ontology_id": "GO:0098982"
+                    "ontology_label": "GABA receptor activity",
+                    "ontology_id": "GO:0016917"
                 },
                 {
                     "name": "GPCR-triggered Ca2+ signaling",
@@ -616,8 +616,8 @@
                         "ADCYAP1R1",
                         "ITPR2"
                     ],
-                    "ontology_label": "G protein-coupled receptor signaling pathway",
-                    "ontology_id": "GO:0007186"
+                    "ontology_label": "calcium-mediated signaling",
+                    "ontology_id": "GO:0019722"
                 },
                 {
                     "name": "cAMP and cGMP second messenger modulation",
@@ -636,8 +636,8 @@
                         "CD38",
                         "PRKG1"
                     ],
-                    "ontology_label": "cAMP-mediated signaling",
-                    "ontology_id": "GO:0019933"
+                    "ontology_label": "cGMP-mediated signaling",
+                    "ontology_id": "GO:0019934"
                 }
             ],
             "atomic_cellular_components": [
@@ -760,8 +760,8 @@
                         "ID3",
                         "LMO3"
                     ],
-                    "ontology_label": "inhibition of neuroepithelial cell differentiation",
-                    "ontology_id": "GO:0002085"
+                    "ontology_label": "negative regulation of cell differentiation",
+                    "ontology_id": "GO:0045596"
                 },
                 {
                     "name": "Neural stem cell proliferation",
@@ -816,8 +816,8 @@
                         "STAT3 (downstream)",
                         "SOX2"
                     ],
-                    "ontology_label": "STAT3 inhibitor",
-                    "ontology_id": "CHEBI:87183"
+                    "ontology_label": null,
+                    "ontology_id": null
                 }
             ],
             "atomic_cellular_components": [
@@ -836,8 +836,8 @@
                         "SOX2",
                         "NES"
                     ],
-                    "ontology_label": "neoplastic cell",
-                    "ontology_id": "CL:0001063"
+                    "ontology_label": null,
+                    "ontology_id": "NO MATCH found"
                 },
                 {
                     "name": "Periventricular radial glial scaffold (analogy)",
@@ -855,8 +855,8 @@
                         "NAV3",
                         "NRP2"
                     ],
-                    "ontology_label": "regulation of formation of radial glial scaffolds",
-                    "ontology_id": "GO:0061924"
+                    "ontology_label": "formation of radial glial scaffolds",
+                    "ontology_id": "GO:0021943"
                 },
                 {
                     "name": "Stem cell niche interactions",
@@ -874,8 +874,8 @@
                         "NES",
                         "SOX2"
                     ],
-                    "ontology_label": "stem cell differentiation",
-                    "ontology_id": "GO:0048863"
+                    "ontology_label": "stem cell population maintenance",
+                    "ontology_id": "GO:0019827"
                 }
             ],
             "predicted_cellular_impact": [
@@ -970,8 +970,8 @@
                         "OSBPL3",
                         "OSBPL11"
                     ],
-                    "ontology_label": "fatty acid homeostasis",
-                    "ontology_id": "GO:0055089"
+                    "ontology_label": "lipid modification",
+                    "ontology_id": "GO:0030258"
                 },
                 {
                     "name": "Glutamate utilization (anaplerosis)",
@@ -1057,8 +1057,8 @@
                         "ETNPPL",
                         "ALDH1A1"
                     ],
-                    "ontology_label": "membrane lipid catabolic process",
-                    "ontology_id": "GO:0046466"
+                    "ontology_label": "peroxisome",
+                    "ontology_id": "GO:0045033"
                 }
             ],
             "predicted_cellular_impact": [

@@ -30,7 +30,9 @@
                     "Genes": [
                         "TNFRSF11A",
                         "Csf1r"
-                    ]
+                    ],
+                    "ontology_label": "osteoclast differentiation",
+                    "ontology_id": "GO:0030316"
                 },
                 {
                     "name": "NFATc1-mediated gene transcription",
@@ -45,7 +47,9 @@
                     "Genes": [
                         "TNFRSF11A",
                         "Csf1r"
-                    ]
+                    ],
+                    "ontology_label": null,
+                    "ontology_id": "NO MATCH found"
                 },
                 {
                     "name": "NF-\u03baB signaling",
@@ -59,7 +63,9 @@
                     ],
                     "Genes": [
                         "TNFRSF11A"
-                    ]
+                    ],
+                    "ontology_label": "",
+                    "ontology_id": ""
                 },
                 {
                     "name": "proliferation of myeloid precursors",
@@ -73,13 +79,14 @@
                     ],
                     "Genes": [
                         "Csf1r"
-                    ]
+                    ],
+                    "ontology_label": "common myeloid progenitor cell proliferation",
+                    "ontology_id": "GO:0035726"
                 }
             ],
             "atomic_cellular_components": [
                 {
                     "name": "RANK receptor (TNFRSF11A)",
-                    "ontology_label": "cellular_component",
                     "citation": [
                         {
                             "reference": "Takahashi N et al. Biochem Biophys Res Commun. 1999;256(3):449-455.",
@@ -90,11 +97,12 @@
                     ],
                     "Genes": [
                         "TNFRSF11A"
-                    ]
+                    ],
+                    "ontology_label": "tumor necrosis factor receptor superfamily member 11A",
+                    "ontology_id": "PR:000001954"
                 },
                 {
                     "name": "CSF1 receptor (c-FMS) complex",
-                    "ontology_label": "cellular_component",
                     "citation": [
                         {
                             "reference": "Mun S-H et al. Exp Mol Med. 2020.",
@@ -105,7 +113,9 @@
                     ],
                     "Genes": [
                         "Csf1r"
-                    ]
+                    ],
+                    "ontology_label": "CSF1-CSF1R complex",
+                    "ontology_id": "GO:1990682"
                 }
             ],
             "predicted_cellular_impact": [
@@ -155,7 +165,9 @@
                     ],
                     "Genes": [
                         "TYROBP"
-                    ]
+                    ],
+                    "ontology_label": "signal transduction",
+                    "ontology_id": "GO:0007165"
                 },
                 {
                     "name": "osteoclast precursor cell fusion",
@@ -169,7 +181,9 @@
                     ],
                     "Genes": [
                         "TYROBP"
-                    ]
+                    ],
+                    "ontology_label": "osteoclast fusion",
+                    "ontology_id": "GO:0072675"
                 },
                 {
                     "name": "osteoclast migration and resorption",
@@ -183,13 +197,14 @@
                     ],
                     "Genes": [
                         "TYROBP"
-                    ]
+                    ],
+                    "ontology_label": "bone resorption",
+                    "ontology_id": "GO:0045453"
                 }
             ],
             "atomic_cellular_components": [
                 {
                     "name": "DAP12 (TYROBP) adaptor complex",
-                    "ontology_label": "cellular_component",
                     "citation": [
                         {
                             "reference": "Paloneva J et al. J Exp Med. 2003.",
@@ -200,7 +215,9 @@
                     ],
                     "Genes": [
                         "TYROBP"
-                    ]
+                    ],
+                    "ontology_label": "No label found",
+                    "ontology_id": "NO MATCH found"
                 }
             ],
             "predicted_cellular_impact": [
@@ -242,7 +259,9 @@
                     ],
                     "Genes": [
                         "ACP5"
-                    ]
+                    ],
+                    "ontology_label": "protein dephosphorylation",
+                    "ontology_id": "GO:0006470"
                 },
                 {
                     "name": "acidification of resorption lacuna",
@@ -256,7 +275,9 @@
                     ],
                     "Genes": [
                         "ACP5"
-                    ]
+                    ],
+                    "ontology_label": "vacuolar acidification",
+                    "ontology_id": "GO:0007035"
                 },
                 {
                     "name": "mineralized bone matrix resorption",
@@ -270,13 +291,14 @@
                     ],
                     "Genes": [
                         "ACP5"
-                    ]
+                    ],
+                    "ontology_label": "bone resorption",
+                    "ontology_id": "GO:0045453"
                 }
             ],
             "atomic_cellular_components": [
                 {
                     "name": "bone extracellular matrix",
-                    "ontology_label": "cellular_component",
                     "citation": [
                         {
                             "reference": "Blumer MJ et al. Mech Dev. 2013.",
@@ -287,7 +309,9 @@
                     ],
                     "Genes": [
                         "ACP5"
-                    ]
+                    ],
+                    "ontology_label": "mineralized extracellular matrix",
+                    "ontology_id": "UBERON:4000020"
                 }
             ],
             "predicted_cellular_impact": [

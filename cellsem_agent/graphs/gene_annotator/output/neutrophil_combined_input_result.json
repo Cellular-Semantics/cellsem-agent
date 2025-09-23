@@ -96,8 +96,8 @@
                         "CXCR1",
                         "CXCR2"
                     ],
-                    "ontology_label": "neutrophil",
-                    "ontology_id": "CL:0000775"
+                    "ontology_label": "plasma membrane",
+                    "ontology_id": "GO:0005886"
                 }
             ],
             "predicted_cellular_impact": [
@@ -156,8 +156,8 @@
                         "S100A8",
                         "S100A9"
                     ],
-                    "ontology_label": "canonical NF-kappaB signal transduction",
-                    "ontology_id": "GO:0007249"
+                    "ontology_label": "activation of NF-kappaB-inducing kinase activity",
+                    "ontology_id": "GO:0007250"
                 },
                 {
                     "name": "proinflammatory cytokine secretion (e.g. IL-1\u03b2)",
@@ -362,8 +362,8 @@
                     "Genes": [
                         "PECAM1"
                     ],
-                    "ontology_label": "endothelial cell",
-                    "ontology_id": "CL:0000115"
+                    "ontology_label": "cell junction",
+                    "ontology_id": "GO:0030054"
                 },
                 {
                     "name": "neutrophil plasma membrane (adhesion complex)",
@@ -378,8 +378,8 @@
                     "Genes": [
                         "ITGB2"
                     ],
-                    "ontology_label": "plasma membrane region",
-                    "ontology_id": "GO:0098590"
+                    "ontology_label": "protein complex involved in cell adhesion",
+                    "ontology_id": "GO:0098636"
                 }
             ],
             "predicted_cellular_impact": [

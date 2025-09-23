@@ -1,7 +1,7 @@
 original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
-Proteolytic processing of surfactant protein precursors,GO:0016485,protein processing,GO,0.8,related_match
+Proteolytic processing of surfactant protein precursors,NO MATCH found,,,,Extensive search through multiple ontologies with no direct match found
 Multivesicular body,GO:0005771,multivesicular body,GO,1.0,exact_match
 Lamellar body,GO:0042599,lamellar body,GO,1.0,exact_match
-Phospholipid transport into lamellar bodies,GO:0015914,phospholipid transport,GO,0.8,exact_match
-Lamellar body assembly and surfactant storage,GO:0043129,surfactant homeostasis,GO,0.75,partial_match
+Phospholipid transport into lamellar bodies,GO:0015914,phospholipid transport,GO,0.9,partial_match
+Lamellar body assembly and surfactant storage,GO:0042599,lamellar body,GO,0.8,partial_match
 Lamellar body,GO:0042599,lamellar body,GO,1.0,exact_match
