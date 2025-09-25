@@ -311,6 +311,6 @@ async def main():
 
 
 if __name__ == "__main__":
-    load_dotenv(dotenv_path=os.path.join(CURRENT_DIR, "../../../", ".env"))
+    load_dotenv()
     print(os.environ.get("OPENAI_API_KEY"))
     asyncio.run(main())
