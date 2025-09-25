@@ -27,7 +27,7 @@ cxg_annotate_logger.propagate = True
 logfire.configure()
 
 IS_TEST_MODE = True
-TEST_ARTICLE_COUNT = 10  # Number of articles to process in test mode
+TEST_ARTICLE_COUNT = 50  # Number of articles to process in test mode
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 RESOURCES_DIR = os.path.join(CURRENT_DIR, "resources")
@@ -77,6 +77,7 @@ class GetGroundings(BaseNode[State, None, str]):
         batch_size = 4
         all_groundings = []
         for i in range(0, len(annotations), batch_size):
+            print("Processing batch: ", i // batch_size + 1, " of ", (len(annotations) + batch_size - 1) // batch_size)
             batch = annotations[i:i + batch_size]
             expansions_json = json.dumps([annotation['enrichment'].model_dump() for annotation in batch], indent=2)
             agent_response = await annotator_agent.run(expansions_json)

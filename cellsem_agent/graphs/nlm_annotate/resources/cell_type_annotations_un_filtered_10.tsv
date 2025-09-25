@@ -1,0 +1,106 @@
+input_name	text	cl_id	cl_label
+MSCs	mesenchymal stem/stromal cell	CL:0002540	mesenchymal stem cell of the bone marrow
+MSCs	MSC	CL:0002540	mesenchymal stem cell of the bone marrow
+MSC	mesenchymal stem/stromal cell	CL:0002540	mesenchymal stem cell of the bone marrow
+MSC	MSC	CL:0002540	mesenchymal stem cell of the bone marrow
+cBMSCs	clonal bone marrow stem (stromal) cell	CL:0002540	mesenchymal stem cell of the bone marrow
+cBMSCs	cBMSC	CL:0002540	mesenchymal stem cell of the bone marrow
+T cells	T cell	CL:0000084	T cell
+CD4+ T cells	CD4+ T cell	CL:0000624	CD4-positive, alpha-beta T cell
+CCR6+CD161+ Th17	CCR6 + CD161 + Th17 phenotype	CL:0000899	T-helper 17 cell
+CCR6+CD161+ Th17	CCR6+CD161+ Th17	CL:0000899	T-helper 17 cell
+activated regulatory T-cell	activated regulatory T-cell	CL:0000815	regulatory T cell
+T-cell	T cell	CL:0000084	T cell
+cardiomyocytes	cardiomyocyte	CL:0000746	cardiac muscle cell
+cardiomyocytes	cardiomyocyte	CL:0000746	cardiac muscle cell
+macrophage	macrophage	CL:0000235	macrophage
+macrophage	macrophage	CL:0000235	macrophage
+oocytes	oocyte	CL:0000023	oocyte
+oocytes	oocyte	CL:0000023	oocyte
+ovarian granulosa cells	ovarian granulosa cell	CL:0000501	granulosa cell
+ovarian granulosa cells	ovarian granulosa cell	CL:0000501	granulosa cell
+erythrocytes	erythrocyte	CL:0000232	erythrocyte
+erythrocytes	erythrocyte	CL:0000232	erythrocyte
+Neutrophil	Neutrophil	CL:0000775	neutrophil
+Neutrophil	Neutrophil	CL:0000775	neutrophil
+Macrophage	Macrophage	CL:0000235	macrophage
+Macrophage	Macrophage	CL:0000235	macrophage
+Dendritic cell	Dendritic cell	CL:0000451	dendritic cell
+Dendritic cell	Dendritic cell	CL:0000451	dendritic cell
+B cell	B cell	CL:0000236	B cell
+B cell	B cell	CL:0000236	B cell
+Pro-B cell	Pro-B cell	CL:0000826	pro-B cell
+Pro-B cell	Pro-B cell	CL:0000826	pro-B cell
+T cell	T cell	CL:0000084	T cell
+T cell	T cell	CL:0000084	T cell
+Natural killer cell	Natural killer cell	CL:0000623	natural killer cell
+Natural killer cell	Natural killer cell	CL:0000623	natural killer cell
+Megakaryocyte	Megakaryocyte	CL:0000556	megakaryocyte
+Megakaryocyte	Megakaryocyte	CL:0000556	megakaryocyte
+Erythrocyte	Erythrocyte	CL:0000232	erythrocyte
+Erythrocyte	Erythrocyte	CL:0000232	erythrocyte
+Mesenchymal cell	Mesenchymal cell	CL:0008019	mesenchymal cell
+Mesenchymal cell	Mesenchymal cell	CL:0008019	mesenchymal cell
+Myeloid progenitor	Myeloid progenitor	CL:0000049	common myeloid progenitor
+Myeloid progenitor	Myeloid progenitor	CL:0000049	common myeloid progenitor
+T cells	T lymphocyte	CL:0000084	T cell
+T cells	T cell	CL:0000084	T cell
+T lymphocytes	T lymphocyte	CL:0000084	T cell
+T lymphocytes	T lymphocyte	CL:0000084	T cell
+CD8+ T cells	CD8+ T cell	CL:0000625	CD8-positive, alpha-beta T cell
+CD8+ T cells	CD8+ T cell	CL:0000625	CD8-positive, alpha-beta T cell
+CD4+ T cells	CD4+ T cell	CL:0000624	CD4-positive, alpha-beta T cell
+CD4+ T cells	CD4+ T cell	CL:0000624	CD4-positive, alpha-beta T cell
+CD8+ MAIT	CD8+ mucosa-associated invariant T cell	CL:0000940	mucosal invariant T cell
+CD8+ MAIT	CD8+ MAIT	CL:0000940	mucosal invariant T cell
+CD8+ Naive	CD8+ naive T cell	CL:0000900	naive thymus-derived CD8-positive, alpha-beta T cell
+CD8+ Naive	CD8+ Naive	CL:0000900	naive thymus-derived CD8-positive, alpha-beta T cell
+CD8+ intraepithelial lymphocytes	CD8+ intraepithelial lymphocyte	CL:0002496	intraepithelial lymphocyte
+CD8+ intraepithelial lymphocytes	CD8+ intraepithelial lymphocyte	CL:0002496	intraepithelial lymphocyte
+IEL	intraepithelial lymphocyte	CL:0002496	intraepithelial lymphocyte
+IEL	IEL	CL:0002496	intraepithelial lymphocyte
+CD8+ Tem	CD8+ effector memory T cell	CL:0000913	effector memory CD8-positive, alpha-beta T cell
+CD8+ Tem	CD8+ Tem	CL:0000913	effector memory CD8-positive, alpha-beta T cell
+CD8+ Temra	CD8+ recently activated effector memory T cell	CL:0000913	effector memory CD8-positive, alpha-beta T cell
+CD8+ Temra	CD8+ Temra	CL:0001062	effector memory CD8-positive, alpha-beta T cell, terminally differentiated
+CD4+ Tem	CD4+ effector memory T cell	CL:0000905	effector memory CD4-positive, alpha-beta T cell
+CD4+ Tem	CD4+ Tem	CL:0000905	effector memory CD4-positive, alpha-beta T cell
+CD4+ Th17	CD4+ Th17 T cell	CL:0000899	T-helper 17 cell
+CD4+ Th17	CD4+ Th17	CL:0000899	T-helper 17 cell
+CD4+ Naive	CD4+ naïve T cell	CL:0000895	naive thymus-derived CD4-positive, alpha-beta T cell
+CD4+ Naive	CD4+ Naive	CL:0000895	naive thymus-derived CD4-positive, alpha-beta T cell
+CD4+ Treg	CD4+ regulatory T cell	CL:0000792	CD4-positive, CD25-positive, alpha-beta regulatory T cell
+CD4+ Treg	CD4+ Treg	CL:0000792	CD4-positive, CD25-positive, alpha-beta regulatory T cell
+CD4+ T lymphocytes	CD4+ T lymphocyte	CL:0000624	CD4-positive, alpha-beta T cell
+CD4+ T lymphocytes	CD4+ T lymphocyte	CL:0000624	CD4-positive, alpha-beta T cell
+M1 macrophages	M1 macrophage	CL:0000863	inflammatory macrophage
+M1 macrophages	M1 macrophage	CL:0000863	inflammatory macrophage
+naive B cells	naïve B cell	CL:0000788	naive B cell
+naive B cells	naive B cell	CL:0000788	naive B cell
+neutrophils	neutrophil	CL:0000775	neutrophil
+neutrophils	neutrophil	CL:0000775	neutrophil
+CD8 T cells	CD8 T cell	CL:0000625	CD8-positive, alpha-beta T cell
+CD8 T cells	CD8 T cell	CL:0000625	CD8-positive, alpha-beta T cell
+Tregs	T regulatory cell	CL:0000815	regulatory T cell
+Tregs	Treg	CL:0000815	regulatory T cell
+M2 macrophages	M2 macrophage	CL:0000890	alternatively activated macrophage
+M2 macrophages	M2 macrophage	CL:0000890	alternatively activated macrophage
+IHC	inner hair cell	CL:0000589	cochlear inner hair cell
+IHC	IHC	CL:0000589	cochlear inner hair cell
+inner hair cell	inner hair cell	CL:0000589	cochlear inner hair cell
+inner hair cell	inner hair cell	CL:0000589	cochlear inner hair cell
+OHC	outer hair cell	CL:0000601	cochlear outer hair cell
+OHC	OHC	CL:0000601	cochlear outer hair cell
+outer hair cell	outer hair cell	CL:0000601	cochlear outer hair cell
+outer hair cell	outer hair cell	CL:0000601	cochlear outer hair cell
+SGN	spiral ganglion neuron	CL:0011113	spiral ganglion neuron
+SGN	SGN	CL:0011113	spiral ganglion neuron
+spiral ganglion neuron	spiral ganglion neuron	CL:0011113	spiral ganglion neuron
+spiral ganglion neuron	spiral ganglion neuron	CL:0011113	spiral ganglion neuron
+motor neuron	motor neuron	CL:0000100	motor neuron
+motor neuron	motor neuron	CL:0000100	motor neuron
+neuronal	neuronal	CL:0000540	neuron
+oligodendrocyte	oligodendrocyte	CL:0000128	oligodendrocyte
+oligodendrocyte	oligodendrocyte	CL:0000128	oligodendrocyte
+brainstem motor neurons	brainstem motor neuron	CL:2000047	brainstem motor neuron
+brainstem motor neurons	brainstem motor neuron	CL:2000047	brainstem motor neuron
