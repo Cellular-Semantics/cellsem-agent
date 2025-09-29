@@ -73,6 +73,8 @@ class GetGroundings(BaseNode[State, None, str]):
                     tissue_context=""
                 )
                 print(f"Warning: No enrichment found for annotation '{annotation['annotation_text']}', using blank entry.")
+            # delete tissue_context of all enrichments
+            annotation['enrichment'].tissue_context = ""
 
         batch_size = 4
         all_groundings = []

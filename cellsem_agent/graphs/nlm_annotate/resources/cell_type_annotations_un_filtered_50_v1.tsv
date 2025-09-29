@@ -39,12 +39,16 @@ mast cells	mast cell	CL:0000097	mast cell
 mast cells	mast cell	CL:0000097	mast cell
 myeloid cells	myeloid cell	CL:0000763	myeloid cell
 myeloid cells	myeloid cell	CL:0000763	myeloid cell
-MSG acinar, ductal, myoepithelial, and adipose cells	minor salivary gland acinar, ductal, myoepithelial, and adipose cell	CL:0009005	salivary gland cell
-MSG acinar, ductal, myoepithelial, and adipose cells	MSG acinar, ductal, myoepithelial, and adipose cell	CL:0009005	salivary gland cell
-Macrophages	macrophage	CL:0000235	macrophage
+MSG acinar, ductal, myoepithelial, and adipose cells	minor salivary gland acinar, ductal, myoepithelial, and adipose cell	NO MATCH found	
+MSG acinar, ductal, myoepithelial, and adipose cells	MSG acinar, ductal, myoepithelial, and adipose cell	NO MATCH found	
+Macrophages	Macrophage	CL:0000235	macrophage
 embryonic haematopoietic progenitors	embryonic haematopoietic progenitor	CL:0000837	hematopoietic multipotent progenitor cell
 monocytes	monocyte	CL:0000576	monocyte
 tissue macrophages	tissue macrophage	CL:0000864	tissue-resident macrophage
+T cells	T cell	CL:0000084	T cell
+epithelial cells	epithelial cell	CL:0000066	epithelial cell
+MSCs	mesenchymal stem/stromal cell	CL:0002540	mesenchymal stem cell of the bone marrow
+MSCs	MSC	CL:0000134	mesenchymal stem cell
 MSC	mesenchymal stem/stromal cell	CL:0000134	mesenchymal stem cell
 MSC	MSC	CL:0000134	mesenchymal stem cell
 cBMSCs	clonal bone marrow stem (stromal) cell	CL:0002540	mesenchymal stem cell of the bone marrow
@@ -60,11 +64,11 @@ oocytes	oocyte	CL:0000023	oocyte
 oocyte	oocyte	CL:0000023	oocyte
 oocyte	oocyte	CL:0000023	oocyte
 T cells	T cell	CL:0000084	T cell
+CD4+ T cells	CD4+ T cell	CL:0000624	CD4-positive, alpha-beta T cell
 CCR6+CD161+ Th17	CCR6 + CD161 + Th17 phenotype	CL:0000899	T-helper 17 cell
 CCR6+CD161+ Th17	CCR6+CD161+ Th17	CL:0000899	T-helper 17 cell
-CD4+ T cells	CD4+ T cell	CL:0000624	CD4-positive, alpha-beta T cell
-activated regulatory T-cell	activated regulatory T-cell	CL:0000815	regulatory T cell
-T-cell	T-cell	CL:0000084	T cell
+activated regulatory T-cell	activated regulatory T cell	CL:0000815	regulatory T cell
+T-cell	T cell	CL:0000084	T cell
 cardiomyocytes	cardiomyocyte	CL:0000746	cardiac muscle cell
 cardiomyocytes	cardiomyocyte	CL:0000746	cardiac muscle cell
 pluripotent stem cells	pluripotent stem cell	CL:0002248	pluripotent stem cell
@@ -89,25 +93,25 @@ Astrocytes	astrocyte	CL:0000127	astrocyte
 Astrocytes	astrocyte	CL:0000127	astrocyte
 BG	Bergman glial cell	CL:0000644	Bergmann glial cell
 BG	BG	CL:0000644	Bergmann glial cell
-Bergman Glia	Bergman Glia	CL:0000644	Bergmann glial cell
-Bergman Glia	Bergman Glia	CL:0000644	Bergmann glial cell
-CGE	Caudal Ganglionic Eminence	CL:4042039	caudal ganglionic eminence derived neuron
-CGE	CGE	CL:4042039	caudal ganglionic eminence derived neuron
-Caudal Ganglionic Eminescence	Caudal Ganglionic Eminescence	CL:4042039	caudal ganglionic eminence derived neuron
+Bergman Glia	Bergman glial cell	CL:0000644	Bergmann glial cell
+Bergman Glia	Bergman glial cell	CL:0000644	Bergmann glial cell
+CGE	Caudal Ganglionic Eminence	NO MATCH found	
+CGE	CGE	NO MATCH found	
+Caudal Ganglionic Eminescence	Caudal Ganglionic Eminescence	NO MATCH found	
 ENDO	Endothelial cell	CL:0000115	endothelial cell
 ENDO	ENDO	CL:0000115	endothelial cell
 Endothelial cells	Endothelial cell	CL:0000115	endothelial cell
 Endothelial cells	Endothelial cell	CL:0000115	endothelial cell
-GC	Granule Cell	CL:0000120	granule cell
-GC	GC	CL:0000120	granule cell
-Granule Cell	Granule Cell	CL:0000120	granule cell
-Granule Cell	Granule Cell	CL:0000120	granule cell
+GC	Granule Cell	CL:0001031	cerebellar granule cell
+GC	GC	CL:0001031	cerebellar granule cell
+Granule Cell	Granule Cell	CL:0001031	cerebellar granule cell
+Granule Cell	Granule Cell	CL:0001031	cerebellar granule cell
 GP	Granule cell Progenitor	CL:0002362	cerebellar granule cell precursor
 GP	GP	CL:0002362	cerebellar granule cell precursor
 Granule cell Progenitor	Granule cell Progenitor	CL:0002362	cerebellar granule cell precursor
 Granule cell Progenitor	Granule cell Progenitor	CL:0002362	cerebellar granule cell precursor
-MGE	Medial Ganglionic Eminence	CL:4023063	medial ganglionic eminence derived interneuron
-MGE	MGE	CL:4023063	medial ganglionic eminence derived interneuron
+MGE	Medial Ganglionic Eminence	CL:4023069	medial ganglionic eminence derived GABAergic cortical interneuron
+MGE	MGE	CL:4023069	medial ganglionic eminence derived GABAergic cortical interneuron
 Medial Ganglionic Eminescence	Medial Ganglionic Eminescence	CL:4023063	medial ganglionic eminence derived interneuron
 MGL	Microglial cell	CL:0000129	microglial cell
 MGL	MGL	CL:0000129	microglial cell
@@ -126,11 +130,11 @@ OPC	OPC	CL:0002453	oligodendrocyte precursor cell
 Oligodendrocyte Precursor Cells	Oligodendrocyte Precursor Cell	CL:0002453	oligodendrocyte precursor cell
 Oligodendrocyte Precursor Cells	Oligodendrocyte Precursor Cell	CL:0002453	oligodendrocyte precursor cell
 PURK	Purkinje cell	CL:0000121	Purkinje cell
-PURK	PURK	CL:0000121	Purkinje cell
+PURK	PURK	NO MATCH found	
 Purkinje cells	Purkinje cell	CL:0000121	Purkinje cell
 Purkinje cells	Purkinje cell	CL:0000121	Purkinje cell
 MDSC	Myeloid-Derived Suppressor Cell	CL:0000889	myeloid suppressor cell
-MDSC	Myeloid-Derived Suppressor Cell	CL:0000889	myeloid suppressor cell
+MDSC	MDSC	CL:0000889	myeloid suppressor cell
 Myeloid-Derived Suppressor Cells	Myeloid-Derived Suppressor Cell	CL:0000889	myeloid suppressor cell
 Myeloid-Derived Suppressor Cells	Myeloid-Derived Suppressor Cell	CL:0000889	myeloid suppressor cell
 B-cell	B cell	CL:0000236	B cell
@@ -140,7 +144,7 @@ T cells	T cell	CL:0000084	T cell
 small-intestine epithelial cells	small-intestine epithelial cell	CL:0002254	epithelial cell of small intestine
 small-intestine epithelial cells	small-intestine epithelial cell	CL:0002254	epithelial cell of small intestine
 pit cells	central cell	NO MATCH found	
-pit cells	pit cell	CL:2000054	hepatic pit cell
+pit cells	pit cell	NO MATCH found	
 pit	pit	NO MATCH found	
 bronchoalveolar macrophage	bronchoalveolar macrophage	CL:0000583	alveolar macrophage
 bronchoalveolar macrophage	bronchoalveolar macrophage	CL:0000583	alveolar macrophage
@@ -152,6 +156,12 @@ CECs	corneal endothelial cell	CL:0000132	corneal endothelial cell
 CECs	CEC	CL:0000132	corneal endothelial cell
 dSPNs	dopamine receptor-1 expressing spiny projection neuron	CL:4023026	direct pathway medium spiny neuron
 dSPNs	dSPN	CL:4023026	direct pathway medium spiny neuron
+iSPNs	dopamine receptor-2 expressing spiny projection neuron	CL:4023029	indirect pathway medium spiny neuron
+iSPNs	iSPN	CL:4023029	indirect pathway medium spiny neuron
+oligodendrocytes	oligodendrocyte	CL:0000128	oligodendrocyte
+oligodendrocytes	oligodendrocyte	CL:0000128	oligodendrocyte
+astrocytes	astrocyte	CL:0000127	astrocyte
+astrocytes	astrocyte	CL:0000127	astrocyte
 interneurons	interneuron	CL:0000099	interneuron
 interneurons	interneuron	CL:0000099	interneuron
 neuronal cell	neuronal cell	CL:0000540	neuron
@@ -175,7 +185,7 @@ CD4+ T helper (Th) cells	CD4+ T helper (Th) cell	CL:0000492	CD4-positive helper 
 CD8+ cytotoxic T lymphocytes	CD8+ cytotoxic T lymphocyte	CL:0000794	CD8-positive, alpha-beta cytotoxic T cell
 CD8+ cytotoxic T lymphocytes	CD8+ cytotoxic T lymphocyte	CL:0000794	CD8-positive, alpha-beta cytotoxic T cell
 CTLs	CD8+ cytotoxic T lymphocyte	CL:0000794	CD8-positive, alpha-beta cytotoxic T cell
-CTLs	CTL	CL:0000794	CD8-positive, alpha-beta cytotoxic T cell
+CTLs	CTL	CL:0000910	cytotoxic T cell
 liver sinusoidal endothelial cell	liver sinusoidal endothelial cell	CL:1000398	endothelial cell of hepatic sinusoid
 liver sinusoidal endothelial cell	liver sinusoidal endothelial cell	CL:1000398	endothelial cell of hepatic sinusoid
 LSEC	liver sinusoidal endothelial cell	CL:1000398	endothelial cell of hepatic sinusoid
@@ -202,15 +212,19 @@ unipotent estrogen receptor-negative luminal progenitors	unipotent estrogen rece
 unipotent estrogen receptor-negative luminal progenitors	unipotent estrogen receptor-negative luminal progenitor	CL:0009116	progenitor cell of mammary luminal epithelium
 mammary epithelial cells	mammary epithelial cell	CL:0002327	mammary gland epithelial cell
 mammary epithelial cells	mammary epithelial cell	CL:0002327	mammary gland epithelial cell
-luminal cell	luminal cell	NO MATCH found	
-luminal cell	luminal cell	NO MATCH found	
-luminal cells	luminal cell	NO MATCH found	
-luminal cells	luminal cell	NO MATCH found	
+luminal cell	luminal cell	CL:0002326	luminal epithelial cell of mammary gland
+luminal cell	luminal cell	CL:0002326	luminal epithelial cell of mammary gland
+luminal cells	luminal cell	CL:0002326	luminal epithelial cell of mammary gland
+luminal cells	luminal cell	CL:0002326	luminal epithelial cell of mammary gland
 sickle and normal cells	sickled red blood cell and normal red blood cell	CL:0000232	erythrocyte
 sickle and normal cells	sickle and normal cell	CL:0000232	erythrocyte
+CCR2 + monocyte	C–C chemokine receptor 2-positive monocyte	CL:0000576	monocyte
+CCR2 + monocyte	CCR2 + monocyte	CL:0000576	monocyte
+oligodendrocytes	oligodendrocyte	CL:0000128	oligodendrocyte
+astrocytes	astrocyte	CL:0000127	astrocyte
 radial glia	radial glial cell	CL:0000681	radial glial cell
 RG	radial glial cell	CL:0000681	radial glial cell
-RG	RG	NO MATCH found	
+RG	RG	CL:0000681	radial glial cell
 endothelial	endothelial cell	CL:0000115	endothelial cell
 endothelial	endothelial	CL:0000115	endothelial cell
 pericytes	pericyte	CL:0000669	pericyte
@@ -270,14 +284,14 @@ Granulosa Cell	Granulosa Cell	CL:0000501	granulosa cell
 Granulosa Cell	Granulosa Cell	CL:0000501	granulosa cell
 Leydig Cell	Leydig Cell	CL:0000178	Leydig cell
 Leydig Cell	Leydig Cell	CL:0000178	Leydig cell
-M1 Macrophage	M1 Macrophage	CL:0000863	inflammatory macrophage
-M1 Macrophage	M1 Macrophage	CL:0000863	inflammatory macrophage
-M2 Macrophage	M2 Macrophage	CL:0000890	alternatively activated macrophage
-M2 Macrophage	M2 Macrophage	CL:0000890	alternatively activated macrophage
-Memory T Cell	Memory T Cell	CL:0000813	memory T cell
-Memory T Cell	Memory T Cell	CL:0000813	memory T cell
-Mesenchymal Cell	Mesenchymal Cell	CL:0008019	mesenchymal cell
-Mesenchymal Cell	Mesenchymal Cell	CL:0008019	mesenchymal cell
+M1 Macrophage	M1 macrophage	CL:0000863	inflammatory macrophage
+M1 Macrophage	M1 macrophage	CL:0000863	inflammatory macrophage
+M2 Macrophage	M2 macrophage	CL:0000890	alternatively activated macrophage
+M2 Macrophage	M2 macrophage	CL:0000890	alternatively activated macrophage
+Memory T Cell	Memory T cell	CL:0000813	memory T cell
+Memory T Cell	Memory T cell	CL:0000813	memory T cell
+Mesenchymal Cell	Mesenchymal cell	CL:0008019	mesenchymal cell
+Mesenchymal Cell	Mesenchymal cell	CL:0008019	mesenchymal cell
 Progenitor Cell	Progenitor Cell	CL:0011026	progenitor cell
 Naive B Cell	Naive B Cell	CL:0000788	naive B cell
 Naive B Cell	Naive B Cell	CL:0000788	naive B cell
@@ -301,12 +315,12 @@ mesenchymal cells	mesenchymal cell	CL:0008019	mesenchymal cell
 mesenchymal cells	mesenchymal cell	CL:0008019	mesenchymal cell
 MECs	myoepithelial cell	CL:0000185	myoepithelial cell
 MECs	MEC	CL:0000185	myoepithelial cell
-acinar cells	acinar cell	CL:0000622	acinar cell
-acinar cells	acinar cell	CL:0000622	acinar cell
+acinar cells	acinar cell	CL:0002623	acinar cell of salivary gland
+acinar cells	acinar cell	CL:0002623	acinar cell of salivary gland
 acinar and MECs	acinar and myoepithelial cell	NO MATCH found	
 acinar and MECs	acinar and MEC	NO MATCH found	
-acinar	acinar cell	CL:0000622	acinar cell
-acinar	acinar	CL:0000622	acinar cell
+acinar	acinar cell	CL:0002623	acinar cell of salivary gland
+acinar	acinar	CL:0002623	acinar cell of salivary gland
 MEC	myoepithelial cell	CL:0000185	myoepithelial cell
 MEC	MEC	CL:0000185	myoepithelial cell
 basal cells	basal cell	CL:0000646	basal cell
@@ -339,10 +353,10 @@ CD4+ Tem	CD4+ effector memory T cell	CL:0000905	effector memory CD4-positive, al
 CD4+ Tem	CD4+ Tem	CL:0000905	effector memory CD4-positive, alpha-beta T cell
 CD4+ Th17	CD4+ Th17 T cell	CL:0000899	T-helper 17 cell
 CD4+ Th17	CD4+ Th17	CL:0000899	T-helper 17 cell
-CD4+ Naive	CD4+ naïve T cell	CL:0000895	naive thymus-derived CD4-positive, alpha-beta T cell
+CD4+ Naive	CD4+ naive T cell	CL:0000895	naive thymus-derived CD4-positive, alpha-beta T cell
 CD4+ Naive	CD4+ Naive	CL:0000895	naive thymus-derived CD4-positive, alpha-beta T cell
-CD4+ Treg	CD4+ regulatory T cell	CL:0000815	regulatory T cell
-CD4+ Treg	CD4+ Treg	CL:0000815	regulatory T cell
+CD4+ Treg	CD4+ regulatory T cell	CL:0000792	CD4-positive, CD25-positive, alpha-beta regulatory T cell
+CD4+ Treg	CD4+ Treg	CL:0000792	CD4-positive, CD25-positive, alpha-beta regulatory T cell
 CD8+ T cell	CD8+ T cell	CL:0000625	CD8-positive, alpha-beta T cell
 CD8+ T cell	CD8+ T cell	CL:0000625	CD8-positive, alpha-beta T cell
 CD4+ T cell	CD4+ T cell	CL:0000624	CD4-positive, alpha-beta T cell
@@ -357,12 +371,12 @@ stem cells	stem cell	CL:0000034	stem cell
 stem cells	stem cell	CL:0000034	stem cell
 mammary ductal cells	mammary ductal cell	CL:0002326	luminal epithelial cell of mammary gland
 mammary ductal cells	mammary ductal cell	CL:0002326	luminal epithelial cell of mammary gland
-tubular cells	tubular cell	CL:0000066	epithelial cell
-tubular cells	tubular cell	CL:0000066	epithelial cell
+tubular cells	tubular cell	CL:1000507	kidney tubule cell
+tubular cells	tubular cell	CL:1000507	kidney tubule cell
 corneal limbal stem cells	corneal limbal stem cell	CL:4033093	limbal epithelial stem cell of cornea
 corneal limbal stem cells	corneal limbal stem cell	CL:4033093	limbal epithelial stem cell of cornea
-stem/progenitor cells	stem/progenitor cell	CL:0011115	precursor cell
-stem/progenitor cells	stem/progenitor cell	CL:0011115	precursor cell
+stem/progenitor cells	stem/progenitor cell	NO MATCH found	
+stem/progenitor cells	stem/progenitor cell	NO MATCH found	
 M1 macrophages	M1 macrophage	CL:0000863	inflammatory macrophage
 M1 macrophages	M1 macrophage	CL:0000863	inflammatory macrophage
 naive B cells	naïve B cell	CL:0000788	naive B cell
@@ -375,12 +389,6 @@ Tregs	T regulatory cell	CL:0000815	regulatory T cell
 Tregs	Treg	CL:0000815	regulatory T cell
 M2 macrophages	M2 macrophage	CL:0000890	alternatively activated macrophage
 M2 macrophages	M2 macrophage	CL:0000890	alternatively activated macrophage
-pancreatic islet cells	pancreatic islet cell	CL:0008024	pancreatic endocrine cell
-pancreatic islet cells	pancreatic islet cell	CL:0008024	pancreatic endocrine cell
-IHC	inner hair cell	CL:0000589	cochlear inner hair cell
-IHC	IHC	NO MATCH found	
-inner hair cell	inner hair cell	CL:0000589	cochlear inner hair cell
-inner hair cell	inner hair cell	CL:0000589	cochlear inner hair cell
 OHC	outer hair cell	CL:0000601	cochlear outer hair cell
 OHC	OHC	CL:0000601	cochlear outer hair cell
 outer hair cell	outer hair cell	CL:0000601	cochlear outer hair cell
@@ -398,19 +406,19 @@ brainstem motor neurons	brainstem motor neuron	CL:2000047	brainstem motor neuron
 brainstem motor neurons	brainstem motor neuron	CL:2000047	brainstem motor neuron
 endocrine	endocrine cell	CL:0000163	endocrine cell
 endocrine	endocrine	CL:0000163	endocrine cell
-exocrine cells	exocrine pancreatic cell	CL:1001433	epithelial cell of exocrine pancreas
+exocrine cells	exocrine pancreatic cell	CL:1001599	pancreas exocrine glandular cell
 exocrine cells	exocrine cell	CL:0000152	exocrine cell
 endocrine and exocrine cells	endocrine and exocrine pancreatic cell	NO MATCH found	
 endocrine and exocrine cells	endocrine and exocrine cell	NO MATCH found	
 exocrine acinar cells	acinar cell of the exocrine pancreas	CL:0002064	pancreatic acinar cell
-exocrine acinar cells	exocrine acinar cell	CL:0000622	acinar cell
+exocrine acinar cells	exocrine acinar cell	CL:0002064	pancreatic acinar cell
 islet cells	Langerhans islet cell	CL:0008024	pancreatic endocrine cell
 islet cells	islet cell	CL:0008024	pancreatic endocrine cell
 cardiomyocytes	cardiomyocyte	CL:0000746	cardiac muscle cell
 cardiomyocytes	cardiomyocyte	CL:0000746	cardiac muscle cell
 CMCs	beating cardiomyocyte	CL:0000746	cardiac muscle cell
 CMCs	CMC	CL:0000746	cardiac muscle cell
-cardiac	cardiac	CL:0000746	cardiac muscle cell
+cardiac	cardiac	NO MATCH found	
 fibroblast	fibroblast	CL:0000057	fibroblast
 fibroblast	fibroblast	CL:0000057	fibroblast
 synovial macrophage	synovial macrophage	CL:0002302	type A synovial cell
@@ -452,6 +460,12 @@ CD4+ T cells	CD4+ T cell	CL:0000624	CD4-positive, alpha-beta T cell
 CD4+ T cells	CD4+ T cell	CL:0000624	CD4-positive, alpha-beta T cell
 Treg	Treg	CL:0000815	regulatory T cell
 Treg	Treg	CL:0000815	regulatory T cell
+CD8+ T cells	CD8+ T cell	CL:0000625	CD8-positive, alpha-beta T cell
+CD8+ T cells	CD8+ T cell	CL:0000625	CD8-positive, alpha-beta T cell
+T helper type 1 (Th1) cells	T helper type 1 (Th1) cell	CL:0000545	T-helper 1 cell
+T helper type 1 (Th1) cells	T helper type 1 (Th1) cell	CL:0000545	T-helper 1 cell
+Th1 effector cells	T helper type 1 effector cell	CL:0000545	T-helper 1 cell
+Th1 effector cells	Th1 effector cell	CL:0000545	T-helper 1 cell
 CD3-expressing T cells	CD3-expressing T cell	CL:0000084	T cell
 CD3-expressing T cells	CD3-expressing T cell	CL:0000084	T cell
 NK cells	NK cell	CL:0000623	natural killer cell
