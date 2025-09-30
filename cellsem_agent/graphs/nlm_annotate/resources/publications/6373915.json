@@ -1,0 +1,14 @@
+[
+  {
+    "name": "fibroblast",
+    "full_name": "C3H10T1/2 mouse fibroblast cells",
+    "paper_synonyms": "mouse fibroblast; mouse fibroblast cells",
+    "tissue_context": "Connective Tissue; Connective Tissue Cells"
+  },
+  {
+    "name": "fibroblasts",
+    "full_name": "C3H10T1/2 mouse fibroblast cells",
+    "paper_synonyms": "mouse fibroblasts; mouse fibroblast cells",
+    "tissue_context": "Connective Tissue; Connective Tissue Cells"
+  }
+]

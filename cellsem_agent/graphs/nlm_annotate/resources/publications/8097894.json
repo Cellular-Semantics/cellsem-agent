@@ -1,0 +1,14 @@
+[
+  {
+    "name": "myoblasts",
+    "full_name": "human primary myoblasts",
+    "paper_synonyms": null,
+    "tissue_context": "semitendinous muscle"
+  },
+  {
+    "name": "myotubes",
+    "full_name": "human myotubes",
+    "paper_synonyms": null,
+    "tissue_context": "semitendinous muscle"
+  }
+]

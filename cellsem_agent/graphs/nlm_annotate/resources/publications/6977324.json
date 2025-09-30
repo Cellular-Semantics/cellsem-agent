@@ -1,0 +1,20 @@
+[
+  {
+    "name": "neutrophils",
+    "full_name": "neutrophils",
+    "paper_synonyms": null,
+    "tissue_context": "human blood"
+  },
+  {
+    "name": "neutrophil cell",
+    "full_name": "neutrophil cell",
+    "paper_synonyms": null,
+    "tissue_context": "human blood"
+  },
+  {
+    "name": "neutrophil",
+    "full_name": "neutrophil",
+    "paper_synonyms": null,
+    "tissue_context": "human blood"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "EVT",
+    "full_name": "extravillous trophoblast",
+    "paper_synonyms": "extravillous trophoblast",
+    "tissue_context": "myometrial tissues; lower uterine segment"
+  },
+  {
+    "name": "extravillous trophoblast",
+    "full_name": "extravillous trophoblast",
+    "paper_synonyms": "EVT",
+    "tissue_context": "myometrial tissues; lower uterine segment"
+  },
+  {
+    "name": "ILC",
+    "full_name": "innate lymphoid cell",
+    "paper_synonyms": "innate lymphoid cell",
+    "tissue_context": "myometrial tissues; lower uterine segment"
+  },
+  {
+    "name": "innate lymphoid cell",
+    "full_name": "innate lymphoid cell",
+    "paper_synonyms": "ILC",
+    "tissue_context": "myometrial tissues; lower uterine segment"
+  },
+  {
+    "name": "NK cell",
+    "full_name": "natural killer cell",
+    "paper_synonyms": "natural killer cell",
+    "tissue_context": "myometrial tissues; lower uterine segment"
+  },
+  {
+    "name": "natural killer cell",
+    "full_name": "natural killer cell",
+    "paper_synonyms": "NK cell",
+    "tissue_context": "myometrial tissues; lower uterine segment"
+  },
+  {
+    "name": "SMC",
+    "full_name": "smooth muscle cell",
+    "paper_synonyms": "smooth muscle cell",
+    "tissue_context": "myometrial tissues; lower uterine segment"
+  },
+  {
+    "name": "smooth muscle cell",
+    "full_name": "smooth muscle cell",
+    "paper_synonyms": "SMC",
+    "tissue_context": "myometrial tissues; lower uterine segment"
+  },
+  {
+    "name": "DC",
+    "full_name": "dendritic cell",
+    "paper_synonyms": "dendritic cell",
+    "tissue_context": "myometrial tissues; lower uterine segment"
+  },
+  {
+    "name": "dendritic cell",
+    "full_name": "dendritic cell",
+    "paper_synonyms": "DC",
+    "tissue_context": "myometrial tissues; lower uterine segment"
+  }
+]

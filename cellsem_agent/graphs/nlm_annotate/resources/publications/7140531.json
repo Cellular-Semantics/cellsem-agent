@@ -1,0 +1,38 @@
+[
+  {
+    "name": "renal tubular cells",
+    "full_name": "renal tubular cells",
+    "paper_synonyms": "renal tubular epithelium; proximal tubule cells; distal tubular cells",
+    "tissue_context": "renal cortical nephron; proximal and distal convoluted tubules"
+  },
+  {
+    "name": "glomerular pericytes",
+    "full_name": "glomerular pericytes",
+    "paper_synonyms": "pericytes of kidney",
+    "tissue_context": "renal cortical nephron; Upper urinary tract"
+  },
+  {
+    "name": "renal interstitial cells",
+    "full_name": "renal interstitial cells",
+    "paper_synonyms": "interstitial cells",
+    "tissue_context": "renal cortical nephron; Upper urinary tract"
+  },
+  {
+    "name": "vascular endothelial cells",
+    "full_name": "vascular endothelial cells",
+    "paper_synonyms": "endothelial cells",
+    "tissue_context": "renal cortical nephron; Upper urinary tract"
+  },
+  {
+    "name": "epithelial (urothelial) cells",
+    "full_name": "epithelial (urothelial) cells",
+    "paper_synonyms": "urothelial cells; human urinary epithelial cells; transitional epithelial cells",
+    "tissue_context": "Lower urinary tract; ureter, urinary bladder and urethra"
+  },
+  {
+    "name": "stem cells",
+    "full_name": "stem cells",
+    "paper_synonyms": "urine-derived stem cells (UDSC); Stem-like cells",
+    "tissue_context": "convoluted tubules of nephron, renal pelvis, ureters, bladder and urethra"
+  }
+]

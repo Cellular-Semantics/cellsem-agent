@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Th1 cell",
+    "full_name": "T helper type 1 cell",
+    "paper_synonyms": "T helper type 1; Th1",
+    "tissue_context": "aged lungs"
+  },
+  {
+    "name": "monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "lung tissue samples; COPD lung tissues; aged lungs; lungs from active smokers; smoking lungs"
+  }
+]

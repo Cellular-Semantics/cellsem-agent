@@ -1,0 +1,20 @@
+[
+  {
+    "name": "intestinal stem cell",
+    "full_name": "intestinal stem cell",
+    "paper_synonyms": "Lgr5 stem cells",
+    "tissue_context": "ileum; intestine; intestinal crypts"
+  },
+  {
+    "name": "Paneth cells",
+    "full_name": "Paneth cells",
+    "paper_synonyms": null,
+    "tissue_context": "ileum; intestine; intestinal crypts"
+  },
+  {
+    "name": "stomach epithelia",
+    "full_name": "stomach epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "stomach; antrum; corpus; glandular hindstomach; isthmus"
+  }
+]

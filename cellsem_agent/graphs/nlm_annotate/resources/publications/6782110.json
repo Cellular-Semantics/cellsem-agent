@@ -1,0 +1,14 @@
+[
+  {
+    "name": "CD8+ T cell",
+    "full_name": "CD8 + T cells",
+    "paper_synonyms": null,
+    "tissue_context": "lung; lungs"
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "respiratory tract; lungs; lung; pulmonary epithelial cells; lung epithelial cells; airway epithelial cells; tracheal epithelial cells; large airways; lung parenchyma"
+  }
+]

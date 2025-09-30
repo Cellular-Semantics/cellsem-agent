@@ -1,0 +1,140 @@
+[
+  {
+    "name": "AT2 cells",
+    "full_name": "type II alveolar cells",
+    "paper_synonyms": "type II alveolar cells",
+    "tissue_context": "Lung"
+  },
+  {
+    "name": "nasal turbinate epithelial cells",
+    "full_name": "nasal turbinate epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "Nose (nasal turbinate epithelial cells)"
+  },
+  {
+    "name": "Mesenchymal stromal cells",
+    "full_name": "Mesenchymal stromal cells",
+    "paper_synonyms": null,
+    "tissue_context": "Nose (nasal turbinate epithelial cells); Nose (nasal brushing epithelial cells)"
+  },
+  {
+    "name": "Plasma cells",
+    "full_name": "Plasma cells",
+    "paper_synonyms": null,
+    "tissue_context": "Nose (nasal turbinate epithelial cells); Nose (nasal brushing epithelial cells)"
+  },
+  {
+    "name": "nasal brushing epithelial cells",
+    "full_name": "nasal brushing epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "Nose (nasal brushing epithelial cells)"
+  },
+  {
+    "name": "nasal airway epithelial cells",
+    "full_name": "nasal airway epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "Nose (nasal airway epithelial cells)"
+  },
+  {
+    "name": "Enterocyte progenitor cell",
+    "full_name": "Enterocyte progenitor cell",
+    "paper_synonyms": null,
+    "tissue_context": "Small intestine (jejunum); Small intestine (ileum); Small intestine (duodenum)"
+  },
+  {
+    "name": "Goblet cell",
+    "full_name": "Goblet cell",
+    "paper_synonyms": null,
+    "tissue_context": "Small intestine (jejunum); Large intestine (rectum); Large intestine (colon)"
+  },
+  {
+    "name": "Intestinal epithelial stem cell",
+    "full_name": "Intestinal epithelial stem cell",
+    "paper_synonyms": null,
+    "tissue_context": "Small intestine (ileum); Small intestine (duodenum)"
+  },
+  {
+    "name": "LGR5+ stem cell",
+    "full_name": "LGR5+ stem cell",
+    "paper_synonyms": null,
+    "tissue_context": "Small intestine (duodenum)"
+  },
+  {
+    "name": "Enteroendocrine cell",
+    "full_name": "Enteroendocrine cell",
+    "paper_synonyms": null,
+    "tissue_context": "Small intestine (duodenum)"
+  },
+  {
+    "name": "Enterocyte",
+    "full_name": "Enterocyte",
+    "paper_synonyms": null,
+    "tissue_context": "Large intestine (rectum); Large intestine (colon)"
+  },
+  {
+    "name": "Oligodendrocyte precursor cell",
+    "full_name": "Oligodendrocyte precursor cell",
+    "paper_synonyms": null,
+    "tissue_context": "Brain (substantia nigra and cortex)"
+  },
+  {
+    "name": "Astrocyte",
+    "full_name": "Astrocyte",
+    "paper_synonyms": null,
+    "tissue_context": "Brain (substantia nigra and cortex)"
+  },
+  {
+    "name": "Epithelial cells",
+    "full_name": "Epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "Fallopian tube"
+  },
+  {
+    "name": "Spermatogonium",
+    "full_name": "Spermatogonium",
+    "paper_synonyms": null,
+    "tissue_context": "Testis"
+  },
+  {
+    "name": "Peritubular myoid cell",
+    "full_name": "Peritubular myoid cell",
+    "paper_synonyms": null,
+    "tissue_context": "Testis"
+  },
+  {
+    "name": "Spermatogonial stem cell",
+    "full_name": "Spermatogonial stem cell",
+    "paper_synonyms": null,
+    "tissue_context": "Testis"
+  },
+  {
+    "name": "Cardiomyocyte",
+    "full_name": "Cardiomyocyte",
+    "paper_synonyms": null,
+    "tissue_context": "Heart"
+  },
+  {
+    "name": "Cardiovascular progenitor cell",
+    "full_name": "Cardiovascular progenitor cell",
+    "paper_synonyms": null,
+    "tissue_context": "Heart"
+  },
+  {
+    "name": "Nephron epithelial cell",
+    "full_name": "Nephron epithelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "Kidney"
+  },
+  {
+    "name": "Epithelial cell",
+    "full_name": "Epithelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "Kidney"
+  },
+  {
+    "name": "Mesangial cell",
+    "full_name": "Mesangial cell",
+    "paper_synonyms": null,
+    "tissue_context": "Kidney"
+  }
+]

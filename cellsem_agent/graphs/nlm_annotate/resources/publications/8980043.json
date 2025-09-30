@@ -1,0 +1,62 @@
+[
+  {
+    "name": "smooth muscle cells",
+    "full_name": "smooth muscle cells",
+    "paper_synonyms": null,
+    "tissue_context": "bronchial biopsies"
+  },
+  {
+    "name": "mast cells",
+    "full_name": "mast cells",
+    "paper_synonyms": null,
+    "tissue_context": "bronchial biopsies"
+  },
+  {
+    "name": "club and goblet cells",
+    "full_name": "club cells and goblet cells",
+    "paper_synonyms": "secretory cells",
+    "tissue_context": "bronchial biopsies"
+  },
+  {
+    "name": "ionocytes",
+    "full_name": "ionocytes",
+    "paper_synonyms": null,
+    "tissue_context": "bronchial biopsies"
+  },
+  {
+    "name": "submucosal cells",
+    "full_name": "submucosal cells",
+    "paper_synonyms": null,
+    "tissue_context": "bronchial biopsies"
+  },
+  {
+    "name": "Activated endothelium",
+    "full_name": "activated endothelium",
+    "paper_synonyms": null,
+    "tissue_context": "bronchial biopsies"
+  },
+  {
+    "name": "basal cells",
+    "full_name": "basal cells",
+    "paper_synonyms": null,
+    "tissue_context": "bronchial biopsies"
+  },
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "bronchial biopsies"
+  },
+  {
+    "name": "fibroblasts",
+    "full_name": "fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "bronchial biopsies"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "bronchial biopsies"
+  }
+]

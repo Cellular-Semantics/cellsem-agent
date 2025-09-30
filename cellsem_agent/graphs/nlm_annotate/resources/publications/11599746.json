@@ -1,0 +1,62 @@
+[
+  {
+    "name": "CD8+ T cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "CCR4+CXCR3  type-2 cytotoxic CD8+ T cells",
+    "full_name": "CCR4 + CXCR3 \u00af type-2 cytotoxic CD8 + T cells",
+    "paper_synonyms": "CD8 + Tc2",
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "CD8+ Tc2",
+    "full_name": "CCR4 + CXCR3 \u00af type-2 cytotoxic CD8 + T cells",
+    "paper_synonyms": "type-2 cytotoxic CD8 + T cells",
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "CCR4 CXCR3+ type-1 CD8+ T cells",
+    "full_name": "CCR4 \u00af CXCR3 + type-1 CD8 + T cells",
+    "paper_synonyms": "CD8 + Tc1",
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "CD8+ Tc1",
+    "full_name": "CCR4 \u00af CXCR3 + type-1 CD8 + T cells",
+    "paper_synonyms": "type 1 cytotoxic cells",
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "CD45RA+CD8+ regulatory T cells",
+    "full_name": "CD45RA + CD8 + regulatory T cells",
+    "paper_synonyms": "CD8 + Tregs",
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "Tregs",
+    "full_name": "CD4 + regulatory T cells",
+    "paper_synonyms": "regulatory T cells; CD4 + Tregs",
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "CD45RA+ and total CD8+ Tregs",
+    "full_name": "CD45RA + CD8 + regulatory T cells and total CD8 + regulatory T cells",
+    "paper_synonyms": "CD8 + Tregs; total CD8 + Tregs; CD45RA + CD8 + regulatory T cells",
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "type-2 CD8+ T cells",
+    "full_name": "type-2 cytotoxic CD8 + T cells",
+    "paper_synonyms": "CD8 + Tc2; CCR4 + CXCR3 \u00af type-2 cytotoxic CD8 + T cells",
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "CD8+ T-cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood"
+  }
+]

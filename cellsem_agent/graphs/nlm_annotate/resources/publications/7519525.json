@@ -1,0 +1,26 @@
+[
+  {
+    "name": "FRC",
+    "full_name": "Fibroblastic reticular cell",
+    "paper_synonyms": "fibroblastic reticulum cells",
+    "tissue_context": "lymph nodes; parafollicular and deep cortex areas"
+  },
+  {
+    "name": "Fibroblastic reticular cell",
+    "full_name": "Fibroblastic reticular cell",
+    "paper_synonyms": "fibroblastic reticulum cells; FRC",
+    "tissue_context": "lymph nodes; parafollicular and deep cortex areas"
+  },
+  {
+    "name": "FDC",
+    "full_name": "Follicular dendritic cell",
+    "paper_synonyms": "follicular dendritic cells",
+    "tissue_context": "lymph nodes"
+  },
+  {
+    "name": "Follicular dendritic cell",
+    "full_name": "Follicular dendritic cell",
+    "paper_synonyms": "FDC; follicular dendritic cells",
+    "tissue_context": "lymph nodes"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "mesenchymal cells",
+    "full_name": "lung mesenchymal cells",
+    "paper_synonyms": "MC",
+    "tissue_context": "perinatal lung; murine lung"
+  },
+  {
+    "name": "proliferating pericytes",
+    "full_name": "proliferating pericytes",
+    "paper_synonyms": "",
+    "tissue_context": "P7 lungs; distal lung"
+  },
+  {
+    "name": "pulmonary pericytes",
+    "full_name": "pulmonary pericytes",
+    "paper_synonyms": "pericytes",
+    "tissue_context": "neonatal lung"
+  },
+  {
+    "name": "lung pericytes",
+    "full_name": "lung pericytes",
+    "paper_synonyms": "pericytes",
+    "tissue_context": "lung"
+  },
+  {
+    "name": "pericyte",
+    "full_name": "pericytes",
+    "paper_synonyms": "",
+    "tissue_context": "perinatal lung"
+  }
+]

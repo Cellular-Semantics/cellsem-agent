@@ -1,0 +1,20 @@
+[
+  {
+    "name": "CD4 T cells",
+    "full_name": "CD4 T lymphocytes",
+    "paper_synonyms": "CD4 T lymphocytes; CD4 T-lymphocytes",
+    "tissue_context": "Human peripheral blood mononuclear cells (PBMCs) from healthy blood donors"
+  },
+  {
+    "name": "CD4 T-cell",
+    "full_name": "CD4 T lymphocytes",
+    "paper_synonyms": "CD4 T cells; CD4 T lymphocytes; CD4 T-lymphocytes",
+    "tissue_context": "Human peripheral blood mononuclear cells (PBMCs) from healthy blood donors"
+  },
+  {
+    "name": "T cell",
+    "full_name": "T lymphocyte",
+    "paper_synonyms": "T lymphocytes; CD3 T cells",
+    "tissue_context": "Human peripheral blood mononuclear cells (PBMCs) from healthy blood donors"
+  }
+]

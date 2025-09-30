@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Radial Gila",
+    "full_name": "Radial Gila",
+    "paper_synonyms": null,
+    "tissue_context": "human fetal brain"
+  },
+  {
+    "name": "P",
+    "full_name": "Progenitors",
+    "paper_synonyms": "Progenitors",
+    "tissue_context": "human fetal brain"
+  },
+  {
+    "name": "Progenitors",
+    "full_name": "Progenitors",
+    "paper_synonyms": "P",
+    "tissue_context": "human fetal brain"
+  }
+]

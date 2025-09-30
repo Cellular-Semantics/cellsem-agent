@@ -1,0 +1,20 @@
+[
+  {
+    "name": "SPG",
+    "full_name": "spermatogonia",
+    "paper_synonyms": "spermatogonia",
+    "tissue_context": "adult human testes"
+  },
+  {
+    "name": "spermatogonia",
+    "full_name": "spermatogonia",
+    "paper_synonyms": "SPG",
+    "tissue_context": "adult human testes"
+  },
+  {
+    "name": "male germ cell",
+    "full_name": "male germ cell",
+    "paper_synonyms": null,
+    "tissue_context": "adult human testes"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "cytotoxic T cells",
+    "full_name": "cytotoxic T cells",
+    "paper_synonyms": null,
+    "tissue_context": "tumor microenvironment (TME); tumor tissues"
+  },
+  {
+    "name": "immunosuppressive Tregs",
+    "full_name": "regulatory T (Treg) cells",
+    "paper_synonyms": "regulatory T cells; Treg",
+    "tissue_context": "tumor microenvironment (TME); tumor tissues"
+  },
+  {
+    "name": "memory CD8+T cells",
+    "full_name": "memory CD8+ T cells (CD8_IL7R)",
+    "paper_synonyms": "CD8_IL7R; memory T; Tm",
+    "tissue_context": "tumor microenvironment (TME); tumor tissues"
+  },
+  {
+    "name": "Tissue-resident macrophages",
+    "full_name": "tissue-resident alveolar macrophages (AM)",
+    "paper_synonyms": "alveolar macrophages; AM",
+    "tissue_context": "tumor microenvironment (TME); lung"
+  },
+  {
+    "name": "neutrophils",
+    "full_name": "neutrophils",
+    "paper_synonyms": null,
+    "tissue_context": "TME of NSCLC; tumor microenvironment (TME)"
+  }
+]

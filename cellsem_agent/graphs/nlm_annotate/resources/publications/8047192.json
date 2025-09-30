@@ -1,0 +1,26 @@
+[
+  {
+    "name": "CD4+ and CD8+ T cells",
+    "full_name": "CD4+ T helper cells and CD8+ cytotoxic T lymphocytes",
+    "paper_synonyms": "CD4+ T cells; CD4+ helper T cells; CD8+ T cells; cytotoxic CD8+ T cells; cytotoxic T lymphocytes (CTLs)",
+    "tissue_context": "islets; insulitic lesions; pancreatic lymph nodes"
+  },
+  {
+    "name": "B cells",
+    "full_name": null,
+    "paper_synonyms": "B lymphocytes; CD20+ B cells",
+    "tissue_context": "islets; insulitis; pancreas"
+  },
+  {
+    "name": "beta cells",
+    "full_name": "insulin-producing pancreatic beta cells",
+    "paper_synonyms": "pancreatic beta cells; beta-cells",
+    "tissue_context": "pancreas; islets"
+  },
+  {
+    "name": "beta cell",
+    "full_name": "insulin-producing pancreatic beta cell",
+    "paper_synonyms": "pancreatic beta cells; beta-cells",
+    "tissue_context": "pancreas; islets"
+  }
+]

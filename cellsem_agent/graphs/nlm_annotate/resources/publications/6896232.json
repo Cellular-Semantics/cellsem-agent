@@ -1,0 +1,32 @@
+[
+  {
+    "name": "pluripotent cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "Embryonic stem cells",
+    "full_name": "Embryonic stem cells",
+    "paper_synonyms": "ESCs",
+    "tissue_context": null
+  },
+  {
+    "name": "ESCs",
+    "full_name": "Embryonic stem cells",
+    "paper_synonyms": "Embryonic stem cells",
+    "tissue_context": null
+  },
+  {
+    "name": "mESCs",
+    "full_name": "mouse embryonic stem cells",
+    "paper_synonyms": "mouse ESCs; mouse embryonic stem cells",
+    "tissue_context": null
+  },
+  {
+    "name": "mESC",
+    "full_name": "mouse embryonic stem cell",
+    "paper_synonyms": "mouse ESC; mESCs; mouse embryonic stem cells",
+    "tissue_context": null
+  }
+]

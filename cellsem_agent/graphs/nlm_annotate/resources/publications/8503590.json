@@ -1,0 +1,20 @@
+[
+  {
+    "name": "articular",
+    "full_name": "articular chondrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "articular cartilage; PFE cartilage; proximal femoral epiphysis"
+  },
+  {
+    "name": "prehypertrophic/hypertrophic",
+    "full_name": "prehypertrophic/hypertrophic chondrocytes",
+    "paper_synonyms": "PH/H",
+    "tissue_context": "growth plate cartilage; PFE cartilage; proximal femoral epiphysis"
+  },
+  {
+    "name": "chondrocytes",
+    "full_name": "chondrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "PFE cartilage; proximal femoral epiphysis"
+  }
+]

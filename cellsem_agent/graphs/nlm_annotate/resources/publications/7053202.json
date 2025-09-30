@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Spermatozoa",
+    "full_name": "spermatozoa",
+    "paper_synonyms": "sperm",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "spermatogonia",
+    "full_name": "spermatogonia",
+    "paper_synonyms": "SPGs",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "SPGs",
+    "full_name": "spermatogonia",
+    "paper_synonyms": "spermatogonia",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "spermatocytes",
+    "full_name": "spermatocytes",
+    "paper_synonyms": "SPCs",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "SPCs",
+    "full_name": "spermatocytes",
+    "paper_synonyms": "spermatocytes",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "haploid spermatids",
+    "full_name": "haploid spermatids",
+    "paper_synonyms": "STs; spermatids",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "STs",
+    "full_name": "haploid spermatids",
+    "paper_synonyms": "haploid spermatids",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "undifferentiated SPGs",
+    "full_name": "undifferentiated spermatogonia",
+    "paper_synonyms": "spermatogonial stem cells; SSC; SSCs",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "male germ cells",
+    "full_name": "male germ cells",
+    "paper_synonyms": "germ cells",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "Sertoli cells",
+    "full_name": "Sertoli cells",
+    "paper_synonyms": "SCs; nurse cells",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "SCs",
+    "full_name": "Sertoli cells",
+    "paper_synonyms": "Sertoli cells; nurse cells",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "Leydig cells",
+    "full_name": "Leydig cells",
+    "paper_synonyms": "LCs",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "LCs",
+    "full_name": "Leydig cells",
+    "paper_synonyms": "Leydig cells",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "nurse cells",
+    "full_name": "Sertoli cells",
+    "paper_synonyms": "SCs",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "peritubular myoid cells",
+    "full_name": "peritubular myoid cells",
+    "paper_synonyms": "PTMs; muscle cells",
+    "tissue_context": "seminiferous tubules; testis"
+  },
+  {
+    "name": "PTMs",
+    "full_name": "peritubular myoid cells",
+    "paper_synonyms": "peritubular myoid cells; muscle cells",
+    "tissue_context": "seminiferous tubules; testis"
+  },
+  {
+    "name": "muscle cells",
+    "full_name": "peritubular myoid cells",
+    "paper_synonyms": "PTMs; peritubular myoid cells",
+    "tissue_context": "seminiferous tubules; testis"
+  },
+  {
+    "name": "sperm",
+    "full_name": "spermatozoa",
+    "paper_synonyms": "spermatozoa",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "germ cell",
+    "full_name": "germ cell",
+    "paper_synonyms": "germ cells; male germ cells",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "spermatogonial stem cells",
+    "full_name": "spermatogonial stem cells",
+    "paper_synonyms": "SSCs; SSC; undifferentiated SPGs",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "SSC",
+    "full_name": "spermatogonial stem cells",
+    "paper_synonyms": "spermatogonial stem cells; SSCs",
+    "tissue_context": "testis"
+  },
+  {
+    "name": "SSCs",
+    "full_name": "spermatogonial stem cells",
+    "paper_synonyms": "spermatogonial stem cells; SSC",
+    "tissue_context": "testis"
+  }
+]

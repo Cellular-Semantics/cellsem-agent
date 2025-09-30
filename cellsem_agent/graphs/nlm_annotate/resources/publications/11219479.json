@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Inflammatory (M1) macrophages",
+    "full_name": "Inflammatory (M1) macrophages",
+    "paper_synonyms": "M1 macrophages; pro-inflammatory macrophages",
+    "tissue_context": "gut mucosa next to the crypt epithelium; intestinal lamina propria"
+  },
+  {
+    "name": "colonic epithelial cell",
+    "full_name": "colonic epithelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "colonic epithelium; distal colon"
+  },
+  {
+    "name": "macrophage",
+    "full_name": "macrophage",
+    "paper_synonyms": null,
+    "tissue_context": "intestinal lamina propria; submucosa"
+  },
+  {
+    "name": "anti-inflammatory (M2) macrophages",
+    "full_name": "anti-inflammatory (M2) macrophages",
+    "paper_synonyms": "M2 macrophages; homeostatic M2 macrophages; anti-inflammatory macrophages",
+    "tissue_context": "microenvironment of the colonic epithelium and its stem cell niche; intestinal lamina propria"
+  },
+  {
+    "name": "M1",
+    "full_name": "M1 macrophages",
+    "paper_synonyms": "inflammatory (M1) macrophages; pro-inflammatory macrophages",
+    "tissue_context": "gut mucosa next to the crypt epithelium; intestinal lamina propria"
+  },
+  {
+    "name": "M2",
+    "full_name": "M2 macrophages",
+    "paper_synonyms": "anti-inflammatory (M2) macrophages; homeostatic M2 macrophages",
+    "tissue_context": "microenvironment of the colonic epithelium and its stem cell niche; intestinal lamina propria"
+  }
+]

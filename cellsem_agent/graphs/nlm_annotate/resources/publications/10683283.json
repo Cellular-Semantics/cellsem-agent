@@ -1,0 +1,20 @@
+[
+  {
+    "name": "microglial",
+    "full_name": "microglia",
+    "paper_synonyms": null,
+    "tissue_context": "hippocampus; dentate gyrus (DG); sub-granular zone (SGZ); central nervous system (CNS)"
+  },
+  {
+    "name": "microglia",
+    "full_name": "microglia",
+    "paper_synonyms": null,
+    "tissue_context": "hippocampus; dentate gyrus (DG); sub-granular zone (SGZ); central nervous system (CNS)"
+  },
+  {
+    "name": "astrocytes",
+    "full_name": "astrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "hippocampus; dentate gyrus (DG); central nervous system (CNS); blood\u2013brain barrier (BBB)"
+  }
+]

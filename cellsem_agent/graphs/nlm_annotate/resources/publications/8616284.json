@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Schwann cells",
+    "full_name": "Schwann cells",
+    "paper_synonyms": "SCs",
+    "tissue_context": "injured spinal cord"
+  },
+  {
+    "name": "SCs",
+    "full_name": "Schwann cells",
+    "paper_synonyms": "Schwann cells",
+    "tissue_context": "injured spinal cord"
+  },
+  {
+    "name": "olfactory ensheathing cells",
+    "full_name": "olfactory ensheathing cells",
+    "paper_synonyms": "OECs",
+    "tissue_context": "injured spinal cord"
+  },
+  {
+    "name": "OECs",
+    "full_name": "olfactory ensheathing cells",
+    "paper_synonyms": "olfactory ensheathing cells",
+    "tissue_context": "injured spinal cord"
+  },
+  {
+    "name": "stem cells",
+    "full_name": "stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "injured spinal cord"
+  },
+  {
+    "name": "neural stem cells",
+    "full_name": "neural stem cells",
+    "paper_synonyms": "NSCs",
+    "tissue_context": "injured spinal cord"
+  },
+  {
+    "name": "NSCs",
+    "full_name": "neural stem cells",
+    "paper_synonyms": "neural stem cells",
+    "tissue_context": "injured spinal cord"
+  },
+  {
+    "name": "mesenchymal stem cells",
+    "full_name": "mesenchymal stem cells",
+    "paper_synonyms": "MSCs",
+    "tissue_context": "injured spinal cord"
+  },
+  {
+    "name": "MSCs",
+    "full_name": "mesenchymal stem cells",
+    "paper_synonyms": "mesenchymal stem cells",
+    "tissue_context": "injured spinal cord"
+  }
+]

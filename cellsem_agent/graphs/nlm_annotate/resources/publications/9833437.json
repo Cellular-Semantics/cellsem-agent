@@ -1,0 +1,62 @@
+[
+  {
+    "name": "pluripotent epiblast",
+    "full_name": "pluripotent epiblast",
+    "paper_synonyms": "epiblast",
+    "tissue_context": "mouse blastocyst; inner cell mass; egg cylinder"
+  },
+  {
+    "name": "primitive endoderm",
+    "full_name": "primitive endoderm",
+    "paper_synonyms": "PE",
+    "tissue_context": "mouse blastocyst; egg cylinder"
+  },
+  {
+    "name": "PE",
+    "full_name": "primitive endoderm",
+    "paper_synonyms": "primitive endoderm",
+    "tissue_context": "mouse blastocyst; egg cylinder"
+  },
+  {
+    "name": "trophectoderm",
+    "full_name": "trophectoderm",
+    "paper_synonyms": "TE",
+    "tissue_context": "mouse blastocyst; extra-embryonic ectoderm (ExE)"
+  },
+  {
+    "name": "TE",
+    "full_name": "trophectoderm",
+    "paper_synonyms": "trophectoderm",
+    "tissue_context": "mouse blastocyst; extra-embryonic ectoderm (ExE)"
+  },
+  {
+    "name": "ESCs",
+    "full_name": "embryonic stem cells",
+    "paper_synonyms": "ESC; embryonic stem cell; pluripotent embryonic stem cells",
+    "tissue_context": "epiblast; mouse blastocyst"
+  },
+  {
+    "name": "extra-embryonic cells",
+    "full_name": "extra-embryonic cells",
+    "paper_synonyms": "extra-embryonic tissues",
+    "tissue_context": "blastocyst"
+  },
+  {
+    "name": "stem cell",
+    "full_name": "stem cell",
+    "paper_synonyms": "stem cells",
+    "tissue_context": ""
+  },
+  {
+    "name": "trophoblast stem cells",
+    "full_name": "trophoblast stem cells",
+    "paper_synonyms": "TSCs",
+    "tissue_context": "trophectoderm; extra-embryonic ectoderm (ExE)"
+  },
+  {
+    "name": "TSCs",
+    "full_name": "trophoblast stem cells",
+    "paper_synonyms": "trophoblast stem cells",
+    "tissue_context": "trophectoderm; extra-embryonic ectoderm (ExE)"
+  }
+]

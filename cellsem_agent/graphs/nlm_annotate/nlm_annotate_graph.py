@@ -26,7 +26,7 @@ cxg_annotate_logger.addHandler(console)
 cxg_annotate_logger.propagate = True
 logfire.configure()
 
-IS_TEST_MODE = True
+IS_TEST_MODE = False
 TEST_ARTICLE_COUNT = 50  # Number of articles to process in test mode
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))

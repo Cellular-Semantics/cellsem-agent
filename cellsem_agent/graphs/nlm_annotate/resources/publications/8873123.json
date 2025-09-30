@@ -1,0 +1,26 @@
+[
+  {
+    "name": "hepatocytes",
+    "full_name": "hepatocytes",
+    "paper_synonyms": null,
+    "tissue_context": "liver"
+  },
+  {
+    "name": "HSC",
+    "full_name": "hepatic stellate cells",
+    "paper_synonyms": "HSCs",
+    "tissue_context": "liver"
+  },
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "liver"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "liver"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "CD4+ T cell",
+    "full_name": "CD4+ T cell",
+    "paper_synonyms": "CD4 + helper T cells",
+    "tissue_context": "labial salivary glands (LSG)"
+  },
+  {
+    "name": "CD8+ T cells",
+    "full_name": "CD8+ T cells",
+    "paper_synonyms": "CD8 + cytotoxic T cells; CD8 + CTLs",
+    "tissue_context": "labial salivary glands (LSG)"
+  },
+  {
+    "name": "T cells",
+    "full_name": "T cells",
+    "paper_synonyms": "CD3 + T cells",
+    "tissue_context": "labial salivary glands (LSG)"
+  },
+  {
+    "name": "ductal and acinar cells",
+    "full_name": "ductal and acinar cells",
+    "paper_synonyms": "epithelial cells; pan-CK positive cells; acinar (pan-CK + AQP5 +); ductal (pan-CK + AQP5 \u2212)",
+    "tissue_context": "labial salivary glands (LSG)"
+  }
+]

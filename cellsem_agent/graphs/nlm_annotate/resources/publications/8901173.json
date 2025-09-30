@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Myofibers",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "skeletal muscle; Extensor Digitorum Longus (EDL) muscle"
+  },
+  {
+    "name": "muscle fibers",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "skeletal muscle; Extensor Digitorum Longus (EDL) muscle"
+  },
+  {
+    "name": "muscle fiber",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Extensor Digitorum Longus (EDL) muscle"
+  },
+  {
+    "name": "muscle stem cells",
+    "full_name": "muscle stem cells",
+    "paper_synonyms": "MuSCs",
+    "tissue_context": "hindlimb muscles; skeletal muscle"
+  },
+  {
+    "name": "MuSCs",
+    "full_name": "muscle stem cells",
+    "paper_synonyms": "muscle stem cells",
+    "tissue_context": "hindlimb muscles; skeletal muscle"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "metaphase II oocyte",
+    "full_name": "metaphase II oocyte",
+    "paper_synonyms": "MII",
+    "tissue_context": "preovulatory follicles"
+  },
+  {
+    "name": "oocytes",
+    "full_name": "oocytes",
+    "paper_synonyms": null,
+    "tissue_context": "preovulatory follicles"
+  },
+  {
+    "name": "fertilized oocyte",
+    "full_name": "fertilized oocyte",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "metaphase II oocytes",
+    "full_name": "metaphase II oocytes",
+    "paper_synonyms": "MII oocytes; MII",
+    "tissue_context": "preovulatory follicles"
+  },
+  {
+    "name": "fertilized oocytes",
+    "full_name": "fertilized oocytes",
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

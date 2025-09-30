@@ -1,0 +1,104 @@
+[
+  {
+    "name": "myeloid cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "macrophages",
+    "full_name": null,
+    "paper_synonyms": "MAC",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "dendritic cells",
+    "full_name": null,
+    "paper_synonyms": "DEND",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "MAC",
+    "full_name": "macrophages",
+    "paper_synonyms": "macrophages",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "DEND",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "dendritic cells",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "monocytes",
+    "full_name": null,
+    "paper_synonyms": "MONO",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "MONO",
+    "full_name": "monocytes",
+    "paper_synonyms": "monocytes",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "natural killer T cells",
+    "full_name": null,
+    "paper_synonyms": "NKT",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "NKT",
+    "full_name": "natural killer T cells",
+    "paper_synonyms": "natural killer T cells",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "T lymphocytes",
+    "full_name": null,
+    "paper_synonyms": "Tlym",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "Tlym",
+    "full_name": "T lymphocytes",
+    "paper_synonyms": "T lymphocytes",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "B lymphocytes",
+    "full_name": null,
+    "paper_synonyms": "Blym",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "Blym",
+    "full_name": "B lymphocytes",
+    "paper_synonyms": "B lymphocytes",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "reticulocytes",
+    "full_name": null,
+    "paper_synonyms": "RET",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "RET",
+    "full_name": "reticulocytes",
+    "paper_synonyms": "reticulocytes",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "neutrophils",
+    "full_name": null,
+    "paper_synonyms": "NEUT",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  },
+  {
+    "name": "NEUT",
+    "full_name": "neutrophils",
+    "paper_synonyms": "neutrophils",
+    "tissue_context": "interscapular brown adipose tissue (iBAT)"
+  }
+]

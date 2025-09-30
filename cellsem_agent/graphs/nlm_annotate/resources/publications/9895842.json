@@ -1,0 +1,14 @@
+[
+  {
+    "name": "thymocytes",
+    "full_name": "thymocytes",
+    "paper_synonyms": "Immature T cells",
+    "tissue_context": "human paediatric thymus; cortex; medulla; cortico-medullary junction"
+  },
+  {
+    "name": "dendritic cells",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "DCs; DC",
+    "tissue_context": "human paediatric thymus; medulla; cortico-medullary junction"
+  }
+]

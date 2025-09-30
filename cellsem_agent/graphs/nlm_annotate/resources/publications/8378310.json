@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Pancreatic Beta Cell",
+    "full_name": "pancreatic \u03b2 cell",
+    "paper_synonyms": "\u03b2 cell; beta cell; insulin-producing \u03b2 cells",
+    "tissue_context": "pancreatic islets; pancreas; human pancreatic islets; native mouse pancreas"
+  },
+  {
+    "name": "beta Cell",
+    "full_name": "\u03b2 cell",
+    "paper_synonyms": "pancreatic \u03b2 cell; beta cell",
+    "tissue_context": "pancreatic islets; pancreas"
+  },
+  {
+    "name": "Progenitor",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "pancreas; posterior foregut region of the developing embryo"
+  }
+]

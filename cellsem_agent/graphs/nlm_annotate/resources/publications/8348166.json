@@ -1,0 +1,50 @@
+[
+  {
+    "name": "normal and displaced amacrine cells",
+    "full_name": "normal and displaced amacrine cells",
+    "paper_synonyms": "AC; DAC",
+    "tissue_context": "mouse retinae; inner nuclear layer (INL); ganglion cell layer (GCL)"
+  },
+  {
+    "name": "GABAergic, cholinergic and dopaminergic amacrine cells",
+    "full_name": "GABAergic, cholinergic and dopaminergic amacrine cells",
+    "paper_synonyms": "AC",
+    "tissue_context": "mouse retinae; inner nuclear layer (INL); ganglion cell layer (GCL)"
+  },
+  {
+    "name": "glycinergic amacrine cells",
+    "full_name": "glycinergic amacrine cells",
+    "paper_synonyms": "AC",
+    "tissue_context": "mouse retinae; inner nuclear layer (INL)"
+  },
+  {
+    "name": "amacrine cell",
+    "full_name": "amacrine cell",
+    "paper_synonyms": "AC",
+    "tissue_context": "mouse retinae; inner nuclear layer (INL)"
+  },
+  {
+    "name": "glutamatergic rod bipolar cells",
+    "full_name": "glutamatergic rod bipolar cells",
+    "paper_synonyms": null,
+    "tissue_context": "mouse retinae"
+  },
+  {
+    "name": "auditory sensory cells",
+    "full_name": "auditory sensory cells of the cochlea",
+    "paper_synonyms": "inner hair cells",
+    "tissue_context": "cochlea"
+  },
+  {
+    "name": "inner hair cells",
+    "full_name": "inner hair cells",
+    "paper_synonyms": "auditory sensory cells of the cochlea",
+    "tissue_context": "cochlea"
+  },
+  {
+    "name": "neuronal",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

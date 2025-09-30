@@ -1,0 +1,44 @@
+[
+  {
+    "name": "hematopoietic cell",
+    "full_name": "hematopoietic cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "Ery",
+    "full_name": "erythroid",
+    "paper_synonyms": "erythroid",
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "erythroid",
+    "full_name": "erythroid",
+    "paper_synonyms": "Ery",
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "Mye",
+    "full_name": "myeloid",
+    "paper_synonyms": "myeloid",
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "myeloid",
+    "full_name": "myeloid",
+    "paper_synonyms": "Mye",
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "Lymph",
+    "full_name": "lymphoid progenitor",
+    "paper_synonyms": "lymphoid progenitor",
+    "tissue_context": "peripheral blood"
+  },
+  {
+    "name": "lymphoid progenitor",
+    "full_name": "lymphoid progenitor",
+    "paper_synonyms": "Lymph",
+    "tissue_context": "peripheral blood"
+  }
+]

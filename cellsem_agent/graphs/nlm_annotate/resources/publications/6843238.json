@@ -1,0 +1,26 @@
+[
+  {
+    "name": "spermatogonial",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "testis"
+  },
+  {
+    "name": "spermatid",
+    "full_name": "spermatid",
+    "paper_synonyms": null,
+    "tissue_context": "testis"
+  },
+  {
+    "name": "sperm",
+    "full_name": "sperm",
+    "paper_synonyms": null,
+    "tissue_context": "testis"
+  },
+  {
+    "name": "Spermatogonial stem cells",
+    "full_name": "Spermatogonial stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "testis"
+  }
+]

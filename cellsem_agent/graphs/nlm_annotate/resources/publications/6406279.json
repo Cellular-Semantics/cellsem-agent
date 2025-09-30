@@ -1,0 +1,86 @@
+[
+  {
+    "name": "T-lymphocytes",
+    "full_name": "T-lymphocytes",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "natural killer cells",
+    "full_name": "natural killer cells",
+    "paper_synonyms": "NKCs",
+    "tissue_context": null
+  },
+  {
+    "name": "NKCs",
+    "full_name": "natural killer cells",
+    "paper_synonyms": "natural killer cells",
+    "tissue_context": null
+  },
+  {
+    "name": "T-regulatory cells",
+    "full_name": "T-regulatory cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "myeloid cells",
+    "full_name": "myeloid cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "dendritic cell",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "DCs",
+    "tissue_context": null
+  },
+  {
+    "name": "T-cell",
+    "full_name": "T-cell",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "CD4+ or CD8+ T cells",
+    "full_name": "CD4 + or CD8 + T cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "immature DCs",
+    "full_name": "immature dendritic cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "T-cells",
+    "full_name": "T-cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "T-helper 17",
+    "full_name": "T-helper 17",
+    "paper_synonyms": "Th17",
+    "tissue_context": null
+  },
+  {
+    "name": "Th17",
+    "full_name": "T-helper 17",
+    "paper_synonyms": "T-helper 17",
+    "tissue_context": null
+  },
+  {
+    "name": "Th1 cells",
+    "full_name": "Th1 cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "Th2 regulatory T cells",
+    "full_name": "Th2 regulatory T cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

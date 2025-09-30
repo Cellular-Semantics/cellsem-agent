@@ -1,0 +1,14 @@
+[
+  {
+    "name": "platelet",
+    "full_name": "platelet",
+    "paper_synonyms": "thrombocytes",
+    "tissue_context": "blood; vascular endothelium"
+  },
+  {
+    "name": "platelets",
+    "full_name": "platelets",
+    "paper_synonyms": "thrombocytes",
+    "tissue_context": "blood; vascular endothelium"
+  }
+]

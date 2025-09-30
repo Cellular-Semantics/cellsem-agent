@@ -1,0 +1,164 @@
+[
+  {
+    "name": "neuronal",
+    "full_name": "retinal neuronal cells",
+    "paper_synonyms": null,
+    "tissue_context": "retina"
+  },
+  {
+    "name": "Rod",
+    "full_name": "rod photoreceptor",
+    "paper_synonyms": null,
+    "tissue_context": "retina"
+  },
+  {
+    "name": "Cone",
+    "full_name": "cone photoreceptor",
+    "paper_synonyms": null,
+    "tissue_context": "retina"
+  },
+  {
+    "name": "cone bipolar cell",
+    "full_name": "cone bipolar cell",
+    "paper_synonyms": "CBC",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "CBC",
+    "full_name": "cone bipolar cell",
+    "paper_synonyms": "cone bipolar cell",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "rod bipolar cell",
+    "full_name": "rod bipolar cell",
+    "paper_synonyms": "RBC",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "RBC",
+    "full_name": "rod bipolar cell",
+    "paper_synonyms": "rod bipolar cell",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "amacrine cell",
+    "full_name": "amacrine cell",
+    "paper_synonyms": "AC",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "AC",
+    "full_name": "amacrine cell",
+    "paper_synonyms": "amacrine cell",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "horizontal cell",
+    "full_name": "horizontal cell",
+    "paper_synonyms": "HC",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "HC",
+    "full_name": "horizontal cell",
+    "paper_synonyms": "horizontal cell",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "retinal ganglion cell",
+    "full_name": "retinal ganglion cell",
+    "paper_synonyms": "RGC",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "RGC",
+    "full_name": "retinal ganglion cell",
+    "paper_synonyms": "retinal ganglion cell",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "glial",
+    "full_name": "glial cells",
+    "paper_synonyms": null,
+    "tissue_context": "retina"
+  },
+  {
+    "name": "macroglia",
+    "full_name": "macroglia",
+    "paper_synonyms": "Mag",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "Mag",
+    "full_name": "macroglia",
+    "paper_synonyms": "macroglia",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "monocyte",
+    "full_name": "monocyte",
+    "paper_synonyms": "Mo",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "macrophage",
+    "full_name": "macrophage",
+    "paper_synonyms": "Mp",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "microglia",
+    "full_name": "microglia",
+    "paper_synonyms": null,
+    "tissue_context": "retina"
+  },
+  {
+    "name": "Myeloid",
+    "full_name": "myeloid cells",
+    "paper_synonyms": "Monocyte, macrophage and microglia",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "Neutrophil",
+    "full_name": "neutrophil",
+    "paper_synonyms": null,
+    "tissue_context": "retina"
+  },
+  {
+    "name": "T cell and dendritic cells",
+    "full_name": "T cell and dendritic cells",
+    "paper_synonyms": "T&DC",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "T&DC",
+    "full_name": "T cell and dendritic cells",
+    "paper_synonyms": "T cell and dendritic cells",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "vascular endothelial cell",
+    "full_name": "vascular endothelial cell",
+    "paper_synonyms": "VEC",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "VEC",
+    "full_name": "vascular endothelial cell",
+    "paper_synonyms": "vascular endothelial cell",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "Myeloid cells",
+    "full_name": "myeloid cells",
+    "paper_synonyms": "Myeloid",
+    "tissue_context": "retina"
+  },
+  {
+    "name": "monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": "Mo",
+    "tissue_context": "retina"
+  }
+]

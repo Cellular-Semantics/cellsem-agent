@@ -1,0 +1,38 @@
+[
+  {
+    "name": "glial cells",
+    "full_name": "glial cells",
+    "paper_synonyms": "glia",
+    "tissue_context": "brain"
+  },
+  {
+    "name": "forebrain neurons",
+    "full_name": "forebrain neurons",
+    "paper_synonyms": null,
+    "tissue_context": "forebrain"
+  },
+  {
+    "name": "glial",
+    "full_name": "glial cells",
+    "paper_synonyms": "glia",
+    "tissue_context": "brain"
+  },
+  {
+    "name": "glia",
+    "full_name": "glia",
+    "paper_synonyms": "glial cells",
+    "tissue_context": "brain"
+  },
+  {
+    "name": "astrocytes",
+    "full_name": "astrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "brain"
+  },
+  {
+    "name": "neurons",
+    "full_name": "neurons",
+    "paper_synonyms": null,
+    "tissue_context": "brain; forebrain"
+  }
+]

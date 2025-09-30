@@ -1,0 +1,62 @@
+[
+  {
+    "name": "ASCs",
+    "full_name": "adipose-derived stem or stromal cells",
+    "paper_synonyms": "adipose-derived stem cells; adipose-derived stromal cells",
+    "tissue_context": "adipose tissue; stromal vascular fraction (SVF)"
+  },
+  {
+    "name": "pericytes",
+    "full_name": "pericytes",
+    "paper_synonyms": null,
+    "tissue_context": "stromal vascular fraction (SVF); adipose tissue"
+  },
+  {
+    "name": "monocyte",
+    "full_name": "monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "stromal vascular fraction (SVF); adipose tissue"
+  },
+  {
+    "name": "lymphocytes",
+    "full_name": "lymphocytes",
+    "paper_synonyms": null,
+    "tissue_context": "stromal vascular fraction (SVF); adipose tissue"
+  },
+  {
+    "name": "vascular smooth muscle cells",
+    "full_name": "vascular smooth muscle cells",
+    "paper_synonyms": null,
+    "tissue_context": "stromal vascular fraction (SVF); adipose tissue"
+  },
+  {
+    "name": "preadipocytes",
+    "full_name": "preadipocytes",
+    "paper_synonyms": null,
+    "tissue_context": "stromal vascular fraction (SVF); adipose tissue"
+  },
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "stromal vascular fraction (SVF); adipose tissue"
+  },
+  {
+    "name": "fibroblasts",
+    "full_name": "fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "stromal vascular fraction (SVF); adipose tissue"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": "osteomac",
+    "tissue_context": "stromal vascular fraction (SVF); adipose tissue; fracture site"
+  },
+  {
+    "name": "progenitor cells",
+    "full_name": "progenitor cells",
+    "paper_synonyms": null,
+    "tissue_context": "fracture site; periosteal"
+  }
+]

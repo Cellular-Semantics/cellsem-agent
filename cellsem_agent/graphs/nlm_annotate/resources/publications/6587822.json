@@ -1,0 +1,20 @@
+[
+  {
+    "name": "NSC",
+    "full_name": "neural stem cell",
+    "paper_synonyms": "neural stem cell",
+    "tissue_context": "post-natal SVZ neurogenesis; subventricular zone (SVZ)"
+  },
+  {
+    "name": "NSCs",
+    "full_name": "neural stem cells",
+    "paper_synonyms": "neural stem cells",
+    "tissue_context": "post-natal SVZ neurogenesis; subventricular zone (SVZ)"
+  },
+  {
+    "name": "OB neuron",
+    "full_name": null,
+    "paper_synonyms": "OB inhibitory neurons",
+    "tissue_context": "olfactory bulb; post-natal SVZ neurogenesis"
+  }
+]

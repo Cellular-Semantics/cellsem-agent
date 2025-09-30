@@ -1,0 +1,62 @@
+[
+  {
+    "name": "TM cells",
+    "full_name": "trabecular meshwork cells",
+    "paper_synonyms": null,
+    "tissue_context": "trabecular meshwork (TM)"
+  },
+  {
+    "name": "ciliary muscle cells",
+    "full_name": "ciliary muscle cells",
+    "paper_synonyms": null,
+    "tissue_context": "aqueous humor outflow pathways; TM functional unit"
+  },
+  {
+    "name": "myelinating Schwann cells",
+    "full_name": "myelinating Schwann cells",
+    "paper_synonyms": null,
+    "tissue_context": "aqueous humor outflow pathways"
+  },
+  {
+    "name": "non-myelinating Schwann cells",
+    "full_name": "non-myelinating Schwann cells",
+    "paper_synonyms": null,
+    "tissue_context": "aqueous humor outflow pathways"
+  },
+  {
+    "name": "vascular endothelium cells",
+    "full_name": "vascular endothelium cells",
+    "paper_synonyms": null,
+    "tissue_context": "aqueous humor outflow pathways"
+  },
+  {
+    "name": "pericyte cells",
+    "full_name": "pericyte cells",
+    "paper_synonyms": null,
+    "tissue_context": "aqueous humor outflow pathways"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "aqueous humor outflow pathways"
+  },
+  {
+    "name": "melanocytes",
+    "full_name": "melanocytes",
+    "paper_synonyms": null,
+    "tissue_context": "aqueous humor outflow pathways"
+  },
+  {
+    "name": "mast cells",
+    "full_name": "mast cells",
+    "paper_synonyms": null,
+    "tissue_context": "aqueous humor outflow pathways"
+  },
+  {
+    "name": "neurons",
+    "full_name": "neurons",
+    "paper_synonyms": null,
+    "tissue_context": "aqueous humor outflow pathways"
+  }
+]

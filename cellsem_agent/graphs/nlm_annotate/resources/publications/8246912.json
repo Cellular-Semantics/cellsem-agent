@@ -1,0 +1,26 @@
+[
+  {
+    "name": "basophil",
+    "full_name": "basophil",
+    "paper_synonyms": "Ba",
+    "tissue_context": "mouse bone marrow"
+  },
+  {
+    "name": "mast cell",
+    "full_name": "mast cell",
+    "paper_synonyms": "MC",
+    "tissue_context": "peritoneal cavity"
+  },
+  {
+    "name": "progenitors",
+    "full_name": "progenitors",
+    "paper_synonyms": "Prog",
+    "tissue_context": "bone marrow; peritoneal cavity"
+  },
+  {
+    "name": "basophil-mast cell progenitors",
+    "full_name": "bipotent basophil-mast cell progenitors",
+    "paper_synonyms": "BMCPs",
+    "tissue_context": "bone marrow; peritoneal cavity"
+  }
+]

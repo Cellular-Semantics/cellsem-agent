@@ -1,0 +1,116 @@
+[
+  {
+    "name": "naive Tregs",
+    "full_name": "na\u00efve regulatory T cells",
+    "paper_synonyms": "FOXP3 low Tregs; Tregs",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "myeloid/B",
+    "full_name": "myeloid/B subsets",
+    "paper_synonyms": "",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "B and effector memory CD4+ T cell",
+    "full_name": "B and effector memory CD4+ T cell subsets",
+    "paper_synonyms": "",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "myeloid",
+    "full_name": "myeloid cells",
+    "paper_synonyms": "",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "gammadelta-T cells",
+    "full_name": "\u03b3\u03b4-T cells",
+    "paper_synonyms": "\u03b3\u03b4-T",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "Mo",
+    "full_name": "monocytes",
+    "paper_synonyms": "Mo",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": "Mo",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "NK",
+    "full_name": "natural killer",
+    "paper_synonyms": "NK; natural killer",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "natural killer",
+    "full_name": "natural killer",
+    "paper_synonyms": "NK",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "eff",
+    "full_name": "effector",
+    "paper_synonyms": "effector",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "effector",
+    "full_name": "effector",
+    "paper_synonyms": "eff",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "mem",
+    "full_name": "memory",
+    "paper_synonyms": "memory",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "memory",
+    "full_name": "memory",
+    "paper_synonyms": "mem",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "nv",
+    "full_name": "na\u00efve",
+    "paper_synonyms": "na\u00efve",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "naive",
+    "full_name": "na\u00efve",
+    "paper_synonyms": "nv",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "pDC",
+    "full_name": "plasmacytoid dendritic cells",
+    "paper_synonyms": "pDC; plasmacytoid dendritic cells",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "plasmacytoid dendritic cells",
+    "full_name": "plasmacytoid dendritic cells",
+    "paper_synonyms": "pDC",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "MAIT",
+    "full_name": "mucosal-associated invariant T",
+    "paper_synonyms": "MAIT; mucosal-associated invariant T",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "mucosal-associated invariant T",
+    "full_name": "mucosal-associated invariant T",
+    "paper_synonyms": "MAIT",
+    "tissue_context": "PBMCs"
+  }
+]

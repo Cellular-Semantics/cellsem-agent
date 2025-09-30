@@ -1,0 +1,32 @@
+[
+  {
+    "name": "keratinocyte",
+    "full_name": "keratinocyte",
+    "paper_synonyms": null,
+    "tissue_context": "psoriatic lesions"
+  },
+  {
+    "name": "vascular endothelial cell",
+    "full_name": "vascular endothelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "psoriatic lesions"
+  },
+  {
+    "name": "gammadeltaT cells",
+    "full_name": "\u03b3\u03b4 T cells",
+    "paper_synonyms": null,
+    "tissue_context": "human psoriatic lesion; mouse psoriasis-like skin inflammation; spleen; skin tissues"
+  },
+  {
+    "name": "IL-17A+gammadelta+T cells",
+    "full_name": "IL-17A + \u03b3\u03b4 + T cells",
+    "paper_synonyms": "IL-17-producing \u03b3\u03b4 T cells",
+    "tissue_context": "spleen; skin tissues; splenic single cells"
+  },
+  {
+    "name": "IL-17A+gammadelta+T cell",
+    "full_name": "IL-17A + \u03b3\u03b4 + T cell",
+    "paper_synonyms": "IL-17-producing \u03b3\u03b4 T cells",
+    "tissue_context": "spleen; skin tissues; splenic single cells"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "glial cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "brain; central nervous system (CNS)"
+  },
+  {
+    "name": "pluripotent stem cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "hPSC",
+    "full_name": "human pluripotent stem cell",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "Astrocytes",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "central nervous system (CNS); brain; cerebral cortex; human fetal brain"
+  },
+  {
+    "name": "astrocyte",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "central nervous system (CNS); brain; cerebral cortex; human fetal brain"
+  }
+]

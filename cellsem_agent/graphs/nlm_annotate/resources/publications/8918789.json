@@ -1,0 +1,68 @@
+[
+  {
+    "name": "tracheal epithelial cell",
+    "full_name": "tracheal epithelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "tracheal epithelium"
+  },
+  {
+    "name": "epithelial cell",
+    "full_name": "epithelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "tracheal epithelium; human bronchial epithelial (HBE) cells"
+  },
+  {
+    "name": "KRT5+ basal cells",
+    "full_name": "KRT5 + basal cells",
+    "paper_synonyms": null,
+    "tissue_context": "tracheal epithelium"
+  },
+  {
+    "name": "SOX9+ chondroblasts",
+    "full_name": "SOX9 + chondroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "tracheal mesenchyme; tracheal cartilage"
+  },
+  {
+    "name": "alpha-SMA+ smooth muscle cells",
+    "full_name": "\u03b1-SMA + smooth muscle cells",
+    "paper_synonyms": null,
+    "tissue_context": "tracheal mesenchyme"
+  },
+  {
+    "name": "mesenchymal cell",
+    "full_name": "mesenchymal cell",
+    "paper_synonyms": null,
+    "tissue_context": "tracheal mesenchyme"
+  },
+  {
+    "name": "SOX9+ chondroblast",
+    "full_name": "SOX9 + chondroblast",
+    "paper_synonyms": null,
+    "tissue_context": "tracheal mesenchyme; tracheal cartilage"
+  },
+  {
+    "name": "basal cell",
+    "full_name": "basal cell",
+    "paper_synonyms": null,
+    "tissue_context": "tracheal epithelium"
+  },
+  {
+    "name": "club cell",
+    "full_name": "club cell",
+    "paper_synonyms": null,
+    "tissue_context": "tracheal epithelium"
+  },
+  {
+    "name": "ciliated cell",
+    "full_name": "ciliated cell",
+    "paper_synonyms": null,
+    "tissue_context": "tracheal epithelium; human bronchial epithelial (HBE) cells"
+  },
+  {
+    "name": "chondrocyte",
+    "full_name": "chondrocyte",
+    "paper_synonyms": null,
+    "tissue_context": "tracheal cartilage"
+  }
+]
