@@ -1,0 +1,62 @@
+[
+  {
+    "name": "B and T cells",
+    "full_name": "B cells and T cells",
+    "paper_synonyms": null,
+    "tissue_context": "human breast; breast cancer"
+  },
+  {
+    "name": "B cells",
+    "full_name": "B cells",
+    "paper_synonyms": null,
+    "tissue_context": "human breast; breast cancer"
+  },
+  {
+    "name": "T cells",
+    "full_name": "T cells",
+    "paper_synonyms": null,
+    "tissue_context": "human breast; breast cancer"
+  },
+  {
+    "name": "DC cells",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "DCs",
+    "tissue_context": "human breast; breast cancer"
+  },
+  {
+    "name": "ILC cells",
+    "full_name": null,
+    "paper_synonyms": "ILC",
+    "tissue_context": "human breast; breast cancer"
+  },
+  {
+    "name": "monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "human breast; breast cancer"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "human breast; breast cancer"
+  },
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "human breast; breast cancer"
+  },
+  {
+    "name": "mast cells",
+    "full_name": "mast cells",
+    "paper_synonyms": null,
+    "tissue_context": "human breast; breast cancer"
+  },
+  {
+    "name": "pDC cells",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "pDC",
+    "tissue_context": "human breast; breast cancer"
+  }
+]

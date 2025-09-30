@@ -1,0 +1,104 @@
+[
+  {
+    "name": "CD8 T cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "M0 Macrophages",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "M1 Macrophages",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "M2 Macrophages",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "T cells regulatory",
+    "full_name": null,
+    "paper_synonyms": "Tregs",
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "Tregs",
+    "full_name": "T cells regulatory",
+    "paper_synonyms": "T cells regulatory",
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "naive B cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "memory B cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "Plasma cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "naive CD4 T cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "Eosinophils",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "activated memory CD4 T cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "activated NK cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "follicular helper T cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "gamma delta T cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "Neutrophils",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  },
+  {
+    "name": "Monocytes",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tumor microenvironment of HCC patients from TCGA cohort"
+  }
+]

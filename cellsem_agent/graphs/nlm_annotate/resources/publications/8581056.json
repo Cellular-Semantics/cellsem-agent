@@ -1,0 +1,26 @@
+[
+  {
+    "name": "hPSC",
+    "full_name": "human pluripotent stem cell",
+    "paper_synonyms": "human pluripotent stem cells; hPSCs; pluripotent stem cells; PSCs",
+    "tissue_context": ""
+  },
+  {
+    "name": "cardiomyocytes",
+    "full_name": "cardiomyocytes",
+    "paper_synonyms": "CMs",
+    "tissue_context": "heart; atria; ventricles"
+  },
+  {
+    "name": "ventricular cardiomyocytes",
+    "full_name": "ventricular cardiomyocytes",
+    "paper_synonyms": "ventricular-like cardiomyocytes; VCM",
+    "tissue_context": "left ventricle; right ventricle; ventricular compact wall"
+  },
+  {
+    "name": "cardiac progenitor",
+    "full_name": "cardiac progenitor cell",
+    "paper_synonyms": "cardiac progenitors; cardiac progenitor cells; cardiovascular progenitor cells; CPC",
+    "tissue_context": "primitive streak; anterior lateral plate mesoderm; first heart field (FHF); second heart field (SHF)"
+  }
+]

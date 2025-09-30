@@ -1,0 +1,32 @@
+[
+  {
+    "name": "somatotropes",
+    "full_name": "somatotrope",
+    "paper_synonyms": null,
+    "tissue_context": "anterior pituitary; mouse pituitary gland"
+  },
+  {
+    "name": "lactotropes",
+    "full_name": "lactotrope",
+    "paper_synonyms": null,
+    "tissue_context": "anterior pituitary; mouse pituitary gland"
+  },
+  {
+    "name": "gonadotrope cell",
+    "full_name": "gonadotrope",
+    "paper_synonyms": null,
+    "tissue_context": "anterior pituitary; mouse pituitary gland"
+  },
+  {
+    "name": "somatotrope cell",
+    "full_name": "somatotrope",
+    "paper_synonyms": null,
+    "tissue_context": "anterior pituitary; mouse pituitary gland"
+  },
+  {
+    "name": "lactotrope cell",
+    "full_name": "lactotrope",
+    "paper_synonyms": null,
+    "tissue_context": "anterior pituitary; mouse pituitary gland"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "enterocytes",
+    "full_name": "enterocytes",
+    "paper_synonyms": "ENT; ENTs",
+    "tissue_context": "small intestine; mouse enteroids; villus region"
+  },
+  {
+    "name": "ENT",
+    "full_name": "enterocytes",
+    "paper_synonyms": "enterocytes; ENTs",
+    "tissue_context": "small intestine; mouse enteroids; villus region"
+  },
+  {
+    "name": "absorptive ENTs",
+    "full_name": "absorptive enterocytes",
+    "paper_synonyms": "enterocytes; ENT",
+    "tissue_context": "small intestine; mucosa; villus region"
+  },
+  {
+    "name": "mucus-secreting goblet (GOB) cells",
+    "full_name": "goblet cells",
+    "paper_synonyms": "GOB; GOB cells",
+    "tissue_context": "small intestine; mucosa; mouse enteroids"
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "small intestinal epithelial cells; intestinal epithelial cell types"
+  },
+  {
+    "name": "intestinal stem",
+    "full_name": "intestinal stem cells",
+    "paper_synonyms": "ISC",
+    "tissue_context": "crypt region; proximal intestine; mouse enteroids"
+  },
+  {
+    "name": "ISC",
+    "full_name": "intestinal stem cells",
+    "paper_synonyms": "intestinal stem cells; intestinal stem",
+    "tissue_context": "crypt region; proximal intestine; mouse enteroids"
+  },
+  {
+    "name": "enteroendocrine",
+    "full_name": "enteroendocrine",
+    "paper_synonyms": null,
+    "tissue_context": "small intestine; mucosa"
+  },
+  {
+    "name": "Tuft cells",
+    "full_name": "Tuft cells",
+    "paper_synonyms": null,
+    "tissue_context": "small intestine; mucosa"
+  },
+  {
+    "name": "Secretory Paneth cells",
+    "full_name": "Secretory Paneth cells",
+    "paper_synonyms": "PAN; Paneth cells",
+    "tissue_context": "crypt region; small intestine; mouse enteroids"
+  },
+  {
+    "name": "PAN",
+    "full_name": "Paneth cells",
+    "paper_synonyms": "Secretory Paneth cells; Paneth cells",
+    "tissue_context": "crypt region; small intestine; mouse enteroids"
+  },
+  {
+    "name": "stem cells",
+    "full_name": "stem cells",
+    "paper_synonyms": "ISC",
+    "tissue_context": "crypt region; proximal intestine"
+  },
+  {
+    "name": "ENTs",
+    "full_name": "enterocytes",
+    "paper_synonyms": "ENT; enterocytes",
+    "tissue_context": "small intestine; mouse enteroids; villus region"
+  },
+  {
+    "name": "epithelial cell",
+    "full_name": "epithelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "small intestinal epithelial cells"
+  }
+]

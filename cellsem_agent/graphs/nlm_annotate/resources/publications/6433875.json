@@ -1,0 +1,14 @@
+[
+  {
+    "name": "B-1 Cells",
+    "full_name": "human B-1 cells",
+    "paper_synonyms": "CD20+CD27+CD38 low/int CD43+ B cells; CD19+CD20+CD27+CD38 low/int CD43+ B cells; CD20+CD27+CD43+CD5- B cells",
+    "tissue_context": "peripheral blood; PBMCs; adult peripheral blood"
+  },
+  {
+    "name": "B-1 Cell",
+    "full_name": "human B-1 cell",
+    "paper_synonyms": "CD20+CD27+CD38 low/int CD43+ B cells; CD19+CD20+CD27+CD38 low/int CD43+ B cells; CD20+CD27+CD43+CD5- B cells",
+    "tissue_context": "peripheral blood; PBMCs; adult peripheral blood"
+  }
+]

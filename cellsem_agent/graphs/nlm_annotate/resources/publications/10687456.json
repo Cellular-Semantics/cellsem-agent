@@ -1,0 +1,62 @@
+[
+  {
+    "name": "B cells",
+    "full_name": "B cells",
+    "paper_synonyms": "B lymphocytes",
+    "tissue_context": "eutopic endometrium; endometriosis"
+  },
+  {
+    "name": "M1 macrophages",
+    "full_name": "M1 macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "eutopic endometrium; endometriosis"
+  },
+  {
+    "name": "M2 macrophages",
+    "full_name": "M2 macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "eutopic endometrium; endometriosis"
+  },
+  {
+    "name": "Monocytes",
+    "full_name": "Monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "eutopic endometrium; endometriosis"
+  },
+  {
+    "name": "NK cells",
+    "full_name": "natural killer cells",
+    "paper_synonyms": "natural killer cells",
+    "tissue_context": "eutopic endometrium; endometriosis"
+  },
+  {
+    "name": "T cells",
+    "full_name": "T cells",
+    "paper_synonyms": "T lymphocytes",
+    "tissue_context": "eutopic endometrium; endometriosis"
+  },
+  {
+    "name": "Dendritic cells",
+    "full_name": "Dendritic cells",
+    "paper_synonyms": null,
+    "tissue_context": "eutopic endometrium; endometriosis"
+  },
+  {
+    "name": "Endothelial cells",
+    "full_name": "Endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "eutopic endometrium; endometriosis"
+  },
+  {
+    "name": "Epithelial cells",
+    "full_name": "Epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "eutopic endometrium; endometriosis"
+  },
+  {
+    "name": "Fibroblasts",
+    "full_name": "Fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "eutopic endometrium; endometriosis"
+  }
+]

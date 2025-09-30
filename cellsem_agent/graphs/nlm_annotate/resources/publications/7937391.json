@@ -1,0 +1,14 @@
+[
+  {
+    "name": "microglia",
+    "full_name": "microglia",
+    "paper_synonyms": null,
+    "tissue_context": "brain myeloid cells"
+  },
+  {
+    "name": "proliferative microglia",
+    "full_name": "proliferative microglia",
+    "paper_synonyms": "cycling and proliferating microglia; CPM",
+    "tissue_context": "brain myeloid cells"
+  }
+]

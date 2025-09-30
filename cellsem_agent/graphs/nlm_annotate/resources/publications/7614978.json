@@ -1,0 +1,74 @@
+[
+  {
+    "name": "AGM-HSPC",
+    "full_name": "aorta\u2013gonad\u2013mesonephros hematopoietic stem/progenitor cell",
+    "paper_synonyms": "AGM HSPCs",
+    "tissue_context": "aorta\u2013gonad\u2013mesonephros (AGM) region"
+  },
+  {
+    "name": "erythroid",
+    "full_name": "erythroid cells",
+    "paper_synonyms": null,
+    "tissue_context": "YS; embryonic liver"
+  },
+  {
+    "name": "MK",
+    "full_name": "megakaryocyte",
+    "paper_synonyms": "megakaryocytes; MKs",
+    "tissue_context": "YS"
+  },
+  {
+    "name": "myeloid",
+    "full_name": "myeloid cells",
+    "paper_synonyms": null,
+    "tissue_context": "YS"
+  },
+  {
+    "name": "early HSPCs",
+    "full_name": "early hematopoietic stem/progenitor cells",
+    "paper_synonyms": "early HSPCs",
+    "tissue_context": "YS"
+  },
+  {
+    "name": "erythroid and MK cells",
+    "full_name": "erythroid and megakaryocyte cells",
+    "paper_synonyms": "erythroid and MK cells; erythroid/MK",
+    "tissue_context": "YS"
+  },
+  {
+    "name": "definitive HSPCs",
+    "full_name": "definitive hematopoietic stem/progenitor cells",
+    "paper_synonyms": "definitive hematopoietic stem and progenitor cells",
+    "tissue_context": "YS; embryonic liver; AGM"
+  },
+  {
+    "name": "lymphoid",
+    "full_name": "lymphoid cells",
+    "paper_synonyms": null,
+    "tissue_context": "YS"
+  },
+  {
+    "name": "YS lymphoid cells",
+    "full_name": "yolk sac lymphoid cells",
+    "paper_synonyms": null,
+    "tissue_context": "YS"
+  },
+  {
+    "name": "NK cells",
+    "full_name": "natural killer cells",
+    "paper_synonyms": "NK",
+    "tissue_context": "YS"
+  },
+  {
+    "name": "B lineage cells",
+    "full_name": "B lineage cells",
+    "paper_synonyms": "Lymphoid B lineage",
+    "tissue_context": "YS"
+  },
+  {
+    "name": "HSPCs",
+    "full_name": "hematopoietic stem/progenitor cells",
+    "paper_synonyms": "hematopoietic stem and progenitor cells",
+    "tissue_context": "YS; embryonic liver; fetal BM; AGM"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Mesenchymal stem cells",
+    "full_name": "Mesenchymal stem cells",
+    "paper_synonyms": "MSCs",
+    "tissue_context": "adipose tissue; dental tissues; bone marrow; lungs; liver; spleen"
+  },
+  {
+    "name": "MSCs",
+    "full_name": "Mesenchymal stem cells",
+    "paper_synonyms": "Mesenchymal stem cells",
+    "tissue_context": "adipose tissue; dental tissues; bone marrow; lungs; liver; spleen"
+  },
+  {
+    "name": "osteocytes",
+    "full_name": "osteocytes",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "adipocytes",
+    "full_name": "adipocytes",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "embryonic stem cells",
+    "full_name": "embryonic stem cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "MSC",
+    "full_name": "Mesenchymal stem cells",
+    "paper_synonyms": "Mesenchymal stem cells; MSCs",
+    "tissue_context": "adipose tissue; dental tissues; bone marrow; lungs; liver; spleen"
+  },
+  {
+    "name": "adipose-derived mesenchymal stem cells",
+    "full_name": "adipose-derived mesenchymal stem cells",
+    "paper_synonyms": "ADSCs",
+    "tissue_context": "adipose tissue; subcutaneous adipose depots; liposuction specimens"
+  },
+  {
+    "name": "ADSCs",
+    "full_name": "adipose-derived mesenchymal stem cells",
+    "paper_synonyms": "adipose-derived mesenchymal stem cells",
+    "tissue_context": "adipose tissue; subcutaneous adipose depots; liposuction specimens"
+  },
+  {
+    "name": "multipotent stem cells",
+    "full_name": "multipotent stem cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "chondrocytes",
+    "full_name": "chondrocytes",
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

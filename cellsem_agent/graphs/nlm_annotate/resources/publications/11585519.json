@@ -1,0 +1,80 @@
+[
+  {
+    "name": "cerebellar neuron",
+    "full_name": "cerebellar neuron",
+    "paper_synonyms": null,
+    "tissue_context": "cerebellar cortex"
+  },
+  {
+    "name": "granule neuron",
+    "full_name": "granule neuron",
+    "paper_synonyms": "granule cell; granule neurons",
+    "tissue_context": "granule neuron layer"
+  },
+  {
+    "name": "Purkinje neuron",
+    "full_name": "Purkinje neuron",
+    "paper_synonyms": "Purkinje cell; Purkinje neurons",
+    "tissue_context": "Purkinje cell layer; cerebellar cortex"
+  },
+  {
+    "name": "Unipolar brush cell",
+    "full_name": "Unipolar brush cell",
+    "paper_synonyms": null,
+    "tissue_context": "cerebellar cortex"
+  },
+  {
+    "name": "Lugaro cell",
+    "full_name": "Lugaro cell",
+    "paper_synonyms": null,
+    "tissue_context": "cerebellar cortex"
+  },
+  {
+    "name": "Golgi cell",
+    "full_name": "Golgi cell",
+    "paper_synonyms": null,
+    "tissue_context": "cerebellar cortex"
+  },
+  {
+    "name": "Basket cell",
+    "full_name": "Basket cell",
+    "paper_synonyms": null,
+    "tissue_context": "cerebellar cortex"
+  },
+  {
+    "name": "Fibrous astrocyte",
+    "full_name": "Fibrous astrocyte",
+    "paper_synonyms": null,
+    "tissue_context": "white matter"
+  },
+  {
+    "name": "Bergman glia",
+    "full_name": "Bergman glia",
+    "paper_synonyms": "Bergmann glia; Bergmann glial cells",
+    "tissue_context": "between the Purkinje cell layer and the molecular layer"
+  },
+  {
+    "name": "Cerebellar Astrocytes",
+    "full_name": "cerebellar astrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "cerebellum"
+  },
+  {
+    "name": "astrocyte cell",
+    "full_name": "astrocyte",
+    "paper_synonyms": "astrocyte; astrocytes",
+    "tissue_context": "cerebellum"
+  },
+  {
+    "name": "Astrocytes",
+    "full_name": "astrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "cerebellum"
+  },
+  {
+    "name": "Stellate cell",
+    "full_name": "Stellate cell",
+    "paper_synonyms": null,
+    "tissue_context": "cerebellar cortex"
+  }
+]

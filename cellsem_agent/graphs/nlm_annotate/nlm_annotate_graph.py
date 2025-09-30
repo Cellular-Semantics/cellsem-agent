@@ -76,22 +76,43 @@ class GetGroundings(BaseNode[State, None, str]):
             # delete tissue_context of all enrichments
             annotation['enrichment'].tissue_context = ""
 
+        # Sort annotations by article_id_pmc, then annotation_text
+        annotations.sort(key=lambda annot: (annot.get('article_id_pmc') or "", annot.get('annotation_text') or ""))
+
+        cache_dir = os.path.join(RESOURCES_DIR, "cache")
+        os.makedirs(cache_dir, exist_ok=True)
+
         batch_size = 4
         all_groundings = []
         for i in range(0, len(annotations), batch_size):
-            print("Processing batch: ", i // batch_size + 1, " of ", (len(annotations) + batch_size - 1) // batch_size)
+            batch_index = i // batch_size
             batch = annotations[i:i + batch_size]
-            expansions_json = json.dumps([annotation['enrichment'].model_dump() for annotation in batch], indent=2)
-            agent_response = await annotator_agent.run(expansions_json)
-            all_groundings.extend(agent_response.output.annotations)
+            batch_cache_path = os.path.join(cache_dir, f"groundings_batch_{batch_index}.json")
+
+            if os.path.exists(batch_cache_path):
+                print(f"Loading cached results for batch {batch_index}")
+                with open(batch_cache_path, "r") as f:
+                    batch_groundings = [CellTypeEntry(**entry) for entry in json.load(f)]
+            else:
+                print("Processing batch: ", i // batch_size + 1, " of ",
+                      (len(annotations) + batch_size - 1) // batch_size)
+                expansions_json = json.dumps([annotation['enrichment'].model_dump() for annotation in batch], indent=2)
+                agent_response = await annotator_agent.run(expansions_json)
+                batch_groundings = agent_response.output.annotations
+                with open(batch_cache_path, "w") as f:
+                    json.dump([entry.model_dump() for entry in batch_groundings], f, indent=2)
+
+            all_groundings.extend(batch_groundings)
             # update batch annotations with grounding results
             for annotation in batch:
                 # convert enrichment to json to make df mode readable
                 annotation['enrichment'] = annotation['enrichment'].model_dump()
                 if "grounding_cl_id" not in annotation:
-                    related_groundings = [gr for gr in agent_response.output.annotations if gr.input_name == annotation['annotation_text']]
+                    related_groundings = [gr for gr in batch_groundings if
+                                          gr.input_name == annotation['annotation_text']]
                     if related_groundings:
-                        valid_grounding = next((g for g in related_groundings if "NO MATCH" not in g.cl_id), None)
+                        valid_grounding = next(
+                            (g for g in related_groundings if "NO MATCH" not in g.cl_id), None)
                         if valid_grounding:
                             grounding_to_use = valid_grounding
                         else:
@@ -146,8 +167,7 @@ class GetFullNames(BaseNode[State, None, str]):
         print("Running GetFullNames node")
         passage_to_annotations = ctx.state.passage_to_annotations
         passage_to_article_id = ctx.state.passage_to_article_id
-        articles = set(passage_to_article_id.values())
-
+        articles = sorted(str(a) if a is not None else "" for a in set(passage_to_article_id.values()))
         index = 1
         for article_pmc in articles:
             print(f"Processing article: {article_pmc}  -  {index}/{len(articles)}")

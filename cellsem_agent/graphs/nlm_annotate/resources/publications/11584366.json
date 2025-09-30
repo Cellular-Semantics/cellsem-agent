@@ -1,0 +1,62 @@
+[
+  {
+    "name": "neutrophils",
+    "full_name": "neutrophils",
+    "paper_synonyms": null,
+    "tissue_context": "DFU wound"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "wound tissue"
+  },
+  {
+    "name": "haematopoietic stem cells",
+    "full_name": "Haematopoietic stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "ulcer microenvironment"
+  },
+  {
+    "name": "monocyte",
+    "full_name": "monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "wound tissue"
+  },
+  {
+    "name": "M1 and M2 macrophages",
+    "full_name": "M1 and M2 macrophages",
+    "paper_synonyms": "classically activated macrophages; selectively activated macrophages",
+    "tissue_context": "diabetic foot ulcer (DFU)"
+  },
+  {
+    "name": "M1 macrophages",
+    "full_name": "M1 macrophages",
+    "paper_synonyms": "classically activated macrophages",
+    "tissue_context": "diabetic foot ulcer (DFU)"
+  },
+  {
+    "name": "M2 macrophages",
+    "full_name": "M2 macrophages",
+    "paper_synonyms": "selectively activated macrophages",
+    "tissue_context": "diabetic foot ulcer (DFU)"
+  },
+  {
+    "name": "M1",
+    "full_name": "M1 macrophages",
+    "paper_synonyms": "classically activated macrophages",
+    "tissue_context": "diabetic foot ulcer (DFU)"
+  },
+  {
+    "name": "M2",
+    "full_name": "M2 macrophages",
+    "paper_synonyms": "selectively activated macrophages",
+    "tissue_context": "diabetic foot ulcer (DFU)"
+  },
+  {
+    "name": "M1 macrophage",
+    "full_name": "M1 macrophages",
+    "paper_synonyms": "classically activated macrophages",
+    "tissue_context": "diabetic foot ulcer (DFU)"
+  }
+]

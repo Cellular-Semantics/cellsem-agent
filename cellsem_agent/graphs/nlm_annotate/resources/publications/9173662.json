@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Airway epithelial cells",
+    "full_name": "Airway epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "goblet and ciliated cells",
+    "full_name": "goblet and ciliated cells",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "Alveolar epithelial type 1 (AT1) cells",
+    "full_name": "Alveolar epithelial type 1 (AT1) cells",
+    "paper_synonyms": "AT1",
+    "tissue_context": "lung"
+  },
+  {
+    "name": "AT2 cells",
+    "full_name": "AT2 cells",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "Pulmonary capillary endothelial cells",
+    "full_name": "Pulmonary capillary endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "leukocyte",
+    "full_name": "leukocyte",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "lung endothelial cells",
+    "full_name": "lung endothelial cells",
+    "paper_synonyms": "endothelial cells; vascular endothelial cells",
+    "tissue_context": "pulmonary lymphatics; pulmonary blood vessels; systemic blood vessels in the lung"
+  },
+  {
+    "name": "Mesenchymal cells",
+    "full_name": "Mesenchymal cells",
+    "paper_synonyms": "mesenchymal/stromal cells",
+    "tissue_context": "lung"
+  },
+  {
+    "name": "smooth muscle cells",
+    "full_name": "smooth muscle cells",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "fibroblasts",
+    "full_name": "fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "mesothelial cells",
+    "full_name": "mesothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "pleural spaces; lung"
+  },
+  {
+    "name": "myeloid cells",
+    "full_name": "myeloid cells",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "alveolar macrophages",
+    "full_name": "alveolar macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "airway; lung"
+  },
+  {
+    "name": "Interstitial macrophages",
+    "full_name": "Interstitial macrophages",
+    "paper_synonyms": "interstitial lung macrophages",
+    "tissue_context": "parenchyma; lung"
+  },
+  {
+    "name": "Monocytes",
+    "full_name": "Monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "blood; lungs"
+  },
+  {
+    "name": "Dendritic cells",
+    "full_name": "Dendritic cells",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "naive T-cells",
+    "full_name": "na\u00efve T-cells",
+    "paper_synonyms": "na\u00efve T-cells",
+    "tissue_context": "lung"
+  },
+  {
+    "name": "Granulocytes",
+    "full_name": "Granulocytes",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "neutrophils",
+    "full_name": "neutrophils",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "eosinophils",
+    "full_name": "eosinophils",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "plasma cells",
+    "full_name": "plasma cells",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  }
+]

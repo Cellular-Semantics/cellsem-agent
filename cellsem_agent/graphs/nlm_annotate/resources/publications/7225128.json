@@ -1,0 +1,20 @@
+[
+  {
+    "name": "MuSCs",
+    "full_name": "muscle stem cells",
+    "paper_synonyms": "muscle stem cells",
+    "tissue_context": "skeletal muscle"
+  },
+  {
+    "name": "MuSC",
+    "full_name": "muscle stem cell",
+    "paper_synonyms": "muscle stem cell",
+    "tissue_context": "skeletal muscle"
+  },
+  {
+    "name": "stem cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

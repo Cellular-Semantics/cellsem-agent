@@ -1,0 +1,20 @@
+[
+  {
+    "name": "MSC",
+    "full_name": "mesenchymal stromal cell",
+    "paper_synonyms": "mesenchymal stem cell; mesenchymal stem cells; mesenchymal stromal cells",
+    "tissue_context": "palatine tonsil; bone marrow; adipose tissue; liver; skin; umbilical cord; placenta"
+  },
+  {
+    "name": "macrophage",
+    "full_name": "macrophage",
+    "paper_synonyms": "macrophage-like cells; THP1-derived macrophages; THP1-derived macrophage-like cells",
+    "tissue_context": null
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophage",
+    "paper_synonyms": "macrophage-like cells; THP1-derived macrophages; THP1-derived macrophage-like cells",
+    "tissue_context": null
+  }
+]

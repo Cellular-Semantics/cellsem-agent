@@ -1,0 +1,74 @@
+[
+  {
+    "name": "ESC",
+    "full_name": "Embryonic stem cell",
+    "paper_synonyms": "Embryonic stem cell",
+    "tissue_context": ""
+  },
+  {
+    "name": "Embryonic stem cell",
+    "full_name": "Embryonic stem cell",
+    "paper_synonyms": "ESC",
+    "tissue_context": ""
+  },
+  {
+    "name": "GC",
+    "full_name": "Granulosa cells",
+    "paper_synonyms": "Granulosa cells",
+    "tissue_context": "ovary; small antral follicles"
+  },
+  {
+    "name": "Granulosa cells",
+    "full_name": "Granulosa cells",
+    "paper_synonyms": "GC",
+    "tissue_context": "ovary; small antral follicles"
+  },
+  {
+    "name": "hPGC",
+    "full_name": "Human primordial germ cell",
+    "paper_synonyms": "Human primordial germ cell",
+    "tissue_context": "layer between the epiblast and visceral endoderm; yolk sac endodermal layer; genital ridge; ovary; testes; seminiferous cords"
+  },
+  {
+    "name": "Human primordial germ cell",
+    "full_name": "Human primordial germ cell",
+    "paper_synonyms": "hPGC",
+    "tissue_context": "layer between the epiblast and visceral endoderm; yolk sac endodermal layer; genital ridge; ovary; testes; seminiferous cords"
+  },
+  {
+    "name": "OSC",
+    "full_name": "Oogonial stem cell",
+    "paper_synonyms": "Oogonial stem cell",
+    "tissue_context": "adult ovary; ovarian cortex"
+  },
+  {
+    "name": "Oogonial stem cell",
+    "full_name": "Oogonial stem cell",
+    "paper_synonyms": "OSC",
+    "tissue_context": "adult ovary; ovarian cortex"
+  },
+  {
+    "name": "PCG",
+    "full_name": "Primordial germ cell",
+    "paper_synonyms": "Primordial germ cell; PGC",
+    "tissue_context": "extraembryonic region of the epiblast; yolk sac endodermal layer; genital ridge; ovary; testes; seminiferous cords; adrenal"
+  },
+  {
+    "name": "Primordial germ cell",
+    "full_name": "Primordial germ cell",
+    "paper_synonyms": "PGC; PCG",
+    "tissue_context": "extraembryonic region of the epiblast; yolk sac endodermal layer; genital ridge; ovary; testes; seminiferous cords; adrenal"
+  },
+  {
+    "name": "TC",
+    "full_name": "Theca cell",
+    "paper_synonyms": "Theca cell",
+    "tissue_context": "ovary"
+  },
+  {
+    "name": "Theca cell",
+    "full_name": "Theca cell",
+    "paper_synonyms": "TC",
+    "tissue_context": "ovary"
+  }
+]
