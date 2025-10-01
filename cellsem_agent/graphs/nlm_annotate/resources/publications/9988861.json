@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Retinal progenitor cell",
+    "full_name": "Retinal progenitor cell",
+    "paper_synonyms": null,
+    "tissue_context": "human retinal organoids"
+  },
+  {
+    "name": "Retinal ganglion cell",
+    "full_name": "Retinal ganglion cell",
+    "paper_synonyms": null,
+    "tissue_context": "human retinal organoids"
+  },
+  {
+    "name": "Muller glia cell",
+    "full_name": "Muller glia cell",
+    "paper_synonyms": "M\u00fcller cells",
+    "tissue_context": "human retinal organoids"
+  },
+  {
+    "name": "Rod photoreceptor cell",
+    "full_name": "Rod photoreceptor cell",
+    "paper_synonyms": null,
+    "tissue_context": "human retinal organoids"
+  },
+  {
+    "name": "M/L cone photoreceptor",
+    "full_name": "M/L cone photoreceptor",
+    "paper_synonyms": null,
+    "tissue_context": "human retinal organoids"
+  },
+  {
+    "name": "Neural progenitor cell",
+    "full_name": "Neural progenitor cell",
+    "paper_synonyms": null,
+    "tissue_context": "human retinal organoids"
+  }
+]

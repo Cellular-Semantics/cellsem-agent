@@ -1,0 +1,68 @@
+[
+  {
+    "name": "club cells",
+    "full_name": "club cells",
+    "paper_synonyms": null,
+    "tissue_context": "airways; airway epithelial cells"
+  },
+  {
+    "name": "type-2 pneumocytes",
+    "full_name": "type-2 pneumocytes",
+    "paper_synonyms": "alveolar type-2 cells",
+    "tissue_context": "alveolar; lung"
+  },
+  {
+    "name": "type-2 and club cells",
+    "full_name": "type-2 pneumocytes and club cells",
+    "paper_synonyms": null,
+    "tissue_context": "alveolar; airways; airway epithelial cells"
+  },
+  {
+    "name": "ciliated and goblet cells",
+    "full_name": "ciliated and goblet cells",
+    "paper_synonyms": null,
+    "tissue_context": "airways; airway epithelial cells"
+  },
+  {
+    "name": "mesothelial and smooth muscle cells",
+    "full_name": "mesothelial and smooth muscle cells",
+    "paper_synonyms": null,
+    "tissue_context": "mesothelium; lung"
+  },
+  {
+    "name": "non-classical monocytes",
+    "full_name": "non-classical monocytes",
+    "paper_synonyms": "Ly6c2\u2212",
+    "tissue_context": "lung"
+  },
+  {
+    "name": "classical monocytes",
+    "full_name": "classical monocytes",
+    "paper_synonyms": "Ly6c2+",
+    "tissue_context": "lung"
+  },
+  {
+    "name": "Mesenchymal cells",
+    "full_name": "mesenchymal cells",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "mesenchymal cell",
+    "full_name": "mesenchymal cell",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "myeloid cell",
+    "full_name": "myeloid cell",
+    "paper_synonyms": null,
+    "tissue_context": "lung"
+  },
+  {
+    "name": "capillary endothelial cells",
+    "full_name": "capillary endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "capillary; lung"
+  }
+]

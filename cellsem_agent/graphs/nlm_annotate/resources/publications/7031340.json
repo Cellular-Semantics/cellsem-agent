@@ -1,0 +1,80 @@
+[
+  {
+    "name": "hepatocytes",
+    "full_name": "hepatocytes",
+    "paper_synonyms": null,
+    "tissue_context": "human liver; mouse liver"
+  },
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "human liver; mouse liver"
+  },
+  {
+    "name": "Kuppfer cells",
+    "full_name": "Kuppfer cells",
+    "paper_synonyms": "Kupffer cells",
+    "tissue_context": "human liver; mouse liver"
+  },
+  {
+    "name": "B cells",
+    "full_name": "B cells",
+    "paper_synonyms": null,
+    "tissue_context": "human liver; mouse liver"
+  },
+  {
+    "name": "natural killer (NK) cells",
+    "full_name": "natural killer (NK) cells",
+    "paper_synonyms": "NK cells",
+    "tissue_context": "human liver; mouse liver"
+  },
+  {
+    "name": "endothelial cell",
+    "full_name": "endothelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "human liver; mouse liver"
+  },
+  {
+    "name": "periportal sinusoidal endothelial cells",
+    "full_name": "periportal sinusoidal endothelial cells",
+    "paper_synonyms": "SEC",
+    "tissue_context": "human liver"
+  },
+  {
+    "name": "SEC",
+    "full_name": "sinusoidal endothelial cells",
+    "paper_synonyms": "SECs; periportal sinusoidal endothelial cells; central venous SECs",
+    "tissue_context": "human liver"
+  },
+  {
+    "name": "central venous SECs",
+    "full_name": "central venous sinusoidal endothelial cells",
+    "paper_synonyms": "sinusoidal endothelial cells; SECs",
+    "tissue_context": "human liver"
+  },
+  {
+    "name": "hepatocyte",
+    "full_name": "hepatocyte",
+    "paper_synonyms": null,
+    "tissue_context": "human liver; mouse liver"
+  },
+  {
+    "name": "endothelial",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "human liver; mouse liver"
+  },
+  {
+    "name": "cholangiocytes",
+    "full_name": "cholangiocytes",
+    "paper_synonyms": null,
+    "tissue_context": "human liver"
+  },
+  {
+    "name": "hepatic stellate cells",
+    "full_name": "hepatic stellate cells",
+    "paper_synonyms": null,
+    "tissue_context": "human liver"
+  }
+]

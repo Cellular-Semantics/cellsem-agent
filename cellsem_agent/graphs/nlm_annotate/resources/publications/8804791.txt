@@ -1,0 +1,37 @@
+Cartilage Cartilage 2662 car CAR Cartilage 1947-6035 1947-6043 SAGE Publications PMC8804791 PMC8804791.1 8804791 8804791 31072202 10.1177/1947603519847746 10.1177_1947603519847746 1 Clinical Research papers Chondrocytes Single-Cell RNA Sequencing of  In Vitro 
+Expanded Chondrocytes: MSC-Like Cells With No Evidence of Distinct
+Subsets https://orcid.org/0000-0002-2897-1349 Karlsen Tommy A. 1 Sundaram Arvind Y. M. 2 Brinchmann Jan E. 1 3 1 Norwegian Center for Stem Cell
+Research, Department of Immunology, Oslo University Hospital Rikshospitalet,
+Oslo, Norway 2 Norwegian Sequencing Centre,
+Department of Medical Genetics, Oslo University Hospital, Oslo, Norway 3 Department of Molecular Medicine,
+Faculty of Medicine, University of Oslo, Oslo, Norway Tommy A. Karlsen, Department of
+Immunology, Oslo University Hospital Rikshospitalet, PO Box 4950
+Nydalen, Oslo 0424, Norway. Email:
+ Tommy.A.Karlsen@rr-research.no Declaration of Conflicting Interests:  The author(s) declared no potential conflicts of interest with respect to
+the research, authorship, and/or publication of this article. 9 5 2019 12 2021 13 2 Suppl 399883 Supplemental issue 774S 784S 01 06 2022 01 06 2022 11 02 2022 01 06 2022 © The Author(s) 2019 2019 SAGE Publications Objective To investigate the heterogeneity of  in vitro 
+expanded chondrocytes used for autologous chondrocyte
+implantation. Methods Human articular chondrocytes were expanded  in
+vitro  for 14 days, sorted into 86 single cells
+using fluorescence-activated cell sorting and subjected to
+single-cell RNA sequencing. Principal component, Cross
+ R 2  hierarchical clustering,
+and differential gene expression analyses were used for data
+evaluation. Flow cytometry and single-cell RT-qPCR (reverse
+transcriptase quantitative polymerase chain reaction) was used
+to validate the results of the RNA sequencing data Polyclonal
+chondrocyte populations from the same donor were differentiated
+ in vitro  toward the osteogenic and
+adipogenic lineages. Results There was considerable variation in gene expression between
+individual cells, but we found no evidence for separate cell
+subpopulations based on principal component, hierarchical
+clustering, and differential gene expression analysis. Most of
+the cells expressed all the markers defining mesenchymal stem
+cells, and as polyclonal chondrocyte populations from the same
+donor were shown to differentiate into osteocytes and adipocytes
+ in vitro , these cells formally qualify as
+mesenchymal stem cells. Conclusions In vitro  expanded chondrocytes consist of one
+single population of cells with heterogeneity in gene expression
+between the cells. Dedifferentiated chondrocytes qualify as
+mesenchymal stem cells as they fulfill all the criteria
+suggested by the International Society for Cellular Therapy. single-cell RNA sequencing chondrocytes mesenchymal stem cells articular cartilage ACI Southern and Eastern Norway Regional Health
+Authority 2013077 pmc-status-qastatus 0 pmc-status-live yes pmc-status-embargo no pmc-status-released yes pmc-prop-open-access no pmc-prop-olf no pmc-prop-manuscript no pmc-prop-legally-suppressed no pmc-prop-has-pdf yes pmc-prop-has-supplement no pmc-prop-pdf-only no pmc-prop-suppress-copyright no pmc-prop-is-real-version no pmc-prop-is-scanned-article no pmc-prop-preprint no pmc-prop-in-epmc yes typesetter ts1

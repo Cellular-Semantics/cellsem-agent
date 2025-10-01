@@ -1,0 +1,164 @@
+[
+  {
+    "name": "neuronal cell",
+    "full_name": null,
+    "paper_synonyms": "retinal neurons",
+    "tissue_context": null
+  },
+  {
+    "name": "rods",
+    "full_name": "rod photoreceptors",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina; developed organoids"
+  },
+  {
+    "name": "L/M (red/green) cones",
+    "full_name": "L/M (red/green) cones",
+    "paper_synonyms": "L/M cones",
+    "tissue_context": "adult retina; developed organoids"
+  },
+  {
+    "name": "S (blue) cones",
+    "full_name": "S (blue) cones",
+    "paper_synonyms": "S cones",
+    "tissue_context": "adult retina; developed organoids"
+  },
+  {
+    "name": "horizontal cells",
+    "full_name": "horizontal cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina; developed organoids"
+  },
+  {
+    "name": "bipolar cells",
+    "full_name": "bipolar cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina; developed organoids"
+  },
+  {
+    "name": "rod bipolar",
+    "full_name": "rod bipolar cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina; developed organoids"
+  },
+  {
+    "name": "ON cone bipolar",
+    "full_name": "ON cone bipolar cells",
+    "paper_synonyms": "ON cone bipolar cells",
+    "tissue_context": "adult retina; developed organoids"
+  },
+  {
+    "name": "OFF cone bipolar",
+    "full_name": "OFF cone bipolar cells",
+    "paper_synonyms": "OFF cone bipolar cells",
+    "tissue_context": "adult retina; developed organoids"
+  },
+  {
+    "name": "amacrine cells",
+    "full_name": "amacrine cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina; developed organoids"
+  },
+  {
+    "name": "glycinergic",
+    "full_name": "glycinergic amacrine cells",
+    "paper_synonyms": "glycinergic types",
+    "tissue_context": "adult retina"
+  },
+  {
+    "name": "AII amacrine cells",
+    "full_name": "AII amacrine cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina"
+  },
+  {
+    "name": "GABAergic",
+    "full_name": "GABAergic amacrine cells",
+    "paper_synonyms": "GABAergic types",
+    "tissue_context": "adult retina"
+  },
+  {
+    "name": "starburst amacrine cells",
+    "full_name": "starburst amacrine cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina; developed organoids"
+  },
+  {
+    "name": "ganglion cells",
+    "full_name": "ganglion cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina"
+  },
+  {
+    "name": "Muller cells",
+    "full_name": "M\u00fcller cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina; developed organoids"
+  },
+  {
+    "name": "astrocytes",
+    "full_name": "astrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina; developed organoids"
+  },
+  {
+    "name": "pigment epithelial cells",
+    "full_name": "retinal pigment epithelial cells",
+    "paper_synonyms": "RPE",
+    "tissue_context": "retinal pigment epithelium; adult retina; developed organoids"
+  },
+  {
+    "name": "choroidal melanocytes",
+    "full_name": "choroidal melanocytes",
+    "paper_synonyms": "melanocytes",
+    "tissue_context": "choroid; adult retina"
+  },
+  {
+    "name": "microglia",
+    "full_name": "microglia",
+    "paper_synonyms": "microglial cells",
+    "tissue_context": "adult retina"
+  },
+  {
+    "name": "monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina"
+  },
+  {
+    "name": "natural killer cells",
+    "full_name": "natural killer cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina"
+  },
+  {
+    "name": "T and B cells",
+    "full_name": "T and B cells",
+    "paper_synonyms": "T cells; B cells",
+    "tissue_context": "adult retina"
+  },
+  {
+    "name": "mast cells",
+    "full_name": "mast cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina"
+  },
+  {
+    "name": "pericytes",
+    "full_name": "pericytes",
+    "paper_synonyms": null,
+    "tissue_context": "retinal vasculature; adult retina"
+  },
+  {
+    "name": "fibroblasts",
+    "full_name": "fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "adult retina; choroid"
+  },
+  {
+    "name": "vascular endothelial cells",
+    "full_name": "vascular endothelial cells",
+    "paper_synonyms": "endothelial cells",
+    "tissue_context": "retinal vasculature; adult retina"
+  }
+]

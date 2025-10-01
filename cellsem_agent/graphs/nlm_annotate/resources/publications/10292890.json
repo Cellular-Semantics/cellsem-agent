@@ -1,0 +1,56 @@
+[
+  {
+    "name": "NK/T cells",
+    "full_name": "natural killer/T cells",
+    "paper_synonyms": null,
+    "tissue_context": "osteosarcoma; tumor microenvironment (TME)"
+  },
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "osteosarcoma; tumor microenvironment (TME)"
+  },
+  {
+    "name": "plasma cells",
+    "full_name": "plasma cells",
+    "paper_synonyms": null,
+    "tissue_context": "osteosarcoma; tumor microenvironment (TME)"
+  },
+  {
+    "name": "osteoblastic cells",
+    "full_name": "osteoblastic cells",
+    "paper_synonyms": null,
+    "tissue_context": "osteosarcoma; tumor microenvironment (TME)"
+  },
+  {
+    "name": "osteoclasts",
+    "full_name": "osteoclasts",
+    "paper_synonyms": null,
+    "tissue_context": "osteosarcoma; tumor microenvironment (TME)"
+  },
+  {
+    "name": "B cells",
+    "full_name": "B cells",
+    "paper_synonyms": null,
+    "tissue_context": "osteosarcoma; tumor microenvironment (TME)"
+  },
+  {
+    "name": "monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "osteosarcoma; tumor microenvironment (TME)"
+  },
+  {
+    "name": "mast cells",
+    "full_name": "mast cells",
+    "paper_synonyms": null,
+    "tissue_context": "osteosarcoma; tumor microenvironment (TME)"
+  },
+  {
+    "name": "myeloid cells",
+    "full_name": "myeloid cells",
+    "paper_synonyms": null,
+    "tissue_context": "osteosarcoma; tumor microenvironment (TME)"
+  }
+]

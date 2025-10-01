@@ -1,0 +1,56 @@
+[
+  {
+    "name": "luminal, basal, and neuroendocrine",
+    "full_name": "luminal epithelial cells, basal epithelial cells, and neuroendocrine cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult mouse prostate epithelium"
+  },
+  {
+    "name": "luminal epithelial",
+    "full_name": "luminal epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "mouse prostate"
+  },
+  {
+    "name": "basal",
+    "full_name": "basal epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "mouse prostate"
+  },
+  {
+    "name": "neuroendocrine cells",
+    "full_name": "neuroendocrine cells",
+    "paper_synonyms": null,
+    "tissue_context": "mouse prostate"
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "prostate epithelium"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "mouse prostate"
+  },
+  {
+    "name": "T cells",
+    "full_name": "T cells",
+    "paper_synonyms": null,
+    "tissue_context": "mouse prostate"
+  },
+  {
+    "name": "B cells",
+    "full_name": "B cells",
+    "paper_synonyms": null,
+    "tissue_context": "mouse prostate"
+  },
+  {
+    "name": "vas deferens and seminal vesicle cells",
+    "full_name": "vas deferens and seminal vesicle cells",
+    "paper_synonyms": null,
+    "tissue_context": "vas deferens; seminal vesicle"
+  }
+]

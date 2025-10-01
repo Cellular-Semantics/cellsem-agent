@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Granulosa cells",
+    "full_name": "Granulosa cells",
+    "paper_synonyms": "GCs",
+    "tissue_context": "Ovarian follicles; ovary; human pre-ovulatory follicles"
+  },
+  {
+    "name": "GCs",
+    "full_name": "Granulosa Cells",
+    "paper_synonyms": "Granulosa cells",
+    "tissue_context": "Ovarian follicles; ovary; human pre-ovulatory follicles"
+  },
+  {
+    "name": "oocyte",
+    "full_name": "oocyte",
+    "paper_synonyms": "",
+    "tissue_context": "cumulus-oocyte complex (COC); ovarian follicles; ovary"
+  }
+]

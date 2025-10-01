@@ -1,0 +1,74 @@
+[
+  {
+    "name": "B cells",
+    "full_name": "B cells",
+    "paper_synonyms": null,
+    "tissue_context": "liver tissues"
+  },
+  {
+    "name": "MoMFs",
+    "full_name": "monocyte-derived macrophages",
+    "paper_synonyms": "monocyte-derived macrophages",
+    "tissue_context": "liver tissues"
+  },
+  {
+    "name": "CD4+ T cells",
+    "full_name": "CD4+ T cells",
+    "paper_synonyms": null,
+    "tissue_context": "liver tissues"
+  },
+  {
+    "name": "CD8+ T cells",
+    "full_name": "CD8+ T cells",
+    "paper_synonyms": null,
+    "tissue_context": "liver tissues"
+  },
+  {
+    "name": "NK cells",
+    "full_name": "natural killer cells",
+    "paper_synonyms": null,
+    "tissue_context": "liver tissues"
+  },
+  {
+    "name": "neutrophils",
+    "full_name": "neutrophils",
+    "paper_synonyms": null,
+    "tissue_context": "liver tissues"
+  },
+  {
+    "name": "NKT cells",
+    "full_name": "natural killer T cells",
+    "paper_synonyms": null,
+    "tissue_context": "liver tissues"
+  },
+  {
+    "name": "double-positive T (DPT) cells",
+    "full_name": "double-positive T cells",
+    "paper_synonyms": "DPT cells",
+    "tissue_context": "liver tissues"
+  },
+  {
+    "name": "plasmacytoid DCs",
+    "full_name": "plasmacytoid dendritic cells",
+    "paper_synonyms": "pDCs",
+    "tissue_context": "liver tissues"
+  },
+  {
+    "name": "pDCs",
+    "full_name": "plasmacytoid dendritic cells",
+    "paper_synonyms": "plasmacytoid DCs",
+    "tissue_context": "liver tissues"
+  },
+  {
+    "name": "basophils",
+    "full_name": "basophils",
+    "paper_synonyms": null,
+    "tissue_context": "liver tissues"
+  },
+  {
+    "name": "DNT cells",
+    "full_name": "double-negative T cells",
+    "paper_synonyms": "double-negative T cells",
+    "tissue_context": "liver tissues"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "M1 cells",
+    "full_name": "macrophage type1 cells",
+    "paper_synonyms": "macrophage type1 cells",
+    "tissue_context": "ovarian cancer"
+  },
+  {
+    "name": "macrophage type1 cells",
+    "full_name": "macrophage type1 cells",
+    "paper_synonyms": "M1 cells",
+    "tissue_context": "ovarian cancer"
+  },
+  {
+    "name": "M2 cells",
+    "full_name": "macrophage type2 cells",
+    "paper_synonyms": "macrophage type2 cells",
+    "tissue_context": "ovarian cancer"
+  },
+  {
+    "name": "macrophage type2 cells",
+    "full_name": "macrophage type2 cells",
+    "paper_synonyms": "M2 cells",
+    "tissue_context": "ovarian cancer"
+  },
+  {
+    "name": "Treg",
+    "full_name": "regulatory T cells",
+    "paper_synonyms": "regulatory T cells",
+    "tissue_context": "ovarian cancer"
+  },
+  {
+    "name": "regulatory T cells",
+    "full_name": "regulatory T cells",
+    "paper_synonyms": "Treg",
+    "tissue_context": "ovarian cancer"
+  }
+]

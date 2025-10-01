@@ -1,0 +1,14 @@
+[
+  {
+    "name": "VIP+ cell",
+    "full_name": "vasoactive intestinal polypeptide-expressing cell",
+    "paper_synonyms": "VIP interneurons",
+    "tissue_context": "hippocampus; hippocampal CA1 area; frontal cortex; prefrontal cortex; somatosensory barrel cortex; visual cortex; motor cortex; basolateral amygdala; human middle temporal gyrus"
+  },
+  {
+    "name": "pyramidal cells",
+    "full_name": null,
+    "paper_synonyms": "pyramidal neuron; PYR",
+    "tissue_context": "hippocampus; hippocampal CA1 area; prefrontal cortex; somatosensory cortex; somatosensory barrel cortex; visual cortex; frontal association cortex; motor cortex"
+  }
+]

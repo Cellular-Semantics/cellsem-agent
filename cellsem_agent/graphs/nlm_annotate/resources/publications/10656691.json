@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Macrophages",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs); labial salivary gland biopsy tissues; minor salivary gland tissues; salivary glands; perivascular; ducts; acini"
+  },
+  {
+    "name": "embryonic haematopoietic progenitors",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "monocytes",
+    "full_name": null,
+    "paper_synonyms": "peripheral blood monocytes; human blood monocytes",
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs); blood"
+  },
+  {
+    "name": "tissue macrophages",
+    "full_name": null,
+    "paper_synonyms": "tissue-resident macrophages; resident macrophages",
+    "tissue_context": "labial salivary gland (LSG); minor salivary gland tissues; salivary glands; perivascular; ducts; acini; damaged tissues"
+  },
+  {
+    "name": "T cells",
+    "full_name": null,
+    "paper_synonyms": "T-lymphocytes",
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs); LSG tissues; ducts"
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": null,
+    "paper_synonyms": "salivary gland epithelium; ductal epithelium",
+    "tissue_context": "salivary glands; LSG tissues; minor salivary gland tissues; ducts; acini; ductal cells"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "bone marrow myeloid progenitor cells",
+    "full_name": "mouse bone marrow myeloid progenitor cells",
+    "paper_synonyms": null,
+    "tissue_context": "mouse bone marrow"
+  },
+  {
+    "name": "granulocyte/macrophage progenitors",
+    "full_name": "granulocyte/macrophage progenitors",
+    "paper_synonyms": "GMP; GMPs",
+    "tissue_context": "mouse bone marrow"
+  },
+  {
+    "name": "GMP",
+    "full_name": "granulocyte/macrophage progenitors",
+    "paper_synonyms": "granulocyte/macrophage progenitors; GMPs",
+    "tissue_context": "mouse bone marrow"
+  },
+  {
+    "name": "GMPs",
+    "full_name": "granulocyte/macrophage progenitors",
+    "paper_synonyms": "GMP; granulocyte/macrophage progenitors",
+    "tissue_context": "mouse bone marrow"
+  },
+  {
+    "name": "lymphocytes",
+    "full_name": "lymphocytes",
+    "paper_synonyms": "Lymph",
+    "tissue_context": "mouse bone marrow"
+  },
+  {
+    "name": "megakaryocytes",
+    "full_name": "megakaryocytes",
+    "paper_synonyms": "Mk; Mk cells",
+    "tissue_context": "mouse bone marrow"
+  },
+  {
+    "name": "Mk",
+    "full_name": "megakaryocyte",
+    "paper_synonyms": "megakaryocytes; Mk cells",
+    "tissue_context": "mouse bone marrow"
+  },
+  {
+    "name": "Mk cells",
+    "full_name": "megakaryocytes",
+    "paper_synonyms": "Mk; megakaryocytes",
+    "tissue_context": "mouse bone marrow"
+  },
+  {
+    "name": "dendritic cells",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "DC",
+    "tissue_context": "mouse bone marrow"
+  }
+]

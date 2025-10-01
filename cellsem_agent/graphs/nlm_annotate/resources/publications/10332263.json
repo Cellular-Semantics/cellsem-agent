@@ -1,0 +1,14 @@
+[
+  {
+    "name": "MDSC",
+    "full_name": "Myeloid-Derived Suppressor Cells",
+    "paper_synonyms": "myeloid-derived suppressor cells",
+    "tissue_context": "melanoma TME; patient melanoma specimens"
+  },
+  {
+    "name": "Myeloid-Derived Suppressor Cells",
+    "full_name": "Myeloid-Derived Suppressor Cells",
+    "paper_synonyms": "MDSC",
+    "tissue_context": "melanoma TME; patient melanoma specimens"
+  }
+]

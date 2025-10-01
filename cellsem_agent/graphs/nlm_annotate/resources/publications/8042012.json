@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Basophil",
+    "full_name": "Basophil",
+    "paper_synonyms": null,
+    "tissue_context": "blood smear monolayer"
+  },
+  {
+    "name": "Erythroblast",
+    "full_name": "Erythroblast",
+    "paper_synonyms": null,
+    "tissue_context": "blood smear monolayer"
+  },
+  {
+    "name": "Eosinophil",
+    "full_name": "Eosinophil",
+    "paper_synonyms": null,
+    "tissue_context": "blood smear monolayer"
+  },
+  {
+    "name": "Lymphoblast",
+    "full_name": "Lymphoblast",
+    "paper_synonyms": null,
+    "tissue_context": "blood smear monolayer"
+  },
+  {
+    "name": "Lymphocyte",
+    "full_name": "Lymphocyte",
+    "paper_synonyms": null,
+    "tissue_context": "blood smear monolayer"
+  },
+  {
+    "name": "Metamyelocyte",
+    "full_name": "Metamyelocyte",
+    "paper_synonyms": null,
+    "tissue_context": "blood smear monolayer"
+  },
+  {
+    "name": "Monocyte",
+    "full_name": "Monocyte",
+    "paper_synonyms": null,
+    "tissue_context": "blood smear monolayer"
+  },
+  {
+    "name": "Neutrophil",
+    "full_name": "Neutrophil (segmented)",
+    "paper_synonyms": null,
+    "tissue_context": "blood smear monolayer"
+  },
+  {
+    "name": "Thrombocyte",
+    "full_name": "Thrombocyte",
+    "paper_synonyms": null,
+    "tissue_context": "blood smear monolayer"
+  }
+]

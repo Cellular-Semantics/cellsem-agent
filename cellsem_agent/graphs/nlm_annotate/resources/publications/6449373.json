@@ -1,0 +1,14 @@
+[
+  {
+    "name": "neural crest derived precursor cells",
+    "full_name": "neural crest derived precursor cells",
+    "paper_synonyms": null,
+    "tissue_context": "neural crest cells (NCC); neuroblastoma"
+  },
+  {
+    "name": "adrenergic-type (ADRN) cells",
+    "full_name": "adrenergic-type cells",
+    "paper_synonyms": "ADRN; ADRN cells; ADRN neuroblastoma cells",
+    "tissue_context": "neuroblastoma"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "granulosa",
+    "full_name": "granulosa",
+    "paper_synonyms": null,
+    "tissue_context": "ovaries"
+  },
+  {
+    "name": "theca",
+    "full_name": "theca",
+    "paper_synonyms": null,
+    "tissue_context": "ovaries"
+  },
+  {
+    "name": "oocytes",
+    "full_name": "oocytes",
+    "paper_synonyms": null,
+    "tissue_context": "ovaries"
+  },
+  {
+    "name": "corpora luteal cells",
+    "full_name": "corpora luteal cells",
+    "paper_synonyms": null,
+    "tissue_context": "ovaries"
+  },
+  {
+    "name": "Sertoli, Leydig and germinal cells",
+    "full_name": "Sertoli, Leydig and germinal cells",
+    "paper_synonyms": null,
+    "tissue_context": "testes"
+  }
+]

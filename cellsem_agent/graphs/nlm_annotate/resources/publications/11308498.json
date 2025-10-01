@@ -1,0 +1,56 @@
+[
+  {
+    "name": "macrophages",
+    "full_name": null,
+    "paper_synonyms": "TAMs",
+    "tissue_context": "liver tumor tissues"
+  },
+  {
+    "name": "dendritic cells",
+    "full_name": null,
+    "paper_synonyms": "DCs",
+    "tissue_context": "liver tumor tissues"
+  },
+  {
+    "name": "B cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "liver tumor tissues"
+  },
+  {
+    "name": "Memory B cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "HCC"
+  },
+  {
+    "name": "CD8+ T cells",
+    "full_name": null,
+    "paper_synonyms": "cytotoxic T lymphocytes; CTLs",
+    "tissue_context": "liver tumor tissues"
+  },
+  {
+    "name": "NKT cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "myeloid cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "LIHC tissues"
+  },
+  {
+    "name": "cytotoxic plasma cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "DCs",
+    "full_name": "dendritic cells",
+    "paper_synonyms": null,
+    "tissue_context": "liver tumor tissues"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "hypertrophic chondrocyte",
+    "full_name": "hypertrophic chondrocyte",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "articular chondrocytes",
+    "full_name": "articular chondrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "articular cartilage"
+  },
+  {
+    "name": "chondrocytes",
+    "full_name": "chondrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "cartilage"
+  }
+]

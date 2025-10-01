@@ -1,0 +1,32 @@
+[
+  {
+    "name": "hSCs",
+    "full_name": "human stem cells",
+    "paper_synonyms": "human stem cells",
+    "tissue_context": null
+  },
+  {
+    "name": "hESCs",
+    "full_name": "Human embryonic stem cells",
+    "paper_synonyms": "human embryonic stem cells",
+    "tissue_context": null
+  },
+  {
+    "name": "SC",
+    "full_name": "stem cells",
+    "paper_synonyms": "stem cells",
+    "tissue_context": null
+  },
+  {
+    "name": "adult stem cells",
+    "full_name": "adult stem cells",
+    "paper_synonyms": "ASCs",
+    "tissue_context": null
+  },
+  {
+    "name": "ASCs",
+    "full_name": "Adult stem cells",
+    "paper_synonyms": "adult stem cells",
+    "tissue_context": null
+  }
+]

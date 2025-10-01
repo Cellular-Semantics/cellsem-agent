@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Type II pneumocytes",
+    "full_name": "Type II pneumocytes",
+    "paper_synonyms": null,
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "Type I pneumocytes",
+    "full_name": "Type I pneumocytes",
+    "paper_synonyms": null,
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "Anterior foregut endoderm cell",
+    "full_name": "Anterior foregut endoderm cell",
+    "paper_synonyms": "AFE",
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "M2 macrophage",
+    "full_name": "M2 macrophage",
+    "paper_synonyms": "M2",
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "M1 macrophage",
+    "full_name": "M1 macrophage",
+    "paper_synonyms": "M1",
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "mDC",
+    "full_name": "mDC",
+    "paper_synonyms": null,
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "B cell",
+    "full_name": "B cell",
+    "paper_synonyms": null,
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "CD4+ T cell",
+    "full_name": "CD4+ T cell",
+    "paper_synonyms": null,
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "Blood Plasma cell",
+    "full_name": "Blood Plasma cell",
+    "paper_synonyms": "Plasma cell",
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "Epithelial progenitor cell",
+    "full_name": "Epithelial progenitor cell",
+    "paper_synonyms": "EP",
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "Inflammatory Macrophage",
+    "full_name": "Inflammatory Macrophage",
+    "paper_synonyms": null,
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "Monocyte",
+    "full_name": "Monocyte",
+    "paper_synonyms": null,
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "T cell",
+    "full_name": "T cell",
+    "paper_synonyms": null,
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "Basal cell",
+    "full_name": "Basal cell",
+    "paper_synonyms": null,
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "Ciliated cell",
+    "full_name": "Ciliated cell",
+    "paper_synonyms": null,
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "Dendritic cell",
+    "full_name": "Dendritic cell",
+    "paper_synonyms": null,
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "Fibroblast",
+    "full_name": "Fibroblast",
+    "paper_synonyms": null,
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  },
+  {
+    "name": "Secretory cell",
+    "full_name": "Secretory cell",
+    "paper_synonyms": null,
+    "tissue_context": "Bronchoalveolar Lavage Fluid (BALF); lungs"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "chondrocytes",
+    "full_name": "chondrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "women\u2019s stenotic aortic valve leaflets"
+  },
+  {
+    "name": "fibroblasts",
+    "full_name": "fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "women\u2019s stenotic aortic valve leaflets"
+  },
+  {
+    "name": "osteoblasts",
+    "full_name": "osteoblasts",
+    "paper_synonyms": null,
+    "tissue_context": "women\u2019s stenotic aortic valve leaflets"
+  },
+  {
+    "name": "pericytes",
+    "full_name": "pericytes",
+    "paper_synonyms": null,
+    "tissue_context": "women\u2019s stenotic aortic valve leaflets"
+  },
+  {
+    "name": "monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "men\u2019s stenotic aortic valve leaflets"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "men\u2019s stenotic aortic valve leaflets"
+  },
+  {
+    "name": "dendritic cells",
+    "full_name": "dendritic cells",
+    "paper_synonyms": null,
+    "tissue_context": "men\u2019s stenotic aortic valve leaflets"
+  },
+  {
+    "name": "B and T lymphocytes",
+    "full_name": "B and T lymphocytes",
+    "paper_synonyms": "T and B cells",
+    "tissue_context": "men\u2019s stenotic aortic valve leaflets"
+  },
+  {
+    "name": "mesenchymal stem cells",
+    "full_name": "mesenchymal stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "men\u2019s stenotic aortic valve leaflets"
+  }
+]

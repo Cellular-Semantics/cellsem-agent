@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Cardiomyocytes",
+    "full_name": "cardiomyocytes",
+    "paper_synonyms": "hiPSC-CMs; hPSC-CMs; iPSC-CM",
+    "tissue_context": "fetal ventricle; adult ventricles"
+  },
+  {
+    "name": "Fibroblasts",
+    "full_name": "fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "adult ventricles"
+  },
+  {
+    "name": "Endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult ventricles"
+  },
+  {
+    "name": "Pericytes",
+    "full_name": "pericytes",
+    "paper_synonyms": null,
+    "tissue_context": "adult ventricles"
+  },
+  {
+    "name": "Smooth Muscle Cells",
+    "full_name": "smooth muscle cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult ventricles"
+  },
+  {
+    "name": "Adipocytes",
+    "full_name": "adipocytes",
+    "paper_synonyms": null,
+    "tissue_context": "adult ventricles"
+  }
+]

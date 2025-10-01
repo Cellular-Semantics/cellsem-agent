@@ -1,0 +1,32 @@
+[
+  {
+    "name": "granulosa cells",
+    "full_name": "granulosa cells",
+    "paper_synonyms": "pre-granulosa cells; bipotential pre-granulosa cells (BPGs); epithelial pre-granulosa cells (EPGs); differentiating BPGs (D-BPGs); differentiating EPGs (D-EPGs)",
+    "tissue_context": "late fetal and early postnatal murine ovaries; ovaries were collected from E16.5, postnatal day 0 (PD0) and 3 (PD3) mice"
+  },
+  {
+    "name": "erythrocytes",
+    "full_name": "erythrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "late fetal and early postnatal murine ovaries; ovaries were collected from E16.5, postnatal day 0 (PD0) and 3 (PD3) mice"
+  },
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "late fetal and early postnatal murine ovaries; ovaries were collected from E16.5, postnatal day 0 (PD0) and 3 (PD3) mice"
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "late fetal and early postnatal murine ovaries; ovaries were collected from E16.5, postnatal day 0 (PD0) and 3 (PD3) mice"
+  },
+  {
+    "name": "germ cells",
+    "full_name": "germ cells",
+    "paper_synonyms": "oocytes; primordial germ cells (PGCs)",
+    "tissue_context": "late fetal and early postnatal murine ovaries; ovaries were collected from E16.5, postnatal day 0 (PD0) and 3 (PD3) mice"
+  }
+]

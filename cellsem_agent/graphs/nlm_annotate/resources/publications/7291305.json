@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ASC",
+    "full_name": "Adipose Tissue-Derived Mesenchymal Stem Cell",
+    "paper_synonyms": "adipose-derived mesenchymal stem cells; adipose tissue-derived mesenchymal stem cells; adipose-derived MSCs; ASCs",
+    "tissue_context": "adipose waste material; adipose tissue"
+  },
+  {
+    "name": "ACHs",
+    "full_name": "articular chondrocytes",
+    "paper_synonyms": "ACHs; articular chondrocytes",
+    "tissue_context": "full-thickness cartilage explants; femoral head"
+  },
+  {
+    "name": "FLSs",
+    "full_name": "fibroblast-like synoviocytes",
+    "paper_synonyms": "FLSs; fibroblast-like synoviocytes; synovial fibroblasts",
+    "tissue_context": "synovial membranes; synovium"
+  }
+]

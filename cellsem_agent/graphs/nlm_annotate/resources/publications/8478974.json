@@ -1,0 +1,38 @@
+[
+  {
+    "name": "stem cells",
+    "full_name": "putative stem cells",
+    "paper_synonyms": "putative stem cells; putative adult stem cells",
+    "tissue_context": "iris tissue; iris region of the eye"
+  },
+  {
+    "name": "retinal progenitor cells",
+    "full_name": null,
+    "paper_synonyms": "retinal progenitors",
+    "tissue_context": "retina; neural retina (NR)"
+  },
+  {
+    "name": "retinal stem cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "Muller glial cells",
+    "full_name": null,
+    "paper_synonyms": "Muller glia",
+    "tissue_context": "retina; neural retina (NR)"
+  },
+  {
+    "name": "retinal progenitors",
+    "full_name": null,
+    "paper_synonyms": "retinal progenitor cells",
+    "tissue_context": "retina; neural retina (NR)"
+  },
+  {
+    "name": "retinal stem cell",
+    "full_name": null,
+    "paper_synonyms": "retinal stem cells",
+    "tissue_context": null
+  }
+]

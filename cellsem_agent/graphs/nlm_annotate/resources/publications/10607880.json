@@ -1,0 +1,14 @@
+[
+  {
+    "name": "EC",
+    "full_name": "endothelial cells",
+    "paper_synonyms": "endothelial cells; EC",
+    "tissue_context": "blood vessels; dorsal root ganglion (DRG)"
+  },
+  {
+    "name": "DRG neurons",
+    "full_name": "dorsal root ganglion neurons",
+    "paper_synonyms": "dorsal root ganglion (DRG) neurons; DRG neuronal cell culture",
+    "tissue_context": "dorsal root ganglion (DRG); DRG tissue; DRG neuronal cell culture"
+  }
+]

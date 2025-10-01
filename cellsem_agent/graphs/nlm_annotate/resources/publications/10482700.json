@@ -1,0 +1,152 @@
+[
+  {
+    "name": "oligodendrocytes",
+    "full_name": "oligodendrocytes",
+    "paper_synonyms": "Oligodendrocyte; OL",
+    "tissue_context": "mouse cortex; human motor cortex; human cerebellum"
+  },
+  {
+    "name": "AST",
+    "full_name": "Astrocytes",
+    "paper_synonyms": "Astrocytes",
+    "tissue_context": "mouse cortex; human motor cortex; human cerebellum"
+  },
+  {
+    "name": "Astrocytes",
+    "full_name": "Astrocytes",
+    "paper_synonyms": "AST",
+    "tissue_context": "mouse cortex; human motor cortex; human cerebellum"
+  },
+  {
+    "name": "BG",
+    "full_name": "Bergman Glia",
+    "paper_synonyms": "Bergman Glia",
+    "tissue_context": "human cerebellum"
+  },
+  {
+    "name": "Bergman Glia",
+    "full_name": "Bergman Glia",
+    "paper_synonyms": "BG",
+    "tissue_context": "human cerebellum"
+  },
+  {
+    "name": "CGE",
+    "full_name": "Caudal Ganglionic Eminence",
+    "paper_synonyms": "Caudal Ganglionic Eminence",
+    "tissue_context": "cerebral cortex; mouse cortex; human motor cortex"
+  },
+  {
+    "name": "Caudal Ganglionic Eminence",
+    "full_name": "Caudal Ganglionic Eminence",
+    "paper_synonyms": "CGE",
+    "tissue_context": "cerebral cortex; mouse cortex; human motor cortex"
+  },
+  {
+    "name": "ENDO",
+    "full_name": "Endothelial cells",
+    "paper_synonyms": "Endothelial cells",
+    "tissue_context": "mouse cortex; human motor cortex; human cerebellum"
+  },
+  {
+    "name": "Endothelial cells",
+    "full_name": "Endothelial cells",
+    "paper_synonyms": "ENDO",
+    "tissue_context": "mouse cortex; human motor cortex; human cerebellum"
+  },
+  {
+    "name": "GC",
+    "full_name": "Granule Cell",
+    "paper_synonyms": "Granule Cell",
+    "tissue_context": "human cerebellum"
+  },
+  {
+    "name": "Granule Cell",
+    "full_name": "Granule Cell",
+    "paper_synonyms": "GC",
+    "tissue_context": "human cerebellum"
+  },
+  {
+    "name": "GP",
+    "full_name": "Granule cell Progenitor",
+    "paper_synonyms": "Granule cell Progenitor",
+    "tissue_context": "human cerebellum"
+  },
+  {
+    "name": "Granule cell Progenitor",
+    "full_name": "Granule cell Progenitor",
+    "paper_synonyms": "GP",
+    "tissue_context": "human cerebellum"
+  },
+  {
+    "name": "MGE",
+    "full_name": "Medial Ganglionic Eminence",
+    "paper_synonyms": "Medial Ganglionic Eminence",
+    "tissue_context": "cerebral cortex; mouse cortex; human motor cortex"
+  },
+  {
+    "name": "Medial Ganglionic Eminence",
+    "full_name": "Medial Ganglionic Eminence",
+    "paper_synonyms": "MGE",
+    "tissue_context": "cerebral cortex; mouse cortex; human motor cortex"
+  },
+  {
+    "name": "MGL",
+    "full_name": "Microglia",
+    "paper_synonyms": "Microglia",
+    "tissue_context": "mouse cortex; human motor cortex; human cerebellum"
+  },
+  {
+    "name": "Microglia",
+    "full_name": "Microglia",
+    "paper_synonyms": "MGL",
+    "tissue_context": "mouse cortex; human motor cortex; human cerebellum"
+  },
+  {
+    "name": "MG",
+    "full_name": "Muller Glia",
+    "paper_synonyms": "Muller Glia",
+    "tissue_context": "human cerebellum"
+  },
+  {
+    "name": "Muller Glia",
+    "full_name": "Muller Glia",
+    "paper_synonyms": "MG",
+    "tissue_context": "human cerebellum"
+  },
+  {
+    "name": "OL",
+    "full_name": "Oligodendrocyte",
+    "paper_synonyms": "Oligodendrocyte",
+    "tissue_context": "mouse cortex; human motor cortex; human cerebellum"
+  },
+  {
+    "name": "Oligodendrocyte",
+    "full_name": "Oligodendrocyte",
+    "paper_synonyms": "OL",
+    "tissue_context": "mouse cortex; human motor cortex; human cerebellum"
+  },
+  {
+    "name": "OPC",
+    "full_name": "Oligodendrocyte Precursor Cells",
+    "paper_synonyms": "Oligodendrocyte Precursor Cells; OPCs",
+    "tissue_context": "mouse cortex; human motor cortex; human cerebellum"
+  },
+  {
+    "name": "Oligodendrocyte Precursor Cells",
+    "full_name": "Oligodendrocyte Precursor Cells",
+    "paper_synonyms": "OPC; OPCs",
+    "tissue_context": "mouse cortex; human motor cortex; human cerebellum"
+  },
+  {
+    "name": "PURK",
+    "full_name": "Purkinje cells",
+    "paper_synonyms": "Purkinje cells",
+    "tissue_context": "human cerebellum"
+  },
+  {
+    "name": "Purkinje cells",
+    "full_name": "Purkinje cells",
+    "paper_synonyms": "PURK",
+    "tissue_context": "human cerebellum"
+  }
+]

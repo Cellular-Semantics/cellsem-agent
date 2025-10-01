@@ -1,0 +1,122 @@
+[
+  {
+    "name": "multipotent HSCs",
+    "full_name": "multipotent Hematopoietic Stem Cells",
+    "paper_synonyms": "HSC; Hematopoietic Stem Cell; LT-HSC; ST-HSC",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "MPPs",
+    "full_name": "MultiPotent Progenitors",
+    "paper_synonyms": "MPP; MPP1; MPP2; MPP3; MPP4; MPP5; MPP6",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "oligopotent Common Lymphoid Progenitors",
+    "full_name": "oligopotent Common Lymphoid Progenitors",
+    "paper_synonyms": "CLP; CLPs; Common Lymphoid Progenitor",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "CLP",
+    "full_name": "Common Lymphoid Progenitor",
+    "paper_synonyms": "CLPs; Common Lymphoid Progenitors",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "Common Myeloid Progenitors",
+    "full_name": "Common Myeloid Progenitors",
+    "paper_synonyms": "CMP; CMPs; Common Myeloid Progenitor",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "CMP",
+    "full_name": "Common Myeloid Progenitor",
+    "paper_synonyms": "CMPs; Common Myeloid Progenitors",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "Megakaryocyte/Erythrocyte Progenitors",
+    "full_name": "Megakaryocyte/Erythrocyte Progenitors",
+    "paper_synonyms": "MEP; MEPs; Megakaryocyte/Erythrocyte Progenitor",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "MEPs",
+    "full_name": "Megakaryocyte/Erythrocyte Progenitors",
+    "paper_synonyms": "MEP; Megakaryocyte/Erythrocyte Progenitor",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "Monocyte (Mo)/Dendritic cell (DC) Progenitors",
+    "full_name": "Monocyte (Mo)/Dendritic cell (DC) Progenitors",
+    "paper_synonyms": "MDP; MDPs; Monocyte/Dendritic cell Progenitors",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "MDPs",
+    "full_name": "Monocyte/Dendritic cell Progenitors",
+    "paper_synonyms": "MDP; Monocyte (Mo)/Dendritic cell (DC) Progenitors",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "Granulocyte/Mo Progenitors",
+    "full_name": "Granulocyte/Monocyte Progenitors",
+    "paper_synonyms": "GMP; GMPs; Granulocyte/Monocyte Progenitor",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "GMPs",
+    "full_name": "Granulocyte/Monocyte Progenitors",
+    "paper_synonyms": "GMP; Granulocyte/Mo Progenitors; Granulocyte/Monocyte Progenitor",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "Lymphoid-primed MultiPotent Progenitor",
+    "full_name": "Lymphoid-primed MultiPotent Progenitor",
+    "paper_synonyms": "LMPP",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "LMPP",
+    "full_name": "Lymphoid-primed MultiPotent Progenitor",
+    "paper_synonyms": "LMPP",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "Lymphoid-Primed Progenitors",
+    "full_name": "Lymphoid-Primed Progenitors",
+    "paper_synonyms": "LPP; LPPs; Lymphoid-Primed Progenitor",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "LPPs",
+    "full_name": "Lymphoid-Primed Progenitors",
+    "paper_synonyms": "LPP; Lymphoid-Primed Progenitor",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "CLPs",
+    "full_name": "Common Lymphoid Progenitors",
+    "paper_synonyms": "CLP; Common Lymphoid Progenitor",
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "erythroid",
+    "full_name": "erythroid",
+    "paper_synonyms": null,
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "myeloid",
+    "full_name": "myeloid",
+    "paper_synonyms": null,
+    "tissue_context": "bone marrow niche (BMN)"
+  },
+  {
+    "name": "oligopotent MDPs",
+    "full_name": "oligopotent Monocyte/Dendritic cell Progenitors",
+    "paper_synonyms": "MDP; MDPs; Monocyte (Mo)/Dendritic cell (DC) Progenitors",
+    "tissue_context": "bone marrow niche (BMN)"
+  }
+]

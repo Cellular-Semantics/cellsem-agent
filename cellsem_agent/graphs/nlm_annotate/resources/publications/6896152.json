@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Granulocytes",
+    "full_name": null,
+    "paper_synonyms": "polymorphonuclear cells",
+    "tissue_context": "peripheral blood; whole blood"
+  },
+  {
+    "name": "Eosinophils",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "whole blood; peripheral blood; airways; bronchoaleveolar lavages"
+  },
+  {
+    "name": "Neutrophils",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood; airways"
+  },
+  {
+    "name": "Basophils",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood; whole blood; lymph nodes"
+  },
+  {
+    "name": "Mastocytes",
+    "full_name": null,
+    "paper_synonyms": "mast cells",
+    "tissue_context": "airways; lung"
+  }
+]

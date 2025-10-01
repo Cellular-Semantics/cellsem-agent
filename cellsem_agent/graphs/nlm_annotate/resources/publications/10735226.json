@@ -1,0 +1,14 @@
+[
+  {
+    "name": "DCs",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "dendritic cells",
+    "tissue_context": "tumor center; tumor periphery; peripheral blood mononuclear cells (PBMC)"
+  },
+  {
+    "name": "microglia",
+    "full_name": "microglia",
+    "paper_synonyms": "MG",
+    "tissue_context": "tumor center; tumor periphery (peripheral infiltration zone)"
+  }
+]

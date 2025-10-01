@@ -1,0 +1,20 @@
+[
+  {
+    "name": "mesenchymal stem cell",
+    "full_name": "mesenchymal stem cell",
+    "paper_synonyms": "mesenchymal stromal cell; MSC; MSCs",
+    "tissue_context": "adipose tissue; bone marrow"
+  },
+  {
+    "name": "stem cell",
+    "full_name": "stem cell",
+    "paper_synonyms": "adult stem cells; stem/progenitor cells; adult stem/progenitor cells",
+    "tissue_context": "adipose tissue; bone marrow; articular cartilage tissue"
+  },
+  {
+    "name": "stem cells",
+    "full_name": "stem cells",
+    "paper_synonyms": "adult stem cells; stem/progenitor cells; adult stem/progenitor cells",
+    "tissue_context": "adipose tissue; bone marrow; articular cartilage tissue"
+  }
+]

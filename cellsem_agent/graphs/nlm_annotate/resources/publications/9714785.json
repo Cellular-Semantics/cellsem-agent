@@ -1,0 +1,32 @@
+[
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": "ECs",
+    "tissue_context": "mouse carotid arteries; normal and injured carotid arteries; Medial and intimal layers"
+  },
+  {
+    "name": "ECs",
+    "full_name": "endothelial cells",
+    "paper_synonyms": "endothelial cells",
+    "tissue_context": "mouse carotid arteries; normal and injured carotid arteries; Medial and intimal layers"
+  },
+  {
+    "name": "smooth muscle cells",
+    "full_name": "vascular smooth muscle cells",
+    "paper_synonyms": "SMCs",
+    "tissue_context": "mouse carotid arteries; normal and injured carotid arteries; Medial and intimal layers"
+  },
+  {
+    "name": "SMCs",
+    "full_name": "vascular smooth muscle cells",
+    "paper_synonyms": "smooth muscle cells",
+    "tissue_context": "mouse carotid arteries; normal and injured carotid arteries; Medial and intimal layers"
+  },
+  {
+    "name": "SMC",
+    "full_name": "vascular smooth muscle cell",
+    "paper_synonyms": "smooth muscle cell",
+    "tissue_context": "mouse carotid arteries; normal and injured carotid arteries; Medial and intimal layers"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "alpha cells",
+    "full_name": "alpha cells",
+    "paper_synonyms": "\u03b1 cells; Pancreatic \u03b1 Cells",
+    "tissue_context": "islets; pancreas"
+  },
+  {
+    "name": "alpha-cell",
+    "full_name": "alpha cells",
+    "paper_synonyms": "\u03b1 cells; Pancreatic \u03b1 Cells",
+    "tissue_context": "islets; pancreas"
+  },
+  {
+    "name": "beta-cell",
+    "full_name": "beta cells",
+    "paper_synonyms": "\u03b2 cells; pancreatic \u03b2 cells; \u03b2-cell",
+    "tissue_context": "islets; pancreas"
+  },
+  {
+    "name": "beta cells",
+    "full_name": "beta cells",
+    "paper_synonyms": "\u03b2 cells; pancreatic \u03b2 cells; \u03b2-cell",
+    "tissue_context": "islets; pancreas"
+  },
+  {
+    "name": "endocrine cells",
+    "full_name": "endocrine cells",
+    "paper_synonyms": null,
+    "tissue_context": "glands"
+  },
+  {
+    "name": "T-cell",
+    "full_name": "T cells",
+    "paper_synonyms": "T cells",
+    "tissue_context": "islet infiltration (insulitis); pancreas; draining lymph nodes; blood"
+  }
+]

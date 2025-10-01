@@ -1,0 +1,20 @@
+[
+  {
+    "name": "smooth muscle cell",
+    "full_name": "smooth muscle cell",
+    "paper_synonyms": "SMC; smooth muscle cells",
+    "tissue_context": "mouse uterus; pre-receptive uterus (GD3); receptive uterus (GD4); whole uterus"
+  },
+  {
+    "name": "endothelial cell",
+    "full_name": "endothelial cell",
+    "paper_synonyms": "vascular endothelial cells (VEC); lymphatic endothelial cells (LEC)",
+    "tissue_context": "mouse uterus; pre-receptive uterus (GD3); receptive uterus (GD4); whole uterus"
+  },
+  {
+    "name": "epithelial cell",
+    "full_name": "epithelial cell",
+    "paper_synonyms": "epithelial cells (E); proliferating epithelial cells (Ep)",
+    "tissue_context": "mouse uterus; pre-receptive uterus (GD3); receptive uterus (GD4); whole uterus"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "PV+FSIs",
+    "full_name": "parvalbumin-expressing fast-spiking interneurons",
+    "paper_synonyms": "PV + FSIs; FSIs; PV + interneurons; PV interneurons",
+    "tissue_context": "nucleus accumbens (NAc)"
+  },
+  {
+    "name": "MSNs",
+    "full_name": "medium-sized spiny neurons",
+    "paper_synonyms": "medium spiny neurons; MSN; medium-sized spiny neuron",
+    "tissue_context": "nucleus accumbens (NAc)"
+  },
+  {
+    "name": "MSN",
+    "full_name": "medium-sized spiny neuron",
+    "paper_synonyms": "medium spiny neuron; MSNs; medium-sized spiny neurons",
+    "tissue_context": "nucleus accumbens (NAc)"
+  },
+  {
+    "name": "MSN cells",
+    "full_name": "medium-sized spiny neuron cells",
+    "paper_synonyms": "medium-sized spiny neurons; medium spiny neurons; MSNs; MSN",
+    "tissue_context": "nucleus accumbens (NAc)"
+  },
+  {
+    "name": "PV+FSI",
+    "full_name": "parvalbumin-expressing fast-spiking interneuron",
+    "paper_synonyms": "PV + FSI; FSI; PV + interneuron; PV interneuron",
+    "tissue_context": "nucleus accumbens (NAc)"
+  }
+]

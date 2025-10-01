@@ -1,0 +1,20 @@
+[
+  {
+    "name": "bipolar cell",
+    "full_name": "bipolar cell",
+    "paper_synonyms": null,
+    "tissue_context": "retina; inner retina; inner nuclear layer; inner plexiform layer"
+  },
+  {
+    "name": "bipolar cells",
+    "full_name": "bipolar cells",
+    "paper_synonyms": null,
+    "tissue_context": "retina; inner retina; inner nuclear layer; inner plexiform layer"
+  },
+  {
+    "name": "photoreceptors",
+    "full_name": "photoreceptor cells",
+    "paper_synonyms": null,
+    "tissue_context": "retina; outer layer of the retina"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "thymocytes",
+    "full_name": "thymocytes",
+    "paper_synonyms": null,
+    "tissue_context": "thymus"
+  },
+  {
+    "name": "DN, DP, and SP stages",
+    "full_name": "double negative (DN), double positive (DP), and single positive (SP) stages",
+    "paper_synonyms": "double negative (DN); double positive (DP); single positive (SP)",
+    "tissue_context": "thymus"
+  },
+  {
+    "name": "DP and CD4SP cells",
+    "full_name": "double positive (DP) and CD4 single positive (CD4SP) cells",
+    "paper_synonyms": "double positive (DP); CD4+CD8+ double positive (DP); CD4 single positive (CD4SP)",
+    "tissue_context": "thymus"
+  },
+  {
+    "name": "CD8 T cells",
+    "full_name": "CD8 T cells",
+    "paper_synonyms": "CD8 single positive (CD8SP)",
+    "tissue_context": "thymus"
+  },
+  {
+    "name": "ETPs",
+    "full_name": "early thymic progenitors",
+    "paper_synonyms": "early thymic progenitors (ETP)",
+    "tissue_context": "thymus"
+  },
+  {
+    "name": "mTECs",
+    "full_name": "medullary thymic epithelial cells",
+    "paper_synonyms": "medullary thymic epithelial cells (mTECs)",
+    "tissue_context": "thymus; thymic medulla"
+  },
+  {
+    "name": "DCs",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "dendritic cells (DC); thymic dendritic cells",
+    "tissue_context": "thymus"
+  },
+  {
+    "name": "thymocyte",
+    "full_name": "thymocyte",
+    "paper_synonyms": null,
+    "tissue_context": "thymus"
+  }
+]

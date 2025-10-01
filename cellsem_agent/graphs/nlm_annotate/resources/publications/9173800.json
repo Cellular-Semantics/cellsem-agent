@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ON-bipolar cell",
+    "full_name": "depolarizing bipolar cell",
+    "paper_synonyms": "depolarizing bipolar cell",
+    "tissue_context": "retina; human retina; outer plexiform layer"
+  },
+  {
+    "name": "OFF-bipolar cell",
+    "full_name": "hyperpolarizing bipolar cell",
+    "paper_synonyms": "hyperpolarizing bipolar cell",
+    "tissue_context": "retina; human retina; outer plexiform layer"
+  },
+  {
+    "name": "ON-bipolar cells",
+    "full_name": "depolarizing bipolar cells",
+    "paper_synonyms": "depolarizing bipolar cells",
+    "tissue_context": "retina; human retina; outer plexiform layer"
+  },
+  {
+    "name": "OFF-bipolar cells",
+    "full_name": "hyperpolarizing bipolar cells",
+    "paper_synonyms": "hyperpolarizing bipolar cells",
+    "tissue_context": "retina; human retina; outer plexiform layer"
+  }
+]

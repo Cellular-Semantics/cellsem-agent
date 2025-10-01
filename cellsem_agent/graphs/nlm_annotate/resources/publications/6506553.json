@@ -1,0 +1,26 @@
+[
+  {
+    "name": "NSC",
+    "full_name": "neural stem cell",
+    "paper_synonyms": "neural stem cells; neuronal stem cells",
+    "tissue_context": "su-ventricular zone (SVZ)"
+  },
+  {
+    "name": "NSCs",
+    "full_name": "neural stem cells",
+    "paper_synonyms": "neuronal stem cells",
+    "tissue_context": "su-ventricular zone (SVZ)"
+  },
+  {
+    "name": "TAPs",
+    "full_name": "transit amplifying progenitors",
+    "paper_synonyms": "type C cells; neural progenitor cells",
+    "tissue_context": "su-ventricular zone (SVZ)"
+  },
+  {
+    "name": "astrocytes",
+    "full_name": "astrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "striatum and somatosensory cortex"
+  }
+]

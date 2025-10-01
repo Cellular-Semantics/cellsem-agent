@@ -1,0 +1,128 @@
+[
+  {
+    "name": "B Cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "blood; nasal polyp; bronchoalveolar lavage fluid (BALF)"
+  },
+  {
+    "name": "CD4+ T Cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "blood; nasal polyp; bronchoalveolar lavage fluid (BALF)"
+  },
+  {
+    "name": "CD8+ T Cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "blood; nasal polyp; bronchoalveolar lavage fluid (BALF)"
+  },
+  {
+    "name": "Gamma-Delta T Cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "blood; nasal polyp"
+  },
+  {
+    "name": "Mucosal-associated invariant T (MAIT) Cells",
+    "full_name": null,
+    "paper_synonyms": "MAIT Cells",
+    "tissue_context": "blood; nasal polyp"
+  },
+  {
+    "name": "Natural Killer (NK) Cells",
+    "full_name": null,
+    "paper_synonyms": "NK Cells",
+    "tissue_context": "blood; nasal polyp; bronchoalveolar lavage fluid (BALF)"
+  },
+  {
+    "name": "Myeloid Dendritic Cells",
+    "full_name": null,
+    "paper_synonyms": "mDCs",
+    "tissue_context": "blood"
+  },
+  {
+    "name": "mDCs",
+    "full_name": "Myeloid Dendritic Cells",
+    "paper_synonyms": "Myeloid Dendritic Cells",
+    "tissue_context": "blood"
+  },
+  {
+    "name": "Plasmacytoid Dendritic Cells",
+    "full_name": null,
+    "paper_synonyms": "pDCs",
+    "tissue_context": "blood"
+  },
+  {
+    "name": "pDCs",
+    "full_name": "Plasmacytoid Dendritic Cells",
+    "paper_synonyms": "Plasmacytoid Dendritic Cells",
+    "tissue_context": "blood"
+  },
+  {
+    "name": "Classical Monocytes",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "blood"
+  },
+  {
+    "name": "Non-classical Monocytes",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "blood"
+  },
+  {
+    "name": "Basophils",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "blood"
+  },
+  {
+    "name": "MAIT Cells",
+    "full_name": "Mucosal-associated invariant T (MAIT) Cells",
+    "paper_synonyms": "Mucosal-associated invariant T (MAIT) Cells",
+    "tissue_context": "blood; nasal polyp"
+  },
+  {
+    "name": "Type 2 Innate Lymphoid Cells",
+    "full_name": null,
+    "paper_synonyms": "ILC2s",
+    "tissue_context": "nasal polyp"
+  },
+  {
+    "name": "ILC2s",
+    "full_name": "Type 2 Innate Lymphoid Cells",
+    "paper_synonyms": "Type 2 Innate Lymphoid Cells",
+    "tissue_context": "nasal polyp"
+  },
+  {
+    "name": "NK Cells",
+    "full_name": "Natural Killer (NK) Cells",
+    "paper_synonyms": "Natural Killer (NK) Cells",
+    "tissue_context": "blood; nasal polyp; bronchoalveolar lavage fluid (BALF)"
+  },
+  {
+    "name": "Dendritic Cells",
+    "full_name": null,
+    "paper_synonyms": "DCs",
+    "tissue_context": "nasal polyp"
+  },
+  {
+    "name": "DCs",
+    "full_name": "Dendritic Cells",
+    "paper_synonyms": "Dendritic Cells",
+    "tissue_context": "nasal polyp"
+  },
+  {
+    "name": "Macrophages",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "nasal polyp; bronchoalveolar lavage fluid (BALF)"
+  },
+  {
+    "name": "Mast Cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "nasal polyp"
+  }
+]

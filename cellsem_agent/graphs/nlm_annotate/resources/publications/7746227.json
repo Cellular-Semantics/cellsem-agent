@@ -1,0 +1,74 @@
+[
+  {
+    "name": "hepatocytes",
+    "full_name": "hepatocytes",
+    "paper_synonyms": null,
+    "tissue_context": "non\u2010malignant liver sites"
+  },
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "malignant and adjacent non\u2010malignant liver tissues"
+  },
+  {
+    "name": "liver sinusoidal endothelial cells",
+    "full_name": "liver sinusoidal endothelial cells",
+    "paper_synonyms": "LSEC",
+    "tissue_context": "non\u2010malignant liver sites"
+  },
+  {
+    "name": "LSEC",
+    "full_name": "liver sinusoidal endothelial cells",
+    "paper_synonyms": "liver sinusoidal endothelial cells",
+    "tissue_context": "non\u2010malignant liver sites"
+  },
+  {
+    "name": "mesenchymal cells",
+    "full_name": "mesenchymal cells",
+    "paper_synonyms": null,
+    "tissue_context": "malignant liver sites; non\u2010malignant liver sites"
+  },
+  {
+    "name": "Stellate cells",
+    "full_name": "hepatic stellate cells",
+    "paper_synonyms": null,
+    "tissue_context": "non\u2010malignant liver sites"
+  },
+  {
+    "name": "Pericytes",
+    "full_name": "pericytes",
+    "paper_synonyms": null,
+    "tissue_context": "malignant liver sites"
+  },
+  {
+    "name": "vascular smooth muscle cells",
+    "full_name": "vascular smooth muscle cells",
+    "paper_synonyms": "vSMC",
+    "tissue_context": "non\u2010malignant liver sites"
+  },
+  {
+    "name": "vSMC",
+    "full_name": "vascular smooth muscle cells",
+    "paper_synonyms": "vascular smooth muscle cells",
+    "tissue_context": "non\u2010malignant liver sites"
+  },
+  {
+    "name": "Kupffer cells",
+    "full_name": "Kupffer cells",
+    "paper_synonyms": null,
+    "tissue_context": "non\u2010malignant liver sites"
+  },
+  {
+    "name": "T cells",
+    "full_name": "T cells",
+    "paper_synonyms": null,
+    "tissue_context": "malignant sites; non\u2010malignant sites"
+  },
+  {
+    "name": "B cells",
+    "full_name": "B cells",
+    "paper_synonyms": null,
+    "tissue_context": "non\u2010malignant liver sites; tumor microenvironment (TME)"
+  }
+]

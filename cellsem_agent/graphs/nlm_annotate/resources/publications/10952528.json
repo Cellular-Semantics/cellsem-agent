@@ -1,0 +1,74 @@
+[
+  {
+    "name": "adrenergic neuron",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "locus coeruleus"
+  },
+  {
+    "name": "Betz cell",
+    "full_name": "Betz cell of the primary motor cortex",
+    "paper_synonyms": "gigantopyramidal neurons; giant pyramids; extratelencephalic projection (ETP) neurons; pyramidal tract neuron; upper motoneuron; giant pyramidal neurons",
+    "tissue_context": "primary motor cortex; area 4; layer Vb; precentral gyrus"
+  },
+  {
+    "name": "catecholaminergic neuron",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "locus coeruleus"
+  },
+  {
+    "name": "cortical neurons",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "primary motor cortex; area 4"
+  },
+  {
+    "name": "Betz cells",
+    "full_name": "Betz cells of the primary motor cortex",
+    "paper_synonyms": "gigantopyramidal neurons; giant pyramids; extratelencephalic projection (ETP) neurons; pyramidal tract neuron; upper motoneuron; giant pyramidal neurons",
+    "tissue_context": "primary motor cortex; area 4; layer Vb; precentral gyrus"
+  },
+  {
+    "name": "alpha-motoneurons",
+    "full_name": "\u03b1\u2010motoneurons",
+    "paper_synonyms": "\u03b1\u2010motoneurons",
+    "tissue_context": "brainstem; spinal cord; Rexed lamina IX; anterior horns"
+  },
+  {
+    "name": "gigantopyramidal neurons",
+    "full_name": "gigantopyramidal neurons of the primary motor cortex",
+    "paper_synonyms": "Betz cells; giant pyramids; giant pyramidal neurons",
+    "tissue_context": "primary motor cortex; area 4; layer Vb; precentral gyrus"
+  },
+  {
+    "name": "anterior horn cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "spinal cord; anterior horns"
+  },
+  {
+    "name": "spinal cord interneurons",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "spinal cord; laminae VIII and VII"
+  },
+  {
+    "name": "spinal cord neurons",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "spinal cord"
+  },
+  {
+    "name": "spinal cord neuron",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "spinal cord"
+  },
+  {
+    "name": "neuronal",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

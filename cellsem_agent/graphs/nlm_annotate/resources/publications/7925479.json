@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Tregs",
+    "full_name": "regulatory T-cells",
+    "paper_synonyms": "FOXP3+ regulatory T-cells; thymus-derived Tregs (tTregs); peripheral Tregs (pTregs)",
+    "tissue_context": "thymus; thymic cortex; medulla"
+  },
+  {
+    "name": "T- and B-cells",
+    "full_name": "T-cells and B-cells",
+    "paper_synonyms": "",
+    "tissue_context": "thymus; cortex; medulla; perivascular spaces (PVS); corticomedullary junction (CMJ)"
+  }
+]

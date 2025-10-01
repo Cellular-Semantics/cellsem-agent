@@ -1,0 +1,104 @@
+[
+  {
+    "name": "helper T-cells",
+    "full_name": "helper T-cells",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "cytotoxic T-cells",
+    "full_name": "cytotoxic T-cells",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "deltagamma T-cells",
+    "full_name": "\u03b4\u03b3 T-cells",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "naive T-cells",
+    "full_name": "na\u00efve T-cells",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "regulatory T-cells",
+    "full_name": "regulatory T-cells",
+    "paper_synonyms": "T regulatory cells",
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "B cells",
+    "full_name": "B cells",
+    "paper_synonyms": "B-cells",
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "plasma cells",
+    "full_name": "plasma cells",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "NKT cells",
+    "full_name": "NKT cells",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "NK cells",
+    "full_name": "NK cells",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "M1 macrophages",
+    "full_name": "M1 macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "M2 macrophages",
+    "full_name": "M2 macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "classical monocytes",
+    "full_name": "classical monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "intermediate monocytes",
+    "full_name": "intermediate monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "non-classical monocytes",
+    "full_name": "non-classical monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "mast cells",
+    "full_name": "mast cells",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "plasmacytoid dendritic cells",
+    "full_name": "plasmacytoid dendritic cells",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  },
+  {
+    "name": "neutrophils",
+    "full_name": "neutrophils",
+    "paper_synonyms": null,
+    "tissue_context": "stage I lung adenocarcinomas"
+  }
+]

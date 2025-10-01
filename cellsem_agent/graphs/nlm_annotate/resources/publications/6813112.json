@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Neutrophil",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "whole blood; peripheral blood; blood"
+  },
+  {
+    "name": "WBC",
+    "full_name": "White blood cells",
+    "paper_synonyms": null,
+    "tissue_context": "whole blood; peripheral blood; blood"
+  }
+]

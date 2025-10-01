@@ -1,0 +1,62 @@
+[
+  {
+    "name": "central and peripheral neurons",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "mouse brain"
+  },
+  {
+    "name": "astrocytes",
+    "full_name": null,
+    "paper_synonyms": "AC",
+    "tissue_context": "striatum; midbrain"
+  },
+  {
+    "name": "oligodendrocytes",
+    "full_name": null,
+    "paper_synonyms": "OL",
+    "tissue_context": "striatum; fetal VM grafts"
+  },
+  {
+    "name": "Schwann cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "mouse brain"
+  },
+  {
+    "name": "brain vascular cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "mouse brain; brain vasculature"
+  },
+  {
+    "name": "enteric glia",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "mouse brain"
+  },
+  {
+    "name": "vascular leptomeningeal cells",
+    "full_name": null,
+    "paper_synonyms": "VLMCs; VLMC",
+    "tissue_context": "striatum; midbrain; brain vasculature; blood vessels"
+  },
+  {
+    "name": "VLMCs",
+    "full_name": "vascular leptomeningeal cells",
+    "paper_synonyms": "vascular leptomeningeal cells; VLMC",
+    "tissue_context": "striatum; midbrain; brain vasculature; blood vessels"
+  },
+  {
+    "name": "fibroblast",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "mouse brain vasculature"
+  },
+  {
+    "name": "fibroblasts",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "mouse brain vasculature"
+  }
+]

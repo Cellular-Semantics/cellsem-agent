@@ -1,0 +1,38 @@
+[
+  {
+    "name": "mammary stem cell",
+    "full_name": "mammary gland stem cell",
+    "paper_synonyms": "mammary gland stem cells; MaSCs",
+    "tissue_context": "mouse mammary gland"
+  },
+  {
+    "name": "mammary stem cells",
+    "full_name": "mammary gland stem cells",
+    "paper_synonyms": "mammary gland stem cells; MaSCs",
+    "tissue_context": "mouse mammary gland"
+  },
+  {
+    "name": "unipotent estrogen receptor-negative luminal progenitors",
+    "full_name": "unipotent estrogen receptor-negative luminal progenitors",
+    "paper_synonyms": null,
+    "tissue_context": "mouse mammary gland"
+  },
+  {
+    "name": "mammary epithelial cells",
+    "full_name": "mammary epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "mouse mammary gland"
+  },
+  {
+    "name": "luminal cell",
+    "full_name": "luminal cell",
+    "paper_synonyms": null,
+    "tissue_context": "mouse mammary gland"
+  },
+  {
+    "name": "luminal cells",
+    "full_name": "luminal cells",
+    "paper_synonyms": null,
+    "tissue_context": "mouse mammary gland"
+  }
+]

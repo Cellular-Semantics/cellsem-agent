@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Merk",
+    "full_name": "Merkel Cells",
+    "paper_synonyms": "Merkel Cells",
+    "tissue_context": "human periodontium; gingival epithelium"
+  },
+  {
+    "name": "Merkel Cells",
+    "full_name": "Merkel Cells",
+    "paper_synonyms": "Merk",
+    "tissue_context": "human periodontium; gingival epithelium"
+  },
+  {
+    "name": "LC",
+    "full_name": "langerhans cells",
+    "paper_synonyms": "langerhans cells",
+    "tissue_context": "human periodontium; gingival epithelium"
+  },
+  {
+    "name": "langerhans cells",
+    "full_name": "langerhans cells",
+    "paper_synonyms": "LC",
+    "tissue_context": "human periodontium; gingival epithelium"
+  },
+  {
+    "name": "Mela",
+    "full_name": "melanocytes",
+    "paper_synonyms": "melanocytes",
+    "tissue_context": "human periodontium; gingival epithelium"
+  },
+  {
+    "name": "melanocytes",
+    "full_name": "melanocytes",
+    "paper_synonyms": "Mela",
+    "tissue_context": "human periodontium; gingival epithelium"
+  },
+  {
+    "name": "suprabasal Keratinocytes",
+    "full_name": "Suprabasal (Differentiated) Keratinocytes",
+    "paper_synonyms": "SB; suprabasal Keratinocytes; Suprabasal (Differentiated) Keratinocytes",
+    "tissue_context": "human periodontium; gingival epithelium; gingival attachment"
+  },
+  {
+    "name": "SB",
+    "full_name": "Suprabasal (Differentiated) Keratinocytes",
+    "paper_synonyms": "suprabasal Keratinocytes; Suprabasal (Differentiated) Keratinocytes",
+    "tissue_context": "human periodontium; gingival epithelium; gingival attachment"
+  }
+]

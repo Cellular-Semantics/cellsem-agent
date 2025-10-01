@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Lymphoid cell",
+    "full_name": "lymphoid cell",
+    "paper_synonyms": null,
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "T cell",
+    "full_name": "T cell",
+    "paper_synonyms": "T cells",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "CD4+ T cells",
+    "full_name": "CD4+ T cells",
+    "paper_synonyms": "CD4 + T cells",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "Treg",
+    "full_name": "Treg",
+    "paper_synonyms": "Tregs",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "CD8+ T cells",
+    "full_name": "CD8+ T cells",
+    "paper_synonyms": "CD8 + T cells",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "T helper type 1 (Th1) cells",
+    "full_name": "T helper type 1 (Th1) cells",
+    "paper_synonyms": "Th1; Th1 effector cells",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "Th1 effector cells",
+    "full_name": "T helper type 1 effector cells",
+    "paper_synonyms": "Th1; T helper type 1 (Th1) cells",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "CD3-expressing T cells",
+    "full_name": "CD3-expressing T cells",
+    "paper_synonyms": null,
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "NK cells",
+    "full_name": "NK cells",
+    "paper_synonyms": null,
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "CD79-expressing B cells",
+    "full_name": "CD79-expressing B cells",
+    "paper_synonyms": "CD79A+ B cells",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "B cell",
+    "full_name": "B cell",
+    "paper_synonyms": "B cells",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "type 1 B cells",
+    "full_name": "type 1 B cells",
+    "paper_synonyms": "B1",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "B1",
+    "full_name": "type 1 B cells",
+    "paper_synonyms": "B1 cells",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "type 2 B cells",
+    "full_name": "type 2 B cells",
+    "paper_synonyms": "B2",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "B2",
+    "full_name": "type 2 B cells",
+    "paper_synonyms": "B2 cells",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "B1 cells",
+    "full_name": "type 1 B cells",
+    "paper_synonyms": "B1",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "B2 cells",
+    "full_name": "type 2 B cells",
+    "paper_synonyms": "B2",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  },
+  {
+    "name": "T cells",
+    "full_name": "T cells",
+    "paper_synonyms": "T cell",
+    "tissue_context": "femoral atherosclerotic plaque; carotid atherosclerotic plaque"
+  }
+]

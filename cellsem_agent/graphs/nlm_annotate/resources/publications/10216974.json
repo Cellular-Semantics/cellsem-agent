@@ -1,0 +1,38 @@
+[
+  {
+    "name": "MECs",
+    "full_name": "myoepithelial cells",
+    "paper_synonyms": "myoepithelial cells",
+    "tissue_context": "lacrimal gland (LG)"
+  },
+  {
+    "name": "stem cells",
+    "full_name": "stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "lacrimal gland (LG)"
+  },
+  {
+    "name": "mammary ductal cells",
+    "full_name": "mammary ductal cells",
+    "paper_synonyms": null,
+    "tissue_context": "mammary gland"
+  },
+  {
+    "name": "tubular cells",
+    "full_name": "tubular cells",
+    "paper_synonyms": null,
+    "tissue_context": "kidney"
+  },
+  {
+    "name": "corneal limbal stem cells",
+    "full_name": "corneal limbal stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "corneal epithelium"
+  },
+  {
+    "name": "stem/progenitor cells",
+    "full_name": "stem/progenitor cells",
+    "paper_synonyms": null,
+    "tissue_context": "lacrimal gland (LG); basal ductal compartment of multilayered ducts"
+  }
+]

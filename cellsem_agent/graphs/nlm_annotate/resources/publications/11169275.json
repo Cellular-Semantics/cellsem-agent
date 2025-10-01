@@ -1,0 +1,86 @@
+[
+  {
+    "name": "cholangiocytes",
+    "full_name": "cholangiocytes",
+    "paper_synonyms": null,
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  },
+  {
+    "name": "fibroblast",
+    "full_name": "fibroblast",
+    "paper_synonyms": "fibroblasts",
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  },
+  {
+    "name": "hepatocyte",
+    "full_name": "hepatocyte",
+    "paper_synonyms": "hepatocytes",
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  },
+  {
+    "name": "TNK",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  },
+  {
+    "name": "endothelial",
+    "full_name": "endothelial cells",
+    "paper_synonyms": "endothelial cells",
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  },
+  {
+    "name": "MonoMac",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  },
+  {
+    "name": "B lymphocytes",
+    "full_name": "B lymphocytes",
+    "paper_synonyms": "B cells",
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  },
+  {
+    "name": "dendritic cells",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "DC; DCs",
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  },
+  {
+    "name": "DC",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "dendritic cells; DCs",
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  },
+  {
+    "name": "fibroblasts",
+    "full_name": "fibroblasts",
+    "paper_synonyms": "fibroblast",
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  },
+  {
+    "name": "hepatocytes",
+    "full_name": "hepatocytes",
+    "paper_synonyms": "hepatocyte",
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  },
+  {
+    "name": "B cells",
+    "full_name": "B lymphocytes",
+    "paper_synonyms": "B lymphocytes",
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  },
+  {
+    "name": "DCs",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "dendritic cells; DC",
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  },
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": "endothelial",
+    "tissue_context": "intrahepatic cholangiocarcinoma (ICC); normal and tumoral tissues"
+  }
+]

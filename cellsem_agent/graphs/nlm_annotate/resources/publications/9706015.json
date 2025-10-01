@@ -1,0 +1,14 @@
+[
+  {
+    "name": "dermal papilla cells",
+    "full_name": "dermal papilla cells",
+    "paper_synonyms": "DP cells; human dermal papilla cells (hDPC)",
+    "tissue_context": "dermal papilla (DP); hair follicle (HF); base of the HFs"
+  },
+  {
+    "name": "DP cells",
+    "full_name": "dermal papilla cells",
+    "paper_synonyms": "dermal papilla cells; human dermal papilla cells (hDPC)",
+    "tissue_context": "dermal papilla (DP); hair follicle (HF); base of the HFs"
+  }
+]

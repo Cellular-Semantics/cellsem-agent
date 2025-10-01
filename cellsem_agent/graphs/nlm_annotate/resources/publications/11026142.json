@@ -1,0 +1,20 @@
+[
+  {
+    "name": "CD4 T helper cells",
+    "full_name": "CD4 T helper cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "B cells",
+    "full_name": "B cells",
+    "paper_synonyms": "B-cells",
+    "tissue_context": "breast cancer spatial transcriptomics datasets"
+  },
+  {
+    "name": "CD14 monocytes",
+    "full_name": "CD14 monocytes",
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

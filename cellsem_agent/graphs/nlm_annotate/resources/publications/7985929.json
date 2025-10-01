@@ -1,0 +1,20 @@
+[
+  {
+    "name": "alternative macrophage activation",
+    "full_name": "alternative activated (M2) macrophage phenotype",
+    "paper_synonyms": "M2",
+    "tissue_context": "lung"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "lung macrophages",
+    "paper_synonyms": "pulmonary macrophages",
+    "tissue_context": "lung; lung parenchyma"
+  },
+  {
+    "name": "macrophage",
+    "full_name": "lung macrophages",
+    "paper_synonyms": "pulmonary macrophages",
+    "tissue_context": "lung; lung parenchyma"
+  }
+]

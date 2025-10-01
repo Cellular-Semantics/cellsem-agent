@@ -1,0 +1,110 @@
+[
+  {
+    "name": "T cells",
+    "full_name": "T lymphocytes",
+    "paper_synonyms": "T lymphocytes",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "T lymphocytes",
+    "full_name": "T lymphocytes",
+    "paper_synonyms": "T cells",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD8+ T cells",
+    "full_name": "CD8+ T cells",
+    "paper_synonyms": "CD8+ T lymphocytes",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD4+ T cells",
+    "full_name": "CD4+ T cells",
+    "paper_synonyms": "CD4+ T lymphocytes",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD8+ MAIT",
+    "full_name": "CD8+ mucosa\u2010associated invariant T cells",
+    "paper_synonyms": "MAIT; mucosa\u2010associated invariant",
+    "tissue_context": "HSIL tissues, including glands, connective tissues and HSIL foci; normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD8+ Naive",
+    "full_name": "CD8+ na\u00efve T cells",
+    "paper_synonyms": "Tn",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD8+ intraepithelial lymphocytes",
+    "full_name": "CD8+ intraepithelial lymphocytes",
+    "paper_synonyms": "IEL; intraepithelial lymphocytes",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "IEL",
+    "full_name": "intraepithelial lymphocytes",
+    "paper_synonyms": "intraepithelial lymphocytes",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD8+ Tem",
+    "full_name": "CD8+ effector memory T cells",
+    "paper_synonyms": "Tem; effector memory",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD8+ Temra",
+    "full_name": "CD8+ recently activated effector memory T cells",
+    "paper_synonyms": "TemRA; recently activated effector memory",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD4+ Tem",
+    "full_name": "CD4+ effector memory T cells",
+    "paper_synonyms": "Tem; effector memory",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD4+ Th17",
+    "full_name": "CD4+ Th17 T cells",
+    "paper_synonyms": "Th17; Th17 T cells",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD4+ Naive",
+    "full_name": "CD4+ na\u00efve T cells",
+    "paper_synonyms": "na\u00efve T cells",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD4+ Treg",
+    "full_name": "CD4+ regulatory T cells",
+    "paper_synonyms": "Tregs; regulatory T cells",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD8+ T cell",
+    "full_name": "CD8+ T cells",
+    "paper_synonyms": "CD8+ T lymphocytes",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD4+ T cell",
+    "full_name": "CD4+ T cells",
+    "paper_synonyms": "CD4+ T lymphocytes",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD8+ T lymphocytes",
+    "full_name": "CD8+ T lymphocytes",
+    "paper_synonyms": "CD8+ T cells",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  },
+  {
+    "name": "CD4+ T lymphocytes",
+    "full_name": "CD4+ T lymphocytes",
+    "paper_synonyms": "CD4+ T cells",
+    "tissue_context": "normal cervix without human papillomavirus (HPV) infection; HPV\u2010infected normal cervix; HPV\u2010infected high\u2010grade squamous intraepithelial lesions (HSIL); HPV\u2010infected cervical cancer"
+  }
+]

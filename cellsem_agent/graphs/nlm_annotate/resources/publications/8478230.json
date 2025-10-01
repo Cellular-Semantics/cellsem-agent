@@ -1,0 +1,26 @@
+[
+  {
+    "name": "T-cell",
+    "full_name": "T cells",
+    "paper_synonyms": null,
+    "tissue_context": "healthy donor blood; peripheral blood mononuclear cells (PBMCs)"
+  },
+  {
+    "name": "memory and Th17 cells",
+    "full_name": "memory T cells and Th17 cells",
+    "paper_synonyms": null,
+    "tissue_context": "healthy donor blood; peripheral blood mononuclear cells (PBMCs)"
+  },
+  {
+    "name": "T cells",
+    "full_name": "T cells",
+    "paper_synonyms": null,
+    "tissue_context": "healthy donor blood; peripheral blood mononuclear cells (PBMCs)"
+  },
+  {
+    "name": "CD4+ T cells",
+    "full_name": "CD4 + T cells",
+    "paper_synonyms": null,
+    "tissue_context": "healthy donor blood; peripheral blood mononuclear cells (PBMCs)"
+  }
+]

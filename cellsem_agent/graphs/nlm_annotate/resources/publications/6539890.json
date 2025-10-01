@@ -1,0 +1,122 @@
+[
+  {
+    "name": "ISC",
+    "full_name": "Intestinal stem cell",
+    "paper_synonyms": "crypt-base columnar cell; CBC",
+    "tissue_context": "intestine; crypts of Lieberk\u00fchn"
+  },
+  {
+    "name": "Intestinal stem cell",
+    "full_name": "Intestinal stem cell",
+    "paper_synonyms": "ISC; crypt-base columnar cell; CBC",
+    "tissue_context": "intestine; crypts of Lieberk\u00fchn"
+  },
+  {
+    "name": "GC",
+    "full_name": "Goblet cell",
+    "paper_synonyms": "Goblet cell",
+    "tissue_context": "intestine"
+  },
+  {
+    "name": "Goblet cell",
+    "full_name": "Goblet cell",
+    "paper_synonyms": "GC",
+    "tissue_context": "intestine"
+  },
+  {
+    "name": "HSC",
+    "full_name": "Hematopoietic stem cell",
+    "paper_synonyms": "Hematopoietic stem cell",
+    "tissue_context": "bone marrow (BM)"
+  },
+  {
+    "name": "Hematopoietic stem cell",
+    "full_name": "Hematopoietic stem cell",
+    "paper_synonyms": "HSC",
+    "tissue_context": "bone marrow (BM)"
+  },
+  {
+    "name": "MPP",
+    "full_name": "Multipotent progenitor",
+    "paper_synonyms": "Multipotent progenitor",
+    "tissue_context": "bone marrow (BM)"
+  },
+  {
+    "name": "Multipotent progenitor",
+    "full_name": "Multipotent progenitor",
+    "paper_synonyms": "MPP",
+    "tissue_context": "bone marrow (BM)"
+  },
+  {
+    "name": "LT-HSC",
+    "full_name": "Long-term hematopoietic stem cell",
+    "paper_synonyms": "Long-term hematopoietic stem cell",
+    "tissue_context": "bone marrow (BM)"
+  },
+  {
+    "name": "Long-term hematopoietic stem cell",
+    "full_name": "Long-term hematopoietic stem cell",
+    "paper_synonyms": "LT-HSC",
+    "tissue_context": "bone marrow (BM)"
+  },
+  {
+    "name": "EC",
+    "full_name": "Enterocyte",
+    "paper_synonyms": "Enterocyte",
+    "tissue_context": "intestine; villi"
+  },
+  {
+    "name": "Enterocyte",
+    "full_name": "Enterocyte",
+    "paper_synonyms": "EC",
+    "tissue_context": "intestine; villi"
+  },
+  {
+    "name": "EEC",
+    "full_name": "Enteroendocrine cell",
+    "paper_synonyms": "Enteroendocrine cell",
+    "tissue_context": "intestine"
+  },
+  {
+    "name": "Enteroendocrine cell",
+    "full_name": "Enteroendocrine cell",
+    "paper_synonyms": "EEC",
+    "tissue_context": "intestine"
+  },
+  {
+    "name": "HSPC",
+    "full_name": "Hematopoietic stem and progenitor cell",
+    "paper_synonyms": "Hematopoietic stem and progenitor cell",
+    "tissue_context": "bone marrow (BM); peripheral blood"
+  },
+  {
+    "name": "Hematopoietic stem and progenitor cell",
+    "full_name": "Hematopoietic stem and progenitor cell",
+    "paper_synonyms": "HSPC",
+    "tissue_context": "bone marrow (BM); peripheral blood"
+  },
+  {
+    "name": "PC",
+    "full_name": "Paneth cell",
+    "paper_synonyms": "Paneth cell",
+    "tissue_context": "intestine; base of the crypt"
+  },
+  {
+    "name": "Paneth cell",
+    "full_name": "Paneth cell",
+    "paper_synonyms": "PC",
+    "tissue_context": "intestine; base of the crypt"
+  },
+  {
+    "name": "TA",
+    "full_name": "Transit-amplifying",
+    "paper_synonyms": "Transit-amplifying; transit-amplifying progenitors",
+    "tissue_context": "intestine; crypts of Lieberk\u00fchn"
+  },
+  {
+    "name": "Transit-amplifying",
+    "full_name": "Transit-amplifying",
+    "paper_synonyms": "TA; transit-amplifying progenitors",
+    "tissue_context": "intestine; crypts of Lieberk\u00fchn"
+  }
+]

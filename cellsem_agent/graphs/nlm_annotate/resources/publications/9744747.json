@@ -1,0 +1,104 @@
+[
+  {
+    "name": "nIPCs",
+    "full_name": "neuronal intermediate progenitor cells",
+    "paper_synonyms": "nIPC",
+    "tissue_context": "germinal matrix (GM); cortical plate (CP)"
+  },
+  {
+    "name": "glia",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "germinal matrix (GM); cortical plate (CP)"
+  },
+  {
+    "name": "RG",
+    "full_name": "radial glia",
+    "paper_synonyms": null,
+    "tissue_context": "germinal matrix (GM); ventricular zone (VZ); outer subventricular zone (oSVZ)"
+  },
+  {
+    "name": "gIPC",
+    "full_name": "glial intermediate progenitor cell",
+    "paper_synonyms": "gIPC-A; gIPC-O; EGFR-positive glial progenitor",
+    "tissue_context": "germinal matrix (GM); cortical plate (CP); outer subventricular zone (oSVZ)"
+  },
+  {
+    "name": "microglia",
+    "full_name": "microglia",
+    "paper_synonyms": "MG",
+    "tissue_context": "germinal matrix (GM); cortical plate (CP); subventricular zone (SVZ); neocortex (CX)"
+  },
+  {
+    "name": "gIPCs",
+    "full_name": "glial intermediate progenitor cells",
+    "paper_synonyms": "gIPC; gIPC-A; gIPC-O; EGFR-positive glial progenitor",
+    "tissue_context": "germinal matrix (GM); cortical plate (CP); outer subventricular zone (oSVZ)"
+  },
+  {
+    "name": "TAC",
+    "full_name": "transit-amplifying cell/cycling progenitor",
+    "paper_synonyms": "cycling or transit-amplifying cells",
+    "tissue_context": "germinal matrix (GM); cortical plate (CP)"
+  },
+  {
+    "name": "TACs",
+    "full_name": "transit-amplifying cell/cycling progenitor",
+    "paper_synonyms": "TAC; cycling or transit-amplifying cells",
+    "tissue_context": "germinal matrix (GM); cortical plate (CP)"
+  },
+  {
+    "name": "CRNs",
+    "full_name": "Cajal-Retzius cells",
+    "paper_synonyms": "CRN",
+    "tissue_context": "cortical plate (CP)"
+  },
+  {
+    "name": "CP glia",
+    "full_name": "cortical plate glia",
+    "paper_synonyms": null,
+    "tissue_context": "cortical plate (CP)"
+  },
+  {
+    "name": "AC",
+    "full_name": "astrocyte",
+    "paper_synonyms": "AC-f fibrous astrocyte; AC-p protoplasmic astrocyte",
+    "tissue_context": "germinal matrix (GM); cortical plate (CP); subventricular zone (SVZ); neocortex (CX)"
+  },
+  {
+    "name": "MSNs",
+    "full_name": "medium spiny neurons",
+    "paper_synonyms": "MSN; D1-type MSN; D2-type MSN",
+    "tissue_context": "germinal matrix (GM); subventricular zone (SVZ); caudate nucleus"
+  },
+  {
+    "name": "OPC",
+    "full_name": "oligodendrocyte progenitor cell",
+    "paper_synonyms": "OPCs",
+    "tissue_context": "germinal matrix (GM); cortical plate (CP); subventricular zone (SVZ); neocortex (CX)"
+  },
+  {
+    "name": "OPCs",
+    "full_name": "oligodendrocyte progenitor cells",
+    "paper_synonyms": "OPC",
+    "tissue_context": "germinal matrix (GM); cortical plate (CP); subventricular zone (SVZ); neocortex (CX)"
+  },
+  {
+    "name": "astrocyte",
+    "full_name": "astrocyte",
+    "paper_synonyms": "AC; AC-f fibrous astrocyte; AC-p protoplasmic astrocyte",
+    "tissue_context": "germinal matrix (GM); cortical plate (CP); subventricular zone (SVZ); neocortex (CX)"
+  },
+  {
+    "name": "astrocytes",
+    "full_name": "astrocytes",
+    "paper_synonyms": "AC; AC-f fibrous astrocyte; AC-p protoplasmic astrocyte",
+    "tissue_context": "germinal matrix (GM); cortical plate (CP); subventricular zone (SVZ); neocortex (CX)"
+  },
+  {
+    "name": "Interneurons",
+    "full_name": "interneurons",
+    "paper_synonyms": "IN",
+    "tissue_context": "germinal matrix (GM); cortical plate (CP); subventricular zone (SVZ); neocortex (CX)"
+  }
+]

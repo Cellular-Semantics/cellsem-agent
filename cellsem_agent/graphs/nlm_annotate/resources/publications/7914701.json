@@ -1,0 +1,14 @@
+[
+  {
+    "name": "mammary stem cell",
+    "full_name": "mammary stem cell",
+    "paper_synonyms": "mammary stem cells; mammary stem/progenitor cells; mammary progenitor/stem cells; mammary stem/basal cells",
+    "tissue_context": "mammary gland; mammary epithelium"
+  },
+  {
+    "name": "luminal",
+    "full_name": "luminal cell",
+    "paper_synonyms": "mammary luminal cells; mature luminal cell; luminal progenitor cell",
+    "tissue_context": "mammary gland; mammary epithelium"
+  }
+]

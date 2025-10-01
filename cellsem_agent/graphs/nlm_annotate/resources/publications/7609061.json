@@ -1,0 +1,14 @@
+[
+  {
+    "name": "myeloid cell",
+    "full_name": "myeloid cell population",
+    "paper_synonyms": "",
+    "tissue_context": "heart; infarcted myocardium; cardiac tissue"
+  },
+  {
+    "name": "Mphis",
+    "full_name": "macrophages",
+    "paper_synonyms": "M\u03c6s; cardiac M\u03c6s",
+    "tissue_context": "heart; infarcted myocardium; cardiac tissue"
+  }
+]

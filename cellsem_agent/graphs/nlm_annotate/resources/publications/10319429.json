@@ -1,0 +1,74 @@
+[
+  {
+    "name": "gastric stem cells",
+    "full_name": "gastric stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "isthmus of human gastric corpus; human gastric corpus epithelium"
+  },
+  {
+    "name": "gastric progenitor",
+    "full_name": "gastric progenitor cells",
+    "paper_synonyms": null,
+    "tissue_context": "isthmus of human gastric corpus; human gastric corpus epithelium"
+  },
+  {
+    "name": "gastric epithelial cells",
+    "full_name": "human gastric corpus epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "human gastric corpus epithelium"
+  },
+  {
+    "name": "parietal cells",
+    "full_name": "parietal/oxyntic cells",
+    "paper_synonyms": "oxyntic cells",
+    "tissue_context": "human gastric corpus epithelium; corpus glands"
+  },
+  {
+    "name": "neck cells",
+    "full_name": "mucous neck cells",
+    "paper_synonyms": null,
+    "tissue_context": "human gastric corpus epithelium; corpus glands"
+  },
+  {
+    "name": "neck and endocrine cells",
+    "full_name": "mucous neck cells and endocrine cells",
+    "paper_synonyms": null,
+    "tissue_context": "human gastric corpus epithelium; corpus glands"
+  },
+  {
+    "name": "gastric progenitor cells",
+    "full_name": "gastric progenitor cells",
+    "paper_synonyms": null,
+    "tissue_context": "isthmus of human gastric corpus; human gastric corpus epithelium"
+  },
+  {
+    "name": "endocrine cells",
+    "full_name": "endocrine cells",
+    "paper_synonyms": null,
+    "tissue_context": "human gastric corpus epithelium; corpus glands"
+  },
+  {
+    "name": "progenitor cells",
+    "full_name": "progenitor cells",
+    "paper_synonyms": null,
+    "tissue_context": "isthmus of human gastric corpus; human gastric corpus epithelium"
+  },
+  {
+    "name": "progenitor",
+    "full_name": "progenitor cells",
+    "paper_synonyms": null,
+    "tissue_context": "isthmus of human gastric corpus; human gastric corpus epithelium"
+  },
+  {
+    "name": "stem",
+    "full_name": "stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "isthmus of human gastric corpus; human gastric corpus epithelium"
+  },
+  {
+    "name": "stem/progenitor cells",
+    "full_name": "stem/progenitor cells",
+    "paper_synonyms": "progenitor cluster; cycling progenitor cluster",
+    "tissue_context": "isthmus of human gastric corpus; human gastric corpus epithelium"
+  }
+]

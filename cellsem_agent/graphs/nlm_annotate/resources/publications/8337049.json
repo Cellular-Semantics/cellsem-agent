@@ -1,0 +1,14 @@
+[
+  {
+    "name": "monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "primary alveolar macrophages; monocyte-derived macrophages"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "proximal colonic epithelial cells",
+    "full_name": "proximal colon epithelial cells",
+    "paper_synonyms": "proximal colon ECs; colonic ECs; ECs",
+    "tissue_context": "proximal colon"
+  },
+  {
+    "name": "colonic, c small intestinal epithelial cells",
+    "full_name": "colonic epithelial cells; small intestinal epithelial cells",
+    "paper_synonyms": "colonic ECs; small intestinal ECs; ECs",
+    "tissue_context": "colon; small intestine"
+  }
+]

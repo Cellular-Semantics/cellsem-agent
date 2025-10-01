@@ -1,0 +1,26 @@
+[
+  {
+    "name": "intermediate cells",
+    "full_name": "intermediate cells in the stria vascularis",
+    "paper_synonyms": "",
+    "tissue_context": "stria vascularis"
+  },
+  {
+    "name": "satellite cells",
+    "full_name": "satellite cells in the spiral ganglion",
+    "paper_synonyms": "",
+    "tissue_context": "spiral ganglion"
+  },
+  {
+    "name": "strial intermediate cells",
+    "full_name": "strial intermediate cells",
+    "paper_synonyms": "",
+    "tissue_context": "stria vascularis"
+  },
+  {
+    "name": "spiral ganglion neurons",
+    "full_name": "spiral ganglion neurons",
+    "paper_synonyms": "",
+    "tissue_context": "spiral ganglion"
+  }
+]

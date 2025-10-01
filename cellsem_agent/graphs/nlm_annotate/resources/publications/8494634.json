@@ -1,0 +1,20 @@
+[
+  {
+    "name": "progenitors",
+    "full_name": null,
+    "paper_synonyms": "neural progenitors; radial glial progenitors (RGs); intermediate progenitors (IPs); neurogenic precursor (NP)",
+    "tissue_context": "embryonic dorsal telencephalon; dorsal neuroepithelium; primary motor cortex (MOp, referred to as M1 in primates)"
+  },
+  {
+    "name": "glutamatergic pyramidal neuron",
+    "full_name": "glutamatergic pyramidal neuron",
+    "paper_synonyms": "pyramidal neuron; PyN",
+    "tissue_context": "primary motor cortex (MOp, referred to as M1 in primates)"
+  },
+  {
+    "name": "PyN",
+    "full_name": "glutamatergic pyramidal neuron",
+    "paper_synonyms": "pyramidal neuron",
+    "tissue_context": "primary motor cortex (MOp, referred to as M1 in primates)"
+  }
+]

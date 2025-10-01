@@ -1,0 +1,50 @@
+[
+  {
+    "name": "multipotent cells",
+    "full_name": "multipotent cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "mesenchymal cells",
+    "full_name": "mesenchymal cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "mesenchymal",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": "ECs",
+    "tissue_context": "endocardium"
+  },
+  {
+    "name": "ECs",
+    "full_name": "endothelial cells",
+    "paper_synonyms": "endothelial cells",
+    "tissue_context": "endocardium"
+  },
+  {
+    "name": "endothelial",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "intestinal epithelial cells"
+  },
+  {
+    "name": "epithelial",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

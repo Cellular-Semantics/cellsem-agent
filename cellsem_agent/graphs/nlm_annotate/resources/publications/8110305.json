@@ -1,0 +1,20 @@
+[
+  {
+    "name": "LCs",
+    "full_name": "Langerhans cells",
+    "paper_synonyms": "LC; bona fide LCs; epidermal LCs",
+    "tissue_context": "epidermis; dermis"
+  },
+  {
+    "name": "DC",
+    "full_name": "dendritic cell",
+    "paper_synonyms": "dendritic cells; DCs",
+    "tissue_context": "dermis; skin-draining lymph nodes (LNs)"
+  },
+  {
+    "name": "BM progenitors",
+    "full_name": "bone marrow progenitors",
+    "paper_synonyms": "BM-derived precursors; bone marrow-derived precursors; BM-derived cells",
+    "tissue_context": "bone marrow (BM)"
+  }
+]

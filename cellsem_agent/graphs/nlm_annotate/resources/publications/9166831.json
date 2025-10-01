@@ -1,0 +1,56 @@
+[
+  {
+    "name": "trophoblast",
+    "full_name": "trophoblast",
+    "paper_synonyms": null,
+    "tissue_context": "human placenta"
+  },
+  {
+    "name": "trophoblast giant cells",
+    "full_name": "trophoblast giant cells",
+    "paper_synonyms": "TGCs",
+    "tissue_context": "murine placenta; junctional zone; maternal decidua; maternal spiral arteries"
+  },
+  {
+    "name": "trophoblast stem cells",
+    "full_name": "trophoblast stem cells",
+    "paper_synonyms": "TSCs; mTSCs; hTSCs; iTSCs",
+    "tissue_context": "extraembryonic ectoderm (ExE); blastocyst; first-trimester placenta; cytotrophoblast (CTB) of the first-trimester placenta"
+  },
+  {
+    "name": "hTSCs",
+    "full_name": "human trophoblast stem cells",
+    "paper_synonyms": "hTSC",
+    "tissue_context": "blastocyst; cytotrophoblast (CTB) of the first-trimester placenta"
+  },
+  {
+    "name": "CTB",
+    "full_name": "cytotrophoblast",
+    "paper_synonyms": null,
+    "tissue_context": "anchoring villi; decidua; villous tree"
+  },
+  {
+    "name": "STB",
+    "full_name": "syncytiotrophoblast",
+    "paper_synonyms": null,
+    "tissue_context": "chorionic villi; maternal blood"
+  },
+  {
+    "name": "EVT",
+    "full_name": "extravillous trophoblast",
+    "paper_synonyms": null,
+    "tissue_context": "decidual stroma; maternal spiral arteries; anchoring villi"
+  },
+  {
+    "name": "embryonic stem cells",
+    "full_name": "embryonic stem cells",
+    "paper_synonyms": "ESCs",
+    "tissue_context": null
+  },
+  {
+    "name": "hESCs",
+    "full_name": "human embryonic stem cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

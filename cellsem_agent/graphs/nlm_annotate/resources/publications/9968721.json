@@ -1,0 +1,128 @@
+[
+  {
+    "name": "T/NK cells",
+    "full_name": "T/NK cells",
+    "paper_synonyms": null,
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "CD8+ T cell",
+    "full_name": "CD8+ T cell",
+    "paper_synonyms": null,
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "proliferating T cells",
+    "full_name": "proliferating T cells",
+    "paper_synonyms": null,
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "effector memory T cells",
+    "full_name": "effector memory T cells",
+    "paper_synonyms": "Tem cells",
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "Tem cells",
+    "full_name": "effector memory T cells",
+    "paper_synonyms": "effector memory T cells",
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "exhausted T cells",
+    "full_name": "exhausted T cells",
+    "paper_synonyms": "Tex cells",
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "Tex cells",
+    "full_name": "exhausted T cells",
+    "paper_synonyms": "exhausted T cells",
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "T cells",
+    "full_name": "T cells",
+    "paper_synonyms": null,
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "CD4+ T cell",
+    "full_name": "CD4+ T cell",
+    "paper_synonyms": null,
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "naive T cells",
+    "full_name": "naive T cells",
+    "paper_synonyms": "Tn cells",
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "Tn cells",
+    "full_name": "naive T cells",
+    "paper_synonyms": "naive T cells",
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "T helper cells",
+    "full_name": "T helper cells",
+    "paper_synonyms": "Th cells",
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "Th cells",
+    "full_name": "T helper cells",
+    "paper_synonyms": "T helper cells",
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "proliferating regulatory T cells",
+    "full_name": "proliferating regulatory T cells",
+    "paper_synonyms": "Treg cells",
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "Treg cells",
+    "full_name": "regulatory T cells",
+    "paper_synonyms": "regulatory T cells",
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "resting Treg cells",
+    "full_name": "resting Treg cells",
+    "paper_synonyms": null,
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "suppressive Treg cells",
+    "full_name": "suppressive Treg cells",
+    "paper_synonyms": null,
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "natural-killer T (NKT) cell",
+    "full_name": "natural-killer T cell",
+    "paper_synonyms": "NKT cell",
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "cytotoxic NKT cells",
+    "full_name": "cytotoxic NKT cells",
+    "paper_synonyms": null,
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "resting NKT cells",
+    "full_name": "resting NKT cells",
+    "paper_synonyms": null,
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "T cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "nasopharyngeal carcinoma (NPC)"
+  }
+]

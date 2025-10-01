@@ -1,0 +1,20 @@
+[
+  {
+    "name": "DG neuron",
+    "full_name": "dentate gyrus neuron",
+    "paper_synonyms": null,
+    "tissue_context": "dentate gyrus"
+  },
+  {
+    "name": "GCs",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "GC",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]
