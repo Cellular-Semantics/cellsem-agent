@@ -8,7 +8,7 @@ from pydantic_graph import BaseNode, End, Graph, GraphRunContext
 
 from cellsem_agent.agents.annotator.annotator_agent import annotator_agent
 from cellsem_agent.agents.paper_celltype.paper_celltype_agent import celltype_agent, CellTypeEntry
-from cellsem_agent.agents.paper_celltype.paper_celltype_tools import get_full_text, read_json
+from cellsem_agent.agents.annotator.annotator_agent import TextAnnotation
 from cellsem_agent.utils.pubmed_utils import get_pmcid_text
 
 from dataclasses import dataclass
@@ -92,7 +92,7 @@ class GetGroundings(BaseNode[State, None, str]):
             if os.path.exists(batch_cache_path):
                 print(f"Loading cached results for batch {batch_index}")
                 with open(batch_cache_path, "r") as f:
-                    batch_groundings = [CellTypeEntry(**entry) for entry in json.load(f)]
+                    batch_groundings = [TextAnnotation(**entry) for entry in json.load(f)]
             else:
                 print("Processing batch: ", i // batch_size + 1, " of ",
                       (len(annotations) + batch_size - 1) // batch_size)
