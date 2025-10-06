@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Gene Program Functional Analysis",
+  "description": "Comprehensive literature-based functional analysis of gene lists in specific biological contexts. Perform systematic analysis to identify gene programs - clusters of genes acting together in pathways, processes, or cellular states. For each program, predict functional implications for the specified cell type in the context of the provided disease and tissue environment. Prioritize well-established functions with strong literature support, but highlight emerging evidence if contextually relevant. Rank predictions higher when multiple genes from input list act in same process and when most/all required pathway components are present.",
   "type": "object",
   "required": ["context", "input_genes", "programs", "version"],
   "definitions": {
@@ -66,9 +67,18 @@
       "type": "object",
       "required": ["cell_type", "disease"],
       "properties": {
-        "cell_type": { "type": "string" },
-        "disease": { "type": "string" },
-        "tissue": { "type": "string" }
+        "cell_type": {
+          "type": "string",
+          "description": "Extract and specify the primary cell type from the provided biological context (e.g., 'astrocytes', 'neurons', 'microglia'). Use standard cell type terminology. Leave blank if not specified."
+        },
+        "disease": {
+          "type": "string",
+          "description": "Extract and specify the disease or pathological condition from the provided biological context (e.g., 'IDH-mutant astrocytoma', 'Alzheimer disease', 'multiple sclerosis'). Use standard disease terminology. Leave blank if not specified."
+        },
+        "tissue": {
+          "type": "string",
+          "description": "Extract and specify the tissue or anatomical location if mentioned in the biological context (e.g., 'brain', 'cerebral cortex', 'hippocampus'). Leave blank if not specified."
+        }
       },
       "additionalProperties": false
     },
@@ -95,10 +105,11 @@
           "supporting_gene_count"
         ],
         "properties": {
-          "program_name": { 
-            "type": "string", 
-            "minLength": 1 , 
-            "description": "Concise name of the gene program"},
+          "program_name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Provide a concise, descriptive name for this gene program that captures its primary biological function or pathway (e.g., 'Astrocyte Water Homeostasis', 'Synaptic Vesicle Recycling', 'ECM Remodeling'). Use 2-5 words maximum. Avoid programs that group 2 loosely related processes with 'and'."
+          },
           "theme": { "type": "string", "description": "Optional higher-order theme" },
           "description": { "type": "string", "minLength": 1 },
           "atomic_biological_processes": {

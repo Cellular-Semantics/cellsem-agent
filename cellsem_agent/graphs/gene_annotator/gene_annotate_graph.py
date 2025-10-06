@@ -180,20 +180,39 @@ class DeepSearchGene(BaseNode[State, None, str]):
 class ReadGeneData(BaseNode[State, None, str]):
 
     async def run(self, ctx: GraphRunContext[State]) -> DeepSearchGene:
-        # iterate the  json files in the examples folder and read them into the state
+        # iterate the json files in the examples folder and read them into the state
         for file in os.listdir(DATASETS_DIR):
             if file.endswith(".json"):
                 file_path = os.path.join(DATASETS_DIR, file)
                 with open(file_path, "r") as f:
                     data = json.load(f)
-                    gene_data = GeneData(
-                        cell_type="",
-                        genes=data["genes"],
-                        context=data.get("context", ""),
-                        description=data.get("description", ""),
-                        file_name=file
-                    )
-                    ctx.state.gene_data.append(gene_data)
+
+                    # Handle both old format (single example) and new format (multiple examples)
+                    if "examples" in data:
+                        # New format with multiple examples
+                        for i, example in enumerate(data["examples"]):
+                            gene_data = GeneData(
+                                cell_type="",
+                                genes=example["genes"],
+                                context=example.get("context", ""),
+                                description=example.get("description", ""),
+                                file_name=f"{file}_{example.get('id', i)}"
+                            )
+                            ctx.state.gene_data.append(gene_data)
+                            if ctx.state.is_test_mode:
+                                # run only one example in test mode
+                                break
+                    else:
+                        # Old format with single example
+                        gene_data = GeneData(
+                            cell_type="",
+                            genes=data["genes"],
+                            context=data.get("context", ""),
+                            description=data.get("description", ""),
+                            file_name=file
+                        )
+                        ctx.state.gene_data.append(gene_data)
+
                 if ctx.state.is_test_mode:
                     # run only one example in test mode
                     break

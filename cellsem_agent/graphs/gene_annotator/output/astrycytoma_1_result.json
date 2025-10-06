@@ -208,8 +208,7 @@
     ],
     "programs": [
         {
-            "program_name": "Astrocyte Homeostasis & Neurovascular Coupling",
-            "theme": "Homeostatic Support",
+            "program_name": "Astrocyte-vascular coupling",
             "description": "This program encompasses classic astrocytic functions that regulate the brain microenvironment, particularly water and ion balance at vascular and synaptic interfaces. Malignant astrocytoma cells expressing these genes retain an astrocyte-like capability for K+ buffering, water transport, and gap junction coupling, positioning themselves at blood vessels and around neurons. In the tumor context, this may help malignant cells modulate extracellular K+ and glutamate levels, sustain local blood flow (neurovascular coupling), and survive hypoxic stress by efficiently clearing excess ions and preserving osmotic balance. The program mirrors normal astrocyte roles in supporting neurons and vessels but in a dysregulated tumor setting, it could influence peritumoral edema, seizure propensity, and adaptation of tumor cells to metabolic demands.",
             "atomic_biological_processes": [
                 {
@@ -287,7 +286,7 @@
             "atomic_cellular_components": [
                 {
                     "name": "Perivascular astrocyte endfoot",
-                    "citation": [
+                    "citations": [
                         {
                             "reference": "Jukkola & Gu (2014) Autoimmun Rev.",
                             "id": "25462580",
@@ -378,18 +377,17 @@
         },
         {
             "program_name": "Mesenchymal Transformation & ECM Remodeling",
-            "theme": "Invasive Mesenchymal State",
             "description": "This program reflects a shift of tumor cells toward a reactive, mesenchymal-like phenotype with enhanced motility, stress response, and extracellular matrix (ECM) interaction. Genes in this cluster encode cell-surface receptors and signaling molecules (e.g., TLR4, CD44, integrin \u03b16, YAP1, PRRX1) that collectively promote an inflammatory and migratory state. Malignant astrocytes with this program secrete and remodel ECM components (e.g., SPARC-like 1, ADAMTS9, papilin, collagens) and upregulate cytoskeletal regulators (Rho GTPase regulators and actin-binding proteins) to acquire fibroblast-like morphology and invasive behavior. Functionally, this enables tumor cells to invade surrounding brain tissue (often along blood vessels via integrin \u03b16-laminin interactions), resist apoptosis, and communicate with immune cells through cytokine and Toll-like receptor pathways. It mirrors aspects of reactive astrogliosis and epithelial\u2013mesenchymal transition: cells become highly migratory, secrete matrix, and activate NF-\u03baB and YAP/TAZ signaling to sustain proliferation and survival in a hostile microenvironment.",
             "atomic_biological_processes": [
                 {
                     "name": "Extracellular matrix deposition and remodeling",
-                    "citation": [
+                    "citations": [
                         {
                             "reference": "Ferr\u00e1ndez et al. (2018) Sci Rep.",
                             "id": "29679017",
                             "type": "PMID",
                             "notes": "TLR4 activation in differentiating glioma cells triggers NF-\u03baB and upregulates genes like IL-6 and likely ECM modifiers, linking inflammatory signaling to a mesenchymal gene expression profile ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=extracellular%20signals%20and%20cellular%20mediators,Moreover%2C%20HA%20is)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=an%20important%20event%20in%20tumor,cells%20has%20been%20poorly%20studied))."
-                        }
+                        }, {}, {}, {}, {}
                     ],
                     "Genes": [
                         "SPARCL1",
@@ -518,7 +516,6 @@
             "predicted_cellular_impact": [
                 "Increased cell motility and brain parenchyma invasion along ECM-rich tracks (e.g., blood vessels)",
                 "Elevated secretion and reorganization of extracellular matrix components to form a supportive stroma",
-                "Chronic activation of inflammatory pathways (NF-\u03baB, cytokine production) promoting tumor cell survival and immune evasion",
                 "Acquisition of fibroblast-like morphology with enhanced contractility and mechanosensing"
             ],
             "evidence_summary": "Malignant astrocytes displaying this program adopt features akin to reactive astrocytes and mesenchymal glioma cells. TLR4 and CD44 are upregulated, enabling cells to respond to damage-associated matrix fragments (like hyaluronan) and activate NF-\u03baB signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=extracellular%20signals%20and%20cellular%20mediators,Moreover%2C%20HA%20is)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=which%20promoted%20further%20differentiation%20and,maintain%20their%20proliferative%20potential%20and)). This results in secretion of interleukins (e.g., IL-6) and other factors that sustain an inflammatory, proliferative loop and prevent terminal differentiation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=extracellular%20signals%20and%20cellular%20mediators,Moreover%2C%20HA%20is)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5910430/#:~:text=process%20of%20differentiation%2C%20GSCs%20upregulate,and%20consequently%20their%20tumorigenic%20capacity)). Concurrently, transcriptional regulators such as PRRX1 and YAP1 shift gene expression toward a mesenchymal program. YAP1, a mechanosensitive oncogene, is known to drive astrocyte proliferation after injury by overcoming cell-cycle arrest (via p27^Kip1) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7096134/#:~:text=astrocytic%20proliferation%2C%20impaired%20the%20formation,findings%20suggest%20that%20YAP%20promotes)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7096134/#:~:text=after%20SCI,p27%5E%7BKip1%7D%20pathway%20positively%20regulates%20astrocytic)). Here, YAP1 likely promotes growth and survival under the stiffer, fibrosis-like conditions created by tumor ECM. Integrin \u03b16 (ITGA6), highly expressed in this cluster, complexes with laminin in vascular basement membranes ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=Of%20particular%20interest%20to%20stem,importance%20of%20integrin%20%CE%B16%20in)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=the%20perivascular%20niche%20of%20GSCs,findings%20were%20confirmed%20in%20freshly)). This integrin-mediated adhesion anchors tumor cells in perivascular niches, enhancing their self-renewal and invasiveness ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=the%20perivascular%20niche%20of%20GSCs,findings%20were%20confirmed%20in%20freshly)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2884275/#:~:text=of%20tumor%20specimens%20with%20integrin,negative%7D%20populations)). Matrix remodeling enzymes and glycoproteins (ADAMTS9, SPON1, PAPLN, collagens) are co-expressed, indicating active restructuring of the tumor microenvironment to facilitate cell migration and create tracks of permissive ECM. Altogether, this gene program confers a motile, ECM-invasive phenotype with an inflammatory, stem-cell-supportive microenvironment characteristic of higher-grade progression in IDH-mutant astrocytomas.",
@@ -540,7 +537,7 @@
                     "id": "32066583",
                     "type": "PMID",
                     "notes": "Finds YAP activation in reactive astrocytes increases proliferation and scar formation, highlighting YAP's role in astrocyte plasticity under stress."
-                }
+                }, {}, {} , {}, {}, {}, {}, {}
             ],
             "confidence_score": 0.9,
             "significance_score": 0.9,
