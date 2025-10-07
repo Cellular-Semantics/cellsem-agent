@@ -38,6 +38,8 @@ IS_TEST_MODE = False
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATASETS_DIR = os.path.join(CURRENT_DIR, "../../", "services/gene_list_contextual_deepsearch/examples")
 OUTPUT_DIR = os.path.join(CURRENT_DIR, "output")
+OUTPUT_DS_DIR = os.path.join(OUTPUT_DIR, "deepsearch")
+OUTPUT_ANNOT_DIR = os.path.join(OUTPUT_DIR, "mappings")
 
 @dataclass
 class GeneData:
@@ -58,6 +60,8 @@ class State:
 class AnnotateData(BaseNode[State, None, str]):
 
     async def run(self, ctx: GraphRunContext[State]) -> End:
+        os.makedirs(OUTPUT_ANNOT_DIR, exist_ok=True)
+
         gene_data = ctx.state.gene_data
         for j in gene_data:
             output_file = os.path.join(OUTPUT_DIR, j.file_name.replace(".json", "_result.json"))
@@ -80,7 +84,8 @@ class AnnotateData(BaseNode[State, None, str]):
         return End("Results saved to the output folder.")
 
     async def save_all_mappings(self, all_mappings: list[Any], output_file: str):
-        mapping_file = output_file.replace(".json", ".csv")
+        file_name = os.path.basename(file_path).replace(".json", ".csv")
+        mapping_file = os.path.join(OUTPUT_ANNOT_DIR, file_name)
         df = pd.DataFrame(all_mappings)
         df.to_csv(mapping_file, index=False)
 
@@ -154,15 +159,16 @@ class DeepSearchGene(BaseNode[State, None, str]):
 
     async def run(self, ctx: GraphRunContext[State]) -> AnnotateData:
         gene_data = ctx.state.gene_data
-        os.makedirs(OUTPUT_DIR, exist_ok=True)
+        os.makedirs(OUTPUT_DS_DIR, exist_ok=True)
 
         for j in gene_data:
-            output_file = os.path.join(OUTPUT_DIR, j.file_name.replace(".json", "_ds.json"))
+            output_file = os.path.join(OUTPUT_DS_DIR, j.file_name.replace(".json", "_ds.json"))
             if not os.path.exists(output_file):
                 print("Deep searching for genes in file: ", j.file_name)
                 result = run_contextual_deepsearch(gene_list=','.join(j.genes), context=j.context)
                 if result:
                     print("Deep search result obtained for file: ", j.file_name)
+                    result = result.replace("```json", "").replace("```", "").strip()
                     rj = json.loads(result)
                     await write_json(rj, output_file)
                     j.deep_search_result = rj

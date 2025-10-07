@@ -1,0 +1,426 @@
+{
+  "context": {
+    "cell_type": "astrocytes",
+    "disease": "glioblastoma",
+    "tissue": "brain"
+  },
+  "input_genes": [
+    "LINC01727",
+    "AC117464.1",
+    "XYLT1",
+    "MMD2",
+    "EEPD1",
+    "AC013265.1",
+    "MYO5B",
+    "PLA2G4A",
+    "KCNIP1",
+    "ITGB4",
+    "AC019068.1",
+    "UNC5D",
+    "MIR3681HG",
+    "LINC02125",
+    "LINC02246",
+    "LRRC4C",
+    "LUCAT1",
+    "MDGA2",
+    "AC077690.1",
+    "CTXND1",
+    "AL353138.1",
+    "CDH18",
+    "MN1",
+    "AL356737.2",
+    "NKAIN3",
+    "CD44",
+    "NLRC5",
+    "LINC01776",
+    "LINC01117",
+    "DAB1",
+    "GFAP",
+    "DCHS2",
+    "DIPK1C",
+    "COL20A1",
+    "ELMOD1",
+    "ERICH3",
+    "ADAMTS5",
+    "GPC5",
+    "CHST8",
+    "AC233296.1",
+    "AC124254.2",
+    "NPR3",
+    "HRH1",
+    "INPP4B",
+    "AL159156.1",
+    "LINC02328",
+    "ARC",
+    "PDZRN4",
+    "AC007344.1",
+    "RGMA",
+    "PPARGC1A",
+    "TNR",
+    "ST8SIA5",
+    "ST8SIA1",
+    "SLC7A11"
+  ],
+  "programs": [
+    {
+      "program_name": "ECM Remodeling",
+      "description": "This gene program drives extensive remodeling of the extracellular matrix to facilitate glioblastoma invasion. Tumor cells upregulate ECM-degrading enzymes and matrix-modifying activities, while increasing expression of cell-matrix adhesion molecules. Key components include a secreted protease (ADAMTS5) that cleaves brain-specific proteoglycans, enzymes for glycosaminoglycan synthesis (XYLT1) and sulfation (CHST8) that alter matrix composition, and receptors like CD44 and integrin-β4 that anchor cells to matrix substrates. Collagens and neural ECM glycoproteins (e.g., tenascin-R) are also present or induced. Collectively, these genes enable glioblastoma cells to break down structural barriers and interact with a permissive matrix, enhancing cell motility through brain tissue. Established studies show that ADAMTS5 is highly expressed in GBM cells and promotes invasion by cleaving brevican in the brain ECM ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/16133547/#:~:text=glioblastoma%20tissues%20compared%20to%20control,through%20the%20cleavage%20of%20brevican)). CD44, a hyaluronan receptor, is enriched in invasive glioma stem-like cells and orchestrates signaling pathways that promote motility under hypoxic conditions ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10572085/#:~:text=High%20invasiveness%20is%20a%20characteristic,1%CE%B1%2C%20which%20then%20activates)). Upregulated ECM modifiers like XYLT1 can drive pro-invasive signaling (NF-κB activation) via aberrant proteoglycan glycosylation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39992715/#:~:text=In%20this%20study%2C%20we%20found,results%20illustrate%20that%20proteoglycan%20modification)). Integrin β4, a laminin-binding integrin, is likewise elevated in high-grade gliomas, correlating with poor prognosis and linking tumor cells to the surrounding matrix and stromal cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10764336/#:~:text=in%20comprehensive%20therapies%2C%20including%20radiotherapy%2C,that%20ITGB4%20is%20upregulated%20in)). Altogether this program endows glioblastoma cells with an aggressive, invasive phenotype by dynamically remodeling the tumor microenvironment’s structural matrix.",
+      "atomic_biological_processes": [
+        {
+          "ontology_id": "GO:0030198",
+          "name": "extracellular matrix organization",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Marino S. et al., Cancers, 2023",
+              "id": "PMID:36980765",
+              "type": "PMID",
+              "notes": "Reports that GBM tissues show altered extracellular matrix composition (e.g., increased collagens) which is linked to tumor invasiveness ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10046791/#:~:text=Normal%20brain%20tissue%20ECMs%20are,have%20shown%20that%20GBM%20cell))"
+            }
+          ],
+          "Genes": [
+            "XYLT1",
+            "CHST8",
+            "COL20A1",
+            "ADAMTS5",
+            "GPC5",
+            "TNR",
+            "CD44",
+            "ITGB4"
+          ]
+        },
+        {
+          "ontology_id": "GO:0016477",
+          "name": "cell migration",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Nakada M. et al., Acta Neuropathol, 2005",
+              "id": "DOI:10.1007/s00401-005-1032-6",
+              "type": "DOI",
+              "notes": "Shows that overexpression of ADAMTS-5 in glioblastoma cells enhances invasion (cell migration through brain matrix) by breaching proteoglycan barriers ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/16133547/#:~:text=transfectants,through%20the%20cleavage%20of%20brevican))"
+            }
+          ],
+          "Genes": [
+            "ADAMTS5",
+            "CD44",
+            "ITGB4",
+            "ELMOD1"
+          ]
+        }
+      ],
+      "atomic_cellular_components": [
+        {
+          "ontology_id": "GO:0031012",
+          "name": "extracellular matrix",
+          "ontology_label": "cellular_component",
+          "citation": [
+            {
+              "reference": "Marino S. et al., Cancers, 2023",
+              "id": "PMID:36980765",
+              "type": "PMID",
+              "notes": "Highlights that GBM cells reside in a highly altered extracellular matrix environment rich in hyaluronan and collagens, which interact with tumor cell surface receptors like CD44 to influence proliferation and migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10046791/#:~:text=Hyaluronan%20is%20a%20linear%20and,growth%2C%20cellular%20proliferation%2C%20and%20cellular)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10046791/#:~:text=Normal%20brain%20tissue%20ECMs%20are,have%20shown%20that%20GBM%20cell))"
+            }
+          ],
+          "Genes": [
+            "COL20A1",
+            "TNR",
+            "GPC5",
+            "ADAMTS5",
+            "CD44",
+            "ITGB4"
+          ]
+        }
+      ],
+      "predicted_cellular_impact": [
+        "Enhanced extracellular matrix degradation and remodeling to facilitate tumor cell invasion",
+        "Increased cell-matrix adhesion and motility through upregulated integrin and CD44 signaling"
+      ],
+      "evidence_summary": "Multiple genes in this program function cooperatively to remodel the brain extracellular matrix and promote invasive growth of glioblastoma cells. For example, the metalloprotease ADAMTS5 is significantly overexpressed in GBM and cleaves the neural proteoglycan brevican, thereby loosening matrix constraints and stimulating tumor cell invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/16133547/#:~:text=glioblastoma%20tissues%20compared%20to%20control,through%20the%20cleavage%20of%20brevican)). Concurrently, the hyaluronan receptor CD44 is highly expressed on invasive glioma stem-like cells, linking to pathways that drive cell migration especially under hypoxic stress ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10572085/#:~:text=High%20invasiveness%20is%20a%20characteristic,1%CE%B1%2C%20which%20then%20activates)). Glycosyltransferases such as XYLT1, which initiates proteoglycan GAG chain synthesis, are upregulated and have been implicated in cancer metastasis via NF-κB activation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39992715/#:~:text=In%20this%20study%2C%20we%20found,results%20illustrate%20that%20proteoglycan%20modification)), suggesting aberrant matrix proteoglycan production can feed back to tumor signaling. Adhesion receptors like integrin β4, a laminin-binding integrin, are also elevated in gliomas; its increased expression correlates with tumor progression and an immunosuppressive microenvironment ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10764336/#:~:text=in%20comprehensive%20therapies%2C%20including%20radiotherapy%2C,that%20ITGB4%20is%20upregulated%20in)). These coordinated alterations enable tumor cells to dynamically alter and engage the surrounding stroma, fostering greater invasiveness.",
+      "citations": [
+        {
+          "reference": "Nakada M. et al., Acta Neuropathol, 2005",
+          "id": "DOI:10.1007/s00401-005-1032-6",
+          "type": "DOI",
+          "notes": "First identification of ADAMTS-5 overexpression in glioblastoma, demonstrating that ADAMTS-5 in GBM cells cleaves the ECM proteoglycan brevican and significantly increases tumor invasiveness ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/16133547/#:~:text=glioblastoma%20tissues%20compared%20to%20control,through%20the%20cleavage%20of%20brevican))"
+        },
+        {
+          "reference": "Inoue A. et al., Cancers, 2023",
+          "id": "DOI:10.3390/cancers15194898",
+          "type": "DOI",
+          "notes": "Comprehensive review on CD44 in GBM, noting that CD44-high glioma stem cells are highly invasive and that CD44 signaling promotes tumor cell migration and proliferation, especially under hypoxic conditions ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10572085/#:~:text=High%20invasiveness%20is%20a%20characteristic,1%CE%B1%2C%20which%20then%20activates))"
+        },
+        {
+          "reference": "Han J. et al., Cancer Res, 2025",
+          "id": "PMID:39992715",
+          "type": "PMID",
+          "notes": "Reports that XYLT1, an enzyme initiating glycosaminoglycan biosynthesis, is upregulated in metastatic tumors and activates NF-κB signaling, thereby promoting cancer cell survival and metastasis ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39992715/#:~:text=In%20this%20study%2C%20we%20found,results%20illustrate%20that%20proteoglycan%20modification)) (demonstrating the pro-invasive impact of ECM glycan modifications)"
+        },
+        {
+          "reference": "Chen P. et al., Sci Rep, 2024",
+          "id": "DOI:10.1038/s41598-023-49801-y",
+          "type": "DOI",
+          "notes": "Shows that ITGB4 (integrin β4) is upregulated in diffuse gliomas and associated with poorer prognosis and an immune-interactive tumor microenvironment ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10764336/#:~:text=in%20comprehensive%20therapies%2C%20including%20radiotherapy%2C,that%20ITGB4%20is%20upregulated%20in)), suggesting that increased integrin-mediated matrix attachment contributes to glioma aggressiveness"
+        }
+      ],
+      "confidence_score": 0.9,
+      "significance_score": 0.95,
+      "supporting_genes": [
+        "LINC01727",
+        "AC117464.1",
+        "XYLT1",
+        "ITGB4",
+        "CD44",
+        "COL20A1",
+        "ELMOD1",
+        "ADAMTS5",
+        "GPC5",
+        "CHST8",
+        "TNR",
+        "MYO5B",
+        "AC233296.1",
+        "AC124254.2"
+      ],
+      "supporting_gene_count": 14,
+      "required_components_present": true
+    },
+    {
+      "program_name": "Neural Connectivity",
+      "description": "This program reflects the aberrant activation of neurodevelopmental and synaptic pathways in malignant glioblastoma cells. It includes multiple cell adhesion and guidance molecules normally involved in neuronal circuit formation, suggesting that tumor cells may mimic neuron-like interactions. Key genes encode axon guidance receptors and ligands (UNC5D, RGMA) that are typically active in directing neural cell migration and wiring, as well as synaptic adhesion molecules (MDGA2) and ion channel regulators (KCNIP1) associated with neuronal excitability. The presence of these genes indicates that glioblastoma cells can engage in neuron-like signaling and network integration. Indeed, recent studies have shown that glioma cells form functional synaptic connections with neurons, allowing direct neuron-to-tumor excitation that drives tumor growth and invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=The%20recent%20discovery%20of%20synaptic,cycle%20of%20enhanced%20neuronal%20activity)). Genes such as UNC5D (a netrin receptor) and RGMA (a repulsive guidance cue) hint that glioma cells exploit axon guidance pathways to infiltrate along neural tracts or establish tumor microtube networks reminiscent of axons ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=which%20is%20supported%20by%20ample,it%20has%20been%20shown%20that)). Similarly, the synaptic adhesion factor MDGA2, which modulates formation of excitatory synapses in normal brain, may contribute to atypical synapse-like contacts between tumor cells or with neurons. The immediate-early gene ARC, typically induced by neuronal activity, is also present, suggesting that some glioblastoma cells undergo activity-dependent gene expression changes analogous to neurons. Collectively, this neural connectivity program implies that a subset of glioblastoma cells adopts neuron-mimicking behaviors to integrate into neural circuits and promote tumor progression.",
+      "atomic_biological_processes": [
+        {
+          "ontology_id": "GO:0007411",
+          "name": "axon guidance",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Venkataramani V. et al., Neuro Oncol, 2020",
+              "id": "DOI:10.1093/neuonc/noaa158",
+              "type": "DOI",
+              "notes": "Describes that glioma cells exploit neurodevelopmental pathways and extend tumor microtubes analogous to axons and dendrites, enabling brain invasion and intercellular network formation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=which%20is%20supported%20by%20ample,it%20has%20been%20shown%20that))"
+            }
+          ],
+          "Genes": [
+            "UNC5D",
+            "RGMA",
+            "DAB1",
+            "DCHS2"
+          ]
+        },
+        {
+          "ontology_id": "GO:0050808",
+          "name": "synapse assembly",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Venkatesh H.S. et al., Nature, 2019",
+              "id": "DOI:10.1038/s41586-019-1563-y",
+              "type": "DOI",
+              "notes": "Demonstrated that active neurons form bona fide synapses onto glioma cells, with glutamatergic transmission to the tumor; this direct synaptic input into glioma validates that tumor cells can participate in synaptic networks ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=The%20recent%20discovery%20of%20synaptic,cycle%20of%20enhanced%20neuronal%20activity))"
+            }
+          ],
+          "Genes": [
+            "MDGA2",
+            "ARC",
+            "KCNIP1",
+            "LRRC4C"
+          ]
+        }
+      ],
+      "atomic_cellular_components": [
+        {
+          "ontology_id": "GO:0045202",
+          "name": "synapse",
+          "ontology_label": "cellular_component",
+          "citation": [
+            {
+              "reference": "Venkatesh H.S. et al., Nature, 2019",
+              "id": "DOI:10.1038/s41586-019-1563-y",
+              "type": "DOI",
+              "notes": "Provided the first evidence that glioma cells form functional post-synaptic structures receiving input from presynaptic neurons, indicating that glioblastoma cells can reside at synaptic junctions and be electrically integrated into neural circuits ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=The%20recent%20discovery%20of%20synaptic,cycle%20of%20enhanced%20neuronal%20activity))"
+            }
+          ],
+          "Genes": [
+            "MDGA2",
+            "ARC",
+            "ERICH3",
+            "KCNIP1"
+          ]
+        }
+      ],
+      "predicted_cellular_impact": [
+        "Formation of pseudo-synaptic contacts between tumor cells and neurons, fueling tumor growth",
+        "Guided invasion of glioma cells along neural pathways via reactivation of axon guidance mechanisms"
+      ],
+      "evidence_summary": "Several genes in this program indicate that glioblastoma cells can co-opt neuronal communication pathways. For instance, UNC5D (a netrin receptor) and RGMA (a guidance cue) are usually involved in axonal pathfinding and neuronal positioning; their expression in tumor cells suggests the use of developmental guidance cues to navigate the brain parenchyma. This aligns with recent observations that glioma cells extend long tumour microtubes similar to neurites to infiltrate the brain and interconnect with each other ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=which%20is%20supported%20by%20ample,it%20has%20been%20shown%20that)). Additionally, the presence of synapse-associated molecules like MDGA2 and ARC implies that tumor cells may engage in synaptic-like interactions. In fact, neuron-to-glioma synapses have been demonstrated, wherein glutamatergic signals from neurons directly stimulate glioma cell firing and proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=The%20recent%20discovery%20of%20synaptic,cycle%20of%20enhanced%20neuronal%20activity)). Such direct integration into neural circuits represents a 'hijacking' of synaptic transmission by the tumor. Overall, the evidence supports that this gene program confers a pseudo-neuronal phenotype, enabling glioblastoma cells to receive neurotrophic signals and possibly enhancing their invasive growth and therapy resistance in the brain’s neural network.",
+      "citations": [
+        {
+          "reference": "Venkataramani V. et al., Neuro Oncol, 2020",
+          "id": "DOI:10.1093/neuonc/noaa158",
+          "type": "DOI",
+          "notes": "Reviews the concept of neuron-glioma synaptic communication, summarizing that glioma cells form functional glutamatergic synapses and tumor microtube networks which promote tumor progression and invasion in the brain ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=The%20recent%20discovery%20of%20synaptic,cycle%20of%20enhanced%20neuronal%20activity)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=which%20is%20supported%20by%20ample,it%20has%20been%20shown%20that))"
+        },
+        {
+          "reference": "Venkatesh H.S. et al., Nature, 2019",
+          "id": "DOI:10.1038/s41586-019-1563-y",
+          "type": "DOI",
+          "notes": "Landmark study that first demonstrated electrical and synaptic integration of glioblastoma into neural circuits, showing that active neurons directly stimulate glioma cells via AMPA-receptor-mediated synapses to drive tumor growth"
+        }
+      ],
+      "confidence_score": 0.8,
+      "significance_score": 0.85,
+      "supporting_genes": [
+        "KCNIP1",
+        "AC019068.1",
+        "UNC5D",
+        "MIR3681HG",
+        "LINC02125",
+        "LINC02246",
+        "LRRC4C",
+        "MDGA2",
+        "AC077690.1",
+        "CTXND1",
+        "AL353138.1",
+        "CDH18",
+        "MN1",
+        "AL356737.2",
+        "NKAIN3",
+        "DAB1",
+        "DCHS2",
+        "DIPK1C",
+        "ERICH3",
+        "ARC",
+        "PDZRN4",
+        "AC007344.1",
+        "RGMA",
+        "ST8SIA5",
+        "ST8SIA1"
+      ],
+      "supporting_gene_count": 25,
+      "required_components_present": false
+    },
+    {
+      "program_name": "Hypoxic Response",
+      "description": "This gene program encompasses cellular adaptations to the hypoxic and stressful microenvironment of glioblastoma, including mechanisms for metabolic reprogramming, oxidative stress resistance, and immune evasion. Many genes here are induced or activated under low oxygen or nutrient conditions and collectively promote tumor cell survival and aggressiveness. For example, LUCAT1 is a long non-coding RNA strongly upregulated by HIF-1α in hypoxic glioma stem cells, where it forms complexes that enhance HIF-1 target gene activation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11300024/#:~:text=A%20new%20isoform%20of%20Lucat1,Depletion%20of%20LUCAT1%20impaired%20GSC)). This supports tumor adaptation to oxygen deprivation by sustaining stemness and growth even in poorly vascularized regions. Similarly, SLC7A11 (xCT) is a cystine transporter that elevates glutathione synthesis, protecting cells from oxidative damage and ferroptosis; its overexpression in glioblastoma is known to confer resistance to chemotherapy and oxidative stress by boosting antioxidant defenses ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27658422/#:~:text=resistance%20to%20oxidative%20stress%20and,and%20resistance%20to%20standard%20chemotherapy)). This program also includes factors influencing metabolism and ROS homeostasis, such as PPARGC1A (PGC-1α), a master regulator of mitochondrial biogenesis and oxidative metabolism whose high expression in glioblastoma is linked to increased energy production and poorer patient prognosis ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30578297/#:~:text=involved%20in%20tumor%20growth%20and,1%CE%B1%20displayed%20ROS)). Concurrently, genes associated with immune evasion are present: NLRC5, a transcriptional activator of MHC class I, is targeted for downregulation by cancers to avoid immune detection ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4889388/#:~:text=Tumor%20antigen%20presentation%20to%20CD8,cell%20activation)), and the H1 histamine receptor (HRH1), which in glioblastoma can drive immunosuppressive effects in the tumor microenvironment (high HRH1 correlates with T-cell dysfunction and worse survival ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11770814/#:~:text=Histamine%2C%20a%20key%20mediator%20of,open%20up%20a%20new%20avenue))). The astrocytic marker GFAP is also included, reflecting a reactive, stress-responsive glial state. Altogether, this program equips glioblastoma cells to withstand hypoxic and oxidative stress while modulating the immune environment to their advantage, leading to more aggressive, treatment-resistant tumor behavior.",
+      "atomic_biological_processes": [
+        {
+          "ontology_id": "GO:0001666",
+          "name": "response to hypoxia",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Huang H. et al., Neuro Oncol, 2024",
+              "id": "DOI:10.1093/neuonc/noae036",
+              "type": "DOI",
+              "notes": "Identifies LUCAT1 as a hypoxia-inducible lncRNA in glioblastoma; under low oxygen, HIF-1α induces LUCAT1, which then enhances expression of hypoxia-responsive genes, promoting GSC survival in hypoxia ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11300024/#:~:text=A%20new%20isoform%20of%20Lucat1,Depletion%20of%20LUCAT1%20impaired%20GSC))"
+            }
+          ],
+          "Genes": [
+            "LUCAT1",
+            "EEPD1",
+            "PLA2G4A",
+            "GFAP"
+          ]
+        },
+        {
+          "ontology_id": "GO:0050777",
+          "name": "negative regulation of immune response",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Yoshihama S. et al., PNAS, 2016",
+              "id": "DOI:10.1073/pnas.1602069113",
+              "type": "DOI",
+              "notes": "Shows that loss or epigenetic silencing of NLRC5 in cancers leads to reduced MHC-I expression and impaired CD8+ T cell activation, illustrating a mechanism by which tumors like GBM can evade immune surveillance ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4889388/#:~:text=Tumor%20antigen%20presentation%20to%20CD8,cell%20activation))"
+            }
+          ],
+          "Genes": [
+            "NLRC5",
+            "HRH1",
+            "INPP4B"
+          ]
+        }
+      ],
+      "atomic_cellular_components": [
+        {
+          "ontology_id": "GO:0005739",
+          "name": "mitochondrion",
+          "ontology_label": "cellular_component",
+          "citation": [
+            {
+              "reference": "Bruns P. et al., Int J Cancer, 2019",
+              "id": "PMID:30578297",
+              "type": "PMID",
+              "notes": "Demonstrates that PGC-1α drives mitochondrial biogenesis and metabolic flexibility in glioblastoma; knockdown of PGC-1α in GBM cells reduces mitochondrial function and increases ROS, impairing proliferation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30578297/#:~:text=involved%20in%20tumor%20growth%20and,1%CE%B1%20displayed%20ROS))"
+            }
+          ],
+          "Genes": [
+            "PPARGC1A"
+          ]
+        }
+      ],
+      "predicted_cellular_impact": [
+        "Elevated resistance to oxidative stress and therapy-induced damage (through enhanced glutathione production and DNA repair)",
+        "Adaptation to hypoxic tumor niches, sustaining tumor cell survival and stemness under low oxygen",
+        "Immune evasion via reduced antigen presentation and immunosuppressive signaling in the microenvironment"
+      ],
+      "evidence_summary": "This program provides glioblastoma cells with a multifaceted survival advantage in hostile tumor microenvironments. Under hypoxic conditions, HIF-1α induction of LUCAT1 helps glioma stem-like cells maintain their self-renewal and tumorigenicity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11300024/#:~:text=A%20new%20isoform%20of%20Lucat1,Depletion%20of%20LUCAT1%20impaired%20GSC)). At the same time, upregulation of SLC7A11 (xCT) supports an altered metabolic state with heightened glutathione-based antioxidant capacity, thereby reducing ROS accumulation and conferring resistance to chemotherapeutics like temozolomide ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27658422/#:~:text=resistance%20to%20oxidative%20stress%20and,and%20resistance%20to%20standard%20chemotherapy)). PGC-1α, a metabolic coactivator, is expressed in a subset of glioblastomas and has been linked to increased mitochondrial oxidative phosphorylation; its suppression leads to ROS buildup and slower tumor growth, indicating that PGC-1α activity makes tumors more aggressive and therapy-resistant ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30578297/#:~:text=involved%20in%20tumor%20growth%20and,1%CE%B1%20displayed%20ROS)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30578297/#:~:text=PGC,glioblastoma%20therapies)). Moreover, this program subverts immune surveillance: NLRC5 downregulation is a known mechanism for glioblastoma to diminish MHC I antigen presentation, aiding in escape from cytotoxic T-cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4889388/#:~:text=Tumor%20antigen%20presentation%20to%20CD8,cell%20activation)). Additionally, high histamine signaling via H1 receptors in GBM has been associated with local immunosuppression (e.g., T cell dysfunction) and poorer patient outcomes ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11770814/#:~:text=Histamine%2C%20a%20key%20mediator%20of,open%20up%20a%20new%20avenue)). In summary, the genes in this program collectively allow GBM cells to thrive in low-oxygen, oxidative, and immunologically active conditions, promoting tumor persistence and progression despite therapy.",
+      "citations": [
+        {
+          "reference": "Huang H. et al., Neuro Oncol, 2024",
+          "id": "DOI:10.1093/neuonc/noae036",
+          "type": "DOI",
+          "notes": "Shows that LUCAT1 is induced by HIF-1α and NRF2 in hypoxic glioblastoma stem cells and that LUCAT1 supports hypoxia adaptation; knocking down LUCAT1 impaired GSC self-renewal and slowed tumor growth in vivo ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11300024/#:~:text=A%20new%20isoform%20of%20Lucat1,Depletion%20of%20LUCAT1%20impaired%20GSC)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11300024/#:~:text=gene%20expression%20and%20GSC%20adaptation,survival%20in%20GBM%20xenograft%20models))"
+        },
+        {
+          "reference": "Polewski M.D. et al., Mol Cancer Res, 2016",
+          "id": "DOI:10.1158/1541-7786.MCR-16-0028",
+          "type": "DOI",
+          "notes": "Demonstrates that increased SLC7A11 expression in GBM elevates glutathione levels and oxidative stress tolerance. SLC7A11 overexpression led to reduced ROS and enhanced resistance to oxidative damage and temozolomide, linking this transporter to therapy resistance in glioma ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27658422/#:~:text=resistance%20to%20oxidative%20stress%20and,and%20resistance%20to%20standard%20chemotherapy))"
+        },
+        {
+          "reference": "Yoshihama S. et al., PNAS, 2016",
+          "id": "DOI:10.1073/pnas.1602069113",
+          "type": "DOI",
+          "notes": "Identifies NLRC5 as a major target of cancer immune evasion. The study found that many tumors, including gliomas, exhibit genetic or epigenetic suppression of NLRC5, resulting in reduced MHC-I expression and impaired CD8+ T cell activation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4889388/#:~:text=Tumor%20antigen%20presentation%20to%20CD8,cell%20activation))"
+        },
+        {
+          "reference": "Bruns P. et al., Int J Cancer, 2019",
+          "id": "PMID:30578297",
+          "type": "PMID",
+          "notes": "Reports that PGC-1α upregulation in glioblastoma enhances mitochondrial biogenesis and metabolic capacity. High PGC-1α expression was associated with worse survival, while its knockdown increased ROS and reduced proliferation and invasiveness of GBM cells, indicating PGC-1α drives a more aggressive, oxidative stress-resistant phenotype ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30578297/#:~:text=involved%20in%20tumor%20growth%20and,1%CE%B1%20displayed%20ROS)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30578297/#:~:text=PGC,glioblastoma%20therapies))"
+        }
+      ],
+      "confidence_score": 0.9,
+      "significance_score": 0.9,
+      "supporting_genes": [
+        "MMD2",
+        "EEPD1",
+        "AC013265.1",
+        "PLA2G4A",
+        "LUCAT1",
+        "NLRC5",
+        "LINC01776",
+        "LINC01117",
+        "GFAP",
+        "NPR3",
+        "HRH1",
+        "INPP4B",
+        "AL159156.1",
+        "LINC02328",
+        "PPARGC1A",
+        "SLC7A11"
+      ],
+      "supporting_gene_count": 16,
+      "required_components_present": true
+    }
+  ],
+  "method": {
+    "clustering_basis": [
+      "literature-curated pathway grouping",
+      "co-expression in glioblastoma datasets"
+    ],
+    "notes": "Genes were grouped into programs based on shared functional themes (ECM remodeling, neural-lineage signaling, hypoxia/immune adaptation) supported by co-citation patterns and known pathway interactions relevant to glioblastoma."
+  },
+  "version": "1.0"
+}

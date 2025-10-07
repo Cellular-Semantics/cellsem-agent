@@ -6,7 +6,7 @@ import httpx
 from openai import OpenAI
 from openai._exceptions import APIError, RateLimitError, APIStatusError
 
-DEEP_RESEARCH_MODEL = "o4-mini-deep-research-2025-06-26"  # or o3-deep-research-2025-06-26
+DEEP_RESEARCH_MODEL =  "o3-deep-research-2025-06-26"      # or "o4-mini-deep-research-2025-06-26"
 
 @dataclass
 class DeepResearchResult:

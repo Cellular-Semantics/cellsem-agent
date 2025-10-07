@@ -1,0 +1,10 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+extracellular matrix organization,GO:0030198,extracellular matrix organization,GO,1.0,exact_match
+cell migration,GO:0016477,cell migration,GO,1.0,exact_match
+extracellular matrix,GO:0031012,extracellular matrix,GO,1.0,exact_match
+axon guidance,GO:0007411,axon guidance,GO,1.0,exact_match
+synapse assembly,GO:0007416,synapse assembly,GO,1.0,exact_match
+synapse,GO:0045202,synapse,GO,1.0,exact_match
+response to hypoxia,GO:0001666,response to hypoxia,GO,1.0,exact_match
+negative regulation of immune response,GO:0050777,negative regulation of immune response,GO,1.0,exact_match
+mitochondrion,GO:0005739,mitochondrion,GO,1.0,exact_match

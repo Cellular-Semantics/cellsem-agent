@@ -145,7 +145,8 @@ class TextAnnotationResult(BaseModel):
 
 
 annotator_agent = Agent(
-    model="openai:gpt-4o-2024-11-20",
+    model="openai:gpt-5",
+    # model="openai:gpt-4o-2024-11-20",
     deps_type=AnnotatorDependencies,
     result_type=TextAnnotationResult,
     system_prompt=ANNOTATOR_SYSTEM_PROMPT,
