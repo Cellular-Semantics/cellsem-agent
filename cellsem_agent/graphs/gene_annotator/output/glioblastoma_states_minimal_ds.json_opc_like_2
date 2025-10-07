@@ -1,0 +1,511 @@
+{
+    "context": {
+        "cell_type": "glioblastoma cells",
+        "disease": "glioblastoma",
+        "tissue": "brain"
+    },
+    "input_genes": [
+        "PPP1R16B",
+        "BCAS1",
+        "AC008080.4",
+        "MOG",
+        "GLRA3",
+        "ENPP6",
+        "ADAM33",
+        "GPC3",
+        "CLDN11",
+        "PLD1",
+        "SEMA4D",
+        "MYRF",
+        "MBP",
+        "GPR17",
+        "KCNS3",
+        "TNS3",
+        "RASGEF1B",
+        "AC069209.2",
+        "ADRA1A",
+        "CD22",
+        "FA2H",
+        "CDK18",
+        "ST18",
+        "FERMT1",
+        "NOS1",
+        "TMEM235",
+        "AC110285.1",
+        "ACAN",
+        "MAG",
+        "PRICKLE1",
+        "AL512308.1",
+        "FAM83D",
+        "BMP2",
+        "BMPER",
+        "COL18A1",
+        "LINC01447",
+        "P2RX7",
+        "ZNF536",
+        "ATP6V0A4",
+        "AMPD3"
+    ],
+    "programs": [
+        {
+            "program_name": "Oligodendrocyte Myelination",
+            "description": "This program comprises canonical oligodendrocyte and myelin genes.  MOG, MBP, MAG, CLDN11, FA2H, ENPP6 and BCAS1 are all known myelin/oligodendrocyte markers, often co-expressed in oligodendrocyte precursor cell (OPC) differentiation. MYRF and GPR17 are oligodendrocyte lineage regulators (GPR17 as a myelination timer ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2783566/#:~:text=intrinsic%20timer%20of%20myelination%20,intrinsic%20timer%20of)), MYRF a master TF).  In normal brain these drive myelin sheath assembly.  In GBM, expression suggests a proneural/OPC-like differentiation state ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3100315/#:~:text=match%20at%20L126%20tumors%20closely,genes%20that%20are%20differentially%20expressed)).",
+            "atomic_biological_processes": [
+                {
+                    "name": "myelination",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Chen Y et al. GPR17 is a cell-intrinsic timer of myelination. Nat Neurosci. 2009.",
+                            "id": "19838178",
+                            "type": "PMID",
+                            "notes": "GPR17 is oligodendrocyte-specific and controls timing of CNS myelination ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2783566/#:~:text=intrinsic%20timer%20of%20myelination%20,intrinsic%20timer%20of))"
+                        }
+                    ],
+                    "Genes": [
+                        "GPR17",
+                        "MOG",
+                        "MBP",
+                        "MAG",
+                        "CLDN11",
+                        "FA2H",
+                        "ENPP6",
+                        "BCAS1"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "myelin sheath",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Fulton D et al. Multiple roles of myelin protein genes in oligodendrocyte development. ASN Neuro. 2010.",
+                            "id": "20017732",
+                            "type": "PMID",
+                            "notes": "MBP and MAG localize to myelin sheaths and are critical for compact myelin structure ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2814326/#:~:text=MBP%20are%20distributed%20within%20the,interactions%20between%20myelin%20and%20axonal))"
+                        }
+                    ],
+                    "Genes": [
+                        "MOG",
+                        "MBP",
+                        "MAG",
+                        "CLDN11",
+                        "FA2H"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Adoption of oligodendrocyte-like differentiation signature",
+                "Ectopic myelin protein expression in tumor cells",
+                "Altered cell-cell/axon interactions via myelin components"
+            ],
+            "evidence_summary": "MOG, MBP, MAG, CLDN11, ENPP6, FA2H and BCAS1 are classic oligodendrocyte/myelin proteins highly expressed during myelination.  GPR17 is an oligodendrocyte-specific GPCR that times myelination ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2783566/#:~:text=intrinsic%20timer%20of%20myelination%20,intrinsic%20timer%20of)).  MYRF is a master regulator of oligodendrocyte differentiation.  Together these indicate activation of an oligodendrocyte/myelination program.  Such signatures are known in the proneural GBM subtype, reflecting an OPC-like state ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3100315/#:~:text=match%20at%20L126%20tumors%20closely,genes%20that%20are%20differentially%20expressed)).  Thus, tumor cells may aberrantly activate myelin gene expression (influencing membrane properties or cell interactions).",
+            "citations": [
+                {
+                    "reference": "Chen Y et al. The oligodendrocyte-specific G-protein coupled receptor GPR17 is a cell-intrinsic timer of myelination. Nat Neurosci. 2009.",
+                    "id": "19838178",
+                    "type": "PMID",
+                    "notes": "Supports GPR17 in oligodendrocyte myelination ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2783566/#:~:text=intrinsic%20timer%20of%20myelination%20,intrinsic%20timer%20of))"
+                },
+                {
+                    "reference": "Fulton D et al. Multiple roles of myelin protein genes in oligodendrocyte development. ASN Neuro. 2010.",
+                    "id": "20017732",
+                    "type": "PMID",
+                    "notes": "Describes MBP, MAG, etc. in myelin sheaths ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2814326/#:~:text=MBP%20are%20distributed%20within%20the,interactions%20between%20myelin%20and%20axonal))"
+                },
+                {
+                    "reference": "Lei L et al. GBM proneural subtype enriched for OPC gene expression. PLoS One. 2011.",
+                    "id": "21532771",
+                    "type": "PMID",
+                    "notes": "Proneural glioblastomas show enrichment of oligodendrocyte/OPC gene signatures ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3100315/#:~:text=match%20at%20L126%20tumors%20closely,genes%20that%20are%20differentially%20expressed))"
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "GPR17",
+                "MOG",
+                "MBP",
+                "MAG",
+                "CLDN11",
+                "FA2H",
+                "ENPP6",
+                "BCAS1",
+                "MYRF"
+            ],
+            "supporting_gene_count": 9,
+            "required_components_present": true
+        },
+        {
+            "program_name": "ECM Remodeling and Cell Adhesion",
+            "description": "This cluster involves extracellular matrix (ECM) proteins and proteases.  ADAM33 (a disintegrin metalloprotease) and SEMA4D (semaphorin ligand) mediate matrix remodeling and angiogenic signaling.  COL18A1 encodes collagen XVIII from which endostatin (an anti-angiogenic fragment) is derived ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1871889/#:~:text=Endostatin%20was%20originally%20reported%20to,The%20receptor%20or)).  GPC3 and ACAN are secreted proteoglycans, FERMT1 and TNS3 link integrins/focal adhesions.  This program suggests altered matrix composition and cell adhesion properties.  In glioblastoma, such changes can promote invasive migration and modulate angiogenesis.",
+            "atomic_biological_processes": [
+                {
+                    "name": "extracellular matrix organization",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Mochizuki S, Okada Y. ADAMs in cancer proliferation and progression. Cancer Sci. 2007.",
+                            "id": "17355265",
+                            "type": "PMID",
+                            "notes": "ADAM proteases remodel the ECM and promote cancer cell invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11160018/#:~:text=reports%20suggest%20that%20ADAM8%20is,tumor%20cell%20migration%20and%20invasion))"
+                        }
+                    ],
+                    "Genes": [
+                        "ADAM33",
+                        "COL18A1",
+                        "GPC3",
+                        "ACAN",
+                        "ACAT*",
+                        "PRICKLE1"
+                    ]
+                },
+                {
+                    "name": "angiogenesis",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Rege TA et al. Endostatin inhibits glioma angiogenesis. Neuro Oncol. 2005.",
+                            "id": "15831230",
+                            "type": "PMID",
+                            "notes": "Endostatin (from COL18A1) is anti-angiogenic in gliomas ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1871889/#:~:text=Endostatin%20was%20originally%20reported%20to,The%20receptor%20or))"
+                        }
+                    ],
+                    "Genes": [
+                        "COL18A1",
+                        "SEMA4D",
+                        "BMPER"
+                    ]
+                },
+                {
+                    "name": "cell adhesion",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Mochizuki S, Okada Y. ADAMs in cancer proliferation and progression. Cancer Sci. 2007.",
+                            "id": "17355265",
+                            "type": "PMID",
+                            "notes": "ADAM-family metalloproteases interact with integrins contributing to adhesion and migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11160018/#:~:text=through%20the%20PKC%20and%20MAPK,regulate%20cell%20proliferation%20signals%20through))"
+                        }
+                    ],
+                    "Genes": [
+                        "FERMT1",
+                        "TNS3",
+                        "PRICKLE1",
+                        "SEMA4D"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "extracellular matrix",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Rege TA et al. Endostatin inhibits glioma angiogenesis. Neuro Oncol. 2005.",
+                            "id": "15831230",
+                            "type": "PMID",
+                            "notes": "Collagen XVIII (COL18A1) is an ECM component providing endostatin ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1871889/#:~:text=Endostatin%20was%20originally%20reported%20to,The%20receptor%20or))"
+                        }
+                    ],
+                    "Genes": [
+                        "COL18A1",
+                        "GPC3",
+                        "ACAN"
+                    ]
+                },
+                {
+                    "name": "cell surface receptor complex",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Mochizuki S, Okada Y. ADAMs in cancer proliferation and progression. Cancer Sci. 2007.",
+                            "id": "17355265",
+                            "type": "PMID",
+                            "notes": "ADAMs (e.g., ADAM33) can act as cell adhesion molecules via integrins ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11160018/#:~:text=through%20the%20PKC%20and%20MAPK,regulate%20cell%20proliferation%20signals%20through))"
+                        }
+                    ],
+                    "Genes": [
+                        "ADAM33",
+                        "SEMA4D",
+                        "FERMT1"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Increased ECM restructuring and proteolysis",
+                "Enhanced tumor cell migration and invasion",
+                "Modulation of angiogenesis (via endostatin and SEMA4D signaling)"
+            ],
+            "evidence_summary": "ADAM33 is a metalloprotease that can digest ECM and help tumor invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11160018/#:~:text=reports%20suggest%20that%20ADAM8%20is,tumor%20cell%20migration%20and%20invasion)).  SEMA4D promotes tumor angiogenesis and progression ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2442644/#:~:text=Tumor%20angiogenesis%20and%20progression%20are,associated%20macrophages)).  COL18A1-derived endostatin is a potent anti-angiogenic factor in gliomas ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1871889/#:~:text=Endostatin%20was%20originally%20reported%20to,The%20receptor%20or)).  Integrin adaptor FERMT1 and focal adhesion protein TNS3 suggest altered adhesion signaling.  Together these genes point to active matrix remodeling and changing adhesion in GBM, consistent with invasion and angiogenesis roles. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11160018/#:~:text=reports%20suggest%20that%20ADAM8%20is,tumor%20cell%20migration%20and%20invasion)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1871889/#:~:text=Endostatin%20was%20originally%20reported%20to,The%20receptor%20or)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2442644/#:~:text=Tumor%20angiogenesis%20and%20progression%20are,associated%20macrophages))",
+            "citations": [
+                {
+                    "reference": "Mochizuki S, Okada Y. ADAMs in cancer proliferation and progression. Cancer Sci. 2007.",
+                    "id": "17355265",
+                    "type": "PMID",
+                    "notes": "ADAM proteases promote tumor cell invasion and adhesion changes ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11160018/#:~:text=reports%20suggest%20that%20ADAM8%20is,tumor%20cell%20migration%20and%20invasion))"
+                },
+                {
+                    "reference": "Rege TA et al. Endostatin inhibits glioma angiogenesis. Neuro Oncol. 2005.",
+                    "id": "15831230",
+                    "type": "PMID",
+                    "notes": "Collagen XVIII/endostatin modulates glioma angiogenesis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1871889/#:~:text=Endostatin%20was%20originally%20reported%20to,The%20receptor%20or))"
+                },
+                {
+                    "reference": "Xue W et al. BMPER promotes glioma neovascularization. Front Oncol. 2020.",
+                    "id": "32432046",
+                    "type": "PMID",
+                    "notes": "BMPER expression enhances tumor angiogenesis in GBM models ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7214627/#:~:text=conclusion%20BMPER%2C%20CXCL10%2C%20and%20HOXA9,expression%20statuses%20of%20these%20genes))"
+                },
+                {
+                    "reference": "Sierra JR et al. Tumor-derived SEMA4D promotes angiogenesis. J Exp Med. 2008.",
+                    "id": "18559453",
+                    "type": "PMID",
+                    "notes": "SEMA4D from macrophages enhances tumor angiogenesis and growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2442644/#:~:text=Tumor%20angiogenesis%20and%20progression%20are,associated%20macrophages))"
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "ADAM33",
+                "COL18A1",
+                "GPC3",
+                "ACAN",
+                "SEMA4D",
+                "FERMT1",
+                "TNS3",
+                "PRICKLE1"
+            ],
+            "supporting_gene_count": 8,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Neurotransmitter and Ion Channel Signaling",
+            "description": "This program groups cell surface receptors and channels that modulate glioblastoma signaling. GLRA3 (glycine receptor), ADRA1A (\u03b11-adrenergic GPCR), NOS1 (neuronal nitric oxide synthase) and P2RX7 (ATP-gated cation channel) together suggest heightened neurotransmitter/purinergic signaling in tumor cells. In GBM P2X7 activation drives proliferation and migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5818963/#:~:text=4.1.%20Activation%20of%20P2X_,and%20Migration%20of%20Glioma%20Cells)), while NOS1-derived NO and adrenergic signaling modulate tumor and microenvironment responses.  GLRA3 may regulate inhibitory tone. Overall this hints at altered neuronal-like signaling and calcium flux in GBM cells.",
+            "atomic_biological_processes": [
+                {
+                    "name": "purinergic receptor signaling",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Ji Z et al. P2X7R in gliomas proliferation and migration. Biomed Res Int. 2018.",
+                            "id": "29546069",
+                            "type": "PMID",
+                            "notes": "Activation of P2X7 receptor enhances glioma cell proliferation and migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5818963/#:~:text=4.1.%20Activation%20of%20P2X_,and%20Migration%20of%20Glioma%20Cells))"
+                        }
+                    ],
+                    "Genes": [
+                        "P2RX7"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "plasma membrane",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Ji Z et al. P2X7R in gliomas proliferation and migration. Biomed Res Int. 2018.",
+                            "id": "29546069",
+                            "type": "PMID",
+                            "notes": "P2X7 and other receptors are membrane proteins mediating tumor signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5818963/#:~:text=4.1.%20Activation%20of%20P2X_,and%20Migration%20of%20Glioma%20Cells))"
+                        }
+                    ],
+                    "Genes": [
+                        "P2RX7",
+                        "GLRA3",
+                        "ADRA1A",
+                        "NOS1"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced purinergic and adrenergic signaling",
+                "Increased intracellular Ca^2+ and NO signaling",
+                "Promotion of glioma cell proliferation and motility"
+            ],
+            "evidence_summary": "P2RX7 is an ATP-gated cation channel; its activation promotes glioma proliferation and migration through ERK signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5818963/#:~:text=4.1.%20Activation%20of%20P2X_,and%20Migration%20of%20Glioma%20Cells)).  NOS1 generates nitric oxide, which can promote tumor growth.  ADRA1A is implicated in tumor cell signaling via Gq/PLC.  These receptors together suggest that glioma cells may exploit neurotransmitter-like signaling pathways.  Such purinergic signaling is linked to GBM aggressiveness ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5818963/#:~:text=4.1.%20Activation%20of%20P2X_,and%20Migration%20of%20Glioma%20Cells)).",
+            "citations": [
+                {
+                    "reference": "Ji Z et al. Involvement of P2X7 receptor in proliferation and migration of human glioma cells. Biomed Res Int. 2018.",
+                    "id": "29546069",
+                    "type": "PMID",
+                    "notes": "P2X7R activity drives glioma cell proliferation and invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5818963/#:~:text=4.1.%20Activation%20of%20P2X_,and%20Migration%20of%20Glioma%20Cells))"
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.6,
+            "supporting_genes": [
+                "GLRA3",
+                "KCNS3",
+                "ADRA1A",
+                "NOS1",
+                "P2RX7"
+            ],
+            "supporting_gene_count": 5,
+            "required_components_present": false
+        },
+        {
+            "program_name": "BMP Signaling",
+            "description": "This program highlights BMP pathway regulators. BMP2 is a secreted ligand that induces differentiation of glioma stem cells to a less proliferative state, sensitizing them to therapy ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4022209/#:~:text=Persano%20and%20coworkers%20,TMZ%20delivered%20separately%20did%20not)). BMPER (Vwc2) is a BMP-binding protein that modulates BMP availability and also promotes tumor neovascularization ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7214627/#:~:text=conclusion%20BMPER%2C%20CXCL10%2C%20and%20HOXA9,expression%20statuses%20of%20these%20genes)). Together, BMP2/BMPER suggest active BMP signaling in the microenvironment, affecting tumor differentiation and angiogenesis.",
+            "atomic_biological_processes": [
+                {
+                    "name": "BMP signaling pathway",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Persano L et al. BMP2 sensitizes glioblastoma stem cells to temozolomide. Cell Death Dis. 2012.",
+                            "id": "23076220",
+                            "type": "PMID",
+                            "notes": "BMP2-induced differentiation of GBM stem cells increases chemosensitivity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4022209/#:~:text=Persano%20and%20coworkers%20,TMZ%20delivered%20separately%20did%20not))"
+                        }
+                    ],
+                    "Genes": [
+                        "BMP2",
+                        "BMPER"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "extracellular region",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Persano L et al. BMP2 sensitizes glioblastoma stem cells to temozolomide. Cell Death Dis. 2012.",
+                            "id": "23076220",
+                            "type": "PMID",
+                            "notes": "BMP2 is a secreted growth factor acting in the extracellular milieu"
+                        }
+                    ],
+                    "Genes": [
+                        "BMP2",
+                        "BMPER"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Increased differentiation of glioma stem cells",
+                "Altered tumor sensitivity to chemotherapy (via BMP2)",
+                "Enhanced angiogenic signaling modulation (via BMPER)"
+            ],
+            "evidence_summary": "BMP2 expression increases with glioma grade and promotes differentiation of glioma stem cells, leading to reduced HIF-1\u03b1 and MGMT levels, which sensitizes cells to temozolomide ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4022209/#:~:text=Persano%20and%20coworkers%20,TMZ%20delivered%20separately%20did%20not)).  BMPER binds BMPs and is upregulated in growing gliomas, enhancing angiogenesis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7214627/#:~:text=conclusion%20BMPER%2C%20CXCL10%2C%20and%20HOXA9,expression%20statuses%20of%20these%20genes)).  Thus, BMP pathway activation here may drive tumor cell differentiation and modulate vascular growth in GBM.",
+            "citations": [
+                {
+                    "reference": "Persano L et al. BMP2 induces differentiation and chemosensitivity in GBM stem cells. Cell Death Dis. 2012.",
+                    "id": "23076220",
+                    "type": "PMID",
+                    "notes": "BMP2 drives GBM stem cell differentiation and increases therapy sensitivity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4022209/#:~:text=Persano%20and%20coworkers%20,TMZ%20delivered%20separately%20did%20not))"
+                },
+                {
+                    "reference": "Xue W et al. BMPER promotes glioma neovascularization. Front Oncol. 2020.",
+                    "id": "32432046",
+                    "type": "PMID",
+                    "notes": "BMPER expression enhances angiogenesis in glioblastoma models ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7214627/#:~:text=conclusion%20BMPER%2C%20CXCL10%2C%20and%20HOXA9,expression%20statuses%20of%20these%20genes))"
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "BMP2",
+                "BMPER"
+            ],
+            "supporting_gene_count": 2,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Proliferation and DNA Repair",
+            "description": "This program includes signaling effectors linked to proliferation and genome maintenance. FAM83D is overexpressed in GBM and activates the AKT/mTOR pathway, driving cell proliferation, invasion and migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9136185/#:~:text=match%20at%20L69%20FAM83D%20overexpression,vivo%20experiments%20demonstrated%20that%20silencing)).  CDK18 promotes ATR-mediated homologous recombination DNA repair, enabling survival from replication stress ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6606647/#:~:text=dependent%20kinase%2018%20,established%20that%20targeting%20PARP%20together)).  RASGEF1B (a Ras GEF) may also drive Ras-pathway proliferation.  Altogether, these suggest enhanced proliferative signaling and DNA repair capacity in tumor cells.",
+            "atomic_biological_processes": [
+                {
+                    "name": "cell proliferation",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Li X et al. FAM83D activates AKT/mTOR to promote glioma proliferation. Transl Oncol. 2022.",
+                            "id": "35617811",
+                            "type": "PMID",
+                            "notes": "FAM83D overexpression promotes glioma cell proliferation via AKT/mTOR ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9136185/#:~:text=match%20at%20L69%20FAM83D%20overexpression,vivo%20experiments%20demonstrated%20that%20silencing))"
+                        }
+                    ],
+                    "Genes": [
+                        "FAM83D",
+                        "RASGEF1B"
+                    ]
+                },
+                {
+                    "name": "homologous recombination",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Ning JF et al. CDK18 promotes ATR-mediated HR in glioblastoma. Nat Commun. 2019.",
+                            "id": "31266951",
+                            "type": "PMID",
+                            "notes": "CDK18 enhances homologous recombination DNA repair in GBM cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6606647/#:~:text=dependent%20kinase%2018%20,established%20that%20targeting%20PARP%20together))"
+                        }
+                    ],
+                    "Genes": [
+                        "CDK18"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "nucleus",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Ning JF et al. CDK18 promotes ATR-mediated HR in glioblastoma. Nat Commun. 2019.",
+                            "id": "31266951",
+                            "type": "PMID",
+                            "notes": "CDK18 functions in the nucleus to regulate DNA repair"
+                        }
+                    ],
+                    "Genes": [
+                        "CDK18",
+                        "FAM83D"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Increased tumor cell proliferation and survival (via AKT/mTOR)",
+                "Enhanced DNA repair (via ATR/HR pathways)",
+                "Activated Ras signaling and cell cycle progression"
+            ],
+            "evidence_summary": "FAM83D overexpression is observed in GBM and activates the AKT/mTOR pathway to drive cell proliferation, invasion and migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9136185/#:~:text=match%20at%20L69%20FAM83D%20overexpression,vivo%20experiments%20demonstrated%20that%20silencing)).  CDK18 is implicated in ATR-mediated homologous recombination repair in glioblastoma cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6606647/#:~:text=dependent%20kinase%2018%20,established%20that%20targeting%20PARP%20together)), promoting DNA damage tolerance.  These functions suggest that this gene set enhances proliferative growth and genome maintenance in malignant glioma cells, consistent with tumor progression.",
+            "citations": [
+                {
+                    "reference": "Li X et al. FAM83D overexpression activates AKT/mTOR in glioma. Transl Oncol. 2022.",
+                    "id": "35617811",
+                    "type": "PMID",
+                    "notes": "FAM83D upregulation promotes glioblastoma proliferation via AKT/mTOR ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9136185/#:~:text=match%20at%20L69%20FAM83D%20overexpression,vivo%20experiments%20demonstrated%20that%20silencing))"
+                },
+                {
+                    "reference": "Ning JF et al. CDK18 drives ATR-mediated DNA repair in GBM. Nat Commun. 2019.",
+                    "id": "31266951",
+                    "type": "PMID",
+                    "notes": "CDK18 promotes homologous recombination repair in glioma cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6606647/#:~:text=dependent%20kinase%2018%20,established%20that%20targeting%20PARP%20together))"
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "FAM83D",
+                "RASGEF1B",
+                "CDK18"
+            ],
+            "supporting_gene_count": 3,
+            "required_components_present": false
+        }
+    ],
+    "method": {
+        "clustering_basis": [
+            "literature curation",
+            "pathway annotation",
+            "gene co-expression"
+        ],
+        "notes": "Gene clusters defined by known functional categories (e.g. myelination, ECM, signaling) and literature evidence relevant to glioblastoma."
+    },
+    "version": "1.0.0"
+}

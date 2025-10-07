@@ -1,0 +1,574 @@
+{
+    "context": {
+        "cell_type": "Glioblastoma cells",
+        "disease": "glioblastoma",
+        "tissue": "brain"
+    },
+    "input_genes": [
+        "DLGAP5",
+        "CKAP2L",
+        "CDCA2",
+        "CDC25C",
+        "TTK",
+        "BUB1",
+        "HMMR",
+        "CDCA8",
+        "TOP2A",
+        "GTSE1",
+        "KIF23",
+        "BUB1B",
+        "ASPM",
+        "AURKA",
+        "KIF14",
+        "CEP55",
+        "KIF18A",
+        "CDK1",
+        "TROAP",
+        "DEPDC1",
+        "CENPE",
+        "TPX2",
+        "KIF2C",
+        "KNL1",
+        "KIF20A",
+        "AURKB",
+        "NEIL3",
+        "CCNB1",
+        "ESPL1",
+        "APOLD1",
+        "HJURP",
+        "PIMREG",
+        "KIF11",
+        "PIF1",
+        "UBE2C",
+        "NDC80",
+        "CDC20",
+        "PBK",
+        "ARHGAP11A",
+        "NUSAP1",
+        "PRR11",
+        "ESCO2",
+        "PTTG1",
+        "MELK",
+        "KIF4A",
+        "CDKN3",
+        "NMU",
+        "BORA",
+        "KIF18B",
+        "KIFC1",
+        "CCNF",
+        "BIRC5",
+        "MKI67",
+        "ARHGAP11B",
+        "IQGAP3",
+        "NCAPG",
+        "SGO1",
+        "SKA3",
+        "GAS2L3",
+        "SGO2",
+        "RRM2",
+        "DIAPH3",
+        "CDCA3",
+        "CENPF",
+        "FAM83D",
+        "NUF2",
+        "POLQ",
+        "RACGAP1",
+        "KPNA2",
+        "MIR924HG",
+        "FBXO43",
+        "TACC3",
+        "WDR62",
+        "E2F7",
+        "PCLAF",
+        "ASF1B",
+        "ECT2",
+        "SHCBP1",
+        "PLK1",
+        "FAM111B",
+        "DEPDC1B",
+        "MXD3",
+        "NCAPH",
+        "PRC1",
+        "EXO1",
+        "KIF15",
+        "FOXM1",
+        "CCNB2",
+        "RTKN2",
+        "NOSTRIN",
+        "AC010173.1",
+        "SPC25",
+        "FOXN4",
+        "HMGB2",
+        "CKS2",
+        "CENPI",
+        "BRIP1",
+        "MYBL2",
+        "LMO7",
+        "KIF24",
+        "AC073529.1",
+        "STIL",
+        "AC090159.1",
+        "PLK4"
+    ],
+    "programs": [
+        {
+            "program_name": "G2/M Cell Cycle Regulation",
+            "description": "Coordinated regulation of the G2/M transition and mitotic entry, promoting proliferation. In glioblastoma this gene cluster drives rapid cell division and tumor growth.",
+            "atomic_biological_processes": [
+                {
+                    "name": "mitotic cell cycle",
+                    "ontology_id": "GO:0000278",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Zhang et al. (2018) Identification of potential oncogenes in GBM. Oncol Rep.",
+                            "id": "10.3892/or.2018.6483",
+                            "type": "DOI",
+                            "notes": "CDK1, CCNB1, CDC20 are overexpressed in GBM and regulate the mitotic cell cycle ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6072298/#:~:text=analyses,clearly%20inhibited%20GBM%20cell%20proliferation))."
+                        }
+                    ],
+                    "Genes": [
+                        "CDC25C",
+                        "CDK1",
+                        "CCNB1",
+                        "CCNB2",
+                        "CDC20",
+                        "ESPL1",
+                        "PTTG1",
+                        "CDKN3",
+                        "CKS2",
+                        "FBXO43",
+                        "E2F7",
+                        "FOXM1",
+                        "MYBL2"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "nucleus",
+                    "ontology_id": "GO:0005634",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Zhang et al. (2018) Oncol Rep.",
+                            "id": "10.3892/or.2018.6483",
+                            "type": "DOI",
+                            "notes": "Cell-cycle regulators such as CDK1, CCNB1 act in the nucleus to drive GBM cell mitosis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6072298/#:~:text=analyses,clearly%20inhibited%20GBM%20cell%20proliferation))."
+                        }
+                    ],
+                    "Genes": [
+                        "CDC25C",
+                        "CDK1",
+                        "CCNB1",
+                        "CCNB2",
+                        "CDC20",
+                        "ESPL1",
+                        "PTTG1",
+                        "CDKN3",
+                        "CKS2",
+                        "FBXO43",
+                        "E2F7",
+                        "FOXM1",
+                        "MYBL2"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "accelerated G2/M transition",
+                "increased cell proliferation",
+                "checkpoint bypass leading to aneuploidy"
+            ],
+            "evidence_summary": "Many included genes (e.g. CDK1, CCNB1, CDC20) are well-known G2/M regulators and are overexpressed in GBM, correlating with poor survival ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6072298/#:~:text=analyses,clearly%20inhibited%20GBM%20cell%20proliferation)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8144940/#:~:text=biomarkers%20for%20GBM%20,to%20explore%20the%20potential%20diagnosis)). Knockdown of CDK1 and CCNB1 inhibits glioma cell proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6072298/#:~:text=analyses,clearly%20inhibited%20GBM%20cell%20proliferation)). High FOXM1 promotes GBM stemness and proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4596841/#:~:text=in%20GBM%20stem%20cell%20maintenance,Notably%2C%20genetic)).",
+            "citations": [
+                {
+                    "reference": "Zhang et al. (2018) Oncol Rep.",
+                    "id": "10.3892/or.2018.6483",
+                    "type": "DOI",
+                    "notes": "High CDK1, CCNB1, CDC20 in GBM; knockdown reduces proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6072298/#:~:text=analyses,clearly%20inhibited%20GBM%20cell%20proliferation))."
+                },
+                {
+                    "reference": "Geng et al. (2018) Disease Markers",
+                    "id": "10.1155/2018/3215958",
+                    "type": "DOI",
+                    "notes": "Core cell cycle genes (TOP2A, CDK1, CCNB1, etc.) identified as GBM biomarkers ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8144940/#:~:text=biomarkers%20for%20GBM%20,to%20explore%20the%20potential%20diagnosis))."
+                },
+                {
+                    "reference": "Conde et al. (2017) BMC Cancer",
+                    "id": "10.1186/s12885-017-3932-y",
+                    "type": "DOI",
+                    "notes": "Survivin (BIRC5), a CPC component, is overexpressed in gliomas and correlates with proliferation and grade ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5745881/#:~:text=apoptosis%20and%20mitosis%20,8%2C%209%5D.%20It%20is))."
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.95,
+            "supporting_genes": [
+                "CDC25C",
+                "CDK1",
+                "CCNB1",
+                "CCNB2",
+                "CDC20",
+                "ESPL1",
+                "PTTG1",
+                "CDKN3",
+                "CKS2",
+                "FBXO43",
+                "E2F7",
+                "FOXM1",
+                "MYBL2"
+            ],
+            "supporting_gene_count": 13,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Spindle Assembly and Centrosome Organization",
+            "description": "Regulation of the mitotic spindle apparatus and centrosome duplication, ensuring proper mitosis. In GBM cells, overexpression of spindle motors and centrosomal regulators enhances mitotic progression and may promote invasiveness.",
+            "atomic_biological_processes": [
+                {
+                    "name": "spindle assembly",
+                    "ontology_id": "GO:0007051",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Venere et al. (2015) Sci Transl Med",
+                            "id": "10.1126/scitranslmed.aac6762",
+                            "type": "DOI",
+                            "notes": "KIF11 is required for bipolar spindle formation; its inhibition halts GBM cell division and invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4743764/#:~:text=between%20these%20disparate%20cellular%20processes%E2%80%94the,impeded%20tumor%20initiation%20and%20self))."
+                        }
+                    ],
+                    "Genes": [
+                        "KIF11",
+                        "KIF15",
+                        "KIF4A",
+                        "KIF14",
+                        "KIF2C",
+                        "TPX2",
+                        "AURKA",
+                        "TACC3",
+                        "ASPM",
+                        "NUSAP1"
+                    ]
+                },
+                {
+                    "name": "centrosome duplication",
+                    "ontology_id": "GO:0046610",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Ngwabyt Bikeye et al. (2010) Cancer Cell Int",
+                            "id": "10.1186/1475-2867-10-1",
+                            "type": "DOI",
+                            "notes": "ASPM localizes to centrosomes/spindle poles and is required for glioma growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2817685/#:~:text=initial%20grade%20of%20the%20primary,in%20two%20different%20gliomasphere%20models))."
+                        }
+                    ],
+                    "Genes": [
+                        "PLK4",
+                        "STIL",
+                        "ASPM",
+                        "WDR62"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "mitotic spindle",
+                    "ontology_id": "GO:0005819",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Venere et al. (2015) Sci Transl Med",
+                            "id": "10.1126/scitranslmed.aac6762",
+                            "type": "DOI",
+                            "notes": "KIF11 localizes to the mitotic spindle; targeting it disrupts GBM cell division and motility ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4743764/#:~:text=between%20these%20disparate%20cellular%20processes%E2%80%94the,impeded%20tumor%20initiation%20and%20self))."
+                        }
+                    ],
+                    "Genes": [
+                        "KIF11",
+                        "KIF15",
+                        "KIF4A",
+                        "KIF14",
+                        "KIF2C",
+                        "TPX2",
+                        "AURKA",
+                        "TACC3",
+                        "ASPM",
+                        "NUSAP1"
+                    ]
+                },
+                {
+                    "name": "centrosome",
+                    "ontology_id": "GO:0000226",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Ngwabyt Bikeye et al. (2010) Cancer Cell Int",
+                            "id": "10.1186/1475-2867-10-1",
+                            "type": "DOI",
+                            "notes": "ASPM is at centrosomes/spindle poles, promoting stem-like proliferation in glioma ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2817685/#:~:text=initial%20grade%20of%20the%20primary,in%20two%20different%20gliomasphere%20models))."
+                        }
+                    ],
+                    "Genes": [
+                        "PLK4",
+                        "STIL",
+                        "ASPM",
+                        "WDR62"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "enhanced spindle formation and mitotic polarity",
+                "aberrant centrosome amplification",
+                "increased motility and invasiveness"
+            ],
+            "evidence_summary": "Multiple kinesins (KIF11, KIF15, etc.) and Aurora kinases (AURKA) are upregulated in GBM, facilitating spindle assembly and migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4743764/#:~:text=between%20these%20disparate%20cellular%20processes%E2%80%94the,impeded%20tumor%20initiation%20and%20self)). ASPM, localized to centrosomes, is overexpressed in aggressive gliomas and its silencing halts proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2817685/#:~:text=initial%20grade%20of%20the%20primary,in%20two%20different%20gliomasphere%20models)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6977704/#:~:text=analysis%2C%20the%20highest%20fold%20change,suggest%20that%20ASPM%20may%20serve)). These factors collectively promote robust mitosis and genomic instability in tumor cells.",
+            "citations": [
+                {
+                    "reference": "Venere et al. (2015) Sci Transl Med",
+                    "id": "10.1126/scitranslmed.aac6762",
+                    "type": "DOI",
+                    "notes": "KIF11 is central to GBM TIC proliferation and invasion; its inhibition stops tumor growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4743764/#:~:text=between%20these%20disparate%20cellular%20processes%E2%80%94the,impeded%20tumor%20initiation%20and%20self))."
+                },
+                {
+                    "reference": "Ngwabyt Bikeye et al. (2010) Cancer Cell Int",
+                    "id": "10.1186/1475-2867-10-1",
+                    "type": "DOI",
+                    "notes": "ASPM localizes to centrosomes/spindle poles; shRNA silencing causes proliferation arrest and cell death in GBM models ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2817685/#:~:text=initial%20grade%20of%20the%20primary,in%20two%20different%20gliomasphere%20models))."
+                },
+                {
+                    "reference": "Chen et al. (2020) Aging",
+                    "id": "10.18632/aging.102612",
+                    "type": "DOI",
+                    "notes": "ASPM is highly expressed in GBM and its loss-of-function impedes GBM tumorigenesis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6977704/#:~:text=microcephaly%20associated%20%28ASPM%29,function%20assay%20indicated%20that%20ASPM))."
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "KIF11",
+                "KIF15",
+                "KIF4A",
+                "KIF14",
+                "KIF2C",
+                "TPX2",
+                "AURKA",
+                "TACC3",
+                "ASPM",
+                "NUSAP1",
+                "PLK4",
+                "STIL",
+                "WDR62"
+            ],
+            "supporting_gene_count": 13,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Kinetochore and Chromosome Segregation",
+            "description": "Assembly and function of kinetochores and centromeres to enable accurate chromosome alignment and segregation. Glioblastoma cells overexpress these components to tolerate chromosomal instability and adapt via spindle checkpoint signaling.",
+            "atomic_biological_processes": [
+                {
+                    "name": "chromosome segregation",
+                    "ontology_id": "GO:0007059",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Conde et al. (2017) BMC Cancer",
+                            "id": "10.1186/s12885-017-3932-y",
+                            "type": "DOI",
+                            "notes": "Survivin (BIRC5), part of the chromosomal passenger complex, ensures bipolar segregation and is upregulated in gliomas with aneuploidy ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5745881/#:~:text=apoptosis%20and%20mitosis%20,8%2C%209%5D.%20It%20is)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5745881/#:~:text=Survivin%2C%20belonging%20to%20the%20inhibitor,inducing%20chromosomal%20instability%20remains%20unclear))."
+                        }
+                    ],
+                    "Genes": [
+                        "NDC80",
+                        "SPC25",
+                        "NUF2",
+                        "KNL1",
+                        "SKA3",
+                        "HJURP",
+                        "CENPE",
+                        "CENPF",
+                        "CENPI",
+                        "AURKB",
+                        "CDCA8",
+                        "BIRC5",
+                        "SGO1",
+                        "SGO2"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "kinetochore",
+                    "ontology_id": "GO:0000777",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Herman et al. (2020) Neuro Oncol",
+                            "type": "DOI",
+                            "id": "10.1093/neuonc/noaa215.084",
+                            "notes": "Chronic kinetochore\u2013microtubule attachment instability (KT stress) is observed in GBM cells; survivors rely on Mitotic Checkpoint proteins (BUB1B) to prevent aneuploidy ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7650502/#:~:text=elusive,MT%20attachment%20defects%20and))."
+                        }
+                    ],
+                    "Genes": [
+                        "NDC80",
+                        "SPC25",
+                        "NUF2",
+                        "KNL1",
+                        "SKA3",
+                        "HJURP",
+                        "CENPE",
+                        "CENPF",
+                        "CENPI"
+                    ]
+                },
+                {
+                    "name": "centromeric region",
+                    "ontology_id": "GO:0000779",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Conde et al. (2017) BMC Cancer",
+                            "id": "10.1186/s12885-017-3932-y",
+                            "type": "DOI",
+                            "notes": "Components of the chromosome passenger complex localize to centromeres; Survivin overexpression induces chromosomal instability in glioma cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5745881/#:~:text=Survivin%2C%20belonging%20to%20the%20inhibitor,inducing%20chromosomal%20instability%20remains%20unclear))."
+                        }
+                    ],
+                    "Genes": [
+                        "CENPE",
+                        "CENPF",
+                        "CENPI",
+                        "HJURP",
+                        "AURKB",
+                        "CDCA8",
+                        "BIRC5"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "increased aneuploidy tolerance",
+                "activation of spindle assembly checkpoint",
+                "persistent chromosomal instability"
+            ],
+            "evidence_summary": "This cluster includes kinetochore proteins (NDC80 complex, CENPs, KNL1, SKA) and checkpoint kinases (BUB1/BUB1B, TTK). In GBM, merotelic attachments and \u2018kinetochore stress\u2019 are common; cells survive via heightened checkpoint (BUB1B) activity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7650502/#:~:text=elusive,MT%20attachment%20defects%20and)). Overexpressed CPC components (Survivin/BIRC5, Borealin/CDCA8) at centromeres facilitate segregation, and elevated Survivin in gliomas is linked to higher grade and CIN ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5745881/#:~:text=apoptosis%20and%20mitosis%20,8%2C%209%5D.%20It%20is)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5745881/#:~:text=Survivin%2C%20belonging%20to%20the%20inhibitor,inducing%20chromosomal%20instability%20remains%20unclear)).",
+            "citations": [
+                {
+                    "reference": "Conde et al. (2017) BMC Cancer",
+                    "id": "10.1186/s12885-017-3932-y",
+                    "type": "DOI",
+                    "notes": "Survivin (BIRC5) is a centromere/CPC protein that, when overexpressed in glioma, causes chromosomal instability and promotes tumorigenesis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5745881/#:~:text=Survivin%2C%20belonging%20to%20the%20inhibitor,inducing%20chromosomal%20instability%20remains%20unclear)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5745881/#:~:text=apoptosis%20and%20mitosis%20,8%2C%209%5D.%20It%20is))."
+                },
+                {
+                    "reference": "Herman et al. (2020) Neuro Oncol",
+                    "type": "DOI",
+                    "id": "10.1093/neuonc/noaa215.084",
+                    "notes": "Experimental GBM models show widespread kinetochore stress and reliance on the spindle checkpoint (BUB1B) to avoid mitotic catastrophe ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7650502/#:~:text=elusive,MT%20attachment%20defects%20and))."
+                }
+            ],
+            "confidence_score": 0.85,
+            "significance_score": 0.85,
+            "supporting_genes": [
+                "NDC80",
+                "SPC25",
+                "NUF2",
+                "KNL1",
+                "SKA3",
+                "HJURP",
+                "CENPE",
+                "CENPF",
+                "CENPI",
+                "AURKB",
+                "CDCA8",
+                "BIRC5",
+                "SGO1",
+                "SGO2"
+            ],
+            "supporting_gene_count": 14,
+            "required_components_present": false
+        },
+        {
+            "program_name": "DNA Replication and Repair",
+            "description": "Processes ensuring genome duplication and healing of DNA lesions. GBM cells leverage these to survive oncogenic replication stress; dysregulation can cause therapy resistance and genomic instability.",
+            "atomic_biological_processes": [
+                {
+                    "name": "DNA repair",
+                    "ontology_id": "GO:0006281",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Klattenhoff et al. (2017) Oncotarget",
+                            "id": "10.18632/oncotarget.22896",
+                            "type": "DOI",
+                            "notes": "NEIL3 is recruited to sites of replication-associated DNA damage; its loss in GBM increases double-strand breaks under replication stress ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5762564/#:~:text=and%20its%20impact%20on%20modulating,dependent%20repair%20is))."
+                        }
+                    ],
+                    "Genes": [
+                        "NEIL3",
+                        "EXO1",
+                        "PIF1",
+                        "BRIP1",
+                        "POLQ",
+                        "ASF1B",
+                        "PCLAF"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "nucleus",
+                    "ontology_id": "GO:0005634",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Gagou et al. (2014) Oncotarget",
+                            "id": "10.18632/oncotarget.2501",
+                            "type": "DOI",
+                            "notes": "PIF1 helicase is essential for DNA replication under oncogenic stress, supporting tumor proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4294361/#:~:text=Unwinding%20duplex%20DNA%20is%20a,transformed%20fibroblasts%2C%20where%20replication))."
+                        }
+                    ],
+                    "Genes": [
+                        "NEIL3",
+                        "EXO1",
+                        "PIF1",
+                        "BRIP1",
+                        "POLQ",
+                        "ASF1B",
+                        "PCLAF"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "enhanced DNA damage tolerance",
+                "resistance to replication stress",
+                "maintenance of proliferative capacity"
+            ],
+            "evidence_summary": "Included genes like NEIL3, PIF1, EXO1, POLQ, BRIP1 facilitate repair of replication-associated damage. NEIL3 is upregulated in tumors and prevents replication fork collapse in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5762564/#:~:text=and%20its%20impact%20on%20modulating,dependent%20repair%20is)). PIF1 supports fork progression specifically in cancer cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4294361/#:~:text=Unwinding%20duplex%20DNA%20is%20a,transformed%20fibroblasts%2C%20where%20replication)). These allow GBM cells to endure genotoxic stress and resist DNA-damaging therapies.",
+            "citations": [
+                {
+                    "reference": "Klattenhoff et al. (2017) Oncotarget",
+                    "id": "10.18632/oncotarget.22896",
+                    "type": "DOI",
+                    "notes": "NEIL3 is required to repair replication-associated DNA damage in GBM cells; NEIL3 loss increases DSBs under stress ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5762564/#:~:text=and%20its%20impact%20on%20modulating,dependent%20repair%20is))."
+                },
+                {
+                    "reference": "Gagou et al. (2014) Oncotarget",
+                    "id": "10.18632/oncotarget.2501",
+                    "type": "DOI",
+                    "notes": "Human PIF1 helicase maintains DNA replication fork progression in oncogene-transformed cells; PIF1 loss impairs cancer cell proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4294361/#:~:text=Unwinding%20duplex%20DNA%20is%20a,transformed%20fibroblasts%2C%20where%20replication))."
+                }
+            ],
+            "confidence_score": 0.75,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "NEIL3",
+                "EXO1",
+                "PIF1",
+                "BRIP1",
+                "POLQ",
+                "ASF1B",
+                "PCLAF"
+            ],
+            "supporting_gene_count": 7,
+            "required_components_present": false
+        }
+    ],
+    "version": "1.0"
+}

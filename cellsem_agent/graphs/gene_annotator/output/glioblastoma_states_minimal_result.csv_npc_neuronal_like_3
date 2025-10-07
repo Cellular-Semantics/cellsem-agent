@@ -1,0 +1,23 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+synaptic transmission,GO:0007268,chemical synaptic transmission,GO,1.0,exact_match
+glutamatergic synaptic transmission,GO:0035249,"synaptic transmission, glutamatergic",GO,1.0,exact_match
+GABAergic synaptic transmission,GO:0051932,"synaptic transmission, GABAergic",GO,1.0,exact_match
+postsynaptic membrane,GO:0045211,postsynaptic membrane,GO,1.0,exact_match
+synaptic vesicle,GO:0008021,synaptic vesicle,GO,1.0,exact_match
+synapse,GO:0045202,synapse,GO,1.0,exact_match
+neurogenesis,GO:0022008,neurogenesis,GO,1.0,exact_match
+"transcription, DNA-templated",GO:0006351,DNA-templated transcription,GO,1.0,exact_match
+nucleus,GO:0005634,nucleus,GO,1.0,exact_match
+calcium-mediated signaling,GO:0019722,calcium-mediated signaling,GO,1.0,exact_match
+phosphatidylinositol-mediated signaling,GO:0048015,phosphatidylinositol-mediated signaling,GO,1.0,exact_match
+G-protein coupled receptor signaling pathway,GO:0007186,G protein-coupled receptor signaling pathway,GO,1.0,exact_match
+plasma membrane,GO:0005886,plasma membrane,GO,1.0,exact_match
+intrinsic component of synapse,GO:0019898,extrinsic/intrinsic component of membrane,GO,0.8,partial_match
+extracellular matrix organization,GO:0030198,extracellular matrix organization,GO,1.0,exact_match
+cell adhesion,GO:0007155,cell adhesion,GO,1.0,exact_match
+regulation of cell migration,GO:0030334,regulation of cell migration,GO,1.0,exact_match
+extracellular matrix,GO:0031012,extracellular matrix,GO,1.0,exact_match
+cell surface,GO:0009986,cell surface,GO,1.0,exact_match
+regulation of apoptotic process,GO:0042981,regulation of apoptotic process,GO,1.0,exact_match
+intrinsic apoptotic signaling pathway,GO:0097193,intrinsic apoptotic signaling pathway,GO,1.0,exact_match
+mitochondrial outer membrane,GO:0005741,mitochondrial outer membrane,GO,1.0,exact_match

@@ -1,0 +1,549 @@
+{
+    "context": {
+        "cell_type": "astrocytes",
+        "disease": "glioblastoma",
+        "tissue": "brain"
+    },
+    "input_genes": [
+        "AQP1",
+        "ANOS1",
+        "LIX1",
+        "CD38",
+        "RASL12",
+        "KCNN3",
+        "SERPINA3",
+        "GFAP",
+        "FAM189A2",
+        "BBOX1",
+        "NPSR1",
+        "ITPKB",
+        "CFI",
+        "LINC01094",
+        "ID3",
+        "FBLN5",
+        "CFAP54",
+        "DAAM2",
+        "ADAMTS8",
+        "GGT5",
+        "SLC14A1",
+        "RPE65",
+        "MASP1",
+        "SLCO1C1",
+        "AC092131.1",
+        "ITGB4",
+        "LRRC2",
+        "STUM",
+        "SPON1",
+        "CD44",
+        "ATP1A2",
+        "AQP4",
+        "ALDH1L1",
+        "CRB2",
+        "FAM107A",
+        "GJA1",
+        "ETNPPL",
+        "AC103923.1",
+        "ZFP36",
+        "RFTN1",
+        "EDNRA",
+        "HAS2",
+        "ADAMTS15",
+        "MARVELD3",
+        "OBI1-AS1",
+        "PAPLN",
+        "ID4",
+        "HRH1",
+        "HCG22",
+        "DRC1",
+        "PTCHD1",
+        "PTPRT",
+        "GALNT15",
+        "FHAD1",
+        "SLC44A3",
+        "F3",
+        "COL28A1",
+        "EDNRB",
+        "ACSBG1",
+        "ABCA13",
+        "WDR49",
+        "XAF1",
+        "ABCC3",
+        "AC092924.2",
+        "AC002429.2",
+        "WWC1",
+        "TIMP3",
+        "AGT",
+        "SLC24A4",
+        "HOPX",
+        "CABCOCO1",
+        "CHI3L2",
+        "C3",
+        "MYBPC1",
+        "ADGRV1",
+        "LINC02234",
+        "GPR37L1",
+        "AL591686.2",
+        "TCTEX1D1",
+        "TTYH1",
+        "TC2N",
+        "LINC00844",
+        "AL355306.2",
+        "AC073941.1",
+        "NMB",
+        "PDGFRB",
+        "BCAN",
+        "EGF",
+        "DCHS2",
+        "PFKFB3",
+        "AC117464.1",
+        "SCN7A",
+        "COLEC12",
+        "OSMR",
+        "C21orf62",
+        "LTF",
+        "BMPR1B",
+        "ATP13A4",
+        "IGFBP7"
+    ],
+    "programs": [
+        {
+            "program_name": "Water Homeostasis",
+            "description": "Glioblastoma cells upregulate water channels AQP1 and AQP4, disrupting astrocytic water regulation and contributing to vasogenic edema.  Both AQP1 and mislocalized AQP4 enable increased water flux across cell membranes, facilitating glioma cell migration and peritumoral fluid accumulation.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0006833",
+                    "name": "water transport",
+                    "citation": [
+                        {
+                            "reference": "Maugeri et al., Aquaporins and Brain Tumors, Int J Mol Sci 2016",
+                            "id": "10.3390/ijms17071029",
+                            "type": "DOI",
+                            "notes": "Glioma cell migration and edema correlate with altered AQP1/AQP4 expression ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4964405/#:~:text=of%20glioblastoma%20is%20the%20vasogenic,other%20small%20molecules%2C%20such%20as))"
+                        }
+                    ],
+                    "Genes": [
+                        "AQP1",
+                        "AQP4"
+                    ],
+                    "ontology_label": "water transport"
+                },
+                {
+                    "ontology_id": "GO:0016477",
+                    "name": "cell migration",
+                    "citation": [
+                        {
+                            "reference": "Maugeri et al., Aquaporins and Brain Tumors, Int J Mol Sci 2016",
+                            "id": "10.3390/ijms17071029",
+                            "type": "DOI",
+                            "notes": "Glioma migration correlates with altered aquaporin expression ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4964405/#:~:text=of%20glioblastoma%20is%20the%20vasogenic,other%20small%20molecules%2C%20such%20as))"
+                        }
+                    ],
+                    "Genes": [
+                        "AQP1",
+                        "AQP4"
+                    ],
+                    "ontology_label": "cell migration"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0005886",
+                    "name": "plasma membrane",
+                    "citation": [
+                        {
+                            "reference": "Maugeri et al., Aquaporins and Brain Tumors, Int J Mol Sci 2016",
+                            "id": "10.3390/ijms17071029",
+                            "type": "DOI",
+                            "notes": "AQP4 becomes delocalized to glioma cell plasma membranes, increasing water trafficking ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4964405/#:~:text=visible%20and%20AQP4%20is%20found,arrows%20on%20glioma%20cell%20membrane))"
+                        }
+                    ],
+                    "Genes": [
+                        "AQP1",
+                        "AQP4"
+                    ],
+                    "ontology_label": "plasma membrane"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Increased transmembrane water permeability",
+                "Enhanced vasogenic edema and intracranial pressure",
+                "Facilitated tumor cell migration via osmotic water flow"
+            ],
+            "evidence_summary": "Expression/localization of AQP1 and AQP4 is altered in glioblastoma, with AQP1 upregulated and AQP4 redistributed from astrocyte endfeet to tumor cell surfaces.  This enhances water flux across membranes and correlates with peritumoral edema and invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4964405/#:~:text=of%20glioblastoma%20is%20the%20vasogenic,other%20small%20molecules%2C%20such%20as)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4964405/#:~:text=visible%20and%20AQP4%20is%20found,arrows%20on%20glioma%20cell%20membrane)).",
+            "citations": [
+                {
+                    "reference": "Rosario Maugeri et al., Aquaporins and Brain Tumors, Intl J Mol Sci, 2016",
+                    "id": "10.3390/ijms17071029",
+                    "type": "DOI",
+                    "notes": "Review linking AQP1/AQP4 dysregulation to glioma edema and cell migration"
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.6,
+            "supporting_genes": [
+                "AQP1",
+                "AQP4"
+            ],
+            "supporting_gene_count": 2,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Astrocyte Differentiation",
+            "description": "Genes like GFAP, ALDH1L1, and ID4 are classic astrocyte markers and suggest maintenance of glial identity.  These factors support astrocyte-like polarization and intermediate filament assembly.  Astrocytic gap junctions (GJA1) and adhesion molecules (CRB2, CD44) contribute to cell\u2013cell communication and barrier functions.  In glioblastoma, an astrocyte-like program underlies tumor behavior, reflecting the origin of GBM from astroglial lineage.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0048708",
+                    "name": "astrocyte differentiation",
+                    "citation": [
+                        {
+                            "reference": "Lin et al., Diverse Astrocyte Populations and Malignant Analogs, Nat Neurosci 2017",
+                            "id": "10.1038/nn.4493",
+                            "type": "DOI",
+                            "notes": "Aldh1l1 and GFAP are used as broad astrocyte markers ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5824716/#:~:text=Strategies%20for%20dissecting%20the%20cellular,15%7D.%20By))"
+                        }
+                    ],
+                    "Genes": [
+                        "GFAP",
+                        "ALDH1L1"
+                    ],
+                    "ontology_label": "astrocyte differentiation"
+                },
+                {
+                    "ontology_id": "GO:0050808",
+                    "name": "synapse organization",
+                    "citation": [
+                        {
+                            "reference": "Lin et al., Nat Neurosci 2017",
+                            "id": "10.1038/nn.4493",
+                            "type": "DOI",
+                            "notes": "Astrocyte subpopulations support synaptogenesis; analogous subpopulations appear in glioma ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5824716/#:~:text=show%20extensive%20molecular%20diversity,of%20specific%20subpopulations%20during%20tumor))"
+                        }
+                    ],
+                    "Genes": [
+                        "GFAP",
+                        "GJA1",
+                        "CRB2"
+                    ],
+                    "ontology_label": "synapse organization"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0045111",
+                    "name": "intermediate filament cytoskeleton",
+                    "citation": [
+                        {
+                            "reference": "Potokar et al., Diversity of Intermediate Filaments in Astrocytes, Cells 2020",
+                            "id": "10.3390/cells9071604",
+                            "type": "DOI",
+                            "notes": "Astrocytes express abundant intermediate filaments (GFAP, vimentin) for structural integrity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7408014/#:~:text=roles%20of%20individual%20intermediate%20filaments,interaction%20between%20the%20cytoskeleton%20and))"
+                        }
+                    ],
+                    "Genes": [
+                        "GFAP",
+                        "ID4"
+                    ],
+                    "ontology_label": "intermediate filament cytoskeleton"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Maintenance of glial fibrillary structure",
+                "Support of astrocytic network and BBB integrity",
+                "Promotion of an astrocyte-like, reactive state"
+            ],
+            "evidence_summary": "ALDH1L1 and GFAP are established astrocyte markers ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5824716/#:~:text=Strategies%20for%20dissecting%20the%20cellular,15%7D.%20By)).  GFAP and other cytoskeletal proteins (ID4) indicate astroglial differentiation, while GJA1 and CRB2 mediate gap junction and cell polarity functions.  Astrocytic gene expression programs identified in brain persist in GBM, linking to tumor support roles ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5824716/#:~:text=Strategies%20for%20dissecting%20the%20cellular,15%7D.%20By)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5824716/#:~:text=show%20extensive%20molecular%20diversity,of%20specific%20subpopulations%20during%20tumor)).",
+            "citations": [
+                {
+                    "reference": "Lin et al., Nat Neurosci 2017",
+                    "id": "10.1038/nn.4493",
+                    "type": "DOI",
+                    "notes": "Astrocyte markers (Aldh1l1, GFAP) and their malignant counterparts support astrocyte-like programs in glioma"
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "GFAP",
+                "ALDH1L1",
+                "GJA1",
+                "ID4",
+                "CRB2",
+                "CD44"
+            ],
+            "supporting_gene_count": 6,
+            "required_components_present": true
+        },
+        {
+            "program_name": "ECM Remodeling",
+            "description": "Several metalloproteases and adhesion proteins are present that modulate the tumor extracellular matrix.  Serine protease inhibitor SERPINA3, matrix modifiers ADAMTS8/15, fibulin-5, spondin-1, collagen COL28A1, and TIMP3 suggest dynamic ECM turnover.  This program promotes glioma invasion by altering cell adhesion and degrading ECM barriers.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0030198",
+                    "name": "extracellular matrix organization",
+                    "citation": [
+                        {
+                            "reference": "Li et al., SERPINA3 facilitates GBM invasion, Oncol Lett 2017",
+                            "id": "10.3892/ol.2017.7275",
+                            "type": "DOI",
+                            "notes": "Upregulated SERPINA3 in glioma promotes GBM invasion by remodeling the ECM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5769378/#:~:text=indicated%20that%20upregulation%20of%20SERPINA3,GBM%20patients%2C%20suggesting%20that%20SERPINA))"
+                        }
+                    ],
+                    "Genes": [
+                        "ADAMTS8",
+                        "ADAMTS15",
+                        "FBLN5",
+                        "SPON1",
+                        "TIMP3"
+                    ],
+                    "ontology_label": "extracellular matrix organization"
+                },
+                {
+                    "ontology_id": "GO:0016477",
+                    "name": "cell migration via ECM",
+                    "citation": [
+                        {
+                            "reference": "Li et al., SERPINA3 facilitates GBM invasion, Oncol Lett 2017",
+                            "id": "10.3892/ol.2017.7275",
+                            "type": "DOI",
+                            "notes": "SERPINA3 overexpression is linked to invasive behavior by ECM remodeling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5769378/#:~:text=indicated%20that%20upregulation%20of%20SERPINA3,GBM%20patients%2C%20suggesting%20that%20SERPINA))"
+                        }
+                    ],
+                    "Genes": [
+                        "ADAMTS8",
+                        "SERPINA3",
+                        "CHI3L2"
+                    ],
+                    "ontology_label": "cell migration"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0005576",
+                    "name": "extracellular region",
+                    "citation": [
+                        {
+                            "reference": "Li et al., Oncol Lett 2017",
+                            "id": "10.3892/ol.2017.7275",
+                            "type": "DOI",
+                            "notes": "Secreted protease inhibitors and ECM proteins (e.g., SERPINA3) operate in the extracellular space of GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5769378/#:~:text=indicated%20that%20upregulation%20of%20SERPINA3,GBM%20patients%2C%20suggesting%20that%20SERPINA))"
+                        }
+                    ],
+                    "Genes": [
+                        "SERPINA3",
+                        "ADAMTS8",
+                        "FBLN5",
+                        "SPON1",
+                        "CHI3L2"
+                    ],
+                    "ontology_label": "extracellular region"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced matrix degradation",
+                "Reduced adhesion to extracellular scaffold",
+                "Increased invasive potential of tumor cells"
+            ],
+            "evidence_summary": "In GBM, upregulation of SERPINA3 and ADAMTS proteases has been observed; SERPINA3 drives ECM remodeling and invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5769378/#:~:text=indicated%20that%20upregulation%20of%20SERPINA3,GBM%20patients%2C%20suggesting%20that%20SERPINA)), and loss of ADAMTS8 enhances invasion (its expression inhibits glioma migration ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/37587889/#:~:text=of%20ADAMTS8%20could%20inhibit%20the,The%20upregulation%20of%20ADAMTS8%20could))).  Fibulins, TIMP3 and others suggest active ECM turnover and modified adhesion.",
+            "citations": [
+                {
+                    "reference": "Li et al., Oncol Lett 2017",
+                    "id": "10.3892/ol.2017.7275",
+                    "type": "DOI",
+                    "notes": "Evidence that SERPINA3 and ECM proteases promote GBM invasiveness"
+                },
+                {
+                    "reference": "Xiang et al., BBRC 2022",
+                    "id": "10.1016/j.bbrc.2022.01.110",
+                    "type": "DOI",
+                    "notes": "ADAMTS8 is downregulated in glioma; its upregulation inhibits invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/37587889/#:~:text=of%20ADAMTS8%20could%20inhibit%20the,The%20upregulation%20of%20ADAMTS8%20could))"
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.85,
+            "supporting_genes": [
+                "SERPINA3",
+                "ADAMTS8",
+                "ADAMTS15",
+                "FBLN5",
+                "SPON1",
+                "TIMP3",
+                "COL28A1",
+                "PAPLN"
+            ],
+            "supporting_gene_count": 8,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Innate Immune/Complement",
+            "description": "Glioblastomas engage innate immunity and inflammation. Complement factors (C3, MASP1, CFI) and acute-phase proteins (SERPINA3, CHI3L2, LTF) are expressed, signaling an inflammatory microenvironment.  Astrocyte reactivity marker C3 suggests immune modulation.  This program may influence macrophage polarization and immune evasion.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0006956",
+                    "name": "complement activation",
+                    "citation": [
+                        {
+                            "reference": "Rosberg et al., Complement C3 in GBM, JCI Insight 2024",
+                            "id": "10.1172/jci.insight.179854",
+                            "type": "DOI",
+                            "notes": "C3 is upregulated in hypoxic GBM, promoting tumor growth via macrophage polarization and correlating with worse outcome ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11466187/#:~:text=a%20strong%20link%20between%20hypoxia,using%20the%20antagonist%20SB290157%20prolonged)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11466187/#:~:text=Complement%20component%203%20,brain%20barrier))"
+                        }
+                    ],
+                    "Genes": [
+                        "C3",
+                        "MASP1",
+                        "CFI"
+                    ],
+                    "ontology_label": "complement activation"
+                },
+                {
+                    "ontology_id": "GO:0006954",
+                    "name": "inflammatory response",
+                    "citation": [
+                        {
+                            "reference": "Rosberg et al., JCI Insight 2024",
+                            "id": "10.1172/jci.insight.179854",
+                            "type": "DOI",
+                            "notes": "C3a/C3aR signaling triggers cytokine release and M2 macrophage polarization in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11466187/#:~:text=a%20strong%20link%20between%20hypoxia,using%20the%20antagonist%20SB290157%20prolonged))"
+                        }
+                    ],
+                    "Genes": [
+                        "C3",
+                        "LTF",
+                        "CHI3L2"
+                    ],
+                    "ontology_label": "inflammatory response"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0005576",
+                    "name": "extracellular region",
+                    "citation": [
+                        {
+                            "reference": "Rosberg et al., JCI Insight 2024",
+                            "id": "10.1172/jci.insight.179854",
+                            "type": "DOI",
+                            "notes": "Complement proteins and acute-phase factors are secreted into the glioma microenvironment (C3 in hypoxic niche) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11466187/#:~:text=a%20strong%20link%20between%20hypoxia,using%20the%20antagonist%20SB290157%20prolonged)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11466187/#:~:text=Complement%20component%203%20,brain%20barrier))"
+                        }
+                    ],
+                    "Genes": [
+                        "C3",
+                        "MASP1",
+                        "CFI",
+                        "LTF",
+                        "CHI3L2"
+                    ],
+                    "ontology_label": "extracellular region"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Activation of complement cascade and inflammation",
+                "Polarization of macrophages/microglia to tumor-supportive M2 state",
+                "Immune evasion via immunosuppressive signaling"
+            ],
+            "evidence_summary": "C3 and related complement components are elevated in glioblastoma, especially in hypoxic regions, and promote tumor progression by shaping immune responses ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11466187/#:~:text=a%20strong%20link%20between%20hypoxia,using%20the%20antagonist%20SB290157%20prolonged)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11466187/#:~:text=Complement%20component%203%20,brain%20barrier)).  Glioma cells and reactive astrocytes produce inflammatory mediators (e.g. LTF, CHI3L2, SERPINA3) that modulate the microenvironment.",
+            "citations": [
+                {
+                    "reference": "Rosberg et al., JCI Insight 2024",
+                    "id": "10.1172/jci.insight.179854",
+                    "type": "DOI",
+                    "notes": "Hypoxia-induced C3 expression in GBM tumors drives immunosuppressive M2 macrophage polarization ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11466187/#:~:text=a%20strong%20link%20between%20hypoxia,using%20the%20antagonist%20SB290157%20prolonged)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11466187/#:~:text=Complement%20component%203%20,brain%20barrier))"
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.75,
+            "supporting_genes": [
+                "C3",
+                "CFI",
+                "MASP1",
+                "LTF",
+                "CHI3L2"
+            ],
+            "supporting_gene_count": 5,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Ion Homeostasis",
+            "description": "Glioma cells modify ion channel and transporter expression to alter membrane potential and ionic balance. Calcium-activated K+ channel (KCNN3), Na+ channel SCN7A, Na/K ATPase (ATP1A2), and various solute carriers (SLC14A1, SLC24A4, SLC44A3) suggest dysregulated ion gradients and membrane excitability.  These changes can affect cell volume, excitability, and cell cycle.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0006811",
+                    "name": "ion transport",
+                    "citation": [
+                        {
+                            "reference": "Elias et al., Ion Channels in Gliomas, Int J Mol Sci 2023",
+                            "id": "10.3390/ijms24032530",
+                            "type": "DOI",
+                            "notes": "Review of ion channel expression in gliomas; ion transporters are differentially expressed and influence glioma pathophysiology ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9916861/#:~:text=Ion%20channels%20provide%20the%20basis,retain%20the%20ability%20to%20divide))"
+                        }
+                    ],
+                    "Genes": [
+                        "KCNN3",
+                        "SCN7A",
+                        "ATP1A2",
+                        "SLC24A4",
+                        "SLC14A1",
+                        "SLC44A3",
+                        "TTYH1",
+                        "ATP13A4"
+                    ],
+                    "ontology_label": "monoatomic ion transport"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0005886",
+                    "name": "plasma membrane",
+                    "citation": [
+                        {
+                            "reference": "Elias et al., Int J Mol Sci 2023",
+                            "id": "10.3390/ijms24032530",
+                            "type": "DOI",
+                            "notes": "Ion channels and transporters are localized to the cell membrane, where they affect glioma cell ionic balance ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9916861/#:~:text=Ion%20channels%20provide%20the%20basis,retain%20the%20ability%20to%20divide))"
+                        }
+                    ],
+                    "Genes": [
+                        "KCNN3",
+                        "SCN7A",
+                        "ATP1A2",
+                        "SLC24A4",
+                        "SLC14A1",
+                        "SLC44A3",
+                        "TTYH1",
+                        "ATP13A4"
+                    ],
+                    "ontology_label": "plasma membrane"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Altered membrane potential regulation",
+                "Modified Ca2+ signaling and cell cycle control",
+                "Adapted cell volume regulation aiding invasion"
+            ],
+            "evidence_summary": "Glioma cells show dysregulated ion channel expression; for example, KCNN3 (SK3) channels are implicated in GBM cell migration and proliferation.  Broadly, ion transport genes are enriched and affect proliferation and invasion in glioma ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9916861/#:~:text=Ion%20channels%20provide%20the%20basis,retain%20the%20ability%20to%20divide)).",
+            "citations": [
+                {
+                    "reference": "Elias et al., Int J Mol Sci 2023",
+                    "id": "10.3390/ijms24032530",
+                    "type": "DOI",
+                    "notes": "Comprehensive review linking ion channel dysregulation to glioma growth, invasion, and therapy resistance"
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "KCNN3",
+                "SCN7A",
+                "ATP1A2",
+                "SLC24A4",
+                "SLC14A1",
+                "SLC44A3",
+                "TTYH1",
+                "ATP13A4"
+            ],
+            "supporting_gene_count": 8,
+            "required_components_present": false
+        }
+    ],
+    "version": "2025-10-07"
+}

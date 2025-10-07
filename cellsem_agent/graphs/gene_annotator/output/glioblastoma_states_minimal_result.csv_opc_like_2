@@ -1,0 +1,15 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+myelination,GO:0042552,myelination,GO,1.0,exact_match
+myelin sheath,GO:0043209,myelin sheath,GO,1.0,exact_match
+extracellular matrix organization,GO:0030198,extracellular matrix organization,GO,1.0,exact_match
+angiogenesis,GO:0001525,angiogenesis,GO,1.0,exact_match
+cell adhesion,GO:0007155,cell adhesion,GO,1.0,exact_match
+extracellular matrix,GO:0031012,extracellular matrix,GO,1.0,exact_match
+cell surface receptor complex,GO:0007166,cell surface receptor signaling pathway,GO,0.8,synonym_match
+purinergic receptor signaling,GO:0035590,purinergic nucleotide receptor signaling pathway,GO,1.0,exact_match
+plasma membrane,GO:0005886,plasma membrane,GO,1.0,exact_match
+BMP signaling pathway,GO:0030509,BMP signaling pathway,GO,1.0,exact_match
+extracellular region,GO:0005576,extracellular region,GO,1.0,exact_match
+cell proliferation,GO:0008283,cell population proliferation,GO,1.0,exact_match
+homologous recombination,GO:0035825,homologous recombination,GO,1.0,exact_match
+nucleus,GO:0005634,nucleus,GO,1.0,exact_match

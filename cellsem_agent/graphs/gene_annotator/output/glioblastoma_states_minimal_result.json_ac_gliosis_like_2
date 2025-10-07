@@ -1,0 +1,505 @@
+{
+    "context": {
+        "cell_type": "astrocyte-derived tumor cell",
+        "disease": "glioblastoma",
+        "tissue": "brain"
+    },
+    "input_genes": [
+        "POSTN",
+        "KIAA1211L",
+        "CPNE4",
+        "HMGA2",
+        "TRPM8",
+        "CYTOR",
+        "RGS6",
+        "RPH3A",
+        "CCN4",
+        "ADAMTS9-AS1",
+        "SPRY1",
+        "LEF1",
+        "VAT1L",
+        "COL22A1",
+        "MIR4435-2HG",
+        "AC000065.1",
+        "CPED1",
+        "ARHGAP6",
+        "TRPM3",
+        "ANGPT1",
+        "ALK",
+        "CA2",
+        "SERPINE1",
+        "CHRM3-AS2",
+        "ITGA3",
+        "KIRREL3",
+        "RUBCNL",
+        "SLA",
+        "CCDC175",
+        "SHISA6",
+        "AC064875.1",
+        "SNED1",
+        "SPRY4",
+        "RBPMS",
+        "EMP1",
+        "LINC02832",
+        "LINC02742",
+        "HOPX",
+        "IQGAP2",
+        "GDF15",
+        "IRAK2",
+        "ST8SIA5",
+        "HIVEP3",
+        "TMEM154",
+        "COL19A1"
+    ],
+    "programs": [
+        {
+            "program_name": "ECM Remodeling and Invasion",
+            "description": "Upregulation of ECM components and modifiers promotes glioblastoma cell migration and tumor microenvironment remodeling",
+            "atomic_biological_processes": [
+                {
+                    "name": "extracellular matrix organization",
+                    "ontology_id": "GO:0030198",
+                    "citation": [
+                        {
+                            "reference": "Zhou et al., Nat Cell Biol (2015)",
+                            "id": "PMID:25580734",
+                            "type": "PMID",
+                            "notes": "POSTN secreted by glioma stem cells recruits immune cells to tumor stroma, implicating ECM interactions ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4312504/#:~:text=TAMs%20in%20GBMs%20are%20not,mediated%20TAM%20recruitment))"
+                        },
+                        {
+                            "reference": "Seker et al., Cancers (Basel) (2019)",
+                            "id": "PMID:31731490",
+                            "type": "PMID",
+                            "notes": "SERPINE1 modulates cell adhesion and matrix, regulating GBM dispersal ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=derived%20orthotopic%20GBM%20model,invasive%20therapy%20design))"
+                        }
+                    ],
+                    "Genes": [
+                        "POSTN",
+                        "CCN4",
+                        "SERPINE1"
+                    ],
+                    "ontology_label": "extracellular matrix organization"
+                },
+                {
+                    "name": "cell migration",
+                    "ontology_id": "GO:0016477",
+                    "citation": [
+                        {
+                            "reference": "Seker et al., Cancers (Basel) (2019)",
+                            "id": "PMID:31731490",
+                            "type": "PMID",
+                            "notes": "SERPINE1 drives glioblastoma cell dispersal (migration) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=derived%20orthotopic%20GBM%20model,invasive%20therapy%20design))"
+                        }
+                    ],
+                    "Genes": [
+                        "POSTN",
+                        "SERPINE1"
+                    ],
+                    "ontology_label": "cell migration"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "extracellular matrix",
+                    "ontology_id": "GO:0031012",
+                    "citation": [
+                        {
+                            "reference": "Zhou et al., Nat Cell Biol (2015)",
+                            "id": "PMID:25580734",
+                            "type": "PMID",
+                            "notes": "POSTN is secreted and localized to ECM regions in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4312504/#:~:text=TAMs%20in%20GBMs%20are%20not,mediated%20TAM%20recruitment))"
+                        },
+                        {
+                            "reference": "Seker et al., Cancers (Basel) (2019)",
+                            "id": "PMID:31731490",
+                            "type": "PMID",
+                            "notes": "SERPINE1 affects cell-surface interactions with matrix during invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=derived%20orthotopic%20GBM%20model,invasive%20therapy%20design))"
+                        }
+                    ],
+                    "Genes": [
+                        "POSTN",
+                        "CCN4",
+                        "SERPINE1"
+                    ],
+                    "ontology_label": "extracellular matrix"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "enhanced extracellular matrix deposition",
+                "increased glioblastoma cell motility and invasion"
+            ],
+            "evidence_summary": "Glioblastoma cells often overexpress ECM and adhesion factors. POSTN is secreted by glioma stem-like cells to recruit TAMs and enhance invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4312504/#:~:text=TAMs%20in%20GBMs%20are%20not,mediated%20TAM%20recruitment)). Similarly, SERPINE1 (PAI-1) is highly upregulated in dispersive GBM cells, and its inhibition reduces invasion and adhesion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=derived%20orthotopic%20GBM%20model,invasive%20therapy%20design)). CCN4 (WISP1) is another matricellular protein, likely reinforcing this program. Together, these genes point to a robust ECM remodeling/invasion program in GBM.",
+            "citations": [
+                {
+                    "reference": "Zhou et al., Nat Cell Biol (2015)",
+                    "id": "PMID:25580734",
+                    "type": "PMID",
+                    "notes": "POSTN secreted by glioma stem cells recruits TAMs, linking ECM to tumor-supportive microenvironment ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4312504/#:~:text=TAMs%20in%20GBMs%20are%20not,mediated%20TAM%20recruitment))"
+                },
+                {
+                    "reference": "Seker et al., Cancers (Basel) (2019)",
+                    "id": "PMID:31731490",
+                    "type": "PMID",
+                    "notes": "SERPINE1 identified as a key regulator of GBM cell dispersal/invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=derived%20orthotopic%20GBM%20model,invasive%20therapy%20design))"
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.85,
+            "supporting_genes": [
+                "POSTN",
+                "CCN4",
+                "SERPINE1"
+            ],
+            "supporting_gene_count": 3,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Ion Channel\u2013Mediated Calcium Signaling",
+            "description": "Upregulated TRPM channels drive Ca^{2+} influx, promoting GBM cell migration and survival under stress",
+            "atomic_biological_processes": [
+                {
+                    "name": "calcium ion transmembrane transport",
+                    "ontology_id": "GO:0070588",
+                    "citation": [
+                        {
+                            "reference": "Klumpp et al., Oncotarget (2017)",
+                            "id": "PMID:29221175",
+                            "type": "PMID",
+                            "notes": "TRPM8 upregulation in GBM increases Ca^{2+} entry, affecting cell migration and survival ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5707069/#:~:text=healing%20assay%2C%20colony%20formation%20assay%2C,of%20human%20glioblastoma%20and%2C%20therefore)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5707069/#:~:text=moving%20the%20glioblastoma%20cell%20along,demonstrated%20to%20be%20required%20for))"
+                        }
+                    ],
+                    "Genes": [
+                        "TRPM8",
+                        "TRPM3"
+                    ],
+                    "ontology_label": "calcium ion transmembrane transport"
+                },
+                {
+                    "name": "cell migration",
+                    "ontology_id": "GO:0016477",
+                    "citation": [
+                        {
+                            "reference": "Klumpp et al., Oncotarget (2017)",
+                            "id": "PMID:29221175",
+                            "type": "PMID",
+                            "notes": "TRPM8 channel activation accelerates glioblastoma cell migration and chemotaxis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5707069/#:~:text=healing%20assay%2C%20colony%20formation%20assay%2C,of%20human%20glioblastoma%20and%2C%20therefore)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5707069/#:~:text=moving%20the%20glioblastoma%20cell%20along,demonstrated%20to%20be%20required%20for))"
+                        }
+                    ],
+                    "Genes": [
+                        "TRPM8"
+                    ],
+                    "ontology_label": "cell migration"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "ion channel complex",
+                    "ontology_id": "GO:0034702",
+                    "citation": [
+                        {
+                            "reference": "Klumpp et al., Oncotarget (2017)",
+                            "id": "PMID:29221175",
+                            "type": "PMID",
+                            "notes": "TRPM8 is a plasma membrane Ca^{2+}-permeable TRP channel overexpressed in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5707069/#:~:text=healing%20assay%2C%20colony%20formation%20assay%2C,of%20human%20glioblastoma%20and%2C%20therefore))"
+                        }
+                    ],
+                    "Genes": [
+                        "TRPM8",
+                        "TRPM3"
+                    ],
+                    "ontology_label": "monoatomic ion channel complex"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "enhanced intracellular Ca^{2+} signaling",
+                "increased cell motility and chemotaxis",
+                "heightened radioresistance"
+            ],
+            "evidence_summary": "Glioblastoma cells often overexpress TRP channels. TRPM8 is upregulated in GBM and mediates Ca^{2+} influx that promotes BK channel activity, migration, and survival ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5707069/#:~:text=healing%20assay%2C%20colony%20formation%20assay%2C,of%20human%20glioblastoma%20and%2C%20therefore)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5707069/#:~:text=moving%20the%20glioblastoma%20cell%20along,demonstrated%20to%20be%20required%20for)). Inhibition or knockdown of TRPM8 reduces migration, impairs Ca^{2+}-dependent signaling, and radiosensitizes GBM cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5707069/#:~:text=healing%20assay%2C%20colony%20formation%20assay%2C,of%20human%20glioblastoma%20and%2C%20therefore)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5707069/#:~:text=moving%20the%20glioblastoma%20cell%20along,demonstrated%20to%20be%20required%20for)). Conversely, loss of TRPM3 (via promoter methylation) correlates with increased stemness and migration, suggesting TRPM3 normally restrains malignancy ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8076903/#:~:text=Moreover%2C%20the%20loss%20of%20TRPM3%2C,TRPM3%20and%20the%20indirect%20regulatory)). Together, an imbalance of TRPM channels modulates GBM invasiveness and therapy resistance.",
+            "citations": [
+                {
+                    "reference": "Klumpp et al., Oncotarget (2017)",
+                    "id": "PMID:29221175",
+                    "type": "PMID",
+                    "notes": "TRPM8 mediates Ca^{2+}-entry, promoting glioblastoma cell migration and radioresistance ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5707069/#:~:text=healing%20assay%2C%20colony%20formation%20assay%2C,of%20human%20glioblastoma%20and%2C%20therefore)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5707069/#:~:text=moving%20the%20glioblastoma%20cell%20along,demonstrated%20to%20be%20required%20for))"
+                },
+                {
+                    "reference": "Klumpp et al., Oncotarget (2017)",
+                    "id": "PMID:29221175",
+                    "type": "PMID",
+                    "notes": "Pharmacologic or genetic TRPM8 inhibition slows chemotaxis and sensitizes GBM cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5707069/#:~:text=healing%20assay%2C%20colony%20formation%20assay%2C,of%20human%20glioblastoma%20and%2C%20therefore)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5707069/#:~:text=moving%20the%20glioblastoma%20cell%20along,demonstrated%20to%20be%20required%20for))"
+                },
+                {
+                    "reference": "Gkika et al., Cancers (2020)",
+                    "id": "PMID:32676833",
+                    "type": "PMID",
+                    "notes": "Loss of TRPM3 (and host miR-204) in high-grade gliomas is associated with enhanced stemness and migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8076903/#:~:text=Moreover%2C%20the%20loss%20of%20TRPM3%2C,TRPM3%20and%20the%20indirect%20regulatory))"
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "TRPM8",
+                "TRPM3"
+            ],
+            "supporting_gene_count": 2,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Receptor Tyrosine Kinase/\u03b2-Catenin Signaling",
+            "description": "Dysregulated RTK signaling and Wnt pathway effectors promote proliferation, stemness, and EMT in GBM",
+            "atomic_biological_processes": [
+                {
+                    "name": "receptor tyrosine kinase signaling pathway",
+                    "ontology_id": "GO:0007169",
+                    "citation": [
+                        {
+                            "reference": "Meyer et al., Clin Cancer Res (2023)",
+                            "id": "PMID:36780194",
+                            "type": "PMID",
+                            "notes": "ALK fusions in GBMs activate ERK and STAT3 pro-growth pathways ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10363218/#:~:text=ALK%20fusions%20were%20present%20as,brain%20development%20was%20seen%20in))"
+                        },
+                        {
+                            "reference": "Park et al., IBRO Neurosc Rep (2022)",
+                            "id": "PMID:35910677",
+                            "type": "PMID",
+                            "notes": "SPRY1 modulates RTK signaling in glioma stem cells, affecting stemness and growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9334334/#:~:text=glioma%20cells%2C%20and%20differentiated%20glioma,stemness%20and%20aggressiveness%20of%20GBM))"
+                        }
+                    ],
+                    "Genes": [
+                        "ALK",
+                        "SPRY1",
+                        "SPRY4"
+                    ],
+                    "ontology_label": "cell surface receptor protein tyrosine kinase signaling pathway"
+                },
+                {
+                    "name": "MAPK cascade",
+                    "ontology_id": "GO:0000165",
+                    "citation": [
+                        {
+                            "reference": "Sun et al., PubMed (2020)",
+                            "id": "PMID:32618153",
+                            "type": "PMID",
+                            "notes": "SPRY4 suppresses GBM invasion by blocking FGFR/Ras-ERK signaling and MMP9 expression ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/32618153/#:~:text=Results%3A%20SPRY4%20mRNAs%20in%20GBMs,induced%20MMP9%20expression))"
+                        },
+                        {
+                            "reference": "Meyer et al., Clin Cancer Res (2023)",
+                            "id": "PMID:36780194",
+                            "type": "PMID",
+                            "notes": "Novel ALK fusions in infant and adult GBM promote ERK1/2 activation and tumor transformation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10363218/#:~:text=ALK%20fusions%20were%20present%20as,brain%20development%20was%20seen%20in))"
+                        }
+                    ],
+                    "Genes": [
+                        "ALK",
+                        "SPRY1",
+                        "SPRY4"
+                    ],
+                    "ontology_label": "MAPK cascade"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "plasma membrane",
+                    "ontology_id": "GO:0005886",
+                    "citation": [
+                        {
+                            "reference": "Meyer et al., Clin Cancer Res (2023)",
+                            "id": "PMID:36780194",
+                            "type": "PMID",
+                            "notes": "ALK encodes a receptor tyrosine kinase acting at the cell membrane in brain tumors ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10363218/#:~:text=ALK%20fusions%20were%20present%20as,brain%20development%20was%20seen%20in))"
+                        }
+                    ],
+                    "Genes": [
+                        "ALK"
+                    ],
+                    "ontology_label": "plasma membrane"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "elevated MAPK/ERK and STAT signaling",
+                "increased cancer stem cell-like properties",
+                "suppressed apoptosis",
+                "enhanced invasion"
+            ],
+            "evidence_summary": "Genes in this cluster mediate RTK and Wnt signaling. ALK oncogenic fusions activate downstream ERK1/2 and STAT3 pathways in gliomas ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10363218/#:~:text=ALK%20fusions%20were%20present%20as,brain%20development%20was%20seen%20in)). Sprouty proteins are endogenous modulators of RTK signaling; SPRY4 acts as a suppressor of FGFR/Ras-ERK and MMP9 (reducing invasion) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/32618153/#:~:text=Results%3A%20SPRY4%20mRNAs%20in%20GBMs,induced%20MMP9%20expression)), whereas SPRY1 is implicated in sustaining glioma stem cell growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9334334/#:~:text=glioma%20cells%2C%20and%20differentiated%20glioma,stemness%20and%20aggressiveness%20of%20GBM)). LEF1 (below) is a TCF family TF in Wnt/\u03b2-catenin. Overall, this program suggests hyperactive RTK-MAPK and Wnt pathways driving proliferation and stemness in GBM.",
+            "citations": [
+                {
+                    "reference": "Meyer et al., Clin Cancer Res (2023)",
+                    "id": "PMID:36780194",
+                    "type": "PMID",
+                    "notes": "ALK gene rearrangements activate MAPK/ERK and STAT3 pathways in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10363218/#:~:text=ALK%20fusions%20were%20present%20as,brain%20development%20was%20seen%20in))"
+                },
+                {
+                    "reference": "Sun et al., Exp Ther Med (2020)",
+                    "id": "PMID:32618153",
+                    "type": "PMID",
+                    "notes": "SPRY4 inhibits ERK phosphorylation and MMP9 to suppress GBM invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/32618153/#:~:text=Results%3A%20SPRY4%20mRNAs%20in%20GBMs,induced%20MMP9%20expression))"
+                },
+                {
+                    "reference": "Park et al., IBRO Neurosci Reports (2022)",
+                    "id": "PMID:35910677",
+                    "type": "PMID",
+                    "notes": "SPRY1 is highly expressed in glioma stem cells and promotes their proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9334334/#:~:text=glioma%20cells%2C%20and%20differentiated%20glioma,stemness%20and%20aggressiveness%20of%20GBM))"
+                }
+            ],
+            "confidence_score": 0.75,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "ALK",
+                "SPRY1",
+                "SPRY4"
+            ],
+            "supporting_gene_count": 3,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Proliferation and Survival Signaling",
+            "description": "Activation of PI3K/Akt pathways fosters GBM growth and survival",
+            "atomic_biological_processes": [
+                {
+                    "name": "positive regulation of cell proliferation",
+                    "ontology_id": "GO:0008284",
+                    "citation": [
+                        {
+                            "reference": "Zhang et al., Cell Physiol Biochem (2019)",
+                            "id": "PMID:31233190",
+                            "type": "PMID",
+                            "notes": "EMP1 knockdown reduces GBM cell proliferation in vitro ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31233190/#:~:text=Rembrandt%20and%20CGGA%20databases%20for,for%20the%20treatment%20of%20GBM))"
+                        }
+                    ],
+                    "Genes": [
+                        "EMP1"
+                    ],
+                    "ontology_label": "positive regulation of cell population proliferation"
+                },
+                {
+                    "name": "PI3K signaling",
+                    "ontology_id": "GO:0043491",
+                    "citation": [
+                        {
+                            "reference": "Zhang et al., Cell Physiol Biochem (2019)",
+                            "id": "PMID:31233190",
+                            "type": "PMID",
+                            "notes": "EMP1 drives GBM progression via the PI3K/Akt/mTOR pathway ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31233190/#:~:text=Rembrandt%20and%20CGGA%20databases%20for,for%20the%20treatment%20of%20GBM))"
+                        }
+                    ],
+                    "Genes": [
+                        "EMP1"
+                    ],
+                    "ontology_label": "phosphatidylinositol 3-kinase/protein kinase B signal transduction"
+                }
+            ],
+            "atomic_cellular_components": [],
+            "predicted_cellular_impact": [
+                "increased PI3K/AKT pathway activation",
+                "enhanced proliferation and invasive potential",
+                "resistance to apoptosis"
+            ],
+            "evidence_summary": "EMP1 (epithelial membrane protein 1) is overexpressed in higher-grade gliomas and promotes proliferation and invasion via activation of the PI3K/AKT/mTOR axis ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31233190/#:~:text=Rembrandt%20and%20CGGA%20databases%20for,for%20the%20treatment%20of%20GBM)). Knockdown of EMP1 impairs GBM cell growth and reduces invasion, indicating its role in sustaining tumor survival and dissemination ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31233190/#:~:text=Rembrandt%20and%20CGGA%20databases%20for,for%20the%20treatment%20of%20GBM)).",
+            "citations": [
+                {
+                    "reference": "Zhang et al., Cell Physiol Biochem (2019)",
+                    "id": "PMID:31233190",
+                    "type": "PMID",
+                    "notes": "EMP1 is upregulated in GBM, and its silencing inhibits proliferation and invasion via PI3K/AKT pathway ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31233190/#:~:text=Rembrandt%20and%20CGGA%20databases%20for,for%20the%20treatment%20of%20GBM))"
+                }
+            ],
+            "confidence_score": 0.5,
+            "significance_score": 0.6,
+            "supporting_genes": [
+                "EMP1"
+            ],
+            "supporting_gene_count": 1,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Wnt/\u03b2-Catenin Pathway",
+            "description": "Constitutive Wnt signaling through LEF1 drives transcription of growth and EMT genes",
+            "atomic_biological_processes": [
+                {
+                    "name": "canonical Wnt signaling pathway",
+                    "ontology_id": "GO:0060070",
+                    "citation": [
+                        {
+                            "reference": "Pe\u0107ina-\u0160laus and Kafka, CNS Oncol (2015)",
+                            "id": "PMID:26497968",
+                            "type": "PMID",
+                            "notes": "LEF1 is highly expressed in GBM and marks active canonical Wnt/\u03b2-catenin signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6083946/#:~:text=factors,045%29%2C%20LEF1))"
+                        }
+                    ],
+                    "Genes": [
+                        "LEF1"
+                    ],
+                    "ontology_label": "canonical Wnt signaling pathway"
+                }
+            ],
+            "atomic_cellular_components": [],
+            "predicted_cellular_impact": [
+                "enhanced transcription of Wnt target genes (e.g., Cyclin D1, c-Myc)",
+                "maintenance of stem-like and proliferative state"
+            ],
+            "evidence_summary": "LEF1 is a TCF/LEF family transcription factor that mediates Wnt/\u03b2-catenin signaling. Studies show LEF1 is upregulated in GBM cells, with strong nuclear LEF1 expression distinguishing high-grade gliomas  ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6083946/#:~:text=factors,045%29%2C%20LEF1)). Active Wnt/LEF1 signaling induces proliferative and EMT-related genes, contributing to GBM aggressiveness. ",
+            "citations": [
+                {
+                    "reference": "Pe\u0107ina-\u0160laus and Kafka, CNS Oncol (2015)",
+                    "id": "PMID:26497968",
+                    "type": "PMID",
+                    "notes": "LEF1 expression is significantly higher in GBM than in lower-grade astrocytomas, indicating activated Wnt signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6083946/#:~:text=factors,045%29%2C%20LEF1))"
+                }
+            ],
+            "confidence_score": 0.5,
+            "significance_score": 0.6,
+            "supporting_genes": [
+                "LEF1"
+            ],
+            "supporting_gene_count": 1,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Angiogenesis",
+            "description": "Upregulated angiopoietin and extracellular cues promote tumor vascularization",
+            "atomic_biological_processes": [
+                {
+                    "name": "angiogenesis",
+                    "ontology_id": "GO:0001525",
+                    "citation": [
+                        {
+                            "reference": "Rong et al., Cancer Res (2000)",
+                            "id": "PMID:11304469",
+                            "type": "PMID",
+                            "notes": "Angiopoietin-1 (ANGPT1) secreted by glioma cells induces endothelial cell reorganization and cord formation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/11304469/#:~:text=glioblastoma%20cell%20lines%20producing%20Ang1,the%20differentiation%20phase%20of%20angiogenesis))"
+                        }
+                    ],
+                    "Genes": [
+                        "ANGPT1"
+                    ],
+                    "ontology_label": "angiogenesis"
+                }
+            ],
+            "atomic_cellular_components": [],
+            "predicted_cellular_impact": [
+                "enhanced blood vessel formation",
+                "improved nutrient supply to tumor",
+                "cooperative signaling with VEGF"
+            ],
+            "evidence_summary": "ANGPT1 is a secreted ligand for the Tie2 receptor on endothelial cells. It is expressed in GBM and promotes the maturation and organization of new blood vessels ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/11304469/#:~:text=glioblastoma%20cell%20lines%20producing%20Ang1,the%20differentiation%20phase%20of%20angiogenesis)). In vitro, exposure of endothelial cells to ANGPT1 induces spreading and formation of capillary-like structures ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/11304469/#:~:text=glioblastoma%20cell%20lines%20producing%20Ang1,the%20differentiation%20phase%20of%20angiogenesis)). Thus, increased ANGPT1 suggests a pro-angiogenic program in malignant gliomas.",
+            "citations": [
+                {
+                    "reference": "Rong et al., Cancer Res (2000)",
+                    "id": "PMID:11304469",
+                    "type": "PMID",
+                    "notes": "ANGPT1 produced by GBM cells drives differentiation of ECs into cordlike structures, indicating a pro-angiogenic role ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/11304469/#:~:text=glioblastoma%20cell%20lines%20producing%20Ang1,the%20differentiation%20phase%20of%20angiogenesis))"
+                }
+            ],
+            "confidence_score": 0.4,
+            "significance_score": 0.5,
+            "supporting_genes": [
+                "ANGPT1"
+            ],
+            "supporting_gene_count": 1,
+            "required_components_present": false
+        }
+    ],
+    "version": "1.0"
+}

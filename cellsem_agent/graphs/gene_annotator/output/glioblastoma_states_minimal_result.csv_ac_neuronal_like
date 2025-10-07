@@ -1,0 +1,9 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+immune response,GO:0006955,immune response,GO,1.0,exact_match
+immune synapse,GO:0001772,immunological synapse,GO,1.0,exact_match
+synapse assembly,GO:0007416,synapse assembly,GO,1.0,exact_match
+synapse,GO:0045202,synapse,GO,1.0,exact_match
+extracellular matrix organization,GO:0030198,extracellular matrix organization,GO,1.0,exact_match
+extracellular matrix,GO:0031012,extracellular matrix,GO,1.0,exact_match
+neuron differentiation,GO:0030182,neuron differentiation,GO,1.0,exact_match
+nucleus,GO:0005634,nucleus,GO,1.0,exact_match

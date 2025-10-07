@@ -1,0 +1,14 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+synaptic vesicle exocytosis,GO:0016079,synaptic vesicle exocytosis,GO,1.0,exact_match
+presynaptic active zone,GO:0048786,presynaptic active zone,GO,1.0,exact_match
+homophilic cell adhesion,GO:0007156,homophilic cell adhesion via plasma membrane adhesion molecules,GO,0.95,exact_match
+plasma membrane,GO:0005886,plasma membrane,GO,1.0,exact_match
+ion transmembrane transport,GO:0034220,monoatomic ion transmembrane transport,GO,0.95,exact_match
+neurotransmitter secretion,GO:0007269,neurotransmitter secretion,GO,1.0,exact_match
+ion channel complex,GO:0034702,monoatomic ion channel complex,GO,0.95,exact_match
+axon guidance,GO:0007411,axon guidance,GO,1.0,exact_match
+growth cone,GO:0030426,growth cone,GO,1.0,exact_match
+extracellular matrix organization,GO:0030198,extracellular matrix organization,GO,1.0,exact_match
+extracellular region,GO:0005576,extracellular region,GO,1.0,exact_match
+neuron differentiation,GO:0030182,neuron differentiation,GO,1.0,exact_match
+nucleus,GO:0005634,nucleus,GO,1.0,exact_match

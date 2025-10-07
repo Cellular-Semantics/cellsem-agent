@@ -1,0 +1,586 @@
+{
+    "context": {
+        "cell_type": "astrocytes",
+        "disease": "glioblastoma",
+        "tissue": "brain"
+    },
+    "input_genes": [
+        "AFAP1L2",
+        "COL4A3",
+        "FERMT1",
+        "VIPR2",
+        "AL512308.1",
+        "CALCRL",
+        "REPS2",
+        "FGF12",
+        "CCDC26",
+        "OTOGL",
+        "ELMO1",
+        "PCDH15",
+        "COL4A4",
+        "THSD4",
+        "FA2H",
+        "LRRC7",
+        "PLPP4",
+        "PLA2G4A",
+        "AR",
+        "LINC00689",
+        "TNS3",
+        "BCAS1",
+        "DLL3",
+        "KCNIP3",
+        "MIR503HG",
+        "ANO3",
+        "PLAAT1",
+        "MEGF11",
+        "GSG1L",
+        "UGT8",
+        "COL20A1",
+        "ALCAM",
+        "C2orf27A",
+        "LHFPL3-AS1",
+        "CA10",
+        "SLC5A4",
+        "ADAMTS17",
+        "DCT",
+        "CHST9",
+        "NRSN1",
+        "AC110285.1",
+        "CCND1",
+        "TRPC4",
+        "TACR1",
+        "TNR",
+        "SOX6",
+        "PDE4A",
+        "GPR17",
+        "ARPP21",
+        "MYRF"
+    ],
+    "programs": [
+        {
+            "program_name": "ECM Remodeling & Adhesion",
+            "description": "Multiple collagen IV chains (COL4A3, COL4A4), other ECM proteins (THSD4, COL20A1) and ECM regulators (ADAMTS17, CHST9) suggest active extracellular matrix organization. Adhesion molecules (ALCAM, PCDH15, FERMT1, TNS3) and integrin-associated factors indicate enhanced cell adhesion. In malignant glioblastoma, elevated ECM deposition and remodeling drive tumor invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10046791/#:~:text=blockage%20%20,great%20interest%20in%20GBM%20treatment)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3452333/#:~:text=Downregulation%20of%20ALCAM%20expression%20on,ALCAM%20siRNA%E2%80%93transfected%20and%20negative%20control)).",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0030198",
+                    "name": "extracellular matrix organization",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Caffo et al. Collagen IV in GBM.",
+                            "id": "",
+                            "type": "",
+                            "notes": "Glioblastoma cells produce type IV collagen, indicating active ECM assembly ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10046791/#:~:text=blockage%20%20,great%20interest%20in%20GBM%20treatment))"
+                        }
+                    ],
+                    "Genes": [
+                        "COL4A3",
+                        "COL4A4",
+                        "COL20A1",
+                        "THSD4",
+                        "ADAMTS17",
+                        "CHST9"
+                    ]
+                },
+                {
+                    "ontology_id": "GO:0007155",
+                    "name": "cell adhesion",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Kijima et al., Neuro Oncol 2011",
+                            "id": "",
+                            "type": "",
+                            "notes": "ALCAM knockdown increases GBM invasion, implicating ALCAM in cell adhesion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3452333/#:~:text=Downregulation%20of%20ALCAM%20expression%20on,ALCAM%20siRNA%E2%80%93transfected%20and%20negative%20control))"
+                        }
+                    ],
+                    "Genes": [
+                        "ALCAM",
+                        "PCDH15",
+                        "FERMT1",
+                        "TNS3"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0031012",
+                    "name": "extracellular matrix",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Caffo et al. 2004",
+                            "id": "",
+                            "type": "",
+                            "notes": "Glioblastoma cells produce collagen IV in vitro, contributing to the ECM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10046791/#:~:text=blockage%20%20,great%20interest%20in%20GBM%20treatment))"
+                        }
+                    ],
+                    "Genes": [
+                        "COL4A3",
+                        "COL4A4",
+                        "COL20A1",
+                        "THSD4"
+                    ]
+                },
+                {
+                    "ontology_id": "GO:0005925",
+                    "name": "focal adhesion",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Fust\u00e9 et al., Sci Rep 2019",
+                            "id": "",
+                            "type": "",
+                            "notes": "Cyclin D1 induces focal adhesion kinase and paxillin, linking adhesion to invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30957234/#:~:text=activates%20the%20invasion%20of%20primary,GBM%20dissemination%20through%20cytoplasmic%20and))"
+                        }
+                    ],
+                    "Genes": [
+                        "FERMT1",
+                        "TNS3"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "increased ECM deposition enabling tumor invasion",
+                "enhanced focal adhesion signaling"
+            ],
+            "evidence_summary": "Glioblastoma cells characteristically overproduce type IV collagens and other matrix proteins, increasing ECM density ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10046791/#:~:text=blockage%20%20,great%20interest%20in%20GBM%20treatment)). Adhesion receptors like ALCAM and integrin regulators (FERMT1, TNS3) are present; ALCAM downregulation enhances invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3452333/#:~:text=Downregulation%20of%20ALCAM%20expression%20on,ALCAM%20siRNA%E2%80%93transfected%20and%20negative%20control)). Together these suggest heightened cell-ECM interactions and motility.",
+            "citations": [
+                {
+                    "reference": "Caffo et al., J Neurooncol 2004",
+                    "id": "",
+                    "type": "",
+                    "notes": "Evidence of collagen IV production by GBM cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10046791/#:~:text=blockage%20%20,great%20interest%20in%20GBM%20treatment))."
+                },
+                {
+                    "reference": "Kijima et al., Neuro Oncol 2011",
+                    "id": "",
+                    "type": "",
+                    "notes": "ALCAM involvement in GBM invasion via cell adhesion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3452333/#:~:text=Downregulation%20of%20ALCAM%20expression%20on,ALCAM%20siRNA%E2%80%93transfected%20and%20negative%20control))."
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "COL4A3",
+                "COL4A4",
+                "COL20A1",
+                "THSD4",
+                "ADAMTS17",
+                "CHST9",
+                "ALCAM",
+                "PCDH15",
+                "FERMT1",
+                "TNS3",
+                "PLA2G4A"
+            ],
+            "supporting_gene_count": 11,
+            "required_components_present": true
+        },
+        {
+            "program_name": "GPCR/Ca2+ Signaling",
+            "description": "G-protein coupled receptors (VIPR2, CALCRL, TACR1) and ion channels (TRPC4, ANO3, KCNIP3) suggest active GPCR/Ca^{2+}-mediated signaling. VIPR2 and CALCRL activation drives PI3K/Akt and proliferation pathways, while GPR17 (in clustered program) modulates survival ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/36237322/#:~:text=MCF,related%20protein%203%2C%20and%20actin)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/36618798/#:~:text=CALCRL%20expression%20was%20highest%20in,apoptosis%20rate%20was%20significantly%20increased)). Altered intracellular Ca^{2+} (via TRP channels, ANO3 chloride channel) likely impacts migration. ",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0007186",
+                    "name": "G-protein coupled receptor signaling pathway",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Asano et al., Cancers 2022",
+                            "id": "",
+                            "type": "",
+                            "notes": "VIPR2 (GPCR) activation promotes tumor cell migration via PI3K/WAVE2 actin signaling ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/36237322/#:~:text=MCF,related%20protein%203%2C%20and%20actin))"
+                        }
+                    ],
+                    "Genes": [
+                        "VIPR2",
+                        "CALCRL",
+                        "TACR1"
+                    ]
+                },
+                {
+                    "ontology_id": "GO:0019722",
+                    "name": "calcium-mediated signaling",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Doan et al., Cancers 2021",
+                            "id": "",
+                            "type": "",
+                            "notes": "GPR17 (a GPCR) triggers MAPK/PI3K pathways and cell cycle arrest in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8345100/#:~:text=mechanism%20of%20action%20of%20the,barrier%20and%20reduces%20tumor%20volume))"
+                        }
+                    ],
+                    "Genes": [
+                        "TRPC4",
+                        "ANO3",
+                        "KCNIP3"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0005886",
+                    "name": "plasma membrane",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Asano et al., Cancers 2022",
+                            "id": "",
+                            "type": "",
+                            "notes": "VIPR2 and other receptors localize to membrane to drive signaling ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/36237322/#:~:text=MCF,related%20protein%203%2C%20and%20actin))"
+                        }
+                    ],
+                    "Genes": [
+                        "VIPR2",
+                        "CALCRL",
+                        "TACR1",
+                        "TRPC4",
+                        "ANO3"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "enhanced chemotactic migration via GPCR-PI3K signaling",
+                "modulated Ca^{2+}-dependent signaling affecting proliferation"
+            ],
+            "evidence_summary": "VIPR2 activation in cancer cells promotes migration through PI3K and actin remodeling ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/36237322/#:~:text=MCF,related%20protein%203%2C%20and%20actin)). In glioma, high CALCRL drives proliferation and survival ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/36618798/#:~:text=CALCRL%20expression%20was%20highest%20in,apoptosis%20rate%20was%20significantly%20increased)). Together, multiple GPCRs and Ca^{2+}/Cl^{-} channels suggest dysregulated cAMP/Ca^{2+} signaling influencing GBM growth and motility.",
+            "citations": [
+                {
+                    "reference": "Asano et al., Cancers 2022",
+                    "id": "",
+                    "type": "",
+                    "notes": "VIPR2 induces PI3K-mediated migration in cancer cells ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/36237322/#:~:text=MCF,related%20protein%203%2C%20and%20actin))."
+                },
+                {
+                    "reference": "Gu et al., Ann Transl Med 2021",
+                    "id": "",
+                    "type": "",
+                    "notes": "CALCRL knockdown reduces glioma proliferation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/36618798/#:~:text=CALCRL%20expression%20was%20highest%20in,apoptosis%20rate%20was%20significantly%20increased))."
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "VIPR2",
+                "CALCRL",
+                "TACR1",
+                "TRPC4",
+                "ANO3",
+                "KCNIP3"
+            ],
+            "supporting_gene_count": 6,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Oligodendrocyte Differentiation",
+            "description": "Genes associated with oligodendrocyte lineage and myelination are enriched. MYRF is a master regulator of myelin gene expression ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3742440/#:~:text=induced%20during%20oligodendrocyte%20differentiation,terms%20for%20genes%20proximal%20to)). Lipid enzymes (UGT8, FA2H) and marker BCAS1 indicate myelin synthesis. Extracellular protein TNR (Tenascin-R) promotes oligodendrocyte maturation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6573339/#:~:text=expression%20and%20the%20upregulation%20of,for%20CNS%20myelination%20and%20remyelination)). This program reflects an oligodendrocyte-like differentiation state in GBM cells.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0042552",
+                    "name": "myelination",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Bujalka et al., PLoS Biol 2013",
+                            "id": "",
+                            "type": "",
+                            "notes": "MYRF directly activates myelin genes during oligodendrocyte differentiation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3742440/#:~:text=induced%20during%20oligodendrocyte%20differentiation,terms%20for%20genes%20proximal%20to))"
+                        }
+                    ],
+                    "Genes": [
+                        "MYRF",
+                        "BCAS1",
+                        "FA2H",
+                        "UGT8"
+                    ]
+                },
+                {
+                    "ontology_id": "GO:0048709",
+                    "name": "oligodendrocyte differentiation",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Pesheva et al., J Neurosci 1997",
+                            "id": "",
+                            "type": "",
+                            "notes": "Tenascin-R stimulates oligodendrocyte differentiation in vitro ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6573339/#:~:text=expression%20and%20the%20upregulation%20of,for%20CNS%20myelination%20and%20remyelination))"
+                        }
+                    ],
+                    "Genes": [
+                        "MYRF",
+                        "BCAS1",
+                        "TNR",
+                        "GPR17",
+                        "SOX6",
+                        "FA2H",
+                        "UGT8"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0043209",
+                    "name": "myelin sheath",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Bujalka et al., PLoS Biol 2013",
+                            "id": "",
+                            "type": "",
+                            "notes": "MYRF upregulates myelin-related genes (e.g. MAG, MBP) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3742440/#:~:text=induced%20during%20oligodendrocyte%20differentiation,terms%20for%20genes%20proximal%20to))"
+                        }
+                    ],
+                    "Genes": [
+                        "UGT8",
+                        "FA2H"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "enhanced myelin-specific gene expression",
+                "promotion of oligodendrocyte-like differentiation"
+            ],
+            "evidence_summary": "Several genes (MYRF, BCAS1, UGT8, FA2H) are canonical oligodendrocyte/myelination markers ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3742440/#:~:text=induced%20during%20oligodendrocyte%20differentiation,terms%20for%20genes%20proximal%20to)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6573339/#:~:text=expression%20and%20the%20upregulation%20of,for%20CNS%20myelination%20and%20remyelination)). Tenascin-R (TNR) is a known autocrine promoter of oligodendrocyte maturation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6573339/#:~:text=expression%20and%20the%20upregulation%20of,for%20CNS%20myelination%20and%20remyelination)). This constellation suggests GBM cells may adopt an oligodendrocyte-like program, potentially altering metabolism (lipid-rich myelin) and growth behavior.",
+            "citations": [
+                {
+                    "reference": "Pesheva et al., J Neurosci 1997",
+                    "id": "",
+                    "type": "",
+                    "notes": "Tenascin-R promotes oligodendrocyte maturation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6573339/#:~:text=expression%20and%20the%20upregulation%20of,for%20CNS%20myelination%20and%20remyelination))."
+                },
+                {
+                    "reference": "Bujalka et al., PLoS Biol 2013",
+                    "id": "",
+                    "type": "",
+                    "notes": "MYRF drives expression of myelin and ensheathment genes ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3742440/#:~:text=induced%20during%20oligodendrocyte%20differentiation,terms%20for%20genes%20proximal%20to))."
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "MYRF",
+                "BCAS1",
+                "TNR",
+                "GPR17",
+                "UGT8",
+                "FA2H",
+                "SOX6"
+            ],
+            "supporting_gene_count": 7,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Cell Cycle Progression",
+            "description": "CCND1 (Cyclin D1) is a key cell-cycle regulator. In GBM, Cyclin D1 overexpression drives proliferation and also unexpectedly promotes invasion via cytoplasmic signaling to RalA/paxillin ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30957234/#:~:text=activates%20the%20invasion%20of%20primary,GBM%20dissemination%20through%20cytoplasmic%20and)). This program indicates highly active G1/S progression and linked motility signaling in tumor cells.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0007049",
+                    "name": "cell cycle",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Fust\u00e9 et al., Sci Rep 2019",
+                            "id": "",
+                            "type": "",
+                            "notes": "Cyclin D1/Cdk4 axis is frequently altered in GBM, leading to overproliferation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30957234/#:~:text=to%20overproliferation%20by%20RB1%20deletion,acting%20upstream%20of%20those%20regulators))"
+                        }
+                    ],
+                    "Genes": [
+                        "CCND1"
+                    ]
+                },
+                {
+                    "ontology_id": "GO:0030334",
+                    "name": "regulation of cell migration",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Fust\u00e9 et al., Sci Rep 2019",
+                            "id": "",
+                            "type": "",
+                            "notes": "Cytoplasmic Cyclin D1 activates RalA and paxillin to enhance GBM cell invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30957234/#:~:text=activates%20the%20invasion%20of%20primary,GBM%20dissemination%20through%20cytoplasmic%20and))"
+                        }
+                    ],
+                    "Genes": [
+                        "CCND1"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0005634",
+                    "name": "nucleus",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Fust\u00e9 et al., Sci Rep 2019",
+                            "id": "",
+                            "type": "",
+                            "notes": "Cyclin D1 functions as a nuclear cell-cycle regulator ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30957234/#:~:text=to%20overproliferation%20by%20RB1%20deletion,acting%20upstream%20of%20those%20regulators))"
+                        }
+                    ],
+                    "Genes": [
+                        "CCND1"
+                    ]
+                },
+                {
+                    "ontology_id": "GO:0005829",
+                    "name": "cytosol",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Fust\u00e9 et al., Sci Rep 2019",
+                            "id": "",
+                            "type": "",
+                            "notes": "Cyclin D1 can act in the cytoplasm to regulate invasion via RalA ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30957234/#:~:text=activates%20the%20invasion%20of%20primary,GBM%20dissemination%20through%20cytoplasmic%20and))"
+                        }
+                    ],
+                    "Genes": [
+                        "CCND1"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "accelerated proliferation",
+                "enhanced invasiveness via RalA/paxillin signaling"
+            ],
+            "evidence_summary": "Cyclin D1 is overexpressed in GBM and drives the G1/S transition. Elevated CCND1 not only promotes proliferation but also increases cytoplasmic signaling that activates RalA and paxillin, augmenting tumor cell invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30957234/#:~:text=activates%20the%20invasion%20of%20primary,GBM%20dissemination%20through%20cytoplasmic%20and)).",
+            "citations": [
+                {
+                    "reference": "Fust\u00e9 et al., Sci Rep 2019",
+                    "id": "",
+                    "type": "",
+                    "notes": "Cyclin D1/Cdk4 activation leads to GBM overproliferation; Cyclin D1 induces RalA/paxillin to promote invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30957234/#:~:text=to%20overproliferation%20by%20RB1%20deletion,acting%20upstream%20of%20those%20regulators)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30957234/#:~:text=activates%20the%20invasion%20of%20primary,GBM%20dissemination%20through%20cytoplasmic%20and))."
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "CCND1"
+            ],
+            "supporting_gene_count": 1,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Androgen Receptor Signaling",
+            "description": "Androgen receptor (AR) is highly expressed in GBM and contributes to tumor growth. AR can be activated via EGFR/AKT signaling even without ligand ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8535837/#:~:text=Androgen%20receptor%20,correlation%20between%20AR%20and%20EGFR)). Active AR translocates to the nucleus to drive proliferation and survival gene programs, collaborating with oncogenic kinase pathways.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0043401",
+                    "name": "steroid hormone mediated signaling pathway",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Zalcman et al., Int J Mol Sci 2021",
+                            "id": "",
+                            "type": "",
+                            "notes": "AR is overexpressed in most GBMs; EGFR signaling increases AR activation and nuclear translocation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8535837/#:~:text=Androgen%20receptor%20,correlation%20between%20AR%20and%20EGFR))"
+                        }
+                    ],
+                    "Genes": [
+                        "AR"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0005634",
+                    "name": "nucleus",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Zalcman et al., Int J Mol Sci 2021",
+                            "id": "",
+                            "type": "",
+                            "notes": "Activated AR localizes to the nucleus to regulate transcription ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8535837/#:~:text=Androgen%20receptor%20,correlation%20between%20AR%20and%20EGFR))"
+                        }
+                    ],
+                    "Genes": [
+                        "AR"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "enhanced proliferation and survival via cross-talk with RTK pathways"
+            ],
+            "evidence_summary": "AR is amplified in glioblastoma and correlates with EGFR levels. EGFR or EGFRvIII overexpression in GBM cells induces AR phosphorylation and nuclear localization, promoting cell growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8535837/#:~:text=Androgen%20receptor%20,correlation%20between%20AR%20and%20EGFR)). Thus androgen receptor signaling supports GBM proliferation independent of androgens.",
+            "citations": [
+                {
+                    "reference": "Zalcman et al., Int J Mol Sci 2021",
+                    "id": "",
+                    "type": "",
+                    "notes": "EGFR signaling activates AR in GBM, suggesting AR-driven transcription aids tumor growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8535837/#:~:text=Androgen%20receptor%20,correlation%20between%20AR%20and%20EGFR))."
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "AR"
+            ],
+            "supporting_gene_count": 1,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Notch Signaling Modulation",
+            "description": "DLL3 is an inhibitory ligand of the Notch pathway. In gliomas, high DLL3 expression is associated with better prognosis ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33713320/#:~:text=between%20DLL3%20gene%20expression%20and,targeted%20therapies)), suggesting that DLL3 attenuates Notch signaling. This program may influence cell differentiation and the immune microenvironment in GBM.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0007219",
+                    "name": "Notch signaling pathway",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Wang et al., J Cancer 2021",
+                            "id": "",
+                            "type": "",
+                            "notes": "DLL3 expression stratifies glioma prognosis; low DLL3 links to shorter survival, implicating DLL3 in Notch pathway inhibition ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33713320/#:~:text=between%20DLL3%20gene%20expression%20and,targeted%20therapies))"
+                        }
+                    ],
+                    "Genes": [
+                        "DLL3"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0009986",
+                    "name": "cell surface",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Zhang et al., Biochim Biophys Acta 2013",
+                            "id": "",
+                            "type": "",
+                            "notes": "DLL3 is a transmembrane Notch ligand; its surface expression modulates signaling ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33713320/#:~:text=between%20DLL3%20gene%20expression%20and,targeted%20therapies))"
+                        }
+                    ],
+                    "Genes": [
+                        "DLL3"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "modulation of differentiation via Notch inhibition",
+                "altered immune response"
+            ],
+            "evidence_summary": "In malignant glioma, DLL3 acts as a Notch inhibitor and its high expression predicts longer survival ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33713320/#:~:text=between%20DLL3%20gene%20expression%20and,targeted%20therapies)). Lower DLL3 correlates with enhanced immune and inflammatory pathways. Thus DLL3 likely influences tumor cell fate by dampening Notch signaling.",
+            "citations": [
+                {
+                    "reference": "Wang et al., J Cancer 2021",
+                    "id": "",
+                    "type": "",
+                    "notes": "DLL3 stratifies patient survival; lower DLL3 is linked to more aggressive GBM and upregulated immune pathways ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33713320/#:~:text=between%20DLL3%20gene%20expression%20and,targeted%20therapies))."
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.5,
+            "supporting_genes": [
+                "DLL3"
+            ],
+            "supporting_gene_count": 1,
+            "required_components_present": false
+        }
+    ],
+    "version": "1.0"
+}

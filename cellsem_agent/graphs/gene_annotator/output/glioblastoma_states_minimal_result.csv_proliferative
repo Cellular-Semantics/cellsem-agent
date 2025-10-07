@@ -1,0 +1,12 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+mitotic cell cycle,GO:0000278,mitotic cell cycle,GO,1.0,exact_match
+nucleus,GO:0005634,nucleus,GO,1.0,exact_match
+spindle assembly,GO:0051225,spindle assembly,GO,1.0,exact_match
+centrosome duplication,GO:0051298,centrosome duplication,GO,1.0,exact_match
+mitotic spindle,GO:0072686,mitotic spindle,GO,1.0,exact_match
+centrosome,GO:0005813,centrosome,GO,1.0,exact_match
+chromosome segregation,GO:0007059,chromosome segregation,GO,1.0,exact_match
+kinetochore,GO:0000776,kinetochore,GO,1.0,exact_match
+centromeric region,GO:0000775,"chromosome, centromeric region",GO,0.95,exact_match
+DNA repair,GO:0006281,DNA repair,GO,1.0,exact_match
+nucleus,GO:0005634,nucleus,GO,1.0,exact_match

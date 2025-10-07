@@ -1,0 +1,19 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+extracellular matrix organization,GO:0030198,extracellular matrix organization,GO,1.0,exact_match
+cell adhesion,GO:0007155,cell adhesion,GO,1.0,exact_match
+extracellular matrix,GO:0031012,extracellular matrix,GO,1.0,exact_match
+focal adhesion,GO:0005925,focal adhesion,GO,1.0,exact_match
+G-protein coupled receptor signaling pathway,GO:0007186,G protein-coupled receptor signaling pathway,GO,1.0,exact_match
+calcium-mediated signaling,GO:0019722,calcium-mediated signaling,GO,1.0,exact_match
+plasma membrane,GO:0005886,plasma membrane,GO,1.0,exact_match
+myelination,GO:0042552,myelination,GO,1.0,exact_match
+oligodendrocyte differentiation,GO:0048709,oligodendrocyte differentiation,GO,1.0,exact_match
+myelin sheath,GO:0043209,myelin sheath,GO,1.0,exact_match
+cell cycle,GO:0007049,cell cycle,GO,1.0,exact_match
+regulation of cell migration,GO:0030334,regulation of cell migration,GO,1.0,exact_match
+nucleus,GO:0005634,nucleus,GO,1.0,exact_match
+cytosol,GO:0005829,cytosol,GO,1.0,exact_match
+steroid hormone mediated signaling pathway,GO:0043401,steroid hormone receptor signaling pathway,GO,0.95,exact_match
+nucleus,GO:0005634,nucleus,GO,1.0,exact_match
+Notch signaling pathway,GO:0007219,Notch signaling pathway,GO,1.0,exact_match
+cell surface,GO:0009986,cell surface,GO,1.0,exact_match

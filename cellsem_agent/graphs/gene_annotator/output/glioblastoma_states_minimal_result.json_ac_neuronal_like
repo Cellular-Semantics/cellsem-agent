@@ -1,0 +1,411 @@
+{
+    "context": {
+        "cell_type": "astrocytes",
+        "disease": "Glioblastoma",
+        "tissue": "brain"
+    },
+    "input_genes": [
+        "LINC02235",
+        "AC037486.1",
+        "PCDH11X",
+        "LINC01829",
+        "AL591043.2",
+        "ZNF423",
+        "ADAMTS18",
+        "AL133538.1",
+        "DOCK2",
+        "SCN1A-AS1",
+        "AL022068.1",
+        "SEPTIN14",
+        "SGCZ",
+        "ADAM28",
+        "RYR2",
+        "DOCK8",
+        "ACER2",
+        "AC128687.3",
+        "AC120193.1",
+        "OLR1",
+        "AC110296.1",
+        "AC109466.1",
+        "SPOCK3",
+        "ST6GALNAC5",
+        "AL136441.1",
+        "MLIP",
+        "AL158077.2",
+        "AP001021.3",
+        "CCDC85A",
+        "CD96",
+        "NRK",
+        "C8orf37-AS1",
+        "PCDH7",
+        "PLD1",
+        "CHRNA7",
+        "CLRN1",
+        "MYO1D",
+        "RMST",
+        "CNTNAP2",
+        "PURPL",
+        "RALYL",
+        "AL445426.1",
+        "RCAN2",
+        "AL392023.2",
+        "RELN",
+        "AL360091.3",
+        "AC091946.1",
+        "LRRIQ1",
+        "CD163",
+        "SYN3",
+        "IL1RAPL1"
+    ],
+    "programs": [
+        {
+            "program_name": "Myeloid Infiltration",
+            "description": "Genes such as DOCK2, DOCK8, CD96, and CD163 indicate activation and recruitment of immune myeloid cells (e.g., microglia/macrophages) into glioblastoma. This includes signaling for immune cell migration and suppressive macrophage function.",
+            "atomic_biological_processes": [
+                {
+                    "name": "immune response",
+                    "ontology_id": "GO:0006955",
+                    "citation": [
+                        {
+                            "reference": "Wang et al., Front Mol Biosci 2022 (Insights from DOCK2 in cell function and pathophysiology)",
+                            "id": "DOI:10.3389/fmolb.2022.997659",
+                            "type": "DOI",
+                            "notes": "DOCK2 regulates immune cell migration and activation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9559381/#:~:text=Dedicator%20of%20cytokinesis%202%20,involved%20in%20the%20development%20and))"
+                        },
+                        {
+                            "reference": "Namekata et al., J Biol Chem 2019",
+                            "id": "DOI:10.1074/jbc.RA119.007645",
+                            "type": "DOI",
+                            "notes": "DOCK8 is expressed in microglia and mediates immune cell migration and phagocytosis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6737224/#:~:text=In%20this%20study%2C%20we%20report,3D%20images%20of%20retinal%20microglia))"
+                        }
+                    ],
+                    "Genes": [
+                        "DOCK2",
+                        "DOCK8",
+                        "CD96",
+                        "CD163"
+                    ],
+                    "ontology_label": "immune response"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "immune synapse",
+                    "ontology_id": "GO:0001772",
+                    "citation": [
+                        {
+                            "reference": "Wang et al., Front Mol Biosci 2022 (Insights from DOCK2 in cell function and pathophysiology)",
+                            "id": "DOI:10.3389/fmolb.2022.997659",
+                            "type": "DOI",
+                            "notes": "DOCK2 is involved in cytoskeletal reorganization at immune synapses ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9559381/#:~:text=Dedicator%20of%20cytokinesis%202%20,involved%20in%20the%20development%20and))"
+                        },
+                        {
+                            "reference": "Namekata et al., J Biol Chem 2019",
+                            "id": "DOI:10.1074/jbc.RA119.007645",
+                            "type": "DOI",
+                            "notes": "DOCK8 and CD96 are expressed on microglia/NK cells at immune synapses ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6737224/#:~:text=In%20this%20study%2C%20we%20report,3D%20images%20of%20retinal%20microglia)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7338376/#:~:text=Increasingly%2C%20CD96%20is%20emerging%20as,and%20activation%20of%20participating%20cells))"
+                        }
+                    ],
+                    "Genes": [
+                        "DOCK2",
+                        "DOCK8",
+                        "CD96",
+                        "CD163"
+                    ],
+                    "ontology_label": "immunological synapse"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced myeloid/microglial infiltration into tumor",
+                "Immune checkpoint activation (e.g., CD96 signaling) suppressing anti-tumor immunity",
+                "Increased expression of macrophage scavenger receptors"
+            ],
+            "evidence_summary": "DOCK2 and DOCK8 mediate migration and activation of immune cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9559381/#:~:text=Dedicator%20of%20cytokinesis%202%20,involved%20in%20the%20development%20and)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6737224/#:~:text=In%20this%20study%2C%20we%20report,3D%20images%20of%20retinal%20microglia)). CD163 is a scavenger receptor marking immunosuppressive M2-like macrophages in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12070867/#:~:text=CD163%2B%20macrophages%20from%20expressing%20proinflammatory,cytokines)). CD96 is an NK/T cell checkpoint upregulated in glioma ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7338376/#:~:text=Increasingly%2C%20CD96%20is%20emerging%20as,and%20activation%20of%20participating%20cells)). Together, these genes suggest glioblastoma is associated with macrophage/microglial infiltration and immune suppression.",
+            "citations": [
+                {
+                    "reference": "Wang et al., Front Mol Biosci 2022",
+                    "id": "DOI:10.3389/fmolb.2022.997659",
+                    "type": "DOI",
+                    "notes": "DOCK2 regulates immune cell migration and activation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9559381/#:~:text=Dedicator%20of%20cytokinesis%202%20,involved%20in%20the%20development%20and))"
+                },
+                {
+                    "reference": "Namekata et al., J Biol Chem 2019",
+                    "id": "DOI:10.1074/jbc.RA119.007645",
+                    "type": "DOI",
+                    "notes": "DOCK8 expressed in microglia regulates migration and phagocytosis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6737224/#:~:text=In%20this%20study%2C%20we%20report,3D%20images%20of%20retinal%20microglia))"
+                },
+                {
+                    "reference": "Fuse et al., Cancers (Basel) 2025",
+                    "id": "DOI:10.3390/cancers17091457",
+                    "type": "DOI",
+                    "notes": "CD163+ macrophages have an immunosuppressive, tumor-promoting role in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12070867/#:~:text=CD163%2B%20macrophages%20from%20expressing%20proinflammatory,cytokines))"
+                },
+                {
+                    "reference": "Gibney et al., Front Bioeng Biotechnol 2020",
+                    "id": "DOI:10.3389/fbioe.2020.00592",
+                    "type": "DOI",
+                    "notes": "CD96 is an immune checkpoint that negatively regulates NK/T cell anti-tumor function ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7338376/#:~:text=Increasingly%2C%20CD96%20is%20emerging%20as,and%20activation%20of%20participating%20cells))"
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "DOCK2",
+                "DOCK8",
+                "CD96",
+                "CD163"
+            ],
+            "supporting_gene_count": 4,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Neuronal Synapses",
+            "description": "Genes in this program encode proteins for neuronal connectivity and synaptic function. RELN is an ECM protein controlling neuronal migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8028296/#:~:text=aggressiveness,are%20silenced%20in%20glioblastoma%20as)). IL1RAPL1, CNTNAP2, and PCDH7/11X mediate synapse formation/adhesion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6623287/#:~:text=Autism%20Mediates%20Synapse%20Formation%20by,with%20Protein%20Tyrosine%20Phosphatase%20%CE%B4)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4423902/#:~:text=CNTNAP2%20belongs%20to%20the%20NEUREXIN,it%20is%20unknown%20if%20CNTNAP2)). SYN3 is a synaptic vesicle protein for neurotransmitter release ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/12040043/#:~:text=Synapsin%20III%20is%20the%20most,demonstrate%20that%20synapsin%20III%20regulates)). Together they implicate altered synaptic signaling.",
+            "atomic_biological_processes": [
+                {
+                    "name": "synapse assembly",
+                    "ontology_id": "GO:0007416",
+                    "citation": [
+                        {
+                            "reference": "Yoshida et al., J Neurosci 2011",
+                            "id": "DOI:10.1523/JNEUROSCI.2136-11.2011",
+                            "type": "DOI",
+                            "notes": "IL1RAPL1 mediates excitatory synapse formation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6623287/#:~:text=IL1RAPL1%20mediates%20synapse%20formation%20through,shared%20by%20these%20mental%20disorders))"
+                        },
+                        {
+                            "reference": "Gdalyahu et al., PLoS One 2015",
+                            "id": "DOI:10.1371/journal.pone.0125633",
+                            "type": "DOI",
+                            "notes": "CNTNAP2 (Caspr2) is a neurexin-family adhesion protein stabilizing synaptic contacts ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4423902/#:~:text=CNTNAP2%20belongs%20to%20the%20NEUREXIN,it%20is%20unknown%20if%20CNTNAP2))"
+                        }
+                    ],
+                    "Genes": [
+                        "RELN",
+                        "IL1RAPL1",
+                        "CNTNAP2",
+                        "SYN3",
+                        "PCDH7",
+                        "PCDH11X",
+                        "CHRNA7"
+                    ],
+                    "ontology_label": "synapse assembly"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "synapse",
+                    "ontology_id": "GO:0045202",
+                    "citation": [
+                        {
+                            "reference": "Yoshida et al., J Neurosci 2011",
+                            "id": "DOI:10.1523/JNEUROSCI.2136-11.2011",
+                            "type": "DOI",
+                            "notes": "IL1RAPL1 localizes to the dendritic synapse and mediates trans-synaptic adhesion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6623287/#:~:text=IL1RAPL1%20mediates%20synapse%20formation%20through,shared%20by%20these%20mental%20disorders))"
+                        },
+                        {
+                            "reference": "Gdalyahu et al., PLoS One 2015",
+                            "id": "DOI:10.1371/journal.pone.0125633",
+                            "type": "DOI",
+                            "notes": "CNTNAP2 is present in the synapse and required for spine stability ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4423902/#:~:text=CNTNAP2%20belongs%20to%20the%20NEUREXIN,it%20is%20unknown%20if%20CNTNAP2))"
+                        }
+                    ],
+                    "Genes": [
+                        "RELN",
+                        "IL1RAPL1",
+                        "CNTNAP2",
+                        "SYN3",
+                        "PCDH7",
+                        "PCDH11X",
+                        "CHRNA7"
+                    ],
+                    "ontology_label": "synapse"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Altered synapse formation and stability",
+                "Changes in excitatory neurotransmission",
+                "Modified neuronal adhesion and network connectivity"
+            ],
+            "evidence_summary": "RELN controls neuronal migration and is silenced in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8028296/#:~:text=aggressiveness,are%20silenced%20in%20glioblastoma%20as)). IL1RAPL1 mediates excitatory synapse formation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6623287/#:~:text=IL1RAPL1%20mediates%20synapse%20formation%20through,shared%20by%20these%20mental%20disorders)). CNTNAP2 is a membrane protein stabilizing dendritic spines ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4423902/#:~:text=CNTNAP2%20belongs%20to%20the%20NEUREXIN,it%20is%20unknown%20if%20CNTNAP2)). SYN3 is a synaptic vesicle protein for neurotransmitter release ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/12040043/#:~:text=Synapsin%20III%20is%20the%20most,demonstrate%20that%20synapsin%20III%20regulates)). These suggest a neuronal synaptic program impacting glioblastoma cell behavior.",
+            "citations": [
+                {
+                    "reference": "Schulze et al., Brain Pathol 2018",
+                    "id": "DOI:10.1111/bpa.12584",
+                    "type": "DOI",
+                    "notes": "RELN is an extracellular protein that regulates neuronal migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8028296/#:~:text=aggressiveness,are%20silenced%20in%20glioblastoma%20as))"
+                },
+                {
+                    "reference": "Yoshida et al., J Neurosci 2011",
+                    "id": "DOI:10.1523/JNEUROSCI.2136-11.2011",
+                    "type": "DOI",
+                    "notes": "IL1RAPL1 mediates synapse formation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6623287/#:~:text=IL1RAPL1%20mediates%20synapse%20formation%20through,shared%20by%20these%20mental%20disorders))"
+                },
+                {
+                    "reference": "Gdalyahu et al., PLoS One 2015",
+                    "id": "DOI:10.1371/journal.pone.0125633",
+                    "type": "DOI",
+                    "notes": "CNTNAP2 is a synaptic adhesion protein for dendritic spines ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4423902/#:~:text=CNTNAP2%20belongs%20to%20the%20NEUREXIN,it%20is%20unknown%20if%20CNTNAP2))"
+                },
+                {
+                    "reference": "Ferreira et al., J Neurosci 2004",
+                    "id": "PMID:12040043",
+                    "type": "PMID",
+                    "notes": "Synapsin III is part of synaptic vesicles, essential for neurotransmitter release ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/12040043/#:~:text=Synapsin%20III%20is%20the%20most,demonstrate%20that%20synapsin%20III%20regulates))"
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "RELN",
+                "IL1RAPL1",
+                "CNTNAP2",
+                "SYN3",
+                "PCDH7",
+                "PCDH11X",
+                "CHRNA7"
+            ],
+            "supporting_gene_count": 7,
+            "required_components_present": false
+        },
+        {
+            "program_name": "ECM Remodeling",
+            "description": "This program includes extracellular matrix modifiers and adhesion proteins. ADAMTS18 and ADAM28 are metalloproteinases that remodel the ECM and can promote invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11160018/#:~:text=by%20gene%20expression%2C%20intracytoplasmic%20and,and%20invasion%2C%20although%20the%20precise)). SPOCK3 and SGCZ are ECM-associated proteins. PCDH7 and PCDH11X are calcium-dependent adhesion molecules. Together these genes suggest enhanced ECM breakdown and altered adhesion in GBM.",
+            "atomic_biological_processes": [
+                {
+                    "name": "extracellular matrix organization",
+                    "ontology_id": "GO:0030198",
+                    "citation": [
+                        {
+                            "reference": "Xie et al., Mol Biol Rep 2015",
+                            "id": "PMID:25987468",
+                            "type": "PMID",
+                            "notes": "ADAM family proteases are often overexpressed in tumors, promoting matrix remodeling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11160018/#:~:text=by%20gene%20expression%2C%20intracytoplasmic%20and,and%20invasion%2C%20although%20the%20precise))"
+                        }
+                    ],
+                    "Genes": [
+                        "ADAMTS18",
+                        "ADAM28",
+                        "SPOCK3",
+                        "SGCZ",
+                        "PCDH7",
+                        "PCDH11X"
+                    ],
+                    "ontology_label": "extracellular matrix organization"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "extracellular matrix",
+                    "ontology_id": "GO:0031012",
+                    "citation": [
+                        {
+                            "reference": "Xie et al., Mol Biol Rep 2015",
+                            "id": "PMID:25987468",
+                            "type": "PMID",
+                            "notes": "ADAM proteases act in the extracellular matrix to regulate cell invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11160018/#:~:text=by%20gene%20expression%2C%20intracytoplasmic%20and,and%20invasion%2C%20although%20the%20precise))"
+                        }
+                    ],
+                    "Genes": [
+                        "ADAMTS18",
+                        "ADAM28",
+                        "SPOCK3",
+                        "SGCZ",
+                        "PCDH7",
+                        "PCDH11X"
+                    ],
+                    "ontology_label": "extracellular matrix"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Increased tumor cell invasion and migration",
+                "Enhanced integrin/ECM signaling",
+                "Altered cell adhesion properties"
+            ],
+            "evidence_summary": "ADAM family metalloproteinases (ADAMTS18, ADAM28) modify the ECM and are linked to tumor invasiveness ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11160018/#:~:text=by%20gene%20expression%2C%20intracytoplasmic%20and,and%20invasion%2C%20although%20the%20precise)). Protocadherins and glycoproteins like SPOCK3 and SGCZ contribute to cell-matrix adhesion. Dysregulation of these components likely facilitates extracellular matrix remodeling and increased GBM cell motility.",
+            "citations": [
+                {
+                    "reference": "Xie et al., Mol Biol Rep 2015",
+                    "id": "PMID:25987468",
+                    "type": "PMID",
+                    "notes": "Review discussing ADAM proteases in cancer progression ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11160018/#:~:text=by%20gene%20expression%2C%20intracytoplasmic%20and,and%20invasion%2C%20although%20the%20precise))"
+                }
+            ],
+            "confidence_score": 0.6,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "ADAMTS18",
+                "ADAM28",
+                "SPOCK3",
+                "SGCZ",
+                "PCDH7",
+                "PCDH11X"
+            ],
+            "supporting_gene_count": 6,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Differentiation Signaling",
+            "description": "This program includes developmental transcriptional regulators. ZNF423 (Zfp423) is a transcription factor required for neural precursor differentiation via BMP/SMAD signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4773478/#:~:text=The%20dissection%20of%20these%20networks,a%20novel%20synergic%20circuit%20through)). RCAN2 regulates calcineurin-NFAT signaling, impacting neuronal development. This suggests dysregulation of neural differentiation pathways in glioblastoma.",
+            "atomic_biological_processes": [
+                {
+                    "name": "neuron differentiation",
+                    "ontology_id": "GO:0030182",
+                    "citation": [
+                        {
+                            "reference": "Signaroldi et al., Nat Commun 2016",
+                            "id": "DOI:10.1038/ncomms10753",
+                            "type": "DOI",
+                            "notes": "Zfp423 (human ZNF423) is a master regulator of neural differentiation and its loss impairs gliomagenesis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4773478/#:~:text=The%20dissection%20of%20these%20networks,a%20novel%20synergic%20circuit%20through))"
+                        }
+                    ],
+                    "Genes": [
+                        "ZNF423",
+                        "RCAN2"
+                    ],
+                    "ontology_label": "neuron differentiation"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "nucleus",
+                    "ontology_id": "GO:0005634",
+                    "citation": [
+                        {
+                            "reference": "Signaroldi et al., Nat Commun 2016",
+                            "id": "DOI:10.1038/ncomms10753",
+                            "type": "DOI",
+                            "notes": "ZNF423 is a nuclear transcription factor controlling glioblastoma differentiation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4773478/#:~:text=The%20dissection%20of%20these%20networks,a%20novel%20synergic%20circuit%20through))"
+                        }
+                    ],
+                    "Genes": [
+                        "ZNF423",
+                        "RCAN2"
+                    ],
+                    "ontology_label": "nucleus"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Impaired differentiation of glial precursor cells",
+                "Altered BMP/SMAD signaling and neuronal developmental gene expression"
+            ],
+            "evidence_summary": "ZNF423 is silenced in glioma and is needed for proper neural differentiation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4773478/#:~:text=The%20dissection%20of%20these%20networks,a%20novel%20synergic%20circuit%20through)). Loss of ZNF423 correlates with worse GBM prognosis. RCAN2 modulates calcineurin-NFAT pathways affecting neuronal development. Their dysregulation suggests failure of normal differentiation signaling in glioblastoma cells.",
+            "citations": [
+                {
+                    "reference": "Signaroldi et al., Nat Commun 2016",
+                    "id": "DOI:10.1038/ncomms10753",
+                    "type": "DOI",
+                    "notes": "ZNF423 downregulation is implicated in glioma by blocking differentiation via BMP signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4773478/#:~:text=The%20dissection%20of%20these%20networks,a%20novel%20synergic%20circuit%20through))"
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.5,
+            "supporting_genes": [
+                "ZNF423",
+                "RCAN2"
+            ],
+            "supporting_gene_count": 2,
+            "required_components_present": false
+        }
+    ],
+    "version": "1.0"
+}

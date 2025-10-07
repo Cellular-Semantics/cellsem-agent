@@ -1,0 +1,634 @@
+{
+    "context": {
+        "cell_type": "glioblastoma cells",
+        "disease": "glioblastoma",
+        "tissue": "brain"
+    },
+    "input_genes": [
+        "GRIN3A",
+        "CUX2",
+        "LINC02144",
+        "LINC00639",
+        "CACNA2D3",
+        "DLX6-AS1",
+        "SYT1",
+        "OLFM3",
+        "TOX",
+        "THRB",
+        "SLAIN1",
+        "GABRB2",
+        "PLCB1",
+        "HRK",
+        "NYAP2",
+        "LINC00581",
+        "AL009178.3",
+        "MAML3",
+        "SLC17A6",
+        "LYPD6B",
+        "LRTM1",
+        "CARMIL1",
+        "CNTN2",
+        "EBF3",
+        "INSYN2B",
+        "NSG2",
+        "GRK5",
+        "FRAS1",
+        "KITLG",
+        "B3GAT2",
+        "MEIS2",
+        "SYNPR",
+        "ZNF618",
+        "CDH12",
+        "SPOCK1",
+        "SRRM4",
+        "SVEP1",
+        "AC006296.3",
+        "PCP4",
+        "LEMD1"
+    ],
+    "programs": [
+        {
+            "program_name": "Neurogliomal Synaptic Signaling",
+            "description": "Genes in this program encode neuronal synaptic machinery and receptors. Malignant glioblastoma cells exploit excitatory (glutamatergic) and inhibitory (GABAergic) neuron-to-tumor synapses to promote growth. For example, AMPA/NMDA glutamate receptors and GABA_A receptors in glioma cells depolarize membranes and drive proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10632140/#:~:text=paracrine%20signalling%20factors%20such%20as,cell%20membrane%20depolarization%20drives%20tumour)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9352205/#:~:text=communication%20promotes%20GB%20expansion%20and,to%20GB%20calcium%20dependent%20activity)). The presence of synaptic vesicle regulators (SYT1) and neurotransmitter transporters (SLC17A6) further indicate active neurotransmission-related signaling.",
+            "atomic_biological_processes": [
+                {
+                    "name": "synaptic transmission",
+                    "ontology_id": "GO:0007268",
+                    "Genes": [
+                        "SYT1",
+                        "GRIN3A",
+                        "GABRB2",
+                        "SLC17A6",
+                        "PLCB1",
+                        "NSG2",
+                        "PCP4",
+                        "CNTN2"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Yang et al., 2023",
+                            "id": "DOI:10.1038/s41586-023-06678-1",
+                            "type": "DOI",
+                            "notes": "Demonstrates AMPA receptor-mediated neuron-glioma synapses driving tumor proliferation"
+                        }
+                    ],
+                    "ontology_label": "chemical synaptic transmission"
+                },
+                {
+                    "name": "glutamatergic synaptic transmission",
+                    "ontology_id": "GO:0035249",
+                    "Genes": [
+                        "GRIN3A",
+                        "SLC17A6",
+                        "CNTN2"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Losada-P\u00e9rez et al., 2022",
+                            "id": "DOI:10.1371/journal.pgen.1010329",
+                            "type": "DOI",
+                            "notes": "Reports that neurons form glutamatergic synapses with glioma cells, promoting expansion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9352205/#:~:text=communication%20promotes%20GB%20expansion%20and,to%20GB%20calcium%20dependent%20activity))"
+                        }
+                    ],
+                    "ontology_label": "synaptic transmission, glutamatergic"
+                },
+                {
+                    "name": "GABAergic synaptic transmission",
+                    "ontology_id": "GO:0051932",
+                    "Genes": [
+                        "GABRB2"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Zi et al., 2025",
+                            "id": "PMID:39972132",
+                            "type": "PMID",
+                            "notes": "Shows malignant glioma cells express GABA_A receptor subunits, indicating functional GABAergic synapses ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11946904/#:~:text=To%20determine%20whether%20genes%20involved,genes%20were%20expressed%20to%20a))"
+                        }
+                    ],
+                    "ontology_label": "synaptic transmission, GABAergic"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "postsynaptic membrane",
+                    "ontology_id": "GO:0045211",
+                    "Genes": [
+                        "GRIN3A",
+                        "GABRB2",
+                        "NSG2"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Losada-P\u00e9rez et al., 2022",
+                            "id": "DOI:10.1371/journal.pgen.1010329",
+                            "type": "DOI",
+                            "notes": "Identifies functional postsynaptic machinery (e.g., GluR subunits) in glioma cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9352205/#:~:text=communication%20promotes%20GB%20expansion%20and,to%20GB%20calcium%20dependent%20activity))"
+                        }
+                    ],
+                    "ontology_label": "postsynaptic membrane"
+                },
+                {
+                    "name": "synaptic vesicle",
+                    "ontology_id": "GO:0008021",
+                    "Genes": [
+                        "SYT1"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Ly et al., 2022",
+                            "id": "DOI:10.1007/s00018-022-04198-1",
+                            "type": "DOI",
+                            "notes": "SYT1 is a presynaptic Ca^2+-sensor present in glioma cells; PLCB1 silencing increases invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8933313/#:~:text=glioblastoma%20samples%20compared%20to%2020,or%20less%20aggressive%20glioma%20phenotype))"
+                        }
+                    ],
+                    "ontology_label": "synaptic vesicle"
+                },
+                {
+                    "name": "synapse",
+                    "ontology_id": "GO:0045202",
+                    "Genes": [
+                        "SYT1",
+                        "GRIN3A",
+                        "GABRB2",
+                        "CNTN2"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Broadbent et al., 2020",
+                            "id": "DOI:10.3389/fnins.2020.00822",
+                            "type": "DOI",
+                            "notes": "Synapse-related gene expression profiles correlate with glioma progression; highlights neuron-glioma synapses ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7431624/#:~:text=It%20is%20recently%20reported%20that,To))"
+                        }
+                    ],
+                    "ontology_label": "synapse"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced excitatory and inhibitory synaptic input to tumor cells",
+                "Membrane depolarization driving proliferation",
+                "Increased neuron-glioma signaling"
+            ],
+            "evidence_summary": "Glioblastoma cells form pseudo-synapses with neurons; synaptic receptors and vesicle genes (GRIN3A, GABRB2, SYT1, etc.) are expressed in tumors ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10632140/#:~:text=paracrine%20signalling%20factors%20such%20as,cell%20membrane%20depolarization%20drives%20tumour)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9352205/#:~:text=communication%20promotes%20GB%20expansion%20and,to%20GB%20calcium%20dependent%20activity)). Electrophysiology shows neuron-to-glioma synapses induce depolarization to stimulate growth. Disrupting AMPA/GABA receptor signaling in glioma models reduces proliferation, underscoring the role of these synaptic genes in tumor expansion.",
+            "citations": [
+                {
+                    "reference": "Yang et al. (2023) Nature",
+                    "id": "DOI:10.1038/s41586-023-06678-1",
+                    "type": "DOI",
+                    "notes": "Glioma synapses (AMPAR) and neuronal activity promote tumor growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10632140/#:~:text=paracrine%20signalling%20factors%20such%20as,cell%20membrane%20depolarization%20drives%20tumour))"
+                },
+                {
+                    "reference": "Losada-P\u00e9rez et al. (2022) PLoS Genet",
+                    "id": "DOI:10.1371/journal.pgen.1010329",
+                    "type": "DOI",
+                    "notes": "Healthy neurons form functional glutamatergic synapses with GB cells, driving expansion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9352205/#:~:text=communication%20promotes%20GB%20expansion%20and,to%20GB%20calcium%20dependent%20activity))"
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "GRIN3A",
+                "GABRB2",
+                "SLC17A6",
+                "SYT1",
+                "PLCB1",
+                "NSG2",
+                "CNTN2",
+                "PCP4"
+            ],
+            "supporting_gene_count": 8,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Neuronal Differentiation Program",
+            "description": "This program includes neural lineage transcription factors normally active in brain development. For instance, CUX2 and TOX regulate neural progenitor proliferation and differentiation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4388598/#:~:text=Major%20efforts%20are%20invested%20to,combined%20DNA%20adenine%20methyltransferase%20identification)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/36242624/#:~:text=vivo,cell%20migration%2C%20proliferation%2C%20and%20invasion)). In glioblastoma, CUX2 overexpression induces ADCY1 and attenuates tumor growth ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/36242624/#:~:text=vivo,cell%20migration%2C%20proliferation%2C%20and%20invasion)), suggesting these factors enforce a differentiated, less proliferative state. EBF family proteins similarly drive neurogenesis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3113313/#:~:text=Early%20B%20cell%20factor%20,transcriptionally%20regulated%20by%20these%20factors)).",
+            "atomic_biological_processes": [
+                {
+                    "name": "neurogenesis",
+                    "ontology_id": "GO:0022008",
+                    "Genes": [
+                        "CUX2",
+                        "TOX",
+                        "EBF3",
+                        "MEIS2"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Artegiani et al. (2014) EMBO J",
+                            "id": "DOI:10.15252/embj.201490061",
+                            "type": "DOI",
+                            "notes": "TOX is a key transcription factor promoting neural stem cell proliferation and cortical development ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4388598/#:~:text=Major%20efforts%20are%20invested%20to,combined%20DNA%20adenine%20methyltransferase%20identification))"
+                        }
+                    ],
+                    "ontology_label": "neurogenesis"
+                },
+                {
+                    "name": "transcription, DNA-templated",
+                    "ontology_id": "GO:0006351",
+                    "Genes": [
+                        "CUX2",
+                        "TOX",
+                        "EBF3",
+                        "MEIS2"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Green and Vetter (2011) Neural Dev",
+                            "id": "DOI:10.1186/1749-8104-6-19",
+                            "type": "DOI",
+                            "notes": "EBF transcription factors regulate many genes for neuronal differentiation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3113313/#:~:text=Early%20B%20cell%20factor%20,transcriptionally%20regulated%20by%20these%20factors))"
+                        }
+                    ],
+                    "ontology_label": "DNA-templated transcription"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "nucleus",
+                    "ontology_id": "GO:0005634",
+                    "Genes": [
+                        "CUX2",
+                        "TOX",
+                        "EBF3",
+                        "MEIS2"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Hong and Steward, 2022",
+                            "id": "PMID:36242624",
+                            "type": "PMID",
+                            "notes": "CUX2 functions as a nuclear transcription factor, enhancing ADCY1 expression to suppress glioma proliferation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/36242624/#:~:text=vivo,cell%20migration%2C%20proliferation%2C%20and%20invasion))"
+                        }
+                    ],
+                    "ontology_label": "nucleus"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Promotion of neuron-like differentiation",
+                "Reduced cell proliferation",
+                "Activation of neural gene expression"
+            ],
+            "evidence_summary": "Lineage-specific transcription factors (CUX2, TOX, EBF3, MEIS2) normally drive neurodevelopment. CUX2 overexpression in glioma cells induces a differentiated program (increased ADCY1) and inhibits proliferation/migration ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/36242624/#:~:text=vivo,cell%20migration%2C%20proliferation%2C%20and%20invasion)), highlighting a tumor-suppressive effect. Similarly, TOX regulates cortical development and neural stem cell division ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4388598/#:~:text=Major%20efforts%20are%20invested%20to,combined%20DNA%20adenine%20methyltransferase%20identification)), suggesting these factors oppose malignant self-renewal.",
+            "citations": [
+                {
+                    "reference": "Kaya-Aksoy et al. (2019) Cell Death Discov",
+                    "id": "DOI:10.1038/s41420-019-0144-z",
+                    "type": "DOI",
+                    "notes": "HRK, a neural BH3-only protein, induces apoptosis in GBM cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6368544/#:~:text=Harakiri%20%28HRK%29%20is%20a%20BH3,xL%2C%20suggesting%20the%20functional%20interaction))"
+                },
+                {
+                    "reference": "Artegiani et al. (2014) EMBO J",
+                    "id": "DOI:10.15252/embj.201490061",
+                    "type": "DOI",
+                    "notes": "TOX is dynamically regulated during corticogenesis and promotes neural stem cell proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4388598/#:~:text=Major%20efforts%20are%20invested%20to,combined%20DNA%20adenine%20methyltransferase%20identification))"
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "CUX2",
+                "TOX",
+                "EBF3",
+                "MEIS2"
+            ],
+            "supporting_gene_count": 4,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Calcium and GPCR Signaling",
+            "description": "Genes here regulate intracellular calcium and GPCR pathways. CACNA2D3 is a subunit of voltage-gated Ca^{2+} channels; its loss in gliomas impairs Ca^{2+} influx and prevents apoptosis ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27583705/#:~:text=conducted%20in%20vitro%20and%20in,A%20reporter%20assay%20showed%20increased)). Conversely, restoring CACNA2D3 raises Ca^{2+} to induce mitochondrial apoptosis. PLCB1 (phospholipase C\u03b21) is often downregulated in high-grade glioma; its knockdown increases migration/invasion (EMT markers) and proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8933313/#:~:text=glioblastoma%20samples%20compared%20to%2020,or%20less%20aggressive%20glioma%20phenotype)). GRK5, a GPCR kinase, is upregulated in GBM and promotes NF-\u03baB signaling to enhance tumor growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6291735/#:~:text=is%20poorly%20understood,8%20in%20glioma%20cell%20conditioned)).",
+            "atomic_biological_processes": [
+                {
+                    "name": "calcium-mediated signaling",
+                    "ontology_id": "GO:0019722",
+                    "Genes": [
+                        "CACNA2D3",
+                        "PCP4"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Zhang et al., 2016",
+                            "id": "PMID:27583705",
+                            "type": "PMID",
+                            "notes": "CACNA2D3 re-expression increases intracellular Ca^{2+}, inducing apoptosis and inhibiting invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27583705/#:~:text=conducted%20in%20vitro%20and%20in,A%20reporter%20assay%20showed%20increased))"
+                        }
+                    ],
+                    "ontology_label": "calcium-mediated signaling"
+                },
+                {
+                    "name": "phosphatidylinositol-mediated signaling",
+                    "ontology_id": "GO:0048015",
+                    "Genes": [
+                        "PLCB1",
+                        "GRK5"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Ratti et al., 2022",
+                            "id": "DOI:10.1007/s00018-022-04198-1",
+                            "type": "DOI",
+                            "notes": "PLCB1 loss leads to increased migration, invasion, and activation of mesenchymal pathways in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8933313/#:~:text=glioblastoma%20samples%20compared%20to%2020,or%20less%20aggressive%20glioma%20phenotype))"
+                        }
+                    ],
+                    "ontology_label": "phosphatidylinositol-mediated signaling"
+                },
+                {
+                    "name": "G-protein coupled receptor signaling pathway",
+                    "ontology_id": "GO:0007186",
+                    "Genes": [
+                        "GRK5"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Yang et al., 2018",
+                            "id": "PMID:30662593",
+                            "type": "PMID",
+                            "notes": "GRK5 is overexpressed in glioma and promotes proliferation/invasion via NF-\u03baB pathway ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6291735/#:~:text=is%20poorly%20understood,8%20in%20glioma%20cell%20conditioned))"
+                        }
+                    ],
+                    "ontology_label": "G protein-coupled receptor signaling pathway"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "plasma membrane",
+                    "ontology_id": "GO:0005886",
+                    "Genes": [
+                        "CACNA2D3",
+                        "PLCB1",
+                        "GRK5"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Zhang et al., 2016",
+                            "id": "PMID:27583705",
+                            "type": "PMID",
+                            "notes": "CACNA2D3 is a membrane calcium channel; its activation triggers Ca^{2+} signaling and apoptosis ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27583705/#:~:text=conducted%20in%20vitro%20and%20in,A%20reporter%20assay%20showed%20increased))"
+                        }
+                    ],
+                    "ontology_label": "plasma membrane"
+                },
+                {
+                    "name": "intrinsic component of synapse",
+                    "ontology_id": "GO:0019898",
+                    "Genes": [
+                        "CACNA2D3",
+                        "PCP4"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Ratti et al., 2022",
+                            "id": "DOI:10.1007/s00018-022-04198-1",
+                            "type": "DOI",
+                            "notes": "PLCB1 (a PI-specific PLC) acts at the membrane to regulate \u03c0-signaling; its loss leads to EMT and invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8933313/#:~:text=glioblastoma%20samples%20compared%20to%2020,or%20less%20aggressive%20glioma%20phenotype))"
+                        }
+                    ],
+                    "ontology_label": "extrinsic/intrinsic component of membrane"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Altered intracellular calcium dynamics",
+                "Activation of Ras/ERK and NF-\u03baB survival pathways",
+                "Modulation of glioma proliferation and invasion"
+            ],
+            "evidence_summary": "Calcium-signaling genes act as tumor suppressors: CACNA2D3 is frequently silenced in glioma, but its reintroduction elevates Ca^{2+} to trigger apoptosis (via NLK-Wnt) and block EMT/invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27583705/#:~:text=conducted%20in%20vitro%20and%20in,A%20reporter%20assay%20showed%20increased)). In parallel, PLCB1 helps maintain non-invasive state; its knockdown increases migratory EMT phenotype ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8933313/#:~:text=glioblastoma%20samples%20compared%20to%2020,or%20less%20aggressive%20glioma%20phenotype)). GRK5, a kinase regulating GPCRs, is overexpressed in GBM and drives NF-\u03baB\u2013mediated proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6291735/#:~:text=is%20poorly%20understood,8%20in%20glioma%20cell%20conditioned)). These findings implicate disrupted Ca^{2+}/GPCR signaling in glioma pathology.",
+            "citations": [
+                {
+                    "reference": "Zhang et al. (2016) Oncogene",
+                    "id": "PMID:27583705",
+                    "type": "PMID",
+                    "notes": "CACNA2D3 acts as a tumor suppressor in gliomas; its expression raises intracellular Ca^{2+}, induces apoptosis and inhibits invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27583705/#:~:text=conducted%20in%20vitro%20and%20in,A%20reporter%20assay%20showed%20increased))"
+                },
+                {
+                    "reference": "Ratti et al. (2022) Cell. Mol. Life Sci.",
+                    "id": "DOI:10.1007/s00018-022-04198-1",
+                    "type": "DOI",
+                    "notes": "PLCB1 loss in glioblastoma cells increases migration, invasion and mesenchymal marker expression ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8933313/#:~:text=glioblastoma%20samples%20compared%20to%2020,or%20less%20aggressive%20glioma%20phenotype))"
+                },
+                {
+                    "reference": "Yang et al. (2018) Am J Transl Res",
+                    "id": "PMID:30662593",
+                    "type": "PMID",
+                    "notes": "GRK5 is upregulated in GBM; its depletion reduces proliferation, migration and NF-\u03baB activity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6291735/#:~:text=is%20poorly%20understood,8%20in%20glioma%20cell%20conditioned))"
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "CACNA2D3",
+                "PLCB1",
+                "GRK5",
+                "PCP4"
+            ],
+            "supporting_gene_count": 4,
+            "required_components_present": false
+        },
+        {
+            "program_name": "ECM Remodeling and Invasion",
+            "description": "This program covers extracellular matrix (ECM) and adhesion proteins that influence glioma invasion. SPOCK1 is a chondroitin-sulfate proteoglycan upregulated in GBM, promoting epithelial-mesenchymal transition, migration and chemoresistance ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/26923184/#:~:text=Results%3A%20We%20found%20that%20the,sensitized%20these%20cells%20to%20TMZ)). Other matrix proteins (FRAS1, SVEP1, collagen glycosyltransferases like B3GAT2) and cadherins (CDH12) regulate cell adhesion and basement membrane integrity. Altered expression of these genes enhances matrix remodeling and invasive motility.",
+            "atomic_biological_processes": [
+                {
+                    "name": "extracellular matrix organization",
+                    "ontology_id": "GO:0030198",
+                    "Genes": [
+                        "SPOCK1",
+                        "FRAS1",
+                        "SVEP1",
+                        "B3GAT2"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Kim et al., 2016",
+                            "id": "PMID:26923184",
+                            "type": "PMID",
+                            "notes": "SPOCK1 (upregulated in GBM) drives invasion: SPOCK1 knockdown inhibits migration and invasion via Akt signaling ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/26923184/#:~:text=Results%3A%20We%20found%20that%20the,sensitized%20these%20cells%20to%20TMZ))"
+                        }
+                    ],
+                    "ontology_label": "extracellular matrix organization"
+                },
+                {
+                    "name": "cell adhesion",
+                    "ontology_id": "GO:0007155",
+                    "Genes": [
+                        "CDH12",
+                        "SVEP1"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Sun et al., 2023",
+                            "id": "DOI:10.1097/MD.0000000000033935",
+                            "type": "DOI",
+                            "notes": "Basement membrane components (laminin, collagen) and adhesion genes promote glioma invasion, linking matrix genes to malignant progression ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10256338/#:~:text=such%20as%20Laminin%2C%20integrin%2C%20and,9%5D%7D%20Therefore%2C%20it%20is))"
+                        }
+                    ],
+                    "ontology_label": "cell adhesion"
+                },
+                {
+                    "name": "regulation of cell migration",
+                    "ontology_id": "GO:0030334",
+                    "Genes": [
+                        "SPOCK1",
+                        "CARMIL1",
+                        "FRAS1"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Kim et al., 2016",
+                            "id": "PMID:26923184",
+                            "type": "PMID",
+                            "notes": "Reports that SPOCK1 enhances GBM cell migration and invasion; knockdown reduces these processes ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/26923184/#:~:text=Results%3A%20We%20found%20that%20the,sensitized%20these%20cells%20to%20TMZ))"
+                        }
+                    ],
+                    "ontology_label": "regulation of cell migration"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "extracellular matrix",
+                    "ontology_id": "GO:0031012",
+                    "Genes": [
+                        "SPOCK1",
+                        "FRAS1",
+                        "SVEP1"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Sun et al., 2023",
+                            "id": "DOI:10.1097/MD.0000000000033935",
+                            "type": "DOI",
+                            "notes": "Glioma cells disrupt basement membranes during invasion; BM genes (e.g., laminins, collagen) are implicated in glioma progression ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10256338/#:~:text=such%20as%20Laminin%2C%20integrin%2C%20and,9%5D%7D%20Therefore%2C%20it%20is))"
+                        }
+                    ],
+                    "ontology_label": "extracellular matrix"
+                },
+                {
+                    "name": "cell surface",
+                    "ontology_id": "GO:0009986",
+                    "Genes": [
+                        "CDH12",
+                        "SVEP1",
+                        "B3GAT2"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Kim et al., 2016",
+                            "id": "PMID:26923184",
+                            "type": "PMID",
+                            "notes": "SPOCK1 and cadherins are cell-surface ECM proteins; SPOCK1 overexpression promotes GBM EMT and invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/26923184/#:~:text=Results%3A%20We%20found%20that%20the,sensitized%20these%20cells%20to%20TMZ))"
+                        }
+                    ],
+                    "ontology_label": "cell surface"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Increased extracellular matrix degradation and remodeling",
+                "Enhanced invasion and migration",
+                "Promotion of mesenchymal transition"
+            ],
+            "evidence_summary": "Extracellular and adhesion genes in the list are linked to glioma invasiveness. Notably, SPOCK1 is highly expressed in aggressive GBM and its knockdown reduces motility and EMT markers ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/26923184/#:~:text=Results%3A%20We%20found%20that%20the,sensitized%20these%20cells%20to%20TMZ)). Basement membrane proteins like FRAS1 maintain tissue integrity, and alterations can facilitate infiltration. Overall, the combined presence of multiple ECM-related genes suggests a program for matrix remodeling and cell invasion in glioblastoma.",
+            "citations": [
+                {
+                    "reference": "Kim et al. (2016) Int J Oncol",
+                    "id": "PMID:26923184",
+                    "type": "PMID",
+                    "notes": "SPOCK1 is upregulated in invasive GBM; its knockdown inhibits migration, invasion and Akt signaling ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/26923184/#:~:text=Results%3A%20We%20found%20that%20the,sensitized%20these%20cells%20to%20TMZ))"
+                },
+                {
+                    "reference": "Sun et al. (2023) Medicine (Baltimore)",
+                    "id": "DOI:10.1097/MD.0000000000033935",
+                    "type": "DOI",
+                    "notes": "Basement membrane and matrix-associated genes are enriched in glioma; these promote invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10256338/#:~:text=such%20as%20Laminin%2C%20integrin%2C%20and,9%5D%7D%20Therefore%2C%20it%20is))"
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "SPOCK1",
+                "FRAS1",
+                "SVEP1",
+                "CDH12",
+                "CARMIL1",
+                "B3GAT2"
+            ],
+            "supporting_gene_count": 6,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Apoptotic Regulation",
+            "description": "This program reflects tumor-intrinsic cell death pathways. HRK (Harakiri) is a pro-apoptotic BH3-only Bcl-2 protein normally expressed in neurons. In glioblastoma, HRK induction triggers mitochondrial apoptosis: HRK overexpression activates caspases, cooperates with TRAIL, and suppresses tumor growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6368544/#:~:text=Harakiri%20%28HRK%29%20is%20a%20BH3,xL%2C%20suggesting%20the%20functional%20interaction)). Thus, loss of HRK expression allows glioma cells to evade programmed cell death.",
+            "atomic_biological_processes": [
+                {
+                    "name": "regulation of apoptotic process",
+                    "ontology_id": "GO:0042981",
+                    "Genes": [
+                        "HRK"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Kaya-Aksoy et al., 2019",
+                            "id": "DOI:10.1038/s41420-019-0144-z",
+                            "type": "DOI",
+                            "notes": "HRK expression induces caspase activation and apoptosis in glioblastoma cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6368544/#:~:text=Harakiri%20%28HRK%29%20is%20a%20BH3,xL%2C%20suggesting%20the%20functional%20interaction))"
+                        }
+                    ],
+                    "ontology_label": "regulation of apoptotic process"
+                },
+                {
+                    "name": "intrinsic apoptotic signaling pathway",
+                    "ontology_id": "GO:0097193",
+                    "Genes": [
+                        "HRK"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Kaya-Aksoy et al., 2019",
+                            "id": "DOI:10.1038/s41420-019-0144-z",
+                            "type": "DOI",
+                            "notes": "HRK disrupts Bcl-2/Bcl-xL function to promote mitochondrial apoptosis in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6368544/#:~:text=Harakiri%20%28HRK%29%20is%20a%20BH3,xL%2C%20suggesting%20the%20functional%20interaction))"
+                        }
+                    ],
+                    "ontology_label": "intrinsic apoptotic signaling pathway"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "mitochondrial outer membrane",
+                    "ontology_id": "GO:0005741",
+                    "Genes": [
+                        "HRK"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Kaya-Aksoy et al., 2019",
+                            "id": "DOI:10.1038/s41420-019-0144-z",
+                            "type": "DOI",
+                            "notes": "HRK localizes to mitochondria and initiates apoptosis by antagonizing anti-apoptotic Bcl-2 proteins ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6368544/#:~:text=Harakiri%20%28HRK%29%20is%20a%20BH3,xL%2C%20suggesting%20the%20functional%20interaction))"
+                        }
+                    ],
+                    "ontology_label": "mitochondrial outer membrane"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced apoptotic sensitivity",
+                "Promotion of caspase-mediated cell death"
+            ],
+            "evidence_summary": "HRK is a neural BH3-only protein that sensitizes glioblastoma cells to apoptosis. Overexpressing HRK in GBM models activates caspases and cooperates with apoptosis-inducing agents like TRAIL ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6368544/#:~:text=Harakiri%20%28HRK%29%20is%20a%20BH3,xL%2C%20suggesting%20the%20functional%20interaction)). Thus, genes in this program reflect the reactivation of intrinsic cell death pathways, which could counteract tumor survival.",
+            "citations": [
+                {
+                    "reference": "Kaya-Aksoy et al. (2019) Cell Death Discov",
+                    "id": "DOI:10.1038/s41420-019-0144-z",
+                    "type": "DOI",
+                    "notes": "Describes HRK as a pro-apoptotic factor whose expression in GBM cells induces apoptosis and reduces tumor growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6368544/#:~:text=Harakiri%20%28HRK%29%20is%20a%20BH3,xL%2C%20suggesting%20the%20functional%20interaction))"
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.6,
+            "supporting_genes": [
+                "HRK"
+            ],
+            "supporting_gene_count": 1,
+            "required_components_present": false
+        }
+    ],
+    "version": "1.0.0"
+}

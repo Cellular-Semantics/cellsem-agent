@@ -1,0 +1,507 @@
+{
+    "context": {
+        "cell_type": "Glioblastoma cell",
+        "disease": "Glioblastoma",
+        "tissue": "brain"
+    },
+    "input_genes": [
+        "CFAP43",
+        "NEGR1",
+        "DNAH12",
+        "LRRC2",
+        "VAT1L",
+        "ZNF804B",
+        "RBMS3",
+        "SLC14A1",
+        "GABRA5",
+        "ZBBX",
+        "ADAMTS18",
+        "CFAP52",
+        "GRM1",
+        "MAP3K19",
+        "FHAD1",
+        "TCTEX1D1",
+        "DNAAF1",
+        "DCDC2",
+        "AC005165.1",
+        "COL21A1",
+        "PKHD1",
+        "ZNF521",
+        "EPB41L4B",
+        "ERICH3",
+        "PLAGL1",
+        "EXPH5",
+        "SHISAL2B",
+        "SATB1-AS1",
+        "RERGL",
+        "FRMPD2",
+        "TOGARAM2",
+        "AP003062.2",
+        "BMP6",
+        "NRG3",
+        "CFAP61",
+        "FAM81B",
+        "SLC47A2",
+        "TMEM232",
+        "NWD2",
+        "AC109466.1",
+        "GABRG3",
+        "DTHD1",
+        "COL13A1",
+        "COL23A1",
+        "CFAP73",
+        "RFTN1",
+        "FYB2",
+        "POSTN",
+        "AL513323.1",
+        "BANK1",
+        "CHD5",
+        "THBS1",
+        "ADCY8",
+        "ADGB",
+        "AFF2",
+        "DRC1",
+        "CFAP206",
+        "CFAP47",
+        "PPM1H",
+        "KIAA2012",
+        "MAP7",
+        "KSR2",
+        "DNAH5",
+        "LYPD6B",
+        "WSCD2",
+        "CACNA2D1",
+        "LRRIQ1",
+        "CPNE4",
+        "LINC01088",
+        "SCIN",
+        "PRMT8",
+        "LINGO2",
+        "CASC1",
+        "CCDC170",
+        "AC092110.1",
+        "VWA3A",
+        "CA10",
+        "AC013470.2",
+        "SLC22A3",
+        "GRM4",
+        "COL26A1",
+        "CFAP221",
+        "CFAP157",
+        "TTC29",
+        "C7orf57",
+        "HMCN1",
+        "CFAP100",
+        "U91319.1",
+        "RSPH1",
+        "NAALAD2",
+        "IL6R",
+        "CDH7",
+        "KCNJ3",
+        "AL356108.1"
+    ],
+    "programs": [
+        {
+            "program_name": "Ciliary Assembly & Signaling",
+            "description": "This cluster includes multiple genes encoding axonemal and dynein components of motile cilia (CFAPs, DNAH12/5, DRC1, RSPH1, etc.), implicating ciliary assembly and motility functions.  Primary cilia modulate GBM cell proliferation and therapy resistance through pathways like Hedgehog and LPAR1 ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8426355/#:~:text=Primary%20cilia%20are%20highly%20associated,the%20proliferation%2C%20malignant%20development%2C%20and)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8426355/#:~:text=When%20cilia%20are%20present%2C%20LPAR1,subunits%2C%20restricting%20its%20cell%20proliferative)).  Disruption of these ciliary components could alter Sonic Hedgehog signalling and ciliary vesicle release, affecting tumor growth.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0035082",
+                    "name": "axoneme assembly",
+                    "citation": [
+                        {
+                            "reference": "Wu B et al., J Biol Chem. 2023",
+                            "id": "10.1016/j.jbc.2023.104858",
+                            "type": "DOI",
+                            "notes": "CFAP52 is conserved in motile cilia (axoneme) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10319328/#:~:text=Previous%20studies%20have%20shown%20that,to%20the%20proximal%20region%20of))"
+                        }
+                    ],
+                    "Genes": [
+                        "CFAP43",
+                        "CFAP52",
+                        "TCTEX1D1",
+                        "DNAAF1",
+                        "DCDC2",
+                        "CFAP61",
+                        "CFAP73",
+                        "CFAP47",
+                        "CFAP206",
+                        "CFAP157",
+                        "CFAP100",
+                        "CFAP221",
+                        "DNAH12",
+                        "DNAH5",
+                        "DRC1",
+                        "RSPH1",
+                        "TTC29"
+                    ],
+                    "ontology_label": "axoneme assembly"
+                },
+                {
+                    "ontology_id": "GO:0003341",
+                    "name": "cilium movement",
+                    "citation": [
+                        {
+                            "reference": "Castleman M et al., Am J Hum Genet. 2013",
+                            "id": "10.1016/j.ajhg.2013.07.013",
+                            "type": "DOI",
+                            "notes": "RSPH1 is a radial spoke protein essential for motile cilia movement ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3769924/#:~:text=Central))"
+                        }
+                    ],
+                    "Genes": [
+                        "CFAP43",
+                        "CFAP52",
+                        "TCTEX1D1",
+                        "DNAAF1",
+                        "DCDC2",
+                        "CFAP61",
+                        "CFAP73",
+                        "CFAP47",
+                        "CFAP206",
+                        "CFAP157",
+                        "CFAP100",
+                        "CFAP221",
+                        "DNAH12",
+                        "DNAH5",
+                        "DRC1",
+                        "RSPH1",
+                        "TTC29"
+                    ],
+                    "ontology_label": "cilium movement"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0005930",
+                    "name": "axoneme",
+                    "citation": [
+                        {
+                            "reference": "Castleman M et al., Am J Hum Genet. 2013",
+                            "id": "10.1016/j.ajhg.2013.07.013",
+                            "type": "DOI",
+                            "notes": "The axoneme, core of cilia, contains dynein arms essential for ciliary movement ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3769924/#:~:text=right%20asymmetry.,25%7D%20Radial%20spokes))"
+                        }
+                    ],
+                    "Genes": [
+                        "CFAP43",
+                        "CFAP52",
+                        "TCTEX1D1",
+                        "DNAAF1",
+                        "DCDC2",
+                        "CFAP61",
+                        "CFAP73",
+                        "CFAP47",
+                        "CFAP206",
+                        "CFAP157",
+                        "CFAP100",
+                        "CFAP221",
+                        "DNAH12",
+                        "DNAH5",
+                        "DRC1",
+                        "RSPH1",
+                        "TTC29"
+                    ],
+                    "ontology_label": "axoneme"
+                },
+                {
+                    "ontology_id": "GO:0005929",
+                    "name": "cilium",
+                    "citation": [
+                        {
+                            "reference": "Li M et al., Front Oncol. 2021",
+                            "id": "10.3389/fonc.2021.718995",
+                            "type": "DOI",
+                            "notes": "Primary cilia are microtubule-based organelles implicated in GBM development and signalling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8426355/#:~:text=As%20microtubule,the%20central%20nervous%20system%20tumorigenesis))"
+                        }
+                    ],
+                    "Genes": [
+                        "CFAP43",
+                        "CFAP52",
+                        "TCTEX1D1",
+                        "DNAAF1",
+                        "DCDC2",
+                        "CFAP61",
+                        "CFAP73",
+                        "CFAP47",
+                        "CFAP206",
+                        "CFAP157",
+                        "CFAP100",
+                        "CFAP221",
+                        "DNAH12",
+                        "DNAH5",
+                        "DRC1",
+                        "RSPH1",
+                        "TTC29"
+                    ],
+                    "ontology_label": "cilium"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced Hedgehog pathway activation via cilia dysfunction ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8426355/#:~:text=Primary%20cilia%20are%20highly%20associated,the%20proliferation%2C%20malignant%20development%2C%20and))",
+                "Unregulated LPA/GPCR signaling due to cilium loss ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8426355/#:~:text=When%20cilia%20are%20present%2C%20LPAR1,subunits%2C%20restricting%20its%20cell%20proliferative))",
+                "Release of ciliary extracellular vesicles affecting neighboring cells"
+            ],
+            "evidence_summary": "The genes listed are components of motile cilia and flagella (axonemal dyneins, radial spokes, CFAP scaffold proteins) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10319328/#:~:text=Previous%20studies%20have%20shown%20that,to%20the%20proximal%20region%20of)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3769924/#:~:text=Central)).  In glioblastoma, primary cilia regulate oncogenic signaling: e.g. aberrant cilia lead to upregulated Sonic Hedgehog pathway and LPAR1-mediated proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8426355/#:~:text=Primary%20cilia%20are%20highly%20associated,the%20proliferation%2C%20malignant%20development%2C%20and)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8426355/#:~:text=When%20cilia%20are%20present%2C%20LPAR1,subunits%2C%20restricting%20its%20cell%20proliferative)).  Loss of these ciliary genes could therefore promote GBM cell proliferation and therapy resistance via misregulated ciliary signaling.",
+            "citations": [
+                {
+                    "reference": "Li M et al., Front Oncol. 2021",
+                    "id": "10.3389/fonc.2021.718995",
+                    "type": "DOI",
+                    "notes": "Review linking primary cilia to GBM development and resistance ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8426355/#:~:text=Primary%20cilia%20are%20highly%20associated,the%20proliferation%2C%20malignant%20development%2C%20and))"
+                },
+                {
+                    "reference": "Wu B et al., J Biol Chem. 2023",
+                    "id": "10.1016/j.jbc.2023.104858",
+                    "type": "DOI",
+                    "notes": "CFAP52 is located in motile cilia; its loss disrupts dynein-driven motility ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10319328/#:~:text=Previous%20studies%20have%20shown%20that,to%20the%20proximal%20region%20of))"
+                },
+                {
+                    "reference": "Castleman M et al., Am J Hum Genet. 2013",
+                    "id": "10.1016/j.ajhg.2013.07.013",
+                    "type": "DOI",
+                    "notes": "RSPH1 is a radial spoke head protein in motile cilia; mutations cause ciliopathy ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3769924/#:~:text=Central))"
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "CFAP43",
+                "CFAP52",
+                "TCTEX1D1",
+                "DNAAF1",
+                "DCDC2",
+                "CFAP61",
+                "CFAP73",
+                "CFAP47",
+                "CFAP206",
+                "CFAP157",
+                "CFAP100",
+                "CFAP221",
+                "DNAH12",
+                "DNAH5",
+                "DRC1",
+                "RSPH1",
+                "TTC29"
+            ],
+            "supporting_gene_count": 17,
+            "required_components_present": true
+        },
+        {
+            "program_name": "ECM Remodelling & Adhesion",
+            "description": "This program comprises extracellular matrix (ECM) proteins and regulators (collagens COL13A1/23A1/21A1/26A1, THBS1, ADAMTS18, POSTN, HMCN1) that modulate adhesion and invasion. Changes in these ECM components alter cell adhesion and migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1925056/#:~:text=It%20has%20been%20pointed%20out,20%20%2C%2030%2C31)).  For example, POSTN (periostin) is upregulated in GBM and promotes tumor progression and recruitment of tumor-associated macrophages ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12015317/#:~:text=that%20periostin%20,In)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12015317/#:~:text=13q13,associated)).  Such ECM remodeling is known to enhance glioma invasiveness.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0030198",
+                    "name": "extracellular matrix organization",
+                    "citation": [
+                        {
+                            "reference": "Honma et al., Cancer Cell Int. 2007",
+                            "id": "10.1186/1475-2867-7-12",
+                            "type": "DOI",
+                            "notes": "Loss of ECM control and altered ECM component expression drive glioma invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1925056/#:~:text=It%20has%20been%20pointed%20out,20%20%2C%2030%2C31))"
+                        }
+                    ],
+                    "Genes": [
+                        "COL21A1",
+                        "COL13A1",
+                        "COL23A1",
+                        "COL26A1",
+                        "THBS1",
+                        "POSTN",
+                        "ADAMTS18",
+                        "HMCN1"
+                    ],
+                    "ontology_label": "extracellular matrix organization"
+                },
+                {
+                    "ontology_id": "GO:0007155",
+                    "name": "cell adhesion",
+                    "citation": [
+                        {
+                            "reference": "Honma et al., Cancer Cell Int. 2007",
+                            "id": "10.1186/1475-2867-7-12",
+                            "type": "DOI",
+                            "notes": "Expressed ECM proteins (collagens, laminin, etc.) play major roles in glioma cell adhesion and invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1925056/#:~:text=It%20has%20been%20pointed%20out,20%20%2C%2030%2C31))"
+                        }
+                    ],
+                    "Genes": [
+                        "COL21A1",
+                        "COL13A1",
+                        "COL23A1",
+                        "COL26A1",
+                        "THBS1",
+                        "POSTN",
+                        "ADAMTS18",
+                        "HMCN1"
+                    ],
+                    "ontology_label": "cell adhesion"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0031012",
+                    "name": "extracellular matrix",
+                    "citation": [
+                        {
+                            "reference": "Honma et al., Cancer Cell Int. 2007",
+                            "id": "10.1186/1475-2867-7-12",
+                            "type": "DOI",
+                            "notes": "Glioma cells interact extensively with the extracellular matrix during invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1925056/#:~:text=Invasion%20is%20a%20hallmark%20of,HCOL1A1%29%20gene))"
+                        }
+                    ],
+                    "Genes": [
+                        "COL21A1",
+                        "COL13A1",
+                        "COL23A1",
+                        "COL26A1",
+                        "THBS1",
+                        "POSTN",
+                        "ADAMTS18",
+                        "HMCN1"
+                    ],
+                    "ontology_label": "extracellular matrix"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced glioma cell invasion and migration via ECM degradation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1925056/#:~:text=It%20has%20been%20pointed%20out,20%20%2C%2030%2C31))",
+                "Altered integrin and adhesion signaling",
+                "Increased recruitment of tumor-supportive stromal cells (e.g., via POSTN) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12015317/#:~:text=13q13,associated))"
+            ],
+            "evidence_summary": "Multiple collagens, matricellular proteins (THBS1, POSTN), and ECM remodelers (ADAMTS18) are represented. Dysregulation of these molecules is known to promote glioma invasiveness ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1925056/#:~:text=It%20has%20been%20pointed%20out,20%20%2C%2030%2C31)).  Notably, POSTN is upregulated in GBM and drives NF-\u03baB signaling and tumor-associated macrophage infiltration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12015317/#:~:text=that%20periostin%20,In)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12015317/#:~:text=13q13,associated)).  The combined presence of these ECM genes suggests a pro-invasive, mesenchymal-like program.",
+            "citations": [
+                {
+                    "reference": "Honma et al., Cancer Cell Int. 2007",
+                    "id": "10.1186/1475-2867-7-12",
+                    "type": "DOI",
+                    "notes": "Glioma progression involves altered expression of ECM proteins important for cell adhesion and invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1925056/#:~:text=It%20has%20been%20pointed%20out,20%20%2C%2030%2C31))"
+                },
+                {
+                    "reference": "Shang et al., Sci Rep. 2025",
+                    "id": "10.1038/s41598-025-92969-8",
+                    "type": "DOI",
+                    "notes": "POSTN (periostin) is upregulated in GBM, enhancing proliferation, invasion, and chemoresistance ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12015317/#:~:text=that%20periostin%20,In))"
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.65,
+            "supporting_genes": [
+                "COL21A1",
+                "COL13A1",
+                "COL23A1",
+                "COL26A1",
+                "THBS1",
+                "POSTN",
+                "ADAMTS18",
+                "HMCN1"
+            ],
+            "supporting_gene_count": 8,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Neurotransmitter & Ion Channel Signaling",
+            "description": "This set includes neurotransmitter receptors and ion channel genes (GABRA5, GABRG3, GRM1, GRM4, KCNJ3, CACNA2D1, etc.) typically expressed in neurons.  GABA_A receptor subunits (GABRA5/GABRG3) and glutamate receptors (GRM1/4) suggest dysregulated synaptic signaling.  In GBM, GABAergic and glutamatergic pathways can modulate tumor cell behavior (e.g. mGluR4 activation suppresses GBM proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5962807/#:~:text=brain%20and%20among%20the%20deadliest,signaling%20pathway%2C%20was%20further))).  Altered ion channel expression (CACNA2D1, KCNJ3) may affect cell excitability and invasiveness.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0007215",
+                    "name": "glutamate receptor signaling pathway",
+                    "citation": [
+                        {
+                            "reference": "Zhang et al., Front Neurosci. 2018",
+                            "id": "10.3389/fnins.2018.00320",
+                            "type": "DOI",
+                            "notes": "Activation of mGluR4 (a GRM4 product) inhibits GBM cell proliferation and survival ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5962807/#:~:text=brain%20and%20among%20the%20deadliest,signaling%20pathway%2C%20was%20further))"
+                        }
+                    ],
+                    "Genes": [
+                        "GRM1",
+                        "GRM4",
+                        "GABRA5",
+                        "GABRG3",
+                        "KCNJ3",
+                        "CACNA2D1"
+                    ],
+                    "ontology_label": "glutamate receptor signaling pathway"
+                },
+                {
+                    "ontology_id": "GO:0051932",
+                    "name": "synaptic transmission, GABAergic",
+                    "citation": [
+                        {
+                            "reference": "Badalotti et al., Brain Sci. 2024",
+                            "id": "10.3390/brainsci14030275",
+                            "type": "DOI",
+                            "notes": "GABRA5 encodes the GABA_A receptor \u03b15 subunit; GABA signaling influences brain tumor behavior ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10969028/#:~:text=,Also%2C%20increased%20levels%20of))"
+                        }
+                    ],
+                    "Genes": [
+                        "GABRA5",
+                        "GABRG3",
+                        "GRM1",
+                        "GRM4",
+                        "KCNJ3",
+                        "CACNA2D1"
+                    ],
+                    "ontology_label": "synaptic transmission, GABAergic"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0014069",
+                    "name": "postsynaptic density",
+                    "citation": [
+                        {
+                            "reference": "Badalotti et al., Brain Sci. 2024",
+                            "id": "10.3390/brainsci14030275",
+                            "type": "DOI",
+                            "notes": "GABA_A receptor subunits (including \u03b15) localize to the postsynaptic membrane; altered GABAergic signaling is observed in glioma ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10969028/#:~:text=,Also%2C%20increased%20levels%20of))"
+                        }
+                    ],
+                    "Genes": [
+                        "GABRA5",
+                        "GABRG3",
+                        "GRM1",
+                        "GRM4",
+                        "KCNJ3",
+                        "CACNA2D1"
+                    ],
+                    "ontology_label": "postsynaptic density"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Dysregulated synaptic receptor signaling modulates GBM proliferation and survival ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5962807/#:~:text=brain%20and%20among%20the%20deadliest,signaling%20pathway%2C%20was%20further)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10969028/#:~:text=,Also%2C%20increased%20levels%20of))",
+                "Altered calcium/potassium channel activity affects membrane excitability and migration"
+            ],
+            "evidence_summary": "Several neurotransmitter receptors and ion channels are present. For example, mGluR4 (GRM4) is known to inhibit GBM cell growth when activated ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5962807/#:~:text=brain%20and%20among%20the%20deadliest,signaling%20pathway%2C%20was%20further)), and GABA_A signaling (via GABRA5) may influence glioma-associated seizures ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10969028/#:~:text=,Also%2C%20increased%20levels%20of)). While not traditionally associated with glial biology, these neuronal pathways may reflect communication with the neural environment or tumor microenvironment.",
+            "citations": [
+                {
+                    "reference": "Badalotti et al., Brain Sci. 2024",
+                    "id": "10.3390/brainsci14030275",
+                    "type": "DOI",
+                    "notes": "Glioma expression of GABA_A receptor subunits (including \u03b15) can influence tumor behavior ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10969028/#:~:text=,Also%2C%20increased%20levels%20of))"
+                },
+                {
+                    "reference": "Zhang et al., Front Neurosci. 2018",
+                    "id": "10.3389/fnins.2018.00320",
+                    "type": "DOI",
+                    "notes": "mGluR4 activation suppresses glioblastoma cell proliferation and induces apoptosis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5962807/#:~:text=brain%20and%20among%20the%20deadliest,signaling%20pathway%2C%20was%20further))"
+                }
+            ],
+            "confidence_score": 0.5,
+            "significance_score": 0.5,
+            "supporting_genes": [
+                "GABRA5",
+                "GABRG3",
+                "GRM1",
+                "GRM4",
+                "KCNJ3",
+                "CACNA2D1",
+                "CPNE4",
+                "CA10",
+                "NAALAD2"
+            ],
+            "supporting_gene_count": 9,
+            "required_components_present": false
+        }
+    ],
+    "version": "1.0"
+}
