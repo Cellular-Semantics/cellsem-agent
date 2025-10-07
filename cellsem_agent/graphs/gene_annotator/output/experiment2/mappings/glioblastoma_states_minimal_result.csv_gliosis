@@ -1,10 +1,12 @@
 original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
-extracellular matrix organization,GO:0030198,extracellular matrix organization,GO,1.0,exact_match
-cell migration,GO:0016477,cell migration,GO,1.0,exact_match
-extracellular matrix,GO:0031012,extracellular matrix,GO,1.0,exact_match
-axon guidance,GO:0007411,axon guidance,GO,1.0,exact_match
-synapse assembly,GO:0007416,synapse assembly,GO,1.0,exact_match
-synapse,GO:0045202,synapse,GO,1.0,exact_match
-response to hypoxia,GO:0001666,response to hypoxia,GO,1.0,exact_match
+inflammatory response,GO:0006954,inflammatory response,GO,1.0,exact_match
 negative regulation of immune response,GO:0050777,negative regulation of immune response,GO,1.0,exact_match
-mitochondrion,GO:0005739,mitochondrion,GO,1.0,exact_match
+cellular response to tumor necrosis factor,GO:0071356,cellular response to tumor necrosis factor,GO,1.0,exact_match
+negative regulation of apoptotic process,GO:0043066,negative regulation of apoptotic process,GO,1.0,exact_match
+extracellular matrix organization,GO:0030198,extracellular matrix organization,GO,1.0,exact_match
+cell adhesion,GO:0007155,cell adhesion,GO,1.0,exact_match
+extracellular matrix,GO:0031012,extracellular matrix,GO,1.0,exact_match
+angiogenesis,GO:0001525,angiogenesis,GO,1.0,exact_match
+cellular response to hypoxia,GO:0071456,cellular response to hypoxia,GO,1.0,exact_match
+stem cell population maintenance,GO:0019827,stem cell population maintenance,GO,1.0,exact_match
+response to drug,GO:2001023,regulation of response to drug,GO,1.0,exact_match

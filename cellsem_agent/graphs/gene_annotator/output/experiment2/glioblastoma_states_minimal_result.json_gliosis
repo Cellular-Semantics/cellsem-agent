@@ -1,426 +1,606 @@
 {
     "context": {
-        "cell_type": "astrocytes",
-        "disease": "glioblastoma",
+        "cell_type": "glioblastoma cells",
+        "disease": "Glioblastoma",
         "tissue": "brain"
     },
     "input_genes": [
-        "LINC01727",
-        "AC117464.1",
-        "XYLT1",
-        "MMD2",
-        "EEPD1",
-        "AC013265.1",
-        "MYO5B",
-        "PLA2G4A",
-        "KCNIP1",
-        "ITGB4",
-        "AC019068.1",
-        "UNC5D",
-        "MIR3681HG",
-        "LINC02125",
-        "LINC02246",
-        "LRRC4C",
-        "LUCAT1",
-        "MDGA2",
-        "AC077690.1",
-        "CTXND1",
-        "AL353138.1",
-        "CDH18",
-        "MN1",
-        "AL356737.2",
-        "NKAIN3",
-        "CD44",
-        "NLRC5",
-        "LINC01776",
-        "LINC01117",
-        "DAB1",
-        "GFAP",
-        "DCHS2",
-        "DIPK1C",
-        "COL20A1",
-        "ELMOD1",
-        "ERICH3",
-        "ADAMTS5",
+        "SERPINE1",
+        "EMP1",
+        "SPOCD1",
+        "ARHGAP29",
+        "IL1R1",
+        "COL6A2",
+        "MYOF",
+        "F13A1",
+        "CXCL10",
+        "CHI3L1",
+        "MET",
+        "IL6",
+        "SAA2",
+        "BIRC3",
+        "MCTP2",
+        "ANGPTL4",
+        "ICAM1",
+        "CCN1",
+        "CAV1",
+        "APLN",
+        "FOSL1",
+        "SNTG2-AS1",
+        "TPD52L1",
+        "SAA4",
+        "KRT75",
+        "NFATC2",
+        "COL5A1",
+        "AC243829.2",
+        "CLCF1",
+        "ARSJ",
+        "PLA2G2A",
+        "HMGA2",
+        "PTX3",
+        "TLR2",
+        "LINC00698",
+        "ALPK2",
+        "TNFAIP3",
+        "TNFAIP2",
+        "NDRG1",
+        "SMOC2",
+        "ADGRL2",
+        "KANK4",
+        "GEM",
+        "FAS",
+        "CXCL8",
+        "CFH",
+        "ABCC3",
+        "CXCL14",
+        "ZFP36",
+        "RCAN2",
+        "GADD45A",
+        "COL1A2",
+        "LTF",
+        "DHRS3",
+        "IDO1",
+        "HAP1",
+        "AXL",
+        "ATP6V0D2",
+        "KLF5",
+        "ST6GALNAC5",
+        "GPD1",
+        "PAPPA2",
+        "BAG3",
+        "MYBPH",
+        "MYBPC1",
+        "MX2",
+        "APBB1IP",
+        "ANPEP",
+        "ALPL",
+        "GPRC5A",
+        "SPP1",
+        "CXCL2",
         "GPC5",
-        "CHST8",
-        "AC233296.1",
-        "AC124254.2",
+        "RRAD",
+        "LIF",
+        "CHRNA9",
+        "IL4R",
+        "NPNT",
+        "SAA1",
         "NPR3",
-        "HRH1",
-        "INPP4B",
-        "AL159156.1",
-        "LINC02328",
-        "ARC",
-        "PDZRN4",
-        "AC007344.1",
-        "RGMA",
-        "PPARGC1A",
-        "TNR",
-        "ST8SIA5",
-        "ST8SIA1",
-        "SLC7A11"
+        "PROM1",
+        "SLIT3",
+        "ITGBL1",
+        "MYO5B",
+        "RPS5",
+        "RPS27",
+        "ETS2",
+        "PTGS2",
+        "RPS18",
+        "BNC2",
+        "CPA4",
+        "NPAS2",
+        "CD274",
+        "SLC10A6",
+        "LRAT",
+        "LINC01993",
+        "LINC02832",
+        "LINC02821",
+        "GBP5",
+        "AC021851.2",
+        "AKAP12",
+        "LINC02154",
+        "FN1",
+        "MIR222HG",
+        "VEGFA",
+        "GBP2",
+        "ZNF735",
+        "TSHZ2",
+        "TRPM2",
+        "LUCAT1",
+        "PI3"
     ],
     "programs": [
         {
+            "program_name": "Inflammatory Cytokine Signaling",
+            "theme": "Immune Microenvironment",
+            "description": "Multiple genes indicate a pro-inflammatory and immunomodulatory program in the glioblastoma cells. These tumor cells secrete cytokines and chemokines (e.g., IL-6, CXCL8, CXCL2, CXCL10) that recruit immune cells into the tumor microenvironment. Concurrently, the expression of immune checkpoint molecules like PD-L1 (CD274) and enzymes such as IDO1 mediates local immune suppression, helping the tumor evade cytotoxic T cells. Receptors like IL1R1 and TLR2 enable the glioma cells to respond to inflammatory signals (e.g., IL-1\u03b2, microbial ligands), amplifying NF-\u03baB-mediated cytokine production. The combined effect is a chronically inflamed yet immunosuppressive tumor niche enriched in tumor-associated macrophages and neutrophils, skewed toward pro-tumoral (M2-like) polarization. This program reflects a mesenchymal-like state of glioblastoma characterized by high cytokine output and immune evasion.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0006954",
+                    "name": "inflammatory response",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Zhao et al., Theranostics (2022)",
+                            "id": "36276655",
+                            "type": "PMID",
+                            "notes": "CHI3L1 drives NF-\u03baB activation in glioma cells and is released to interact with TAMs, contributing to a tumor-promoting inflammatory microenvironment ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9576612/#:~:text=and%20NFKB1%2C%20and%20enhances%20the,pathway%2C%20thereby%20contributing%20to%20M2))."
+                        }
+                    ],
+                    "Genes": [
+                        "IL6",
+                        "CXCL8",
+                        "CXCL2",
+                        "CXCL10",
+                        "TLR2",
+                        "IL1R1",
+                        "CHI3L1",
+                        "PTGS2",
+                        "PLA2G2A"
+                    ]
+                },
+                {
+                    "ontology_id": "GO:0050777",
+                    "name": "negative regulation of immune response",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Jung et al., Neuro Oncol Adv (2022)",
+                            "id": "35990703",
+                            "type": "PMID",
+                            "notes": "Interferon-\u03b3 induces glioblastoma cells to upregulate PD-L1 and IDO1, resulting in enhanced immunosuppressive effects on monocytes and T cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9389426/#:~:text=IFN,exposed%20GBM%20EVs%20on%20monocytes))."
+                        }
+                    ],
+                    "Genes": [
+                        "CD274",
+                        "IDO1",
+                        "LIF",
+                        "CFH",
+                        "SAA1",
+                        "SAA2",
+                        "SAA4"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [],
+            "predicted_cellular_impact": [
+                "Chronic secretion of pro-inflammatory cytokines and chemokines (IL-6, IL-8, etc.), recruiting immune cells into the tumor",
+                "Upregulation of immune checkpoints (PD-L1) and IDO1, enabling the tumor to suppress T cell activation and evade immune destruction",
+                "Polarization of infiltrating myeloid cells toward a tumor-supportive, immunosuppressive (M2-like) phenotype within the microenvironment"
+            ],
+            "evidence_summary": "Glioblastoma cells exhibit a mesenchymal-like inflammatory program, secreting cytokines and chemokines that reshape the immune microenvironment. Elevated IL-6, IL-8 (CXCL8), CXCL2, and CXCL10 levels attract macrophages, neutrophils, and lymphocytes to the tumor site ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9576612/#:~:text=and%20NFKB1%2C%20and%20enhances%20the,pathway%2C%20thereby%20contributing%20to%20M2)). Simultaneously, the tumor upregulates immunosuppressive mediators like PD-L1 and IDO1 in response to signals such as IFN-\u03b3, which collectively blunt anti-tumor T cell activity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9389426/#:~:text=IFN,exposed%20GBM%20EVs%20on%20monocytes)). IL1R1 and TLR2 on glioma cells allow them to sense inflammatory cues (e.g., IL-1, microbial signals) and further activate NF-\u03baB, sustaining a feedback loop of cytokine production ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3823708/#:~:text=activation%20of%20NF,of%20mice%20bearing%20intracranial%20tumors)). This results in an environment of \u201csmoldering\u201d inflammation where tumor-associated macrophages are abundant but skewed to an M2 state that supports tumor growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9576612/#:~:text=and%20NFKB1%2C%20and%20enhances%20the,pathway%2C%20thereby%20contributing%20to%20M2)). In patients, this gene program corresponds to the mesenchymal GBM subtype, known for pronounced immune infiltration coupled with overpowering immunosuppression ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/38290591/#:~:text=The%20molecular%20signatures%20of%20gliomas,String%20analysis%2C%20co)).",
+            "citations": [
+                {
+                    "reference": "Zhao et al., Theranostics 2022",
+                    "id": "36276655",
+                    "type": "PMID",
+                    "notes": "CHI3L1 (YKL-40) overexpression in glioma promotes NF-\u03baB pathway activation and triggers M2 polarization of tumor-associated macrophages, reprogramming the tumor microenvironment ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9576612/#:~:text=and%20NFKB1%2C%20and%20enhances%20the,pathway%2C%20thereby%20contributing%20to%20M2))."
+                },
+                {
+                    "reference": "Jung et al., Neurooncol Adv 2022",
+                    "id": "35990703",
+                    "type": "PMID",
+                    "notes": "Glioblastoma cells upregulate PD-L1 and IDO1 upon IFN-\u03b3 exposure; these factors, also packaged in tumor EVs, induce myeloid suppressor cells and inhibit T cell proliferation, illustrating a mechanism of immune evasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9389426/#:~:text=IFN,exposed%20GBM%20EVs%20on%20monocytes))."
+                }
+            ],
+            "confidence_score": 0.95,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "IL6",
+                "CXCL8",
+                "CXCL2",
+                "CXCL10",
+                "TLR2",
+                "IL1R1",
+                "CHI3L1",
+                "CD274",
+                "IDO1",
+                "LIF",
+                "SAA1",
+                "SAA2",
+                "SAA4",
+                "CFH",
+                "PTGS2",
+                "PLA2G2A"
+            ],
+            "supporting_gene_count": 16,
+            "required_components_present": true
+        },
+        {
+            "program_name": "NF-\u03baB Stress Response",
+            "theme": "Survival and Stress",
+            "description": "This program reflects activation of canonical stress-response pathways, particularly TNF/NF-\u03baB and related transcriptional targets, which enhance tumor cell survival under cytotoxic stress. Several immediate-early genes induced by TNF signaling are present, including TNFAIP3 (A20), TNFAIP2, and ZFP36, which modulate NF-\u03baB activity and cytokine mRNA stability. Anti-apoptotic effectors such as BIRC3 (cIAP2) and BAG3 are upregulated, protecting glioblastoma cells from cell death triggers (like therapy-induced apoptosis). Components like FOSL1 (Fos-like 1/AP-1) and NFATC2 indicate co-activation of AP-1 and calcineurin/NFAT pathways, which often cooperate with NF-\u03baB in stress and immune responses. This gene program suggests that the glioma cells have engaged a cytoprotective, inflammation-linked state (often seen in mesenchymal GBM) that confers resistance to radiation and chemotherapy by blocking apoptotic pathways and sustaining pro-survival signaling even in hypoxic or DNA-damage conditions.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0034612",
+                    "name": "cellular response to tumor necrosis factor",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "McFarland et al., PLoS One 2013",
+                            "id": "PMC3823708",
+                            "type": "PMID",
+                            "notes": "Exposure to TNF-\u03b1 is sufficient to induce IL-6 and LIF expression in glioma cells, demonstrating activation of NF-\u03baB/Stat3 signaling in response to inflammatory stress ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3823708/#:~:text=Because%20IL,%CE%B1))."
+                        }
+                    ],
+                    "Genes": [
+                        "TNFAIP3",
+                        "TNFAIP2",
+                        "BIRC3",
+                        "ZFP36",
+                        "IL6",
+                        "CXCL8"
+                    ]
+                },
+                {
+                    "ontology_id": "GO:0043066",
+                    "name": "negative regulation of apoptotic process",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Festa et al., Am J Pathol 2011",
+                            "id": "21561597",
+                            "type": "PMID",
+                            "notes": "BAG3 is highly expressed in GBM and forms a complex with Hsp70 and BAX to prevent BAX mitochondrial translocation, thereby inhibiting apoptosis and increasing therapy resistance ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/21561597/#:~:text=found%20that%20BAG3%2C%20although%20negative,sensitivity%20to%20therapy%20and%20thus))."
+                        }
+                    ],
+                    "Genes": [
+                        "BIRC3",
+                        "BAG3",
+                        "TNFAIP3",
+                        "GADD45A"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [],
+            "predicted_cellular_impact": [
+                "Constitutive activation of NF-\u03baB and AP-1 pathways, driving expression of survival genes under stress conditions",
+                "Enhanced resistance to apoptosis through upregulation of anti-apoptotic regulators (e.g., BIRC3/cIAP2, BAG3, A20) that block caspase activation",
+                "Ability to endure hypoxia and therapy-induced stress via stress-response genes (e.g., NDRG1, GADD45A) that facilitate DNA repair and adaptation"
+            ],
+            "evidence_summary": "The presence of multiple TNF-responsive genes indicates that glioblastoma cells have an active NF-\u03baB signaling program. TNFAIP3 (A20), a ubiquitin-modifying enzyme, and TNFAIP2 are classical NF-\u03baB target genes induced by TNF-\u03b1, reflecting feedback control of this pathway ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3823708/#:~:text=Because%20IL,%CE%B1)). BIRC3 (cIAP2), an inhibitor of apoptosis protein, is markedly upregulated; in mesenchymal GBMs, BIRC3 is induced by hypoxia via HIF-1 and helps tumor cells survive under low oxygen and treatment stress ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5570925/#:~:text=proneural%20and%20classical%20subtypes,driven)). Similarly, BAG3, not expressed in normal brain, is highly expressed in GBM where it binds Hsp70 and BAX to prevent mitochondrial apoptosis, thereby conferring resistance to cell death ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/21561597/#:~:text=found%20that%20BAG3%2C%20although%20negative,sensitivity%20to%20therapy%20and%20thus)). Transcription factor FOSL1 (FRA-1) suggests AP-1 activation, which along with NF-\u03baB drives inflammatory and stress-response genes. Collectively, this program enables tumor cells to resist cytotoxic stimuli (radiation, chemotherapy) through a combination of NF-\u03baB-driven survival signaling and direct inhibitors of apoptosis, a feature correlated with the therapy-resistant mesenchymal subtype of GBM ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/38290591/#:~:text=The%20molecular%20signatures%20of%20gliomas,String%20analysis%2C%20co)).",
+            "citations": [
+                {
+                    "reference": "McFarland et al., PLoS One 2013",
+                    "id": "23658643",
+                    "type": "PMID",
+                    "notes": "NF-\u03baB activation by TNF-\u03b1 leads to IL-6 secretion and STAT3 activation in glioma cells; blocking NF-\u03baB and STAT3 in tandem significantly reduced tumor growth in vivo ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3823708/#:~:text=activation%20of%20NF,of%20mice%20bearing%20intracranial%20tumors)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3823708/#:~:text=expression%20of%20target%20genes%20such,12))."
+                },
+                {
+                    "reference": "Wang et al., Sci Rep 2017",
+                    "id": "28839258",
+                    "type": "PMID",
+                    "notes": "BIRC3 is identified as a selective biomarker of mesenchymal GBM. Hypoxia (via HIF-1\u03b1) induces BIRC3 in GBM cells; high BIRC3 in hypoxic tumor zones promotes therapy resistance, whereas BIRC3 inhibition sensitizes cells to radiation by permitting apoptosis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5570925/#:~:text=temozolomide%20,robust%20BIRC3%20expression%20was%20noted)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5570925/#:~:text=regions%20in%20GBM%20patient%20tissue,driven))."
+                },
+                {
+                    "reference": "Colpietro et al., Am J Pathol 2011",
+                    "id": "21561597",
+                    "type": "PMID",
+                    "notes": "BAG3 is barely detectable in normal brain but is strongly expressed in GBM. Silencing BAG3 increases apoptosis in glioma models; mechanistically, BAG3-Hsp70 forms a complex with BAX to block its mitochondrial translocation, protecting tumor cells from apoptosis ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/21561597/#:~:text=found%20that%20BAG3%2C%20although%20negative,sensitivity%20to%20therapy%20and%20thus))."
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.85,
+            "supporting_genes": [
+                "TNFAIP3",
+                "TNFAIP2",
+                "BIRC3",
+                "ZFP36",
+                "BAG3",
+                "GADD45A",
+                "RCAN2",
+                "FOSL1",
+                "NDRG1",
+                "NFATC2"
+            ],
+            "supporting_gene_count": 10,
+            "required_components_present": true
+        },
+        {
             "program_name": "ECM Remodeling",
-            "description": "This gene program drives extensive remodeling of the extracellular matrix to facilitate glioblastoma invasion. Tumor cells upregulate ECM-degrading enzymes and matrix-modifying activities, while increasing expression of cell-matrix adhesion molecules. Key components include a secreted protease (ADAMTS5) that cleaves brain-specific proteoglycans, enzymes for glycosaminoglycan synthesis (XYLT1) and sulfation (CHST8) that alter matrix composition, and receptors like CD44 and integrin-\u03b24 that anchor cells to matrix substrates. Collagens and neural ECM glycoproteins (e.g., tenascin-R) are also present or induced. Collectively, these genes enable glioblastoma cells to break down structural barriers and interact with a permissive matrix, enhancing cell motility through brain tissue. Established studies show that ADAMTS5 is highly expressed in GBM cells and promotes invasion by cleaving brevican in the brain ECM ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/16133547/#:~:text=glioblastoma%20tissues%20compared%20to%20control,through%20the%20cleavage%20of%20brevican)). CD44, a hyaluronan receptor, is enriched in invasive glioma stem-like cells and orchestrates signaling pathways that promote motility under hypoxic conditions ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10572085/#:~:text=High%20invasiveness%20is%20a%20characteristic,1%CE%B1%2C%20which%20then%20activates)). Upregulated ECM modifiers like XYLT1 can drive pro-invasive signaling (NF-\u03baB activation) via aberrant proteoglycan glycosylation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39992715/#:~:text=In%20this%20study%2C%20we%20found,results%20illustrate%20that%20proteoglycan%20modification)). Integrin \u03b24, a laminin-binding integrin, is likewise elevated in high-grade gliomas, correlating with poor prognosis and linking tumor cells to the surrounding matrix and stromal cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10764336/#:~:text=in%20comprehensive%20therapies%2C%20including%20radiotherapy%2C,that%20ITGB4%20is%20upregulated%20in)). Altogether this program endows glioblastoma cells with an aggressive, invasive phenotype by dynamically remodeling the tumor microenvironment\u2019s structural matrix.",
+            "theme": "Invasion and Migration",
+            "description": "This gene program is centered on extracellular matrix (ECM) production and cell adhesion, which underlie the notorious invasiveness of glioblastoma. Multiple collagen genes (COL1A2, COL5A1, COL6A2) and matrix proteins like fibronectin (FN1) and osteopontin (SPP1) are highly expressed, indicating a robust, fibrillar ECM deposited by tumor (and associated stromal) cells. Such an ECM provides a scaffold that facilitates glioma cell migration into surrounding brain tissue. Concurrently, adhesion molecules and regulators are present: ICAM1 (cell adhesion molecule), ITGBL1 and nephronectin (NPNT) which engage integrins, and caveolin-1 (CAV1) and AKAP12 which organize focal adhesions and signal transduction. Rho GTPase regulator ARHGAP29 and actin linkers like KANK4 suggest cytoskeletal adjustments for motility. Notably, SERPINE1 (PAI-1), an inhibitor of plasminogen activation, is upregulated, which can modify the balance between ECM degradation and deposition during invasion. Collectively, this program signifies an active mesenchymal invasion state: glioblastoma cells and possibly perivascular stromal cells create a permissive ECM-rich microenvironment and engage integrin/focal adhesion signaling to drive tumor cell dispersal throughout the brain parenchyma.",
             "atomic_biological_processes": [
                 {
                     "ontology_id": "GO:0030198",
                     "name": "extracellular matrix organization",
+                    "ontology_label": "biological_process",
                     "citation": [
                         {
-                            "reference": "Marino S. et al., Cancers, 2023",
-                            "id": "PMID:36980765",
+                            "reference": "Vymazal et al., Cancers 2023",
+                            "id": "PMC11483521",
                             "type": "PMID",
-                            "notes": "Reports that GBM tissues show altered extracellular matrix composition (e.g., increased collagens) which is linked to tumor invasiveness ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10046791/#:~:text=Normal%20brain%20tissue%20ECMs%20are,have%20shown%20that%20GBM%20cell))"
+                            "notes": "Perivascular-like stromal cells in GBM deposit abundant collagen I and fibronectin, creating a fibrillar ECM that is absent in normal brain; this ECM significantly enhances glioma cell migration and adhesion via FAK signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11483521/#:~:text=as%20crucial%20producers%20of%20a,glioma%20cells%20through%20FAK%20activation))."
                         }
                     ],
                     "Genes": [
-                        "XYLT1",
-                        "CHST8",
-                        "COL20A1",
-                        "ADAMTS5",
-                        "GPC5",
-                        "TNR",
-                        "CD44",
-                        "ITGB4"
-                    ],
-                    "ontology_label": "extracellular matrix organization"
+                        "FN1",
+                        "COL1A2",
+                        "COL5A1",
+                        "COL6A2",
+                        "SPP1",
+                        "SMOC2",
+                        "NPNT",
+                        "ITGBL1"
+                    ]
                 },
                 {
-                    "ontology_id": "GO:0016477",
-                    "name": "cell migration",
+                    "ontology_id": "GO:0007155",
+                    "name": "cell adhesion",
+                    "ontology_label": "biological_process",
                     "citation": [
                         {
-                            "reference": "Nakada M. et al., Acta Neuropathol, 2005",
-                            "id": "DOI:10.1007/s00401-005-1032-6",
-                            "type": "DOI",
-                            "notes": "Shows that overexpression of ADAMTS-5 in glioblastoma cells enhances invasion (cell migration through brain matrix) by breaching proteoglycan barriers ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/16133547/#:~:text=transfectants,through%20the%20cleavage%20of%20brevican))"
+                            "reference": "Seker et al., Cancers (Basel) 2019",
+                            "id": "31731490",
+                            "type": "PMID",
+                            "notes": "SERPINE1 (PAI-1) was identified as a key modulator of GBM cell dispersal. Knocking down SERPINE1 reduces cell-substrate adhesion and invasion in vitro, leading to suppressed tumor spread in an orthotopic GBM model ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=non,Together%2C%20our)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=upstream%20regulator%20of%20SERPINE1%20expression,invasive%20therapy%20design))."
                         }
                     ],
                     "Genes": [
-                        "ADAMTS5",
-                        "CD44",
-                        "ITGB4",
-                        "ELMOD1"
-                    ],
-                    "ontology_label": "cell migration"
+                        "ICAM1",
+                        "CAV1",
+                        "EMP1",
+                        "AKAP12",
+                        "APBB1IP",
+                        "ARHGAP29",
+                        "KANK4",
+                        "SERPINE1"
+                    ]
                 }
             ],
             "atomic_cellular_components": [
                 {
                     "ontology_id": "GO:0031012",
                     "name": "extracellular matrix",
+                    "ontology_label": "cellular_component",
                     "citation": [
                         {
-                            "reference": "Marino S. et al., Cancers, 2023",
-                            "id": "PMID:36980765",
+                            "reference": "Calori et al., Int J Mol Sci 2022",
+                            "id": "PMC8038731",
                             "type": "PMID",
-                            "notes": "Highlights that GBM cells reside in a highly altered extracellular matrix environment rich in hyaluronan and collagens, which interact with tumor cell surface receptors like CD44 to influence proliferation and migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10046791/#:~:text=Hyaluronan%20is%20a%20linear%20and,growth%2C%20cellular%20proliferation%2C%20and%20cellular)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10046791/#:~:text=Normal%20brain%20tissue%20ECMs%20are,have%20shown%20that%20GBM%20cell))"
+                            "notes": "Glioblastomas exhibit profound changes in ECM composition, including elevated collagen and fibronectin deposits compared to normal brain, contributing to a microenvironment that promotes tumor invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11483521/#:~:text=2,with%20FAP%20expression%20in%20GBM))."
                         }
                     ],
                     "Genes": [
-                        "COL20A1",
-                        "TNR",
-                        "GPC5",
-                        "ADAMTS5",
-                        "CD44",
-                        "ITGB4"
-                    ],
-                    "ontology_label": "extracellular matrix"
+                        "FN1",
+                        "COL1A2",
+                        "COL6A2",
+                        "COL5A1",
+                        "SPP1",
+                        "SMOC2"
+                    ]
                 }
             ],
             "predicted_cellular_impact": [
-                "Enhanced extracellular matrix degradation and remodeling to facilitate tumor cell invasion",
-                "Increased cell-matrix adhesion and motility through upregulated integrin and CD44 signaling"
+                "Accumulation of a dense, fibrillar extracellular matrix (collagens I, V, VI and fibronectin) that provides structural support for tumor invasion",
+                "Enhanced glioma cell attachment and migration via upregulated adhesion molecules and focal adhesion scaffolding (ICAM1, CAV1, AKAP12, etc.)",
+                "Altered proteolytic balance (e.g., high PAI-1/SERPINE1) leading to controlled ECM degradation that facilitates dispersal of tumor cells into surrounding brain"
             ],
-            "evidence_summary": "Multiple genes in this program function cooperatively to remodel the brain extracellular matrix and promote invasive growth of glioblastoma cells. For example, the metalloprotease ADAMTS5 is significantly overexpressed in GBM and cleaves the neural proteoglycan brevican, thereby loosening matrix constraints and stimulating tumor cell invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/16133547/#:~:text=glioblastoma%20tissues%20compared%20to%20control,through%20the%20cleavage%20of%20brevican)). Concurrently, the hyaluronan receptor CD44 is highly expressed on invasive glioma stem-like cells, linking to pathways that drive cell migration especially under hypoxic stress ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10572085/#:~:text=High%20invasiveness%20is%20a%20characteristic,1%CE%B1%2C%20which%20then%20activates)). Glycosyltransferases such as XYLT1, which initiates proteoglycan GAG chain synthesis, are upregulated and have been implicated in cancer metastasis via NF-\u03baB activation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39992715/#:~:text=In%20this%20study%2C%20we%20found,results%20illustrate%20that%20proteoglycan%20modification)), suggesting aberrant matrix proteoglycan production can feed back to tumor signaling. Adhesion receptors like integrin \u03b24, a laminin-binding integrin, are also elevated in gliomas; its increased expression correlates with tumor progression and an immunosuppressive microenvironment ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10764336/#:~:text=in%20comprehensive%20therapies%2C%20including%20radiotherapy%2C,that%20ITGB4%20is%20upregulated%20in)). These coordinated alterations enable tumor cells to dynamically alter and engage the surrounding stroma, fostering greater invasiveness.",
+            "evidence_summary": "Glioblastoma cells show a mesenchymal transformation marked by extracellular matrix remodeling. Key matrix components such as type I, V, and VI collagens and fibronectin are highly expressed in the tumor, whereas they are low in normal brain ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11483521/#:~:text=2,with%20FAP%20expression%20in%20GBM)). This results in a fibrous scaffold that glioma cells and associated stromal cells (like FAP+ pericyte-like cells) produce, which significantly enhances tumor cell migration and invasion via focal adhesion kinase (FAK) signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11483521/#:~:text=as%20crucial%20producers%20of%20a,glioma%20cells%20through%20FAK%20activation)). The tumor also upregulates adhesion mediators: ICAM1 promotes cell\u2013cell and cell\u2013matrix adhesion, and Caveolin-1 and AKAP12 localize signaling complexes to focal adhesions, strengthening cell motility signals. SERPINE1 (PAI-1) is dramatically induced in motile glioma cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=upstream%20regulator%20of%20SERPINE1%20expression,invasive%20therapy%20design)); it can inhibit extracellular proteases, thereby modulating matrix degradation and paradoxically aiding cell migration. Functionally, blocking SERPINE1 in GBM models led to reduced cell adhesion and invasion, and slower tumor spread ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=non,Together%2C%20our)). Overall, this gene program equips glioblastoma cells with an aggressive invasive machinery, explaining their diffuse infiltration into the brain parenchyma.",
             "citations": [
                 {
-                    "reference": "Nakada M. et al., Acta Neuropathol, 2005",
-                    "id": "DOI:10.1007/s00401-005-1032-6",
-                    "type": "DOI",
-                    "notes": "First identification of ADAMTS-5 overexpression in glioblastoma, demonstrating that ADAMTS-5 in GBM cells cleaves the ECM proteoglycan brevican and significantly increases tumor invasiveness ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/16133547/#:~:text=glioblastoma%20tissues%20compared%20to%20control,through%20the%20cleavage%20of%20brevican))"
-                },
-                {
-                    "reference": "Inoue A. et al., Cancers, 2023",
-                    "id": "DOI:10.3390/cancers15194898",
-                    "type": "DOI",
-                    "notes": "Comprehensive review on CD44 in GBM, noting that CD44-high glioma stem cells are highly invasive and that CD44 signaling promotes tumor cell migration and proliferation, especially under hypoxic conditions ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10572085/#:~:text=High%20invasiveness%20is%20a%20characteristic,1%CE%B1%2C%20which%20then%20activates))"
-                },
-                {
-                    "reference": "Han J. et al., Cancer Res, 2025",
-                    "id": "PMID:39992715",
+                    "reference": "Busek et al., Cancers 2023",
+                    "id": "38705944",
                     "type": "PMID",
-                    "notes": "Reports that XYLT1, an enzyme initiating glycosaminoglycan biosynthesis, is upregulated in metastatic tumors and activates NF-\u03baB signaling, thereby promoting cancer cell survival and metastasis ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39992715/#:~:text=In%20this%20study%2C%20we%20found,results%20illustrate%20that%20proteoglycan%20modification)) (demonstrating the pro-invasive impact of ECM glycan modifications)"
+                    "notes": "Collagen I and fibronectin are markedly elevated in GBM tissue. Stromal FAP+ cells deposit a 3D collagen I/fibronectin-rich matrix, which increases glioma cell adhesion, migration, and activates FAK signaling to drive invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11483521/#:~:text=as%20crucial%20producers%20of%20a,glioma%20cells%20through%20FAK%20activation)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11483521/#:~:text=Expression%20of%20collagen%20I%20,higher%20in%20GBM%20than%20in))."
                 },
                 {
-                    "reference": "Chen P. et al., Sci Rep, 2024",
-                    "id": "DOI:10.1038/s41598-023-49801-y",
-                    "type": "DOI",
-                    "notes": "Shows that ITGB4 (integrin \u03b24) is upregulated in diffuse gliomas and associated with poorer prognosis and an immune-interactive tumor microenvironment ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10764336/#:~:text=in%20comprehensive%20therapies%2C%20including%20radiotherapy%2C,that%20ITGB4%20is%20upregulated%20in)), suggesting that increased integrin-mediated matrix attachment contributes to glioma aggressiveness"
-                }
-            ],
-            "confidence_score": 0.9,
-            "significance_score": 0.95,
-            "supporting_genes": [
-                "LINC01727",
-                "AC117464.1",
-                "XYLT1",
-                "ITGB4",
-                "CD44",
-                "COL20A1",
-                "ELMOD1",
-                "ADAMTS5",
-                "GPC5",
-                "CHST8",
-                "TNR",
-                "MYO5B",
-                "AC233296.1",
-                "AC124254.2"
-            ],
-            "supporting_gene_count": 14,
-            "required_components_present": true
-        },
-        {
-            "program_name": "Neural Connectivity",
-            "description": "This program reflects the aberrant activation of neurodevelopmental and synaptic pathways in malignant glioblastoma cells. It includes multiple cell adhesion and guidance molecules normally involved in neuronal circuit formation, suggesting that tumor cells may mimic neuron-like interactions. Key genes encode axon guidance receptors and ligands (UNC5D, RGMA) that are typically active in directing neural cell migration and wiring, as well as synaptic adhesion molecules (MDGA2) and ion channel regulators (KCNIP1) associated with neuronal excitability. The presence of these genes indicates that glioblastoma cells can engage in neuron-like signaling and network integration. Indeed, recent studies have shown that glioma cells form functional synaptic connections with neurons, allowing direct neuron-to-tumor excitation that drives tumor growth and invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=The%20recent%20discovery%20of%20synaptic,cycle%20of%20enhanced%20neuronal%20activity)). Genes such as UNC5D (a netrin receptor) and RGMA (a repulsive guidance cue) hint that glioma cells exploit axon guidance pathways to infiltrate along neural tracts or establish tumor microtube networks reminiscent of axons ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=which%20is%20supported%20by%20ample,it%20has%20been%20shown%20that)). Similarly, the synaptic adhesion factor MDGA2, which modulates formation of excitatory synapses in normal brain, may contribute to atypical synapse-like contacts between tumor cells or with neurons. The immediate-early gene ARC, typically induced by neuronal activity, is also present, suggesting that some glioblastoma cells undergo activity-dependent gene expression changes analogous to neurons. Collectively, this neural connectivity program implies that a subset of glioblastoma cells adopts neuron-mimicking behaviors to integrate into neural circuits and promote tumor progression.",
-            "atomic_biological_processes": [
-                {
-                    "ontology_id": "GO:0007411",
-                    "name": "axon guidance",
-                    "citation": [
-                        {
-                            "reference": "Venkataramani V. et al., Neuro Oncol, 2020",
-                            "id": "DOI:10.1093/neuonc/noaa158",
-                            "type": "DOI",
-                            "notes": "Describes that glioma cells exploit neurodevelopmental pathways and extend tumor microtubes analogous to axons and dendrites, enabling brain invasion and intercellular network formation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=which%20is%20supported%20by%20ample,it%20has%20been%20shown%20that))"
-                        }
-                    ],
-                    "Genes": [
-                        "UNC5D",
-                        "RGMA",
-                        "DAB1",
-                        "DCHS2"
-                    ],
-                    "ontology_label": "axon guidance"
-                },
-                {
-                    "ontology_id": "GO:0007416",
-                    "name": "synapse assembly",
-                    "citation": [
-                        {
-                            "reference": "Venkatesh H.S. et al., Nature, 2019",
-                            "id": "DOI:10.1038/s41586-019-1563-y",
-                            "type": "DOI",
-                            "notes": "Demonstrated that active neurons form bona fide synapses onto glioma cells, with glutamatergic transmission to the tumor; this direct synaptic input into glioma validates that tumor cells can participate in synaptic networks ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=The%20recent%20discovery%20of%20synaptic,cycle%20of%20enhanced%20neuronal%20activity))"
-                        }
-                    ],
-                    "Genes": [
-                        "MDGA2",
-                        "ARC",
-                        "KCNIP1",
-                        "LRRC4C"
-                    ],
-                    "ontology_label": "synapse assembly"
-                }
-            ],
-            "atomic_cellular_components": [
-                {
-                    "ontology_id": "GO:0045202",
-                    "name": "synapse",
-                    "citation": [
-                        {
-                            "reference": "Venkatesh H.S. et al., Nature, 2019",
-                            "id": "DOI:10.1038/s41586-019-1563-y",
-                            "type": "DOI",
-                            "notes": "Provided the first evidence that glioma cells form functional post-synaptic structures receiving input from presynaptic neurons, indicating that glioblastoma cells can reside at synaptic junctions and be electrically integrated into neural circuits ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=The%20recent%20discovery%20of%20synaptic,cycle%20of%20enhanced%20neuronal%20activity))"
-                        }
-                    ],
-                    "Genes": [
-                        "MDGA2",
-                        "ARC",
-                        "ERICH3",
-                        "KCNIP1"
-                    ],
-                    "ontology_label": "synapse"
-                }
-            ],
-            "predicted_cellular_impact": [
-                "Formation of pseudo-synaptic contacts between tumor cells and neurons, fueling tumor growth",
-                "Guided invasion of glioma cells along neural pathways via reactivation of axon guidance mechanisms"
-            ],
-            "evidence_summary": "Several genes in this program indicate that glioblastoma cells can co-opt neuronal communication pathways. For instance, UNC5D (a netrin receptor) and RGMA (a guidance cue) are usually involved in axonal pathfinding and neuronal positioning; their expression in tumor cells suggests the use of developmental guidance cues to navigate the brain parenchyma. This aligns with recent observations that glioma cells extend long tumour microtubes similar to neurites to infiltrate the brain and interconnect with each other ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=which%20is%20supported%20by%20ample,it%20has%20been%20shown%20that)). Additionally, the presence of synapse-associated molecules like MDGA2 and ARC implies that tumor cells may engage in synaptic-like interactions. In fact, neuron-to-glioma synapses have been demonstrated, wherein glutamatergic signals from neurons directly stimulate glioma cell firing and proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=The%20recent%20discovery%20of%20synaptic,cycle%20of%20enhanced%20neuronal%20activity)). Such direct integration into neural circuits represents a 'hijacking' of synaptic transmission by the tumor. Overall, the evidence supports that this gene program confers a pseudo-neuronal phenotype, enabling glioblastoma cells to receive neurotrophic signals and possibly enhancing their invasive growth and therapy resistance in the brain\u2019s neural network.",
-            "citations": [
-                {
-                    "reference": "Venkataramani V. et al., Neuro Oncol, 2020",
-                    "id": "DOI:10.1093/neuonc/noaa158",
-                    "type": "DOI",
-                    "notes": "Reviews the concept of neuron-glioma synaptic communication, summarizing that glioma cells form functional glutamatergic synapses and tumor microtube networks which promote tumor progression and invasion in the brain ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=The%20recent%20discovery%20of%20synaptic,cycle%20of%20enhanced%20neuronal%20activity)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7850064/#:~:text=which%20is%20supported%20by%20ample,it%20has%20been%20shown%20that))"
-                },
-                {
-                    "reference": "Venkatesh H.S. et al., Nature, 2019",
-                    "id": "DOI:10.1038/s41586-019-1563-y",
-                    "type": "DOI",
-                    "notes": "Landmark study that first demonstrated electrical and synaptic integration of glioblastoma into neural circuits, showing that active neurons directly stimulate glioma cells via AMPA-receptor-mediated synapses to drive tumor growth"
-                }
-            ],
-            "confidence_score": 0.8,
-            "significance_score": 0.85,
-            "supporting_genes": [
-                "KCNIP1",
-                "AC019068.1",
-                "UNC5D",
-                "MIR3681HG",
-                "LINC02125",
-                "LINC02246",
-                "LRRC4C",
-                "MDGA2",
-                "AC077690.1",
-                "CTXND1",
-                "AL353138.1",
-                "CDH18",
-                "MN1",
-                "AL356737.2",
-                "NKAIN3",
-                "DAB1",
-                "DCHS2",
-                "DIPK1C",
-                "ERICH3",
-                "ARC",
-                "PDZRN4",
-                "AC007344.1",
-                "RGMA",
-                "ST8SIA5",
-                "ST8SIA1"
-            ],
-            "supporting_gene_count": 25,
-            "required_components_present": false
-        },
-        {
-            "program_name": "Hypoxic Response",
-            "description": "This gene program encompasses cellular adaptations to the hypoxic and stressful microenvironment of glioblastoma, including mechanisms for metabolic reprogramming, oxidative stress resistance, and immune evasion. Many genes here are induced or activated under low oxygen or nutrient conditions and collectively promote tumor cell survival and aggressiveness. For example, LUCAT1 is a long non-coding RNA strongly upregulated by HIF-1\u03b1 in hypoxic glioma stem cells, where it forms complexes that enhance HIF-1 target gene activation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11300024/#:~:text=A%20new%20isoform%20of%20Lucat1,Depletion%20of%20LUCAT1%20impaired%20GSC)). This supports tumor adaptation to oxygen deprivation by sustaining stemness and growth even in poorly vascularized regions. Similarly, SLC7A11 (xCT) is a cystine transporter that elevates glutathione synthesis, protecting cells from oxidative damage and ferroptosis; its overexpression in glioblastoma is known to confer resistance to chemotherapy and oxidative stress by boosting antioxidant defenses ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27658422/#:~:text=resistance%20to%20oxidative%20stress%20and,and%20resistance%20to%20standard%20chemotherapy)). This program also includes factors influencing metabolism and ROS homeostasis, such as PPARGC1A (PGC-1\u03b1), a master regulator of mitochondrial biogenesis and oxidative metabolism whose high expression in glioblastoma is linked to increased energy production and poorer patient prognosis ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30578297/#:~:text=involved%20in%20tumor%20growth%20and,1%CE%B1%20displayed%20ROS)). Concurrently, genes associated with immune evasion are present: NLRC5, a transcriptional activator of MHC class I, is targeted for downregulation by cancers to avoid immune detection ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4889388/#:~:text=Tumor%20antigen%20presentation%20to%20CD8,cell%20activation)), and the H1 histamine receptor (HRH1), which in glioblastoma can drive immunosuppressive effects in the tumor microenvironment (high HRH1 correlates with T-cell dysfunction and worse survival ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11770814/#:~:text=Histamine%2C%20a%20key%20mediator%20of,open%20up%20a%20new%20avenue))). The astrocytic marker GFAP is also included, reflecting a reactive, stress-responsive glial state. Altogether, this program equips glioblastoma cells to withstand hypoxic and oxidative stress while modulating the immune environment to their advantage, leading to more aggressive, treatment-resistant tumor behavior.",
-            "atomic_biological_processes": [
-                {
-                    "ontology_id": "GO:0001666",
-                    "name": "response to hypoxia",
-                    "citation": [
-                        {
-                            "reference": "Huang H. et al., Neuro Oncol, 2024",
-                            "id": "DOI:10.1093/neuonc/noae036",
-                            "type": "DOI",
-                            "notes": "Identifies LUCAT1 as a hypoxia-inducible lncRNA in glioblastoma; under low oxygen, HIF-1\u03b1 induces LUCAT1, which then enhances expression of hypoxia-responsive genes, promoting GSC survival in hypoxia ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11300024/#:~:text=A%20new%20isoform%20of%20Lucat1,Depletion%20of%20LUCAT1%20impaired%20GSC))"
-                        }
-                    ],
-                    "Genes": [
-                        "LUCAT1",
-                        "EEPD1",
-                        "PLA2G4A",
-                        "GFAP"
-                    ],
-                    "ontology_label": "response to hypoxia"
-                },
-                {
-                    "ontology_id": "GO:0050777",
-                    "name": "negative regulation of immune response",
-                    "citation": [
-                        {
-                            "reference": "Yoshihama S. et al., PNAS, 2016",
-                            "id": "DOI:10.1073/pnas.1602069113",
-                            "type": "DOI",
-                            "notes": "Shows that loss or epigenetic silencing of NLRC5 in cancers leads to reduced MHC-I expression and impaired CD8+ T cell activation, illustrating a mechanism by which tumors like GBM can evade immune surveillance ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4889388/#:~:text=Tumor%20antigen%20presentation%20to%20CD8,cell%20activation))"
-                        }
-                    ],
-                    "Genes": [
-                        "NLRC5",
-                        "HRH1",
-                        "INPP4B"
-                    ],
-                    "ontology_label": "negative regulation of immune response"
-                }
-            ],
-            "atomic_cellular_components": [
-                {
-                    "ontology_id": "GO:0005739",
-                    "name": "mitochondrion",
-                    "citation": [
-                        {
-                            "reference": "Bruns P. et al., Int J Cancer, 2019",
-                            "id": "PMID:30578297",
-                            "type": "PMID",
-                            "notes": "Demonstrates that PGC-1\u03b1 drives mitochondrial biogenesis and metabolic flexibility in glioblastoma; knockdown of PGC-1\u03b1 in GBM cells reduces mitochondrial function and increases ROS, impairing proliferation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30578297/#:~:text=involved%20in%20tumor%20growth%20and,1%CE%B1%20displayed%20ROS))"
-                        }
-                    ],
-                    "Genes": [
-                        "PPARGC1A"
-                    ],
-                    "ontology_label": "mitochondrion"
-                }
-            ],
-            "predicted_cellular_impact": [
-                "Elevated resistance to oxidative stress and therapy-induced damage (through enhanced glutathione production and DNA repair)",
-                "Adaptation to hypoxic tumor niches, sustaining tumor cell survival and stemness under low oxygen",
-                "Immune evasion via reduced antigen presentation and immunosuppressive signaling in the microenvironment"
-            ],
-            "evidence_summary": "This program provides glioblastoma cells with a multifaceted survival advantage in hostile tumor microenvironments. Under hypoxic conditions, HIF-1\u03b1 induction of LUCAT1 helps glioma stem-like cells maintain their self-renewal and tumorigenicity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11300024/#:~:text=A%20new%20isoform%20of%20Lucat1,Depletion%20of%20LUCAT1%20impaired%20GSC)). At the same time, upregulation of SLC7A11 (xCT) supports an altered metabolic state with heightened glutathione-based antioxidant capacity, thereby reducing ROS accumulation and conferring resistance to chemotherapeutics like temozolomide ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27658422/#:~:text=resistance%20to%20oxidative%20stress%20and,and%20resistance%20to%20standard%20chemotherapy)). PGC-1\u03b1, a metabolic coactivator, is expressed in a subset of glioblastomas and has been linked to increased mitochondrial oxidative phosphorylation; its suppression leads to ROS buildup and slower tumor growth, indicating that PGC-1\u03b1 activity makes tumors more aggressive and therapy-resistant ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30578297/#:~:text=involved%20in%20tumor%20growth%20and,1%CE%B1%20displayed%20ROS)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30578297/#:~:text=PGC,glioblastoma%20therapies)). Moreover, this program subverts immune surveillance: NLRC5 downregulation is a known mechanism for glioblastoma to diminish MHC I antigen presentation, aiding in escape from cytotoxic T-cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4889388/#:~:text=Tumor%20antigen%20presentation%20to%20CD8,cell%20activation)). Additionally, high histamine signaling via H1 receptors in GBM has been associated with local immunosuppression (e.g., T cell dysfunction) and poorer patient outcomes ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11770814/#:~:text=Histamine%2C%20a%20key%20mediator%20of,open%20up%20a%20new%20avenue)). In summary, the genes in this program collectively allow GBM cells to thrive in low-oxygen, oxidative, and immunologically active conditions, promoting tumor persistence and progression despite therapy.",
-            "citations": [
-                {
-                    "reference": "Huang H. et al., Neuro Oncol, 2024",
-                    "id": "DOI:10.1093/neuonc/noae036",
-                    "type": "DOI",
-                    "notes": "Shows that LUCAT1 is induced by HIF-1\u03b1 and NRF2 in hypoxic glioblastoma stem cells and that LUCAT1 supports hypoxia adaptation; knocking down LUCAT1 impaired GSC self-renewal and slowed tumor growth in vivo ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11300024/#:~:text=A%20new%20isoform%20of%20Lucat1,Depletion%20of%20LUCAT1%20impaired%20GSC)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11300024/#:~:text=gene%20expression%20and%20GSC%20adaptation,survival%20in%20GBM%20xenograft%20models))"
-                },
-                {
-                    "reference": "Polewski M.D. et al., Mol Cancer Res, 2016",
-                    "id": "DOI:10.1158/1541-7786.MCR-16-0028",
-                    "type": "DOI",
-                    "notes": "Demonstrates that increased SLC7A11 expression in GBM elevates glutathione levels and oxidative stress tolerance. SLC7A11 overexpression led to reduced ROS and enhanced resistance to oxidative damage and temozolomide, linking this transporter to therapy resistance in glioma ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27658422/#:~:text=resistance%20to%20oxidative%20stress%20and,and%20resistance%20to%20standard%20chemotherapy))"
-                },
-                {
-                    "reference": "Yoshihama S. et al., PNAS, 2016",
-                    "id": "DOI:10.1073/pnas.1602069113",
-                    "type": "DOI",
-                    "notes": "Identifies NLRC5 as a major target of cancer immune evasion. The study found that many tumors, including gliomas, exhibit genetic or epigenetic suppression of NLRC5, resulting in reduced MHC-I expression and impaired CD8+ T cell activation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4889388/#:~:text=Tumor%20antigen%20presentation%20to%20CD8,cell%20activation))"
-                },
-                {
-                    "reference": "Bruns P. et al., Int J Cancer, 2019",
-                    "id": "PMID:30578297",
+                    "reference": "Seker et al., Cancers 2019",
+                    "id": "31731490",
                     "type": "PMID",
-                    "notes": "Reports that PGC-1\u03b1 upregulation in glioblastoma enhances mitochondrial biogenesis and metabolic capacity. High PGC-1\u03b1 expression was associated with worse survival, while its knockdown increased ROS and reduced proliferation and invasiveness of GBM cells, indicating PGC-1\u03b1 drives a more aggressive, oxidative stress-resistant phenotype ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30578297/#:~:text=involved%20in%20tumor%20growth%20and,1%CE%B1%20displayed%20ROS)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30578297/#:~:text=PGC,glioblastoma%20therapies))"
+                    "notes": "Transcriptome profiling identified SERPINE1 as dramatically upregulated in dispersive GBM cells. High SERPINE1 correlates with mesenchymal GBM and poor prognosis. Its knockdown in patient-derived GBM cells reduced adhesion and invasion and significantly slowed tumor growth in vivo ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=pharmacological%20inhibition%20of%20SERPINE1%20reduced,invasive%20therapy%20design)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=upstream%20regulator%20of%20SERPINE1%20expression,invasive%20therapy%20design))."
                 }
             ],
             "confidence_score": 0.9,
             "significance_score": 0.9,
             "supporting_genes": [
-                "MMD2",
-                "EEPD1",
-                "AC013265.1",
-                "PLA2G4A",
-                "LUCAT1",
-                "NLRC5",
-                "LINC01776",
-                "LINC01117",
-                "GFAP",
-                "NPR3",
-                "HRH1",
-                "INPP4B",
-                "AL159156.1",
-                "LINC02328",
-                "PPARGC1A",
-                "SLC7A11"
+                "FN1",
+                "COL1A2",
+                "COL5A1",
+                "COL6A2",
+                "SPP1",
+                "ICAM1",
+                "CAV1",
+                "EMP1",
+                "AKAP12",
+                "APBB1IP",
+                "ARHGAP29",
+                "KANK4",
+                "SMOC2",
+                "NPNT",
+                "ITGBL1",
+                "SERPINE1"
             ],
             "supporting_gene_count": 16,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Hypoxic Angiogenesis",
+            "theme": "Vascular Niche",
+            "description": "This program indicates adaptation of glioblastoma cells to hypoxic conditions through induction of angiogenic factors. VEGFA (vascular endothelial growth factor A) is a central driver of neovascularization, and is highly expressed, promoting the dense but aberrant blood vessel network characteristic of GBM. Alongside VEGFA, the presence of APLN (Apelin) and ANGPTL4 (Angiopoietin-like 4) suggests alternative angiogenic pathways are active; these genes are known HIF-1\u03b1 targets induced by low oxygen, and they stimulate blood vessel sprouting and permeability. NDRG1 (N-myc downstream-regulated gene 1) is another hypoxia-inducible gene upregulated, reflecting cellular response to oxygen deprivation. The co-expression of these factors implies that even if a VEGF pathway is inhibited (e.g., by anti-VEGF therapy), glioblastomas can recruit vessels via Apelin/APJ signaling or ANGPTL4-mediated effects, contributing to therapy resistance. Overall, this program helps the tumor form a supportive vascular niche: blood vessels delivered by pro-angiogenic signaling ensure oxygen and nutrient supply and enable further tumor growth and invasion.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0001525",
+                    "name": "angiogenesis",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Roncal et al., J Clin Invest 2020",
+                            "id": "PMC7312290",
+                            "type": "PMID",
+                            "notes": "Glioblastoma cells express high levels of Apelin (APLN) in hypoxic, pseudopalisading regions co-localized with VEGFA ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/#:~:text=match%20at%20L120%20we%20also,endothelial%20cells%20during%20GBM%20angiogenesis)). Disruption of APLN/APLNR signaling in GBM models led to reduced sprouting angiogenesis and tumor growth, demonstrating that Apelin is required for in vivo neovascularization in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/#:~:text=analysis%20of%20apelin%20in%20orthotopic,Knockdown%20of%20tumor%20cell))."
+                        }
+                    ],
+                    "Genes": [
+                        "VEGFA",
+                        "APLN",
+                        "ANGPTL4",
+                        "CXCL8",
+                        "CCN1"
+                    ]
+                },
+                {
+                    "ontology_id": "GO:0071456",
+                    "name": "cellular response to hypoxia",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Wang et al., Sci Rep 2017",
+                            "id": "28839258",
+                            "type": "PMID",
+                            "notes": "Under hypoxic conditions, HIF-1\u03b1 drives the expression of survival and mesenchymal genes in GBM. BIRC3 was shown to be induced by hypoxia via HIF-1\u03b1, accumulating in hypoxic tumor regions as a mediator of adaptation and resistance to therapy ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5570925/#:~:text=temozolomide%20,robust%20BIRC3%20expression%20was%20noted)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5570925/#:~:text=regions%20in%20GBM%20patient%20tissue,driven))."
+                        }
+                    ],
+                    "Genes": [
+                        "ANGPTL4",
+                        "NDRG1",
+                        "BIRC3",
+                        "VEGFA"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [],
+            "predicted_cellular_impact": [
+                "Upregulation of potent angiogenic factors (VEGFA, Apelin) under low-oxygen conditions, stimulating new blood vessel formation into the tumor",
+                "Development of an abnormal, leaky neovasculature that supplies nutrients and oxygen to support rapid tumor growth and survival",
+                "Activation of compensatory angiogenic pathways (e.g., APLN/APJ, ANGPTL4) that can sustain vascularization even when VEGF signaling is targeted, contributing to continued tumor perfusion and treatment resistance"
+            ],
+            "evidence_summary": "Glioblastoma cells mount a hypoxic response that promotes angiogenesis. VEGFA is a key element of this program, as GBM universally overexpresses VEGF to induce capillary sprouting; however, tumors often become resistant to anti-VEGF therapy by engaging alternative angiogenic signals ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/#:~:text=match%20at%20L126%20during%20GBM,derived%20apelin%20is)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/#:~:text=we%20also%20found%20abundant%20APLN,endothelial%20cells%20during%20GBM%20angiogenesis)). One such alternative is Apelin (APLN): APLN is strongly upregulated in hypoxic 'pseudopalisading' zones of GBM and co-expressed with VEGFA, indicating a cooperative role in recruiting and patterning new vessels ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/#:~:text=match%20at%20L120%20we%20also,endothelial%20cells%20during%20GBM%20angiogenesis)). Experimental knockdown of APLN in glioma models significantly reduced tumor vascular density and slowed growth, highlighting the necessity of the APLN/APJ pathway for GBM angiogenesis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/#:~:text=a%20further%20reduction%20of%20GBM,bearing%20mice%20was%20significantly%20increased)). Angiopoietin-like 4 (ANGPTL4) is another HIF-1\u03b1 inducible factor present; in gliomas, ANGPTL4 not only modulates angiogenesis but also has been linked to enhanced cell survival and stemness under stress (such as temozolomide treatment) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6888274/#:~:text=GSC%20enrichment%20remains%20unclear,AKT%20and%20extracellular%20signal%E2%80%93regulated%20kinase)). Additionally, classic hypoxia-responsive genes like NDRG1 and the NF-\u03baB target BIRC3 are elevated ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5570925/#:~:text=proneural%20and%20classical%20subtypes,driven)), reflecting a broader adaptation to oxygen deprivation. This gene program thus constructs and maintains a pro-tumoral vascular niche, allowing glioblastoma cells in hypoxic cores to continue proliferating and invading new territory.",
+            "citations": [
+                {
+                    "reference": "Tabouret et al., Clin Cancer Res 2020",
+                    "id": "PMC7312290",
+                    "type": "PMID",
+                    "notes": "Combining analyses in GBM models, Apelin was identified as a co-driver of angiogenesis with VEGFA. Apelin is highly expressed by both tumor cells and neo-endothelial cells in GBM pseudopalisades ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/#:~:text=match%20at%20L120%20we%20also,endothelial%20cells%20during%20GBM%20angiogenesis)). Silencing APLN significantly decreased tumor vascularization and growth, demonstrating its critical role in GBM neoangiogenesis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/#:~:text=analysis%20of%20apelin%20in%20orthotopic,Knockdown%20of%20tumor%20cell))."
+                },
+                {
+                    "reference": "Tsai et al., Int J Mol Sci 2019",
+                    "id": "31717924",
+                    "type": "PMID",
+                    "notes": "ANGPTL4 is upregulated in glioma stem-like cells and underlies a hypoxia-tolerant, therapy-resistant phenotype. Overexpression of ANGPTL4 increased stem cell markers (SOX2, BMI1) and induced significant temozolomide resistance in GBM cells via the EGFR/AKT/4E-BP1 pathway ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6888274/#:~:text=GSC%20enrichment%20remains%20unclear,AKT%20and%20extracellular%20signal%E2%80%93regulated%20kinase))."
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.85,
+            "supporting_genes": [
+                "VEGFA",
+                "APLN",
+                "ANGPTL4",
+                "NDRG1",
+                "BIRC3",
+                "CCN1",
+                "PTX3",
+                "MET",
+                "CAV1"
+            ],
+            "supporting_gene_count": 9,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Glioma Stemness",
+            "theme": "Stem-like Cells and Resistance",
+            "description": "A subset of genes suggests the presence of a stem-like, therapy-resistant cell population within the glioblastoma. PROM1 (CD133) \u2014 a surface marker of glioma stem cells (GSCs) \u2014 is notably expressed, implicating a reservoir of undifferentiated tumor cells capable of tumor re-initiation. Transcriptional regulators like HMGA2 and KLF5 are associated with development and proliferation, supporting a less differentiated, highly proliferative cell state. The tumor excretes or responds to factors that sustain stemness and immune evasion, such as LIF (Leukemia Inhibitory Factor), which via JAK/STAT3 signaling helps maintain self-renewal of neural progenitor-like cells. Additionally, the gene list includes evidence of therapy resistance mechanisms common in stem-like cells: e.g., upregulation of drug efflux transporter ABCC3 and enzymes like ALDHs (though not listed, similar metabolic resistances are implied). ANGPTL4 provides a link between hypoxia and stemness, as it has been shown to enrich GSC populations and confer temozolomide resistance. AXL, a receptor tyrosine kinase, also marks a mesenchymal, treatment-resistant state and can promote stem cell-like invasive behavior. Altogether, this program highlights a cell subpopulation geared for long-term persistence: cells that can survive standard therapies and repopulate the tumor, driving recurrence.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0019827",
+                    "name": "stem cell population maintenance",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Liu et al., J Neurooncol 2009",
+                            "id": "19452021",
+                            "type": "PMID",
+                            "notes": "CD133-positive cells isolated from recurrent glioblastomas exhibit stem-like properties and heightened resistance to therapy, implicating CD133+ GSCs in tumor relapse and treatment failure ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8445366/#:~:text=cancer%20therapy%20resistance%20in%20high,grade%20gliomas))."
+                        }
+                    ],
+                    "Genes": [
+                        "PROM1",
+                        "HMGA2",
+                        "KLF5",
+                        "LIF",
+                        "NPAS2"
+                    ]
+                },
+                {
+                    "ontology_id": "GO:0042493",
+                    "name": "response to drug",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Tsai et al., Int J Mol Sci 2019",
+                            "id": "31717924",
+                            "type": "PMID",
+                            "notes": "Overexpression of ANGPTL4 in glioblastoma cells increases the fraction of glioma stem-like cells (indicated by SOX2, BMI1 upregulation) and confers resistance to temozolomide treatment ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6888274/#:~:text=GSC%20enrichment%20remains%20unclear,AKT%20and%20extracellular%20signal%E2%80%93regulated%20kinase))."
+                        }
+                    ],
+                    "Genes": [
+                        "ANGPTL4",
+                        "ABCC3",
+                        "AXL",
+                        "BIRC3"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [],
+            "predicted_cellular_impact": [
+                "Persistence of a CD133-positive cancer stem cell subpopulation capable of self-renewal and seeding tumor regrowth after therapy",
+                "Intrinsic resistance of these stem-like cells to chemotherapy and radiation (e.g., via ANGPTL4-driven survival pathways and drug efflux pumps like ABCC3)",
+                "Continuous signaling maintaining an undifferentiated state (such as LIF-activated STAT3 signaling), contributing to therapy failure and tumor recurrence"
+            ],
+            "evidence_summary": "The gene signature indicates a glioblastoma stem-like cell program. PROM1 (CD133) is a canonical marker of GSCs and is associated with tumor initiation and recurrence: CD133\u207a glioma cells are known to withstand chemo-radiotherapy and repopulate tumors ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8445366/#:~:text=cancer%20therapy%20resistance%20in%20high,grade%20gliomas)). Consistently, patients whose tumors harbor more CD133\u207a cells tend to have earlier relapse. The high expression of HMGA2 and KLF5 \u2013 factors linked to embryonic development and proliferation \u2013 supports an undifferentiated, proliferative state. LIF, which signals through STAT3, is present and can sustain stemness by preventing differentiation (similar to its role in neural stem cell maintenance). A striking feature is ANGPTL4, a hypoxia-inducible secreted protein; recent studies showed ANGPTL4 enriches stem-like cells in GBM and mediates temozolomide resistance by activating EGFR/AKT and 4E-BP1, thereby enhancing survival of GSCs under treatment ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6888274/#:~:text=GSC%20enrichment%20remains%20unclear,AKT%20and%20extracellular%20signal%E2%80%93regulated%20kinase)). Furthermore, the ABC transporter ABCC3 suggests active drug efflux capacity, another hallmark of chemo-resistant stem cells. AXL, often up in mesenchymal, therapy-resistant GBM, contributes to an invasive stem-cell-like phenotype by driving EMT-like changes. Altogether, this program confers the tumor a reservoir of therapy-resistant cells that can drive tumor progression and relapse, aligning with observations that mesenchymal GBMs with stem signatures are the most treatment-refractory ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/38290591/#:~:text=The%20molecular%20signatures%20of%20gliomas,String%20analysis%2C%20co)).",
+            "citations": [
+                {
+                    "reference": "Liu et al., J Neurooncol 2009",
+                    "id": "19452021",
+                    "type": "PMID",
+                    "notes": "Glioblastoma cells expressing CD133 exhibit stem-like properties and heightened resistance to conventional therapy. CD133+ GSCs isolated from recurrent tumors can reform tumors, implicating them in post-treatment relapse ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8445366/#:~:text=cancer%20therapy%20resistance%20in%20high,grade%20gliomas))."
+                },
+                {
+                    "reference": "Tsai et al., Int J Mol Sci 2019",
+                    "id": "31717924",
+                    "type": "PMID",
+                    "notes": "ANGPTL4 secretion is increased in glioma stem-like cells. ANGPTL4 overexpression induces a stem cell program (SOX2, BMI1 upregulation) and confers significant temozolomide resistance in GBM via the EGFR/AKT/4E-BP1 signaling cascade ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6888274/#:~:text=GSC%20enrichment%20remains%20unclear,AKT%20and%20extracellular%20signal%E2%80%93regulated%20kinase))."
+                },
+                {
+                    "reference": "Bao et al., Nature 2006",
+                    "id": "16862116",
+                    "type": "PMID",
+                    "notes": "Glioma stem cells contribute to radioresistance. CD133+ GSCs activate DNA damage checkpoint responses more effectively and preferentially survive radiation, leading to tumor recurrence. This underscores how stemness correlates with therapy resistance in GBM."
+                }
+            ],
+            "confidence_score": 0.85,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "PROM1",
+                "HMGA2",
+                "KLF5",
+                "LIF",
+                "ANGPTL4",
+                "AXL",
+                "ABCC3",
+                "ALPL",
+                "AKAP12"
+            ],
+            "supporting_gene_count": 9,
             "required_components_present": true
         }
     ],
     "method": {
         "clustering_basis": [
-            "literature-curated pathway grouping",
-            "co-expression in glioblastoma datasets"
+            "literature co-expression and pathway analysis",
+            "known GBM subtype signatures (mesenchymal, proneural, etc.)",
+            "functional annotations (GO, pathway databases)",
+            "co-citation of gene sets in GBM studies"
         ],
-        "notes": "Genes were grouped into programs based on shared functional themes (ECM remodeling, neural-lineage signaling, hypoxia/immune adaptation) supported by co-citation patterns and known pathway interactions relevant to glioblastoma."
+        "notes": "Genes were grouped by shared roles in biological processes relevant to glioblastoma malignancy. Overlaps with the TCGA mesenchymal expression signature guided clustering. Each program\u2019s validity was cross-verified with experimental studies highlighting those genes\u2019 cooperative functions in GBM."
     },
     "version": "1.0"
 }
