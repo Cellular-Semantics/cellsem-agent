@@ -84,7 +84,7 @@ class AnnotateData(BaseNode[State, None, str]):
         return End("Results saved to the output folder.")
 
     async def save_all_mappings(self, all_mappings: list[Any], output_file: str):
-        file_name = os.path.basename(file_path).replace(".json", ".csv")
+        file_name = os.path.basename(output_file).replace(".json", ".csv")
         mapping_file = os.path.join(OUTPUT_ANNOT_DIR, file_name)
         df = pd.DataFrame(all_mappings)
         df.to_csv(mapping_file, index=False)
