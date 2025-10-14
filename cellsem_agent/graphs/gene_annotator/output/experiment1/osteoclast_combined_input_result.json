@@ -1,0 +1,342 @@
+{
+    "context": {
+        "cell_type": "osteoclast",
+        "disease": "Bone remodeling (normal physiology)",
+        "tissue": "bone"
+    },
+    "input_genes": [
+        "TNFRSF11A",
+        "Csf1r",
+        "TYROBP",
+        "ACP5",
+        "Acp5"
+    ],
+    "programs": [
+        {
+            "program_name": "Osteoclast Differentiation Signaling (RANK/CSF1R)",
+            "theme": "Bone remodeling",
+            "description": "A program driven by M-CSF/CSF1R and RANKL/RANK signaling that directs monocyte/macrophage precursors to differentiate into mature, multinucleated osteoclasts.  CSF1R activation by M-CSF promotes survival and proliferation of myeloid precursors and induces expression of RANK (TNFRSF11A).  Subsequent binding of RANKL to RANK triggers NF-\u03baB and MAPK cascades, culminating in NFATc1 activation and transcription of osteoclast-specific genes (e.g., ACP5/TRAP, cathepsin K, integrins).  This cascade is essential for osteoclastogenesis and maintenance of osteoclast viability ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8080670/#:~:text=cancer,proliferation%20and%20differentiation%20from%20precursor)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/10097072/#:~:text=RANK%20extracellular%20domain%20promotes%20osteoclastogenesis,RANK%20on%20osteoclast%20precursor%20cells)).",
+            "atomic_biological_processes": [
+                {
+                    "name": "osteoclast differentiation",
+                    "citation": [
+                        {
+                            "reference": "Mun S-H et al. The M-CSF receptor in osteoclasts and beyond. Exp Mol Med. 2020;52(8):1239-1254.",
+                            "id": "10.1038/s12276-020-0484-z",
+                            "type": "DOI",
+                            "notes": "CSF1R and RANK signaling drive differentiation of precursors into osteoclasts ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8080670/#:~:text=cancer,proliferation%20and%20differentiation%20from%20precursor)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/10097072/#:~:text=RANK%20extracellular%20domain%20promotes%20osteoclastogenesis,RANK%20on%20osteoclast%20precursor%20cells))"
+                        }
+                    ],
+                    "Genes": [
+                        "TNFRSF11A",
+                        "Csf1r"
+                    ],
+                    "ontology_label": "osteoclast differentiation",
+                    "ontology_id": "GO:0030316"
+                },
+                {
+                    "name": "NFATc1-mediated gene transcription",
+                    "citation": [
+                        {
+                            "reference": "Mun S-H et al. Exp Mol Med. 2020.",
+                            "id": "10.1038/s12276-020-0484-z",
+                            "type": "DOI",
+                            "notes": "CSF1R-induced RANK expression and RANKL binding activate NFATc1, a master regulator of osteoclast genes ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8080670/#:~:text=cells,induction%20of%20metabolic%20reprogramming%20and))"
+                        }
+                    ],
+                    "Genes": [
+                        "TNFRSF11A",
+                        "Csf1r"
+                    ],
+                    "ontology_label": null,
+                    "ontology_id": "NO MATCH found"
+                },
+                {
+                    "name": "NF-\u03baB signaling",
+                    "citation": [
+                        {
+                            "reference": "Mun S-H et al. Exp Mol Med. 2020.",
+                            "id": "10.1038/s12276-020-0484-z",
+                            "type": "DOI",
+                            "notes": "RANK-RANKL interaction activates NF-\u03baB pathways in osteoclast precursors ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8080670/#:~:text=cells,induction%20of%20metabolic%20reprogramming%20and))"
+                        }
+                    ],
+                    "Genes": [
+                        "TNFRSF11A"
+                    ],
+                    "ontology_label": "",
+                    "ontology_id": ""
+                },
+                {
+                    "name": "proliferation of myeloid precursors",
+                    "citation": [
+                        {
+                            "reference": "Mun S-H et al. Exp Mol Med. 2020.",
+                            "id": "10.1038/s12276-020-0484-z",
+                            "type": "DOI",
+                            "notes": "CSF1R signaling is essential for proliferation and survival of osteoclast precursors ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8080670/#:~:text=cancer,proliferation%20and%20differentiation%20from%20precursor))"
+                        }
+                    ],
+                    "Genes": [
+                        "Csf1r"
+                    ],
+                    "ontology_label": "common myeloid progenitor cell proliferation",
+                    "ontology_id": "GO:0035726"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "RANK receptor (TNFRSF11A)",
+                    "citation": [
+                        {
+                            "reference": "Takahashi N et al. Biochem Biophys Res Commun. 1999;256(3):449-455.",
+                            "id": "10080918",
+                            "type": "PMID",
+                            "notes": "Describes binding of RANKL (OPGL) to RANK on osteoclast precursors ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/10097072/#:~:text=RANK%20extracellular%20domain%20promotes%20osteoclastogenesis,RANK%20on%20osteoclast%20precursor%20cells))"
+                        }
+                    ],
+                    "Genes": [
+                        "TNFRSF11A"
+                    ],
+                    "ontology_label": "tumor necrosis factor receptor superfamily member 11A",
+                    "ontology_id": "PR:000001954"
+                },
+                {
+                    "name": "CSF1 receptor (c-FMS) complex",
+                    "citation": [
+                        {
+                            "reference": "Mun S-H et al. Exp Mol Med. 2020.",
+                            "id": "10.1038/s12276-020-0484-z",
+                            "type": "DOI",
+                            "notes": "CSF1R (c-Fms) on precursors mediates M-CSF signaling for osteoclast development ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8080670/#:~:text=cancer,proliferation%20and%20differentiation%20from%20precursor))"
+                        }
+                    ],
+                    "Genes": [
+                        "Csf1r"
+                    ],
+                    "ontology_label": "CSF1-CSF1R complex",
+                    "ontology_id": "GO:1990682"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced differentiation of monocytes into multinucleated osteoclasts",
+                "Increased survival and proliferation of osteoclast precursor cells",
+                "Upregulation of osteoclast-specific markers and enzymes (e.g., TRAP/ACP5, cathepsin K)",
+                "Activation of NF-\u03baB and NFATc1 transcriptional programs"
+            ],
+            "evidence_summary": "CSF1R (c-Fms) and RANK (TNFRSF11A) are essential receptors for osteoclastogenesis.  CSF1R signaling induces RANK expression in myeloid precursors ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8080670/#:~:text=cancer,proliferation%20and%20differentiation%20from%20precursor)); binding of RANKL to RANK activates NF-\u03baB/MAPK cascades and NFATc1, driving osteoclast-specific gene expression ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8080670/#:~:text=cells,induction%20of%20metabolic%20reprogramming%20and)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/10097072/#:~:text=RANK%20extracellular%20domain%20promotes%20osteoclastogenesis,RANK%20on%20osteoclast%20precursor%20cells)).  Genetic ablation of RANK or CSF1R leads to osteopetrosis from failed osteoclast formation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/10097072/#:~:text=RANK%20extracellular%20domain%20promotes%20osteoclastogenesis,RANK%20on%20osteoclast%20precursor%20cells)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8080670/#:~:text=receptor%20activator%20of%20NF,proliferation%20and%20differentiation%20from%20precursor)).  Thus, coordinated M-CSF and RANK signals underlie osteoclast differentiation and function in bone.",
+            "citations": [
+                {
+                    "reference": "Mun S-H et al. The M-CSF receptor in osteoclasts and beyond. Exp Mol Med. 2020;52(8):1239-1254.",
+                    "id": "10.1038/s12276-020-0484-z",
+                    "type": "DOI",
+                    "notes": "CSF1R signaling promotes osteoclast precursor proliferation and RANK expression ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8080670/#:~:text=cancer,proliferation%20and%20differentiation%20from%20precursor)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8080670/#:~:text=induced%20NFATc1%20expression,24))"
+                },
+                {
+                    "reference": "Takahashi N et al. Biochem Biophys Res Commun. 1999;256(3):449-455.",
+                    "id": "10080918",
+                    "type": "PMID",
+                    "notes": "Demonstrated that RANK mediates osteoclast differentiation induced by RANKL (OPGL) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/10097072/#:~:text=RANK%20extracellular%20domain%20promotes%20osteoclastogenesis,RANK%20on%20osteoclast%20precursor%20cells))"
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "TNFRSF11A",
+                "Csf1r"
+            ],
+            "supporting_gene_count": 2,
+            "required_components_present": false
+        },
+        {
+            "program_name": "ITAM-mediated Co-stimulatory Signaling",
+            "theme": "Osteoclast activation",
+            "description": "TyroBP (DAP12) is an immunoreceptor adaptor that transmits ITAM signals via associated receptors (e.g. TREM2) to enhance osteoclast development and activity.  Activation of DAP12 potentiates RANKL-induced differentiation and promotes cytoskeletal organization.  DAP12/TREM2 signaling is required for efficient fusion of precursors into large, multinucleated osteoclasts and for full bone-resorptive capacity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2194176/#:~:text=of%20peripheral%20blood%20mononuclear%20cells,These)).  Loss of DAP12 (TYROBP) leads to small, TRAP+ osteoclasts with impaired resorption ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2194176/#:~:text=of%20peripheral%20blood%20mononuclear%20cells,These)).",
+            "atomic_biological_processes": [
+                {
+                    "name": "ITAM signal transduction",
+                    "citation": [
+                        {
+                            "reference": "Paloneva J et al. J Exp Med. 2003;198(4):669-675.",
+                            "id": "10.1084/jem.20030027",
+                            "type": "DOI",
+                            "notes": "Shows that DAP12/TREM2 signaling complex is essential for osteoclast differentiation and function ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2194176/#:~:text=of%20peripheral%20blood%20mononuclear%20cells,These))"
+                        }
+                    ],
+                    "Genes": [
+                        "TYROBP"
+                    ],
+                    "ontology_label": "signal transduction",
+                    "ontology_id": "GO:0007165"
+                },
+                {
+                    "name": "osteoclast precursor cell fusion",
+                    "citation": [
+                        {
+                            "reference": "Paloneva J et al. J Exp Med. 2003.",
+                            "id": "10.1084/jem.20030027",
+                            "type": "DOI",
+                            "notes": "DAP12-deficient cells show inefficient fusion and reduced multinuclear osteoclasts ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2194176/#:~:text=of%20peripheral%20blood%20mononuclear%20cells,These))"
+                        }
+                    ],
+                    "Genes": [
+                        "TYROBP"
+                    ],
+                    "ontology_label": "osteoclast fusion",
+                    "ontology_id": "GO:0072675"
+                },
+                {
+                    "name": "osteoclast migration and resorption",
+                    "citation": [
+                        {
+                            "reference": "Paloneva J et al. J Exp Med. 2003.",
+                            "id": "10.1084/jem.20030027",
+                            "type": "DOI",
+                            "notes": "DAP12/TREM2 loss causes smaller osteoclasts with greatly reduced bone resorption in vitro ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2194176/#:~:text=of%20peripheral%20blood%20mononuclear%20cells,These))"
+                        }
+                    ],
+                    "Genes": [
+                        "TYROBP"
+                    ],
+                    "ontology_label": "bone resorption",
+                    "ontology_id": "GO:0045453"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "DAP12 (TYROBP) adaptor complex",
+                    "citation": [
+                        {
+                            "reference": "Paloneva J et al. J Exp Med. 2003.",
+                            "id": "10.1084/jem.20030027",
+                            "type": "DOI",
+                            "notes": "DAP12 is an ITAM-bearing adaptor protein required for osteoclast maturation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2194176/#:~:text=of%20peripheral%20blood%20mononuclear%20cells,These))"
+                        }
+                    ],
+                    "Genes": [
+                        "TYROBP"
+                    ],
+                    "ontology_label": "No label found",
+                    "ontology_id": "NO MATCH found"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced fusion of osteoclast precursors into large, multinucleated cells",
+                "Increased osteoclast motility and cytoskeletal reorganization (podosome/sealing zone formation)",
+                "Amplification of RANKL-induced signaling to promote bone resorption"
+            ],
+            "evidence_summary": "DAP12 (TYROBP) is a key co-stimulatory adaptor in osteoclasts.  Mutations in DAP12 (TYROBP) or its receptor TREM2 cause Nasu-Hakola disease with bone cysts and impaired osteoclastogenesis ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/16418779/#:~:text=Deficiency%20of%20the%20signaling%20adapter,evidence%20that%20TREM2%20regulates%20OC)).  DAP12-deficient cells form small TRAP-positive osteoclasts with drastically reduced resorptive activity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2194176/#:~:text=of%20peripheral%20blood%20mononuclear%20cells,These)). These findings indicate that ITAM-mediated DAP12 signaling is necessary for efficient fusion of osteoclast precursors and full osteoclastic bone degradation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2194176/#:~:text=of%20peripheral%20blood%20mononuclear%20cells,These)).",
+            "citations": [
+                {
+                    "reference": "Paloneva J et al. DAP12/TREM2 deficiency impairs osteoclast differentiation and causes osteoporotic features. J Exp Med. 2003;198(4):669-675.",
+                    "id": "10.1084/jem.20030027",
+                    "type": "DOI",
+                    "notes": "Loss-of-function mutations in DAP12 (TYROBP) severely blunt osteoclast fusion and bone resorption capability ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2194176/#:~:text=of%20peripheral%20blood%20mononuclear%20cells,These))"
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "TYROBP"
+            ],
+            "supporting_gene_count": 1,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Bone Matrix Degradation (TRAP/ACP5 Enzymatic Activity)",
+            "theme": "Bone resorption",
+            "description": "Tartrate-resistant acid phosphatase (TRAP, encoded by ACP5) is an enzyme secreted by active osteoclasts into the resorption lacuna.  TRAP dephosphorylates bone matrix proteins (e.g. osteopontin, bone sialoprotein), facilitating the dissolution of mineralized matrix ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3419267/#:~:text=osteoclasts%20participate%20in%20the%20resorption,Rylander%20et)).  This enzyme contributes to the acidified environment that dissolves hydroxyapatite during resorption.  ACP5 is highly upregulated in mature osteoclasts and is a marker of their activity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3419267/#:~:text=osteoclasts%20participate%20in%20the%20resorption,Rylander%20et)).  ACP5 deficiency leads to excessive bone retention and mild osteopetrosis, indicating its role in matrix remodeling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3419267/#:~:text=osteoclasts%20participate%20in%20the%20resorption,Rylander%20et)).",
+            "atomic_biological_processes": [
+                {
+                    "name": "dephosphorylation of bone matrix proteins",
+                    "citation": [
+                        {
+                            "reference": "Blumer MJ et al. Mech Dev. 2013;130(5-6):97-108.",
+                            "id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3419267",
+                            "type": "URL",
+                            "notes": "TRAP (ACP5) dephosphorylates osteopontin and bone sialoprotein in the matrix, aiding bone remodeling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3419267/#:~:text=osteoclasts%20participate%20in%20the%20resorption,Rylander%20et))"
+                        }
+                    ],
+                    "Genes": [
+                        "ACP5"
+                    ],
+                    "ontology_label": "protein dephosphorylation",
+                    "ontology_id": "GO:0006470"
+                },
+                {
+                    "name": "acidification of resorption lacuna",
+                    "citation": [
+                        {
+                            "reference": "Blumer MJ et al. Mech Dev. 2013.",
+                            "id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3419267",
+                            "type": "URL",
+                            "notes": "Osteoclasts create a highly acidic milieu for mineral dissolution; TRAP contributes by acting in this environment ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3419267/#:~:text=osteoclasts%20participate%20in%20the%20resorption,Rylander%20et))"
+                        }
+                    ],
+                    "Genes": [
+                        "ACP5"
+                    ],
+                    "ontology_label": "vacuolar acidification",
+                    "ontology_id": "GO:0007035"
+                },
+                {
+                    "name": "mineralized bone matrix resorption",
+                    "citation": [
+                        {
+                            "reference": "Blumer MJ et al. Mech Dev. 2013.",
+                            "id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3419267",
+                            "type": "URL",
+                            "notes": "TRAP activity is essential for normal bone resorption; TRAP-knockout mice show increased bone mass and osteopetrotic features ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3419267/#:~:text=osteoclasts%20participate%20in%20the%20resorption,Rylander%20et))"
+                        }
+                    ],
+                    "Genes": [
+                        "ACP5"
+                    ],
+                    "ontology_label": "bone resorption",
+                    "ontology_id": "GO:0045453"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "bone extracellular matrix",
+                    "citation": [
+                        {
+                            "reference": "Blumer MJ et al. Mech Dev. 2013.",
+                            "id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3419267",
+                            "type": "URL",
+                            "notes": "ACP5 acts on bone matrix proteins during resorption ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3419267/#:~:text=osteoclasts%20participate%20in%20the%20resorption,Rylander%20et))"
+                        }
+                    ],
+                    "Genes": [
+                        "ACP5"
+                    ],
+                    "ontology_label": "mineralized extracellular matrix",
+                    "ontology_id": "UBERON:4000020"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced dephosphorylation and breakdown of bone matrix proteins",
+                "Formation of an acidic resorption compartment facilitating mineral dissolution",
+                "Increased osteoclast bone degradation activity"
+            ],
+            "evidence_summary": "ACP5 (TRAP) is a signature osteoclast enzyme.  It dephosphorylates and helps degrade phosphoproteins in bone matrix ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3419267/#:~:text=osteoclasts%20participate%20in%20the%20resorption,Rylander%20et)).  TRAP-deficient mice have impaired bone resorption and develop osteopetrotic features (excess bone mass and malformed growth plates) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3419267/#:~:text=osteoclasts%20participate%20in%20the%20resorption,Rylander%20et)).  Thus, ACP5 activity is required for efficient extracellular matrix degradation by osteoclasts.",
+            "citations": [
+                {
+                    "reference": "Blumer MJ et al. Role of TRAP (ACP5) in long bone development. Mech Dev. 2013.",
+                    "id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3419267",
+                    "type": "URL",
+                    "notes": "Describes TRAP\u2019s role in dephosphorylating bone matrix proteins and shows TRAP knockout leads to osteopetrotic phenotype ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3419267/#:~:text=osteoclasts%20participate%20in%20the%20resorption,Rylander%20et))"
+                }
+            ],
+            "confidence_score": 0.85,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "ACP5",
+                "Acp5"
+            ],
+            "supporting_gene_count": 2,
+            "required_components_present": false
+        }
+    ],
+    "version": "1.0"
+}

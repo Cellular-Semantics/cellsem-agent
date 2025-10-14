@@ -1,0 +1,11 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+Hedgehog signaling pathway,GO:0007224,smoothened signaling pathway,GO,1.0,exact_match
+Wnt signaling pathway,GO:0016055,Wnt signaling pathway,GO,1.0,exact_match
+transmembrane receptor protein tyrosine kinase signaling pathway,GO:0004714,transmembrane receptor protein tyrosine kinase activity,GO,0.9,exact_match
+Fc-gamma receptor signaling pathway involved in phagocytosis,GO:0038096,Fc-gamma receptor signaling pathway involved in phagocytosis,GO,1.0,exact_match
+plasma membrane,GO:0005886,plasma membrane,GO,1.0,exact_match
+neuron differentiation,GO:0030182,neuron differentiation,GO,1.0,exact_match
+presynaptic active zone,GO:0048786,presynaptic active zone,GO,1.0,exact_match
+axon guidance,GO:0007411,axon guidance,GO,1.0,exact_match
+angiogenesis,GO:0001525,angiogenesis,GO,1.0,exact_match
+synapse,GO:0045202,synapse,GO,1.0,exact_match

@@ -1,0 +1,391 @@
+{
+    "context": {
+        "cell_type": "astrocytes",
+        "disease": "glioblastoma",
+        "tissue": "brain"
+    },
+    "input_genes": [
+        "AC007402.1",
+        "LINC02397",
+        "DLL3",
+        "PRR5L",
+        "MYO5C",
+        "UNC13C",
+        "EGFR",
+        "AL359546.1",
+        "SLC24A3",
+        "INKA2",
+        "AC003991.1",
+        "ZNF804B",
+        "LINC01902",
+        "AC087854.1",
+        "DUSP10",
+        "SWAP70",
+        "LUZP2",
+        "RAB27B",
+        "AC117464.1",
+        "DLL1",
+        "AC013265.1",
+        "NKD1",
+        "KLRC2",
+        "SLC22A3",
+        "BX284613.2",
+        "CREM",
+        "AC002069.2",
+        "HES6",
+        "HIP1",
+        "GRM5",
+        "DPF3",
+        "MIR4300HG",
+        "CNTN6",
+        "HRH2",
+        "COL20A1",
+        "ANKFN1",
+        "MCTP1",
+        "GLYCTK-AS1",
+        "CHST9",
+        "CASZ1"
+    ],
+    "programs": [
+        {
+            "program_name": "Synaptic Vesicle Exocytosis",
+            "theme": "Neuronal signaling",
+            "description": "Genes in this program (UNC13C, RAB27B, HIP1, MYO5C, CNTN6, GRM5, SLC24A3, MCTP1) are involved in synaptic vesicle trafficking and neurotransmission. In GBM cells, Rab27b is upregulated after irradiation and mediates secretion of epiregulin (EREG), activating EGFR signaling and supporting cell survival. UNC13C and MCTP1 regulate synaptic vesicle priming and neurotransmitter release, suggesting enhanced excitatory signaling and neuro-gliomal communication.",
+            "atomic_biological_processes": [
+                {
+                    "name": "synaptic vesicle exocytosis",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Nishioka S et al. Rab27b contributes to radioresistance via EREG secretion in glioblastoma. Neuro Oncol Adv. 2020.",
+                            "id": "DOI:10.1093/noajnl/vdaa091",
+                            "type": "DOI",
+                            "notes": "Rab27b is a secretory GTPase that mediates EREG secretion and EGFR activation in GBM"
+                        }
+                    ],
+                    "Genes": [
+                        "UNC13C",
+                        "RAB27B",
+                        "HIP1",
+                        "MCTP1"
+                    ]
+                },
+                {
+                    "name": "neurotransmitter secretion",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Gen\u010d O et al. MCTP is an ER-resident Ca2+ sensor that stabilizes synaptic transmission. eLife. 2017.",
+                            "id": "DOI:10.7554/eLife.22904",
+                            "type": "DOI",
+                            "notes": "MCTP1 localizes to presynaptic terminals and is essential for neurotransmitter release"
+                        }
+                    ],
+                    "Genes": [
+                        "UNC13C",
+                        "RAB27B",
+                        "MCTP1"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "presynaptic active zone",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Gen\u010d O et al. MCTP is an ER-resident Ca2+ sensor that stabilizes synaptic transmission. eLife. 2017.",
+                            "id": "DOI:10.7554/eLife.22904",
+                            "type": "DOI",
+                            "notes": "MCTP1 functions at presynaptic terminals to coordinate neurotransmitter release"
+                        }
+                    ],
+                    "Genes": [
+                        "UNC13C",
+                        "MCTP1",
+                        "HIP1"
+                    ]
+                },
+                {
+                    "name": "synapse",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Gen\u010d O et al. MCTP is an ER-resident Ca2+ sensor that stabilizes synaptic transmission. eLife. 2017.",
+                            "id": "DOI:10.7554/eLife.22904",
+                            "type": "DOI",
+                            "notes": "MCTP1 is distributed throughout the presynaptic region supporting neurotransmission"
+                        }
+                    ],
+                    "Genes": [
+                        "UNC13C",
+                        "RAB27B",
+                        "MCTP1",
+                        "HIP1"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced neurotransmitter release",
+                "Increased synaptic connectivity",
+                "Elevated autocrine/paracrine growth signaling"
+            ],
+            "evidence_summary": "Rab27b (from this gene list) is upregulated in irradiated GBM cells and promotes secretion of EREG, driving EGFR signaling and cell survival. MCTP1 acts as an ER Ca2+ sensor necessary for stable neurotransmission in neurons. Together, these gene functions imply increased synaptic signaling and secretory communication in glioblastoma cells.",
+            "citations": [
+                {
+                    "reference": "Nishioka S et al. Rab27b contributes to radioresistance via EREG secretion in glioblastoma. Neuro Oncol Adv. 2020.",
+                    "id": "DOI:10.1093/noajnl/vdaa091",
+                    "type": "DOI",
+                    "notes": "Rab27b mediates vesicle-mediated release of EREG, which activates EGFR signaling in GBM (supports enhanced secretion)"
+                }
+            ],
+            "confidence_score": 0.85,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "UNC13C",
+                "RAB27B",
+                "HIP1",
+                "MYO5C",
+                "CNTN6",
+                "GRM5",
+                "SLC24A3",
+                "MCTP1"
+            ],
+            "supporting_gene_count": 8,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Notch Signaling",
+            "theme": "Developmental pathway",
+            "description": "This program includes Notch pathway genes (DLL1, DLL3, HES6). Notch signaling in GBM supports stem/progenitor identities and regulates differentiation. Altered expression of Notch ligands and targets can affect GBM growth: e.g., modulating DLL1/3 levels influences proliferation and cell fate.",
+            "atomic_biological_processes": [
+                {
+                    "name": "Notch signaling pathway",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Drakulic D et al. Review of dysregulated neurodevelopmental pathways in glioblastoma. Cells. 2022.",
+                            "id": "PMID:36010607",
+                            "type": "PMID",
+                            "notes": "Notch signaling (via DLL ligands and HES genes) maintains glioma stem cells and promotes proliferation"
+                        }
+                    ],
+                    "Genes": [
+                        "DLL1",
+                        "DLL3",
+                        "HES6"
+                    ]
+                },
+                {
+                    "name": "cell differentiation",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Drakulic D et al. Review of dysregulated neurodevelopmental pathways in glioblastoma. Cells. 2022.",
+                            "id": "PMID:36010607",
+                            "type": "PMID",
+                            "notes": "Notch influences neural progenitor differentiation in GBM"
+                        }
+                    ],
+                    "Genes": [
+                        "DLL1",
+                        "DLL3"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "integral component of membrane",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Drakulic D et al. Review of dysregulated neurodevelopmental pathways in glioblastoma. Cells. 2022.",
+                            "id": "PMID:36010607",
+                            "type": "PMID",
+                            "notes": "DLL1 and DLL3 encode transmembrane Notch ligands"
+                        }
+                    ],
+                    "Genes": [
+                        "DLL1",
+                        "DLL3"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Maintenance of progenitor-like state",
+                "Suppressed differentiation",
+                "Enhanced glioma stemness"
+            ],
+            "evidence_summary": "The presence of DLL1/DLL3 and HES6 suggests active Notch signaling. Notch activity can maintain GBM stemness; its inhibition reduces proliferation in glioma models. Therefore, this program likely supports a less differentiated, stem-like state in GBM cells.",
+            "citations": [
+                {
+                    "reference": "Drakulic D et al. Review of dysregulated neurodevelopmental pathways in glioblastoma. Cells. 2022.",
+                    "id": "PMID:36010607",
+                    "type": "PMID",
+                    "notes": "Activation of Notch signaling (ligands DLL1/DLL3 and targets like HES family) promotes self-renewal of GBM stem-like cells and impacts differentiation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9406959/#:~:text=oncogenic%20function%20of%20Notch%20signaling,Activation%20of%20the%20Notch))."
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "DLL1",
+                "DLL3",
+                "HES6"
+            ],
+            "supporting_gene_count": 3,
+            "required_components_present": false
+        },
+        {
+            "program_name": "EGFR Signaling",
+            "theme": "Growth factor signaling",
+            "description": "Genes EGFR and RAB27B indicate an RTK signaling program. Rab27b-mediated secretion of the EGFR ligand epiregulin can activate EGFR in a paracrine loop, driving GBM cell proliferation and therapy resistance. EGFR itself is a key oncogene in glioblastoma.",
+            "atomic_biological_processes": [
+                {
+                    "name": "EGFR signaling pathway",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Nishioka S et al. Rab27b contributes to GBM radioresistance via EREG secretion. Neuro Oncol Adv. 2020.",
+                            "id": "PMID:33409495",
+                            "type": "PMID",
+                            "notes": "Rab27b upregulation drives EREG secretion, leading to EGFR activation in GBM"
+                        }
+                    ],
+                    "Genes": [
+                        "EGFR",
+                        "RAB27B"
+                    ]
+                },
+                {
+                    "name": "MAPK cascade",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Nishioka S et al. Rab27b contributes to GBM radioresistance via EREG secretion. Neuro Oncol Adv. 2020.",
+                            "id": "PMID:33409495",
+                            "type": "PMID",
+                            "notes": "EGFR activation triggers downstream MAPK signaling to enhance GBM cell survival"
+                        }
+                    ],
+                    "Genes": [
+                        "EGFR"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "plasma membrane receptor complex",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Nishioka S et al. Rab27b contributes to GBM radioresistance via EREG secretion. Neuro Oncol Adv. 2020.",
+                            "id": "PMID:33409495",
+                            "type": "PMID",
+                            "notes": "EGFR is a membrane-bound receptor activated by secreted EGF-like ligands (e.g., EREG)"
+                        }
+                    ],
+                    "Genes": [
+                        "EGFR"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Increased cell proliferation",
+                "Enhanced therapeutic resistance",
+                "Autocrine/paracrine growth signaling"
+            ],
+            "evidence_summary": "Rab27b from the gene list is shown to upregulate secretion of EREG, activating EGFR signaling and contributing to radioresistance. EGFR is a known driver of GBM growth. This program likely amplifies MAPK pathway signaling and survival in tumor cells.",
+            "citations": [
+                {
+                    "reference": "Nishioka S et al. Rab27b contributes to GBM radioresistance via EREG secretion. Neuro Oncol Adv. 2020.",
+                    "id": "PMID:33409495",
+                    "type": "PMID",
+                    "notes": "Rab27b-mediated secretion of EREG activates EGFR signaling in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7770522/#:~:text=recipient%20mice.%20Interestingly%2C%20the%20co,mechanism%2C%20activated%20EGF%20receptor%20and)), driving proliferation and survival"
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.95,
+            "supporting_genes": [
+                "EGFR",
+                "RAB27B"
+            ],
+            "supporting_gene_count": 2,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Oncogenic Transcription",
+            "theme": "Transcriptional regulation",
+            "description": "This program includes transcriptional regulators (CASZ1, CREM, DPF3). CASZ1 is an oncogenic transcription factor overexpressed in glioma, promoting proliferation via target genes like p75NTR. Altered transcription regulation by these factors can shift GBM cell identity and growth.",
+            "atomic_biological_processes": [
+                {
+                    "name": "regulation of transcription, DNA-templated",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Mao C et al. CASZ1 is an oncogenic transcription factor in glioma. MedComm. 2022.",
+                            "id": "PMID:36276925",
+                            "type": "PMID",
+                            "notes": "CASZ1 drives transcription of target genes (e.g., p75NTR) in glioma cells"
+                        }
+                    ],
+                    "Genes": [
+                        "CASZ1",
+                        "CREM",
+                        "DPF3"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "nucleus",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Mao C et al. CASZ1 is an oncogenic transcription factor in glioma. MedComm. 2022.",
+                            "id": "PMID:36276925",
+                            "type": "PMID",
+                            "notes": "CASZ1 functions in the nucleus to regulate gene expression"
+                        }
+                    ],
+                    "Genes": [
+                        "CASZ1",
+                        "CREM",
+                        "DPF3"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Upregulated oncogenic gene expression",
+                "Activation of proliferation programs",
+                "Altered differentiation gene networks"
+            ],
+            "evidence_summary": "CASZ1 is highly expressed in glioma and acts as an oncogene by promoting transcription of growth-related genes; its knockdown reduces proliferation. CREM and DPF3 likely modulate gene expression too. The combined effect is a shift toward oncogenic transcriptional programs in GBM cells.",
+            "citations": [
+                {
+                    "reference": "Mao C et al. CASZ1 is an oncogenic transcription factor in glioma. MedComm. 2022.",
+                    "id": "PMID:36276925",
+                    "type": "PMID",
+                    "notes": "CASZ1 overexpression correlates with poor glioma prognosis and drives proliferation through transcriptional activation of p75NTR"
+                }
+            ],
+            "confidence_score": 0.6,
+            "significance_score": 0.6,
+            "supporting_genes": [
+                "CASZ1",
+                "CREM",
+                "DPF3"
+            ],
+            "supporting_gene_count": 3,
+            "required_components_present": false
+        }
+    ],
+    "method": {
+        "clustering_basis": [
+            "pathway databases",
+            "literature curation",
+            "gene co-expression"
+        ],
+        "notes": "Genes were grouped based on known pathways and coordinated functions in neural and cancer contexts."
+    },
+    "version": "1.0.0"
+}

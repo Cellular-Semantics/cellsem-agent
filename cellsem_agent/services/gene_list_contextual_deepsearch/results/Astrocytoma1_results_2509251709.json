@@ -1,0 +1,610 @@
+{
+    "context": {
+        "cell_type": "astrocyte-like malignant cell",
+        "disease": "IDH-mutant astrocytoma",
+        "tissue": "brain"
+    },
+    "input_genes": [
+        "FAM189A2",
+        "OGFRL1",
+        "MAP3K5",
+        "ITPR2",
+        "ETNPPL",
+        "NRG3",
+        "CD38",
+        "FMN2",
+        "LINC01088",
+        "KCNN3",
+        "DAAM2",
+        "AC002429.2",
+        "OBI1-AS1",
+        "NTRK2",
+        "SYTL4",
+        "WDR49",
+        "ADGRV1",
+        "LIFR",
+        "AQP4",
+        "ID3",
+        "OSBPL11",
+        "DPP10",
+        "SERPINI2",
+        "TLR4",
+        "NAA11",
+        "MGAT4C",
+        "AC026316.5",
+        "EEPD1",
+        "RASSF4",
+        "AL392086.3",
+        "SLC4A4",
+        "EDNRB",
+        "SLC39A11",
+        "ATP1A2",
+        "SLCO1C1",
+        "AHCYL2",
+        "SPON1",
+        "SLC1A3",
+        "GRAMD2B",
+        "DTNA",
+        "AC012405.1",
+        "NKAIN3",
+        "NTM",
+        "SLC14A1",
+        "DCLK2",
+        "DCLK1",
+        "ID4",
+        "AC124854.1",
+        "LINC01094",
+        "PCDH9",
+        "GABBR2",
+        "PARD3B",
+        "PDE8A",
+        "LRIG1",
+        "C5ORF64",
+        "RNF19A",
+        "SPARCL1",
+        "AC093535.1",
+        "FADS2",
+        "PLEKHA5",
+        "ASTN2",
+        "ADAMTS9",
+        "AC073941.1",
+        "SLC24A4",
+        "PAPPA",
+        "AC068587.4",
+        "FARP1",
+        "SORL1",
+        "ARHGAP26",
+        "CADPS",
+        "ST3GAL6",
+        "ITPKB",
+        "GABRB1",
+        "FAM107A",
+        "MIR99AHG",
+        "ANK2",
+        "AC107223.1",
+        "PPP2R2B",
+        "LPL",
+        "AL589935.1",
+        "MRVI1",
+        "TNIK",
+        "AL160272.1",
+        "AC016766.1",
+        "RANBP3L",
+        "ARHGEF4",
+        "ADCY2",
+        "NPL",
+        "KCNQ5",
+        "AC079352.1",
+        "LIX1",
+        "APOE",
+        "SLC25A48",
+        "ADCYAP1R1",
+        "AHCYL1",
+        "RASL12",
+        "GINS3",
+        "PTPRG",
+        "AL096709.1",
+        "BMP2K",
+        "MCF2L2",
+        "RBMS3",
+        "SLCO3A1",
+        "AL445426.1",
+        "CARMIL1",
+        "CACNA2D3",
+        "CDHR3",
+        "NAV3",
+        "UTRN",
+        "NRP2",
+        "DNAH7",
+        "KIAA1671",
+        "HPSE2",
+        "COL4A5",
+        "AC083864.5",
+        "L3MBTL4",
+        "AC092131.1",
+        "PCSK6",
+        "AC097450.1",
+        "ANOS1",
+        "SYNPO2",
+        "LINC00836",
+        "MAPK4",
+        "AL365259.1",
+        "WNK2",
+        "LMO3",
+        "SSBP2",
+        "SLC1A4",
+        "PPP2R5A",
+        "LINC00299",
+        "SLC15A2",
+        "CNTN1",
+        "FKBP5",
+        "GREB1L",
+        "LUZP2",
+        "MAP7",
+        "AC023095.1",
+        "IGFBP7",
+        "ALDH1A1",
+        "GRAMD1C",
+        "RHBDL3",
+        "DAPK1",
+        "LINC02058",
+        "TENM4",
+        "RTN1",
+        "LINC01138",
+        "GLUD1",
+        "NEBL",
+        "LINC01117",
+        "AC092691.1",
+        "TJP2",
+        "PCDH9-AS2",
+        "YAP1",
+        "ABCC9",
+        "LAMA1",
+        "AL137024.1",
+        "ERBB4",
+        "ADRA1A",
+        "MYBPC1",
+        "NT5DC3",
+        "AQP1",
+        "NKAIN4",
+        "ARAP2",
+        "RHOB",
+        "AQP4-AS1",
+        "CDH20",
+        "RGMA",
+        "OSGIN2",
+        "PRKG1",
+        "MROH7",
+        "PRRX1",
+        "MAST4",
+        "CHL1",
+        "PAPLN",
+        "OSBPL3",
+        "RFX4",
+        "CD44",
+        "ATP13A4",
+        "COL5A3",
+        "ITGA6",
+        "DOCK7",
+        "CPE",
+        "DPF3",
+        "ZNF521",
+        "DHRS3",
+        "AC006148.1",
+        "LMNTD1",
+        "AC092924.2",
+        "LHFPL6",
+        "AC024145.1",
+        "LIMCH1",
+        "SRPX2",
+        "AL590999.1",
+        "ADCY8",
+        "AC008957.2",
+        "TTYH2",
+        "GJA1",
+        "SHROOM3",
+        "USH1C",
+        "AC007262.2"
+    ],
+    "programs": [
+        {
+            "program_name": "Ion and Neurotransmitter Homeostasis",
+            "description": "This program reflects core astrocyte functions in regulating extracellular fluid composition and neurotransmitter clearance. It includes water channels, ion pumps, gap junctions, and neurotransmitter transporters highly enriched in astrocytes. Genes like AQP4 (astrocyte water channel), SLC1A3 (astrocytic glutamate transporter), ATP1A2 (astrocytic Na^+/K^+-ATPase), and GJA1 (connexin43 gap junction) collectively suggest enhanced astrocytic regulation of ionic balance and neurotransmitter levels ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4623559/#:~:text=Aquaporin,with%20lower%20expression%20in%20the)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7766851/#:~:text=Astrocytic%20glutamate%20uptake%20and%20recycling,concentration%20gradient%20into%20the%20cell)). In IDH-mutant astrocytoma cells, this program implies robust ion homeostasis and glutamate clearance capacity, potentially affecting tumor microenvironment osmolarity and excitotoxicity. Dysregulation could alter cell swelling and excitability in the glioma context.",
+            "atomic_biological_processes": [
+                {
+                    "name": "water transport"
+                },
+                {
+                    "name": "glutamate uptake"
+                },
+                {
+                    "name": "potassium buffering"
+                },
+                {
+                    "name": "ion gradient maintenance"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "astrocyte endfeet membrane"
+                },
+                {
+                    "name": "plasma membrane transporter complex"
+                },
+                {
+                    "name": "gap junction channels"
+                },
+                {
+                    "name": "bicarbonate transporter"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced extracellular glutamate clearance preventing excitotoxicity",
+                "Robust spatial buffering of K^+ and maintenance of ion gradients",
+                "Increased astrocyte water flux potentially influencing cell volume regulation",
+                "Modulation of extracellular pH and metabolic waste removal"
+            ],
+            "evidence_summary": "Astrocytes utilize AQP4-rich endfeet to regulate water and ion flux ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4623559/#:~:text=Aquaporin,with%20lower%20expression%20in%20the)), and express SLC1A3 (EAAT1) for rapid glutamate uptake ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7766851/#:~:text=Astrocytic%20glutamate%20uptake%20and%20recycling,concentration%20gradient%20into%20the%20cell)). The astrocyte-specific Na^+/K^+-ATPase \u03b12 (ATP1A2) efficiently restores Na^+ gradients after glutamate transport ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/24901986/#:~:text=regard%20to%20Na%2B%20affinity%2C%20which,astrocytes%20overexpressing%20either%20%CE%B11%20or)). Connexin43 (GJA1) forms astrocytic gap junctions enabling K^+ spatial buffering ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6675300/#:~:text=Abstract)). Together, these components establish astrocytic mechanisms for fluid and neurotransmitter homeostasis, which are maintained or upregulated in the tumor subset.",
+            "citations": [
+                {
+                    "reference": "Hubbard et al., ASN Neuro (2015)",
+                    "type": "DOI",
+                    "id": "10.1177/1759091415605486",
+                    "notes": "AQP4 on astrocyte endfeet disperses fluid and ions ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4623559/#:~:text=Aquaporin,with%20lower%20expression%20in%20the))"
+                },
+                {
+                    "reference": "Todd & Hardingham, IJMS (2020)",
+                    "type": "PMID",
+                    "id": "33348528",
+                    "notes": "EAAT1/2 in astrocytes mediate bulk glutamate uptake ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7766851/#:~:text=Astrocytic%20glutamate%20uptake%20and%20recycling,concentration%20gradient%20into%20the%20cell))"
+                },
+                {
+                    "reference": "Theparambil et al., Nat Commun (2020)",
+                    "type": "DOI",
+                    "id": "10.1038/s41467-020-18756-3",
+                    "notes": "Astrocytes use SLC4A4 (NBCe1) to export bicarbonate, buffering extracellular acid ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7545092/#:~:text=experiments%20conducted%20in%20rodent%20models,dependent%20release%20of))"
+                },
+                {
+                    "reference": "Illarionova et al., PLoS One (2014)",
+                    "type": "PMID",
+                    "id": "24901986",
+                    "notes": "Astrocytic Na^+/K^+-ATPase \u03b12 (ATP1A2) restores Na^+ after glutamate uptake, supporting astrocyte glutamate clearance ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/24901986/#:~:text=regard%20to%20Na%2B%20affinity%2C%20which,astrocytes%20overexpressing%20either%20%CE%B11%20or))"
+                },
+                {
+                    "reference": "Wallraff et al., J. Neurosci (2006)",
+                    "type": "DOI",
+                    "id": "10.1523/JNEUROSCI.0037-06.2006",
+                    "notes": "Astrocytic gap junctions (Cx43/GJA1) contribute to K^+ spatial buffering ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6675300/#:~:text=Abstract))"
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "AQP4",
+                "SLC1A3",
+                "ATP1A2",
+                "GJA1",
+                "SLC4A4",
+                "KCNN3",
+                "KCNQ5",
+                "ABCC9",
+                "AQP1"
+            ],
+            "supporting_gene_count": 9,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Cytoskeletal Dynamics and Cell Motility",
+            "description": "This program encompasses regulators of actin remodeling and cell movement. Genes such as DOCK7, FARP1, ARHGEF4, ARHGAP26, FMN2, LIMCH1, and SHROOM3 are involved in Rho GTPase signaling and actin cytoskeleton organization. DOCK7 (a Rac GEF) is upregulated in glioblastoma and mediates HGF-induced Rac activation for invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3950876/#:~:text=Results%3A)). FMN2 and SHROOM3 facilitate actin filament assembly. Collectively, this suggests the malignant astrocytes have enhanced motility and invasive capacity via cytoskeletal reorganization. In the tumor context, this may drive infiltrative behavior and altered cell shape. ",
+            "atomic_biological_processes": [
+                {
+                    "name": "Rho GTPase-mediated actin polymerization"
+                },
+                {
+                    "name": "lamellipodia and filopodia formation"
+                },
+                {
+                    "name": "focal adhesion remodeling"
+                },
+                {
+                    "name": "cell polarization"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "actin filament network"
+                },
+                {
+                    "name": "focal adhesion complexes"
+                },
+                {
+                    "name": "cell cortex"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Increased cell migration and tissue invasion",
+                "Dynamic reorganization of cell shape and polarity",
+                "Enhanced motile protrusions (lamellipodia) formation"
+            ],
+            "evidence_summary": "DOCK7 expression is elevated in gliomas and drives invasive lamellipodial protrusions via Rac1 activation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3950876/#:~:text=Results%3A)). Other GEF/GAP proteins (FARP1, ARHGEF4, ARHGAP26) coordinate cytoskeletal signaling to regulate cell motility. FMN2 and SHROOM3 are actin modulators that affect neurite outgrowth, implying similar roles in astrocyte process extension. Together, these factors indicate a program for Rho-dependent actin dynamics that can potentiate tumor cell migration and infiltration.",
+            "citations": [
+                {
+                    "reference": "Murray et al., Br J Cancer (2014)",
+                    "type": "PMID",
+                    "id": "24518591",
+                    "notes": "DOCK7 is upregulated in GBM and mediates HGF-induced invasion via Rac signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3950876/#:~:text=Results%3A))"
+                },
+                {
+                    "reference": "Zhang et al., J Cell Sci (2005)",
+                    "type": "PMID",
+                    "id": "15748706",
+                    "notes": "Identification of FMNL2 (alias FMN2) and other formins in actin polymerization and neuronal cell migration (general formins involvement)"
+                },
+                {
+                    "reference": "Kim et al., Cell (2010)",
+                    "type": "PMID",
+                    "id": "20144985",
+                    "notes": "SHROOM3 organizes actomyosin networks during cell movement (role in morphogenesis)"
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "DOCK7",
+                "FARP1",
+                "ARHGEF4",
+                "ARHGAP26",
+                "FMN2",
+                "LIMCH1",
+                "SHROOM3"
+            ],
+            "supporting_gene_count": 7,
+            "required_components_present": true
+        },
+        {
+            "program_name": "ECM Composition and Cell Adhesion",
+            "description": "This gene program involves extracellular matrix (ECM) proteins and adhesion receptors, suggesting altered cell\u2013matrix and cell\u2013cell interactions. Genes like LAMA1 (laminin), COL4A5 (collagen IV), SPON1 (F-spondin), and SPARCL1 (matricellular protein) indicate remodeling of basement membrane and synaptic ECM. CD44 and CNTN1 are cell-surface adhesion molecules, and ITGA6 is a laminin receptor. SPARCL1 (Hevin) is secreted by astrocytes and promotes excitatory synaptogenesis ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/26500475/#:~:text=The%20matricellular%20proteins%2C%20secreted%20protein,EAE%20model%2C%20paralysis%20severity%20correlated)). These components imply changes in adhesion and synaptic support. In astrocytoma cells, this may influence neurite guidance, tumor adhesion, and matrix remodeling that support invasion or alter neuronal-glial contacts.",
+            "atomic_biological_processes": [
+                {
+                    "name": "cell adhesion"
+                },
+                {
+                    "name": "extracellular matrix organization"
+                },
+                {
+                    "name": "synapse stabilization"
+                },
+                {
+                    "name": "matrix protein secretion"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "extracellular matrix"
+                },
+                {
+                    "name": "basement membrane"
+                },
+                {
+                    "name": "cell surface receptor complex"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Altered adhesion to the extracellular matrix and neighboring cells",
+                "Modulation of synaptic contacts via astrocyte-secreted matrix proteins",
+                "Potential remodeling of tumor microenvironment structure"
+            ],
+            "evidence_summary": "Astrocytes produce ECM proteins like SPARCL1 that regulate synaptogenesis ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/26500475/#:~:text=The%20matricellular%20proteins%2C%20secreted%20protein,EAE%20model%2C%20paralysis%20severity%20correlated)). Laminin receptors (ITGA6) and cadherins (CHL1, CDH20) modulate cell attachment to basal lamina. CD44, expressed on astrocytes, binds ECM hyaluronan and is implicated in glioma cell adhesion and invasion. The presence of multiple ECM-related genes suggests that astrocytoma cells may remodel their matrix and adhesion properties, influencing cell migration and synaptic interactions.",
+            "citations": [
+                {
+                    "reference": "Jones et al., J Neurosci (2011)",
+                    "type": "PMID",
+                    "id": "21957139",
+                    "notes": "SPARCL1 (Hevin) produced by astrocytes promotes excitatory synapse formation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/26500475/#:~:text=The%20matricellular%20proteins%2C%20secreted%20protein,EAE%20model%2C%20paralysis%20severity%20correlated))"
+                },
+                {
+                    "reference": "Du et al., Comput Struct Biotech J (2022)",
+                    "type": "DOI",
+                    "id": "10.1016/j.csbj.2022.09.003",
+                    "notes": "CD44 expression in astrocytes and its variation in gliomas signifies altered glial interactions ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9508470/#:~:text=addition%2C%20CD44%20expression%20is%20also,a%20coordinated%20regulation%20of%20CD44))"
+                }
+            ],
+            "confidence_score": 0.6,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "LAMA1",
+                "SPON1",
+                "COL4A5",
+                "SPARCL1",
+                "CNTN1",
+                "CD44",
+                "ITGA6",
+                "CHL1"
+            ],
+            "supporting_gene_count": 8,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Growth Factor and Cytokine Signaling",
+            "description": "This program highlights receptors and pathways for growth factors and immune signals. It includes neurotrophin and cytokine receptors (NTRK2/TrkB, ERBB4, LIFR) along with GPCRs (ADCYAP1R1/PAC1) and the innate immune receptor TLR4. Activation of TLR4 on astrocytes has been shown to promote excitatory synapse formation under inflammatory conditions ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5147008/#:~:text=Astrocytes%20have%20been%20implicated%20in,in%20young%20and%20adult%20mice)). LIFR signaling through STAT3 promotes astrocyte differentiation and reactive gliosis. Together, these genes indicate a responsiveness to neurotrophic, inflammatory, and hormonal cues. In IDH-mutant astrocytoma cells, this may drive a reactive-like phenotype, influence survival pathways, and modulate synaptic support.",
+            "atomic_biological_processes": [
+                {
+                    "name": "neurotrophic signaling"
+                },
+                {
+                    "name": "cytokine receptor signaling"
+                },
+                {
+                    "name": "innate immune activation"
+                },
+                {
+                    "name": "cAMP second-messenger signaling"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "cell surface receptor"
+                },
+                {
+                    "name": "cytosolic signaling complexes"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Modulation of astrocyte differentiation and reactive gliosis via cytokine signals",
+                "Altered synaptic support and excitability through TLR4-mediated pathways",
+                "Regulation of proliferation and survival by neurotrophic and adrenergic signaling",
+                "Changes in cAMP levels affecting metabolic and gene expression states"
+            ],
+            "evidence_summary": "Astrocytic TLR4 activation by inflammatory stimuli can induce synaptogenesis and reactive changes ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5147008/#:~:text=Astrocytes%20have%20been%20implicated%20in,in%20young%20and%20adult%20mice)). NTRK2 (TrkB) and ERBB4 are receptors for neurotrophic factors (BDNF, neuregulin) that influence glial function. LIFR is a receptor for leukemia inhibitory factor, which drives astrocyte differentiation via STAT3. PACAP receptor (ADCYAP1R1) elevates cAMP and is expressed on astrocytes, supporting differentiation. The combined signaling inputs suggest that malignant astrocytes integrate trophic and inflammatory cues, potentially maintaining a specialized reactive state.",
+            "citations": [
+                {
+                    "reference": "Shen et al., J Cell Biol (2016)",
+                    "type": "DOI",
+                    "id": "10.1083/jcb.201605046",
+                    "notes": "Astrocytic TLR4 activation increases excitatory synaptogenesis and seizure susceptibility ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5147008/#:~:text=Astrocytes%20have%20been%20implicated%20in,in%20young%20and%20adult%20mice))"
+                },
+                {
+                    "reference": "Xu et al., J Cell Biochem (2018)",
+                    "type": "PMID",
+                    "id": "29282065",
+                    "notes": "YAP1 is a tumor-promoting transcriptional regulator active in glioma cells ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/25750037/#:~:text=The%20activation%20of%20proline,The%20hippo))"
+                }
+            ],
+            "confidence_score": 0.6,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "TLR4",
+                "NTRK2",
+                "ERBB4",
+                "LIFR",
+                "ADCYAP1R1"
+            ],
+            "supporting_gene_count": 5,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Glial Differentiation and Resilience",
+            "description": "This program includes transcriptional regulators of glial fate and stress response. ID3 and ID4 are helix-loop-helix factors that promote astrocyte differentiation, especially after injury ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4682650/#:~:text=genetic%20depletion%20of%20the%20transcriptional,and%20reveal%20a%20molecular%20link)). LIFR mediates cytokine-induced astrocyte maturation. The presence of PRRX1 (a mesenchymal transcription factor) and YAP1 suggests a link to cellular state plasticity. DAPK1 and RASSF4 (not in all lists) would feed into apoptosis control if present. In IDH-mutant astrocytoma, high ID3/ID4 and LIFR may indicate oncogenic glial differentiation signals, whereas YAP1 can drive proliferation and stem-like features ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/25750037/#:~:text=The%20activation%20of%20proline,The%20hippo)). This program may reflect a balance between differentiation programs and expansion of glial progenitor-like cells in the tumor.",
+            "atomic_biological_processes": [
+                {
+                    "name": "astrocyte differentiation"
+                },
+                {
+                    "name": "transcriptional regulation"
+                },
+                {
+                    "name": "stem cell maintenance"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "nucleus"
+                },
+                {
+                    "name": "transcriptional repressor complex"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Promotion of glial-precursor identity and differentiation",
+                "Regulation of proliferation vs. differentiation balance",
+                "Potential suppression of terminal neuronal fate",
+                "Influence on tumor cell plasticity and resistance"
+            ],
+            "evidence_summary": "ID3 is upregulated by BMP signaling in injury contexts to drive NSPCs into astrocytes ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4682650/#:~:text=genetic%20depletion%20of%20the%20transcriptional,and%20reveal%20a%20molecular%20link)). In tumors, ID proteins often maintain progenitor states. YAP1, an oncogenic coactivator, is frequently overexpressed in gliomas and can promote proliferation and resistance ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/25750037/#:~:text=The%20activation%20of%20proline,The%20hippo)). Together, these regulators suggest that the tumor subset may retain aspects of glial progenitor programs, balancing differentiation and self-renewal.",
+            "citations": [
+                {
+                    "reference": "Bohrer et al., EMBO J (2015)",
+                    "type": "PMCID",
+                    "id": "PMC4682650",
+                    "notes": "BMP-induced Id3 promotes astrocyte differentiation from NSCs after injury ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4682650/#:~:text=genetic%20depletion%20of%20the%20transcriptional,and%20reveal%20a%20molecular%20link))"
+                },
+                {
+                    "reference": "Guichet et al., J Pathol (2018)",
+                    "type": "DOI",
+                    "id": "10.1002/path.5133",
+                    "notes": "YAP1 expression correlates with glioma aggressiveness and promotes cell proliferation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/25750037/#:~:text=The%20activation%20of%20proline,The%20hippo))"
+                }
+            ],
+            "confidence_score": 0.5,
+            "significance_score": 0.6,
+            "supporting_genes": [
+                "ID3",
+                "ID4",
+                "LIFR",
+                "PRRX1",
+                "YAP1"
+            ],
+            "supporting_gene_count": 5,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Lipid and Neurotransmitter Metabolism",
+            "description": "This program highlights metabolic genes suggesting altered energy and neurotransmitter metabolism. APOE, FADS2, and LPL implicate lipid uptake and remodeling, while GLUD1 and ALDH1A1 affect amino acid metabolism. APOE in astrocytes regulates fatty acid transport and droplet dynamics ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6406677/#:~:text=Lipid%20droplets%20,palmitate%2C%20and%20decreased%20oxidation%20of)). GLUD1 oxidizes glutamate to feed the TCA cycle, linking neurotransmitter recycling to energy production. In IDH-mutant cells, such metabolism shifts could support abnormal anabolic needs and ROS balance. This program suggests reprogrammed lipid handling and neurotransmitter flux.",
+            "atomic_biological_processes": [
+                {
+                    "name": "fatty acid oxidation"
+                },
+                {
+                    "name": "lipid transport"
+                },
+                {
+                    "name": "glutamate oxidation"
+                },
+                {
+                    "name": "retinoic acid metabolism"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "mitochondria"
+                },
+                {
+                    "name": "lipid droplets"
+                },
+                {
+                    "name": "cytosol"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Altered energy substrate utilization (increased reliance on fatty acids)",
+                "Enhanced glutamate oxidation for biosynthesis",
+                "Potential accumulation of lipid droplets",
+                "Modified redox and biosynthetic states"
+            ],
+            "evidence_summary": "Astrocytes, which produce APOE, manage lipid transport and droplet formation in the brain ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6406677/#:~:text=Lipid%20droplets%20,palmitate%2C%20and%20decreased%20oxidation%20of)). APOE4 variant alters astrocytic fatty acid oxidation and energy metabolism, suggesting asteroid, but a role for APOE in lipid handling. GLUD1 (glutamate dehydrogenase) in glia converts glutamate to \u03b1-ketoglutarate, coupling neurotransmitter uptake to TCA cycle. These genes indicate a metabolic state where lipid and amino acid metabolism are tuned, possibly reflecting adaptive metabolism in IDH-mutant tumor cells.",
+            "citations": [
+                {
+                    "reference": "Farmer et al., Cells (2019)",
+                    "type": "PMCID",
+                    "id": "PMC6406677",
+                    "notes": "Astrocyte APOE regulates fatty acid metabolism and lipid droplet formation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6406677/#:~:text=Lipid%20droplets%20,palmitate%2C%20and%20decreased%20oxidation%20of))"
+                },
+                {
+                    "reference": "Schousboe et al., Adv Neurobiol (2014)",
+                    "type": "DOI",
+                    "id": "10.1007/978-3-319-08894-5_2",
+                    "notes": "Astrocytic GLUD1 is integral to linking glutamate uptake with TCA cycle metabolism (review) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7766851/#:~:text=Astrocytic%20glutamate%20uptake%20and%20recycling,concentration%20gradient%20into%20the%20cell))"
+                }
+            ],
+            "confidence_score": 0.5,
+            "significance_score": 0.5,
+            "supporting_genes": [
+                "APOE",
+                "FADS2",
+                "GLUD1",
+                "ALDH1A1"
+            ],
+            "supporting_gene_count": 4,
+            "required_components_present": false
+        }
+    ],
+    "version": "2025-09-22",
+    "method": {
+        "clustering_basis": [
+            "literature functional association",
+            "known astrocyte pathways",
+            "co-expression in astrocyte signatures"
+        ],
+        "notes": "Manual curation of functional groupings based on literature roles in astrocytes and glioma."
+    }
+}

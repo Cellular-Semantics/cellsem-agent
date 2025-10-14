@@ -1,3 +1,6 @@
+.idea
+.env
+
 literature/
 /cellsem_agent/graphs/cl_validation/resources/val_annotations.json
 

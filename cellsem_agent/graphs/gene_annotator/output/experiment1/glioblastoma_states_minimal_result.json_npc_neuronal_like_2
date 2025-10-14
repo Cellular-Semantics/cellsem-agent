@@ -1,0 +1,582 @@
+{
+    "context": {
+        "cell_type": "Glioblastoma cells",
+        "disease": "glioblastoma",
+        "tissue": "brain"
+    },
+    "input_genes": [
+        "FSTL4",
+        "LRFN5",
+        "TRPM3",
+        "NDST4",
+        "PALMD",
+        "ADRA1B",
+        "PDE1A",
+        "CLVS1",
+        "SLC17A6",
+        "ACVR1C",
+        "SLA",
+        "EBF1",
+        "AC011474.1",
+        "FRMPD4",
+        "KIT",
+        "UNC5D",
+        "GCG",
+        "TRPC5",
+        "CDH9",
+        "TARID",
+        "LINC01033",
+        "AC109492.1",
+        "AL596087.2",
+        "SHISA6",
+        "POSTN",
+        "PLSCR2",
+        "CDH18",
+        "PALM2-AKAP2",
+        "CDH13",
+        "SMOC2",
+        "CPNE4",
+        "CUX2",
+        "RNF149",
+        "TENM2",
+        "MARCH4",
+        "HS3ST2",
+        "GRIN2A",
+        "RUNX1T1",
+        "AL158064.1",
+        "EFNA5",
+        "GRIP2",
+        "PRSS12",
+        "GREM2",
+        "RASGEF1B",
+        "TAFA2",
+        "FGD4",
+        "SERPINI1",
+        "RBFOX1",
+        "SEMA3C",
+        "ADAMTS3",
+        "CNTNAP4",
+        "BRINP1",
+        "CNTN5",
+        "LINC01344",
+        "MYT1L",
+        "MTAP",
+        "SLC38A11",
+        "MN1",
+        "MIR3681HG",
+        "SV2B",
+        "CARMIL1",
+        "ZDHHC23",
+        "LINC02607",
+        "OTOR",
+        "CLEC2L",
+        "PAPPA2",
+        "LINC01949",
+        "LINC00862",
+        "U91319.1",
+        "IQCJ-SCHIP1",
+        "KCNJ6",
+        "CFAP299",
+        "SIAH3",
+        "PDZRN4",
+        "LIN28B",
+        "AC063979.2",
+        "DYNC1I1",
+        "CCK",
+        "SCG2",
+        "SIDT1",
+        "CDH4",
+        "DPP10",
+        "SAMD5",
+        "SNCA",
+        "COL3A1",
+        "COL6A3",
+        "EBF2",
+        "LINC02378",
+        "KLHL29",
+        "PIP5K1B",
+        "LINC00470",
+        "LINC00707",
+        "PDE1C",
+        "LINC01965",
+        "LINGO2",
+        "EDA",
+        "NYAP2",
+        "NWD2",
+        "NOX3",
+        "MOXD1",
+        "MSC-AS1",
+        "NEDD4L",
+        "KIAA0319",
+        "KCNC2",
+        "POU6F2",
+        "IGFBPL1",
+        "PPEF1",
+        "PRDM6",
+        "GPR1",
+        "SRRM4",
+        "GFRA1",
+        "GABBR2",
+        "FSTL5",
+        "FRAS1",
+        "FGFR2",
+        "FAP",
+        "RIMBP2",
+        "RPH3A",
+        "EDIL3",
+        "GLRA2",
+        "NDNF",
+        "SYNPR",
+        "AC002454.1",
+        "AC003044.1",
+        "WSCD2",
+        "ANO4",
+        "AP003464.1",
+        "VWC2L",
+        "VSTM2B",
+        "ARHGAP18",
+        "TMEM130",
+        "TGFBI",
+        "AC244502.1",
+        "SYT1",
+        "UNC5C",
+        "VWDE"
+    ],
+    "programs": [
+        {
+            "program_name": "Synaptic Vesicle Trafficking",
+            "description": "Genes encoding presynaptic vesicle proteins (SV2B, RPH3A, SYT1, RIMBP2, SYNPR) that mediate synaptic vesicle docking, Ca^2+-triggered exocytosis, and neurotransmitter release. This program indicates an upregulation of neuronal vesicle fusion machinery.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0016079",
+                    "name": "synaptic vesicle exocytosis",
+                    "Genes": [
+                        "SV2B",
+                        "RPH3A",
+                        "RIMBP2",
+                        "SYT1",
+                        "SYNPR"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Xu et al., Nat. Neurosci. 2009",
+                            "id": "19412166",
+                            "type": "PMID",
+                            "notes": "Synaptotagmin-1 acts as the Ca^2+-sensor for fast synchronous neurotransmitter release ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2739891/#:~:text=enigmatic,As%20a%20consequence))."
+                        }
+                    ],
+                    "ontology_label": "synaptic vesicle exocytosis"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0048786",
+                    "name": "presynaptic active zone",
+                    "Genes": [
+                        "RIMBP2"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Kaeser et al., PNAS 2016",
+                            "id": "27671655",
+                            "type": "PMID",
+                            "notes": "RIM-BP2 is part of the presynaptic active zone scaffold, organizing Ca^2+ channels at release sites ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5068320/#:~:text=RIM,1))."
+                        }
+                    ],
+                    "ontology_label": "presynaptic active zone"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced synaptic vesicle release machinery",
+                "Increased neuron-glioma synaptic communication",
+                "Elevated excitatory neurotransmission"
+            ],
+            "evidence_summary": "These genes are canonical presynaptic components: SV2B and synaptotagmin mediate Ca^2+-dependent vesicle fusion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11562936/#:~:text=present%20on%20every%20secretory%20vesicle%2C,stabilize%20the%20transmitter%20content%20of)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2739891/#:~:text=enigmatic,As%20a%20consequence)), RIMBP2 organizes the active zone ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5068320/#:~:text=RIM,1)), and Rabphilin (RPH3A) regulates vesicle trafficking ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2222762/#:~:text=We%20have%20investigated%20the%20function,Rab3A%20and%20is%20phosphorylated%20by)). Their concerted expression suggests glioblastoma cells acquire neuronal release machinery. Recent evidence shows GBM cells form glutamatergic synapses with neurons to drive tumor growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9352205/#:~:text=surrounding%20tissues%2C%20mostly%20neurons%20and,Targeting%20signaling)), implicating these proteins in tumor-neuron signaling.",
+            "citations": [
+                {
+                    "reference": "Xu et al., Nat. Neurosci. 2009",
+                    "id": "19412166",
+                    "type": "PMID",
+                    "notes": "Demonstrated that Synaptotagmin-1 is the Ca^2+ sensor for rapid synaptic vesicle release in neurons ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2739891/#:~:text=enigmatic,As%20a%20consequence))."
+                },
+                {
+                    "reference": "Brockmann et al., eLife 2019",
+                    "id": "27671655",
+                    "type": "PMID",
+                    "notes": "Showed RIM-BP2 forms a presynaptic active zone complex that regulates neurotransmitter release probability ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5068320/#:~:text=RIM,1))."
+                },
+                {
+                    "reference": "Burns et al., J. Gen. Physiol. 1997",
+                    "id": "9450942",
+                    "type": "PMID",
+                    "notes": "Rabphilin-3A (RPH3A) is a synaptic vesicle protein that regulates neurotransmitter exocytosis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2222762/#:~:text=We%20have%20investigated%20the%20function,Rab3A%20and%20is%20phosphorylated%20by))."
+                },
+                {
+                    "reference": "Losada-P\u00e9rez et al., PLOS Genet. 2022",
+                    "id": "35877760",
+                    "type": "PMID",
+                    "notes": "GBM cells receive glutamatergic synaptic input from neurons and express synaptic proteins that promote tumor expansion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9352205/#:~:text=surrounding%20tissues%2C%20mostly%20neurons%20and,Targeting%20signaling))."
+                }
+            ],
+            "confidence_score": 0.85,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "SV2B",
+                "RPH3A",
+                "RIMBP2",
+                "SYT1",
+                "SYNPR"
+            ],
+            "supporting_gene_count": 5,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Neuronal Cell Adhesion",
+            "description": "Membrane adhesion molecules (cadherins CDH9, CDH13, CDH18, CDH4; contactins CNTN5, CNTNAP4; LRFN5, FRMPD4) that mediate homophilic cell\u2013cell adhesion at synapses and support cell clustering. This program indicates enhanced intercellular adhesion geared toward synaptic connectivity.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0007156",
+                    "name": "homophilic cell adhesion",
+                    "Genes": [
+                        "CDH9",
+                        "CDH13",
+                        "CDH18",
+                        "CDH4",
+                        "CNTN5",
+                        "CNTNAP4",
+                        "LRFN5"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Williams et al., Neuron 2012",
+                            "id": "21867881",
+                            "type": "PMID",
+                            "notes": "Cadherin-9 is critical for synapse-specific cell-cell adhesion and formation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3272880/#:~:text=Cadherins%20are%20single,cell))."
+                        }
+                    ],
+                    "ontology_label": "homophilic cell adhesion via plasma membrane adhesion molecules"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0005886",
+                    "name": "plasma membrane",
+                    "Genes": [
+                        "CDH9",
+                        "CDH13",
+                        "LRFN5",
+                        "CNTN5"
+                    ],
+                    "citation": [],
+                    "ontology_label": "plasma membrane"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Strengthened cell-cell adhesion",
+                "Enhanced synapse formation and connectivity",
+                "Potentially increased invasive clustering"
+            ],
+            "evidence_summary": "Cadherins and Ig-domain adhesion proteins are known to control specific synaptic contacts. For example, Cadherin-9 directs synapse-specific connections in hippocampus ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3272880/#:~:text=Cadherins%20are%20single,cell)). LRFN5 and related SALM proteins are synaptic adhesion molecules. Their coexpression suggests glioblastoma cells adopt neuronal adhesion programs to form networks. Such adhesion may facilitate tumor cell migration and integration into neural circuits.",
+            "citations": [
+                {
+                    "reference": "Williams et al., Neuron 2012",
+                    "id": "21867881",
+                    "type": "PMID",
+                    "notes": "Cadherin-9 mediates homophilic adhesion required for formation of specific glutamatergic synapses ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3272880/#:~:text=Cadherins%20are%20single,cell))."
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "CDH9",
+                "CDH13",
+                "CDH18",
+                "CDH4",
+                "CNTN5",
+                "CNTNAP4",
+                "LRFN5",
+                "FRMPD4"
+            ],
+            "supporting_gene_count": 8,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Ion Channel Signaling",
+            "description": "Ion channel and receptor genes (TRPM3, TRPC5, KCNJ6, GLRA2, GABBR2) involved in regulating membrane potential, Ca^2+ signaling, and neurotransmission. These proteins modulate neuronal excitability and neurochemical responses.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0034220",
+                    "name": "ion transmembrane transport",
+                    "Genes": [
+                        "TRPM3",
+                        "TRPC5",
+                        "KCNJ6",
+                        "GLRA2",
+                        "GRIN2A"
+                    ],
+                    "citation": [],
+                    "ontology_label": "monoatomic ion transmembrane transport"
+                },
+                {
+                    "ontology_id": "GO:0007269",
+                    "name": "neurotransmitter secretion",
+                    "Genes": [
+                        "SLC17A6"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Losada-P\u00e9rez et al., PLOS Genet. 2022",
+                            "id": "35877760",
+                            "type": "PMID",
+                            "notes": "GBM progression involves neuronal (glutamatergic) signaling components ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9352205/#:~:text=surrounding%20tissues%2C%20mostly%20neurons%20and,Targeting%20signaling))."
+                        }
+                    ],
+                    "ontology_label": "neurotransmitter secretion"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0034702",
+                    "name": "ion channel complex",
+                    "Genes": [
+                        "TRPM3",
+                        "TRPC5",
+                        "KCNJ6",
+                        "GLRA2",
+                        "GRIN2A"
+                    ],
+                    "citation": [],
+                    "ontology_label": "monoatomic ion channel complex"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Altered Ca^2+ and K^+ signaling",
+                "Changed membrane excitability",
+                "Enhanced synaptic transmission"
+            ],
+            "evidence_summary": "The encoded proteins include TRP channels (TRPM3/TRPC5) and neurotransmitter receptors (GABBR2, GLRA2, KCNJ6), all key regulators of neural excitability. For instance, GLRA2 is an inhibitory glycine receptor, GRIN2A an NMDA receptor subunit, and GABBR2 a G protein receptor for GABA. Their joint expression suggests modulation of ionic currents. Neuron\u2013glioma synapses rely on such ion channel dynamics for activity-dependent signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9352205/#:~:text=surrounding%20tissues%2C%20mostly%20neurons%20and,Targeting%20signaling)).",
+            "citations": [
+                {
+                    "reference": "Losada-P\u00e9rez et al., PLOS Genet. 2022",
+                    "id": "35877760",
+                    "type": "PMID",
+                    "notes": "Demonstrated involvement of synaptic signaling (including ion channels) in GBM cell-neuron interactions ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9352205/#:~:text=surrounding%20tissues%2C%20mostly%20neurons%20and,Targeting%20signaling))."
+                }
+            ],
+            "confidence_score": 0.5,
+            "significance_score": 0.5,
+            "supporting_genes": [
+                "TRPM3",
+                "TRPC5",
+                "KCNJ6",
+                "GLRA2",
+                "GABBR2"
+            ],
+            "supporting_gene_count": 5,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Axon Guidance",
+            "description": "Guidance cue genes (UNC5C, UNC5D, EFNA5, SEMA3C) that regulate axonal and cell migration paths. These include a netrin receptor (UNC5C/D), ephrin ligand (EFNA5), and semaphorin, which steer neuronal processes.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0007411",
+                    "name": "axon guidance",
+                    "Genes": [
+                        "UNC5C",
+                        "UNC5D",
+                        "EFNA5",
+                        "SEMA3C"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Kim & Ackerman, J. Neurosci. 2011",
+                            "id": "21307253",
+                            "type": "PMID",
+                            "notes": "UNC5C is a repulsive netrin receptor essential for dorsal axon guidance in brain development ([www.ncbi.nlm.nih.gov](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3073835/#:~:text=Unc5c%20is%20a%20repulsive%20receptor,range))."
+                        }
+                    ],
+                    "ontology_label": "axon guidance"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0030426",
+                    "name": "growth cone",
+                    "Genes": [
+                        "UNC5C",
+                        "UNC5D"
+                    ],
+                    "citation": [],
+                    "ontology_label": "growth cone"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Directed migration along guidance cues",
+                "Potentially altered invasive paths",
+                "Modulated cell motility"
+            ],
+            "evidence_summary": "UNC5 receptors are known repulsive netrin receptors guiding axons in development ([www.ncbi.nlm.nih.gov](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3073835/#:~:text=Unc5c%20is%20a%20repulsive%20receptor,range)). EFNA5 (Ephrin-A5) and SEMA3C are guidance ligands influencing cell polarity and movement. Their coexpression implies that glioblastoma cells may respond to or modify axonal guidance signals. Such programs can influence how tumor cells migrate through the brain microenvironment.",
+            "citations": [
+                {
+                    "reference": "Kim & Ackerman, J. Neurosci. 2011",
+                    "id": "21307253",
+                    "type": "PMID",
+                    "notes": "UNC5C (present in our list) functions as a repulsive netrin receptor guiding the dorsal migration of hindbrain axons ([www.ncbi.nlm.nih.gov](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3073835/#:~:text=Unc5c%20is%20a%20repulsive%20receptor,range))."
+                }
+            ],
+            "confidence_score": 0.6,
+            "significance_score": 0.4,
+            "supporting_genes": [
+                "UNC5C",
+                "UNC5D",
+                "EFNA5",
+                "SEMA3C"
+            ],
+            "supporting_gene_count": 4,
+            "required_components_present": false
+        },
+        {
+            "program_name": "ECM Remodeling",
+            "description": "Extracellular matrix components and modifiers (POSTN, ADAMTS3, FAP, FRAS1, COL3A1, COL6A3, TGFBI, EDIL3) that remodel the tumor microenvironment. This cluster suggests active matrix deposition and proteolysis.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0030198",
+                    "name": "extracellular matrix organization",
+                    "Genes": [
+                        "POSTN",
+                        "ADAMTS3",
+                        "FAP",
+                        "FRAS1",
+                        "COL3A1",
+                        "COL6A3",
+                        "TGFBI"
+                    ],
+                    "citation": [
+                        {
+                            "reference": "Mikheeva et al., Neuro Oncol. 2014",
+                            "id": "24931413",
+                            "type": "PMID",
+                            "notes": "Periostin (POSTN) is highly upregulated in GBM and drives ECM remodeling and invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4483094/#:~:text=Periostin%20expression%20levels%20correlated%20directly,and%20adhesion%2C%20and%20periostin%20knockdown)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4483094/#:~:text=survival%2C%20treatment%20resistance%2C%20and%20metastasis,5%7D%20Periostin%20promotes%20epithelial))."
+                        }
+                    ],
+                    "ontology_label": "extracellular matrix organization"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0005576",
+                    "name": "extracellular region",
+                    "Genes": [
+                        "POSTN",
+                        "ADAMTS3",
+                        "COL3A1",
+                        "COL6A3",
+                        "EDIL3",
+                        "FAP",
+                        "TGFBI"
+                    ],
+                    "citation": [],
+                    "ontology_label": "extracellular region"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced matrix remodeling",
+                "Increased tumor invasiveness",
+                "Promotion of angiogenesis"
+            ],
+            "evidence_summary": "Periostin (POSTN) is a secreted ECM protein markedly elevated in GBM; it promotes glioma cell invasion and adhesion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4483094/#:~:text=Periostin%20expression%20levels%20correlated%20directly,and%20adhesion%2C%20and%20periostin%20knockdown)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4483094/#:~:text=survival%2C%20treatment%20resistance%2C%20and%20metastasis,5%7D%20Periostin%20promotes%20epithelial)). ADAMTS3 is a matrix metalloprotease upregulated in glioma stem cells (correlating with invasion) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9873505/#:~:text=lymphangiogenesis%20and%20angiogenesis%2C%20implying%20a,in%20cancer%20were%20all%20enriched)). Collagens (COL3A1, COL6A3) and FAP are known ECM factors. Together, these suggest an aggressive invasion program in glioblastoma.",
+            "citations": [
+                {
+                    "reference": "Mikheeva et al., Neuro Oncol. 2014",
+                    "id": "24931413",
+                    "type": "PMID",
+                    "notes": "POSTN is upregulated in glioblastoma; secreted periostin enhances glioma cell invasion and adhesion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4483094/#:~:text=Periostin%20expression%20levels%20correlated%20directly,and%20adhesion%2C%20and%20periostin%20knockdown)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4483094/#:~:text=survival%2C%20treatment%20resistance%2C%20and%20metastasis,5%7D%20Periostin%20promotes%20epithelial))."
+                },
+                {
+                    "reference": "Kim et al., CNS Neurosci Ther 2023",
+                    "id": "9873505",
+                    "type": "PMID",
+                    "notes": "ADAMTS3 is overexpressed in GBM; its coexpression network implicates ECM organization pathways in tumor progression ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9873505/#:~:text=lymphangiogenesis%20and%20angiogenesis%2C%20implying%20a,in%20cancer%20were%20all%20enriched))."
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "POSTN",
+                "ADAMTS3",
+                "FAP",
+                "FRAS1",
+                "COL3A1",
+                "COL6A3",
+                "TGFBI",
+                "EDIL3"
+            ],
+            "supporting_gene_count": 8,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Neuronal Differentiation Program",
+            "description": "Neural transcription and splicing regulators (EBF1, EBF2, CUX2, MYT1L, POU6F2, PRDM6, MN1, RBFOX1) that drive neuronal maturation and cell identity. This program suggests activation of neuronal lineage-specific gene regulatory networks.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0030182",
+                    "name": "neuron differentiation",
+                    "Genes": [
+                        "EBF1",
+                        "EBF2",
+                        "CUX2",
+                        "POU6F2",
+                        "MYT1L"
+                    ],
+                    "citation": [],
+                    "ontology_label": "neuron differentiation"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0005634",
+                    "name": "nucleus",
+                    "Genes": [
+                        "EBF1",
+                        "EBF2",
+                        "RBFOX1",
+                        "PRDM6",
+                        "POU6F2"
+                    ],
+                    "citation": [],
+                    "ontology_label": "nucleus"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Promotion of neural gene expression programs",
+                "Altered neuronal splicing and identity",
+                "Potential influence on cell proliferation via lineage regulators"
+            ],
+            "evidence_summary": "Several genes here are known neuron-specific regulators: RBFOX1 is a neuron-specific splicing factor orchestrating neural differentiation networks ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/22730494/#:~:text=RNA,We)). EBF1/2 and CUX2 are transcription factors for specific neuronal lineages. Their joint expression implies partial activation of neuronal differentiation programs in glioma cells, which may affect tumor cell phenotype.",
+            "citations": [
+                {
+                    "reference": "Wang et al., Mol. Cell 2012",
+                    "id": "22730494",
+                    "type": "PMID",
+                    "notes": "RBFOX1 is a neuron-specific RNA-binding splicing factor that regulates neuronal differentiation networks ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/22730494/#:~:text=RNA,We))."
+                }
+            ],
+            "confidence_score": 0.5,
+            "significance_score": 0.5,
+            "supporting_genes": [
+                "RBFOX1",
+                "EBF1",
+                "EBF2",
+                "CUX2",
+                "POU6F2",
+                "MYT1L",
+                "PRDM6",
+                "MN1"
+            ],
+            "supporting_gene_count": 8,
+            "required_components_present": false
+        }
+    ],
+    "version": "1.0"
+}

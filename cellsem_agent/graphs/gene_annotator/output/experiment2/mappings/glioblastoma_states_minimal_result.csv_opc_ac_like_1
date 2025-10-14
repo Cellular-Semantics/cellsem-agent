@@ -1,0 +1,15 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+cell migration,GO:0016477,cell migration,GO,1.0,exact_match
+extracellular matrix organization,GO:0030198,extracellular matrix organization,GO,1.0,exact_match
+extracellular matrix,GO:0031012,extracellular matrix,GO,1.0,exact_match
+response to hypoxia,GO:0001666,response to hypoxia,GO,1.0,exact_match
+stem cell population maintenance,GO:0019827,stem cell population maintenance,GO,1.0,exact_match
+cellular response to oxidative stress,GO:0034599,cellular response to oxidative stress,GO,1.0,exact_match
+angiogenesis,GO:0001525,angiogenesis,GO,1.0,exact_match
+axon guidance,GO:0007411,axon guidance,GO,1.0,exact_match
+neuron projection,GO:0043005,neuron projection,GO,1.0,exact_match
+chemical synaptic transmission,GO:0007268,chemical synaptic transmission,GO,1.0,exact_match
+synapse,GO:0045202,synapse,GO,1.0,exact_match
+antigen processing and presentation of endogenous peptide antigen via MHC class I,GO:0019885,antigen processing and presentation of endogenous peptide antigen via MHC class I,GO,1.0,exact_match
+astrocyte differentiation,GO:0048708,astrocyte differentiation,GO,1.0,exact_match
+cytoplasm,GO:0005737,cytoplasm,GO,1.0,exact_match

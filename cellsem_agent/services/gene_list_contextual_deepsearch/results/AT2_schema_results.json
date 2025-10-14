@@ -1,0 +1,93 @@
+{
+  "context": {
+    "cell_type": "Alveolar type II (AT2) epithelial cell",
+    "disease": "Pulmonary surfactant homeostasis disorder",
+    "tissue": "Lung"
+  },
+  "input_genes": [
+    "ABCA3",
+    "NAPSA",
+    "CTSH",
+    "SFTPB",
+    "SFTPC"
+  ],
+  "programs": [
+    {
+      "program_name": "Pulmonary Surfactant Homeostasis and Lamellar Body Biogenesis",
+      "theme": "Surfactant metabolism",
+      "description": "ABCA3, SFTPB, and SFTPC are core components of the type II alveolar cell surfactant system. ABCA3 transports phospholipids into lamellar bodies, while SP-B and SP-C (encoded by SFTPB and SFTPC) are the hydrophobic proteins packaged into surfactant. Together these genes drive lamellar body formation and surfactant secretion, crucial for preventing alveolar collapse and maintaining lung compliance. Disruption of any component impairs surfactant homeostasis and leads to respiratory failure (e.g. neonatal surfactant deficiency) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4127631/#:~:text=after%20birth,CSF%20receptor%20function%20disrupt)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5321817/#:~:text=and%20specificity%20has%20eluded%20characterization%2C,2007)). Atomic breakdown—Biological processes: ATP-dependent phospholipid transport into lamellar bodies (ABCA3-mediated); lamellar body biogenesis/organization; surfactant lipid–protein assembly (SP-B/SP-C incorporation); regulated exocytosis of lamellar bodies (surfactant secretion); regulation of alveolar surface tension/compliance; maintenance of surfactant homeostasis. Cellular components: lamellar body; lamellar body membrane; lamellar body lumen; alveolar lining fluid (air–liquid interface) where surfactant spreads.",
+      "predicted_cellular_impact": [
+        "Enhanced lamellar body formation and maturation",
+        "Increased surfactant lipid and protein synthesis",
+        "Stabilization of alveolar surface tension to prevent collapse",
+        "Maintenance of AT2 cell differentiation and repair function"
+      ],
+      "evidence_summary": "ABCA3 is an ATP-dependent lipid transporter expressed in AT2 lamellar bodies (LBs) that imports surfactant phospholipids into these compartments ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5321817/#:~:text=and%20specificity%20has%20eluded%20characterization%2C,2007)). SFTPB and SFTPC encode surfactant protein B and C, respectively, which are packaged in LBs and secreted with surfactant lipids ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4127631/#:~:text=Lamellar%20bodies%20are%20rich%20in,2)). Mutations in ABCA3/SFTPB/SFTPC disrupt surfactant secretion and cause inherited pulmonary disease ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4127631/#:~:text=after%20birth,CSF%20receptor%20function%20disrupt)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5321817/#:~:text=and%20specificity%20has%20eluded%20characterization%2C,2007)). In normal AT2 cells, the coordinated activity of ABCA3 and SP-B/C ensures efficient surfactant production, promoting alveolar stability and gas exchange.",
+      "citations": [
+        {
+          "reference": "Beers MF, Mulugeta S, Cell Tissue Res. 2016;367(3):481-493.",
+          "id": "28025703",
+          "type": "PMID",
+          "notes": "ABCA3 transports surfactant phospholipids into lamellar bodies of AT2 cells, essential for surfactant homeostasis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5321817/#:~:text=and%20specificity%20has%20eluded%20characterization%2C,2007))."
+        },
+        {
+          "reference": "Whitsett JA, Wert SE, Weaver TE, Annu Rev Med. 2010;61:105-119.",
+          "id": "19824815",
+          "type": "PMID",
+          "notes": "Type II cells synthesize surfactant proteins SP-B and SP-C; mutations in SFTPB/SFTPC cause surfactant deficiency lung disease ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4127631/#:~:text=after%20birth,CSF%20receptor%20function%20disrupt)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4127631/#:~:text=Lamellar%20bodies%20are%20rich%20in,2))."
+        }
+      ],
+      "confidence_score": 0.9,
+      "significance_score": 0.9,
+      "supporting_genes": [
+        "ABCA3",
+        "SFTPB",
+        "SFTPC"
+      ],
+      "supporting_gene_count": 3,
+      "required_components_present": true
+    },
+    {
+      "program_name": "Surfactant Protein Processing and Maturation",
+      "theme": "Proteolysis and activation",
+      "description": "Napsin A (NAPSA) and cathepsin H (CTSH) are alveolar proteases that cleave surfactant propeptides into their mature, active forms. NAPSA is an aspartic protease that processes pro-SP-B (SFTPB) at both N- and C-terminal sites, and CTSH is a cysteine protease initiating the N-terminal cleavage of pro-SP-C (SFTPC). Together they ensure generation of mature SP-B and SP-C in lamellar bodies. Loss of these proteases impairs SP-B/C maturation, leading to dysfunctional surfactant and compromised alveolar function ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/14766755/#:~:text=SP,B%20peptide)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/12034564/#:~:text=vitro,bodies%20of%20type%20II%20pneumocytes)). Atomic breakdown—Biological processes: proteolytic processing of pro-SP-B; N-terminal cleavage/processing of pro-SP-C; post-translational protein maturation within lamellar bodies; regulation of surfactant activity via protease-dependent activation; prevention of pro-surfactant intermediate accumulation. Cellular components: lamellar body lumen; lamellar body/lysosome-like secretory organelle of AT2 cells; sites of intraluminal protease activity.",
+      "predicted_cellular_impact": [
+        "Facilitates conversion of pro-SP-B and pro-SP-C to mature surfactant proteins",
+        "Ensures formation of functional surfactant complexes in alveolar space",
+        "Prevents accumulation of inactive pro-surfactant intermediates in AT2 cells",
+        "Maintains alveolar stability by enabling active surfactant production"
+      ],
+      "evidence_summary": "Napsin A and cathepsin H co-localize with surfactant proproteins in AT2 cell lamellar bodies and sequentially cleave pro-SP-B and pro-SP-C ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/14766755/#:~:text=SP,B%20peptide)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/12034564/#:~:text=vitro,bodies%20of%20type%20II%20pneumocytes)). In vitro, purified Napsin A and CTSH generate intermediates of SP-B processing, and knockdown of Napsin A reduces mature SP-B and SP-C levels ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/14766755/#:~:text=SP,B%20peptide)). Disruption of these proteases leads to defective surfactant maturation and alveolar proteinosis-like phenotypes ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/13129928/#:~:text=isolated%20lamellar%20bodies%20cleaved%20proSP,II%20pneumocytes)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/12034564/#:~:text=vitro,bodies%20of%20type%20II%20pneumocytes)).",
+      "citations": [
+        {
+          "reference": "Ueno T et al., J Biol Chem. 2004;279(16):16178-16184.",
+          "id": "14766755",
+          "type": "PMID",
+          "notes": "Napsin A and cathepsin H cleave pro-SP-B; knockdown of Napsin A decreases mature SP-B and SP-C levels ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/14766755/#:~:text=SP,B%20peptide))."
+        },
+        {
+          "reference": "Brasch F et al., Am J Respir Cell Mol Biol. 2002;26(6):659-670.",
+          "id": "12034564",
+          "type": "PMID",
+          "notes": "Cathepsin H is involved in the initial N-terminal processing of pro-SP-C in type II pneumocytes ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/12034564/#:~:text=vitro,bodies%20of%20type%20II%20pneumocytes))."
+        }
+      ],
+      "confidence_score": 0.85,
+      "significance_score": 0.8,
+      "supporting_genes": [
+        "NAPSA",
+        "CTSH"
+      ],
+      "supporting_gene_count": 2,
+      "required_components_present": false
+    }
+  ],
+  "method": {
+    "clustering_basis": [
+      "Literature curation",
+      "Pathway knowledge"
+    ],
+    "notes": "Program assignments are based on known surfactant metabolism pathways reflective of AT2 cell function."
+  },
+  "version": "1.0"
+}

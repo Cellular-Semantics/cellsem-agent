@@ -1,0 +1,445 @@
+{
+    "context": {
+        "cell_type": "Glioblastoma cells",
+        "disease": "Glioblastoma",
+        "tissue": "Brain"
+    },
+    "input_genes": [
+        "LINC01727",
+        "AC117464.1",
+        "XYLT1",
+        "MMD2",
+        "EEPD1",
+        "AC013265.1",
+        "MYO5B",
+        "PLA2G4A",
+        "KCNIP1",
+        "ITGB4",
+        "AC019068.1",
+        "UNC5D",
+        "MIR3681HG",
+        "LINC02125",
+        "LINC02246",
+        "LRRC4C",
+        "LUCAT1",
+        "MDGA2",
+        "AC077690.1",
+        "CTXND1",
+        "AL353138.1",
+        "CDH18",
+        "MN1",
+        "AL356737.2",
+        "NKAIN3",
+        "CD44",
+        "NLRC5",
+        "LINC01776",
+        "LINC01117",
+        "DAB1",
+        "GFAP",
+        "DCHS2",
+        "DIPK1C",
+        "COL20A1",
+        "ELMOD1",
+        "ERICH3",
+        "ADAMTS5",
+        "GPC5",
+        "CHST8",
+        "AC233296.1",
+        "AC124254.2",
+        "NPR3",
+        "HRH1",
+        "INPP4B",
+        "AL159156.1",
+        "LINC02328",
+        "ARC",
+        "PDZRN4",
+        "AC007344.1",
+        "RGMA",
+        "PPARGC1A",
+        "TNR",
+        "ST8SIA5",
+        "ST8SIA1",
+        "SLC7A11"
+    ],
+    "programs": [
+        {
+            "program_name": "ECM glycosylation & remodeling",
+            "theme": "Extracellular Matrix",
+            "description": "Genes linked to extracellular matrix composition and glycosylation suggest enhanced ECM remodeling in glioblastoma. This includes enzymes initiating glycosaminoglycan chains (XYLT1, CHST8), sialyltransferases (ST8SIA1, ST8SIA5), and proteases modifying ECM (ADAMTS5, GPC5, COL20A1, TNR). This program may increase invasive capacity of tumor cells via altered cell\u2013matrix interactions.",
+            "atomic_biological_processes": [
+                {
+                    "name": "extracellular matrix organization",
+                    "ontology_id": "GO:0030198",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Yamada et al., Acta Neuropathologica 2005",
+                            "id": "PMID:16133547",
+                            "type": "PMID",
+                            "notes": "ADAMTS5 cleaves brevican, an ECM proteoglycan, promoting glioma invasion."
+                        }
+                    ],
+                    "Genes": [
+                        "ADAMTS5",
+                        "COL20A1",
+                        "TNR",
+                        "GPC5"
+                    ]
+                },
+                {
+                    "name": "glycosaminoglycan biosynthetic process",
+                    "ontology_id": "GO:0006024",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Veillon et al., ACS Chem Neurosci 2017",
+                            "id": "PMID:28982002",
+                            "type": "PMID",
+                            "notes": "Review highlights aberrant glycosylation (ECM glycoproteins) promoting brain tumor invasion."
+                        }
+                    ],
+                    "Genes": [
+                        "XYLT1",
+                        "CHST8"
+                    ]
+                },
+                {
+                    "name": "protein sialylation",
+                    "ontology_id": "GO:0006486",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Veillon et al., ACS Chem Neurosci 2017",
+                            "id": "PMID:28982002",
+                            "type": "PMID",
+                            "notes": "Upregulation of sialic acid on glycoproteins is a cancer hallmark in gliomas."
+                        }
+                    ],
+                    "Genes": [
+                        "ST8SIA1",
+                        "ST8SIA5"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "extracellular matrix",
+                    "ontology_id": "GO:0031012",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Veillon et al., ACS Chem Neurosci 2017",
+                            "id": "PMID:28982002",
+                            "type": "PMID",
+                            "notes": "ECM glycoprotein glycosylation alterations support tumor cell invasion."
+                        }
+                    ],
+                    "Genes": [
+                        "ADAMTS5",
+                        "COL20A1",
+                        "TNR",
+                        "GPC5"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced ECM degradation and remodeling",
+                "Altered glycan composition of cell surface",
+                "Increased invasive/migratory potential"
+            ],
+            "evidence_summary": "ADAMTS5 is overexpressed in glioblastomas and degrades ECM proteoglycans (brevican), promoting cell invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/16133547/#:~:text=transfectants,through%20the%20cleavage%20of%20brevican)). Broadly, aberrant glycosylation of ECM proteins is linked to glioma invasiveness ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5771830/#:~:text=surface%20and%20%2For%20secreted%20proteins,the%20upregulation%20of%20sialic%20acid)). Presence of multiple glycosyltransferases (XYLT1, CHST8, ST8SIA1/5) and ECM proteins (COL20A1, TNR, GPC5) suggests coordinated ECM modifications in tumor progression.",
+            "citations": [
+                {
+                    "reference": "Yamada K. et al., 'Human glioblastomas overexpress ADAMTS-5 that degrades brevican', Acta Neuropathologica, 2005",
+                    "id": "PMID:16133547",
+                    "type": "PMID",
+                    "notes": "Demonstrates ADAMTS5 cleavage of brevican and GBM invasion."
+                },
+                {
+                    "reference": "Veillon L. et al., 'Glycosylation Changes in Brain Cancer', ACS Chem Neurosci, 2017",
+                    "id": "PMID:28982002",
+                    "type": "PMID",
+                    "notes": "Review of aberrant glycosylation in gliomas and its role in invasion."
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "XYLT1",
+                "CHST8",
+                "ST8SIA1",
+                "ST8SIA5",
+                "ADAMTS5",
+                "COL20A1",
+                "TNR",
+                "GPC5"
+            ],
+            "supporting_gene_count": 8,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Cell adhesion & migration",
+            "theme": "Cell Motility",
+            "description": "This cluster includes cell-surface adhesion receptors and guidance molecules that regulate glioblastoma cell motility. Integrin (ITGB4), cadherins (CD44, CDH18, DCHS2), and repulsive guidance signals (UNC5D, RGMA) suggest enhanced cell\u2013matrix adhesion and directional migration. Dysregulation of these molecules could increase invasive migration in tumor cells.",
+            "atomic_biological_processes": [
+                {
+                    "name": "cell adhesion",
+                    "ontology_id": "GO:0007155",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Chen et al., Sci Rep 2024",
+                            "id": "PMID:38172503",
+                            "type": "PMID",
+                            "notes": "ITGB4 (integrin \u03b24) mediates cell adhesion to ECM via fibronectin/collagen."
+                        }
+                    ],
+                    "Genes": [
+                        "ITGB4",
+                        "CDH18",
+                        "CD44",
+                        "DCHS2"
+                    ]
+                },
+                {
+                    "name": "positive regulation of cell migration",
+                    "ontology_id": "GO:0030335",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Inoue et al., Cancers (Basel) 2023",
+                            "id": "PMID:37835592",
+                            "type": "PMID",
+                            "notes": "CD44-high glioma stem cells are highly invasive (migration) in GBM."
+                        }
+                    ],
+                    "Genes": [
+                        "ITGB4",
+                        "CD44"
+                    ]
+                },
+                {
+                    "name": "axon guidance",
+                    "ontology_id": "GO:0007411",
+                    "ontology_label": "biological_process",
+                    "citation": [],
+                    "Genes": [
+                        "UNC5D",
+                        "RGMA"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "integrin complex",
+                    "ontology_id": "GO:0008305",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Chen et al., Sci Rep 2024",
+                            "id": "PMID:38172503",
+                            "type": "PMID",
+                            "notes": "Integrins (including ITGB4) form adhesion complexes interacting with ECM."
+                        }
+                    ],
+                    "Genes": [
+                        "ITGB4"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced cell\u2013ECM adhesion via integrins and cadherins",
+                "Increased cell migration and invasion",
+                "Altered guidance cue signaling"
+            ],
+            "evidence_summary": "Integrin \u03b24 (ITGB4) is upregulated in glioma and promotes adhesion to ECM components (fibronectin, collagen) and migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10764336/#:~:text=functions%2C%20including%20tumor%20proliferation%2C%20migration%2C,5%7D.%20ITGB4%20has%20been)). CD44 is highly expressed on glioma stem-like cells, driving both invasion and proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10572085/#:~:text=As%20recurrence%20in%20glioblastoma%20is,pathways%20show%20reciprocal%20activation%20of)). Together with cadherins and guidance molecules (RGMA/UNC5D), this program likely enhances glioblastoma migratory potential.",
+            "citations": [
+                {
+                    "reference": "Chen P. et al., 'ITGB4 upregulation is associated with progression of lower grade glioma', Sci Rep, 2024",
+                    "id": "PMID:38172503",
+                    "type": "PMID",
+                    "notes": "Shows ITGB4's role in cell adhesion and glioma progression."
+                },
+                {
+                    "reference": "Inoue A. et al., 'CD44\u2019s Role in Glioblastoma Invasion, Proliferation, and Recurrence', Cancers (Basel), 2023",
+                    "id": "PMID:37835592",
+                    "type": "PMID",
+                    "notes": "Reviews how CD44-high GBM cells are invasive and therapy-resistant."
+                }
+            ],
+            "confidence_score": 0.75,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "ITGB4",
+                "CD44",
+                "CDH18",
+                "DCHS2",
+                "UNC5D",
+                "RGMA"
+            ],
+            "supporting_gene_count": 6,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Hypoxia/stemness adaptation",
+            "theme": "Stem Cell Phenotype",
+            "description": "Key regulators of glioma stem-like cell (GSC) maintenance under hypoxia. Long noncoding RNA LUCAT1 and ganglioside-synthesizing enzyme ST8SIA1 (GD3 synthase) are linked to HIF1\u03b1 signaling and stem cell properties. This program likely enhances survival and self-renewal of GBM cells in hypoxic niches.",
+            "atomic_biological_processes": [
+                {
+                    "name": "cellular response to hypoxia",
+                    "ontology_id": "GO:0070481",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Huang et al., Neuro Oncol 2024",
+                            "id": "PMID:38456228",
+                            "type": "PMID",
+                            "notes": "LUCAT1 is induced by HIF-1\u03b1 in hypoxic glioma stem cells."
+                        }
+                    ],
+                    "Genes": [
+                        "LUCAT1"
+                    ]
+                },
+                {
+                    "name": "stem cell population maintenance",
+                    "ontology_id": "GO:0019827",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Huang et al., Neuro Oncol 2024",
+                            "id": "PMID:38456228",
+                            "type": "PMID",
+                            "notes": "LUCAT1 promotes self-renewal of GBM stem-like cells under hypoxia."
+                        }
+                    ],
+                    "Genes": [
+                        "LUCAT1"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [],
+            "predicted_cellular_impact": [
+                "Enhanced GSC self-renewal and survival under hypoxia",
+                "Amplified HIF-1\u03b1 signaling feedback",
+                "Increased resistance to therapy"
+            ],
+            "evidence_summary": "LUCAT1 is strongly induced by hypoxia in GBM and interacts with HIF1\u03b1 to maintain glioma stem cell self-renewal ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11300024/#:~:text=glioblastoma%20%28GBM%29%20and%20glioma%20stem,dependent%20manner)). ST8SIA1 (GD3 synthase) expression in GBM stem-like cells is required for their proliferation, migration, and tumorigenicity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12224360/#:~:text=We%20showed%20that%20GD3%20is,pathways%20and%20more%20specifically%20the)). Together, these suggest hypoxia and glycosylation programs support GBM stemness.",
+            "citations": [
+                {
+                    "reference": "Huang H. et al., 'lncRNA LUCAT1 promotes glioblastoma progression via HIF-1\u03b1', Neuro Oncol, 2024",
+                    "id": "PMID:38456228",
+                    "type": "PMID",
+                    "notes": "Shows LUCAT1-HIF1\u03b1 loop critical for GBM stem cell maintenance."
+                },
+                {
+                    "reference": "Hein V. et al., 'GD3 ganglioside promotes glioblastoma stem-like properties', Cancer Cell Int, 2025",
+                    "id": "PMID:40604768",
+                    "type": "PMID",
+                    "notes": "Demonstrates ST8SIA1/GD3 maintains GBM stem cell proliferation and migration."
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "LUCAT1",
+                "ST8SIA1"
+            ],
+            "supporting_gene_count": 2,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Metabolic plasticity & redox",
+            "theme": "Metabolism",
+            "description": "Genes involved in metabolic adaptation and antioxidant defense in GBM. PPARGC1A (PGC-1\u03b1) regulates mitochondrial metabolism under nutrient stress, while SLC7A11 (xCT) drives cystine uptake/glutathione synthesis and glutamate release. This program likely sustains energy flexibility and redox homeostasis, aiding tumor growth and survival.",
+            "atomic_biological_processes": [
+                {
+                    "name": "glutathione metabolic process",
+                    "ontology_id": "GO:0006749",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Robert et al., Sci Transl Med 2015",
+                            "id": "PMID:26019222",
+                            "type": "PMID",
+                            "notes": "High SLC7A11 in gliomas increases GSH production and accelerates tumor growth."
+                        }
+                    ],
+                    "Genes": [
+                        "SLC7A11"
+                    ]
+                },
+                {
+                    "name": "mitochondrial electron transport",
+                    "ontology_id": "GO:0006120",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Sauer et al., Clin Transl Med 2024",
+                            "id": "PMID:39552019",
+                            "type": "PMID",
+                            "notes": "AMPK-PGC-1\u03b1 axis enables glioma cells to use alternative fuels (mitochondrial metabolism)."
+                        }
+                    ],
+                    "Genes": [
+                        "PPARGC1A"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "mitochondrion",
+                    "ontology_id": "GO:0005739",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Sauer et al., Clin Transl Med 2024",
+                            "id": "PMID:39552019",
+                            "type": "PMID",
+                            "notes": "PGC-1\u03b1 activation increases mitochondrial metabolic activity in GBM."
+                        }
+                    ],
+                    "Genes": [
+                        "PPARGC1A"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced antioxidant/glutathione synthesis",
+                "Increased fatty acid and oxidative metabolism under stress",
+                "Resistance to oxidative damage"
+            ],
+            "evidence_summary": "Approximately 50% of gliomas overexpress SLC7A11 (xCT), driving glutathione production and glutamate release, which accelerates tumor growth and invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4503260/#:~:text=expression%20of%20SLC7A11%2FxCT%2C%20the%20catalytic,mediated%20glutamate)). Additionally, AMPK-mediated induction of PGC-1\u03b1 fosters metabolic flexibility (oxidative phosphorylation) under nutrient deprivation in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11570551/#:~:text=A%20switch%20from%20glucose%20to,defining%20a%20specific%20metabolic%20compartment)). These pathways together bolster tumor survival and energy production.",
+            "citations": [
+                {
+                    "reference": "Robert S.M. et al., 'SLC7A11 expression predicts poor survival in malignant glioma', Sci Transl Med, 2015",
+                    "id": "PMID:26019222",
+                    "type": "PMID",
+                    "notes": "Links xCT expression to glutamate-driven tumor growth and poor prognosis."
+                },
+                {
+                    "reference": "Sauer B. et al., 'AMPK-PGC-1\u03b1 axis mediates metabolic plasticity in glioblastoma', Clin Transl Med, 2024",
+                    "id": "PMID:39552019",
+                    "type": "PMID",
+                    "notes": "Shows PGC-1\u03b1 is essential for metabolic adaptation to nutrient stress."
+                }
+            ],
+            "confidence_score": 0.65,
+            "significance_score": 0.6,
+            "supporting_genes": [
+                "SLC7A11",
+                "PPARGC1A"
+            ],
+            "supporting_gene_count": 2,
+            "required_components_present": false
+        }
+    ],
+    "method": {
+        "clustering_basis": [
+            "Pathway and literature curation",
+            "Gene function and co-expression"
+        ],
+        "notes": "Programs derived by grouping genes with related functions and known interactions; evidence from published glioma biology."
+    },
+    "version": "1.0"
+}

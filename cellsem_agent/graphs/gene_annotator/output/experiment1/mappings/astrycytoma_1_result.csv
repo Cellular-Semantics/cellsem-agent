@@ -1,0 +1,36 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+K+ buffering and spatial ion distribution,GO:0043266,regulation of potassium ion transport,GO,0.85,exact_match
+Water transport and edema regulation,GO:0006833,water transport,GO,0.9,exact_match
+Gap junction intercellular communication,GO:1990349,gap junction-mediated intercellular transport,GO,0.9,related_match
+Neurovascular coupling,UBERON:0016630,neurovascular bundle,UBERON,0.8,synonym_match
+Perivascular astrocyte endfoot,GO:0097450,astrocyte end-foot,GO,0.85,exact_match
+Astrocyte gap junction (connexin 43 complex),GO:0005922,connexin complex,GO,0.8,partial_match
+Glial limitans and basement membrane contacts,UBERON:0018687,glial limiting membrane,UBERON,0.8,partial_match
+Extracellular matrix deposition and remodeling,GO:0030198,extracellular matrix organization,GO,0.9,exact_match
+Cell migration and invasion,GO:0016477,cell migration,GO,0.9,exact_match
+Inflammatory signaling (NF-κB activation),,,,0.0,
+Mechanotransduction and Hippo pathway signaling,GO:0035329,hippo signaling,GO,0.8,partial_match
+Focal adhesion complex,GO:0005925,focal adhesion,GO,0.95,exact_match
+Stress fibers and contractile cytoskeleton,GO:0001725,stress fiber,GO,0.8,partial_match
+Perivascular niche interface,UBERON:0014930,perivascular space,UBERON,0.85,related_match
+Glutamate uptake and buffering,GO:0051938,L-glutamate import,GO,0.9,exact_match
+GABA reception and neuromodulation,GO:0016917,GABA receptor activity,GO,0.9,synonym_match
+GPCR-triggered Ca2+ signaling,GO:0019722,calcium-mediated signaling,GO,0.8,partial_match
+cAMP and cGMP second messenger modulation,GO:0019934,cGMP-mediated signaling,GO,0.85,partial_match
+Tripartite synapse (astrocyte–synapse interface),,,,0.0,
+Endoplasmic reticulum Ca2+ store,GO:0032469,endoplasmic reticulum calcium ion homeostasis,GO,0.75,synonym_match
+Perisynaptic astrocyte process,GO:0097449,astrocyte projection,GO,0.9,exact_match
+Inhibition of differentiation (maintenance of progenitor state),GO:0045596,negative regulation of cell differentiation,GO,0.85,exact_match
+Neural stem cell proliferation,GO:0061351,neural precursor cell proliferation,GO,0.9,partial_match
+Radial glial cell identity and guidance,CL:0000681,radial glial cell,CL,0.8,partial_match
+STAT3-mediated astrogliogenesis and reactivity,,,,0.0,NO MATCH found
+Neurosphere (tumor sphere) formation capacity,NO MATCH found,,,0.0,No suitable match found in any ontology
+Periventricular radial glial scaffold (analogy),GO:0021943,formation of radial glial scaffolds,GO,0.9,exact_match
+Stem cell niche interactions,GO:0019827,stem cell population maintenance,GO,0.8,exact_match
+Exogenous lipid uptake,GO:0140354,lipid import into cell,GO,0.9,exact_match
+Fatty acid modification and storage,GO:0030258,lipid modification,GO,0.85,exact_match
+Glutamate utilization (anaplerosis),GO:0006536,glutamate metabolic process,GO,0.8,partial_match
+Oxidative stress mitigation,GO:0006979,response to oxidative stress,GO,0.85,exact_match
+Lipid droplets,GO:0005811,lipid droplet,GO,1.0,exact_match
+Mitochondrial matrix (TCA cycle enzymes),GO:0005759,mitochondrial matrix,GO,0.9,exact_match
+Peroxisomes (lipid catabolism sites),GO:0045033,peroxisome,GO,0.9,synonym_match

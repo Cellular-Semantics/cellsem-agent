@@ -1,0 +1,531 @@
+{
+    "context": {
+        "cell_type": "astrocyte",
+        "disease": "glioblastoma",
+        "tissue": "brain"
+    },
+    "input_genes": [
+        "ADAM28",
+        "LINC02615",
+        "POT1-AS1",
+        "MET",
+        "HILPDA",
+        "LUCAT1",
+        "PTGS2",
+        "RUNX2",
+        "SPNS2",
+        "PHLDB2",
+        "LINC01705",
+        "FAM160A1",
+        "ERRFI1",
+        "FAT4",
+        "TNNI3K",
+        "TRIB3",
+        "NDRG1",
+        "AC051619.5",
+        "AC083837.1",
+        "PRKCH",
+        "PPP1R3C",
+        "MGAM",
+        "ANGPTL4",
+        "COL13A1",
+        "CHSY3",
+        "AP001528.1",
+        "CDON",
+        "CAV1",
+        "SHISA6",
+        "SLC39A14",
+        "C21orf62-AS1",
+        "HMOX1",
+        "BNIP3L",
+        "LINC01376",
+        "ABI3BP",
+        "VLDLR-AS1",
+        "OLFM1",
+        "LTBP2",
+        "AHNAK2",
+        "NOX4",
+        "AC092944.1",
+        "COL5A1",
+        "PLAG1",
+        "GCNT1",
+        "AC099681.1",
+        "CFAP61",
+        "RPL34-AS1",
+        "OSMR-AS1",
+        "AMPD3",
+        "EHHADH",
+        "COL24A1",
+        "RNF217-AS1",
+        "AP006545.3",
+        "EPHA1-AS1",
+        "EPHA3",
+        "ZNF385B",
+        "LINC02340",
+        "LVRN",
+        "PDE4C",
+        "GPC5",
+        "RCAN2",
+        "EPSTI1",
+        "AC008014.1",
+        "LINC00240",
+        "AL158064.1",
+        "AL390957.1",
+        "MX2",
+        "C4orf47",
+        "ABLIM3",
+        "ITGB3",
+        "SCN9A",
+        "C9orf153",
+        "SLC6A6",
+        "NECTIN3-AS1",
+        "CALN1",
+        "GRK5",
+        "CPEB1",
+        "CPA4",
+        "UNC5C"
+    ],
+    "programs": [
+        {
+            "program_name": "Hypoxia/metabolic stress response",
+            "theme": "Stress response",
+            "description": "Genes in this program are induced by hypoxia and metabolic stress, facilitating angiogenesis, metabolic reprogramming, and survival in glioblastoma. For example, ANGPTL4 is hypoxia-inducible and promotes vascular permeability and metastasis ([en.wikipedia.org](https://en.wikipedia.org/wiki/ANGPTL4#:~:text=This%20gene%20is%20induced%20under,involved%20in%20regulating%20lipid%20metabolism)); NDRG1 is regulated by HIF-1 and modulates proliferation and migration ([en.wikipedia.org](https://en.wikipedia.org/wiki/NDRG1#:~:text=The%20expression%20of%20NDRG1%20is,by%20decreasing%20its%20promoter%20activity)) ([en.wikipedia.org](https://en.wikipedia.org/wiki/NDRG1#:~:text=NDRG1%20could%20promote%20cancer%20cell,Src)); HMOX1 protects cells from oxidative stress and chemotoxicity ([en.wikipedia.org](https://en.wikipedia.org/wiki/Heme_oxygenase#:~:text=In%20certain%20diseases%2C%20HMOX%20is,HMOX1%20inhibitors%20are%20in%20development)). BNIP3L (NIX) is HIF-induced to trigger mitophagy/autophagy under low oxygen ([en.wikipedia.org](https://en.wikipedia.org/wiki/BNIP3#:~:text=Upon%20activation%2C%20BNIP3%20can%20form,cells%2C%20and%20adult%20rat%20cardiomyocytes)).",
+            "atomic_biological_processes": [
+                {
+                    "name": "response to hypoxia",
+                    "ontology_id": "GO:0001666",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: BNIP3 (2025)",
+                            "id": "https://en.wikipedia.org/wiki/BNIP3",
+                            "type": "URL",
+                            "notes": "BNIP3L is induced by hypoxia via HIF-1 ([en.wikipedia.org](https://en.wikipedia.org/wiki/BNIP3#:~:text=Upon%20activation%2C%20BNIP3%20can%20form,cells%2C%20and%20adult%20rat%20cardiomyocytes))"
+                        },
+                        {
+                            "reference": "Wikipedia: NDRG1 (2024)",
+                            "id": "https://en.wikipedia.org/wiki/NDRG1",
+                            "type": "URL",
+                            "notes": "NDRG1 is upregulated by HIF-1 in hypoxia ([en.wikipedia.org](https://en.wikipedia.org/wiki/NDRG1#:~:text=The%20expression%20of%20NDRG1%20is,by%20decreasing%20its%20promoter%20activity))"
+                        }
+                    ],
+                    "Genes": [
+                        "ANGPTL4",
+                        "NDRG1",
+                        "HMOX1",
+                        "BNIP3L"
+                    ],
+                    "ontology_label": "response to hypoxia"
+                },
+                {
+                    "name": "lipid metabolic process",
+                    "ontology_id": "GO:0006629",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: ANGPTL4 (2025)",
+                            "id": "https://en.wikipedia.org/wiki/ANGPTL4",
+                            "type": "URL",
+                            "notes": "ANGPTL4 is a lipid metabolism regulator induced by hypoxia ([en.wikipedia.org](https://en.wikipedia.org/wiki/ANGPTL4#:~:text=This%20gene%20is%20induced%20under,involved%20in%20regulating%20lipid%20metabolism))"
+                        }
+                    ],
+                    "Genes": [
+                        "ANGPTL4",
+                        "EHHADH"
+                    ],
+                    "ontology_label": "lipid metabolic process"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "mitochondrial outer membrane",
+                    "ontology_id": "GO:0005741",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: BNIP3 (2025)",
+                            "id": "https://en.wikipedia.org/wiki/BNIP3",
+                            "type": "URL",
+                            "notes": "BNIP3L localizes to the mitochondrial outer membrane and is induced in hypoxia ([en.wikipedia.org](https://en.wikipedia.org/wiki/BNIP3#:~:text=Upon%20activation%2C%20BNIP3%20can%20form,cells%2C%20and%20adult%20rat%20cardiomyocytes))"
+                        }
+                    ],
+                    "Genes": [
+                        "BNIP3L"
+                    ],
+                    "ontology_label": "mitochondrial outer membrane"
+                },
+                {
+                    "name": "extracellular region",
+                    "ontology_id": "GO:0005576",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: ANGPTL4 (2025)",
+                            "id": "https://en.wikipedia.org/wiki/ANGPTL4",
+                            "type": "URL",
+                            "notes": "ANGPTL4 is secreted into the extracellular space and is hypoxia-inducible ([en.wikipedia.org](https://en.wikipedia.org/wiki/ANGPTL4#:~:text=This%20gene%20is%20induced%20under,involved%20in%20regulating%20lipid%20metabolism))"
+                        }
+                    ],
+                    "Genes": [
+                        "ANGPTL4"
+                    ],
+                    "ontology_label": "extracellular region"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced adaptation to hypoxia (e.g., increased HIF target activation)",
+                "Increased angiogenesis and vascular permeability (via ANGPTL4)",
+                "Metabolic shift towards lipid utilization and glycolysis",
+                "Autophagy/mitophagy induction (via BNIP3L)"
+            ],
+            "evidence_summary": "Literature indicates many of these genes are HIF-1 targets or stress-response factors. ANGPTL4, NDRG1, HMOX1, BNIP3L and others are known to be induced under hypoxia and support tumor cell survival and metabolic adaptation ([en.wikipedia.org](https://en.wikipedia.org/wiki/ANGPTL4#:~:text=This%20gene%20is%20induced%20under,involved%20in%20regulating%20lipid%20metabolism)) ([en.wikipedia.org](https://en.wikipedia.org/wiki/BNIP3#:~:text=Upon%20activation%2C%20BNIP3%20can%20form,cells%2C%20and%20adult%20rat%20cardiomyocytes)).",
+            "citations": [
+                {
+                    "reference": "Wikipedia: ANGPTL4 (2025)",
+                    "id": "https://en.wikipedia.org/wiki/ANGPTL4",
+                    "type": "URL",
+                    "notes": "ANGPTL4 is induced by hypoxia and promotes metastasis ([en.wikipedia.org](https://en.wikipedia.org/wiki/ANGPTL4#:~:text=This%20gene%20is%20induced%20under,involved%20in%20regulating%20lipid%20metabolism))"
+                },
+                {
+                    "reference": "Wikipedia: BNIP3 (2025)",
+                    "id": "https://en.wikipedia.org/wiki/BNIP3",
+                    "type": "URL",
+                    "notes": "BNIP3L is upregulated by HIF-1 under hypoxia ([en.wikipedia.org](https://en.wikipedia.org/wiki/BNIP3#:~:text=Upon%20activation%2C%20BNIP3%20can%20form,cells%2C%20and%20adult%20rat%20cardiomyocytes))"
+                },
+                {
+                    "reference": "Wikipedia: NDRG1 (2024)",
+                    "id": "https://en.wikipedia.org/wiki/NDRG1",
+                    "type": "URL",
+                    "notes": "NDRG1 is HIF-regulated and modulates proliferation/metastasis ([en.wikipedia.org](https://en.wikipedia.org/wiki/NDRG1#:~:text=The%20expression%20of%20NDRG1%20is,by%20decreasing%20its%20promoter%20activity)) ([en.wikipedia.org](https://en.wikipedia.org/wiki/NDRG1#:~:text=NDRG1%20could%20promote%20cancer%20cell,Src))"
+                },
+                {
+                    "reference": "Wikipedia: Heme oxygenase 1 (2025)",
+                    "id": "https://en.wikipedia.org/wiki/Heme_oxygenase",
+                    "type": "URL",
+                    "notes": "HMOX1 enables tumor cells to survive oxidative stress and resist therapy ([en.wikipedia.org](https://en.wikipedia.org/wiki/Heme_oxygenase#:~:text=In%20certain%20diseases%2C%20HMOX%20is,HMOX1%20inhibitors%20are%20in%20development))"
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.85,
+            "supporting_genes": [
+                "ANGPTL4",
+                "HMOX1",
+                "NDRG1",
+                "BNIP3L",
+                "TRIB3",
+                "EHHADH"
+            ],
+            "supporting_gene_count": 6,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Extracellular matrix organization and adhesion",
+            "theme": "Microenvironment",
+            "description": "This program contains genes involved in ECM composition, remodeling, and cell adhesion, implicating changes to glioblastoma invasiveness. Key structural genes include collagens (COL13A1, COL5A1, COL24A1) and LTBP2, while ECM modulators like ADAM28 and CHSY3 and adhesion receptors (ITGB3, UNC5C, CDON, FAT4, CAV1, ABI3BP) are also present. Such a program suggests enhanced matrix deposition and turnover to facilitate tumor cell migration ([en.wikipedia.org](https://en.wikipedia.org/wiki/ADAM28#:~:text=structurally%20related%20to%20snake%20venom,The)) ([en.wikipedia.org](https://en.wikipedia.org/wiki/Integrin#:~:text=Integrins%20are%20transmembrane%20receptors%20,an%20interaction%20with%20coagulation%20factors)).",
+            "atomic_biological_processes": [
+                {
+                    "name": "extracellular matrix organization",
+                    "ontology_id": "GO:0030198",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: ADAM28 (2025)",
+                            "id": "https://en.wikipedia.org/wiki/ADAM28",
+                            "type": "URL",
+                            "notes": "ADAM28 is a protease involved in cell\u2013matrix interactions ([en.wikipedia.org](https://en.wikipedia.org/wiki/ADAM28#:~:text=structurally%20related%20to%20snake%20venom,The))"
+                        }
+                    ],
+                    "Genes": [
+                        "COL13A1",
+                        "COL5A1",
+                        "COL24A1",
+                        "CHSY3",
+                        "LTBP2",
+                        "ADAM28"
+                    ],
+                    "ontology_label": "extracellular matrix organization"
+                },
+                {
+                    "name": "cell adhesion",
+                    "ontology_id": "GO:0007155",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: Integrin (2025)",
+                            "id": "https://en.wikipedia.org/wiki/Integrin",
+                            "type": "URL",
+                            "notes": "Integrins and cadherins mediate adhesion to ECM and other cells ([en.wikipedia.org](https://en.wikipedia.org/wiki/Integrin#:~:text=Integrins%20are%20transmembrane%20receptors%20,an%20interaction%20with%20coagulation%20factors))"
+                        }
+                    ],
+                    "Genes": [
+                        "ITGB3",
+                        "UNC5C",
+                        "CDON",
+                        "FAT4",
+                        "CAV1",
+                        "ABI3BP"
+                    ],
+                    "ontology_label": "cell adhesion"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "extracellular matrix",
+                    "ontology_id": "GO:0031012",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: Integrin (2025)",
+                            "id": "https://en.wikipedia.org/wiki/Integrin",
+                            "type": "URL",
+                            "notes": "Collagens and matrix proteins form the extracellular matrix to which cells adhere ([en.wikipedia.org](https://en.wikipedia.org/wiki/Integrin#:~:text=Integrins%20are%20transmembrane%20receptors%20,an%20interaction%20with%20coagulation%20factors))"
+                        }
+                    ],
+                    "Genes": [
+                        "COL13A1",
+                        "COL5A1",
+                        "COL24A1",
+                        "LTBP2"
+                    ],
+                    "ontology_label": "extracellular matrix"
+                },
+                {
+                    "name": "integral component of plasma membrane",
+                    "ontology_id": "GO:0005886",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: Integrin (2025)",
+                            "id": "https://en.wikipedia.org/wiki/Integrin",
+                            "type": "URL",
+                            "notes": "Adhesion receptors like integrins and cadherins span the plasma membrane ([en.wikipedia.org](https://en.wikipedia.org/wiki/Integrin#:~:text=Integrins%20are%20transmembrane%20receptors%20,an%20interaction%20with%20coagulation%20factors))"
+                        }
+                    ],
+                    "Genes": [
+                        "ITGB3",
+                        "UNC5C",
+                        "CDON",
+                        "FAT4",
+                        "CAV1"
+                    ],
+                    "ontology_label": "plasma membrane"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Increased matrix deposition and remodeling facilitating invasion",
+                "Altered cell adhesion properties (e.g. integrin signaling)",
+                "Potential modulation of TGF-\u03b2 signaling (via LTBP2 anchored TGF\u03b2)"
+            ],
+            "evidence_summary": "Multiple genes suggest glioblastoma remodeling of the extracellular environment. For example, ADAM28 degrades ECM components ([en.wikipedia.org](https://en.wikipedia.org/wiki/ADAM28#:~:text=structurally%20related%20to%20snake%20venom,The)), while collagens and LTBPs indicate active matrix organization. Integrins (ITGB3) and cadherin-like FAT4 support altered adhesion signaling ([en.wikipedia.org](https://en.wikipedia.org/wiki/Integrin#:~:text=Integrins%20are%20transmembrane%20receptors%20,an%20interaction%20with%20coagulation%20factors)).",
+            "citations": [
+                {
+                    "reference": "Wikipedia: ADAM28 (2025)",
+                    "id": "https://en.wikipedia.org/wiki/ADAM28",
+                    "type": "URL",
+                    "notes": "ADAM28 (a metalloprotease) interacts with extracellular matrix and cells ([en.wikipedia.org](https://en.wikipedia.org/wiki/ADAM28#:~:text=structurally%20related%20to%20snake%20venom,The))"
+                },
+                {
+                    "reference": "Wikipedia: Integrin (2025)",
+                    "id": "https://en.wikipedia.org/wiki/Integrin",
+                    "type": "URL",
+                    "notes": "Integrins mediate cell\u2013matrix adhesion to collagens and fibronectin ([en.wikipedia.org](https://en.wikipedia.org/wiki/Integrin#:~:text=Integrins%20are%20transmembrane%20receptors%20,an%20interaction%20with%20coagulation%20factors))"
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "ADAM28",
+                "COL13A1",
+                "COL5A1",
+                "COL24A1",
+                "CHSY3",
+                "LTBP2",
+                "ITGB3",
+                "UNC5C",
+                "CDON",
+                "FAT4",
+                "CAV1",
+                "ABI3BP"
+            ],
+            "supporting_gene_count": 12,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Growth factor signaling",
+            "theme": "Cell proliferation",
+            "description": "Genes in this program affect receptor and downstream signaling controlling proliferation and survival. For instance, the MET receptor tyrosine kinase promotes proliferation, survival, angiogenesis and metastasis when aberrantly activated ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hepatocyte_growth_factor_receptor#:~:text=Abnormal%20MET%20activation%20in%20cancer,liver%2C%20stomach%2C%20breast%2C%20and%20brain)). ERRFI1 (Mig6) is a regulator of EGFR/MET, and kinases GRK5, PRKCH and PDE4C affect second-messenger signaling. PTGS2 (COX-2) links inflammatory signaling to growth. Together, these may enhance pro-growth signaling and resistance to apoptosis in glioblastoma ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hepatocyte_growth_factor_receptor#:~:text=Abnormal%20MET%20activation%20in%20cancer,liver%2C%20stomach%2C%20breast%2C%20and%20brain)) ([en.wikipedia.org](https://en.wikipedia.org/wiki/Epithelial_stromal_interaction_1#:~:text=The%20protein%20encoded%20by%20this,some%20individuals%20with%20systemic%20lupus)).",
+            "atomic_biological_processes": [
+                {
+                    "name": "signal transduction",
+                    "ontology_id": "GO:0007165",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: Hepatocyte growth factor receptor (MET) (2025)",
+                            "id": "https://en.wikipedia.org/wiki/Hepatocyte_growth_factor_receptor",
+                            "type": "URL",
+                            "notes": "MET is a tyrosine kinase that activates MAPK/PI3K signaling to drive proliferation ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hepatocyte_growth_factor_receptor#:~:text=Abnormal%20MET%20activation%20in%20cancer,liver%2C%20stomach%2C%20breast%2C%20and%20brain))"
+                        }
+                    ],
+                    "Genes": [
+                        "MET",
+                        "PRKCH",
+                        "EPHA3",
+                        "GRK5",
+                        "PDE4C",
+                        "PTGS2"
+                    ],
+                    "ontology_label": "signal transduction"
+                },
+                {
+                    "name": "cell proliferation",
+                    "ontology_id": "GO:0008283",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: Hepatocyte growth factor receptor (MET) (2025)",
+                            "id": "https://en.wikipedia.org/wiki/Hepatocyte_growth_factor_receptor",
+                            "type": "URL",
+                            "notes": "Aberrant MET activation stimulates tumor growth and angiogenesis ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hepatocyte_growth_factor_receptor#:~:text=Abnormal%20MET%20activation%20in%20cancer,liver%2C%20stomach%2C%20breast%2C%20and%20brain))"
+                        }
+                    ],
+                    "Genes": [
+                        "MET",
+                        "PRKCH",
+                        "EPHA3",
+                        "GRK5",
+                        "PTGS2"
+                    ],
+                    "ontology_label": "cell population proliferation"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "integral component of plasma membrane",
+                    "ontology_id": "GO:0016021",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: Hepatocyte growth factor receptor (MET) (2025)",
+                            "id": "https://en.wikipedia.org/wiki/Hepatocyte_growth_factor_receptor",
+                            "type": "URL",
+                            "notes": "MET and EPHA3 are transmembrane receptor kinases ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hepatocyte_growth_factor_receptor#:~:text=Abnormal%20MET%20activation%20in%20cancer,liver%2C%20stomach%2C%20breast%2C%20and%20brain))"
+                        }
+                    ],
+                    "Genes": [
+                        "MET",
+                        "EPHA3",
+                        "GRK5"
+                    ],
+                    "ontology_label": "integral component of membrane"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced proliferative signaling (MET pathway activation)",
+                "Increased survival and angiogenic signaling",
+                "Link between inflammation and growth (via COX-2/PTGS2)"
+            ],
+            "evidence_summary": "MET (HGF receptor) is a well-documented proto-oncogene: its overactivation drives tumor proliferation, survival and angiogenesis ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hepatocyte_growth_factor_receptor#:~:text=Abnormal%20MET%20activation%20in%20cancer,liver%2C%20stomach%2C%20breast%2C%20and%20brain)). Other genes in this set (kinases, phosphatases, COX2) modulate these growth and inflammatory pathways in cancer. Thus, this program likely increases proliferative signaling in glioblastoma.",
+            "citations": [
+                {
+                    "reference": "Wikipedia: Hepatocyte growth factor receptor (MET) (2025)",
+                    "id": "https://en.wikipedia.org/wiki/Hepatocyte_growth_factor_receptor",
+                    "type": "URL",
+                    "notes": "MET activation drives tumor growth, angiogenesis, and metastasis ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hepatocyte_growth_factor_receptor#:~:text=Abnormal%20MET%20activation%20in%20cancer,liver%2C%20stomach%2C%20breast%2C%20and%20brain))"
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.6,
+            "supporting_genes": [
+                "MET",
+                "ERRFI1",
+                "PTGS2",
+                "EPHA3",
+                "PRKCH",
+                "GRK5",
+                "PDE4C",
+                "RCAN2",
+                "CPEB1",
+                "GPC5"
+            ],
+            "supporting_gene_count": 10,
+            "required_components_present": true
+        },
+        {
+            "program_name": "Innate immune/interferon response",
+            "theme": "Immunity",
+            "description": "This program includes interferon-responsive genes suggesting activation of innate immune pathways. MX2 is an interferon-inducible GTPase with antiviral activity ([en.wikipedia.org](https://en.wikipedia.org/wiki/MX2#:~:text=Antiviral%20activity)). EPSTI1 is also IFN-inducible and can activate NF-\u03baB signaling to promote invasion and survival ([en.wikipedia.org](https://en.wikipedia.org/wiki/Epithelial_stromal_interaction_1#:~:text=The%20protein%20encoded%20by%20this,some%20individuals%20with%20systemic%20lupus)). These genes indicate an interferon-driven signature, which may reflect microenvironmental immune interactions and influence tumor behavior.",
+            "atomic_biological_processes": [
+                {
+                    "name": "innate immune response",
+                    "ontology_id": "GO:0045087",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: Mx2 (2025)",
+                            "id": "https://en.wikipedia.org/wiki/MX2",
+                            "type": "URL",
+                            "notes": "MX2 is upregulated by interferon and mediates an antiviral immune response ([en.wikipedia.org](https://en.wikipedia.org/wiki/MX2#:~:text=Antiviral%20activity))"
+                        }
+                    ],
+                    "Genes": [
+                        "MX2",
+                        "EPSTI1"
+                    ],
+                    "ontology_label": "innate immune response"
+                },
+                {
+                    "name": "response to interferon-gamma",
+                    "ontology_id": "GO:0034341",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: Mx2 (2025)",
+                            "id": "https://en.wikipedia.org/wiki/MX2",
+                            "type": "URL",
+                            "notes": "MX2 expression is induced by interferons as part of the innate immune response ([en.wikipedia.org](https://en.wikipedia.org/wiki/MX2#:~:text=Antiviral%20activity))"
+                        }
+                    ],
+                    "Genes": [
+                        "MX2"
+                    ],
+                    "ontology_label": "response to type II interferon"
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "nucleus",
+                    "ontology_id": "GO:0005634",
+                    "citation": [
+                        {
+                            "reference": "Wikipedia: Mx2 (2025)",
+                            "id": "https://en.wikipedia.org/wiki/MX2",
+                            "type": "URL",
+                            "notes": "MX2 has a nuclear localization signal and functions in the nucleus under IFN stimulation ([en.wikipedia.org](https://en.wikipedia.org/wiki/MX2#:~:text=Antiviral%20activity))"
+                        }
+                    ],
+                    "Genes": [
+                        "MX2"
+                    ],
+                    "ontology_label": "nucleus"
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Activation of interferon-stimulated antiviral pathways",
+                "Induction of NF-\u03baB signaling (via EPSTI1)",
+                "Potential modifications of tumor-immune interactions"
+            ],
+            "evidence_summary": "MX2 and EPSTI1 are known interferon-stimulated genes. MX2 is induced by IFN-\u03b1 to restrict viral infection ([en.wikipedia.org](https://en.wikipedia.org/wiki/MX2#:~:text=Antiviral%20activity)). EPSTI1 is upregulated in some cancers by inflammatory signals and enhances invasion via NF-\u03baB ([en.wikipedia.org](https://en.wikipedia.org/wiki/Epithelial_stromal_interaction_1#:~:text=The%20protein%20encoded%20by%20this,some%20individuals%20with%20systemic%20lupus)). Their co-expression suggests innate immune pathway activity in GBM cells.",
+            "citations": [
+                {
+                    "reference": "Wikipedia: Mx2 (2025)",
+                    "id": "https://en.wikipedia.org/wiki/MX2",
+                    "type": "URL",
+                    "notes": "MX2 is an interferon-induced GTPase involved in innate immunity ([en.wikipedia.org](https://en.wikipedia.org/wiki/MX2#:~:text=Antiviral%20activity))"
+                },
+                {
+                    "reference": "Wikipedia: EPSTI1 (2024)",
+                    "id": "https://en.wikipedia.org/wiki/Epithelial_stromal_interaction_1",
+                    "type": "URL",
+                    "notes": "EPSTI1 is IFN-inducible and can promote invasion via NF-\u03baB activation ([en.wikipedia.org](https://en.wikipedia.org/wiki/Epithelial_stromal_interaction_1#:~:text=The%20protein%20encoded%20by%20this,some%20individuals%20with%20systemic%20lupus))"
+                }
+            ],
+            "confidence_score": 0.6,
+            "significance_score": 0.4,
+            "supporting_genes": [
+                "MX2",
+                "EPSTI1"
+            ],
+            "supporting_gene_count": 2,
+            "required_components_present": false
+        }
+    ],
+    "version": "1.0"
+}

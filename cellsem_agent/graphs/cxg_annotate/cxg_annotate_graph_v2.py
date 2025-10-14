@@ -28,7 +28,7 @@ logfire.configure()
 
 ANNOTATIONS_BATCH_SIZE = 5
 
-IS_TEST_MODE = False
+IS_TEST_MODE = True
 TEST_ANNOTATIONS_COUNT = 4  # Number of annotations to process in test mode
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -158,7 +158,7 @@ class GetFullNames(BaseNode[State, None, str]):
                 cc_labels = [{"cc.label": ann['annotation_text']} for ann in batch]
 
                 if not os.path.exists(dataset_cache):
-                    full_text_path = os.path.join(EXPANSIONS_DIR, f"{normalise_file_name(article_pmc)}.txt")
+                    full_text_path = os.path.join(PUBLICATIONS_DIR, f"{normalise_file_name(article_pmc)}.txt")
                     if os.path.exists(full_text_path):
                         with open(full_text_path, 'r', encoding='utf-8') as f:
                             paper_full_text = f.read()

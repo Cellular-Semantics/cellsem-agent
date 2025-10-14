@@ -1,7 +1,6 @@
 """
 Ontology based Annotator Agent.
 """
-
 import logging
 from typing import List, Optional
 

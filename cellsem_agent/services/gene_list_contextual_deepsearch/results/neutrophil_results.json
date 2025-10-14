@@ -1,0 +1,532 @@
+{
+  "context": {
+    "cell_type": "Neutrophil",
+    "disease": "Inflammatory condition",
+    "tissue": "unspecified"
+  },
+  "input_genes": [
+    "CXCL8",
+    "CXCR2",
+    "CXCL6",
+    "CTSG",
+    "S100A9",
+    "S100A8",
+    "CXCR1",
+    "JAML",
+    "FCER1G",
+    "ITGB2",
+    "CSF3R",
+    "IL1B",
+    "TREM1",
+    "ANXA3",
+    "PECAM1",
+    "CD177",
+    "PRTN3"
+  ],
+  "programs": [
+    {
+      "program_name": "Chemokine-Mediated Neutrophil Recruitment",
+      "theme": "Chemotaxis/Inflammation",
+      "description": "This program centers on CXCL8/IL-8 and CXCL6 chemokine production by neutrophils or surrounding stroma, engaging CXCR1 and CXCR2 on the same or adjacent neutrophils. The resulting autocrine/paracrine loop drives directed neutrophil migration into tissues. High local IL-8/CXCL6 induces chemotaxis and, at higher concentrations, neutrophil activation (including NET release) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33963542/#:~:text=In%20humans%2C%20IL,NETosis%20than%20for%20chemotaxis%20as)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2577773/#:~:text=CXCL6%20is%20a%20potent%20pro,AF%29%20and%20if%20CXCL6)). The net effect is amplified recruitment and accumulation of neutrophils in inflamed tissue.",
+      "atomic_biological_processes": [
+        {
+          "name": "neutrophil chemotaxis",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Planagum\u00e0 A et al. Differential IL-8 thresholds... J Leukoc Biol (2021)",
+              "id": "10.1182/blood-2006-09-047431",
+              "type": "DOI",
+              "notes": "IL-8 (CXCL8) is a key chemokine driving neutrophil chemotaxis via CXCR1/2 ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33963542/#:~:text=In%20humans%2C%20IL,NETosis%20than%20for%20chemotaxis%20as))"
+            }
+          ],
+          "Genes": [
+            "CXCL8",
+            "CXCL6"
+          ]
+        },
+        {
+          "name": "chemokine receptor signaling",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Planagum\u00e0 A et al. Differential IL-8 thresholds... J Leukoc Biol (2021)",
+              "id": "10.1182/blood-2006-09-047431",
+              "type": "DOI",
+              "notes": "IL-8 signals through CXCR1/CXCR2 to induce directional migration ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33963542/#:~:text=In%20humans%2C%20IL,NETosis%20than%20for%20chemotaxis%20as))"
+            }
+          ],
+          "Genes": [
+            "CXCR1",
+            "CXCR2"
+          ]
+        }
+      ],
+      "atomic_cellular_components": [
+        {
+          "name": "extracellular chemokine milieu",
+          "ontology_label": "cellular_component",
+          "citation": [
+            {
+              "reference": "Simard JC et al. PLoS One (2013)",
+              "id": "10.1371/journal.pone.0072138",
+              "type": "DOI",
+              "notes": "Chemokines like CXCL8 are secreted DAMPs mediating inflammation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3747084/#:~:text=S100A8%20and%20S100A9%20are%20cytoplasmic,%CE%BAB.%20Inhibition%20studies%20using))"
+            }
+          ],
+          "Genes": [
+            "CXCL8",
+            "CXCL6"
+          ]
+        },
+        {
+          "name": "neutrophil plasma membrane (chemokine receptors)",
+          "ontology_label": "cellular_component",
+          "citation": [
+            {
+              "reference": "Planagum\u00e0 A et al. Differential IL-8 thresholds... J Leukoc Biol (2021)",
+              "id": "10.1182/blood-2006-09-047431",
+              "type": "DOI",
+              "notes": "CXCR1/CXCR2 are cell surface GPCRs for IL-8 on neutrophils ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33963542/#:~:text=In%20humans%2C%20IL,NETosis%20than%20for%20chemotaxis%20as))"
+            }
+          ],
+          "Genes": [
+            "CXCR1",
+            "CXCR2"
+          ]
+        }
+      ],
+      "predicted_cellular_impact": [
+        "Enhanced neutrophil chemotaxis toward inflammatory signals",
+        "Autocrine amplification of neutrophil activation",
+        "Greater recruitment and accumulation of neutrophils"
+      ],
+      "evidence_summary": "CXCL8/IL-8 and CXCL6 are potent neutrophil chemoattractants. Planagum\u00e0 et al. confirmed that human IL-8 engages CXCR1/CXCR2 to drive PMN chemotaxis and NET release ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33963542/#:~:text=In%20humans%2C%20IL,NETosis%20than%20for%20chemotaxis%20as)). CXCL6 is similarly a strong neutrophil chemoattractant ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2577773/#:~:text=CXCL6%20is%20a%20potent%20pro,AF%29%20and%20if%20CXCL6)). These ligands and receptors together create a feed-forward loop of neutrophil recruitment and activation in inflamed tissues.",
+      "citations": [
+        {
+          "reference": "Planagum\u00e0 A et al. Differential IL-8 thresholds for chemotaxis and netosis in human neutrophils.",
+          "id": "10.1182/blood-2006-09-047431",
+          "type": "DOI",
+          "notes": "IL-8 (CXCL8) is a key chemokine driving neutrophil migration through CXCR1/CXCR2 ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33963542/#:~:text=In%20humans%2C%20IL,NETosis%20than%20for%20chemotaxis%20as))"
+        },
+        {
+          "reference": "Simard JC et al. S100A8/A9 induce IL-8 secretion via NF-\u03baB in phagocytes (PLOS One, 2013).",
+          "id": "10.1371/journal.pone.0072138",
+          "type": "DOI",
+          "notes": "Demonstrates IL-8 (CXCL8) is produced as part of an innate inflammatory loop ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3747084/#:~:text=S100A8%20and%20S100A9%20are%20cytoplasmic,%CE%BAB.%20Inhibition%20studies%20using))"
+        },
+        {
+          "reference": "Espinoza J et al. CXCL6 is a potent neutrophil chemoattractant (Am J Reprod Immunol, 2008).",
+          "id": "10.1111/j.1600-0897.2008.00637.x",
+          "type": "DOI",
+          "notes": "CXCL6 described as a strong neutrophil chemoattractant and activator ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2577773/#:~:text=CXCL6%20is%20a%20potent%20pro,AF%29%20and%20if%20CXCL6))"
+        }
+      ],
+      "confidence_score": 0.9,
+      "significance_score": 0.9,
+      "supporting_genes": [
+        "CXCL8",
+        "CXCL6",
+        "CXCR1",
+        "CXCR2"
+      ],
+      "supporting_gene_count": 4,
+      "required_components_present": true
+    },
+    {
+      "program_name": "Calprotectin-Driven Inflammatory Amplification",
+      "theme": "DAMP signaling/Inflammation",
+      "description": "S100A8 and S100A9 (calprotectin) are abundant cytosolic proteins that are released as alarmins by activated neutrophils (especially with NETosis). Extracellular S100A8/A9 engages TLR4/RAGE, triggering NF-\u03baB activation and secretion of cytokines (e.g. IL-1\u03b2, IL-8) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3747084/#:~:text=S100A8%20and%20S100A9%20are%20cytoplasmic,%CE%BAB.%20Inhibition%20studies%20using)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8773660/#:~:text=biomarker%20for%20several%20inflammatory%20diseases,upon%20the%20formation%20of%20neutrophil)). They further upregulate neutrophil adhesion molecules (CD11b/ITGB2) and enhance ROS production ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8773660/#:~:text=%28PMA%29,DAMP%20might%20amplify%20neutrophil%20activation)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3747084/#:~:text=examined%20the%20effects%20of%20S100A8,by%20ATP%2C%20a%20known%20inflammasome)). This creates a positive feedback loop amplifying neutrophil-driven inflammation.",
+      "atomic_biological_processes": [
+        {
+          "name": "NF-\u03baB pathway activation",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Simard JC et al. PLoS One (2013)",
+              "id": "10.1371/journal.pone.0072138",
+              "type": "DOI",
+              "notes": "S100A8/A9 activate NF-\u03baB, inducing expression of IL-8 and IL-1\u03b2 ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3747084/#:~:text=S100A8%20and%20S100A9%20are%20cytoplasmic,%CE%BAB.%20Inhibition%20studies%20using))"
+            }
+          ],
+          "Genes": [
+            "S100A8",
+            "S100A9"
+          ]
+        },
+        {
+          "name": "proinflammatory cytokine secretion (e.g. IL-1\u03b2)",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Simard JC et al. PLoS One (2013)",
+              "id": "10.1371/journal.pone.0072138",
+              "type": "DOI",
+              "notes": "S100A8/A9 induce secretion of IL-1\u03b2 and IL-8 via NF-\u03baB ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3747084/#:~:text=S100A8%20and%20S100A9%20are%20cytoplasmic,%CE%BAB.%20Inhibition%20studies%20using))"
+            }
+          ],
+          "Genes": [
+            "S100A8",
+            "S100A9"
+          ]
+        },
+        {
+          "name": "neutrophil activation and adhesion (integrin upregulation)",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Sprenkeler EG et al. Cells (2022)",
+              "id": "10.3390/cells11020236",
+              "type": "DOI",
+              "notes": "Extracellular S100A8/A9 induces neutrophil adhesion and upregulation of CD11b (ITGB2) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8773660/#:~:text=%28PMA%29,DAMP%20might%20amplify%20neutrophil%20activation))"
+            }
+          ],
+          "Genes": [
+            "S100A8",
+            "S100A9"
+          ]
+        },
+        {
+          "name": "neutrophil extracellular trap (NET) formation",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Sprenkeler EG et al. Cells (2022)",
+              "id": "10.3390/cells11020236",
+              "type": "DOI",
+              "notes": "S100A8/A9 are released during NETosis and can propagate NET formation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8773660/#:~:text=biomarker%20for%20several%20inflammatory%20diseases,upon%20the%20formation%20of%20neutrophil))"
+            }
+          ],
+          "Genes": [
+            "S100A8",
+            "S100A9"
+          ]
+        }
+      ],
+      "atomic_cellular_components": [
+        {
+          "name": "neutrophil cytosol",
+          "ontology_label": "cellular_component",
+          "citation": [
+            {
+              "reference": "Sprenkeler EG et al. Cells (2022)",
+              "id": "10.3390/cells11020236",
+              "type": "DOI",
+              "notes": "S100A8/A9 are highly abundant in the neutrophil cytosol (not in granules) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8773660/#:~:text=biomarker%20for%20several%20inflammatory%20diseases,upon%20the%20formation%20of%20neutrophil))"
+            }
+          ],
+          "Genes": [
+            "S100A8",
+            "S100A9"
+          ]
+        },
+        {
+          "name": "extracellular space (almighty DAMP release)",
+          "ontology_label": "cellular_component",
+          "citation": [
+            {
+              "reference": "Sprenkeler EG et al. Cells (2022)",
+              "id": "10.3390/cells11020236",
+              "type": "DOI",
+              "notes": "S100A8/A9 are released extracellularly (via NETs) and act as DAMPs ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8773660/#:~:text=biomarker%20for%20several%20inflammatory%20diseases,upon%20the%20formation%20of%20neutrophil))"
+            }
+          ],
+          "Genes": [
+            "S100A8",
+            "S100A9"
+          ]
+        }
+      ],
+      "predicted_cellular_impact": [
+        "Enhanced inflammatory signaling via NF-\u03baB",
+        "Increased IL-1\u03b2 and IL-8 production",
+        "Upregulated neutrophil adhesion (CD11b/ITGB2 expression)",
+        "Positive feedback on neutrophil activation"
+      ],
+      "evidence_summary": "S100A8/A9 (calprotectin) are released by activated neutrophils and bind TLR4/RAGE, leading to NF-\u03baB-dependent expression of proinflammatory cytokines (IL-1\u03b2, IL-8) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3747084/#:~:text=S100A8%20and%20S100A9%20are%20cytoplasmic,%CE%BAB.%20Inhibition%20studies%20using)). Sprenkeler et al. demonstrated that purified S100A8/A9 promote neutrophil activation including CD11b upregulation and adhesion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8773660/#:~:text=%28PMA%29,DAMP%20might%20amplify%20neutrophil%20activation)). These DAMPs therefore amplify neutrophil-driven inflammation and recruitment.",
+      "citations": [
+        {
+          "reference": "Simard JC et al., PLoS One (2013)",
+          "id": "10.1371/journal.pone.0072138",
+          "type": "DOI",
+          "notes": "Shows S100A8/A9 induce IL-1\u03b2 and IL-8 via NF-\u03baB signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3747084/#:~:text=S100A8%20and%20S100A9%20are%20cytoplasmic,%CE%BAB.%20Inhibition%20studies%20using))"
+        },
+        {
+          "reference": "Sprenkeler EG et al., Cells (2022)",
+          "id": "10.3390/cells11020236",
+          "type": "DOI",
+          "notes": "Reports that S100A8/A9 trigger neutrophil activation and CD11b (ITGB2) upregulation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8773660/#:~:text=%28PMA%29,DAMP%20might%20amplify%20neutrophil%20activation))"
+        }
+      ],
+      "confidence_score": 0.9,
+      "significance_score": 0.8,
+      "supporting_genes": [
+        "S100A8",
+        "S100A9"
+      ],
+      "supporting_gene_count": 2,
+      "required_components_present": true
+    },
+    {
+      "program_name": "Neutrophil Adhesion and Transmigration",
+      "theme": "Adhesion/Migration",
+      "description": "JAML on neutrophils binds epithelial CAR at tight junctions, enabling transepithelial migration ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/15800062/#:~:text=distal%20immunoglobulin%20,inflammatory%20therapies)). Similarly, \u03b22-integrins (CD11/CD18; ITGB2) mediate firm adhesion to endothelial ICAMs, and PECAM1 on endothelial junctions facilitates diapedesis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9266208/#:~:text=Neutrophils%20are%20the%20most%20abundant,Many%20regulators%2C%20such%20as%20talin)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2699241/#:~:text=Leukocyte%20transmigration%20is%20mediated%20by,%CE%B1%5D%29%2C%20and%20demonstrate)). Together these molecules drive neutrophil extravasation into tissues. High expression of these adhesion genes suggests this cell cluster is primed for tissue infiltration and barrier traversal.",
+      "atomic_biological_processes": [
+        {
+          "name": "neutrophil transepithelial migration",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Zen K et al., Mol Biol Cell (2005)",
+              "id": "10.1091/mbc.e05-01-0036",
+              "type": "DOI",
+              "notes": "JAML binding to epithelial CAR is required for neutrophil migration across tight junctions ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/15800062/#:~:text=distal%20immunoglobulin%20,inflammatory%20therapies))"
+            }
+          ],
+          "Genes": [
+            "JAML"
+          ]
+        },
+        {
+          "name": "neutrophil transendothelial migration",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Woodfin A et al., Blood (2007)",
+              "id": "10.1182/blood-2006-09-047431",
+              "type": "DOI",
+              "notes": "PECAM1 is a key endothelial junction molecule that mediates neutrophil transmigration into inflamed tissue ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2699241/#:~:text=Leukocyte%20transmigration%20is%20mediated%20by,%CE%B1%5D%29%2C%20and%20demonstrate))"
+            }
+          ],
+          "Genes": [
+            "ITGB2",
+            "PECAM1"
+          ]
+        },
+        {
+          "name": "leukocyte adhesion to endothelium",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Pulikkottil S et al., Cells (2022)",
+              "id": "10.3390/cells11132025",
+              "type": "DOI",
+              "notes": "\u03b22 integrins (ITGB2) are critical for neutrophil adhesion and recruitment to sites of inflammation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9266208/#:~:text=Neutrophils%20are%20the%20most%20abundant,Many%20regulators%2C%20such%20as%20talin))"
+            }
+          ],
+          "Genes": [
+            "ITGB2"
+          ]
+        }
+      ],
+      "atomic_cellular_components": [
+        {
+          "name": "epithelial tight junction (subepithelial)",
+          "ontology_label": "cellular_component",
+          "citation": [
+            {
+              "reference": "Zen K et al., Mol Biol Cell (2005)",
+              "id": "10.1091/mbc.e05-01-0036",
+              "type": "DOI",
+              "notes": "JAML on neutrophils binds CAR on epithelial tight junctions during transmigration ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/15800062/#:~:text=distal%20immunoglobulin%20,inflammatory%20therapies))"
+            }
+          ],
+          "Genes": [
+            "JAML"
+          ]
+        },
+        {
+          "name": "endothelial cell junction",
+          "ontology_label": "cellular_component",
+          "citation": [
+            {
+              "reference": "Woodfin A et al., Blood (2007)",
+              "id": "10.1182/blood-2006-09-047431",
+              "type": "DOI",
+              "notes": "PECAM1 at endothelial junctions facilitates neutrophil diapedesis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2699241/#:~:text=Leukocyte%20transmigration%20is%20mediated%20by,%CE%B1%5D%29%2C%20and%20demonstrate))"
+            }
+          ],
+          "Genes": [
+            "PECAM1"
+          ]
+        },
+        {
+          "name": "neutrophil plasma membrane (adhesion complex)",
+          "ontology_label": "cellular_component",
+          "citation": [
+            {
+              "reference": "Pulikkottil S et al., Cells (2022)",
+              "id": "10.3390/cells11132025",
+              "type": "DOI",
+              "notes": "\u03b22 integrins (containing ITGB2) localize to the neutrophil plasma membrane and mediate firm adhesion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9266208/#:~:text=Neutrophils%20are%20the%20most%20abundant,Many%20regulators%2C%20such%20as%20talin))"
+            }
+          ],
+          "Genes": [
+            "ITGB2"
+          ]
+        }
+      ],
+      "predicted_cellular_impact": [
+        "Increased adhesion to endothelium and epithelium",
+        "Efficient transendothelial and transepithelial migration",
+        "Enhanced tissue infiltration and recruitment to inflamed sites"
+      ],
+      "evidence_summary": "Neutrophil JAML has been shown to bind CAR on epithelial tight junctions, promoting transepithelial migration ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/15800062/#:~:text=distal%20immunoglobulin%20,inflammatory%20therapies)). \u03b22-integrins (e.g. LFA-1/Mac-1) mediate firm adhesion to endothelium, while PECAM1 at endothelial junctions is required for transmigration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2699241/#:~:text=Leukocyte%20transmigration%20is%20mediated%20by,%CE%B1%5D%29%2C%20and%20demonstrate)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9266208/#:~:text=Neutrophils%20are%20the%20most%20abundant,Many%20regulators%2C%20such%20as%20talin)). Pulikkottil et al. review highlights integrins (including ITGB2) as essential for neutrophil recruitment ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9266208/#:~:text=Neutrophils%20are%20the%20most%20abundant,Many%20regulators%2C%20such%20as%20talin)). These molecules together enable neutrophils to exit vessels and enter tissues.",
+      "citations": [
+        {
+          "reference": "Zen K et al. Mol Biol Cell (2005)",
+          "id": "10.1091/mbc.e05-01-0036",
+          "type": "DOI",
+          "notes": "Establishes that neutrophil JAML binding to epithelial CAR mediates migration across tight junctions ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/15800062/#:~:text=distal%20immunoglobulin%20,inflammatory%20therapies))"
+        },
+        {
+          "reference": "Woodfin A et al. Blood (2007)",
+          "id": "10.1182/blood-2006-09-047431",
+          "type": "DOI",
+          "notes": "Shows PECAM1 at endothelial junctions is critical for neutrophil transmigration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2699241/#:~:text=Leukocyte%20transmigration%20is%20mediated%20by,%CE%B1%5D%29%2C%20and%20demonstrate))"
+        },
+        {
+          "reference": "Pulikkottil S et al. Cells (2022)",
+          "id": "10.3390/cells11132025",
+          "type": "DOI",
+          "notes": "Review confirming \u03b22-integrins (ITGB2) are crucial for neutrophil adhesion and migration during inflammation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9266208/#:~:text=Neutrophils%20are%20the%20most%20abundant,Many%20regulators%2C%20such%20as%20talin))"
+        }
+      ],
+      "confidence_score": 0.9,
+      "significance_score": 0.9,
+      "supporting_genes": [
+        "JAML",
+        "ITGB2",
+        "PECAM1"
+      ],
+      "supporting_gene_count": 3,
+      "required_components_present": true
+    },
+    {
+      "program_name": "Granule-Mediated Antimicrobial Activity",
+      "theme": "Defense/Proteolysis",
+      "description": "This program reflects neutrophil azurophilic granule exocytosis. PRTN3 (proteinase 3) and CTSG (cathepsin G) are serine proteases stored in neutrophil azurophilic granules ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2940153/#:~:text=also%20found%20in%20the%20circulation,4%5D%20and%20on%20the)). Upon activation, these enzymes are released to kill pathogens and degrade extracellular matrix. Annexin A3 (ANXA3) is associated with specific granules and regulates granule\u2013membrane fusion during exocytosis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1137353/#:~:text=Both%20proteins%20were%20associated%20with,In%20conclusion%2C%20association%20of)). Together, these components drive potent proteolytic and microbicidal responses (and can generate autoantigens on the neutrophil surface).",
+      "atomic_biological_processes": [
+        {
+          "name": "neutrophil degranulation (azurophil granule exocytosis)",
+          "ontology_label": "biological_process",
+          "citation": [
+            {
+              "reference": "Le Cabec V et al., Biochem J (1994)",
+              "id": "10.1042/bj3030481",
+              "type": "DOI",
+              "notes": "Annexin A3 is localized to neutrophil granules and may mediate granule fusion with the membrane ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1137353/#:~:text=Both%20proteins%20were%20associated%20with,In%20conclusion%2C%20association%20of))"
+            }
+          ],
+          "Genes": [
+            "ANXA3",
+            "PRTN3",
+            "CTSG"
+          ]
+        },
+        {
+          "name": "serine-type endopeptidase (proteolytic) activity",
+          "ontology_label": "molecular_function",
+          "citation": [
+            {
+              "reference": "Pepper RJ et al., Am J Pathol (2015)",
+              "id": "10.1016/j.ajpath.2015.01.015",
+              "type": "DOI",
+              "notes": "Describes proteinase 3 (PRTN3) as a neutrophil azurophilic granule protease with microbicidal activity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2940153/#:~:text=also%20found%20in%20the%20circulation,4%5D%20and%20on%20the))"
+            }
+          ],
+          "Genes": [
+            "PRTN3",
+            "CTSG"
+          ]
+        }
+      ],
+      "atomic_cellular_components": [
+        {
+          "name": "neutrophil azurophilic granule lumen",
+          "ontology_label": "cellular_component",
+          "citation": [
+            {
+              "reference": "Pepper RJ et al., Am J Pathol (2015)",
+              "id": "10.1016/j.ajpath.2015.01.015",
+              "type": "DOI",
+              "notes": "PRTN3 (proteinase 3) is stored in neutrophil azurophil granules ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2940153/#:~:text=also%20found%20in%20the%20circulation,4%5D%20and%20on%20the))"
+            }
+          ],
+          "Genes": [
+            "PRTN3",
+            "CTSG"
+          ]
+        },
+        {
+          "name": "neutrophil plasma membrane (granule fusion site)",
+          "ontology_label": "cellular_component",
+          "citation": [
+            {
+              "reference": "Le Cabec V et al., Biochem J (1994)",
+              "id": "10.1042/bj3030481",
+              "type": "DOI",
+              "notes": "Annexin A3 translocates from granules to the plasma membrane upon activation, implicating it in granule fusion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1137353/#:~:text=Both%20proteins%20were%20associated%20with,In%20conclusion%2C%20association%20of))"
+            }
+          ],
+          "Genes": [
+            "ANXA3"
+          ]
+        },
+        {
+          "name": "extracellular space",
+          "ontology_label": "cellular_component",
+          "citation": [
+            {
+              "reference": "Pepper RJ et al., Am J Pathol (2015)",
+              "id": "10.1016/j.ajpath.2015.01.015",
+              "type": "DOI",
+              "notes": "Azurophil proteases like PRTN3 and CTSG are released extracellularly to enact microbicidal effects ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2940153/#:~:text=also%20found%20in%20the%20circulation,4%5D%20and%20on%20the))"
+            }
+          ],
+          "Genes": [
+            "PRTN3",
+            "CTSG"
+          ]
+        }
+      ],
+      "predicted_cellular_impact": [
+        "Potent antimicrobial killing via protease release",
+        "Extracellular matrix degradation and tissue remodeling",
+        "Generation of inflammatory mediators/autoantigens (e.g. membrane PR3)"
+      ],
+      "evidence_summary": "PRTN3 and CTSG are major azurophilic granule proteases in neutrophils ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2940153/#:~:text=also%20found%20in%20the%20circulation,4%5D%20and%20on%20the)). They mediate pathogen killing and contribute to extracellular matrix degradation. Le Cabec et al. showed Annexin A3 localizes to neutrophil granules and translocates to the plasma membrane during activation, suggesting it facilitates granule fusion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1137353/#:~:text=Both%20proteins%20were%20associated%20with,In%20conclusion%2C%20association%20of)). Together these proteins drive degranulation and proteolytic antimicrobial activity.",
+      "citations": [
+        {
+          "reference": "Pepper RJ et al., Am J Pathol (2015)",
+          "id": "10.1016/j.ajpath.2015.01.015",
+          "type": "DOI",
+          "notes": "Confirms that proteinase 3 is a neutrophil azurophil granule protease with microbicidal activity ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2940153/#:~:text=also%20found%20in%20the%20circulation,4%5D%20and%20on%20the))"
+        },
+        {
+          "reference": "Le Cabec V et al., Biochem J (1994)",
+          "id": "10.1042/bj3030481",
+          "type": "DOI",
+          "notes": "Shows Annexin A3 is granule-associated in neutrophils and moves to membrane upon activation, implying a role in degranulation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1137353/#:~:text=Both%20proteins%20were%20associated%20with,In%20conclusion%2C%20association%20of))"
+        }
+      ],
+      "confidence_score": 0.8,
+      "significance_score": 0.8,
+      "supporting_genes": [
+        "CTSG",
+        "PRTN3",
+        "ANXA3"
+      ],
+      "supporting_gene_count": 3,
+      "required_components_present": true
+    }
+  ],
+  "method": {
+    "clustering_basis": [
+      "known pathway interactions",
+      "literature co-citation"
+    ],
+    "notes": "Gene programs identified by grouping input genes with related functions (e.g. chemotaxis, adhesion, degranulation) based on literature and pathway context"
+  },
+  "version": "1.0"
+}

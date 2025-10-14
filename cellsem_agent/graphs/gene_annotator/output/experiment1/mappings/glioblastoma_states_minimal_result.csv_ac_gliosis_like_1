@@ -1,0 +1,15 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+water transport,GO:0006833,water transport,GO,1.0,exact_match
+cell migration,GO:0016477,cell migration,GO,1.0,exact_match
+plasma membrane,GO:0005886,plasma membrane,GO,1.0,exact_match
+astrocyte differentiation,GO:0048708,astrocyte differentiation,GO,1.0,exact_match
+synapse organization,GO:0050808,synapse organization,GO,1.0,exact_match
+intermediate filament cytoskeleton,GO:0045111,intermediate filament cytoskeleton,GO,1.0,exact_match
+extracellular matrix organization,GO:0030198,extracellular matrix organization,GO,1.0,exact_match
+cell migration via ECM,GO:0016477,cell migration,GO,0.8,partial_match
+extracellular region,GO:0005576,extracellular region,GO,1.0,exact_match
+complement activation,GO:0006956,complement activation,GO,1.0,exact_match
+inflammatory response,GO:0006954,inflammatory response,GO,1.0,exact_match
+extracellular region,GO:0005576,extracellular region,GO,1.0,exact_match
+ion transport,GO:0006811,monoatomic ion transport,GO,0.95,exact_match
+plasma membrane,GO:0005886,plasma membrane,GO,1.0,exact_match

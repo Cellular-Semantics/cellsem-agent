@@ -1,0 +1,22 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+neutrophil chemotaxis,GO:0030593,neutrophil chemotaxis,GO,1.0,exact_match
+chemokine receptor signaling,GO:0070098,chemokine-mediated signaling pathway,GO,0.9,partial_match
+extracellular chemokine milieu,GO:0005576,extracellular region,GO,0.9,exact_match
+neutrophil plasma membrane (chemokine receptors),GO:0005886,plasma membrane,GO,0.7,partial_match
+NF-κB pathway activation,GO:0007250,activation of NF-kappaB-inducing kinase activity,GO,0.9,exact_match
+proinflammatory cytokine secretion (e.g. IL-1β),GO:0001816,cytokine production,GO,0.85,synonym_match
+neutrophil activation and adhesion (integrin upregulation),GO:0042119,neutrophil activation,GO,0.9,exact_match
+neutrophil extracellular trap (NET) formation,GO:0140645,neutrophil extracellular trap formation,GO,1.0,exact_match
+neutrophil cytosol,GO:0005829,cytosol,GO,0.8,exact_match within broader context
+extracellular space (almighty DAMP release),GO:0005615,extracellular space,GO,0.6,"partial_match, main term is extracellular space"
+neutrophil transepithelial migration,GO:0072672,neutrophil extravasation,GO,0.9,exact_match
+neutrophil transendothelial migration,GO:0072672,neutrophil extravasation,GO,0.9,exact_match
+leukocyte adhesion to endothelium,GO:0061756,leukocyte adhesion to vascular endothelial cell,GO,0.9,exact_match
+epithelial tight junction (subepithelial),GO:0070160,tight junction,GO,0.85,exact_match
+endothelial cell junction,GO:0030054,cell junction,GO,0.8,exact_match
+neutrophil plasma membrane (adhesion complex),GO:0098636,protein complex involved in cell adhesion,GO,0.7,partial_match
+neutrophil degranulation (azurophil granule exocytosis),GO:0043312,neutrophil degranulation,GO,0.9,exact_match
+serine-type endopeptidase (proteolytic) activity,GO:0004252,serine-type endopeptidase activity,GO,1.0,exact_match
+neutrophil azurophilic granule lumen,GO:0035578,azurophil granule lumen,GO,0.9,exact_match
+neutrophil plasma membrane (granule fusion site),GO:0005886,plasma membrane,GO,0.7,partial_match
+extracellular space,GO:0005615,extracellular space,GO,1.0,exact_match

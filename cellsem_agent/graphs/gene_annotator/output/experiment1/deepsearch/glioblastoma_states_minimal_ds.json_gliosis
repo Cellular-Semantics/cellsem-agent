@@ -1,0 +1,488 @@
+{
+    "context": {
+        "cell_type": "astrocyte",
+        "disease": "Glioblastoma",
+        "tissue": "brain"
+    },
+    "input_genes": [
+        "SERPINE1",
+        "EMP1",
+        "SPOCD1",
+        "ARHGAP29",
+        "IL1R1",
+        "COL6A2",
+        "MYOF",
+        "F13A1",
+        "CXCL10",
+        "CHI3L1",
+        "MET",
+        "IL6",
+        "SAA2",
+        "BIRC3",
+        "MCTP2",
+        "ANGPTL4",
+        "ICAM1",
+        "CCN1",
+        "CAV1",
+        "APLN",
+        "FOSL1",
+        "SNTG2-AS1",
+        "TPD52L1",
+        "SAA4",
+        "KRT75",
+        "NFATC2",
+        "COL5A1",
+        "AC243829.2",
+        "CLCF1",
+        "ARSJ",
+        "PLA2G2A",
+        "HMGA2",
+        "PTX3",
+        "TLR2",
+        "LINC00698",
+        "ALPK2",
+        "TNFAIP3",
+        "TNFAIP2",
+        "NDRG1",
+        "SMOC2",
+        "ADGRL2",
+        "KANK4",
+        "GEM",
+        "FAS",
+        "CXCL8",
+        "CFH",
+        "ABCC3",
+        "CXCL14",
+        "ZFP36",
+        "RCAN2",
+        "GADD45A",
+        "COL1A2",
+        "LTF",
+        "DHRS3",
+        "IDO1",
+        "HAP1",
+        "AXL",
+        "ATP6V0D2",
+        "KLF5",
+        "ST6GALNAC5",
+        "GPD1",
+        "PAPPA2",
+        "BAG3",
+        "MYBPH",
+        "MYBPC1",
+        "MX2",
+        "APBB1IP",
+        "ANPEP",
+        "ALPL",
+        "GPRC5A",
+        "SPP1",
+        "CXCL2",
+        "GPC5",
+        "RRAD",
+        "LIF",
+        "CHRNA9",
+        "IL4R",
+        "NPNT",
+        "SAA1",
+        "NPR3",
+        "PROM1",
+        "SLIT3",
+        "ITGBL1",
+        "MYO5B",
+        "RPS5",
+        "RPS27",
+        "ETS2",
+        "PTGS2",
+        "RPS18",
+        "BNC2",
+        "CPA4",
+        "NPAS2",
+        "CD274",
+        "SLC10A6",
+        "LRAT",
+        "LINC01993",
+        "LINC02832",
+        "LINC02821",
+        "GBP5",
+        "AC021851.2",
+        "AKAP12",
+        "LINC02154",
+        "FN1",
+        "MIR222HG",
+        "VEGFA",
+        "GBP2",
+        "ZNF735",
+        "TSHZ2",
+        "TRPM2",
+        "LUCAT1",
+        "PI3"
+    ],
+    "programs": [
+        {
+            "program_name": "RTK Signaling & Growth",
+            "description": "This program includes receptor tyrosine kinases and signaling mediators that drive GBM cell proliferation and survival. AXL and MET are overexpressed in glioblastoma and activate PI3K/AKT and MAPK pathways to enhance proliferation, invasion, and therapy resistance ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6585013/#:~:text=MET%20and%20its%20ligand%20hepatocyte,this%20pathway%20and%20associated%20molecules)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1458653/#:~:text=receptor%20tyrosine%20kinase%20Axl%20as,Inhibition%20of%20Axl%20signaling)). EMP1 (epithelial membrane protein 1) also boosts glioma cell proliferation and motility via PI3K/AKT/mTOR signaling ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6609345/#:~:text=therapies%20for%20GBM%20patients,revealed%20that%20activation%20of%20the)). The transcription factor KLF5 supports GBM proliferative and stem-like phenotypes; inhibiting KLF5 reduces glioma cell growth and migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9164955/#:~:text=down%20of%20KLF5%20significantly%20reduced,that%20inhibition%20of%20KLF5%20significantly)). Thus, these genes collectively enhance mitogenic signaling in GBM.",
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0007169",
+                    "ontology_label": "biological_process",
+                    "name": "receptor tyrosine kinase signaling pathway",
+                    "citation": [
+                        {
+                            "reference": "Cheng F, Guo D et al. J Exp Clin Cancer Res. 2019;38:270.",
+                            "id": "PMID:31221203",
+                            "type": "PMID",
+                            "notes": "MET/HGF signaling drives GBM proliferation and survival ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6585013/#:~:text=MET%20and%20its%20ligand%20hepatocyte,this%20pathway%20and%20associated%20molecules))"
+                        }
+                    ],
+                    "Genes": [
+                        "EMP1",
+                        "MET",
+                        "AXL"
+                    ]
+                },
+                {
+                    "name": "cell proliferation",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Cheng F, Guo D et al. J Exp Clin Cancer Res. 2019;38:270.",
+                            "id": "PMID:31221203",
+                            "type": "PMID",
+                            "notes": "MET/HGF and AXL signaling promote GBM cell proliferation and survival ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6585013/#:~:text=MET%20and%20its%20ligand%20hepatocyte,this%20pathway%20and%20associated%20molecules))"
+                        }
+                    ],
+                    "Genes": [
+                        "EMP1",
+                        "MET",
+                        "AXL",
+                        "KLF5"
+                    ]
+                },
+                {
+                    "name": "cell migration",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Vajkoczy P et al. PNAS. 2006;103(15):5799-5804.",
+                            "id": "PMID:16585512",
+                            "type": "PMID",
+                            "notes": "AXL mediates glioma cell migration and invasion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1458653/#:~:text=receptor%20tyrosine%20kinase%20Axl%20as,Inhibition%20of%20Axl%20signaling))"
+                        }
+                    ],
+                    "Genes": [
+                        "MET",
+                        "AXL"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "plasma membrane",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Cheng F, Guo D et al. J Exp Clin Cancer Res. 2019;38:270.",
+                            "id": "PMID:31221203",
+                            "type": "PMID",
+                            "notes": "MET and AXL are transmembrane receptors overexpressed in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6585013/#:~:text=MET%20and%20its%20ligand%20hepatocyte,this%20pathway%20and%20associated%20molecules))"
+                        }
+                    ],
+                    "Genes": [
+                        "EMP1",
+                        "MET",
+                        "AXL"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Increased PI3K/AKT/mTOR signaling and cell proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6609345/#:~:text=therapies%20for%20GBM%20patients,revealed%20that%20activation%20of%20the)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6585013/#:~:text=MET%20and%20its%20ligand%20hepatocyte,this%20pathway%20and%20associated%20molecules))",
+                "Enhanced cell survival and tumor growth",
+                "Elevated migratory/invasive capacity via AXL/MET pathways ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC1458653/#:~:text=receptor%20tyrosine%20kinase%20Axl%20as,Inhibition%20of%20Axl%20signaling)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9164955/#:~:text=down%20of%20KLF5%20significantly%20reduced,that%20inhibition%20of%20KLF5%20significantly))"
+            ],
+            "evidence_summary": "IL1R1 and other innate receptors activate NF-\u03baB in GBM, while chemokines and cytokines modulate immune infiltration and angiogenesis. CXCL8 (IL-8) is produced at high levels by glioblastoma cells, promoting angiogenesis and EMT ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8910233/#:~:text=The%20significance%20of%20up,as%20essential%20to%20neovascularization%20and)). PTX3 and CHI3L1 are upregulated and drive macrophage recruitment and immunosuppression in the TME ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9532932/#:~:text=found%20to%20mediate%20the%20migration,CD68%20was%20more%20expressed%20in)). GBM cells also overexpress immune checkpoints (e.g. PD-L1/CD274 and IDO1) to evade immune attack. Together, these genes indicate an inflamed, yet tumor-promoting, microenvironment.",
+            "citations": [
+                {
+                    "reference": "Codrici E et al. Int J Mol Sci. 2022;23(5):2509.",
+                    "id": "PMID:35269652",
+                    "type": "PMID",
+                    "notes": "Chemokines (CXCL8, CXCL10, etc.) contribute to GBM-associated inflammation and angiogenesis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8910233/#:~:text=The%20significance%20of%20up,as%20essential%20to%20neovascularization%20and))"
+                },
+                {
+                    "reference": "Zhang H et al. CNS Neurosci Ther. 2022;28(11):1748\u20131766.",
+                    "id": "PMID:35855654",
+                    "type": "PMID",
+                    "notes": "PTX3 mediates macrophage migration and polarization in GBM, contributing to an immunosuppressive TME ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9532932/#:~:text=found%20to%20mediate%20the%20migration,CD68%20was%20more%20expressed%20in))"
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "IL1R1",
+                "TLR2",
+                "IL6",
+                "IL4R",
+                "TNFAIP3",
+                "TNFAIP2",
+                "BIRC3",
+                "FAS",
+                "CXCL8",
+                "CXCL2",
+                "CXCL10",
+                "CXCL14",
+                "CLCF1",
+                "LIF",
+                "SAA1",
+                "SAA2",
+                "SAA4",
+                "CHI3L1",
+                "PTX3",
+                "CD274",
+                "IDO1"
+            ],
+            "supporting_gene_count": 24,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Tumor Angiogenesis",
+            "description": "This program centers on factors driving new blood vessel formation in GBM. VEGFA, the major angiogenic factor induced by hypoxia, is highly expressed in glioblastoma and triggers endothelial proliferation and vascular permeability ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11941181/#:~:text=match%20at%20L250%20In%20malignant,1)). Apelin (APLN) is also upregulated in GBM and required for tumor angiogenesis; loss of apelin signaling dramatically reduces tumor vasculature in vivo ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/#:~:text=In%20summary%2C%20we%20found%20that,APLN%20in%20the%20mouse%20brain)). Angiopoietin-4 (ANGPTL4) similarly promotes GBM vascularization and growth. These genes collectively facilitate the aberrant, leaky vasculature characteristic of GBM.",
+            "atomic_biological_processes": [
+                {
+                    "name": "angiogenesis",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Nowacka AS et al. Cells. 2025;14(6):407.",
+                            "id": "PMID:40136656",
+                            "type": "PMID",
+                            "notes": "VEGF-A is the central driver of angiogenesis in malignant glioma ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11941181/#:~:text=match%20at%20L250%20In%20malignant,1))"
+                        }
+                    ],
+                    "Genes": [
+                        "VEGFA",
+                        "APLN",
+                        "ANGPTL4"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "extracellular space",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Frisch A et al. Int J Mol Sci. 2020;21(11):4179.",
+                            "id": "PMID:32545380",
+                            "type": "PMID",
+                            "notes": "APLN (apelin) is secreted and upregulated in GBM, promoting tumor angiogenesis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/#:~:text=The%20angiogenic%20factor%20apelin%20,models%2C%20we%20found%20that%20apelin%2FAPLNR)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/#:~:text=In%20summary%2C%20we%20found%20that,APLN%20in%20the%20mouse%20brain))"
+                        }
+                    ],
+                    "Genes": [
+                        "VEGFA",
+                        "APLN",
+                        "ANGPTL4"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Increased neovascularization and endothelial proliferation",
+                "Enhanced vascular permeability and edema formation",
+                "Greater nutrient supply supporting rapid tumor growth"
+            ],
+            "evidence_summary": "VEGF-A is a key pro-angiogenic factor in GBM: it is overexpressed in hypoxic tumor regions and induces endothelial proliferation and ECM degradation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11941181/#:~:text=match%20at%20L250%20In%20malignant,1)). Apelin (APLN) is another upregulated factor in GBM; its signaling is required for tumor angiogenesis, as apelin knockdown markedly reduces vessel density in GBM models ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/#:~:text=In%20summary%2C%20we%20found%20that,APLN%20in%20the%20mouse%20brain)). Angiopoietin-4 (ANGPTL4) also drives GBM progression and vascularization. Together, they drive the aberrant vasculature of malignant gliomas.",
+            "citations": [
+                {
+                    "reference": "Nowacka AS et al. Cells. 2025;14(6):407.",
+                    "id": "PMID:40136656",
+                    "type": "PMID",
+                    "notes": "VEGF-A is the predominant driver of tumor angiogenesis in GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11941181/#:~:text=match%20at%20L250%20In%20malignant,1))"
+                },
+                {
+                    "reference": "Frisch A et al. Int J Mol Sci. 2020;21(11):4179.",
+                    "id": "PMID:32545380",
+                    "type": "PMID",
+                    "notes": "Loss of apelin signaling in GBM models reduces angiogenesis, confirming APLN\u2019s role in tumor vascularization ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/#:~:text=In%20summary%2C%20we%20found%20that,APLN%20in%20the%20mouse%20brain))"
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "VEGFA",
+                "APLN",
+                "ANGPTL4"
+            ],
+            "supporting_gene_count": 3,
+            "required_components_present": true
+        },
+        {
+            "program_name": "ECM Remodeling & Cell Adhesion",
+            "description": "Genes in this program encode extracellular matrix (ECM) components and adhesion molecules that facilitate GBM invasion. Fibronectin (FN1) and fibrillar collagens (COL1A2, COL5A1, COL6A2) are overexpressed, providing a scaffold for tumor cell migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8038731/#:~:text=FN%20receptors%2C%20cluster%20around%20FN,perivascular%20regions%20and%20along%20the)). SERPINE1 and CCN1 modulate ECM turnover and adhesion: SERPINE1 knockdown drastically reduces focal adhesions and cell-matrix adhesion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=Accordingly%2C%20there%20was%20a%20remarkable,Figure%203C)), while CCN1 promotes a mesenchymal, invasive phenotype. CHI3L1 (YKL-40) is secreted in GBM to enhance invasion. ICAM1 and SPP1 (osteopontin) are adhesion mediators on the cell surface that support cell-cell and cell-ECM interactions. Overall, this program enhances focal adhesion dynamics and ECM production to promote GBM infiltration.",
+            "atomic_biological_processes": [
+                {
+                    "name": "extracellular matrix organization",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Chen CW et al. Int J Mol Sci. 2021;22(7):3782.",
+                            "id": "PMID:33917452",
+                            "type": "PMID",
+                            "notes": "Fibronectin (FN1) and related ECM components are upregulated in GBM, facilitating tumor cell migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8038731/#:~:text=FN%20receptors%2C%20cluster%20around%20FN,perivascular%20regions%20and%20along%20the))"
+                        }
+                    ],
+                    "Genes": [
+                        "FN1",
+                        "COL1A2",
+                        "COL5A1",
+                        "COL6A2"
+                    ]
+                },
+                {
+                    "name": "cell adhesion",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Seker F et al. Cancers (Basel). 2019;11(11):1651.",
+                            "id": "PMID:31731490",
+                            "type": "PMID",
+                            "notes": "SERPINE1 knockdown reduces focal adhesions and cell adhesion in GBM cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=Accordingly%2C%20there%20was%20a%20remarkable,Figure%203C))"
+                        }
+                    ],
+                    "Genes": [
+                        "ICAM1",
+                        "SERPINE1"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "extracellular matrix",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Chen CW et al. Int J Mol Sci. 2021;22(7):3782.",
+                            "id": "PMID:33917452",
+                            "type": "PMID",
+                            "notes": "Fibronectin and collagens are secreted into the extracellular matrix of GBM ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8038731/#:~:text=FN%20receptors%2C%20cluster%20around%20FN,perivascular%20regions%20and%20along%20the))"
+                        }
+                    ],
+                    "Genes": [
+                        "FN1",
+                        "COL1A2",
+                        "COL5A1",
+                        "COL6A2"
+                    ]
+                },
+                {
+                    "name": "focal adhesion",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Seker F et al. Cancers (Basel). 2019;11(11):1651.",
+                            "id": "PMID:31731490",
+                            "type": "PMID",
+                            "notes": "SERPINE1 knockdown in GBM cells reduces focal adhesion number ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=Accordingly%2C%20there%20was%20a%20remarkable,Figure%203C))"
+                        }
+                    ],
+                    "Genes": [
+                        "SERPINE1"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Enhanced ECM deposition and matrix stiffness",
+                "Increased focal adhesion dynamics driving invasive migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=Accordingly%2C%20there%20was%20a%20remarkable,Figure%203C))",
+                "Stronger cell\u2013matrix adhesion supporting tumor cell motility"
+            ],
+            "evidence_summary": "FN1 (fibronectin) is abundant in GBM and serves as a substrate for migration ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8038731/#:~:text=FN%20receptors%2C%20cluster%20around%20FN,perivascular%20regions%20and%20along%20the)). SERPINE1 is upregulated and promotes GBM dispersal; its knockdown leads to fewer focal adhesions and reduced adhesion ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=Accordingly%2C%20there%20was%20a%20remarkable,Figure%203C)). CHI3L1 (YKL-40) overexpression boosts glioma invasion and survival, while its loss reduces invasion ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/20506295/#:~:text=suppression%20by%20shRNA%20reduced%20glioma,invasive%20nature%20of%20glioma%20cells)). Similarly, ICAM1 expression correlates with GBM invasiveness ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6453839/#:~:text=MSH6%20%28Supplemental%20Table%204%29,examine%20the%20mRNA%20expression%20of)). These data indicate GBM cells reshape their ECM and adhesion to enhance invasiveness.",
+            "citations": [
+                {
+                    "reference": "Chen CW et al. Int J Mol Sci. 2021;22(7):3782.",
+                    "id": "PMID:33917452",
+                    "type": "PMID",
+                    "notes": "Fibronectin is overexpressed in GBM, and GBM cells migrate efficiently on fibronectin-coated matrix ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8038731/#:~:text=FN%20receptors%2C%20cluster%20around%20FN,perivascular%20regions%20and%20along%20the))"
+                },
+                {
+                    "reference": "Seker F et al. Cancers (Basel). 2019;11(11):1651.",
+                    "id": "PMID:31731490",
+                    "type": "PMID",
+                    "notes": "Silencing SERPINE1 reduces focal adhesions and cell adhesion, demonstrating its role in ECM interaction ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/#:~:text=Accordingly%2C%20there%20was%20a%20remarkable,Figure%203C))"
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.9,
+            "supporting_genes": [
+                "FN1",
+                "COL1A2",
+                "COL5A1",
+                "COL6A2",
+                "ICAM1",
+                "SERPINE1",
+                "CCN1",
+                "CHI3L1",
+                "SPP1"
+            ],
+            "supporting_gene_count": 9,
+            "required_components_present": false
+        },
+        {
+            "program_name": "Apoptosis Regulation",
+            "description": "This program involves regulators of cell death and survival. BAG3 and BIRC3 are anti-apoptotic factors upregulated in GBM. BAG3 is overexpressed in tumor cells, and its knockdown induces apoptosis in glioma models ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3124067/#:~:text=principle%2C%20we%20showed%20that%20BAG3,of%20metastases%20outside%20the%20central)). Similarly, BIRC3 (cIAP2) inhibits apoptotic signaling downstream of TNF. Together these genes promote resistance to cell death, a hallmark of glioblastoma.",
+            "atomic_biological_processes": [
+                {
+                    "name": "negative regulation of apoptosis",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Festa M et al. Am J Pathol. 2011;178(6):2504\u20132512.",
+                            "id": "PMID:21600277",
+                            "type": "PMID",
+                            "notes": "BAG3 is overexpressed in GBM and protects tumor cells from apoptosis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3124067/#:~:text=principle%2C%20we%20showed%20that%20BAG3,of%20metastases%20outside%20the%20central))"
+                        }
+                    ],
+                    "Genes": [
+                        "BAG3",
+                        "BIRC3"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "name": "cytosol",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Festa M et al. Am J Pathol. 2011;178(6):2504\u20132512.",
+                            "id": "PMID:21600277",
+                            "type": "PMID",
+                            "notes": "BAG3 functions in the cytosol to inhibit apoptosis in glioblastoma cells ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3124067/#:~:text=principle%2C%20we%20showed%20that%20BAG3,of%20metastases%20outside%20the%20central))"
+                        }
+                    ],
+                    "Genes": [
+                        "BAG3"
+                    ]
+                }
+            ],
+            "predicted_cellular_impact": [
+                "Suppressed apoptotic signaling, promoting GBM cell survival",
+                "Resistance to chemotherapy and stress-induced cell death"
+            ],
+            "evidence_summary": "BAG3 is overexpressed in GBM and functions as an anti-apoptotic chaperone; its inhibition triggers apoptosis in glioma models ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3124067/#:~:text=principle%2C%20we%20showed%20that%20BAG3,of%20metastases%20outside%20the%20central)). BIRC3 (cIAP2) similarly inhibits caspase activation. The upregulation of these survival factors confers resistance to cell death in glioblastoma.",
+            "citations": [
+                {
+                    "reference": "Festa M et al. Am J Pathol. 2011;178(6):2504\u20132512.",
+                    "id": "PMID:21600277",
+                    "type": "PMID",
+                    "notes": "BAG3 knockdown in a glioblastoma model induces apoptosis, indicating its role in cell survival ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3124067/#:~:text=principle%2C%20we%20showed%20that%20BAG3,of%20metastases%20outside%20the%20central))"
+                }
+            ],
+            "confidence_score": 0.6,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "BAG3",
+                "BIRC3"
+            ],
+            "supporting_gene_count": 2,
+            "required_components_present": false
+        }
+    ],
+    "version": "1.0"
+}

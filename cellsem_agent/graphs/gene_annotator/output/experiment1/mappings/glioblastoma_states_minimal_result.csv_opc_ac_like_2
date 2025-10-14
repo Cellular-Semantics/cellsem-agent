@@ -1,0 +1,13 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+synaptic vesicle exocytosis,GO:0016079,synaptic vesicle exocytosis,GO,1.0,exact_match
+neurotransmitter secretion,GO:0007269,neurotransmitter secretion,GO,1.0,exact_match
+presynaptic active zone,GO:0048786,presynaptic active zone,GO,1.0,exact_match
+synapse,GO:0045202,synapse,GO,1.0,exact_match
+Notch signaling pathway,GO:0007219,Notch signaling pathway,GO,1.0,exact_match
+cell differentiation,GO:0030154,cell differentiation,GO,1.0,exact_match
+integral component of membrane,,,,0.0,NO MATCH found
+EGFR signaling pathway,GO:0007173,epidermal growth factor receptor signaling pathway,GO,1.0,exact_match
+MAPK cascade,GO:0000165,MAPK cascade,GO,1.0,exact_match
+plasma membrane receptor complex,GO:0098802,plasma membrane signaling receptor complex,GO,0.95,exact_match
+"regulation of transcription, DNA-templated",GO:0006355,regulation of DNA-templated transcription,GO,1.0,exact_match
+nucleus,GO:0005634,nucleus,GO,1.0,exact_match

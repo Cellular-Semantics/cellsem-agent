@@ -1,0 +1,14 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+extracellular matrix organization,GO:0030198,extracellular matrix organization,GO,1.0,exact_match
+glycosaminoglycan biosynthetic process,GO:0006024,glycosaminoglycan biosynthetic process,GO,1.0,exact_match
+protein sialylation,GO:1990743,protein sialylation,GO,1.0,exact_match
+extracellular matrix,GO:0031012,extracellular matrix,GO,1.0,exact_match
+cell adhesion,GO:0007155,cell adhesion,GO,1.0,exact_match
+positive regulation of cell migration,GO:0030335,positive regulation of cell migration,GO,1.0,exact_match
+axon guidance,GO:0007411,axon guidance,GO,1.0,exact_match
+integrin complex,GO:0008305,integrin complex,GO,1.0,exact_match
+cellular response to hypoxia,GO:0071456,cellular response to hypoxia,GO,1.0,exact_match
+stem cell population maintenance,GO:0019827,stem cell population maintenance,GO,1.0,exact_match
+glutathione metabolic process,GO:0006749,glutathione metabolic process,GO,1.0,exact_match
+mitochondrial electron transport,GO:0042775,mitochondrial ATP synthesis coupled electron transport,GO,0.9,partial_match
+mitochondrion,GO:0005739,mitochondrion,GO,1.0,exact_match

@@ -1,0 +1,15 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+response to hypoxia,GO:0001666,response to hypoxia,GO,1.0,exact_match
+lipid metabolic process,GO:0006629,lipid metabolic process,GO,1.0,exact_match
+mitochondrial outer membrane,GO:0005741,mitochondrial outer membrane,GO,1.0,exact_match
+extracellular region,GO:0005576,extracellular region,GO,1.0,exact_match
+extracellular matrix organization,GO:0030198,extracellular matrix organization,GO,1.0,exact_match
+cell adhesion,GO:0007155,cell adhesion,GO,1.0,exact_match
+extracellular matrix,GO:0031012,extracellular matrix,GO,1.0,exact_match
+integral component of plasma membrane,GO:0005886,plasma membrane,GO,0.9,exact_match
+signal transduction,GO:0007165,signal transduction,GO,1.0,exact_match
+cell proliferation,GO:0008283,cell population proliferation,GO,1.0,exact_match
+integral component of plasma membrane,GO:0016021,integral component of membrane,GO,0.8,synonym_match
+innate immune response,GO:0045087,innate immune response,GO,1.0,exact_match
+response to interferon-gamma,GO:0034341,response to type II interferon,GO,1.0,exact_match
+nucleus,GO:0005634,nucleus,GO,1.0,exact_match

@@ -1,0 +1,435 @@
+{
+    "context": {
+        "cell_type": "Glioblastoma cells",
+        "disease": "Glioblastoma",
+        "tissue": "Brain"
+    },
+    "input_genes": [
+        "SLIT3",
+        "CA8",
+        "ARX",
+        "AC109492.1",
+        "AL078602.1",
+        "DLX5",
+        "AC006296.3",
+        "DLX6",
+        "RFTN2",
+        "DLX6-AS1",
+        "AC090241.2",
+        "PDZRN3",
+        "GLI2",
+        "TBL1X",
+        "KCNH8",
+        "ST8SIA5",
+        "LRGUK",
+        "TPGS2",
+        "LINC02487",
+        "DACH2",
+        "SOX2-OT",
+        "KIAA0040",
+        "FCGBP",
+        "LINC00326",
+        "AC022075.1",
+        "AC125613.1",
+        "MCUB",
+        "EPHA7",
+        "PLS3",
+        "SLC6A5",
+        "CRYBG3",
+        "LINC01748",
+        "TENM1",
+        "LINC00535",
+        "ABTB2",
+        "MAN2A1",
+        "LAMP5",
+        "MOG",
+        "KITLG",
+        "ZNF618",
+        "PIP5K1B",
+        "AC005162.3",
+        "AC017053.1",
+        "FAM149A",
+        "CRB1",
+        "ERBB3",
+        "EPB41L4A",
+        "STC1",
+        "PID1",
+        "EGFR"
+    ],
+    "programs": [
+        {
+            "program_name": "Hedgehog signaling (GLI2)",
+            "description": "GLI2 is a key transcription factor in Sonic Hedgehog signaling, a pathway active in GBM that maintains stem-like tumor cells and drives proliferation. Hedgehog pathway activation promotes glioblastoma stem cell maintenance and is linked to therapy resistance ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9353242/#:~:text=GLI2%20also%20affects%20HH%20and,receptor%205%2C%20inhibited%20tumor%20cell)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9353242/#:~:text=partial%20drug%20resistance%20through%20this,pathway%20will%20be%20addressed)).",
+            "predicted_cellular_impact": [
+                "Enhanced GSC maintenance and self-renewal",
+                "Increased proliferation and treatment resistance"
+            ],
+            "evidence_summary": "GLI2, a Hedgehog pathway effector, is implicated in glioma stem cell renewal. In GBM, GLI2 activity (often linked to mTORC2) promotes expression of stemness genes, and GLI2 knockdown impairs GBM stem cell proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9353242/#:~:text=GLI2%20also%20affects%20HH%20and,receptor%205%2C%20inhibited%20tumor%20cell)). Hedgehog signaling sustains GBM growth and contributes to drug resistance ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9353242/#:~:text=partial%20drug%20resistance%20through%20this,pathway%20will%20be%20addressed)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9353242/#:~:text=GLI2%20also%20affects%20HH%20and,receptor%205%2C%20inhibited%20tumor%20cell)).",
+            "citations": [
+                {
+                    "reference": "Wang et al., Hedgehog signaling regulates glioblastoma (Oncol Lett 2022)",
+                    "id": "PMID:35949611",
+                    "type": "PMID",
+                    "notes": "Reviews Hedgehog/GLI2 role in GBM stemness"
+                },
+                {
+                    "reference": "Takezaki et al., Hedgehog signaling in glioma stem cells (Cancer Sci 2011)",
+                    "id": "PMID:21597402",
+                    "type": "PMID",
+                    "notes": "GLI2 required for glioma-initiating cell proliferation"
+                }
+            ],
+            "confidence_score": 0.8,
+            "significance_score": 0.3,
+            "supporting_genes": [
+                "GLI2"
+            ],
+            "supporting_gene_count": 1,
+            "required_components_present": false,
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0007224",
+                    "name": "Hedgehog signaling pathway",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Wang et al., Oncol Lett 2022",
+                            "id": "PMID:35949611",
+                            "type": "PMID",
+                            "notes": "Hedgehog pathway active in GBM with GLI2 effect"
+                        }
+                    ],
+                    "Genes": [
+                        "GLI2"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": []
+        },
+        {
+            "program_name": "Wnt5a-mediated invasion",
+            "description": "DLX5 and SOX2-OT in glioma cells activate WNT5A-driven pathways, inducing a glioma stem cell differentiation program into endothelial-like cells. This promotes peritumoral angiogenesis and diffuse invasion. SOX2-OT upregulates SOX2 and activates Wnt5a/\u03b2-catenin signaling, enhancing proliferation and chemoresistance ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27863244/#:~:text=malignant%20states%20of%20NSCs,to%20the%20lethality%20of%20GBM)) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/32439916/#:~:text=resistant%20cells%20and%20recurrent%20GBM,Our%20findings%20indicate%20that)).",
+            "predicted_cellular_impact": [
+                "Increased tumor invasiveness and neovascular mimicry",
+                "Endothelial-like differentiation of tumor cells"
+            ],
+            "evidence_summary": "In GBM models, a PAX6/DLX5 axis drives WNT5A expression to differentiate glioma stem cells into endothelial-like cells (supporting invasive outgrowth) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27863244/#:~:text=malignant%20states%20of%20NSCs,to%20the%20lethality%20of%20GBM)). Separately, the lncRNA SOX2-OT is upregulated in GBM relapse and promotes cell proliferation by increasing SOX2 and activating Wnt5a/\u03b2-catenin signaling ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/32439916/#:~:text=resistant%20cells%20and%20recurrent%20GBM,Our%20findings%20indicate%20that)). Together, these suggest a program where DLX5+SOX2-OT enhance Wnt5a-driven GBM invasion.",
+            "citations": [
+                {
+                    "reference": "Huang et al., PAX6/DLX5-WNT5A axis in GBM (Cancer Cell 2016)",
+                    "id": "PMID:27863244",
+                    "type": "PMID",
+                    "notes": "Shows DLX5 drives WNT5A for GSC differentiation/invasion"
+                },
+                {
+                    "reference": "Xiong et al., SOX2OT promotes TMZ resistance (Mol Oncol 2020)",
+                    "id": "PMID:32439916",
+                    "type": "PMID",
+                    "notes": "Links SOX2OT to SOX2 and Wnt5a activation in GBM"
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.5,
+            "supporting_genes": [
+                "DLX5",
+                "SOX2-OT"
+            ],
+            "supporting_gene_count": 2,
+            "required_components_present": false,
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0016055",
+                    "name": "Wnt signaling pathway",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Xiong et al., Mol Oncol 2020",
+                            "id": "PMID:32439916",
+                            "type": "PMID",
+                            "notes": "SOX2-OT activates Wnt5a/\u03b2-catenin pathway in GBM"
+                        }
+                    ],
+                    "Genes": [
+                        "DLX5",
+                        "SOX2-OT"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": []
+        },
+        {
+            "program_name": "RTK/PI3K signaling",
+            "description": "Receptor tyrosine kinases drive PI3K/Akt signaling for growth and survival. EGFR is frequently amplified in GBM, driving proliferation and poor prognosis ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12027172/#:~:text=rate,total%20of%2032%20studies%20with)). ERBB3 (HER3), though kinase-impaired, when overexpressed heterodimerizes (e.g. with FGFR3) to activate PI3K/Akt and metabolic pathways, supporting cell survival and therapy resistance ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8632286/#:~:text=characterized%20by%20marked%20Erb,survival%20signaling%2C%20which%20can)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8632286/#:~:text=high%20ERBB3%20activity%20may%20support,ERBB3%20and%20Fibroblast%20Growth%20Factor)).",
+            "predicted_cellular_impact": [
+                "Elevated PI3K/AKT signaling",
+                "Enhanced proliferation and survival"
+            ],
+            "evidence_summary": "EGFR amplification is one of the most common alterations in GBM and correlates with aggressive growth ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12027172/#:~:text=rate,total%20of%2032%20studies%20with)). A subset of GBMs overexpress ERBB3 (HER3), which upon ligand binding or heterodimerization triggers potent PI3K/Akt-driven metabolism and proliferation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8632286/#:~:text=characterized%20by%20marked%20Erb,survival%20signaling%2C%20which%20can)). Together, EGFR/ERBB3 signaling in GBM sustains tumor cell proliferation and contributes to treatment resistance.",
+            "citations": [
+                {
+                    "reference": "Zhu et al., EGFR amplification in GBM (Int J Mol Sci 2025)",
+                    "id": "PMID:40331985",
+                    "type": "PMID",
+                    "notes": "Meta-analysis showing frequent EGFRamp in GBM"
+                },
+                {
+                    "reference": "De Bacco et al., ERBB3 in GBM stem cells (Mol Cell Oncol 2021)",
+                    "id": "PMID:34859149",
+                    "type": "PMID",
+                    "notes": "Describes ERBB3 overexpression driving PI3K signaling in GBM"
+                }
+            ],
+            "confidence_score": 0.9,
+            "significance_score": 0.8,
+            "supporting_genes": [
+                "EGFR",
+                "ERBB3",
+                "KITLG",
+                "PIP5K1B"
+            ],
+            "supporting_gene_count": 4,
+            "required_components_present": false,
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0007169",
+                    "name": "transmembrane receptor protein tyrosine kinase signaling pathway",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Zhu et al., Int J Mol Sci 2025",
+                            "id": "PMID:40331985",
+                            "type": "PMID",
+                            "notes": "EGFR/ERBB3 signaling activates PI3K/Akt in GBM"
+                        }
+                    ],
+                    "Genes": [
+                        "EGFR",
+                        "ERBB3",
+                        "KITLG",
+                        "PIP5K1B"
+                    ]
+                },
+                {
+                    "ontology_id": "GO:0038095",
+                    "name": "Fc-gamma receptor signaling pathway involved in phagocytosis",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Yan et al., Front Oncol 2022",
+                            "id": "PMID:35082709",
+                            "type": "PMID",
+                            "notes": "FCGBP role in glioma, implicating immune-related signaling"
+                        }
+                    ],
+                    "Genes": [
+                        "FCGBP"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0005886",
+                    "name": "plasma membrane",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "De Bacco et al., Mol Cell Oncol 2021",
+                            "id": "PMID:34859149",
+                            "type": "PMID",
+                            "notes": "ERBB3 is a membrane RTK in GBM cells"
+                        }
+                    ],
+                    "Genes": [
+                        "ERBB3",
+                        "EGFR"
+                    ]
+                }
+            ]
+        },
+        {
+            "program_name": "Inhibitory neuron differentiation",
+            "description": "This program features genes classically involved in GABAergic interneuron development and synaptic function. ARX and DLX homeobox transcription factors direct GABAergic migration and differentiation during brain development ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/18799476/#:~:text=Mutations%20in%20the%20aristaless,changes%20within%20the%20subpallium%20in)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6623701/#:~:text=interneurons%20of%20the%20olfactory%20bulb,fashion%2C%20via%20expression%20of%20Wnt5a)). LAMP5, a vesicular GABA-transporter chaperone, marks inhibitory neurons and tunes GABAergic synapses ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6416879/#:~:text=Lysosome,we%20focus%20on%20the%20prominent)). Their joint expression in GBM suggests a proneural-like or interneuron-lineage transcriptional program.",
+            "predicted_cellular_impact": [
+                "Expression of neuronal differentiation markers",
+                "Adoption of inhibitory synaptic features"
+            ],
+            "evidence_summary": "ARX and DLX5/6 are known regulators of GABAergic interneuron development; loss of ARX disrupts interneuron migration and differentiation ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/18799476/#:~:text=Mutations%20in%20the%20aristaless,changes%20within%20the%20subpallium%20in)), while DLX5 directly induces GABAergic fate (via Wnt5a) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6623701/#:~:text=interneurons%20of%20the%20olfactory%20bulb,fashion%2C%20via%20expression%20of%20Wnt5a)). LAMP5 is a vesicular GABA transporter-sorting protein expressed in inhibitory neurons ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6416879/#:~:text=Lysosome,we%20focus%20on%20the%20prominent)). This profile indicates glioma cells may exhibit some neuronal/interneuron-like programs.",
+            "citations": [
+                {
+                    "reference": "Friocourt et al., ARX targets in cortical interneurons (J Neurosci 2011)",
+                    "id": "PMID:18799476",
+                    "type": "PMID",
+                    "notes": "ARX is required for GABAergic neuron development"
+                },
+                {
+                    "reference": "Paina et al., Dlx genes promote interneuron differentiation (J Neurosci 2011)",
+                    "id": "PMID:21325536",
+                    "type": "PMID",
+                    "notes": "DLX5 drives GABAergic interneuron differentiation via Wnt5a"
+                },
+                {
+                    "reference": "Koebis et al., LAMP5 in GABAergic neurons (Mol Brain 2019)",
+                    "id": "PMID:30867010",
+                    "type": "PMID",
+                    "notes": "LAMP5 is required for GABA synaptic transmission"
+                }
+            ],
+            "confidence_score": 0.6,
+            "significance_score": 0.6,
+            "supporting_genes": [
+                "ARX",
+                "DLX5",
+                "DLX6",
+                "LAMP5",
+                "SLC6A5"
+            ],
+            "supporting_gene_count": 5,
+            "required_components_present": false,
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0030182",
+                    "name": "neuron differentiation",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Paina et al., J Neurosci 2011",
+                            "id": "PMID:21325536",
+                            "type": "PMID",
+                            "notes": "DLX genes promote GABAergic differentiation"
+                        },
+                        {
+                            "reference": "Friocourt et al., J Neurosci 2011",
+                            "id": "PMID:18799476",
+                            "type": "PMID",
+                            "notes": "ARX important for interneuron development"
+                        }
+                    ],
+                    "Genes": [
+                        "ARX",
+                        "DLX5",
+                        "DLX6",
+                        "LAMP5",
+                        "SLC6A5"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0098793",
+                    "name": "presynaptic active zone",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Koebis et al., Mol Brain 2019",
+                            "id": "PMID:30867010",
+                            "type": "PMID",
+                            "notes": "LAMP5 located at inhibitory presynaptic boutons"
+                        }
+                    ],
+                    "Genes": [
+                        "LAMP5",
+                        "SLC6A5"
+                    ]
+                }
+            ]
+        },
+        {
+            "program_name": "Axon guidance and adhesion",
+            "description": "This program groups axon guidance cues and adhesion molecules. SLIT3 and EPHA7 are repulsive guidance signals in neural development ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2774558/#:~:text=Slits%20are%20large%2C%20secreted%20repulsive,expressed%20and%20secreted%20by%20both)) ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3977303/#:~:text=characterizes%20the%20role%20of%20the,dendritic%20spine%20formation%20and%20synaptic)), here repurposed to influence tumor angiogenesis and cell motility. TENM1 and CRB1 regulate neuronal cell adhesion and polarity. Altered expression of these genes may enhance GBM cell migration and neovascularization.",
+            "predicted_cellular_impact": [
+                "Increased cell migration and vascular development",
+                "Altered cell polarity and adhesion structures"
+            ],
+            "evidence_summary": "SLIT3 and EPHA7 are axon guidance ligands controlling neural wiring; SLIT3 also promotes angiogenesis in development ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2774558/#:~:text=Slits%20are%20large%2C%20secreted%20repulsive,expressed%20and%20secreted%20by%20both)), while EphA7 influences dendritic/axon growth and synapse formation ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3977303/#:~:text=characterizes%20the%20role%20of%20the,dendritic%20spine%20formation%20and%20synaptic)). CRB1 is part of the cell polarity complex. These factors can modulate the tumor microenvironment by guiding invasive behavior and vessel growth.",
+            "citations": [
+                {
+                    "reference": "Zhang et al., SLIT3 in angiogenesis (Blood 2009)",
+                    "id": "PMID:19741192",
+                    "type": "PMID",
+                    "notes": "SLIT3 is a secreted axon repellent that activates angiogenesis"
+                },
+                {
+                    "reference": "Clifford et al., EphA7 in cortical development (PNAS 2014)",
+                    "id": "PMID:24707048",
+                    "type": "PMID",
+                    "notes": "EphA7 modulates dendritic growth and guidance"
+                }
+            ],
+            "confidence_score": 0.7,
+            "significance_score": 0.7,
+            "supporting_genes": [
+                "SLIT3",
+                "EPHA7",
+                "TENM1",
+                "CRB1",
+                "EPB41L4A",
+                "PLS3"
+            ],
+            "supporting_gene_count": 6,
+            "required_components_present": false,
+            "atomic_biological_processes": [
+                {
+                    "ontology_id": "GO:0007411",
+                    "name": "axon guidance",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Zhang et al., Blood 2009",
+                            "id": "PMID:19741192",
+                            "type": "PMID",
+                            "notes": "SLIT3 is a repulsive axon guidance factor"
+                        }
+                    ],
+                    "Genes": [
+                        "SLIT3",
+                        "EPHA7",
+                        "TENM1"
+                    ]
+                },
+                {
+                    "ontology_id": "GO:0001525",
+                    "name": "angiogenesis",
+                    "ontology_label": "biological_process",
+                    "citation": [
+                        {
+                            "reference": "Zhang et al., Blood 2009",
+                            "id": "PMID:19741192",
+                            "type": "PMID",
+                            "notes": "SLIT3 promotes angiogenic growth"
+                        }
+                    ],
+                    "Genes": [
+                        "SLIT3",
+                        "EPHA7"
+                    ]
+                }
+            ],
+            "atomic_cellular_components": [
+                {
+                    "ontology_id": "GO:0045202",
+                    "name": "synapse",
+                    "ontology_label": "cellular_component",
+                    "citation": [
+                        {
+                            "reference": "Clifford et al., PNAS 2014",
+                            "id": "PMID:24707048",
+                            "type": "PMID",
+                            "notes": "EphA7 localizes to dendritic/synaptic regions"
+                        }
+                    ],
+                    "Genes": [
+                        "EPHA7"
+                    ]
+                }
+            ]
+        }
+    ],
+    "method": {
+        "clustering_basis": [
+            "literature review",
+            "pathway databases"
+        ],
+        "notes": "Programs derived by grouping genes from literature-validated pathways (Hedgehog, Wnt, RTK, axon guidance) and neural developmental programs."
+    },
+    "version": "2023-10-01"
+}

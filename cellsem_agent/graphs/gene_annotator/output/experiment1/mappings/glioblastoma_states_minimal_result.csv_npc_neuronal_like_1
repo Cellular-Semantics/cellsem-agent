@@ -1,0 +1,11 @@
+original_term,ontology_id,ontology_label,ontology_source,confidence_score,mapping_method
+axoneme assembly,GO:0035082,axoneme assembly,GO,1.0,exact_match
+cilium movement,GO:0003341,cilium movement,GO,1.0,exact_match
+axoneme,GO:0005930,axoneme,GO,1.0,exact_match
+cilium,GO:0005929,cilium,GO,1.0,exact_match
+extracellular matrix organization,GO:0030198,extracellular matrix organization,GO,1.0,exact_match
+cell adhesion,GO:0007155,cell adhesion,GO,1.0,exact_match
+extracellular matrix,GO:0031012,extracellular matrix,GO,1.0,exact_match
+glutamate receptor signaling pathway,GO:0007215,glutamate receptor signaling pathway,GO,1.0,exact_match
+"synaptic transmission, GABAergic",GO:0051932,"synaptic transmission, GABAergic",GO,1.0,exact_match
+postsynaptic density,GO:0014069,postsynaptic density,GO,1.0,exact_match
