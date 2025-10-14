@@ -1,6 +1,7 @@
 import csv
 
-tsv_path = './resources/groundings.tsv'
+# tsv_path = './resources/groundings.tsv'
+tsv_path = '../cxg_annotate/resources/groundings.tsv'
 
 tp = fp = fn = tn = 0
 

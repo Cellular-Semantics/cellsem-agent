@@ -1,0 +1,63 @@
+input_name	text	cl_id	cl_label
+DC1	conventional dendritic cell 1	CL:0000990	conventional dendritic cell
+DC1	DC1	CL:0000990	conventional dendritic cell
+DC2	dendritic cell 2	CL:0000990	conventional dendritic cell
+DC2	DC2	CL:0000990	conventional dendritic cell
+EVT	extravillous trophoblast	CL:0008036	extravillous trophoblast
+EVT	EVT	CL:0008036	extravillous trophoblast
+Endo (f)	Fetal endothelial cell	CL:0000115	endothelial cell
+Endo (f)	Endo (f)	CL:0000115	endothelial cell
+Endo (m)	Maternal endothelial cell	CL:0000115	endothelial cell
+Endo (m)	Endo (m)	CL:0000115	endothelial cell
+Endo L	Lymphatic endothelial cell	CL:0002138	endothelial cell of lymphatic vessel
+Endo L	Endo L	CL:0002138	endothelial cell of lymphatic vessel
+Epi1	epithelial glandular cell 1	CL:0000150	glandular secretory epithelial cell
+Epi1	Epi1	CL:0000150	glandular secretory epithelial cell
+Epi2	epithelial glandular cell 2	CL:0000150	glandular secretory epithelial cell
+Epi2	Epi2	CL:0000150	glandular secretory epithelial cell
+Granulocytes	granulocyte	CL:0000094	granulocyte
+Granulocytes	granulocyte	CL:0000094	granulocyte
+HB	Hofbauer cell	CL:3000001	Hofbauer cell
+HB	HB	CL:3000001	Hofbauer cell
+ILC3	innate lymphocyte cell 3	CL:0001071	group 3 innate lymphoid cell
+ILC3	ILC3	CL:0001071	group 3 innate lymphoid cell
+MO	monocyte	CL:0000576	monocyte
+MO	MO	CL:0000576	monocyte
+NK CD16+	natural killer cell CD16+	CL:0000939	CD16-positive, CD56-dim natural killer cell, human
+NK CD16+	NK CD16+	CL:0000939	CD16-positive, CD56-dim natural killer cell, human
+NK CD16-	natural killer cell CD16-	CL:0000938	CD16-negative, CD56-bright natural killer cell, human
+NK CD16-	NK CD16-	CL:0000938	CD16-negative, CD56-bright natural killer cell, human
+Plasma	plasma cell	CL:0000786	plasma cell
+Plasma	Plasma	CL:0000786	plasma cell
+SCT	syncytiotrophoblast	CL:0000525	syncytiotrophoblast cell
+SCT	SCT	CL:0000525	syncytiotrophoblast cell
+Tcells	T cell	CL:0000084	T cell
+Tcells	T cell	CL:0000084	T cell
+VCT	villous cytotrophoblast	CL:0000523	mononuclear cytotrophoblast cell
+VCT	VCT	CL:0000523	mononuclear cytotrophoblast cell
+dM1	decidual macrophage 1	CL:4033088	decidual resident macrophage
+dM1	dM1	CL:4033088	decidual resident macrophage
+dM2	decidual macrophage 2	CL:4033088	decidual resident macrophage
+dM2	dM2	CL:4033088	decidual resident macrophage
+dM3	decidual macrophage 3	CL:4033088	decidual resident macrophage
+dM3	dM3	CL:4033088	decidual resident macrophage
+dNK p	proliferating decidual natural killer cell	CL:4052028	uterine natural killer cell
+dNK p	dNK p	CL:4052028	uterine natural killer cell
+dNK1	decidual natural killer cell 1	CL:4052051	uterine natural killer cell 1, human
+dNK1	dNK1	CL:4052051	uterine natural killer cell 1, human
+dNK2	decidual natural killer cell 2	CL:4052052	uterine natural killer cell 2, human
+dNK2	dNK2	CL:4052052	uterine natural killer cell 2, human
+dNK3	decidual natural killer cell 3	CL:4052053	uterine natural killer cell 3, human
+dNK3	dNK3	CL:4052053	uterine natural killer cell 3, human
+dP1	dP1	NO MATCH found	
+dP2	dP2	NO MATCH found	
+dS1	decidual stromal cell 1	CL:2000002	decidual cell
+dS1	dS1	CL:2000002	decidual cell
+dS2	decidual stromal cell 2	CL:2000002	decidual cell
+dS2	dS2	NO MATCH found	
+dS3	decidual stromal cell 3	CL:2000002	decidual cell
+dS3	dS3	NO MATCH found	
+fFB1	fetal fibroblast 1	CL:0000057	fibroblast
+fFB1	fFB1	NO MATCH found	
+fFB2	fetal	NO MATCH found	
+fFB2	fFB2	NO MATCH found	

@@ -1,0 +1,29 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Mid stalk	epithelial cell of lung	CL:0000082	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Mid tip	epithelial cell of lung	CL:0000082	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Late stalk	epithelial cell of lung	CL:0000082	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+AT2	pulmonary alveolar type 2 cell	CL:0002063	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Late tip	epithelial cell of lung	CL:0000082	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Mid airway progenitor	respiratory tract epithelial cell	CL:0002368	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Pulmonary NE precursor	neuroendocrine cell	CL:0000165	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+GHRL+ NE precursor	neuroendocrine cell	CL:0000165	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Mid basal	basal cell	CL:0000646	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Late basal	basal cell	CL:0000646	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Pulmonary neuroendocrine	neuroendocrine cell	CL:0000165	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+MUC5AC+ ASCL1+ progenitor	epithelial cell of lung	CL:0000082	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Early tip	epithelial cell of lung	CL:0000082	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Late airway progenitor	respiratory tract epithelial cell	CL:0002368	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Early stalk	epithelial cell of lung	CL:0000082	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Early airway progenitor	respiratory tract epithelial cell	CL:0002368	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Club	club cell	CL:0000158	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Squamous	epithelial cell of lung	CL:0000082	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+AT1	pulmonary alveolar type 1 cell	CL:0002062	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Secretory 2	lung secretory cell	CL:1000272	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Secretory 3	lung secretory cell	CL:1000272	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Secretory 1	lung secretory cell	CL:1000272	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+GHRL+ neuroendocrine	neuroendocrine cell	CL:0000165	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+SMG	epithelial cell of lung	CL:0000082	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+NEUROD1+ pulmonary neuroendocrine	pulmonary neuroendocrine cell	CL:1000223	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Proximal basal	basal cell	CL:0000646	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+Secretory progenitors	lung secretory cell	CL:1000272	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad
+SMG basal	basal cell	CL:0000646	https://doi.org/10.1016/j.cell.2022.11.005	https://datasets.cellxgene.cziscience.com/f9941c87-2741-4f2b-b158-12c19d2ed50e.h5ad

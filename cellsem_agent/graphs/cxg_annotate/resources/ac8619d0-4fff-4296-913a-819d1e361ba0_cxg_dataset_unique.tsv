@@ -1,0 +1,33 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+dS1	decidual cell	CL:2000002	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+VCT	placental villous trophoblast	CL:2000060	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+dNK2	decidual natural killer cell, human	CL:0002343	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+dS2	decidual cell	CL:2000002	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+Tcells	T cell	CL:0000084	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+dNK1	decidual natural killer cell, human	CL:0002343	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+dM2	macrophage	CL:0000235	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+dM1	macrophage	CL:0000235	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+dNK3	decidual natural killer cell, human	CL:0002343	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+fFB1	fibroblast	CL:0000057	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+EVT	extravillous trophoblast	CL:0008036	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+NK CD16+	CD16-positive, CD56-dim natural killer cell, human	CL:0000939	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+HB	Hofbauer cell	CL:3000001	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+SCT	syncytiotrophoblast cell	CL:0000525	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+dS3	decidual cell	CL:2000002	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+dM3	macrophage	CL:0000235	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+MO	monocyte	CL:0000576	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+dNK p	decidual natural killer cell, human	CL:0002343	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+Plasma	plasma cell	CL:0000786	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+DC1	conventional dendritic cell	CL:0000990	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+DC2	conventional dendritic cell	CL:0000990	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+Granulocytes	granulocyte	CL:0000094	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+NK CD16-	CD16-negative, CD56-bright natural killer cell, human	CL:0000938	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+ILC3	innate lymphoid cell	CL:0001065	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+fFB2	fibroblast	CL:0000057	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+Endo (m)	endothelial cell	CL:0000115	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+Endo L	endothelial cell	CL:0000115	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+Endo (f)	endothelial cell	CL:0000115	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+dP1	pericyte	CL:0000669	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+dP2	pericyte	CL:0000669	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+Epi1	glandular secretory epithelial cell	CL:0000150	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
+Epi2	glandular secretory epithelial cell	CL:0000150	https://doi.org/10.1038/s41586-018-0698-6	https://datasets.cellxgene.cziscience.com/ac8619d0-4fff-4296-913a-819d1e361ba0.h5ad
