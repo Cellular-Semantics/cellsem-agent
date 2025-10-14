@@ -1,0 +1,50 @@
+[
+  {
+    "name": "cone photoreceptor cells",
+    "full_name": "cone photoreceptor cells",
+    "paper_synonyms": "cone photoreceptors; cones",
+    "tissue_context": "foveola; fovea; parafovea"
+  },
+  {
+    "name": "Muller glia",
+    "full_name": "M\u00fcller glia",
+    "paper_synonyms": "M\u00fcller cells",
+    "tissue_context": "foveola; fovea; parafovea"
+  },
+  {
+    "name": "Bipolar cells",
+    "full_name": "bipolar cells",
+    "paper_synonyms": null,
+    "tissue_context": "fovea"
+  },
+  {
+    "name": "retinal ganglion cells",
+    "full_name": "retinal ganglion cells",
+    "paper_synonyms": "RGCs",
+    "tissue_context": "parafovea; fovea"
+  },
+  {
+    "name": "RGCs",
+    "full_name": "retinal ganglion cells",
+    "paper_synonyms": "retinal ganglion cells",
+    "tissue_context": "parafovea; fovea"
+  },
+  {
+    "name": "Muller cell",
+    "full_name": "M\u00fcller cell",
+    "paper_synonyms": "M\u00fcller cells; M\u00fcller glia",
+    "tissue_context": "foveola; fovea; parafovea"
+  },
+  {
+    "name": "rod and cone photoreceptor cells",
+    "full_name": "rod and cone photoreceptor cells",
+    "paper_synonyms": null,
+    "tissue_context": "fovea"
+  },
+  {
+    "name": "rod photoreceptor cells",
+    "full_name": "rod photoreceptor cells",
+    "paper_synonyms": "rod photoreceptors; rods",
+    "tissue_context": "parafovea; perifovea; fovea"
+  }
+]

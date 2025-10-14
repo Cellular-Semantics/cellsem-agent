@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Innate lymphoid cells",
+    "full_name": "Innate Lymphoid Cells (ILCs)",
+    "paper_synonyms": "ILCs",
+    "tissue_context": "mucosal surfaces"
+  },
+  {
+    "name": "ILCs",
+    "full_name": "Innate Lymphoid Cells",
+    "paper_synonyms": "Innate Lymphoid Cells",
+    "tissue_context": "mucosal surfaces"
+  },
+  {
+    "name": "T cell",
+    "full_name": null,
+    "paper_synonyms": "T lymphocytes; T cells",
+    "tissue_context": null
+  },
+  {
+    "name": "NK cells",
+    "full_name": "natural killer cells",
+    "paper_synonyms": "natural killer cells; NK",
+    "tissue_context": "bloodstream; liver; uterus; decidua"
+  },
+  {
+    "name": "CD8+ cytotoxic T cells",
+    "full_name": "CD8+ cytotoxic T cells",
+    "paper_synonyms": "cytotoxic CD8+ cells",
+    "tissue_context": null
+  },
+  {
+    "name": "ILC1",
+    "full_name": "group 1 innate lymphoid cells",
+    "paper_synonyms": "group 1 ILCs",
+    "tissue_context": "intestine, lung, skin and decidua"
+  },
+  {
+    "name": "ILC2",
+    "full_name": "group 2 innate lymphoid cells",
+    "paper_synonyms": "group 2 ILCs",
+    "tissue_context": "lung, intestine, adipose tissue, skin, and gut"
+  },
+  {
+    "name": "ILC3",
+    "full_name": "group 3 innate lymphoid cells",
+    "paper_synonyms": "group 3 ILCs",
+    "tissue_context": "gut, tonsils, and intestine"
+  },
+  {
+    "name": "CD4+T helper (Th) cells",
+    "full_name": "CD4+ T helper (Th) cells",
+    "paper_synonyms": "T helper (Th) cells",
+    "tissue_context": null
+  },
+  {
+    "name": "Th1",
+    "full_name": "T helper 1 cells",
+    "paper_synonyms": "T helper 1 cells",
+    "tissue_context": null
+  },
+  {
+    "name": "Th2",
+    "full_name": "T helper 2 cells",
+    "paper_synonyms": "T helper 2 cells",
+    "tissue_context": null
+  },
+  {
+    "name": "Th17",
+    "full_name": "T helper 17 cells",
+    "paper_synonyms": "T helper 17 cells",
+    "tissue_context": null
+  },
+  {
+    "name": "ILC",
+    "full_name": "innate lymphoid cell",
+    "paper_synonyms": "ILCs; Innate Lymphoid Cells",
+    "tissue_context": "mucosal surfaces"
+  }
+]

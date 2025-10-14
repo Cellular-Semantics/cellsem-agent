@@ -1,0 +1,20 @@
+[
+  {
+    "name": "myoblast",
+    "full_name": "myoblast",
+    "paper_synonyms": "0\u2009h myoblasts; 0\u2009h myoblast cells; 0\u2009h myoblast nuclei; myoblast progenitor cells; MB",
+    "tissue_context": "C2C12 myogenic system; C2C12 0\u2009h myoblasts"
+  },
+  {
+    "name": "myoblast cells",
+    "full_name": "myoblast cells",
+    "paper_synonyms": "0\u2009h myoblasts; 0\u2009h myoblast cells; 0\u2009h myoblast nuclei; myoblast progenitor cells; MB",
+    "tissue_context": "C2C12 myogenic system; C2C12 0\u2009h myoblasts"
+  },
+  {
+    "name": "MB",
+    "full_name": "0\u2009h myoblast cells",
+    "paper_synonyms": "myoblast; 0\u2009h myoblasts; 0\u2009h myoblast nuclei; myoblast progenitor cells",
+    "tissue_context": "C2C12 myogenic system; C2C12 0\u2009h myoblasts"
+  }
+]

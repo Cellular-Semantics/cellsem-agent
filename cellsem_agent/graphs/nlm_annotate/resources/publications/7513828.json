@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ICM cells",
+    "full_name": "inner cell mass cells",
+    "paper_synonyms": "inner cell mass; ICM",
+    "tissue_context": "inner cell mass (ICM) of the blastocyst"
+  },
+  {
+    "name": "epiblast",
+    "full_name": "epiblast",
+    "paper_synonyms": "EPI",
+    "tissue_context": "inner cell mass (ICM) of the blastocyst"
+  },
+  {
+    "name": "PrE",
+    "full_name": "primitive endoderm",
+    "paper_synonyms": "primitive endoderm; hypoblast",
+    "tissue_context": "inner cell mass (ICM) of the blastocyst"
+  }
+]

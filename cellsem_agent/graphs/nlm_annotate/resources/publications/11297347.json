@@ -1,0 +1,26 @@
+[
+  {
+    "name": "trophoblast cell",
+    "full_name": "trophoblast cell",
+    "paper_synonyms": "trophoblasts",
+    "tissue_context": "mouse placenta"
+  },
+  {
+    "name": "spongiotrophoblasts",
+    "full_name": "spongiotrophoblasts",
+    "paper_synonyms": null,
+    "tissue_context": "junctional zone of the placenta"
+  },
+  {
+    "name": "S-TGCs",
+    "full_name": "sinusoidal trophoblast giant cells",
+    "paper_synonyms": "sinusoidal TGCs",
+    "tissue_context": "labyrinth"
+  },
+  {
+    "name": "trophoblast progenitor cells",
+    "full_name": "trophoblast progenitor cells",
+    "paper_synonyms": null,
+    "tissue_context": "mouse placenta"
+  }
+]

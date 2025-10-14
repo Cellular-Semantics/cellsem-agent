@@ -1,0 +1,44 @@
+[
+  {
+    "name": "mesenchymal cells",
+    "full_name": "mesenchymal cells",
+    "paper_synonyms": null,
+    "tissue_context": "salivary glands (SG); mesenchyme"
+  },
+  {
+    "name": "MECs",
+    "full_name": "myoepithelial cells",
+    "paper_synonyms": "MEC; myoepithelial cells",
+    "tissue_context": "salivary glands (SG); submandibular gland (SMG)"
+  },
+  {
+    "name": "acinar cells",
+    "full_name": "acinar cells",
+    "paper_synonyms": null,
+    "tissue_context": "salivary glands (SG); submandibular gland (SMG); sublingual (SLG)"
+  },
+  {
+    "name": "acinar and MECs",
+    "full_name": "acinar and myoepithelial cells",
+    "paper_synonyms": "myoepithelial cells; MECs; MEC",
+    "tissue_context": "salivary glands (SG); submandibular gland (SMG)"
+  },
+  {
+    "name": "acinar",
+    "full_name": "acinar cells",
+    "paper_synonyms": null,
+    "tissue_context": "salivary glands (SG); submandibular gland (SMG); sublingual (SLG)"
+  },
+  {
+    "name": "MEC",
+    "full_name": "myoepithelial cells",
+    "paper_synonyms": "MECs; myoepithelial cells",
+    "tissue_context": "salivary glands (SG); submandibular gland (SMG)"
+  },
+  {
+    "name": "basal cells",
+    "full_name": "basal cells",
+    "paper_synonyms": "basal duct cells",
+    "tissue_context": "ducts; submandibular gland (SMG); salivary glands (SG)"
+  }
+]

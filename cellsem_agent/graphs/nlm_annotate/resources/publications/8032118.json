@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Cortical pyramidal neuron",
+    "full_name": "cortical pyramidal neuron",
+    "paper_synonyms": "pyramidal cell; PC; pyramidal cortical neuron",
+    "tissue_context": "layers (L2/3) of the primary somatosensory cortex"
+  },
+  {
+    "name": "Hippocampal pyramidal neuron",
+    "full_name": "hippocampal pyramidal neuron",
+    "paper_synonyms": "pyramidal cell; PC; superficial pyramidal cell (sPC); deep pyramidal cell (dPC)",
+    "tissue_context": "hippocampal CA1; CA1 superficial sublayer; CA1 deep sublayer"
+  },
+  {
+    "name": "Neuron",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

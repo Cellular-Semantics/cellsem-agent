@@ -1,0 +1,26 @@
+[
+  {
+    "name": "GABAergic amacrine cells",
+    "full_name": "GABAergic amacrine cells",
+    "paper_synonyms": "GAD67 positive amacrine cells; GAD67 amacrine cells",
+    "tissue_context": "adult mouse retina; inner nuclear layer (INL); ganglion cell layer (GCL)"
+  },
+  {
+    "name": "RGCs",
+    "full_name": "retinal ganglion cells",
+    "paper_synonyms": "RGC; retinal ganglion cell; retinal ganglion cells",
+    "tissue_context": "adult mouse retina; ganglion cell layer (GCL)"
+  },
+  {
+    "name": "GABAergic amacrine cell",
+    "full_name": "GABAergic amacrine cell",
+    "paper_synonyms": "GAD67 positive amacrine cell; GAD67 positive amacrine cells",
+    "tissue_context": "adult mouse retina; inner nuclear layer (INL); ganglion cell layer (GCL)"
+  },
+  {
+    "name": "retinal ganglion cell",
+    "full_name": "retinal ganglion cell",
+    "paper_synonyms": "RGC; RGCs; retinal ganglion cells",
+    "tissue_context": "adult mouse retina; ganglion cell layer (GCL)"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "the TME of OC"
+  },
+  {
+    "name": "naive B cells",
+    "full_name": "na\u00efve B cells",
+    "paper_synonyms": null,
+    "tissue_context": "the TIME of OC"
+  },
+  {
+    "name": "memory resting CD4+ T cells",
+    "full_name": "CD4 memory resting T cells",
+    "paper_synonyms": null,
+    "tissue_context": "the TIME of OC"
+  },
+  {
+    "name": "M2 macrophages",
+    "full_name": "M2 macrophages",
+    "paper_synonyms": "M2-like macrophages",
+    "tissue_context": "the TIME of OC; OC tissues"
+  },
+  {
+    "name": "memory B cells",
+    "full_name": "memory B cells",
+    "paper_synonyms": null,
+    "tissue_context": "the TIME of OC"
+  },
+  {
+    "name": "CD8+ T cells",
+    "full_name": "CD8 T cells",
+    "paper_synonyms": null,
+    "tissue_context": "the TIME of OC"
+  },
+  {
+    "name": "follicular helper T cells",
+    "full_name": "follicular helper T cells",
+    "paper_synonyms": null,
+    "tissue_context": "the TIME of OC"
+  },
+  {
+    "name": "gamma delta T cells",
+    "full_name": "gamma-delta T cells",
+    "paper_synonyms": null,
+    "tissue_context": "the TIME of OC"
+  },
+  {
+    "name": "macrophage",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "the TIME of OC; OC tissues; normal ovary tissues"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "the TIME of OC"
+  },
+  {
+    "name": "M2",
+    "full_name": "M2 macrophages",
+    "paper_synonyms": "M2-like macrophages",
+    "tissue_context": "the TIME of OC"
+  }
+]

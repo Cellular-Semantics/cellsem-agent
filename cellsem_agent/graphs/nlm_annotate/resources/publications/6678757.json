@@ -1,0 +1,44 @@
+[
+  {
+    "name": "T cell",
+    "full_name": "T cell",
+    "paper_synonyms": null,
+    "tissue_context": "tumour microenvironment (TME); tumour site"
+  },
+  {
+    "name": "CD8+ T cells",
+    "full_name": "CD8+ T cells",
+    "paper_synonyms": "cytotoxic CD8+ T cells; CD8+ cytotoxic T lymphocytes",
+    "tissue_context": "tumour site; tumour microenvironment (TME); lymphatic organs; lympho-nodes; peripheral tissue"
+  },
+  {
+    "name": "CD4+ T regulatory (Treg) cells",
+    "full_name": "CD4+ T regulatory (T reg) cells",
+    "paper_synonyms": "T regulatory (T reg) cells; T reg cells; regulatory T cell",
+    "tissue_context": "tumour microenvironment (TME)"
+  },
+  {
+    "name": "T cells",
+    "full_name": "T cells",
+    "paper_synonyms": null,
+    "tissue_context": "tumour microenvironment (TME); tumour site"
+  },
+  {
+    "name": "dendritic cell",
+    "full_name": "dendritic cell",
+    "paper_synonyms": "DC; DCs",
+    "tissue_context": "intra-tumoral DCs"
+  },
+  {
+    "name": "DC",
+    "full_name": "dendritic cell",
+    "paper_synonyms": "dendritic cell; DCs",
+    "tissue_context": "intra-tumoral DCs"
+  },
+  {
+    "name": "CD8+ T cell",
+    "full_name": "CD8+ T cell",
+    "paper_synonyms": "cytotoxic CD8+ T cells; CD8+ cytotoxic T lymphocytes",
+    "tissue_context": "tumour site; tumour microenvironment (TME); lymphatic organs; lympho-nodes; peripheral tissue"
+  }
+]

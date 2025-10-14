@@ -1,0 +1,20 @@
+[
+  {
+    "name": "HSC",
+    "full_name": "hematopoietic stem cell",
+    "paper_synonyms": null,
+    "tissue_context": "bone marrow"
+  },
+  {
+    "name": "MPP",
+    "full_name": "multipotent progenitor",
+    "paper_synonyms": null,
+    "tissue_context": "bone marrow; circulation"
+  },
+  {
+    "name": "GMP",
+    "full_name": "granulocyte-macrophage progenitor",
+    "paper_synonyms": "granulocyte macrophage progenitor cells",
+    "tissue_context": "bone marrow"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "articular chondrocytes",
+    "full_name": "articular chondrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "articular cartilage"
+  },
+  {
+    "name": "mesenchymal stem cells",
+    "full_name": "mesenchymal stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "articular cartilage"
+  },
+  {
+    "name": "osteocytes",
+    "full_name": "osteocytes",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "adipocytes",
+    "full_name": "adipocytes",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "chondrocytes",
+    "full_name": "chondrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "articular cartilage"
+  },
+  {
+    "name": "chondrocyte",
+    "full_name": "chondrocyte",
+    "paper_synonyms": null,
+    "tissue_context": "articular cartilage"
+  }
+]

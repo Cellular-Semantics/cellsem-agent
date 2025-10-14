@@ -1,0 +1,20 @@
+[
+  {
+    "name": "cardiomyocytes",
+    "full_name": "cardiomyocytes",
+    "paper_synonyms": "beating cardiomyocytes; CMCs",
+    "tissue_context": "heart; embryonic heart; post-MI hearts"
+  },
+  {
+    "name": "CMCs",
+    "full_name": "beating cardiomyocytes",
+    "paper_synonyms": "beating cardiomyocytes",
+    "tissue_context": "heart"
+  },
+  {
+    "name": "cardiac",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

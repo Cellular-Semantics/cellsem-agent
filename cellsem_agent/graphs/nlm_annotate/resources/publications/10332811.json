@@ -1,0 +1,14 @@
+[
+  {
+    "name": "interneuron",
+    "full_name": "GABAergic interneuron",
+    "paper_synonyms": "inhibitory interneuron; GABAergic interneuron",
+    "tissue_context": "supragranular layers of human neocortex"
+  },
+  {
+    "name": "pyramidal",
+    "full_name": "pyramidal neuron",
+    "paper_synonyms": "pyramidal neuron; pyramidal cell; excitatory pyramidal neuron; Pyr",
+    "tissue_context": "supragranular layers of human neocortex"
+  }
+]

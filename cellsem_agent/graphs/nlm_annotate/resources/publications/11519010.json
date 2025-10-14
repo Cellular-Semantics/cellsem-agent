@@ -1,0 +1,164 @@
+[
+  {
+    "name": "myeloid cells",
+    "full_name": "myeloid cells",
+    "paper_synonyms": null,
+    "tissue_context": "inflamed gut samples; lamina propria; RA synovium"
+  },
+  {
+    "name": "T/NK/IL cells",
+    "full_name": "T cells, natural killer cells and innate lymphoid cells",
+    "paper_synonyms": null,
+    "tissue_context": "gut; RA synovium"
+  },
+  {
+    "name": "B/plasma cells",
+    "full_name": "B cells and plasma cells",
+    "paper_synonyms": null,
+    "tissue_context": "gut; mucosal aggregates; RA synovium"
+  },
+  {
+    "name": "T/NK/IL",
+    "full_name": "T cells, natural killer cells and innate lymphoid cells",
+    "paper_synonyms": null,
+    "tissue_context": "gut; RA synovium"
+  },
+  {
+    "name": "B",
+    "full_name": "B cell",
+    "paper_synonyms": null,
+    "tissue_context": "gut; mucosal aggregates; RA synovium"
+  },
+  {
+    "name": "plasma",
+    "full_name": "plasma cell",
+    "paper_synonyms": null,
+    "tissue_context": "gut; mucosal aggregates; RA synovium"
+  },
+  {
+    "name": "myeloid",
+    "full_name": "myeloid cell",
+    "paper_synonyms": null,
+    "tissue_context": "inflamed gut samples; lamina propria; RA synovium"
+  },
+  {
+    "name": "fibro",
+    "full_name": "fibroblast",
+    "paper_synonyms": "fibroblast",
+    "tissue_context": "gut; sub-epithelial region; lamina propria; RA synovium"
+  },
+  {
+    "name": "ILC",
+    "full_name": "innate lymphoid cell",
+    "paper_synonyms": "innate lymphoid cell",
+    "tissue_context": "gut; RA synovium"
+  },
+  {
+    "name": "innate lymphoid cell",
+    "full_name": "innate lymphoid cell",
+    "paper_synonyms": "ILC",
+    "tissue_context": "gut; RA synovium"
+  },
+  {
+    "name": "macro",
+    "full_name": "macrophage",
+    "paper_synonyms": "macrophage",
+    "tissue_context": "gut; lamina propria; granulomas; RA synovium"
+  },
+  {
+    "name": "mucosal-associated invariant T",
+    "full_name": "mucosal-associated invariant T",
+    "paper_synonyms": "MAIT",
+    "tissue_context": "gut; RA synovium"
+  },
+  {
+    "name": "mono",
+    "full_name": "monocyte",
+    "paper_synonyms": "monocyte",
+    "tissue_context": "inflamed gut samples; lamina propria; RA synovium"
+  },
+  {
+    "name": "monocyte",
+    "full_name": "monocyte",
+    "paper_synonyms": "mono",
+    "tissue_context": "inflamed gut samples; lamina propria; RA synovium"
+  },
+  {
+    "name": "NK",
+    "full_name": "natural killer cell",
+    "paper_synonyms": "natural killer cell",
+    "tissue_context": "gut; RA synovium"
+  },
+  {
+    "name": "natural killer cell",
+    "full_name": "natural killer cell",
+    "paper_synonyms": "NK",
+    "tissue_context": "gut; RA synovium"
+  },
+  {
+    "name": "pDC",
+    "full_name": "plasmacytoid dendritic cell",
+    "paper_synonyms": "plasmacytoid dendritic cell",
+    "tissue_context": "gut; RA synovium"
+  },
+  {
+    "name": "plasmacytoid dendritic cell",
+    "full_name": "plasmacytoid dendritic cell",
+    "paper_synonyms": "pDC",
+    "tissue_context": "gut; RA synovium"
+  },
+  {
+    "name": "Tfh",
+    "full_name": "CD4+ follicular helper T cell",
+    "paper_synonyms": "CD4+ follicular helper T cell",
+    "tissue_context": "gut; RA synovium"
+  },
+  {
+    "name": "CD4+ follicular helper T cell",
+    "full_name": "CD4+ follicular helper T cell",
+    "paper_synonyms": "Tfh",
+    "tissue_context": "gut; RA synovium"
+  },
+  {
+    "name": "CD4+ regulatory T cell",
+    "full_name": "CD4+ regulatory T cell",
+    "paper_synonyms": "Treg",
+    "tissue_context": "gut; RA synovium"
+  },
+  {
+    "name": "MAIT",
+    "full_name": "mucosal-associated invariant T",
+    "paper_synonyms": "mucosal-associated invariant T",
+    "tissue_context": "gut; RA synovium"
+  },
+  {
+    "name": "DC",
+    "full_name": "dendritic cell",
+    "paper_synonyms": "dendritic cell",
+    "tissue_context": "gut; lamina propria; T cell aggregates; regions of epithelial damage; RA synovium"
+  },
+  {
+    "name": "dendritic cell",
+    "full_name": "dendritic cell",
+    "paper_synonyms": "DC",
+    "tissue_context": "gut; lamina propria; T cell aggregates; regions of epithelial damage; RA synovium"
+  },
+  {
+    "name": "fibroblast",
+    "full_name": "fibroblast",
+    "paper_synonyms": "fibro",
+    "tissue_context": "gut; sub-epithelial region; lamina propria; RA synovium"
+  },
+  {
+    "name": "macrophage",
+    "full_name": "macrophage",
+    "paper_synonyms": "macro",
+    "tissue_context": "gut; lamina propria; granulomas; RA synovium"
+  },
+  {
+    "name": "Treg",
+    "full_name": "CD4+ regulatory T cell",
+    "paper_synonyms": "CD4+ regulatory T cell",
+    "tissue_context": "gut; RA synovium"
+  }
+]

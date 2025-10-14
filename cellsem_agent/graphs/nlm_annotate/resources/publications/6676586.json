@@ -1,0 +1,38 @@
+[
+  {
+    "name": "MSCs",
+    "full_name": "Mesenchymal stem cells",
+    "paper_synonyms": "mesenchymal stem cells",
+    "tissue_context": "bone marrow (BM)"
+  },
+  {
+    "name": "BM-MSCs",
+    "full_name": "bone marrow mesenchymal stem cells",
+    "paper_synonyms": "bone marrow (BM)-MSCs; BM-derived MSCs",
+    "tissue_context": "bone marrow (BM)"
+  },
+  {
+    "name": "CD4+CCR6+CD45RO+ T helper 17 (Th17) cells",
+    "full_name": "CD4 + CCR6 + CD45RO + T helper 17 (Th17) cells",
+    "paper_synonyms": "Th17 cells; memory Th17 cells",
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs)"
+  },
+  {
+    "name": "Th17 cell",
+    "full_name": "T helper 17 cell",
+    "paper_synonyms": "T helper 17 (Th17) cells",
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs)"
+  },
+  {
+    "name": "Th17 cells",
+    "full_name": "T helper 17 cells",
+    "paper_synonyms": "T helper 17 (Th17) cells",
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs)"
+  },
+  {
+    "name": "T regulatory cells",
+    "full_name": "T regulatory (Treg) cells",
+    "paper_synonyms": "Treg cells; Regulatory T cell",
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs)"
+  }
+]

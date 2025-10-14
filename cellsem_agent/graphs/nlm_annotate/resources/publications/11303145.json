@@ -1,0 +1,38 @@
+[
+  {
+    "name": "stem cell",
+    "full_name": "pituitary stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "anterior pituitary gland (APG)"
+  },
+  {
+    "name": "corticotrophs",
+    "full_name": "corticotrophs",
+    "paper_synonyms": null,
+    "tissue_context": "anterior pituitary gland (APG)"
+  },
+  {
+    "name": "lactotrophs",
+    "full_name": "lactotrophs",
+    "paper_synonyms": null,
+    "tissue_context": "anterior pituitary gland (APG)"
+  },
+  {
+    "name": "somatotrophs",
+    "full_name": "somatotrophs",
+    "paper_synonyms": null,
+    "tissue_context": "anterior pituitary gland (APG)"
+  },
+  {
+    "name": "thyrotrophs",
+    "full_name": "thyrotrophs",
+    "paper_synonyms": null,
+    "tissue_context": "anterior pituitary gland (APG)"
+  },
+  {
+    "name": "gonadotrophs",
+    "full_name": "gonadotrophs",
+    "paper_synonyms": null,
+    "tissue_context": "anterior pituitary gland (APG)"
+  }
+]

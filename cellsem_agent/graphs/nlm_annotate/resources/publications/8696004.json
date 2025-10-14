@@ -1,0 +1,14 @@
+[
+  {
+    "name": "GC B cells",
+    "full_name": "germinal center B cells",
+    "paper_synonyms": "germinal center (GC) B cells",
+    "tissue_context": "spleen"
+  },
+  {
+    "name": "plasma cell",
+    "full_name": "plasma cell",
+    "paper_synonyms": "PC",
+    "tissue_context": "spleen"
+  }
+]

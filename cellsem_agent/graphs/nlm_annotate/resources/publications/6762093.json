@@ -1,0 +1,50 @@
+[
+  {
+    "name": "hESC",
+    "full_name": "human Embryonic Stem cell-types",
+    "paper_synonyms": "human Embryonic Stem cell-types",
+    "tissue_context": "Embryonic stem cell"
+  },
+  {
+    "name": "Skeletal muscle",
+    "full_name": "Skeletal Muscle",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "Myocytes",
+    "full_name": "Myocytes",
+    "paper_synonyms": null,
+    "tissue_context": "Heart"
+  },
+  {
+    "name": "Astrocytes",
+    "full_name": "Astrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "Cerebellar; Spinal cord"
+  },
+  {
+    "name": "Epithelial, Endothelial and Fibroblast cell",
+    "full_name": "Epithelial cell-types; Endothelial cell-types; Fibroblast cell-types",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "Epithelial cell",
+    "full_name": "Epithelial cell-types",
+    "paper_synonyms": null,
+    "tissue_context": "Epithelium"
+  },
+  {
+    "name": "Fibroblast",
+    "full_name": "Fibroblast",
+    "paper_synonyms": null,
+    "tissue_context": "Skin; Lung; Heart; Blood vessel; Connective; Foreskin; Embryonic lung; Gingival"
+  },
+  {
+    "name": "Fibroblast cell",
+    "full_name": "Fibroblast cell-types",
+    "paper_synonyms": null,
+    "tissue_context": "Skin; Lung; Heart; Blood vessel; Connective; Foreskin; Embryonic lung; Gingival"
+  }
+]

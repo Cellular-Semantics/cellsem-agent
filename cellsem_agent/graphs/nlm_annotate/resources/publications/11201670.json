@@ -1,0 +1,20 @@
+[
+  {
+    "name": "thymocytes",
+    "full_name": "thymocytes",
+    "paper_synonyms": null,
+    "tissue_context": "thymus"
+  },
+  {
+    "name": "splenocytes",
+    "full_name": "splenocytes",
+    "paper_synonyms": null,
+    "tissue_context": "spleen"
+  },
+  {
+    "name": "CD8 single-positive thymocyte",
+    "full_name": "CD8 single-positive thymocyte",
+    "paper_synonyms": "CD8SP thymocytes",
+    "tissue_context": "thymus"
+  }
+]

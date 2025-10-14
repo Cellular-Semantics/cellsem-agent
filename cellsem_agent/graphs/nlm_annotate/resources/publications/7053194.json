@@ -1,0 +1,80 @@
+[
+  {
+    "name": "DCs",
+    "full_name": "Dendritic cells",
+    "paper_synonyms": "DC",
+    "tissue_context": "tumor microenvironment (TME); tumor-draining lymph nodes"
+  },
+  {
+    "name": "Helper T cells",
+    "full_name": "T helper (Th) cells",
+    "paper_synonyms": "Th cells",
+    "tissue_context": "tumor microenvironment (TME)"
+  },
+  {
+    "name": "Follicular B cells",
+    "full_name": "Mature follicular B cells (FOB)",
+    "paper_synonyms": "FOB; follicular B",
+    "tissue_context": "tumors; tumor microenvironment (TME); tertiary lymphoid structures (TLS)"
+  },
+  {
+    "name": "Plasma cells",
+    "full_name": "Plasma cells",
+    "paper_synonyms": null,
+    "tissue_context": "tumor microenvironment (TME); tumors"
+  },
+  {
+    "name": "Memory B cells",
+    "full_name": "Memory B cells",
+    "paper_synonyms": null,
+    "tissue_context": "tumor microenvironment (TME)"
+  },
+  {
+    "name": "NK cells",
+    "full_name": "Natural killer (NK) cells",
+    "paper_synonyms": "NK cells",
+    "tissue_context": "tumor microenvironment (TME); solid tumors"
+  },
+  {
+    "name": "M1 cells",
+    "full_name": "Macrophage type 1 (M1) cells",
+    "paper_synonyms": "classically activated macrophages; M1",
+    "tissue_context": "tumor microenvironment (TME); solid tumors"
+  },
+  {
+    "name": "MDSCs",
+    "full_name": "Myeloid-derived suppressor cells (MDSCs)",
+    "paper_synonyms": "M-MDSCs; PMN-MDSCs; MDSCs",
+    "tissue_context": "bone marrow (BM); tumor microenvironment (TME); tumors"
+  },
+  {
+    "name": "M2 cells",
+    "full_name": "Macrophage type 2 (M2) cells",
+    "paper_synonyms": "alternatively activated macrophages; M2",
+    "tissue_context": "tumor microenvironment (TME); tumors"
+  },
+  {
+    "name": "Bregs",
+    "full_name": "Regulatory B cells (Bregs)",
+    "paper_synonyms": "Bregs",
+    "tissue_context": "tumor microenvironment (TME); tumors"
+  },
+  {
+    "name": "Cytotoxic T cells",
+    "full_name": "Cytotoxic T lymphocytes (CTLs)",
+    "paper_synonyms": "CTLs",
+    "tissue_context": "blood and lymphatic vessels; tumors; tumor microenvironment (TME)"
+  },
+  {
+    "name": "Memory T cells",
+    "full_name": "Memory T cells",
+    "paper_synonyms": null,
+    "tissue_context": "tumor microenvironment (TME)"
+  },
+  {
+    "name": "Tregs",
+    "full_name": "Regulatory T cells (Tregs)",
+    "paper_synonyms": "Tregs",
+    "tissue_context": "tumors; tumor microenvironment (TME)"
+  }
+]

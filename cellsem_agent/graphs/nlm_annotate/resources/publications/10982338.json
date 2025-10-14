@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Myofibroblasts",
+    "full_name": "Myofibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "clear cell renal cell carcinomas (ccRCCs); Tumor; Normal; LymphNode; Peripheral Blood (PBMC)"
+  },
+  {
+    "name": "EPCs",
+    "full_name": "Epithelial Cells",
+    "paper_synonyms": "Epithelial Cells; Endothelial Progenitor Cells",
+    "tissue_context": "clear cell renal cell carcinomas (ccRCCs); Tumor; Normal; LymphNode; Peripheral Blood (PBMC)"
+  },
+  {
+    "name": "leukocyte",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "clear cell renal cell carcinomas (ccRCCs)"
+  }
+]

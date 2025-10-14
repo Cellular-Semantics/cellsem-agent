@@ -1,0 +1,104 @@
+[
+  {
+    "name": "myeloid cells",
+    "full_name": "myeloid cells",
+    "paper_synonyms": null,
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "Eos",
+    "full_name": "eosinophils",
+    "paper_synonyms": "eosinophils",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "eosinophils",
+    "full_name": "eosinophils",
+    "paper_synonyms": "Eos",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "DCs",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "dendritic cells",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "dendritic cells",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "DCs",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "MCs",
+    "full_name": "mast cells",
+    "paper_synonyms": "mast cells",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "mast cells",
+    "full_name": "mast cells",
+    "paper_synonyms": "MCs",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "gd T",
+    "full_name": "\u03b3\u0394 T cells",
+    "paper_synonyms": "\u03b3\u0394 T cells",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "gammaDelta T cells",
+    "full_name": "\u03b3\u0394 T cells",
+    "paper_synonyms": "gd T; \u03b3\u0394 T cells",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "Mono",
+    "full_name": "monocyte",
+    "paper_synonyms": "monocyte/macrophage; Mono/Mac",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "Mac",
+    "full_name": "macrophage",
+    "paper_synonyms": "monocyte/macrophage; Mono/Mac",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "monocyte",
+    "full_name": "monocyte",
+    "paper_synonyms": "Mono/Mac; monocyte/macrophage",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "macrophage",
+    "full_name": "macrophage",
+    "paper_synonyms": "Mono/Mac; monocyte/macrophage",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "PC",
+    "full_name": "plasma cells",
+    "paper_synonyms": "plasma cells",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "plasma cells",
+    "full_name": "plasma cells",
+    "paper_synonyms": "PC",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "PMN",
+    "full_name": "polymorphonuclear leukocytes",
+    "paper_synonyms": "polymorphonuclear leukocytes",
+    "tissue_context": "spleen; liver"
+  },
+  {
+    "name": "polymorphonuclear leukocytes",
+    "full_name": "polymorphonuclear leukocytes",
+    "paper_synonyms": "PMN",
+    "tissue_context": "spleen; liver"
+  }
+]

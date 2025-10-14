@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Immature B Cell",
+    "full_name": "Immature B Cell",
+    "paper_synonyms": null,
+    "tissue_context": "mice fracture models"
+  },
+  {
+    "name": "T2B Cell",
+    "full_name": "T2B Cell",
+    "paper_synonyms": null,
+    "tissue_context": "mice fracture models"
+  },
+  {
+    "name": "T1B Cell",
+    "full_name": "T1B Cell",
+    "paper_synonyms": null,
+    "tissue_context": "mice fracture models"
+  },
+  {
+    "name": "B1B Cell",
+    "full_name": "B1B Cell",
+    "paper_synonyms": "B1b cells",
+    "tissue_context": "mice fracture models"
+  }
+]

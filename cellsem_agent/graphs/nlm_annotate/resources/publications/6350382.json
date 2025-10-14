@@ -1,0 +1,32 @@
+[
+  {
+    "name": "gustatory (taste) neurons",
+    "full_name": null,
+    "paper_synonyms": "gustatory neurons; taste neurons",
+    "tissue_context": "geniculate ganglion; taste buds; anterior two-thirds of the tongue; palate; oral cavity"
+  },
+  {
+    "name": "Neuron",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "geniculate ganglion"
+  },
+  {
+    "name": "taste receptor cells",
+    "full_name": null,
+    "paper_synonyms": "Type II taste receptor cells; Type III taste receptor cells",
+    "tissue_context": "taste buds; fungiform papillae; anterior tongue-halves"
+  },
+  {
+    "name": "taste neurons",
+    "full_name": null,
+    "paper_synonyms": "gustatory neurons",
+    "tissue_context": "geniculate ganglion; taste buds; anterior two-thirds of the tongue; palate; oral cavity"
+  },
+  {
+    "name": "taste neuron",
+    "full_name": null,
+    "paper_synonyms": "gustatory neuron",
+    "tissue_context": "geniculate ganglion; taste buds; anterior two-thirds of the tongue; palate; oral cavity"
+  }
+]

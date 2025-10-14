@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Bipolar cells",
+    "full_name": null,
+    "paper_synonyms": "BC",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "amacrine cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "MG",
+    "full_name": "Mueller glia",
+    "paper_synonyms": "Mueller glia",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "Mueller glia",
+    "full_name": null,
+    "paper_synonyms": "MG",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "A",
+    "full_name": "astrocytes",
+    "paper_synonyms": "astrocytes",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "astrocytes",
+    "full_name": null,
+    "paper_synonyms": "A",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "F",
+    "full_name": "fibroblasts",
+    "paper_synonyms": "fibroblasts",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "fibroblasts",
+    "full_name": null,
+    "paper_synonyms": "F",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "P",
+    "full_name": "pericytes",
+    "paper_synonyms": "pericytes",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "pericytes",
+    "full_name": null,
+    "paper_synonyms": "P",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "E",
+    "full_name": "endothelium",
+    "paper_synonyms": "endothelium",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "endothelium",
+    "full_name": null,
+    "paper_synonyms": "E",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "M",
+    "full_name": "microglia",
+    "paper_synonyms": "microglia",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "microglia",
+    "full_name": null,
+    "paper_synonyms": "M",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "BC",
+    "full_name": "bipolar cell",
+    "paper_synonyms": "bipolar cell",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "bipolar cell",
+    "full_name": null,
+    "paper_synonyms": "BC",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "RBC",
+    "full_name": "rod bipolar cell",
+    "paper_synonyms": "rod bipolar cell",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "rod bipolar cell",
+    "full_name": null,
+    "paper_synonyms": "RBC",
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "rod and cone photoreceptors",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "mouse retina"
+  },
+  {
+    "name": "hippocampal interneurons",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "mouse hippocampus"
+  }
+]

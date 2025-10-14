@@ -1,0 +1,20 @@
+[
+  {
+    "name": "fibroblasts",
+    "full_name": "fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "MSCs",
+    "full_name": "mesenchymal stem cells",
+    "paper_synonyms": "mesenchymal stem cells",
+    "tissue_context": null
+  },
+  {
+    "name": "ECs",
+    "full_name": "epidermal cells",
+    "paper_synonyms": "epidermal cells",
+    "tissue_context": "back skin; epidermis"
+  }
+]

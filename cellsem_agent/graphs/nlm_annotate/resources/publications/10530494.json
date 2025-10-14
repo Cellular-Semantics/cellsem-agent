@@ -1,0 +1,32 @@
+[
+  {
+    "name": "retinal pigment epithelium",
+    "full_name": "retinal pigment epithelium",
+    "paper_synonyms": "RPE; RPE cells; RPEs",
+    "tissue_context": "retinal pigment epithelium (RPE); mammalian retina"
+  },
+  {
+    "name": "RPE",
+    "full_name": "retinal pigment epithelium",
+    "paper_synonyms": "retinal pigment epithelium; RPE cells; RPEs",
+    "tissue_context": "retinal pigment epithelium (RPE); mammalian retina"
+  },
+  {
+    "name": "Muller cells",
+    "full_name": "M\u00fcller cells",
+    "paper_synonyms": "M\u00fcller glia; MGs",
+    "tissue_context": "mammalian retina; inner nuclear layer (INL); foveal (F) retina; peripheral (P) retina"
+  },
+  {
+    "name": "photoreceptor",
+    "full_name": "photoreceptor cells",
+    "paper_synonyms": "photoreceptors; photoreceptor cells",
+    "tissue_context": "retina; photoreceptor outer segments (OSs); photoreceptor inner segments (ISs); outer nuclear layer (ONL)"
+  },
+  {
+    "name": "Muller glia",
+    "full_name": "M\u00fcller glia",
+    "paper_synonyms": "M\u00fcller cells; MGs",
+    "tissue_context": "mammalian retina; inner nuclear layer (INL); foveal (F) retina; peripheral (P) retina"
+  }
+]

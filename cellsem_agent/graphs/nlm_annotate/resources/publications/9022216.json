@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Lung epithelial cells",
+    "full_name": "Lung epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "lung; bronchial epithelium; alveolar region distal to the terminal bronchioles"
+  },
+  {
+    "name": "lung ECs",
+    "full_name": "lung endothelial cells",
+    "paper_synonyms": "ECs",
+    "tissue_context": "lung; subtypes of vascular ECs (Pecam1-positive); alveolar capillaries and large vessels"
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "nasal cavities; lung; gastrointestinal tract; eye; epithelial cells in tongue, esophagus, duodenum, and ileum; surface epithelium of the conjunctiva and cornea"
+  },
+  {
+    "name": "ciliated bronchial epithelial cells",
+    "full_name": "ciliated bronchial epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "bronchial epithelium; bronchial tree"
+  },
+  {
+    "name": "alveolar type II (AT-II) cells",
+    "full_name": "alveolar type II cells",
+    "paper_synonyms": "AT-II",
+    "tissue_context": "alveolar region distal to the terminal bronchioles; lung"
+  },
+  {
+    "name": "multiciliated airway epithelial cells",
+    "full_name": "multiciliated airway epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "bronchial epithelium; bronchial tree"
+  },
+  {
+    "name": "vascular ECs",
+    "full_name": "vascular endothelial cells",
+    "paper_synonyms": "ECs",
+    "tissue_context": "lung; subtypes of vascular ECs (Pecam1-positive)"
+  },
+  {
+    "name": "mural cells",
+    "full_name": "mural cells",
+    "paper_synonyms": "microvascular mural cells",
+    "tissue_context": "CNS microvascular mural cells; adult mouse heart"
+  },
+  {
+    "name": "fibroblasts",
+    "full_name": "fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "adrenal fibroblasts; perineurial fibroblasts; lung; skeletal muscle"
+  },
+  {
+    "name": "alveolar macrophages",
+    "full_name": "alveolar macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "lung; alveolar region"
+  }
+]

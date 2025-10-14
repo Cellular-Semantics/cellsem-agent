@@ -1,0 +1,38 @@
+[
+  {
+    "name": "M1 macrophages",
+    "full_name": "M1 macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "prostate cancer (PCa)"
+  },
+  {
+    "name": "naive B cells",
+    "full_name": "na\u00efve B cells",
+    "paper_synonyms": null,
+    "tissue_context": "prostate cancer (PCa)"
+  },
+  {
+    "name": "neutrophils",
+    "full_name": "neutrophils",
+    "paper_synonyms": null,
+    "tissue_context": "prostate cancer (PCa)"
+  },
+  {
+    "name": "CD8 T cells",
+    "full_name": "CD8 T cells",
+    "paper_synonyms": null,
+    "tissue_context": "prostate cancer (PCa)"
+  },
+  {
+    "name": "Tregs",
+    "full_name": "T regulatory cells",
+    "paper_synonyms": "T regulatory cells; T-regulatory cells",
+    "tissue_context": "prostate cancer (PCa)"
+  },
+  {
+    "name": "M2 macrophages",
+    "full_name": "M2 macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "prostate cancer (PCa)"
+  }
+]

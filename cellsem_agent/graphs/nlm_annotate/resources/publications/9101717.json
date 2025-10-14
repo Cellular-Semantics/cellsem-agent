@@ -1,0 +1,62 @@
+[
+  {
+    "name": "quiescent satellite cells",
+    "full_name": "quiescent satellite cells",
+    "paper_synonyms": null,
+    "tissue_context": "muscle"
+  },
+  {
+    "name": "hematopoietic stem cells",
+    "full_name": "hematopoietic stem cells",
+    "paper_synonyms": "HSCs",
+    "tissue_context": "bone-marrow-derived cells (BMDCs)"
+  },
+  {
+    "name": "HSCs",
+    "full_name": "hematopoietic stem cells",
+    "paper_synonyms": "hematopoietic stem cells",
+    "tissue_context": "bone-marrow-derived cells (BMDCs)"
+  },
+  {
+    "name": "mesenchymal stem cells",
+    "full_name": "mesenchymal stem cells",
+    "paper_synonyms": "MSCs",
+    "tissue_context": "bone-marrow-derived cells (BMDCs)"
+  },
+  {
+    "name": "MSCs",
+    "full_name": "mesenchymal stem cells",
+    "paper_synonyms": "mesenchymal stem cells",
+    "tissue_context": "bone-marrow-derived cells (BMDCs)"
+  },
+  {
+    "name": "cells of the myelomonocytic lineage",
+    "full_name": "cells of the myelomonocytic lineage",
+    "paper_synonyms": null,
+    "tissue_context": "bone-marrow-derived cells (BMDCs)"
+  },
+  {
+    "name": "hepatocytes",
+    "full_name": "hepatocytes",
+    "paper_synonyms": null,
+    "tissue_context": "liver"
+  },
+  {
+    "name": "cardiomyocytes",
+    "full_name": "cardiomyocytes",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "neurons",
+    "full_name": "neurons",
+    "paper_synonyms": null,
+    "tissue_context": "Purkinje neurons"
+  },
+  {
+    "name": "intestinal epithelial cells",
+    "full_name": "intestinal epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "adult human intestine"
+  }
+]

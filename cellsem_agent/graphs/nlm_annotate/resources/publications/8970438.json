@@ -1,0 +1,20 @@
+[
+  {
+    "name": "microglial",
+    "full_name": "microglia",
+    "paper_synonyms": "brain\u2019s resident macrophages",
+    "tissue_context": "brain; cortex; hippocampus; CNS"
+  },
+  {
+    "name": "monocyte",
+    "full_name": "monocyte",
+    "paper_synonyms": null,
+    "tissue_context": "blood; CNS"
+  },
+  {
+    "name": "macrophage",
+    "full_name": "macrophage",
+    "paper_synonyms": "CNS-associated macrophages (CAMs)",
+    "tissue_context": "perivascular; choroid plexus; meningeal; brain; CNS"
+  }
+]

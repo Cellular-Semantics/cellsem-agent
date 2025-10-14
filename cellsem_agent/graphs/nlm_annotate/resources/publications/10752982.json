@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Mast cells",
+    "full_name": "mast cells",
+    "paper_synonyms": "MC",
+    "tissue_context": "popliteal lymphatic vessels (PLVs)"
+  },
+  {
+    "name": "activated/degranulated peri-PLV mast cells",
+    "full_name": "activated/degranulated peri-popliteal lymphatic vessel mast cells",
+    "paper_synonyms": "peri-PLV mast cells; peri-vascular mast cells; peri-lymphatic vessel mast cells; conventional pro-inflammatory peri-lymphatic vessel mast cells; degranulating peri-vascular mast cells",
+    "tissue_context": "popliteal lymphatic vessels (PLVs); around the lymphatic vessels of TNF-tg mice"
+  },
+  {
+    "name": "intra-PLV mast cells",
+    "full_name": "intra-popliteal lymphatic vessel mast cells",
+    "paper_synonyms": "intravascular mast cells; intra-lymphatic vessel mast cells",
+    "tissue_context": "popliteal lymphatic vessels (PLVs); within the PLV wall; embedded within the PLV structure; between the layers of lymphatic endothelial cells and lymphatic muscle cells"
+  }
+]

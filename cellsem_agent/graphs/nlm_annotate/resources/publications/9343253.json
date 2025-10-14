@@ -1,0 +1,14 @@
+[
+  {
+    "name": "pyramidal neuron",
+    "full_name": "neocortical pyramidal neuron",
+    "paper_synonyms": null,
+    "tissue_context": "neocortex; somatosensory and motor cortex"
+  },
+  {
+    "name": "neuronal",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "cerebral cortex; neocortex"
+  }
+]

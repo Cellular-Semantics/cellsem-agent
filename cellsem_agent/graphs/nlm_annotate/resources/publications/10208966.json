@@ -1,0 +1,38 @@
+[
+  {
+    "name": "oligodendrocytes",
+    "full_name": null,
+    "paper_synonyms": "Oligo",
+    "tissue_context": "Tissue was collected from the middle temporal gyrus and the anterior cingulate, primary visual, primary motor, primary somatosensory, and primary auditory cortices."
+  },
+  {
+    "name": "astrocytes",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tissue was collected from the middle temporal gyrus and the anterior cingulate, primary visual, primary motor, primary somatosensory, and primary auditory cortices."
+  },
+  {
+    "name": "radial glia",
+    "full_name": null,
+    "paper_synonyms": "RG",
+    "tissue_context": "Cells were isolated from mid-gestational, 15 to 22 gestational weeks, from 17 samples of the human cortex.; The data set included ~4000 cells from the primary cortical (visual (V1) and prefrontal cortex (PFC)) and medial ganglionic eminence (MGE) across stages of peak neurogenesis, 5 to 37 post-conception weeks."
+  },
+  {
+    "name": "RG",
+    "full_name": "radial glia",
+    "paper_synonyms": "radial glia",
+    "tissue_context": "Cells were isolated from mid-gestational, 15 to 22 gestational weeks, from 17 samples of the human cortex.; The data set included ~4000 cells from the primary cortical (visual (V1) and prefrontal cortex (PFC)) and medial ganglionic eminence (MGE) across stages of peak neurogenesis, 5 to 37 post-conception weeks."
+  },
+  {
+    "name": "endothelial",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "Tissue was collected from the middle temporal gyrus and the anterior cingulate, primary visual, primary motor, primary somatosensory, and primary auditory cortices."
+  },
+  {
+    "name": "pericytes",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "Tissue was collected from the middle temporal gyrus and the anterior cingulate, primary visual, primary motor, primary somatosensory, and primary auditory cortices."
+  }
+]

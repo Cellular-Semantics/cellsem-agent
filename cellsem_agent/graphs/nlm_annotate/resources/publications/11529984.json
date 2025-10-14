@@ -1,0 +1,32 @@
+[
+  {
+    "name": "T cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "PBMCs; spleen; decidua"
+  },
+  {
+    "name": "fetal T cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "Treg",
+    "full_name": "regulatory T cells",
+    "paper_synonyms": "regulatory T cells; decidual Treg cells; dTreg; splenic Treg cells; sTreg",
+    "tissue_context": "decidua; spleen; PBMCs"
+  },
+  {
+    "name": "Tconv cells",
+    "full_name": "conventional CD4+ T cells",
+    "paper_synonyms": "conventional CD4+ T cells; decidua conventional CD4+ T cells; dTconv; splenic conventional CD4+ T cells; sTconv",
+    "tissue_context": "decidua; spleen"
+  },
+  {
+    "name": "Tconv",
+    "full_name": "conventional CD4+ T cells",
+    "paper_synonyms": "conventional CD4+ T cells; decidua conventional CD4+ T cells; dTconv; splenic conventional CD4+ T cells; sTconv",
+    "tissue_context": "decidua; spleen"
+  }
+]

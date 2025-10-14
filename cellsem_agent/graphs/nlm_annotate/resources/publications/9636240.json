@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Myeloid cell",
+    "full_name": "Myeloid cell",
+    "paper_synonyms": null,
+    "tissue_context": "E14.5 whole mouse embryo"
+  },
+  {
+    "name": "Endothelial cell",
+    "full_name": "Endothelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "E14.5 whole mouse embryo"
+  },
+  {
+    "name": "Granulocyte",
+    "full_name": "Granulocyte",
+    "paper_synonyms": null,
+    "tissue_context": "E14.5 whole mouse embryo"
+  },
+  {
+    "name": "Epithelial cell of proximal tubule",
+    "full_name": "Epithelial cell of proximal tubule",
+    "paper_synonyms": null,
+    "tissue_context": "E14.5 whole mouse embryo"
+  },
+  {
+    "name": "Immature T cell",
+    "full_name": "Immature T cell",
+    "paper_synonyms": null,
+    "tissue_context": "E14.5 whole mouse embryo"
+  },
+  {
+    "name": "Microglial cell",
+    "full_name": "Microglial cell",
+    "paper_synonyms": null,
+    "tissue_context": "E14.5 whole mouse embryo"
+  },
+  {
+    "name": "Fibroblast",
+    "full_name": "Fibroblast",
+    "paper_synonyms": null,
+    "tissue_context": "E14.5 whole mouse embryo"
+  },
+  {
+    "name": "B cell",
+    "full_name": "B cell",
+    "paper_synonyms": null,
+    "tissue_context": "E14.5 whole mouse embryo"
+  },
+  {
+    "name": "Basal cell of epidermis",
+    "full_name": "Basal cell of epidermis",
+    "paper_synonyms": null,
+    "tissue_context": "E14.5 whole mouse embryo"
+  },
+  {
+    "name": "Luminal epithelial cell of mammary gland",
+    "full_name": "Luminal epithelial cell of mammary gland",
+    "paper_synonyms": null,
+    "tissue_context": "E14.5 whole mouse embryo"
+  },
+  {
+    "name": "Hepatocyte",
+    "full_name": "Hepatocyte",
+    "paper_synonyms": null,
+    "tissue_context": "E14.5 whole mouse embryo"
+  },
+  {
+    "name": "Epithelial cell of lung",
+    "full_name": "Epithelial cell of lung",
+    "paper_synonyms": null,
+    "tissue_context": "E14.5 whole mouse embryo"
+  }
+]

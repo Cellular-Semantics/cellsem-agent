@@ -1,0 +1,56 @@
+[
+  {
+    "name": "platelets",
+    "full_name": "platelets",
+    "paper_synonyms": null,
+    "tissue_context": "blood platelets"
+  },
+  {
+    "name": "osteoblasts",
+    "full_name": "osteoblasts",
+    "paper_synonyms": null,
+    "tissue_context": "Bone"
+  },
+  {
+    "name": "osteoclasts",
+    "full_name": "osteoclasts",
+    "paper_synonyms": null,
+    "tissue_context": "Bone"
+  },
+  {
+    "name": "osteocytes",
+    "full_name": "osteocytes",
+    "paper_synonyms": null,
+    "tissue_context": "Bone"
+  },
+  {
+    "name": "preadipocytes",
+    "full_name": "preadipocytes",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "corneal keratocytes",
+    "full_name": "corneal keratocytes",
+    "paper_synonyms": null,
+    "tissue_context": "Human Corneal Keratocytes"
+  },
+  {
+    "name": "monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "human monocytes"
+  },
+  {
+    "name": "chondrocytes",
+    "full_name": "chondrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "Hypertrophic Chondrocytes; articular chondrocytes"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "human peritoneal macrophages; plaque macrophages"
+  }
+]

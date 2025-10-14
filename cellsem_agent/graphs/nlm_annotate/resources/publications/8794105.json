@@ -1,0 +1,56 @@
+[
+  {
+    "name": "pluripotent (HAP) stem cells",
+    "full_name": "Hair-follicle-associated pluripotent (HAP) stem cells",
+    "paper_synonyms": "HAP stem cells",
+    "tissue_context": "bulge area of the hair follicle; vibrissa hair follicles"
+  },
+  {
+    "name": "glia",
+    "full_name": "glial cells",
+    "paper_synonyms": "glial cells",
+    "tissue_context": "severed thoracic spinal cord"
+  },
+  {
+    "name": "melanocytes",
+    "full_name": "melanocytes",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "keratinocytes",
+    "full_name": "keratinocytes",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "cardiac muscle cells",
+    "full_name": "cardiac muscle cells",
+    "paper_synonyms": "beating cardiomyocytes",
+    "tissue_context": null
+  },
+  {
+    "name": "dopaminergic neurons",
+    "full_name": "dopaminergic neurons",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "smooth muscle cells",
+    "full_name": "smooth muscle cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "neurons",
+    "full_name": "neurons",
+    "paper_synonyms": null,
+    "tissue_context": "severed thoracic spinal cord"
+  },
+  {
+    "name": "stem cells",
+    "full_name": "stem cells",
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "hematopoietic precursors",
+    "full_name": "hematopoietic precursors",
+    "paper_synonyms": "blast cells",
+    "tissue_context": "bone marrow; peripheral blood"
+  },
+  {
+    "name": "blast cells",
+    "full_name": "hematopoietic precursors",
+    "paper_synonyms": "hematopoietic precursors",
+    "tissue_context": "bone marrow; peripheral blood"
+  },
+  {
+    "name": "immature thymocytes",
+    "full_name": "immature thymocytes",
+    "paper_synonyms": null,
+    "tissue_context": "thymus"
+  },
+  {
+    "name": "lymphoblasts",
+    "full_name": "lymphoblasts",
+    "paper_synonyms": null,
+    "tissue_context": "thymus; circulation; bone marrow; central nervous system"
+  },
+  {
+    "name": "immature leukocytes",
+    "full_name": "immature leukocytes of the myeloid lineage",
+    "paper_synonyms": "myeloblasts",
+    "tissue_context": null
+  },
+  {
+    "name": "myeloid",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "myeloblast",
+    "full_name": "immature leukocytes of the myeloid lineage",
+    "paper_synonyms": "immature leukocytes of the myeloid lineage",
+    "tissue_context": null
+  }
+]

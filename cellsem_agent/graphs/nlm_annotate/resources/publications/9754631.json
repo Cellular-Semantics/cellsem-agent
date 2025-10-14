@@ -1,0 +1,14 @@
+[
+  {
+    "name": "thymic macrophages",
+    "full_name": "thymic macrophages",
+    "paper_synonyms": "ThyMacs",
+    "tissue_context": "thymus; thymic cortex; medulla; cortico-medullary junction"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "thymus; peritoneal cavity"
+  }
+]

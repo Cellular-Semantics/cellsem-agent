@@ -1,0 +1,62 @@
+[
+  {
+    "name": "dSPNs",
+    "full_name": "dopamine receptor-1 expressing spiny projection neurons",
+    "paper_synonyms": null,
+    "tissue_context": "striatum"
+  },
+  {
+    "name": "iSPNs",
+    "full_name": "dopamine receptor-2 expressing spiny projection neurons",
+    "paper_synonyms": null,
+    "tissue_context": "striatum"
+  },
+  {
+    "name": "oligodendrocytes",
+    "full_name": "oligodendrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "striatum"
+  },
+  {
+    "name": "astrocytes",
+    "full_name": "astrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "striatum"
+  },
+  {
+    "name": "interneurons",
+    "full_name": "interneurons",
+    "paper_synonyms": null,
+    "tissue_context": "striatum"
+  },
+  {
+    "name": "neuronal cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "striatum"
+  },
+  {
+    "name": "neuronal",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "striatum"
+  },
+  {
+    "name": "progenitor",
+    "full_name": "progenitor",
+    "paper_synonyms": null,
+    "tissue_context": "medial and lateral ganglionic eminences; striatum"
+  },
+  {
+    "name": "neural progenitor",
+    "full_name": "neural progenitor",
+    "paper_synonyms": null,
+    "tissue_context": "medial and lateral ganglionic eminences; striatum"
+  },
+  {
+    "name": "SPNs",
+    "full_name": "spiny projection neurons",
+    "paper_synonyms": null,
+    "tissue_context": "striatum"
+  }
+]

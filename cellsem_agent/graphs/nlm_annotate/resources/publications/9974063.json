@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ILCs",
+    "full_name": "innate lymphoid cells",
+    "paper_synonyms": "ILC",
+    "tissue_context": "atherosclerosis lesions; atherosclerotic plaques"
+  },
+  {
+    "name": "myeloid cells",
+    "full_name": "myeloid cells",
+    "paper_synonyms": null,
+    "tissue_context": "atherosclerosis lesions; atherosclerotic core (AC)"
+  },
+  {
+    "name": "myeloid",
+    "full_name": "myeloid cells",
+    "paper_synonyms": null,
+    "tissue_context": "atherosclerosis lesions; atherosclerotic core (AC)"
+  }
+]

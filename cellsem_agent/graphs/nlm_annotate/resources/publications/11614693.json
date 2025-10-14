@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Sst neurons",
+    "full_name": "somatostatin inhibitory neurons",
+    "paper_synonyms": "somatostatin inhibitory (Sst); somatostatin + inhibitory neurons",
+    "tissue_context": "middle temporal gyrus (MTG); Brodmann area 9 (A9); prefrontal cortex (PFC); supragranular layers 2 and 3"
+  },
+  {
+    "name": "inhibitory neurons",
+    "full_name": "",
+    "paper_synonyms": "GABAergic interneurons",
+    "tissue_context": "middle temporal gyrus (MTG); Brodmann area 9 (A9); prefrontal cortex (PFC)"
+  },
+  {
+    "name": "Sst+ interneurons",
+    "full_name": "somatostatin inhibitory interneurons",
+    "paper_synonyms": "somatostatin inhibitory (Sst); somatostatin + inhibitory neurons",
+    "tissue_context": "middle temporal gyrus (MTG); Brodmann area 9 (A9); prefrontal cortex (PFC); supragranular layers 2 and 3"
+  },
+  {
+    "name": "inhibitory interneurons",
+    "full_name": "",
+    "paper_synonyms": "GABAergic interneurons",
+    "tissue_context": "middle temporal gyrus (MTG); Brodmann area 9 (A9); prefrontal cortex (PFC)"
+  },
+  {
+    "name": "Sst interneurons",
+    "full_name": "somatostatin inhibitory interneurons",
+    "paper_synonyms": "somatostatin inhibitory (Sst); somatostatin + inhibitory neurons",
+    "tissue_context": "middle temporal gyrus (MTG); Brodmann area 9 (A9); prefrontal cortex (PFC); supragranular layers 2 and 3"
+  },
+  {
+    "name": "inhibitory cortical neurons",
+    "full_name": "",
+    "paper_synonyms": "GABAergic interneurons",
+    "tissue_context": "cortex; cortical layers 2 and 3; middle temporal gyrus (MTG); Brodmann area 9 (A9)"
+  },
+  {
+    "name": "cholinergic neurons",
+    "full_name": "",
+    "paper_synonyms": "",
+    "tissue_context": "basal forebrain"
+  },
+  {
+    "name": "Sst neuron",
+    "full_name": "somatostatin inhibitory neuron",
+    "paper_synonyms": "somatostatin inhibitory (Sst); somatostatin + inhibitory neurons",
+    "tissue_context": "middle temporal gyrus (MTG); Brodmann area 9 (A9); prefrontal cortex (PFC); supragranular layers 2 and 3"
+  },
+  {
+    "name": "neurons",
+    "full_name": "",
+    "paper_synonyms": "",
+    "tissue_context": "middle temporal gyrus (MTG); Brodmann area 9 (A9); prefrontal cortex (PFC); cortex"
+  }
+]

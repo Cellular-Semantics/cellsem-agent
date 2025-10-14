@@ -1,0 +1,44 @@
+[
+  {
+    "name": "keratinocyte",
+    "full_name": "keratinocyte",
+    "paper_synonyms": null,
+    "tissue_context": "oral mucosa; oral epithelium; basal keratinocytes"
+  },
+  {
+    "name": "T lymphocytes",
+    "full_name": "T lymphocytes",
+    "paper_synonyms": null,
+    "tissue_context": "oral mucosa; epithelium"
+  },
+  {
+    "name": "CD8+ cells",
+    "full_name": "CD8+ T cells",
+    "paper_synonyms": null,
+    "tissue_context": "epithelium; around basal and suprabasal keratinocytes of OLP lesions"
+  },
+  {
+    "name": "CD4+ cells",
+    "full_name": "CD4+ T cells",
+    "paper_synonyms": null,
+    "tissue_context": "epithelium"
+  },
+  {
+    "name": "CD4+ T helper (Th) cells",
+    "full_name": "CD4+ T helper (Th) cells",
+    "paper_synonyms": "Th cells",
+    "tissue_context": "lesion sites of OLP patients; OLP lesions"
+  },
+  {
+    "name": "CD8+ cytotoxic T lymphocytes",
+    "full_name": "CD8+ cytotoxic T lymphocytes",
+    "paper_synonyms": "CTLs",
+    "tissue_context": "near the BM in OLP lesions"
+  },
+  {
+    "name": "CTLs",
+    "full_name": "CD8+ cytotoxic T lymphocytes",
+    "paper_synonyms": "CD8+ cytotoxic T lymphocytes",
+    "tissue_context": "near the BM in OLP lesions"
+  }
+]

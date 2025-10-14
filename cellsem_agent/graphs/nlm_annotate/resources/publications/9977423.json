@@ -1,0 +1,14 @@
+[
+  {
+    "name": "CD4+ CTL effectors",
+    "full_name": "CD4+ cytotoxic T lymphocyte effectors",
+    "paper_synonyms": "terminally differentiated CD4+ CTL effectors",
+    "tissue_context": "PBMCs"
+  },
+  {
+    "name": "CD4+ CTLs",
+    "full_name": "CD4+ cytotoxic T lymphocytes",
+    "paper_synonyms": "CD4+ cytotoxic T lymphocytes",
+    "tissue_context": "orbital tissue; thyroid glands; PBMCs"
+  }
+]

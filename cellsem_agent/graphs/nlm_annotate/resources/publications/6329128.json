@@ -1,0 +1,44 @@
+[
+  {
+    "name": "MDSC",
+    "full_name": "Myeloid derived suppressor cells",
+    "paper_synonyms": "myeloid-derived suppressor cells",
+    "tissue_context": "spleens; tumor microenvironment; blood leukocytes"
+  },
+  {
+    "name": "regulatory T cell",
+    "full_name": "regulatory T cell",
+    "paper_synonyms": "Treg",
+    "tissue_context": "tumor microenvironment; spleens"
+  },
+  {
+    "name": "MDSCs",
+    "full_name": "Myeloid derived suppressor cells",
+    "paper_synonyms": "MDSC; myeloid-derived suppressor cells",
+    "tissue_context": "spleens; tumor microenvironment; blood leukocytes"
+  },
+  {
+    "name": "T cell",
+    "full_name": "T cell",
+    "paper_synonyms": "T cells",
+    "tissue_context": "tumor microenvironment; blood leukocytes; spleens"
+  },
+  {
+    "name": "Dendritic and T cell",
+    "full_name": "dendritic cell and T cell",
+    "paper_synonyms": "Dendritic cells; DC; T cells",
+    "tissue_context": "tumor microenvironment"
+  },
+  {
+    "name": "T cells",
+    "full_name": "T cells",
+    "paper_synonyms": "T cell; T-cell",
+    "tissue_context": "tumor microenvironment; blood leukocytes; spleens"
+  },
+  {
+    "name": "NK cell",
+    "full_name": null,
+    "paper_synonyms": "NK cells",
+    "tissue_context": "tumor microenvironment; blood leukocytes"
+  }
+]

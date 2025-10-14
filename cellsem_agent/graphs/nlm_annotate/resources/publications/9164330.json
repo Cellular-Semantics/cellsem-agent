@@ -1,0 +1,44 @@
+[
+  {
+    "name": "neutrophil",
+    "full_name": "neutrophil",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood samples collected at emergency department admission"
+  },
+  {
+    "name": "basophil",
+    "full_name": "basophil",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood samples collected at emergency department admission"
+  },
+  {
+    "name": "platelet",
+    "full_name": "platelet",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood samples collected at emergency department admission"
+  },
+  {
+    "name": "Red blood cell",
+    "full_name": "red blood cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood samples collected at emergency department admission"
+  },
+  {
+    "name": "eosinophil",
+    "full_name": "eosinophil",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood samples collected at emergency department admission"
+  },
+  {
+    "name": "lymphocyte",
+    "full_name": "lymphocyte",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood samples collected at emergency department admission"
+  },
+  {
+    "name": "monocyte",
+    "full_name": "monocyte",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood samples collected at emergency department admission"
+  }
+]

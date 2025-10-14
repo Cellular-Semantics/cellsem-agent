@@ -1,0 +1,38 @@
+[
+  {
+    "name": "MSC",
+    "full_name": "mesenchymal stromal cells from the bone marrow",
+    "paper_synonyms": "mesenchymal stromal cells from the bone marrow",
+    "tissue_context": "bone marrow"
+  },
+  {
+    "name": "mesenchymal stromal cells",
+    "full_name": "mesenchymal stromal cells from the bone marrow",
+    "paper_synonyms": "MSC",
+    "tissue_context": "bone marrow"
+  },
+  {
+    "name": "HSPC",
+    "full_name": "hematopoietic stem/progenitor cells",
+    "paper_synonyms": "hematopoietic stem/progenitor cells",
+    "tissue_context": null
+  },
+  {
+    "name": "hematopoietic stem/progenitor cells",
+    "full_name": "hematopoietic stem/progenitor cells",
+    "paper_synonyms": "HSPC",
+    "tissue_context": null
+  },
+  {
+    "name": "NHEK",
+    "full_name": "normal human epidermal keratinocytes",
+    "paper_synonyms": "normal human epidermal keratinocytes",
+    "tissue_context": "epidermal"
+  },
+  {
+    "name": "epidermal keratinocytes",
+    "full_name": "normal human epidermal keratinocytes",
+    "paper_synonyms": "NHEK",
+    "tissue_context": "epidermal"
+  }
+]

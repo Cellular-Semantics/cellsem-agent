@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Langerhans cells",
+    "full_name": "Langerhans cells",
+    "paper_synonyms": "LCs",
+    "tissue_context": "epithelium; CTCL tissue microarray; Skin tumor samples"
+  },
+  {
+    "name": "LCs",
+    "full_name": "Langerhans cells",
+    "paper_synonyms": "Langerhans cells",
+    "tissue_context": "epithelium; CTCL tissue microarray; Skin tumor samples"
+  },
+  {
+    "name": "dendritic cells",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "DCs",
+    "tissue_context": "CTCL tissue microarray; Skin tumor samples; tonsil tissue"
+  },
+  {
+    "name": "DCs",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "dendritic cells",
+    "tissue_context": "CTCL tissue microarray; Skin tumor samples; tonsil tissue"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "cholangiocytes",
+    "full_name": "epithelial cells of the bile ducts",
+    "paper_synonyms": "biliary epithelial cells; BECs",
+    "tissue_context": "bile ducts; biliary epithelium"
+  },
+  {
+    "name": "endothelial",
+    "full_name": "endothelial cells",
+    "paper_synonyms": "liver sinusoidal endothelial cells",
+    "tissue_context": "liver; blood vessels"
+  },
+  {
+    "name": "KCs",
+    "full_name": "Kupffer cells",
+    "paper_synonyms": "resident macrophages",
+    "tissue_context": "liver; sinusoidal endothelial cells"
+  }
+]

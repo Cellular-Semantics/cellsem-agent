@@ -1,0 +1,26 @@
+[
+  {
+    "name": "lymphocytes",
+    "full_name": "B and T lymphocytes",
+    "paper_synonyms": null,
+    "tissue_context": "spleen; PBMC"
+  },
+  {
+    "name": "phagocyte",
+    "full_name": "macrophages, dendritic cells, and neutrophils",
+    "paper_synonyms": "professional phagocytes",
+    "tissue_context": "spleen; PBMC"
+  },
+  {
+    "name": "phagocytes",
+    "full_name": "macrophages, dendritic cells, and neutrophils",
+    "paper_synonyms": "professional phagocytes",
+    "tissue_context": "spleen; PBMC"
+  },
+  {
+    "name": "professional phagocytes",
+    "full_name": "macrophages, dendritic cells, and neutrophils",
+    "paper_synonyms": "phagocytes",
+    "tissue_context": "spleen; PBMC"
+  }
+]

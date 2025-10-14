@@ -1,0 +1,26 @@
+[
+  {
+    "name": "oligodendrocyte",
+    "full_name": "oligodendrocyte",
+    "paper_synonyms": null,
+    "tissue_context": "brain organoids; Oligocortical spheroids (OCS)"
+  },
+  {
+    "name": "oligodendrocyte lineage cells",
+    "full_name": "oligodendrocyte lineage cells",
+    "paper_synonyms": null,
+    "tissue_context": "human oligodendrocyte spheroids (hOLSs)"
+  },
+  {
+    "name": "oligodendrocyte progenitor cells",
+    "full_name": "oligodendrocyte progenitor cells",
+    "paper_synonyms": "OPCs",
+    "tissue_context": "hPSC-derived cortical spheroids"
+  },
+  {
+    "name": "myelinating oligodendrocytes",
+    "full_name": "myelinating oligodendrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "hPSC-derived cortical spheroids; Oligocortical spheroids (OCS)"
+  }
+]

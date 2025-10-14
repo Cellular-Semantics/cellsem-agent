@@ -1,0 +1,86 @@
+[
+  {
+    "name": "C-MC",
+    "full_name": "choroidal monocyte",
+    "paper_synonyms": "C-MC/M\u03c6; choroidal monocyte/macrophage",
+    "tissue_context": "choroid"
+  },
+  {
+    "name": "Mphi",
+    "full_name": "macrophage",
+    "paper_synonyms": "M\u03c6",
+    "tissue_context": "choroid; leptomeninges"
+  },
+  {
+    "name": "MG",
+    "full_name": "microglia",
+    "paper_synonyms": "microglia",
+    "tissue_context": "leptomeninges"
+  },
+  {
+    "name": "microglia",
+    "full_name": null,
+    "paper_synonyms": "MG",
+    "tissue_context": "leptomeninges"
+  },
+  {
+    "name": "GRAN",
+    "full_name": "granulocytes",
+    "paper_synonyms": "granulocytes",
+    "tissue_context": "choroid; leptomeninges"
+  },
+  {
+    "name": "granulocytes",
+    "full_name": null,
+    "paper_synonyms": "GRAN",
+    "tissue_context": "choroid; leptomeninges"
+  },
+  {
+    "name": "monocyte",
+    "full_name": null,
+    "paper_synonyms": "MC",
+    "tissue_context": "choroid; leptomeninges"
+  },
+  {
+    "name": "NK",
+    "full_name": "natural killer cells",
+    "paper_synonyms": "natural killer cells; NK cells",
+    "tissue_context": "choroid; leptomeninges"
+  },
+  {
+    "name": "natural killer cells",
+    "full_name": null,
+    "paper_synonyms": "NK; NK cells",
+    "tissue_context": "choroid; leptomeninges"
+  },
+  {
+    "name": "MC",
+    "full_name": "monocyte",
+    "paper_synonyms": "monocyte",
+    "tissue_context": "choroid; leptomeninges"
+  },
+  {
+    "name": "DCs",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "dendritic cells",
+    "tissue_context": "choroid; leptomeninges"
+  },
+  {
+    "name": "dendritic cells",
+    "full_name": null,
+    "paper_synonyms": "DCs",
+    "tissue_context": "choroid; leptomeninges"
+  },
+  {
+    "name": "leukocytes",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "choroid; leptomeninges"
+  },
+  {
+    "name": "macrophage",
+    "full_name": null,
+    "paper_synonyms": "M\u03c6",
+    "tissue_context": "choroid; leptomeninges"
+  }
+]

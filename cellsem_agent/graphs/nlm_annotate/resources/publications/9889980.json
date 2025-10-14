@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Teff",
+    "full_name": "effector T-cell",
+    "paper_synonyms": "effector T-cell",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "effector T-cell",
+    "full_name": "effector T-cell",
+    "paper_synonyms": "Teff",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "Treg",
+    "full_name": "regulatory T-cell",
+    "paper_synonyms": "regulatory T-cell",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "regulatory T-cell",
+    "full_name": "regulatory T-cell",
+    "paper_synonyms": "Treg",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "NKT",
+    "full_name": "nature killer T-cell",
+    "paper_synonyms": "nature killer T-cell",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "nature killer T-cell",
+    "full_name": "nature killer T-cell",
+    "paper_synonyms": "NKT",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "ILC",
+    "full_name": "innate lymphoid cell",
+    "paper_synonyms": "innate lymphoid cell",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "innate lymphoid cell",
+    "full_name": "innate lymphoid cell",
+    "paper_synonyms": "ILC",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "Mac",
+    "full_name": "macrophages",
+    "paper_synonyms": "macrophages",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": "Mac",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "DCs",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "dendritic cells",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "dendritic cells",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "DCs",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "Mon",
+    "full_name": "monocytes",
+    "paper_synonyms": "monocytes",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": "Mon",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "Fib",
+    "full_name": "fibroblasts",
+    "paper_synonyms": "fibroblasts",
+    "tissue_context": "deep fascia tissue"
+  },
+  {
+    "name": "fibroblasts",
+    "full_name": "fibroblasts",
+    "paper_synonyms": "Fib",
+    "tissue_context": "deep fascia tissue"
+  }
+]

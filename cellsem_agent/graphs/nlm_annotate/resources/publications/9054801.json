@@ -1,0 +1,50 @@
+[
+  {
+    "name": "B cells",
+    "full_name": "B cells",
+    "paper_synonyms": "B lymphocytes; CD20 + B cells",
+    "tissue_context": "Adenocarcinoma of the pancreas (PAAD)"
+  },
+  {
+    "name": "plasma cells",
+    "full_name": "plasma cells",
+    "paper_synonyms": null,
+    "tissue_context": "Adenocarcinoma of the pancreas (PAAD)"
+  },
+  {
+    "name": "memory CD4 T cells",
+    "full_name": "memory CD4 T cells",
+    "paper_synonyms": null,
+    "tissue_context": "Adenocarcinoma of the pancreas (PAAD)"
+  },
+  {
+    "name": "M2 macrophages",
+    "full_name": "M2 macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "Adenocarcinoma of the pancreas (PAAD)"
+  },
+  {
+    "name": "mast cells",
+    "full_name": "mast cells",
+    "paper_synonyms": null,
+    "tissue_context": "Adenocarcinoma of the pancreas (PAAD)"
+  },
+  {
+    "name": "CD8 T-cell",
+    "full_name": "CD8 T-cell",
+    "paper_synonyms": "CD8 T cells; CD8 + T cells",
+    "tissue_context": "Adenocarcinoma of the pancreas (PAAD)"
+  },
+  {
+    "name": "naive B cells",
+    "full_name": "naive B cells",
+    "paper_synonyms": null,
+    "tissue_context": "Adenocarcinoma of the pancreas (PAAD)"
+  },
+  {
+    "name": "CD8 T cells",
+    "full_name": "CD8 T cells",
+    "paper_synonyms": "CD8 T-cell; CD8 + T cells",
+    "tissue_context": "Adenocarcinoma of the pancreas (PAAD)"
+  }
+]

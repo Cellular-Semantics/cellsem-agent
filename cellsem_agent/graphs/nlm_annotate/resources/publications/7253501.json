@@ -1,0 +1,98 @@
+[
+  {
+    "name": "HSCs",
+    "full_name": "hematopoietic stem cells",
+    "paper_synonyms": "HSC; hematopoietic stem cell",
+    "tissue_context": "bone marrow (BM)"
+  },
+  {
+    "name": "EPCs",
+    "full_name": "endothelial progenitor cells",
+    "paper_synonyms": "EPC; endothelial progenitor cell",
+    "tissue_context": "bone marrow (BM); peripheral blood (PB)"
+  },
+  {
+    "name": "mesenchymal stem cells",
+    "full_name": "mesenchymal stem cells",
+    "paper_synonyms": "MSCs",
+    "tissue_context": "bone marrow (BM); umbilical cord; Wharton\u2019s jelly; adipose tissue"
+  },
+  {
+    "name": "MSCs",
+    "full_name": "mesenchymal stem cells",
+    "paper_synonyms": "MSC; mesenchymal stem cell",
+    "tissue_context": "bone marrow (BM); umbilical cord; Wharton\u2019s jelly; adipose tissue"
+  },
+  {
+    "name": "MSC",
+    "full_name": "mesenchymal stem cell",
+    "paper_synonyms": "MSCs; mesenchymal stem cells",
+    "tissue_context": "bone marrow (BM); umbilical cord; Wharton\u2019s jelly; adipose tissue"
+  },
+  {
+    "name": "mesenchymal stem cell",
+    "full_name": "mesenchymal stem cell",
+    "paper_synonyms": "MSC",
+    "tissue_context": "bone marrow (BM); umbilical cord; Wharton\u2019s jelly; adipose tissue"
+  },
+  {
+    "name": "HSC",
+    "full_name": "hematopoietic stem cell",
+    "paper_synonyms": "HSCs; hematopoietic stem cells",
+    "tissue_context": "bone marrow (BM)"
+  },
+  {
+    "name": "hematopoietic stem cell",
+    "full_name": "hematopoietic stem cell",
+    "paper_synonyms": "HSC",
+    "tissue_context": "bone marrow (BM)"
+  },
+  {
+    "name": "EPC",
+    "full_name": "endothelial progenitor cell",
+    "paper_synonyms": "EPCs; endothelial progenitor cells",
+    "tissue_context": "bone marrow (BM); peripheral blood (PB)"
+  },
+  {
+    "name": "endothelial progenitor cell",
+    "full_name": "endothelial progenitor cell",
+    "paper_synonyms": "EPC",
+    "tissue_context": "bone marrow (BM); peripheral blood (PB)"
+  },
+  {
+    "name": "CPC",
+    "full_name": "cardiac progenitor cell",
+    "paper_synonyms": "cardiac progenitor cell; cardiopoietic cells",
+    "tissue_context": "bone marrow (BM); hibernated myocardium surrounding the scar"
+  },
+  {
+    "name": "cardiac progenitor cell",
+    "full_name": "cardiac progenitor cell",
+    "paper_synonyms": "CPC; cardiopoietic cells",
+    "tissue_context": "bone marrow (BM); hibernated myocardium surrounding the scar"
+  },
+  {
+    "name": "LPC",
+    "full_name": "liver progenitor cell",
+    "paper_synonyms": "liver progenitor cell",
+    "tissue_context": null
+  },
+  {
+    "name": "liver progenitor cell",
+    "full_name": "liver progenitor cell",
+    "paper_synonyms": "LPC",
+    "tissue_context": null
+  },
+  {
+    "name": "OPC",
+    "full_name": "osteoblastic progenitor cell",
+    "paper_synonyms": "osteoblastic progenitor cell",
+    "tissue_context": null
+  },
+  {
+    "name": "osteoblastic progenitor cell",
+    "full_name": "osteoblastic progenitor cell",
+    "paper_synonyms": "OPC",
+    "tissue_context": null
+  }
+]

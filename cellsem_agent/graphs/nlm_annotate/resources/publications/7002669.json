@@ -1,0 +1,32 @@
+[
+  {
+    "name": "basal cells in the prostate epithelium",
+    "full_name": "prostatic basal epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "prostate epithelium; prostatic epithelium; urethra-proximal region"
+  },
+  {
+    "name": "stem cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "prostate epithelial stem cells",
+    "full_name": "prostate epithelial stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "prostate epithelium"
+  },
+  {
+    "name": "epithelial cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "prostate basal cell",
+    "full_name": "prostatic basal epithelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "prostate epithelium; urethra-proximal region"
+  }
+]

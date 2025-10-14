@@ -1,0 +1,32 @@
+[
+  {
+    "name": "lymphocyte",
+    "full_name": "lymphocyte",
+    "paper_synonyms": null,
+    "tissue_context": "nasopharyngeal carcinoma (NPC); tumor microenvironment (TME); tumor-infiltrating lymphocytes (TILs); peripheral blood mononuclear cells (PBMCs); normal tissues (non-neoplastic nasopharyngeal tissues)"
+  },
+  {
+    "name": "CD4+ T cells",
+    "full_name": "CD4+ T cells",
+    "paper_synonyms": null,
+    "tissue_context": "tertiary lymphoid structures (TLSs); tumor microenvironment (TME); peripheral blood mononuclear cells (PBMCs); nasopharyngeal carcinoma (NPC)"
+  },
+  {
+    "name": "Th1 and Tfh cells",
+    "full_name": "Th1 and Tfh cells",
+    "paper_synonyms": null,
+    "tissue_context": "tertiary lymphoid structures (TLSs); nasopharyngeal carcinoma (NPC); tumor-infiltrating lymphocytes (TILs); peripheral blood mononuclear cells (PBMCs)"
+  },
+  {
+    "name": "Monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": "MOs",
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs); tumor-infiltrating lymphocytes (TILs); NPC tumors; tumor microenvironment (TME)"
+  },
+  {
+    "name": "plasma cell",
+    "full_name": "plasma cell",
+    "paper_synonyms": null,
+    "tissue_context": "tumor interstices or margins; tertiary lymphoid structures (TLSs); tumor-infiltrating lymphocytes (TILs); peripheral blood mononuclear cells (PBMCs); nasopharyngeal carcinoma (NPC)"
+  }
+]

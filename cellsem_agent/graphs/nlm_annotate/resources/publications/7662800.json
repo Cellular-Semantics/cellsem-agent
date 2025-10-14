@@ -1,0 +1,56 @@
+[
+  {
+    "name": "neuron-like glomus cells",
+    "full_name": "neuron-like, O2-sensing glomus cells",
+    "paper_synonyms": "type I cells",
+    "tissue_context": "CB glomeruli"
+  },
+  {
+    "name": "type I cells",
+    "full_name": "glomus cells",
+    "paper_synonyms": "glomus cells",
+    "tissue_context": "CB glomeruli"
+  },
+  {
+    "name": "Glomus cells",
+    "full_name": null,
+    "paper_synonyms": "type I cells",
+    "tissue_context": "CB glomeruli"
+  },
+  {
+    "name": "glomus cell",
+    "full_name": null,
+    "paper_synonyms": "type I cells",
+    "tissue_context": "carotid body (CB)"
+  },
+  {
+    "name": "Type II cells",
+    "full_name": "sustentacular cells",
+    "paper_synonyms": "sustentacular cells; CBSCs",
+    "tissue_context": "CB glomeruli"
+  },
+  {
+    "name": "glial cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "carotid body (CB)"
+  },
+  {
+    "name": "multipotent stem cells",
+    "full_name": "CB stem cells",
+    "paper_synonyms": "CBSCs",
+    "tissue_context": "carotid body (CB)"
+  },
+  {
+    "name": "macrophages",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "carotid body (CB)"
+  },
+  {
+    "name": "fat cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "carotid body (CB)"
+  }
+]

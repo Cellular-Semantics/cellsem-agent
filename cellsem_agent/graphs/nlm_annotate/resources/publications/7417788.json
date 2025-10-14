@@ -1,0 +1,68 @@
+[
+  {
+    "name": "TCs",
+    "full_name": "T cells",
+    "paper_synonyms": "T cells; TCs",
+    "tissue_context": "PBMCs; peripheral blood"
+  },
+  {
+    "name": "CD4+ TCs",
+    "full_name": "CD4+ T cells",
+    "paper_synonyms": "CD4 + TCs; CD4 + T cells",
+    "tissue_context": "PBMCs; peripheral blood"
+  },
+  {
+    "name": "CD8+ TCs",
+    "full_name": "CD8+ T cells",
+    "paper_synonyms": "CD8 + TCs; CD8 + T cells",
+    "tissue_context": "PBMCs; peripheral blood"
+  },
+  {
+    "name": "CD4+CD8+ and proliferating T cells",
+    "full_name": "CD4+CD8+ T cells and proliferating T cells",
+    "paper_synonyms": "CD4 + CD8 +; proliferating T cells; proliferative T cells; mitotic T cells; T-mito",
+    "tissue_context": "PBMCs; peripheral blood"
+  },
+  {
+    "name": "naive TCs",
+    "full_name": "naive T cells",
+    "paper_synonyms": null,
+    "tissue_context": "PBMCs; peripheral blood"
+  },
+  {
+    "name": "CD4 Naive",
+    "full_name": "naive CD4+ T cells",
+    "paper_synonyms": "naive CD4 + T cells; CD4 Naive",
+    "tissue_context": "PBMCs; peripheral blood"
+  },
+  {
+    "name": "CD8 Naive",
+    "full_name": "naive CD8+ T cells",
+    "paper_synonyms": "naive CD8 + T cells; CD8 Naive",
+    "tissue_context": "PBMCs; peripheral blood"
+  },
+  {
+    "name": "effector, memory and exhausted cell",
+    "full_name": "effector, memory and exhausted T cells",
+    "paper_synonyms": "effector T cells; memory T cells; exhausted T cells",
+    "tissue_context": "PBMCs; peripheral blood"
+  },
+  {
+    "name": "CD56bright NK",
+    "full_name": "CD56 bright natural killer cells",
+    "paper_synonyms": "CD56 bright NK1; NK1",
+    "tissue_context": "PBMCs; peripheral blood"
+  },
+  {
+    "name": "BC",
+    "full_name": "B cells",
+    "paper_synonyms": "B cells; BCs",
+    "tissue_context": "PBMCs; peripheral blood"
+  },
+  {
+    "name": "Naive BCs",
+    "full_name": "naive B cells",
+    "paper_synonyms": "Naive BCs; naive B cells",
+    "tissue_context": "PBMCs; peripheral blood"
+  }
+]

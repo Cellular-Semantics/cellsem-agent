@@ -1,0 +1,26 @@
+[
+  {
+    "name": "AT2 epithelial cells",
+    "full_name": "Alveolar type 2 epithelial cells",
+    "paper_synonyms": "AT2; Alveolar type 2 cells; type-II alveolar epithelial cells",
+    "tissue_context": "murine lungs"
+  },
+  {
+    "name": "AT1 epithelial cells",
+    "full_name": "Alveolar type 1 epithelial cells",
+    "paper_synonyms": "AT1; Alveolar type I cells; alveolar epithelial cell type 1",
+    "tissue_context": "murine lungs"
+  },
+  {
+    "name": "alveolar type II cells",
+    "full_name": "Alveolar type 2 cells",
+    "paper_synonyms": "AT2; type-II alveolar epithelial cells; AT2 epithelial cells",
+    "tissue_context": "murine lungs"
+  },
+  {
+    "name": "proliferated AT2",
+    "full_name": "proliferated Alveolar type 2 cells",
+    "paper_synonyms": "AT2; AT2 cells",
+    "tissue_context": "murine lungs"
+  }
+]

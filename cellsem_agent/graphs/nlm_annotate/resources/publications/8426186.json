@@ -1,0 +1,62 @@
+[
+  {
+    "name": "M cells",
+    "full_name": "microfold cells",
+    "paper_synonyms": "microfold cells",
+    "tissue_context": "17 PCW terminal ileum"
+  },
+  {
+    "name": "microfold cells",
+    "full_name": "microfold cells",
+    "paper_synonyms": "M cells",
+    "tissue_context": "17 PCW terminal ileum"
+  },
+  {
+    "name": "TA",
+    "full_name": "transit-amplifying",
+    "paper_synonyms": "transit-amplifying",
+    "tissue_context": "small and the large intestines"
+  },
+  {
+    "name": "transit-amplifying",
+    "full_name": "transit-amplifying",
+    "paper_synonyms": "TA",
+    "tissue_context": "small and the large intestines"
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "intestinal tract"
+  },
+  {
+    "name": "enteroendocrine (EEC) and enterochromaffin (EC) cell",
+    "full_name": "enteroendocrine and enterochromaffin cell subsets",
+    "paper_synonyms": "EEC; EC",
+    "tissue_context": "intestinal tract"
+  },
+  {
+    "name": "enterochromaffin cells",
+    "full_name": "enterochromaffin cells",
+    "paper_synonyms": "EC",
+    "tissue_context": "fetal intestine"
+  },
+  {
+    "name": "enterochromaffin cell",
+    "full_name": "enterochromaffin cell",
+    "paper_synonyms": "EC",
+    "tissue_context": "fetal intestine"
+  },
+  {
+    "name": "tuft cells",
+    "full_name": "tuft cells",
+    "paper_synonyms": null,
+    "tissue_context": "intestinal tract"
+  },
+  {
+    "name": "absorptive (TA and enterocytes) and secretory (Paneth, goblet and EEC) cells",
+    "full_name": "absorptive (TA and enterocytes) and secretory (Paneth, goblet and EEC) cells",
+    "paper_synonyms": null,
+    "tissue_context": "intestinal tract"
+  }
+]

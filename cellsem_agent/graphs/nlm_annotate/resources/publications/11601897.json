@@ -1,0 +1,14 @@
+[
+  {
+    "name": "aTreg",
+    "full_name": "activated Treg",
+    "paper_synonyms": "activated Treg",
+    "tissue_context": "peripheral blood mononuclear cell (PBMC) samples; peripheral blood; orbital lesion tissues"
+  },
+  {
+    "name": "T cell",
+    "full_name": "T cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cell (PBMC) samples; peripheral blood; orbital tissues"
+  }
+]

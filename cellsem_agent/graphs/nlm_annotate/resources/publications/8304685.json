@@ -1,0 +1,80 @@
+[
+  {
+    "name": "radial glial cells",
+    "full_name": null,
+    "paper_synonyms": "RGCs",
+    "tissue_context": "forebrain LGEs (lateral ganglionic eminences) and pallium"
+  },
+  {
+    "name": "RGCs",
+    "full_name": "radial glial cells",
+    "paper_synonyms": "radial glial cells",
+    "tissue_context": "forebrain LGEs (lateral ganglionic eminences) and pallium"
+  },
+  {
+    "name": "LGE-derived neurons",
+    "full_name": "lateral ganglionic eminence-derived neurons",
+    "paper_synonyms": null,
+    "tissue_context": "LGEs (lateral ganglionic eminences); ventral telencephalon"
+  },
+  {
+    "name": "supportive cells",
+    "full_name": "ependymal cells",
+    "paper_synonyms": "ependymal; E cells",
+    "tissue_context": "ventricular\u2013subventricular zone (V-SVZ) that lines the lateral ventricle walls"
+  },
+  {
+    "name": "ependymal",
+    "full_name": "ependymal cells",
+    "paper_synonyms": "supportive cells; E cells",
+    "tissue_context": "ventricular\u2013subventricular zone (V-SVZ) that lines the lateral ventricle walls"
+  },
+  {
+    "name": "E cells",
+    "full_name": "ependymal cells",
+    "paper_synonyms": "supportive cells; ependymal",
+    "tissue_context": "ventricular\u2013subventricular zone (V-SVZ) that lines the lateral ventricle walls"
+  },
+  {
+    "name": "NSCs",
+    "full_name": "neural stem cells",
+    "paper_synonyms": "B1 cells; RGC-like neural stem cells",
+    "tissue_context": "ventricular\u2013subventricular zone (V-SVZ) that lines the lateral ventricle walls"
+  },
+  {
+    "name": "B1 cells",
+    "full_name": "RGC-like neural stem cells",
+    "paper_synonyms": "NSCs; neural stem cells",
+    "tissue_context": "ventricular\u2013subventricular zone (V-SVZ) that lines the lateral ventricle walls"
+  },
+  {
+    "name": "C cells",
+    "full_name": "transit amplifying cells",
+    "paper_synonyms": "transit amplifying cells",
+    "tissue_context": "ventricular\u2013subventricular zone (V-SVZ) that lines the lateral ventricle walls"
+  },
+  {
+    "name": "transit amplifying cells",
+    "full_name": null,
+    "paper_synonyms": "C cells",
+    "tissue_context": "ventricular\u2013subventricular zone (V-SVZ) that lines the lateral ventricle walls"
+  },
+  {
+    "name": "interneuron",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "ventral telencephalon; olfactory bulb (OB)"
+  },
+  {
+    "name": "B cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "OB interneurons",
+    "full_name": "olfactory bulb interneurons",
+    "paper_synonyms": null,
+    "tissue_context": "olfactory bulb (OB)"
+  }
+]

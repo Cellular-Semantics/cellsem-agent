@@ -1,0 +1,32 @@
+[
+  {
+    "name": "T lymphocytes",
+    "full_name": "T lymphocytes",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral T cells"
+  },
+  {
+    "name": "peripheral T cells",
+    "full_name": "peripheral T cells",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral T cells"
+  },
+  {
+    "name": "T cell",
+    "full_name": "T cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral T cells"
+  },
+  {
+    "name": "CD4+CD8+ thymocytes",
+    "full_name": "CD4+CD8+ thymocytes",
+    "paper_synonyms": null,
+    "tissue_context": "thymus"
+  },
+  {
+    "name": "thymic T-cell",
+    "full_name": "thymic T-cell",
+    "paper_synonyms": null,
+    "tissue_context": "thymus"
+  }
+]

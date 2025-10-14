@@ -1,0 +1,62 @@
+[
+  {
+    "name": "EC",
+    "full_name": "endothelial cells",
+    "paper_synonyms": "endothelial cells",
+    "tissue_context": "microvascular bed of the liver; hepatic endothelium"
+  },
+  {
+    "name": "Pericentral LSEC",
+    "full_name": "pericentral liver sinusoidal endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "central vein; liver sinusoids; liver lobule"
+  },
+  {
+    "name": "hepatocytic",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "liver"
+  },
+  {
+    "name": "hepatocytes",
+    "full_name": "hepatocytes",
+    "paper_synonyms": "parenchymal liver cells",
+    "tissue_context": "liver"
+  },
+  {
+    "name": "Portal vein EC",
+    "full_name": "Portal vein endothelial cells",
+    "paper_synonyms": "portal EC",
+    "tissue_context": "portal vein"
+  },
+  {
+    "name": "periportal LSEC",
+    "full_name": "periportal liver sinusoidal endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "periportal; portal vein; portal area"
+  },
+  {
+    "name": "monocyte",
+    "full_name": "monocyte",
+    "paper_synonyms": null,
+    "tissue_context": "liver"
+  },
+  {
+    "name": "KC",
+    "full_name": "Kupffer cells",
+    "paper_synonyms": "liver-resident macrophages",
+    "tissue_context": "sinusoids; liver"
+  },
+  {
+    "name": "LSEC",
+    "full_name": "liver sinusoidal endothelial cells",
+    "paper_synonyms": "sinusoidal endothelial cells; sinusoidal EC",
+    "tissue_context": "liver sinusoids"
+  },
+  {
+    "name": "Midlobular LSEC",
+    "full_name": "midlobular liver sinusoidal endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "sinusoids; liver lobule"
+  }
+]

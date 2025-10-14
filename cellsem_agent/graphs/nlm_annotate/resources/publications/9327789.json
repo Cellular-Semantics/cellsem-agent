@@ -1,0 +1,20 @@
+[
+  {
+    "name": "cDCs",
+    "full_name": "conventional dendritic cells",
+    "paper_synonyms": "conventional DCs; CD11c+ conventional DCs",
+    "tissue_context": "peripheral blood; peripheral blood mononuclear cells (PBMC)"
+  },
+  {
+    "name": "pDCs",
+    "full_name": "plasmacytoid dendritic cells",
+    "paper_synonyms": "plasmacytoid DCs; CD123+ plasmacytoid DCs",
+    "tissue_context": "peripheral blood; peripheral blood mononuclear cells (PBMC)"
+  },
+  {
+    "name": "Monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": "CD14+ Monocytes",
+    "tissue_context": "peripheral blood; peripheral blood mononuclear cells (PBMC)"
+  }
+]

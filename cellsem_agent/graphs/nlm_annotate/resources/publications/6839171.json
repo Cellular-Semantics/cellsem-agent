@@ -1,0 +1,14 @@
+[
+  {
+    "name": "mESCs",
+    "full_name": "mouse embryonic stem cells",
+    "paper_synonyms": "mESC; embryonic stem cells (ES)",
+    "tissue_context": "E14 mouse embryonic stem cells (mESCs)"
+  },
+  {
+    "name": "stem cells",
+    "full_name": "stem cells",
+    "paper_synonyms": "",
+    "tissue_context": ""
+  }
+]

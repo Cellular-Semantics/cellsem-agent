@@ -1,0 +1,38 @@
+[
+  {
+    "name": "adipocyte",
+    "full_name": "adipocyte",
+    "paper_synonyms": null,
+    "tissue_context": "white adipose tissue; adipose and myeloid tissues"
+  },
+  {
+    "name": "preadipocyte cell",
+    "full_name": "preadipocyte",
+    "paper_synonyms": null,
+    "tissue_context": "human subcutaneous preadipocytes; mouse 3T3-L1 preadipocyte cell line"
+  },
+  {
+    "name": "adipocytic",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "adipocytes",
+    "full_name": "adipocytes",
+    "paper_synonyms": null,
+    "tissue_context": "white and brown adipose tissues"
+  },
+  {
+    "name": "sebocytes",
+    "full_name": "sebocytes",
+    "paper_synonyms": null,
+    "tissue_context": "sebaceous gland tissue; sebaceous gland SZ95 cells"
+  },
+  {
+    "name": "enterocyte",
+    "full_name": "enterocyte",
+    "paper_synonyms": null,
+    "tissue_context": "gastrointestinal tract; gut epithelium; absorptive epithelial cells of the middle part of villi"
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "name": "fibroblast",
+    "full_name": "fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "skin; dermis"
+  },
+  {
+    "name": "Keratinocytes",
+    "full_name": "keratinocytes",
+    "paper_synonyms": "KCs",
+    "tissue_context": "epidermis; skin"
+  },
+  {
+    "name": "KCs",
+    "full_name": "keratinocytes",
+    "paper_synonyms": "keratinocytes",
+    "tissue_context": "epidermis; skin"
+  },
+  {
+    "name": "epidermal cell",
+    "full_name": "epidermal cell",
+    "paper_synonyms": null,
+    "tissue_context": "epidermis"
+  },
+  {
+    "name": "epidermal cells",
+    "full_name": "epidermal cells",
+    "paper_synonyms": null,
+    "tissue_context": "epidermis"
+  },
+  {
+    "name": "Langerhans cells",
+    "full_name": "Langerhans cells",
+    "paper_synonyms": "LCs",
+    "tissue_context": "epidermis"
+  },
+  {
+    "name": "melanocytes",
+    "full_name": "melanocytes",
+    "paper_synonyms": null,
+    "tissue_context": "epidermis"
+  },
+  {
+    "name": "Merkel cells",
+    "full_name": "Merkel cells",
+    "paper_synonyms": null,
+    "tissue_context": "epidermis"
+  },
+  {
+    "name": "Dermal fibroblasts",
+    "full_name": "dermal fibroblasts",
+    "paper_synonyms": "dFBs",
+    "tissue_context": "dermis; upper (papilla) dermis; lower (reticular) dermis"
+  },
+  {
+    "name": "dFBs",
+    "full_name": "dermal fibroblasts",
+    "paper_synonyms": "dermal fibroblasts",
+    "tissue_context": "dermis; upper (papilla) dermis; lower (reticular) dermis"
+  },
+  {
+    "name": "preadipocytes",
+    "full_name": "preadipocytes",
+    "paper_synonyms": "pAd",
+    "tissue_context": "lower (reticular) dermis; dermal white adipose tissue (dWAT)"
+  },
+  {
+    "name": "pAd",
+    "full_name": "preadipocytes",
+    "paper_synonyms": "preadipocytes",
+    "tissue_context": "lower (reticular) dermis; dermal white adipose tissue (dWAT)"
+  },
+  {
+    "name": "adipocytes",
+    "full_name": "adipocytes",
+    "paper_synonyms": null,
+    "tissue_context": "dermal white adipose tissue (dWAT)"
+  },
+  {
+    "name": "myeloid and lymphatic immune cells",
+    "full_name": "myeloid and lymphatic immune cells",
+    "paper_synonyms": null,
+    "tissue_context": "skin"
+  },
+  {
+    "name": "neutrophils",
+    "full_name": "neutrophils",
+    "paper_synonyms": null,
+    "tissue_context": "skin; epidermis"
+  },
+  {
+    "name": "monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "skin"
+  },
+  {
+    "name": "dendritic cells",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "DCs",
+    "tissue_context": "dermis; skin"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "skin"
+  },
+  {
+    "name": "T lymphocytes",
+    "full_name": "T lymphocytes",
+    "paper_synonyms": "T cells",
+    "tissue_context": "skin"
+  }
+]

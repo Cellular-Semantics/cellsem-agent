@@ -1,0 +1,38 @@
+[
+  {
+    "name": "EC",
+    "full_name": "endothelial cell",
+    "paper_synonyms": "endothelial cells; ECs",
+    "tissue_context": "human coronary PVAT; coronary perivascular adipose tissue (PVAT)"
+  },
+  {
+    "name": "mesothelial cell",
+    "full_name": "mesothelial cell",
+    "paper_synonyms": "mesothelial cells; MC",
+    "tissue_context": "human coronary PVAT; coronary perivascular adipose tissue (PVAT)"
+  },
+  {
+    "name": "SMC",
+    "full_name": "smooth muscle cell",
+    "paper_synonyms": "smooth muscle cells; SMCs",
+    "tissue_context": "human coronary PVAT; coronary perivascular adipose tissue (PVAT)"
+  },
+  {
+    "name": "ECs",
+    "full_name": "endothelial cells",
+    "paper_synonyms": "endothelial cell; EC",
+    "tissue_context": "human coronary PVAT; coronary perivascular adipose tissue (PVAT)"
+  },
+  {
+    "name": "mesothelial cells",
+    "full_name": "mesothelial cells",
+    "paper_synonyms": "mesothelial cell; MC",
+    "tissue_context": "human coronary PVAT; coronary perivascular adipose tissue (PVAT)"
+  },
+  {
+    "name": "SMCs",
+    "full_name": "smooth muscle cells",
+    "paper_synonyms": "smooth muscle cell; SMC",
+    "tissue_context": "human coronary PVAT; coronary perivascular adipose tissue (PVAT)"
+  }
+]

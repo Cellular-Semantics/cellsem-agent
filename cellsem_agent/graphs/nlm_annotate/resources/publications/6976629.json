@@ -1,0 +1,32 @@
+[
+  {
+    "name": "osteoclast",
+    "full_name": "osteoclast",
+    "paper_synonyms": "OC",
+    "tissue_context": "arthritic paws; bone; joint"
+  },
+  {
+    "name": "osteoclasts",
+    "full_name": "osteoclasts",
+    "paper_synonyms": "OC",
+    "tissue_context": "arthritic paws; bone; joint"
+  },
+  {
+    "name": "multinucleated giant cells",
+    "full_name": "multinucleated giant cells",
+    "paper_synonyms": "MGCs; MGC",
+    "tissue_context": "bone marrow"
+  },
+  {
+    "name": "MGCs",
+    "full_name": "multinucleated giant cells",
+    "paper_synonyms": "multinucleated giant cells; MGC",
+    "tissue_context": "bone marrow"
+  },
+  {
+    "name": "MGC",
+    "full_name": "multinucleated giant cell",
+    "paper_synonyms": "multinucleated giant cells; MGCs",
+    "tissue_context": "bone marrow"
+  }
+]

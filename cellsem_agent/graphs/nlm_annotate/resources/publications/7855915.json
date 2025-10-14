@@ -1,0 +1,56 @@
+[
+  {
+    "name": "stromal stem cells",
+    "full_name": "stromal stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "corneal stroma"
+  },
+  {
+    "name": "keratocytes",
+    "full_name": "keratocytes",
+    "paper_synonyms": null,
+    "tissue_context": "corneal stroma"
+  },
+  {
+    "name": "monocytes",
+    "full_name": "monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "corneal stroma"
+  },
+  {
+    "name": "neutrophils",
+    "full_name": "neutrophils",
+    "paper_synonyms": null,
+    "tissue_context": "corneal stroma"
+  },
+  {
+    "name": "fibrocytes",
+    "full_name": "fibrocytes",
+    "paper_synonyms": null,
+    "tissue_context": "corneal stroma"
+  },
+  {
+    "name": "lymphocytes",
+    "full_name": "lymphocytes",
+    "paper_synonyms": null,
+    "tissue_context": "corneal stroma"
+  },
+  {
+    "name": "alpha-smooth muscle actin (SMA)-positive myofibroblasts",
+    "full_name": "alpha-smooth muscle actin (SMA)-positive myofibroblasts",
+    "paper_synonyms": "SMA-positive myofibroblasts",
+    "tissue_context": "corneal stroma"
+  },
+  {
+    "name": "fibrocyte",
+    "full_name": "fibrocyte",
+    "paper_synonyms": null,
+    "tissue_context": "corneal stroma"
+  },
+  {
+    "name": "myofibroblasts",
+    "full_name": "myofibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "corneal stroma"
+  }
+]

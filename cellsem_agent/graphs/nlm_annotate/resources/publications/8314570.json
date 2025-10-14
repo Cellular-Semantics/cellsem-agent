@@ -1,0 +1,14 @@
+[
+  {
+    "name": "microglia",
+    "full_name": "microglia",
+    "paper_synonyms": null,
+    "tissue_context": "central nervous system (CNS); brain; brain parenchyma; olfactory bulb; frontal cortex; posterior cortex; pons/medulla; cerebellum; hippocampus; mid-brain"
+  },
+  {
+    "name": "myeloid cells",
+    "full_name": "myeloid cells",
+    "paper_synonyms": null,
+    "tissue_context": "central nervous system (CNS); brain; peripheral blood; bone marrow (BM)"
+  }
+]

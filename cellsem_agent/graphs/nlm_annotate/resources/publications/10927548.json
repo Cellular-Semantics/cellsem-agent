@@ -1,0 +1,20 @@
+[
+  {
+    "name": "airway ciliated cells",
+    "full_name": "airway ciliated cells",
+    "paper_synonyms": "ciliated airway epithelial cells; ciliated cells; ciliated airway cells; respiratory ciliated cells; Cil",
+    "tissue_context": "human airway epithelia; human large airway tissue; human airways; human large airways"
+  },
+  {
+    "name": "ciliated and secretory/goblet cells",
+    "full_name": "ciliated and secretory/goblet cells",
+    "paper_synonyms": "ciliated and secretory cells",
+    "tissue_context": "airway epithelia"
+  },
+  {
+    "name": "ciliated and secretory cells",
+    "full_name": "ciliated and secretory cells",
+    "paper_synonyms": "ciliated and secretory/goblet cells",
+    "tissue_context": "airway epithelia"
+  }
+]

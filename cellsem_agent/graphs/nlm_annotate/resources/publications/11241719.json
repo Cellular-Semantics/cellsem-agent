@@ -1,0 +1,50 @@
+[
+  {
+    "name": "EC1",
+    "full_name": "portal venous ECs",
+    "paper_synonyms": "portal venous endothelial cells",
+    "tissue_context": "liver; portal venous"
+  },
+  {
+    "name": "portal venous ECs",
+    "full_name": "portal venous ECs",
+    "paper_synonyms": "portal venous endothelial cells",
+    "tissue_context": "liver; portal venous"
+  },
+  {
+    "name": "EC2",
+    "full_name": "periportal LSECs",
+    "paper_synonyms": "periportal liver sinusoidal endothelial cells",
+    "tissue_context": "liver; periportal (Zone 1)"
+  },
+  {
+    "name": "periportal LSECs",
+    "full_name": "periportal LSECs",
+    "paper_synonyms": "periportal liver sinusoidal endothelial cells",
+    "tissue_context": "liver; periportal (Zone 1)"
+  },
+  {
+    "name": "EC4",
+    "full_name": "pericentral LSECs",
+    "paper_synonyms": "pericentral liver sinusoidal endothelial cells",
+    "tissue_context": "liver; pericentral (Zone 3)"
+  },
+  {
+    "name": "pericentral LSECs",
+    "full_name": "pericentral LSECs",
+    "paper_synonyms": "pericentral liver sinusoidal endothelial cells",
+    "tissue_context": "liver; pericentral (Zone 3)"
+  },
+  {
+    "name": "EC5",
+    "full_name": "central venous ECs",
+    "paper_synonyms": "central venous endothelial cells",
+    "tissue_context": "liver; central venous"
+  },
+  {
+    "name": "central venous ECs",
+    "full_name": "central venous ECs",
+    "paper_synonyms": "central venous endothelial cells",
+    "tissue_context": "liver; central venous"
+  }
+]

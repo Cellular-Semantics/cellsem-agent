@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CD8+ T cells",
+    "full_name": "CD8+ T cells",
+    "paper_synonyms": "CD8+ T cell",
+    "tissue_context": "peripheral blood mononuclear cells (PBMC)"
+  },
+  {
+    "name": "CD8+ T cell",
+    "full_name": "CD8+ T cell",
+    "paper_synonyms": "CD8+ T cells",
+    "tissue_context": "peripheral blood mononuclear cells (PBMC)"
+  },
+  {
+    "name": "TEM",
+    "full_name": "effector memory T cells",
+    "paper_synonyms": "T EM",
+    "tissue_context": "peripheral blood mononuclear cells (PBMC)"
+  },
+  {
+    "name": "TEMRA",
+    "full_name": "terminally differentiated effector memory cells",
+    "paper_synonyms": "T EMRA; EMRA",
+    "tissue_context": "peripheral blood mononuclear cells (PBMC)"
+  },
+  {
+    "name": "memory (TCM and TEM2) and effector (TEFF) cells",
+    "full_name": "memory (central memory and effector memory subpopulation 2) and effector cells",
+    "paper_synonyms": "T CM; T EM2; T EFF",
+    "tissue_context": "peripheral blood mononuclear cells (PBMC)"
+  }
+]

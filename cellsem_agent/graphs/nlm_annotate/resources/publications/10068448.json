@@ -1,0 +1,32 @@
+[
+  {
+    "name": "T cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "PDAC tumor tissue; peripheral blood"
+  },
+  {
+    "name": "CD4+ T cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "PDAC tumor tissue; PBMC; TIL"
+  },
+  {
+    "name": "CCR6+CD161+ Th17",
+    "full_name": "CCR6 + CD161 + Th17 phenotype",
+    "paper_synonyms": null,
+    "tissue_context": "PDAC tumors; TIL; PBMC"
+  },
+  {
+    "name": "activated regulatory T-cell",
+    "full_name": null,
+    "paper_synonyms": "Treg",
+    "tissue_context": "PDAC tumors; PBMC; TIL"
+  },
+  {
+    "name": "T-cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "PDAC tumor tissue; peripheral blood"
+  }
+]

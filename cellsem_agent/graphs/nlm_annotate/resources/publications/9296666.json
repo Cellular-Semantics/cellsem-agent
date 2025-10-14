@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Neuronal",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "Glial",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "RG",
+    "full_name": "Radial glia",
+    "paper_synonyms": null,
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "Radial glia",
+    "full_name": null,
+    "paper_synonyms": "RG",
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "APCs",
+    "full_name": "Astrocyte progenitor cells",
+    "paper_synonyms": null,
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "Astrocyte progenitor cells",
+    "full_name": null,
+    "paper_synonyms": "APCs",
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "EmNBs",
+    "full_name": "Embryonic neuroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "Embryonic neuroblasts",
+    "full_name": null,
+    "paper_synonyms": "EmNBs",
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "OPCs",
+    "full_name": "Oligoprogenitor cells",
+    "paper_synonyms": "oligodendrocyte progenitor cells",
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "Oligoprogenitor cells",
+    "full_name": null,
+    "paper_synonyms": "OPCs; oligodendrocyte progenitor cells",
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "INs",
+    "full_name": "Interneurons",
+    "paper_synonyms": null,
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "VLMC",
+    "full_name": "Vascular leptomeningeal cells",
+    "paper_synonyms": null,
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "Vascular leptomeningeal cells",
+    "full_name": null,
+    "paper_synonyms": "VLMC",
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "Myeloid-DSCs",
+    "full_name": "Myeloid-derived suppressor cells",
+    "paper_synonyms": null,
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "Myeloid-derived suppressor cells",
+    "full_name": null,
+    "paper_synonyms": "Myeloid-DSCs",
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "Interneurons",
+    "full_name": null,
+    "paper_synonyms": "INs",
+    "tissue_context": "mouse cerebrum"
+  },
+  {
+    "name": "Vascular",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "mouse cerebrum"
+  }
+]

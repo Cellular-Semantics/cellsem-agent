@@ -1,0 +1,14 @@
+[
+  {
+    "name": "beta-cells",
+    "full_name": "\u03b2-cells",
+    "paper_synonyms": "\u03b2-cell; beta-cell; beta cell; beta cells",
+    "tissue_context": "pancreatic islets; endocrine pancreas; pancreas; mouse islets"
+  },
+  {
+    "name": "beta-cell",
+    "full_name": "\u03b2-cell",
+    "paper_synonyms": "\u03b2-cells; beta-cells; beta cell; beta cells",
+    "tissue_context": "pancreatic islets; endocrine pancreas; pancreas; mouse islets"
+  }
+]

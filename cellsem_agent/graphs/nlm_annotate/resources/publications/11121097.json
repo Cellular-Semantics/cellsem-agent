@@ -1,0 +1,56 @@
+[
+  {
+    "name": "DC cells",
+    "full_name": "Dendritic cells",
+    "paper_synonyms": "Dendritic cells",
+    "tissue_context": "skin tissue"
+  },
+  {
+    "name": "Dendritic cells",
+    "full_name": "Dendritic cells",
+    "paper_synonyms": "DC cells",
+    "tissue_context": "skin tissue"
+  },
+  {
+    "name": "eosinophils",
+    "full_name": "eosinophils",
+    "paper_synonyms": null,
+    "tissue_context": "skin tissue"
+  },
+  {
+    "name": "neutrophils",
+    "full_name": "neutrophils",
+    "paper_synonyms": null,
+    "tissue_context": "skin tissue"
+  },
+  {
+    "name": "plasma cells",
+    "full_name": "plasma cells",
+    "paper_synonyms": null,
+    "tissue_context": "skin tissue"
+  },
+  {
+    "name": "macrophages",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "skin tissue"
+  },
+  {
+    "name": "memory-activated T cells",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "skin tissue"
+  },
+  {
+    "name": "regulatory T cells",
+    "full_name": "regulatory T cells",
+    "paper_synonyms": "Tregs",
+    "tissue_context": "skin tissue"
+  },
+  {
+    "name": "Tregs",
+    "full_name": "regulatory T cells",
+    "paper_synonyms": "regulatory T cells",
+    "tissue_context": "skin tissue"
+  }
+]

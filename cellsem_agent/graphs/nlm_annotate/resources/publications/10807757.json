@@ -1,0 +1,14 @@
+[
+  {
+    "name": "colon epithelial cells",
+    "full_name": "non-polarized human colon epithelial (Caco-2) cells",
+    "paper_synonyms": "Caco-2 cells; Caco-2 human colon epithelial cells; human colon epithelial (Caco-2) cells; non-polarized Caco-2 human colon epithelial cells",
+    "tissue_context": "human colon epithelial (Caco-2) cells"
+  },
+  {
+    "name": "fibroblast",
+    "full_name": "murine fibroblasts (L cells)",
+    "paper_synonyms": "L cells; L929 fibroblasts; murine fibroblasts",
+    "tissue_context": "murine L929 fibroblasts (L cells)"
+  }
+]

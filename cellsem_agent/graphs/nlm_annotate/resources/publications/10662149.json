@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Endothelial Cell",
+    "full_name": "Endothelial Cell",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Epithelial Cell",
+    "full_name": "Epithelial Cell",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Fibroblast",
+    "full_name": "Fibroblast",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Granulosa Cell",
+    "full_name": "Granulosa Cell",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Leydig Cell",
+    "full_name": "Leydig Cell",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "M1 Macrophage",
+    "full_name": "M1 Macrophage",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "M2 Macrophage",
+    "full_name": "M2 Macrophage",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Memory T Cell",
+    "full_name": "Memory T Cell",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Mesenchymal Cell",
+    "full_name": "Mesenchymal Cell",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Progenitor Cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Naive B Cell",
+    "full_name": "Naive B Cell",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Natural Killer (NK) Cell",
+    "full_name": "Natural Killer (NK) Cell",
+    "paper_synonyms": "NK Cell",
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Natural Killer T (NKT) Cell",
+    "full_name": "Natural Killer T (NKT) Cell",
+    "paper_synonyms": "NKT Cell",
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Neutrophil",
+    "full_name": "Neutrophil",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Plasma Cell",
+    "full_name": "Plasma Cell",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Plasmacytoid Dendritic Cell",
+    "full_name": "Plasmacytoid Dendritic Cell",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "Regulatory T (Treg) Cell",
+    "full_name": "Regulatory T (Treg) Cell",
+    "paper_synonyms": "Treg Cell",
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  },
+  {
+    "name": "T Helper Cell",
+    "full_name": "T Helper Cell",
+    "paper_synonyms": null,
+    "tissue_context": "tumor immune microenvironment in patients with TNBC"
+  }
+]
