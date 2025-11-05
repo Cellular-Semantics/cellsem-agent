@@ -1,0 +1,29 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Tregs	regulatory T cell	CL:0000815	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+T cells CD8	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+T cells CD8 KLRG1	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+T cells CD4 IL17A	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+IELs ID3 ENTPD1	intraepithelial lymphocyte	CL:0002496	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+T cells CD4 FOSB	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+T cells Naive CD4	naive T cell	CL:0000898	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+ILCs	innate lymphoid cell	CL:0001065	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+NK cells KLRF1 CD3G-	natural killer cell	CL:0000623	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+T cells OGT	T cell	CL:0000084	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+Mast cells	mast cell	CL:0000097	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+Plasma cells	plasma cell	CL:0000786	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+B cells	B cell	CL:0000236	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+B cells AICDA LRMP	B cell	CL:0000236	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+DC2 CD1D-	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+Cycling cells	unknown	unknown	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+Macrophages CCL3 CCL4	macrophage	CL:0000235	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+DC1	conventional dendritic cell	CL:0000990	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+DC2 CD1D	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+Mature DCs	dendritic cell	CL:0000451	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+Macrophages LYVE1	macrophage	CL:0000235	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+Macrophages	macrophage	CL:0000235	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+Monocytes S100A8 S100A9	monocyte	CL:0000576	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+Macrophages CXCL9 CXCL10	macrophage	CL:0000235	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+Neutrophils S100A8 S100A9	neutrophil	CL:0000775	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+Monocytes CHI3L1 CYP27A1	monocyte	CL:0000576	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+Macrophages PLA2G2D	macrophage	CL:0000235	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad
+Monocytes HBB	monocyte	CL:0000576	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/6cfb8c33-9cfb-4e16-b868-18aff944e55a.h5ad

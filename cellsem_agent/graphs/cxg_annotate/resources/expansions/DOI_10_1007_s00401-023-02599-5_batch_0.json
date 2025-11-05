@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Oligodendrocytes",
+    "full_name": "Oligodendrocytes",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "L3-L5 Intratelencephalic Type 1",
+    "full_name": "L3-L5 intratelencephalic type 1",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex"
+  },
+  {
+    "name": "Astrocytes",
+    "full_name": "Astrocytes",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "L6 Intratelencephalic - Type 1",
+    "full_name": "L6 intratelencephalic type 1",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex"
+  },
+  {
+    "name": "SV2C LAMP5 Interneurons",
+    "full_name": "SV2C LAMP5 Interneurons",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex"
+  }
+]

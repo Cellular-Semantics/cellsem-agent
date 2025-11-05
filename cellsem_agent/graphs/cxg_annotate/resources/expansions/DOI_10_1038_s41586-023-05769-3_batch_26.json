@@ -1,0 +1,32 @@
+[
+  {
+    "name": "MD",
+    "full_name": "macula densa cells",
+    "paper_synonyms": null,
+    "tissue_context": "renal corpuscle; afferent/efferent arterioles"
+  },
+  {
+    "name": "NKC/T",
+    "full_name": "T cells",
+    "paper_synonyms": "T",
+    "tissue_context": "areas of tissue damage; fibrosis; around vessels"
+  },
+  {
+    "name": "tPC-IC",
+    "full_name": "transitioning principal and intercalated cells",
+    "paper_synonyms": "principal cells (PC); intercalated cells (IC)",
+    "tissue_context": "medullary tubules; collecting duct"
+  },
+  {
+    "name": "EC-DVR",
+    "full_name": "endothelial cells of the vasa recta",
+    "paper_synonyms": null,
+    "tissue_context": "vasa recta; medulla"
+  },
+  {
+    "name": "M-TAL",
+    "full_name": "medullary thick ascending limb",
+    "paper_synonyms": "thick ascending limb (TAL)",
+    "tissue_context": "inner medulla; outer medullary stripe"
+  }
+]

@@ -1,0 +1,13 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+MG_OFF	retinal ganglion cell	CL:0000740	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/0c9d18e4-4138-48af-9721-b1bfd139868c.h5ad
+MG_ON	retinal ganglion cell	CL:0000740	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/0c9d18e4-4138-48af-9721-b1bfd139868c.h5ad
+RGC11	retinal ganglion cell	CL:0000740	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/0c9d18e4-4138-48af-9721-b1bfd139868c.h5ad
+RGC8	retinal ganglion cell	CL:0000740	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/0c9d18e4-4138-48af-9721-b1bfd139868c.h5ad
+PG_OFF	retinal ganglion cell	CL:0000740	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/0c9d18e4-4138-48af-9721-b1bfd139868c.h5ad
+PG_ON	retinal ganglion cell	CL:0000740	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/0c9d18e4-4138-48af-9721-b1bfd139868c.h5ad
+RGC7	retinal ganglion cell	CL:0000740	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/0c9d18e4-4138-48af-9721-b1bfd139868c.h5ad
+RGC5	retinal ganglion cell	CL:0000740	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/0c9d18e4-4138-48af-9721-b1bfd139868c.h5ad
+RGC6	retinal ganglion cell	CL:0000740	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/0c9d18e4-4138-48af-9721-b1bfd139868c.h5ad
+RGC10	retinal ganglion cell	CL:0000740	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/0c9d18e4-4138-48af-9721-b1bfd139868c.h5ad
+RGC9	retinal ganglion cell	CL:0000740	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/0c9d18e4-4138-48af-9721-b1bfd139868c.h5ad
+RGC12	retinal ganglion cell	CL:0000740	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/0c9d18e4-4138-48af-9721-b1bfd139868c.h5ad

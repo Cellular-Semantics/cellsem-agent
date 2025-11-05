@@ -1,0 +1,87 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+mesoderm 1	mesodermal cell	CL:0000222	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+WNT4 FLC	fibroblast	CL:0000057	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+immune cells	hematopoietic cell	CL:0000988	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+SMC	enteric smooth muscle cell	CL:0002504	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Erythroblasts	erythroblast	CL:0000765	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+mesoderm 2	mesodermal cell	CL:0000222	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Neural crest cells	neural crest cell	CL:0011012	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Enteric neurons	enteric neuron	CL:0007011	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Uniform progenitors	progenitor cell	CL:0011026	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+UPK3B Serosa	mesothelial cell	CL:0000077	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+pericyte	pericyte	CL:0000669	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Venous EC	vein endothelial cell	CL:0002543	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+FOXL1 FLC	fibroblast	CL:0000057	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Arterial EC	endothelial cell of artery	CL:1000413	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Lymphatic EC	endothelial cell of lymphatic vessel	CL:0002138	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+myofibroblast	myofibroblast cell	CL:0000186	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Small intestinal Epi	enterocyte	CL:0000584	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+FRZB FLC	fibroblast	CL:0000057	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Colonic Epi	colon epithelial cell	CL:0011108	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+ICC	interstitial cell of Cajal	CL:0002088	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Secretory Epi	enterocyte	CL:0000584	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Secretory Epi	enteroendocrine cell	CL:0000164	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Secretory Epi	intestine goblet cell	CL:0019031	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Small intestinal Epi	stem cell	CL:0000034	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Secretory Epi	stem cell	CL:0000034	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Secretory Epi	epithelial cell	CL:0000066	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Small intestinal Epi	intestine goblet cell	CL:0019031	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Small intestinal Epi	epithelial cell	CL:0000066	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Small intestinal Epi	progenitor cell	CL:0011026	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Uniform progenitors	enterocyte	CL:0000584	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Secretory Epi	progenitor cell	CL:0011026	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Uniform progenitors	epithelial cell	CL:0000066	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Uniform progenitors	enteroendocrine cell	CL:0000164	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Uniform progenitors	stem cell	CL:0000034	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Uniform progenitors	intestine goblet cell	CL:0019031	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Small intestinal Epi	enteroendocrine cell	CL:0000164	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Mesoderm 1	mesodermal cell	CL:0000222	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+WNT4+ fibroblasts	fibroblast	CL:0000057	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Immune cells	hematopoietic cell	CL:0000988	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Smooth muscle cells	enteric smooth muscle cell	CL:0002504	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Mesoderm 2	mesodermal cell	CL:0000222	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Serosa/mesothelial cells	mesothelial cell	CL:0000077	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Pericyte	pericyte	CL:0000669	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Venous endothelial cell	vein endothelial cell	CL:0002543	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+FOXL1+ fibroblasts	fibroblast	CL:0000057	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Arterial endothelial cell	endothelial cell of artery	CL:1000413	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Lymphatic endothelial cell	endothelial cell of lymphatic vessel	CL:0002138	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Myofibroblast	myofibroblast cell	CL:0000186	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Enterocytes	enterocyte	CL:0000584	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+FRZB+ fibroblasts	fibroblast	CL:0000057	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Colonocytes	colon epithelial cell	CL:0011108	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Interstitial cells of Cajal	interstitial cell of Cajal	CL:0002088	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+BEST4+ enterocyte	enterocyte	CL:0000584	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Enteroendocrine	enteroendocrine cell	CL:0000164	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Enterocyte	enterocyte	CL:0000584	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+G2M/S enterocytes	enterocyte	CL:0000584	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Goblet	intestine goblet cell	CL:0019031	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+Early enterocyte	enterocyte	CL:0000584	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+LGR5 stem	stem cell	CL:0000034	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+NTS+ epithelial cells	epithelial cell	CL:0000066	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+mesenchymal	mesodermal cell	CL:0000222	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+mesenchymal	fibroblast	CL:0000057	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+immune	hematopoietic cell	CL:0000988	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+mesenchymal	enteric smooth muscle cell	CL:0002504	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+immune	erythroblast	CL:0000765	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+mesenchymal	neural crest cell	CL:0011012	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+mesenchymal	enteric neuron	CL:0007011	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+epithelium	progenitor cell	CL:0011026	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+mesenchymal	mesothelial cell	CL:0000077	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+mesenchymal	pericyte	CL:0000669	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+vasculature	vein endothelial cell	CL:0002543	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+vasculature	pericyte	CL:0000669	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+vasculature	endothelial cell of artery	CL:1000413	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+vasculature	endothelial cell of lymphatic vessel	CL:0002138	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+mesenchymal	myofibroblast cell	CL:0000186	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+epithelium	enterocyte	CL:0000584	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+epithelium	colon epithelial cell	CL:0011108	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+mesenchymal	interstitial cell of Cajal	CL:0002088	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+vasculature	fibroblast	CL:0000057	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+epithelium	enteroendocrine cell	CL:0000164	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+vasculature	mesodermal cell	CL:0000222	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+epithelium	intestine goblet cell	CL:0019031	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+epithelium	stem cell	CL:0000034	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+epithelium	epithelial cell	CL:0000066	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+epithelium	enteric smooth muscle cell	CL:0002504	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad
+immune	fibroblast	CL:0000057	https://doi.org/10.1016/j.devcel.2020.11.010	https://datasets.cellxgene.cziscience.com/fda4e033-5b51-40bf-b67e-d24c9742bfbc.h5ad

@@ -1,0 +1,12 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+MO	monocyte	CL:0000576	https://doi.org/10.1016/j.isci.2023.108572	https://datasets.cellxgene.cziscience.com/6758bff5-e8dd-4633-8d27-9a35f47d796f.h5ad
+T.CD8	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1016/j.isci.2023.108572	https://datasets.cellxgene.cziscience.com/6758bff5-e8dd-4633-8d27-9a35f47d796f.h5ad
+T.MAIT	mucosal invariant T cell	CL:0000940	https://doi.org/10.1016/j.isci.2023.108572	https://datasets.cellxgene.cziscience.com/6758bff5-e8dd-4633-8d27-9a35f47d796f.h5ad
+B	B cell	CL:0000236	https://doi.org/10.1016/j.isci.2023.108572	https://datasets.cellxgene.cziscience.com/6758bff5-e8dd-4633-8d27-9a35f47d796f.h5ad
+T.CD4	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1016/j.isci.2023.108572	https://datasets.cellxgene.cziscience.com/6758bff5-e8dd-4633-8d27-9a35f47d796f.h5ad
+NK	natural killer cell	CL:0000623	https://doi.org/10.1016/j.isci.2023.108572	https://datasets.cellxgene.cziscience.com/6758bff5-e8dd-4633-8d27-9a35f47d796f.h5ad
+DC	dendritic cell	CL:0000451	https://doi.org/10.1016/j.isci.2023.108572	https://datasets.cellxgene.cziscience.com/6758bff5-e8dd-4633-8d27-9a35f47d796f.h5ad
+SC	stem cell	CL:0000034	https://doi.org/10.1016/j.isci.2023.108572	https://datasets.cellxgene.cziscience.com/6758bff5-e8dd-4633-8d27-9a35f47d796f.h5ad
+T.gdT	gamma-delta T cell	CL:0000798	https://doi.org/10.1016/j.isci.2023.108572	https://datasets.cellxgene.cziscience.com/6758bff5-e8dd-4633-8d27-9a35f47d796f.h5ad
+T.Proliferating	T cell	CL:0000084	https://doi.org/10.1016/j.isci.2023.108572	https://datasets.cellxgene.cziscience.com/6758bff5-e8dd-4633-8d27-9a35f47d796f.h5ad
+NK.Proliferating	T cell	CL:0000084	https://doi.org/10.1016/j.isci.2023.108572	https://datasets.cellxgene.cziscience.com/6758bff5-e8dd-4633-8d27-9a35f47d796f.h5ad

@@ -1,0 +1,79 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Fibroblast 1	fibroblast	CL:0000057	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Stroma progenitor	mesenchymal stem cell	CL:0000134	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Fibroblast 2	fibroblast	CL:0000057	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Myofibroblast 1	myofibroblast cell	CL:0000186	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Myofibroblast 2	myofibroblast cell	CL:0000186	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proliferating myofibroblast	myofibroblast cell	CL:0000186	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proliferating stroma progenitor	mesenchymal stem cell	CL:0000134	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proliferating fibroblast	fibroblast	CL:0000057	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Neuron	neuron	CL:0000540	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Endothelium	endothelial cell	CL:0000115	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+CNT/PC - proximal UB	kidney epithelial cell	CL:0002518	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Medial S shaped body	kidney cell	CL:1000497	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Podocyte	podocyte	CL:0000653	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proliferating distal renal vesicle	kidney epithelial cell	CL:0002518	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proximal tubule	epithelial cell of proximal tubule	CL:0002306	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proximal S shaped body	kidney cell	CL:1000497	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proliferating cap mesenchyme	mesenchymal cell	CL:0008019	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Loop of Henle	kidney loop of Henle epithelial cell	CL:1000909	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Cap mesenchyme	mesenchymal cell	CL:0008019	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Distal renal vesicle	kidney epithelial cell	CL:0002518	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proximal UB	kidney epithelial cell	CL:0002518	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Distal S shaped body	kidney cell	CL:1000497	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proximal renal vesicle	kidney epithelial cell	CL:0002518	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Pelvic epithelium - distal UB	kidney epithelial cell	CL:0002518	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Macrophage 1	macrophage	CL:0000235	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Megakaryocyte	megakaryocyte	CL:0000556	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Mast cells	mast cell	CL:0000097	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proliferating monocyte	monocyte	CL:0000576	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proliferating macrophage	macrophage	CL:0000235	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Neutrophil	neutrophil	CL:0000775	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+NK cell	natural killer cell	CL:0000623	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Erythroid	erythroid lineage cell	CL:0000764	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+cDC2	conventional dendritic cell	CL:0000990	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Macrophage 2	macrophage	CL:0000235	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Innate like lymphocyte	lymphocyte	CL:0000542	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proliferating NK cell	natural killer cell	CL:0000623	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proliferating cDC2	conventional dendritic cell	CL:0000990	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+CD8 T cell	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Monocyte	monocyte	CL:0000576	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+pDC	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+CD4 T cell	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+cDC1	conventional dendritic cell	CL:0000990	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+Proliferating B cell	B cell	CL:0000236	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+B cell	B cell	CL:0000236	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	fibroblast	CL:0000057	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	mesenchymal stem cell	CL:0000134	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	myofibroblast cell	CL:0000186	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+proliferating	myofibroblast cell	CL:0000186	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+proliferating	mesenchymal stem cell	CL:0000134	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+proliferating	fibroblast	CL:0000057	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	neuron	CL:0000540	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	endothelial cell	CL:0000115	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	kidney epithelial cell	CL:0002518	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	kidney cell	CL:1000497	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	podocyte	CL:0000653	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+proliferating	kidney epithelial cell	CL:0002518	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	epithelial cell of proximal tubule	CL:0002306	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+proliferating	mesenchymal cell	CL:0008019	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	kidney loop of Henle epithelial cell	CL:1000909	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	mesenchymal cell	CL:0008019	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	macrophage	CL:0000235	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	megakaryocyte	CL:0000556	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	mast cell	CL:0000097	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+proliferating	monocyte	CL:0000576	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+proliferating	macrophage	CL:0000235	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	neutrophil	CL:0000775	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	natural killer cell	CL:0000623	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	erythroid lineage cell	CL:0000764	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	conventional dendritic cell	CL:0000990	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	lymphocyte	CL:0000542	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+proliferating	natural killer cell	CL:0000623	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+proliferating	conventional dendritic cell	CL:0000990	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	monocyte	CL:0000576	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+proliferating	B cell	CL:0000236	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad
+na	B cell	CL:0000236	https://doi.org/10.1126/science.aat5031	https://datasets.cellxgene.cziscience.com/29dcc0c9-8db4-49ee-a3cc-7c4fca336de8.h5ad

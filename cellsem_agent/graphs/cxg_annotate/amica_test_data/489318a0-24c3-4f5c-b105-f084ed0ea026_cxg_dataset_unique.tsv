@@ -1,0 +1,6 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Equatorial	lens epithelial cell	CL:0002224	https://doi.org/10.1073/pnas.2200914119	https://datasets.cellxgene.cziscience.com/307de4ad-3839-43cc-982a-37f032f1764b.h5ad
+AnteriorEpi	anterior lens cell	CL:0002223	https://doi.org/10.1073/pnas.2200914119	https://datasets.cellxgene.cziscience.com/307de4ad-3839-43cc-982a-37f032f1764b.h5ad
+Transitional	lens epithelial cell	CL:0002224	https://doi.org/10.1073/pnas.2200914119	https://datasets.cellxgene.cziscience.com/307de4ad-3839-43cc-982a-37f032f1764b.h5ad
+EarlyFiber	secondary lens fiber	CL:0002225	https://doi.org/10.1073/pnas.2200914119	https://datasets.cellxgene.cziscience.com/307de4ad-3839-43cc-982a-37f032f1764b.h5ad
+Fiber	lens fiber cell	CL:0011004	https://doi.org/10.1073/pnas.2200914119	https://datasets.cellxgene.cziscience.com/307de4ad-3839-43cc-982a-37f032f1764b.h5ad

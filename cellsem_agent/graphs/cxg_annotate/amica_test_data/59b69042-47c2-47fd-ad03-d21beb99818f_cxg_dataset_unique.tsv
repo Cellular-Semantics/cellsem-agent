@@ -1,0 +1,70 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Plasmablast	plasmablast	CL:0000980	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+NK	natural killer cell	CL:0000623	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+B memory	memory B cell	CL:0000787	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+B naive	naive B cell	CL:0000788	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+cDC	conventional dendritic cell	CL:0000990	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+HSPC	hematopoietic stem cell	CL:0000037	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD4+ T naive	naive thymus-derived CD4-positive, alpha-beta T cell	CL:0000895	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Platelet	platelet	CL:0000233	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD8+ Tem	effector memory CD8-positive, alpha-beta T cell	CL:0000913	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD4+ CTL	CD4-positive, alpha-beta cytotoxic T cell	CL:0000934	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Classical Monocyte	classical monocyte	CL:0000860	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+pDC	plasmacytoid dendritic cell, human	CL:0001058	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+T/NK proliferative	lymphocyte	CL:0000542	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Non-classical Monocyte	non-classical monocyte	CL:0000875	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+NK CD56bright	CD16-negative, CD56-bright natural killer cell, human	CL:0000938	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD4+ Tcm	central memory CD4-positive, alpha-beta T cell	CL:0000904	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Treg	regulatory T cell	CL:0000815	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+RBC	erythrocyte	CL:0000232	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+B intermediate	transitional stage B cell	CL:0000818	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD4+ T activated	activated CD4-positive, alpha-beta T cell, human	CL:0001043	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD8+ T naive	naive thymus-derived CD8-positive, alpha-beta T cell	CL:0000900	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD8+ T activated	activated CD8-positive, alpha-beta T cell, human	CL:0001049	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+NK activated	natural killer cell	CL:0000623	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+MAIT	mucosal invariant T cell	CL:0000940	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Neutrophil	neutrophil	CL:0000775	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+immature Neutrophil	immature neutrophil	CL:0000776	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+NK cell	natural killer cell	CL:0000623	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+B cell	memory B cell	CL:0000787	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+B cell	naive B cell	CL:0000788	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD4+ T cell	naive thymus-derived CD4-positive, alpha-beta T cell	CL:0000895	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD8+ T cell	effector memory CD8-positive, alpha-beta T cell	CL:0000913	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD4+ T cell	CD4-positive, alpha-beta cytotoxic T cell	CL:0000934	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD14+ Monocyte	classical monocyte	CL:0000860	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Other T	lymphocyte	CL:0000542	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD16+ Monocyte	non-classical monocyte	CL:0000875	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+NK cell	CD16-negative, CD56-bright natural killer cell, human	CL:0000938	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD4+ T cell	central memory CD4-positive, alpha-beta T cell	CL:0000904	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD4+ T cell	regulatory T cell	CL:0000815	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+B cell	transitional stage B cell	CL:0000818	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD4+ T cell	activated CD4-positive, alpha-beta T cell, human	CL:0001043	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD8+ T cell	naive thymus-derived CD8-positive, alpha-beta T cell	CL:0000900	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD8+ T cell	activated CD8-positive, alpha-beta T cell, human	CL:0001049	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+CD8+ T cell	mucosal invariant T cell	CL:0000940	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Neutrophil	immature neutrophil	CL:0000776	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_P	plasmablast	CL:0000980	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_T/NK	natural killer cell	CL:0000623	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_B	memory B cell	CL:0000787	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_B	naive B cell	CL:0000788	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Myeloid	conventional dendritic cell	CL:0000990	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Hematopoietic_SC	hematopoietic stem cell	CL:0000037	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_T/NK	naive thymus-derived CD4-positive, alpha-beta T cell	CL:0000895	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Hematopoietic_Mega	platelet	CL:0000233	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_T/NK	effector memory CD8-positive, alpha-beta T cell	CL:0000913	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_T/NK	CD4-positive, alpha-beta cytotoxic T cell	CL:0000934	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Myeloid	classical monocyte	CL:0000860	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Myeloid	plasmacytoid dendritic cell, human	CL:0001058	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_T/NK	lymphocyte	CL:0000542	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Myeloid	non-classical monocyte	CL:0000875	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_T/NK	CD16-negative, CD56-bright natural killer cell, human	CL:0000938	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_T/NK	central memory CD4-positive, alpha-beta T cell	CL:0000904	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_T/NK	regulatory T cell	CL:0000815	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Hematopoietic_R	erythrocyte	CL:0000232	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_B	transitional stage B cell	CL:0000818	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_T/NK	activated CD4-positive, alpha-beta T cell, human	CL:0001043	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_T/NK	naive thymus-derived CD8-positive, alpha-beta T cell	CL:0000900	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_T/NK	activated CD8-positive, alpha-beta T cell, human	CL:0001049	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Lymphoid_T/NK	mucosal invariant T cell	CL:0000940	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Myeloid_G	neutrophil	CL:0000775	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad
+Myeloid_G	immature neutrophil	CL:0000776	https://doi.org/10.1016/j.isci.2021.103115	https://datasets.cellxgene.cziscience.com/767750a4-5bb1-4093-9882-639bf4d285fd.h5ad

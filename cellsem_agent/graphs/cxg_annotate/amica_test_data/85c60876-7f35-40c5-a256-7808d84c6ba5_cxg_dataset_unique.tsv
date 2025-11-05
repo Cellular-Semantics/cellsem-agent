@@ -1,0 +1,14 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Ex04_RORB-GABRG1 (L4-L5)	neuron	CL:0000540	https://doi.org/10.1016/j.neuron.2022.06.021	https://datasets.cellxgene.cziscience.com/17629cd2-a818-4ee4-a910-6d969b5a5f89.h5ad
+Ex13_FEZF2-SEMA3D (L6b)	neuron	CL:0000540	https://doi.org/10.1016/j.neuron.2022.06.021	https://datasets.cellxgene.cziscience.com/17629cd2-a818-4ee4-a910-6d969b5a5f89.h5ad
+Ex03_RORB-MME (L4-L5)	neuron	CL:0000540	https://doi.org/10.1016/j.neuron.2022.06.021	https://datasets.cellxgene.cziscience.com/17629cd2-a818-4ee4-a910-6d969b5a5f89.h5ad
+Ex07_RORB-PCP4 (L5)	neuron	CL:0000540	https://doi.org/10.1016/j.neuron.2022.06.021	https://datasets.cellxgene.cziscience.com/17629cd2-a818-4ee4-a910-6d969b5a5f89.h5ad
+Ex02_CUX2-COL5A2 (L2-L4)	neuron	CL:0000540	https://doi.org/10.1016/j.neuron.2022.06.021	https://datasets.cellxgene.cziscience.com/17629cd2-a818-4ee4-a910-6d969b5a5f89.h5ad
+Ex01_CUX2-LAMP5 (L2-L3)	neuron	CL:0000540	https://doi.org/10.1016/j.neuron.2022.06.021	https://datasets.cellxgene.cziscience.com/17629cd2-a818-4ee4-a910-6d969b5a5f89.h5ad
+Ex12_FEZF2-SYT6 (L6)	neuron	CL:0000540	https://doi.org/10.1016/j.neuron.2022.06.021	https://datasets.cellxgene.cziscience.com/17629cd2-a818-4ee4-a910-6d969b5a5f89.h5ad
+Ex05_RORB-ADGRLA (L5)	neuron	CL:0000540	https://doi.org/10.1016/j.neuron.2022.06.021	https://datasets.cellxgene.cziscience.com/17629cd2-a818-4ee4-a910-6d969b5a5f89.h5ad
+Ex08_FEZF2-PCP4-ROBO3 (L5)	neuron	CL:0000540	https://doi.org/10.1016/j.neuron.2022.06.021	https://datasets.cellxgene.cziscience.com/17629cd2-a818-4ee4-a910-6d969b5a5f89.h5ad
+Ex06_RORB-PCP4-RPRM (L5)	neuron	CL:0000540	https://doi.org/10.1016/j.neuron.2022.06.021	https://datasets.cellxgene.cziscience.com/17629cd2-a818-4ee4-a910-6d969b5a5f89.h5ad
+Ex10_THEMIS (L5-6)	neuron	CL:0000540	https://doi.org/10.1016/j.neuron.2022.06.021	https://datasets.cellxgene.cziscience.com/17629cd2-a818-4ee4-a910-6d969b5a5f89.h5ad
+Ex11_THEMIS-NTNG2 (L6)	neuron	CL:0000540	https://doi.org/10.1016/j.neuron.2022.06.021	https://datasets.cellxgene.cziscience.com/17629cd2-a818-4ee4-a910-6d969b5a5f89.h5ad
+Ex09_FEZF2-ADRA1A (L5b)	neuron	CL:0000540	https://doi.org/10.1016/j.neuron.2022.06.021	https://datasets.cellxgene.cziscience.com/17629cd2-a818-4ee4-a910-6d969b5a5f89.h5ad

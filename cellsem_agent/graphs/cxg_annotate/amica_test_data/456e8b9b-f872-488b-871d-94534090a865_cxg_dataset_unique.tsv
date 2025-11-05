@@ -1,0 +1,189 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+RBC	erythrocyte	CL:0000232	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Class-switched B	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+IgG PB	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+IgA PB	IgA plasmablast	CL:0000984	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CD14 Monocyte	CD14-positive monocyte	CL:0001054	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CD8m T	CD8-positive, alpha-beta memory T cell	CL:0000909	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CD4m T	CD4-positive, alpha-beta memory T cell	CL:0000897	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CD4n T	naive T cell	CL:0000898	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B	B cell	CL:0000236	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Platelet	platelet	CL:0000233	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CD4 T	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK	natural killer cell	CL:0000623	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Neutrophil	neutrophil	CL:0000775	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CD16 Monocyte	monocyte	CL:0000576	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CD8eff T	effector CD8-positive, alpha-beta T cell	CL:0001050	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+gd T	gamma-delta T cell	CL:0000798	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+pDC	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Activated Granulocyte	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+SC & Eosinophil	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+DC	conventional dendritic cell	CL:0000990	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+PB	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+PB	IgA plasmablast	CL:0000984	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CD8 T	CD8-positive, alpha-beta memory T cell	CL:0000909	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CD4 T	CD4-positive, alpha-beta memory T cell	CL:0000897	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CD4 T	naive T cell	CL:0000898	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Granulocyte	neutrophil	CL:0000775	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CD8 T	effector CD8-positive, alpha-beta T cell	CL:0001050	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Granulocyte	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Erythroblast	erythrocyte	CL:0000232	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	IgA plasmablast	CL:0000984	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	IgA plasmablast	CL:0000984	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	CD14-positive monocyte	CL:0001054	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	CD8-positive, alpha-beta memory T cell	CL:0000909	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	IgA plasmablast	CL:0000984	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+BM	erythrocyte	CL:0000232	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	erythrocyte	CL:0000232	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	CD14-positive monocyte	CL:0001054	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	IgA plasmablast	CL:0000984	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	CD4-positive, alpha-beta memory T cell	CL:0000897	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	naive T cell	CL:0000898	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	B cell	CL:0000236	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	platelet	CL:0000233	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	erythrocyte	CL:0000232	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	CD4-positive, alpha-beta memory T cell	CL:0000897	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	CD8-positive, alpha-beta memory T cell	CL:0000909	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	B cell	CL:0000236	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	CD8-positive, alpha-beta memory T cell	CL:0000909	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	platelet	CL:0000233	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pro-B_cell_CD34+	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	natural killer cell	CL:0000623	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	erythrocyte	CL:0000232	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	B cell	CL:0000236	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Neutrophils	neutrophil	CL:0000775	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	CD14-positive monocyte	CL:0001054	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	monocyte	CL:0000576	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	CD14-positive monocyte	CL:0001054	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	effector CD8-positive, alpha-beta T cell	CL:0001050	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	natural killer cell	CL:0000623	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	platelet	CL:0000233	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	gamma-delta T cell	CL:0000798	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	platelet	CL:0000233	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	naive T cell	CL:0000898	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	erythrocyte	CL:0000232	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	platelet	CL:0000233	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	CD8-positive, alpha-beta memory T cell	CL:0000909	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	monocyte	CL:0000576	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	naive T cell	CL:0000898	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Neutrophils	CD14-positive monocyte	CL:0001054	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	CD4-positive, alpha-beta memory T cell	CL:0000897	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	CD4-positive, alpha-beta memory T cell	CL:0000897	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Myelocyte	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	effector CD8-positive, alpha-beta T cell	CL:0001050	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	platelet	CL:0000233	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	naive T cell	CL:0000898	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	IgA plasmablast	CL:0000984	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CMP	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	natural killer cell	CL:0000623	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	effector CD8-positive, alpha-beta T cell	CL:0001050	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	CD4-positive, alpha-beta memory T cell	CL:0000897	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	B cell	CL:0000236	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	effector CD8-positive, alpha-beta T cell	CL:0001050	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	neutrophil	CL:0000775	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	erythrocyte	CL:0000232	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Platelets	platelet	CL:0000233	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	B cell	CL:0000236	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	monocyte	CL:0000576	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	CD4-positive, alpha-beta memory T cell	CL:0000897	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	gamma-delta T cell	CL:0000798	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+GMP	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	CD8-positive, alpha-beta memory T cell	CL:0000909	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	IgA plasmablast	CL:0000984	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+MEP	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+GMP	CD4-positive, alpha-beta memory T cell	CL:0000897	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	neutrophil	CL:0000775	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	conventional dendritic cell	CL:0000990	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Macrophage	monocyte	CL:0000576	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	neutrophil	CL:0000775	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	neutrophil	CL:0000775	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	effector CD8-positive, alpha-beta T cell	CL:0001050	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	conventional dendritic cell	CL:0000990	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Neutrophils	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pro-B_cell_CD34+	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	naive T cell	CL:0000898	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Neutrophils	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Neutrophils	platelet	CL:0000233	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pro-Myelocyte	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	erythrocyte	CL:0000232	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+BM	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Endothelial_cells	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	natural killer cell	CL:0000623	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pro-Myelocyte	erythrocyte	CL:0000232	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	monocyte	CL:0000576	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	effector CD8-positive, alpha-beta T cell	CL:0001050	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Platelets	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	B cell	CL:0000236	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	neutrophil	CL:0000775	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	CD14-positive monocyte	CL:0001054	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CMP	platelet	CL:0000233	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Platelets	erythrocyte	CL:0000232	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+T_cells	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+BM & Prog.	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Monocyte	natural killer cell	CL:0000623	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Platelets	IgA plasmablast	CL:0000984	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pro-B_cell_CD34+	IgA plasmablast	CL:0000984	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CMP	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+BM	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+BM	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+GMP	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pro-Myelocyte	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+GMP	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+GMP	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+BM	IgA plasmablast	CL:0000984	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+BM & Prog.	naive T cell	CL:0000898	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pro-B_cell_CD34+	effector CD8-positive, alpha-beta T cell	CL:0001050	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	naive T cell	CL:0000898	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pre-B_cell_CD34-	conventional dendritic cell	CL:0000990	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	conventional dendritic cell	CL:0000990	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+MEP	class switched memory B cell	CL:0000972	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CMP	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+MEP	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Neutrophils	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Platelets	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+BM	naive T cell	CL:0000898	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_-G-CSF	conventional dendritic cell	CL:0000990	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pro-B_cell_CD34+	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Platelets	IgG plasmablast	CL:0000982	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Neutrophils	erythrocyte	CL:0000232	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+CMP	erythrocyte	CL:0000232	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Pro-B_cell_CD34+	B cell	CL:0000236	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Platelets	B cell	CL:0000236	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Neutrophils	B cell	CL:0000236	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+HSC_CD34+	granulocyte	CL:0000094	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	natural killer cell	CL:0000623	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+Neutrophils	CD8-positive, alpha-beta memory T cell	CL:0000909	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	CD14-positive monocyte	CL:0001054	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+NK_cell	monocyte	CL:0000576	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	conventional dendritic cell	CL:0000990	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	monocyte	CL:0000576	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad
+B_cell	CD8-positive, alpha-beta memory T cell	CL:0000909	https://doi.org/10.1038/s41591-020-0944-y	https://datasets.cellxgene.cziscience.com/89c999bd-2ba9-4281-9d22-4261347c5c78.h5ad

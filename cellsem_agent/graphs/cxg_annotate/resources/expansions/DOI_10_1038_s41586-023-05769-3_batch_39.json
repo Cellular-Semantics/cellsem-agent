@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CCD-PC",
+    "full_name": "cortical collecting duct principal cell",
+    "paper_synonyms": "PC; principal cells; CCD; cortical collecting duct",
+    "tissue_context": "cortical, outer medullary and inner medullary collecting duct subpopulations (CCD, OMCD, IMCD)"
+  },
+  {
+    "name": "OMCD-PC",
+    "full_name": "outer medullary collecting duct principal cell",
+    "paper_synonyms": "PC; principal cells; OMCD; outer medullary collecting duct",
+    "tissue_context": "cortical, outer medullary and inner medullary collecting duct subpopulations (CCD, OMCD, IMCD)"
+  },
+  {
+    "name": "dOMCD-PC",
+    "full_name": "degenerative outer medullary collecting duct principal cell",
+    "paper_synonyms": "PC; principal cells; OMCD; outer medullary collecting duct; degenerative medullary principal cells (dM-PCs)",
+    "tissue_context": "an area showing intraluminal cellular cast formation, cell sloughing and loss of nuclei that were associated with degenerative CD cells, including degenerative medullary principal cells (dM-PCs)"
+  },
+  {
+    "name": "CNT-PC",
+    "full_name": "connecting tubule principal cell",
+    "paper_synonyms": "PC; principal cells; CNT; connecting tubules",
+    "tissue_context": "intercalated and principal cells of the connecting tubules (CNT-IC and CNT-PC)"
+  },
+  {
+    "name": "DCT1",
+    "full_name": "distal convoluted tubule cell (type 1)",
+    "paper_synonyms": "DCT; distal convoluted tubule",
+    "tissue_context": "two types of distal convoluted tubule cells (DCT1, 2)"
+  }
+]

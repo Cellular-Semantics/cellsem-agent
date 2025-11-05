@@ -1,0 +1,12 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Undifferentiated keratinocytes II	keratinocyte	CL:0000312	https://doi.org/10.1016/j.celrep.2023.111994	https://datasets.cellxgene.cziscience.com/55df92aa-5c10-4e03-a44a-5a9aebe60c65.h5ad
+Immune	leukocyte	CL:0000738	https://doi.org/10.1016/j.celrep.2023.111994	https://datasets.cellxgene.cziscience.com/55df92aa-5c10-4e03-a44a-5a9aebe60c65.h5ad
+Fibroblasts II	skin fibroblast	CL:0002620	https://doi.org/10.1016/j.celrep.2023.111994	https://datasets.cellxgene.cziscience.com/55df92aa-5c10-4e03-a44a-5a9aebe60c65.h5ad
+Fibroblasts I	skin fibroblast	CL:0002620	https://doi.org/10.1016/j.celrep.2023.111994	https://datasets.cellxgene.cziscience.com/55df92aa-5c10-4e03-a44a-5a9aebe60c65.h5ad
+Differentiated keratinocytes I	keratinocyte	CL:0000312	https://doi.org/10.1016/j.celrep.2023.111994	https://datasets.cellxgene.cziscience.com/55df92aa-5c10-4e03-a44a-5a9aebe60c65.h5ad
+Endothelial cells	endothelial cell	CL:0000115	https://doi.org/10.1016/j.celrep.2023.111994	https://datasets.cellxgene.cziscience.com/55df92aa-5c10-4e03-a44a-5a9aebe60c65.h5ad
+Pericytes	pericyte	CL:0000669	https://doi.org/10.1016/j.celrep.2023.111994	https://datasets.cellxgene.cziscience.com/55df92aa-5c10-4e03-a44a-5a9aebe60c65.h5ad
+Melanocytes/melanocyte-like	melanocyte	CL:0000148	https://doi.org/10.1016/j.celrep.2023.111994	https://datasets.cellxgene.cziscience.com/55df92aa-5c10-4e03-a44a-5a9aebe60c65.h5ad
+Differentiated keratinocytes II	keratinocyte	CL:0000312	https://doi.org/10.1016/j.celrep.2023.111994	https://datasets.cellxgene.cziscience.com/55df92aa-5c10-4e03-a44a-5a9aebe60c65.h5ad
+Undifferentiated keratinocytes I	keratinocyte	CL:0000312	https://doi.org/10.1016/j.celrep.2023.111994	https://datasets.cellxgene.cziscience.com/55df92aa-5c10-4e03-a44a-5a9aebe60c65.h5ad
+Terminally differentiated keratinocytes	keratinocyte	CL:0000312	https://doi.org/10.1016/j.celrep.2023.111994	https://datasets.cellxgene.cziscience.com/55df92aa-5c10-4e03-a44a-5a9aebe60c65.h5ad

@@ -1,0 +1,19 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+OPCs	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Astrocytes	astrocyte	CL:0000127	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Excitatory_4	neuron	CL:0000540	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Inhibitory_1	neuron	CL:0000540	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Excitatory_6	neuron	CL:0000540	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Oligodendrocytes	oligodendrocyte	CL:0000128	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Excitatory_3	neuron	CL:0000540	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Excitatory_2	neuron	CL:0000540	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Endo/Pericytes	endothelial cell	CL:0000115	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Microglia	microglial cell	CL:0000129	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Excitatory_1	neuron	CL:0000540	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Inhibitory_4	neuron	CL:0000540	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Inhibitory_2	neuron	CL:0000540	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Inhibitory_3	neuron	CL:0000540	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Excitatory_7	neuron	CL:0000540	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Excitatory_8	neuron	CL:0000540	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Excitatory_5	neuron	CL:0000540	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad
+Excitatory_9	neuron	CL:0000540	https://doi.org/10.1007/s00401-023-02599-5	https://datasets.cellxgene.cziscience.com/d46df52a-3c01-422b-bb6e-55b093c21de1.h5ad

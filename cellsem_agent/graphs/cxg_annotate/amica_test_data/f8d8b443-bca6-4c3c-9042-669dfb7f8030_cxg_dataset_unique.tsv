@@ -1,0 +1,13 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+MG_GPNMB_LPL	microglial cell	CL:0000129	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/3d20535b-7b7d-496f-b29d-33cff288b190.h5ad
+MG_TSPO_VIM	microglial cell	CL:0000129	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/3d20535b-7b7d-496f-b29d-33cff288b190.h5ad
+Macro_CD200R1	macrophage	CL:0000235	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/3d20535b-7b7d-496f-b29d-33cff288b190.h5ad
+MG_MGAM	microglial cell	CL:0000129	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/3d20535b-7b7d-496f-b29d-33cff288b190.h5ad
+MG_OPRM1	microglial cell	CL:0000129	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/3d20535b-7b7d-496f-b29d-33cff288b190.h5ad
+MG_FOSL2	microglial cell	CL:0000129	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/3d20535b-7b7d-496f-b29d-33cff288b190.h5ad
+MG_SPON1	microglial cell	CL:0000129	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/3d20535b-7b7d-496f-b29d-33cff288b190.h5ad
+MG_GPNMB_SUSD1	microglial cell	CL:0000129	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/3d20535b-7b7d-496f-b29d-33cff288b190.h5ad
+MG_GPNMB_SULT1C2	microglial cell	CL:0000129	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/3d20535b-7b7d-496f-b29d-33cff288b190.h5ad
+MG_CECR2_FGL1	microglial cell	CL:0000129	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/3d20535b-7b7d-496f-b29d-33cff288b190.h5ad
+MG_MKI67	microglial cell	CL:0000129	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/3d20535b-7b7d-496f-b29d-33cff288b190.h5ad
+MG_CCL3	microglial cell	CL:0000129	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/3d20535b-7b7d-496f-b29d-33cff288b190.h5ad

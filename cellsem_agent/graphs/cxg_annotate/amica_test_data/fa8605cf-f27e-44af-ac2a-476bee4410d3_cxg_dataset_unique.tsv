@@ -1,0 +1,17 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+CD4 T cell 1	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+Monocyte 2	monocyte	CL:0000576	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+Monocyte 1	monocyte	CL:0000576	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+NK cell	natural killer cell	CL:0000623	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+Monocyte 5	monocyte	CL:0000576	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+CD8 T cell 1	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+Dendritic Cell	dendritic cell	CL:0000451	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+B cell 1	B cell	CL:0000236	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+B cell 2	B cell	CL:0000236	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+T cell	alpha-beta T cell	CL:0000789	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+CD8 T cell 2	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+Monocyte 3	monocyte	CL:0000576	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+Monocyte 4	monocyte	CL:0000576	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+pDC	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+Platelet	platelet	CL:0000233	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad
+Plasmablast	plasmablast	CL:0000980	https://doi.org/10.1101/2020.11.20.20227355	https://datasets.cellxgene.cziscience.com/e83de69d-1904-4b85-a1ed-aedaff9821b6.h5ad

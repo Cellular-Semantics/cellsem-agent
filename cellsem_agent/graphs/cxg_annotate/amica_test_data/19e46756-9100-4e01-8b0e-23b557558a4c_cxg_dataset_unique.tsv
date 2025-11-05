@@ -1,0 +1,16 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Naive CD4+ T cells	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+Non-classical monocytes	CD16-positive, CD56-dim natural killer cell, human	CL:0000939	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+Plasmacytoid Dendritic cells	dendritic cell	CL:0000451	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+Classical Monocytes	CD14-positive monocyte	CL:0001054	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+CD8+ NKT-like cells	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+Naive B cells	B cell	CL:0000236	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+Natural killer  cells	natural killer cell	CL:0000623	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+Naive CD8+ T cells	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+Erythroid-like and erythroid precursor cells	erythroid lineage cell	CL:0000764	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+ISG expressing immune cells	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+Effector CD4+ T cells	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+Myeloid Dendritic cells	dendritic cell	CL:0000451	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+Effector CD8+ T cells	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+Memory CD4+ T cells	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad
+Platelets	platelet	CL:0000233	https://doi.org/10.1182/bloodadvances.2023011445	https://datasets.cellxgene.cziscience.com/0d245eaa-4c23-4f0b-8ebb-703ec7d87c61.h5ad

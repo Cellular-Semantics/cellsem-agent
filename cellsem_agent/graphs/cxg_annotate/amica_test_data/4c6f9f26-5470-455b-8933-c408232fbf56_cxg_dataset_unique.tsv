@@ -1,0 +1,6 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Macro	macrophage	CL:0000235	https://doi.org/10.1073/pnas.2103240118	https://datasets.cellxgene.cziscience.com/7d7ad07a-17c3-4300-a7eb-9da10dfd61e0.h5ad
+Tumor	abnormal cell	CL:0001061	https://doi.org/10.1073/pnas.2103240118	https://datasets.cellxgene.cziscience.com/7d7ad07a-17c3-4300-a7eb-9da10dfd61e0.h5ad
+Endo	endothelial cell	CL:0000115	https://doi.org/10.1073/pnas.2103240118	https://datasets.cellxgene.cziscience.com/7d7ad07a-17c3-4300-a7eb-9da10dfd61e0.h5ad
+vSMC	vascular associated smooth muscle cell	CL:0000359	https://doi.org/10.1073/pnas.2103240118	https://datasets.cellxgene.cziscience.com/7d7ad07a-17c3-4300-a7eb-9da10dfd61e0.h5ad
+Tcell	T cell	CL:0000084	https://doi.org/10.1073/pnas.2103240118	https://datasets.cellxgene.cziscience.com/7d7ad07a-17c3-4300-a7eb-9da10dfd61e0.h5ad

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "C-IC-A",
+    "full_name": "cortical intercalated cell",
+    "paper_synonyms": "IC",
+    "tissue_context": "connecting tubules (CNT); collecting ducts"
+  },
+  {
+    "name": "dM-TAL",
+    "full_name": "thick ascending limb",
+    "paper_synonyms": "TAL",
+    "tissue_context": "cortex; outer medulla; inner medulla"
+  },
+  {
+    "name": "EC-AVR",
+    "full_name": "endothelial cell, vasa recta",
+    "paper_synonyms": "EC",
+    "tissue_context": "vasa recta"
+  },
+  {
+    "name": "MAC-M2",
+    "full_name": "M2 macrophage",
+    "paper_synonyms": "M2 macrophages",
+    "tissue_context": "cortex; medulla"
+  },
+  {
+    "name": "cycPT",
+    "full_name": "cycling proximal tubule cell",
+    "paper_synonyms": "PT; cycling",
+    "tissue_context": "proximal tubule (PT)"
+  }
+]

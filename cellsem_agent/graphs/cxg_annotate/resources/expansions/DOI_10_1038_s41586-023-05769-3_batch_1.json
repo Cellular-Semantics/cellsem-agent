@@ -1,0 +1,32 @@
+[
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": "EC",
+    "tissue_context": "human kidney; renal corpuscle; glomerular capillaries (EC-GC); afferent/efferent arterioles (EC-AEA); endothelial cells of the lymphatics (EC-LYM); vasa recta (EC-AVR, EC-DVR)"
+  },
+  {
+    "name": "immune cells",
+    "full_name": "immune cells",
+    "paper_synonyms": "leukocytes; IMM",
+    "tissue_context": "human kidney; cortex; medulla; interstitium"
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": "",
+    "tissue_context": "human kidney; nephron; cortex; medulla"
+  },
+  {
+    "name": "immune cells",
+    "full_name": "immune cells",
+    "paper_synonyms": "leukocytes; IMM",
+    "tissue_context": "human kidney; cortex; medulla; interstitium"
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": "",
+    "tissue_context": "human kidney; nephron; cortex; medulla"
+  }
+]

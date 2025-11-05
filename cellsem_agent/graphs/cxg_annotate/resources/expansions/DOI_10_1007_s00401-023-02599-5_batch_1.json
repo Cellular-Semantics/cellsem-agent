@@ -1,0 +1,32 @@
+[
+  {
+    "name": "L6 Corticothalamic / L6B",
+    "full_name": "L6 corticothalamic / L6B",
+    "paper_synonyms": "L6 corticothalamic; L6B",
+    "tissue_context": "frontal cortex"
+  },
+  {
+    "name": "L2-L3 Intratelencephalic",
+    "full_name": "L2-L3 intratelencephalic",
+    "paper_synonyms": null,
+    "tissue_context": "frontal cortex"
+  },
+  {
+    "name": "L3-L5 Intratelencephalic Type 2",
+    "full_name": "L3-L5 intratelencephalic type 2",
+    "paper_synonyms": null,
+    "tissue_context": "frontal cortex"
+  },
+  {
+    "name": "L6 Intratelencephalic - Type 2",
+    "full_name": "L6 intratelencephalic type 2",
+    "paper_synonyms": null,
+    "tissue_context": "frontal cortex"
+  },
+  {
+    "name": "OPCs",
+    "full_name": "oligodendrocyte progenitor cells",
+    "paper_synonyms": "oligodendrocyte progenitor cells",
+    "tissue_context": "frontal cortex; occipital cortex"
+  }
+]

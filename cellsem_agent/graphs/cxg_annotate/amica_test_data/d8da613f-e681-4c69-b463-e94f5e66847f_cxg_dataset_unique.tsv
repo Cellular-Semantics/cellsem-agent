@@ -1,0 +1,91 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Airway ciliated	lung multiciliated epithelial cell	CL:1000271	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Alveolar macrophages	alveolar macrophage	CL:0000583	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+AT1	pulmonary alveolar type 2 cell	CL:0002063	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Vascular smooth muscle	vascular associated smooth muscle cell	CL:0000359	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Airway goblet	lung goblet cell	CL:1000143	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+AT2	pulmonary alveolar type 2 cell	CL:0002063	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Monocyte-derived macrophages	macrophage	CL:0000235	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Mesothelial FB	mesothelial fibroblast	CL:4023054	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Dendritic cells	dendritic cell	CL:0000451	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Cycling NK/T cells	natural killer cell	CL:0000623	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Endothelial cells (other)	endothelial cell	CL:0000115	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Adventitial FB	fibroblast	CL:0000057	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Airway club	club cell	CL:0000158	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Other FB	fibroblast	CL:0000057	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Intermediate pathological FB	fibroblast	CL:0000057	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+ECM-high epithelial	epithelial cell	CL:0000066	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Tuft-like	brush cell of tracheobronchial tree	CL:0002075	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Airway basal	respiratory basal cell	CL:0002633	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Mast cells	mast cell	CL:0000097	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Alveolar FB	alveolar adventitial fibroblast	CL:4028006	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Arterial endothelial cells	endothelial cell of artery	CL:1000413	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Neuronal cells	neuron	CL:0000540	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Plasma cells	plasma cell	CL:0000786	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Cycling epithelial	epithelial cell	CL:0000066	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Monocytes	monocyte	CL:0000576	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+NK cells	natural killer cell	CL:0000623	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Airway smooth muscle	tracheobronchial smooth muscle cell	CL:0019019	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Airway mucous	mucus secreting cell	CL:0000319	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Transitioning MDM	monocyte	CL:0000576	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Endothelial cells (general)	endothelial cell	CL:0000115	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Pericytes	pericyte	CL:0000669	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Pulmonary venous endothelial cells	vein endothelial cell	CL:0002543	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Capillary endothelial cells	capillary endothelial cell	CL:0002144	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+CD4+ T cells	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Activated B cells	B cell	CL:0000236	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Tregs	regulatory T cell	CL:0000815	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+B cells	B cell	CL:0000236	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Inflamed endothelial cells	endothelial cell	CL:0000115	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+CD8+ T cells	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Pathological FB	fibroblast	CL:0000057	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Systemic venous endothelial cells	vein endothelial cell	CL:0002543	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Airway epithelial cells	lung multiciliated epithelial cell	CL:1000271	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Macrophages	alveolar macrophage	CL:0000583	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Smooth muscle	vascular associated smooth muscle cell	CL:0000359	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Airway epithelial cells	lung goblet cell	CL:1000143	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Macrophages	macrophage	CL:0000235	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Fibroblasts	mesothelial fibroblast	CL:4023054	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Endothelial cells	endothelial cell	CL:0000115	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Fibroblasts	fibroblast	CL:0000057	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Airway epithelial cells	club cell	CL:0000158	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Other epithelial cells	epithelial cell	CL:0000066	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Airway epithelial cells	brush cell of tracheobronchial tree	CL:0002075	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Airway epithelial cells	respiratory basal cell	CL:0002633	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Fibroblasts	alveolar adventitial fibroblast	CL:4028006	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Endothelial cells	endothelial cell of artery	CL:1000413	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Smooth muscle	tracheobronchial smooth muscle cell	CL:0019019	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Airway epithelial cells	mucus secreting cell	CL:0000319	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Macrophages	monocyte	CL:0000576	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Fibroblasts	pericyte	CL:0000669	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Endothelial cells	vein endothelial cell	CL:0002543	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Endothelial cells	capillary endothelial cell	CL:0002144	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Monocytes	alveolar macrophage	CL:0000583	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Epithelial cells	lung multiciliated epithelial cell	CL:1000271	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Myeloid	alveolar macrophage	CL:0000583	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Epithelial cells	pulmonary alveolar type 2 cell	CL:0002063	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Fibroblasts	vascular associated smooth muscle cell	CL:0000359	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Epithelial cells	lung goblet cell	CL:1000143	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Myeloid	macrophage	CL:0000235	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+APC-like	dendritic cell	CL:0000451	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+T cells	natural killer cell	CL:0000623	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Epithelial cells	club cell	CL:0000158	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Epithelial cells	epithelial cell	CL:0000066	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Epithelial cells	brush cell of tracheobronchial tree	CL:0002075	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Epithelial cells	respiratory basal cell	CL:0002633	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Myeloid	dendritic cell	CL:0000451	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+B cells	plasma cell	CL:0000786	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Myeloid	monocyte	CL:0000576	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Fibroblasts	tracheobronchial smooth muscle cell	CL:0019019	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Epithelial cells	mucus secreting cell	CL:0000319	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+APC-like	monocyte	CL:0000576	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Mast cells	dendritic cell	CL:0000451	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+T cells	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+T cells	regulatory T cell	CL:0000815	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+T cells	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Mast cells	monocyte	CL:0000576	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+APC-like	macrophage	CL:0000235	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Mast cells	alveolar macrophage	CL:0000583	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Mast cells	macrophage	CL:0000235	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+Myeloid	mast cell	CL:0000097	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad
+APC-like	alveolar macrophage	CL:0000583	https://doi.org/10.1038/s41586-021-03569-1	https://datasets.cellxgene.cziscience.com/75c059c8-8fb7-4e6e-a618-a3e01ac42060.h5ad

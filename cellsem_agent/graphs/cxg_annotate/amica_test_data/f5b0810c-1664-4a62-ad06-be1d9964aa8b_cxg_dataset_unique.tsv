@@ -1,0 +1,249 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Lamp5	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pax6	caudal ganglionic eminence derived cortical interneuron	CL:4023064	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5 Lhx6	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5 ET	L5 extratelencephalic projecting glutamatergic cortical neuron	CL:4023041	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5/6 NP	near-projecting glutamatergic cortical neuron	CL:4023012	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6 CT	corticothalamic-projecting glutamatergic cortical neuron	CL:4023013	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6b	L6b glutamatergic cortical neuron	CL:4023038	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Astro	astrocyte of the cerebral cortex	CL:0002605	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+VLMC	vascular leptomeningeal cell	CL:4023051	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Endo	cerebral cortex endothelial cell	CL:1001602	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Micro/PVM	microglial cell	CL:0000129	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Oligo	oligodendrocyte	CL:0000128	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+OPC	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L2/3 IT	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L4 IT	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6 IT Car3	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6 IT	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5 IT	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Chandelier	chandelier pvalb GABAergic cortical interneuron	CL:4023036	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst Chodl	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5_4	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5_3	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5_1	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5_2	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5_7	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pax6_3	caudal ganglionic eminence derived cortical interneuron	CL:4023064	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5_5	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_5	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5_6	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_12	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_3	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_2	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5 Lhx6_1	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pax6_2	caudal ganglionic eminence derived cortical interneuron	CL:4023064	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pax6_4	caudal ganglionic eminence derived cortical interneuron	CL:4023064	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pax6_1	caudal ganglionic eminence derived cortical interneuron	CL:4023064	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_4	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_6	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_1	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_8	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_7	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_7	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_17	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_21	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_16	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_24	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_9	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_23	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_1	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_25	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_5	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_18	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_26	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_6	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_8	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_3	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_2	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_20	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_10	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_13	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_15	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_4	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_11	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_22	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_14	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_19	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_27	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_29	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5 ET_2	L5 extratelencephalic projecting glutamatergic cortical neuron	CL:4023041	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5 ET_3	L5 extratelencephalic projecting glutamatergic cortical neuron	CL:4023041	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5/6 NP_1	near-projecting glutamatergic cortical neuron	CL:4023012	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5/6 NP_4	near-projecting glutamatergic cortical neuron	CL:4023012	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5/6 NP_3	near-projecting glutamatergic cortical neuron	CL:4023012	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5/6 NP_5	near-projecting glutamatergic cortical neuron	CL:4023012	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6 CT_3	corticothalamic-projecting glutamatergic cortical neuron	CL:4023013	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6 CT_1	corticothalamic-projecting glutamatergic cortical neuron	CL:4023013	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6b_2	L6b glutamatergic cortical neuron	CL:4023038	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6b_5	L6b glutamatergic cortical neuron	CL:4023038	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6b_3	L6b glutamatergic cortical neuron	CL:4023038	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6b_6	L6b glutamatergic cortical neuron	CL:4023038	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6b_4	L6b glutamatergic cortical neuron	CL:4023038	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6b_1	L6b glutamatergic cortical neuron	CL:4023038	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5 ET_1	L5 extratelencephalic projecting glutamatergic cortical neuron	CL:4023041	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Astro_1	astrocyte of the cerebral cortex	CL:0002605	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Astro_4	astrocyte of the cerebral cortex	CL:0002605	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Astro_3	astrocyte of the cerebral cortex	CL:0002605	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+VLMC_2	vascular leptomeningeal cell	CL:4023051	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Endo_2	cerebral cortex endothelial cell	CL:1001602	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Astro_5	astrocyte of the cerebral cortex	CL:0002605	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Astro_2	astrocyte of the cerebral cortex	CL:0002605	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Endo_1	cerebral cortex endothelial cell	CL:1001602	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+VLMC_1	vascular leptomeningeal cell	CL:4023051	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Micro/PVM_1	microglial cell	CL:0000129	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Oligo_4	oligodendrocyte	CL:0000128	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Oligo_2	oligodendrocyte	CL:0000128	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Oligo_3	oligodendrocyte	CL:0000128	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+OPC_1	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Oligo_1	oligodendrocyte	CL:0000128	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L2/3 IT_6	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L4 IT_5	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6 IT Car3_2	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6 IT_2	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L2/3 IT_1	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L2/3 IT_4	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L2/3 IT_5	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L4 IT_1	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6 IT_1	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5 IT_2	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5 IT_1	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5 IT_3	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5 IT_6	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5 IT_4	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6 IT Car3_1	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L2/3 IT_2	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Chandelier_1	chandelier pvalb GABAergic cortical interneuron	CL:4023036	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_4	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_6	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_5	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_3	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_9	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_24	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_16	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_31	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_25	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_33	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_7	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_26	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_8	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_7	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_2	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_19	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_1	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_36	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_1	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_22	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_9	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_29	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_18	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_27	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_2	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_11	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_8	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_15	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_12	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_10	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_32	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_35	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_23	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_13	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_28	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_4	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_37	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_30	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_17	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_21	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_5	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst Chodl_1	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_14	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5	caudal ganglionic eminence derived cortical interneuron	CL:4023064	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip	caudal ganglionic eminence derived cortical interneuron	CL:4023064	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pax6	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg	caudal ganglionic eminence derived cortical interneuron	CL:4023064	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6b	corticothalamic-projecting glutamatergic cortical neuron	CL:4023013	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Endo	vascular leptomeningeal cell	CL:4023051	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Oligo	vascular leptomeningeal cell	CL:4023051	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Astro	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Astro	cerebral cortex endothelial cell	CL:1001602	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Oligo	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_4	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5_3	caudal ganglionic eminence derived cortical interneuron	CL:4023064	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5_4	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5_1	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5_4	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5_5	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pax6_5	caudal ganglionic eminence derived cortical interneuron	CL:4023064	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_24	caudal ganglionic eminence derived cortical interneuron	CL:4023064	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pax6_4	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_5	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_29	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pax6_1	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_2	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_6	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_31	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_28	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_30	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_5	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_28	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_4	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sncg_1	caudal ganglionic eminence derived cortical interneuron	CL:4023064	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Lamp5_1	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Vip_7	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L5/6 NP_2	near-projecting glutamatergic cortical neuron	CL:4023012	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6b_4	corticothalamic-projecting glutamatergic cortical neuron	CL:4023013	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Endo_1	vascular leptomeningeal cell	CL:4023051	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Oligo_2	vascular leptomeningeal cell	CL:4023051	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Astro_2	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Astro_1	cerebral cortex endothelial cell	CL:1001602	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Oligo_2	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L2/3 IT_3	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L4 IT_3	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L4 IT_2	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+L6 IT Car3_3	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_10	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_1	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_7	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_5	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_10	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_4	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_6	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_8	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_3	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_3	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_3	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_6	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_16	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_20	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Pvalb_2	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+Sst_15	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+inhibitory	lamp5 GABAergic cortical interneuron	CL:4023011	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+inhibitory	caudal ganglionic eminence derived cortical interneuron	CL:4023064	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+inhibitory	sncg GABAergic cortical interneuron	CL:4023015	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+inhibitory	VIP GABAergic cortical interneuron	CL:4023016	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+excitatory	L5 extratelencephalic projecting glutamatergic cortical neuron	CL:4023041	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+excitatory	near-projecting glutamatergic cortical neuron	CL:4023012	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+excitatory	corticothalamic-projecting glutamatergic cortical neuron	CL:4023013	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+excitatory	L6b glutamatergic cortical neuron	CL:4023038	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+non-neuronal	astrocyte of the cerebral cortex	CL:0002605	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+non-neuronal	vascular leptomeningeal cell	CL:4023051	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+non-neuronal	cerebral cortex endothelial cell	CL:1001602	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+non-neuronal	microglial cell	CL:0000129	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+non-neuronal	oligodendrocyte	CL:0000128	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+non-neuronal	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+excitatory	L2/3-6 intratelencephalic projecting glutamatergic neuron	CL:4023040	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+inhibitory	chandelier pvalb GABAergic cortical interneuron	CL:4023036	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+inhibitory	pvalb GABAergic cortical interneuron	CL:4023018	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad
+inhibitory	sst GABAergic cortical interneuron	CL:4023017	https://doi.org/10.1126/science.adf6812	https://datasets.cellxgene.cziscience.com/fc20404d-69ae-4c35-a666-ffb8e3c1b6a1.h5ad

@@ -1,0 +1,110 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Oligo	oligodendrocyte	CL:0000128	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Neuron_In	GABAergic neuron	CL:0000617	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+OPC	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Neuron_Ex	glutamatergic neuron	CL:0000679	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Endothelial-Pericyte	endothelial cell of artery	CL:1000413	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Endothelial-Pericyte	capillary endothelial cell	CL:0002144	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Endothelial-Pericyte	mural cell	CL:0008034	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Microglia_Macrophages	microglial cell	CL:0000129	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Neuron_In	glutamatergic neuron	CL:0000679	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+RELN+ neurons	cerebellar granule cell	CL:0001031	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Endothelial-Pericyte	vascular associated smooth muscle cell	CL:0000359	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Astrocyte	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Unidentified	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Neuron_Ex	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Neuron	GABAergic neuron	CL:0000617	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Unidentified	leukocyte	CL:0000738	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Astrocyte	committed oligodendrocyte precursor	CL:4023059	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Neuron_Ex	oligodendrocyte	CL:0000128	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+OPC	committed oligodendrocyte precursor	CL:4023059	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Neuron_Ex	cerebellar granule cell	CL:0001031	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Oligo	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Microglia_Macrophages	central nervous system macrophage	CL:0000878	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+OPC	oligodendrocyte	CL:0000128	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Neuron_In	cerebellar granule cell	CL:0001031	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Microglia_Macrophages	oligodendrocyte	CL:0000128	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Neuron_In	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Neuron_In	neuron	CL:0000540	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Neuron	cerebellar granule cell	CL:0001031	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Microglia_Macrophages	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+OPC	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Endothelial-Pericyte	cerebellar granule cell	CL:0001031	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Microglia_Macrophages	cerebellar granule cell	CL:0001031	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Unidentified	cerebellar granule cell	CL:0001031	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Oligo	leukocyte	CL:0000738	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Oligo	cerebellar granule cell	CL:0001031	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Astrocyte	mural cell	CL:0008034	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Astrocyte	oligodendrocyte	CL:0000128	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Astrocyte	cerebellar granule cell	CL:0001031	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Endothelial-Pericyte	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Endothelial-Pericyte	GABAergic neuron	CL:0000617	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+RELN+ neurons	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Endothelial-Pericyte	central nervous system macrophage	CL:0000878	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Astrocyte	GABAergic neuron	CL:0000617	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Astrocyte	capillary endothelial cell	CL:0002144	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Oligo	microglial cell	CL:0000129	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Astrocyte	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Neuron_In	oligodendrocyte	CL:0000128	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Oligo	committed oligodendrocyte precursor	CL:4023059	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Oligo	capillary endothelial cell	CL:0002144	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Oligo_A	oligodendrocyte	CL:0000128	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+In_1	GABAergic neuron	CL:0000617	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+OPC_B	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Ex_3	glutamatergic neuron	CL:0000679	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Oligo_B	oligodendrocyte	CL:0000128	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Oligo_D	oligodendrocyte	CL:0000128	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+EC_art_3	endothelial cell of artery	CL:1000413	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+EC_cap_1	capillary endothelial cell	CL:0002144	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Mural_cap_1	mural cell	CL:0008034	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+EC_art_2	endothelial cell of artery	CL:1000413	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Oligo_E	oligodendrocyte	CL:0000128	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Microglia_1	microglial cell	CL:0000129	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Oligo_C	oligodendrocyte	CL:0000128	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Mural_vein_1	mural cell	CL:0008034	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Ex_1	glutamatergic neuron	CL:0000679	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+RELN_1	cerebellar granule cell	CL:0001031	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+In_4	GABAergic neuron	CL:0000617	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+EC_art_1	endothelial cell of artery	CL:1000413	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+EC_cap_2	capillary endothelial cell	CL:0002144	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+vSMC	vascular associated smooth muscle cell	CL:0000359	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+AS_6	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+OPC_A	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+AS_9	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+In_7	GABAergic neuron	CL:0000617	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+EC_cap_3	capillary endothelial cell	CL:0002144	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+In_5	GABAergic neuron	CL:0000617	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+RELN_3	cerebellar granule cell	CL:0001031	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+AS_5	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+AS_11	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Mural_cap_2	mural cell	CL:0008034	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Ex_4	glutamatergic neuron	CL:0000679	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+In_3	GABAergic neuron	CL:0000617	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+In_2	GABAergic neuron	CL:0000617	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+In_6	GABAergic neuron	CL:0000617	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Immune	leukocyte	CL:0000738	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+AS_2	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Ex_2	glutamatergic neuron	CL:0000679	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+AS_1	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+EC_cap_5	capillary endothelial cell	CL:0002144	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Oligo_F	oligodendrocyte	CL:0000128	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+AS_8	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+COP_B	committed oligodendrocyte precursor	CL:4023059	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+RELN_2	cerebellar granule cell	CL:0001031	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+AS_10	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+COP_A	committed oligodendrocyte precursor	CL:4023059	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+EC_cap_4	capillary endothelial cell	CL:0002144	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+COP_C	committed oligodendrocyte precursor	CL:4023059	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+RELN_4	cerebellar granule cell	CL:0001031	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+In_9	GABAergic neuron	CL:0000617	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+AS_12	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+BAM	central nervous system macrophage	CL:0000878	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Microglia_2	microglial cell	CL:0000129	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Microglia_3	microglial cell	CL:0000129	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+AS_3	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Neur	neuron	CL:0000540	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Microglia_5	microglial cell	CL:0000129	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+AS_4	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+Microglia_4	microglial cell	CL:0000129	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+AS_7	astrocyte	CL:0000127	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad
+In_8	GABAergic neuron	CL:0000617	https://doi.org/10.1186/s40478-023-01568-z	https://datasets.cellxgene.cziscience.com/84b28c94-11f3-45da-aa00-1047345bbc50.h5ad

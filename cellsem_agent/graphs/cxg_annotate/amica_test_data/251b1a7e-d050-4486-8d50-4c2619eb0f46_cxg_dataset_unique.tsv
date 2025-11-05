@@ -1,0 +1,18 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Ex_PPP1R1C	neuron	CL:0000540	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Ex_CYP2J2	neuron	CL:0000540	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Inh_OTX2_CASR	inhibitory interneuron	CL:0000498	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Inh_IGFBP5	inhibitory interneuron	CL:0000498	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Ex_SATB2	neuron	CL:0000540	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Ex_LAMP5_NTNG2	neuron	CL:0000540	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Inh_PAX5_CCBE1	inhibitory interneuron	CL:0000498	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Ex_LAMP5_BAIAP3	neuron	CL:0000540	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Inh_PRLR_RP11-384J4.2	inhibitory interneuron	CL:0000498	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Ex_VWA5B1_CALB1	neuron	CL:0000540	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Ex_POSTN	neuron	CL:0000540	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Ex_OPRD1	neuron	CL:0000540	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Inh_PAX5_VCAN	inhibitory interneuron	CL:0000498	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Inh_SIX3	inhibitory interneuron	CL:0000498	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Ex_EBF2_CTC-552D5.1	neuron	CL:0000540	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Ex_MYO5B	neuron	CL:0000540	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad
+Inh_INHBA	inhibitory interneuron	CL:0000498	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/1f8ab9eb-5f95-4d66-84b8-6551e79ba65a.h5ad

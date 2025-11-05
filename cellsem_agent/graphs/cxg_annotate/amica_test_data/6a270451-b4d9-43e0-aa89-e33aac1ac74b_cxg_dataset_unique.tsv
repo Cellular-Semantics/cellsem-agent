@@ -1,0 +1,8 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+T	T cell	CL:0000084	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/9c123ef4-570c-49c6-ab8f-904ea1f5bd8d.h5ad
+PLA	plasma cell	CL:0000786	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/9c123ef4-570c-49c6-ab8f-904ea1f5bd8d.h5ad
+MAS	mast cell	CL:0000097	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/9c123ef4-570c-49c6-ab8f-904ea1f5bd8d.h5ad
+MYE	myeloid cell	CL:0000763	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/9c123ef4-570c-49c6-ab8f-904ea1f5bd8d.h5ad
+FIB	fibroblast	CL:0000057	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/9c123ef4-570c-49c6-ab8f-904ea1f5bd8d.h5ad
+B	B cell	CL:0000236	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/9c123ef4-570c-49c6-ab8f-904ea1f5bd8d.h5ad
+END	endothelial cell	CL:0000115	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/9c123ef4-570c-49c6-ab8f-904ea1f5bd8d.h5ad

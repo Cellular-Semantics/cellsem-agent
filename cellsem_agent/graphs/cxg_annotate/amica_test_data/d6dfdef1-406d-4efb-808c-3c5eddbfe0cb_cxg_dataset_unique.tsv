@@ -1,0 +1,10 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+ABS	gut absorptive cell	CL:0000677	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/d1c4e99e-28ed-45bc-9f67-d0ccbdb35b40.h5ad
+SSC	abnormal cell	CL:0001061	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/d1c4e99e-28ed-45bc-9f67-d0ccbdb35b40.h5ad
+TAC	transit amplifying cell	CL:0009010	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/d1c4e99e-28ed-45bc-9f67-d0ccbdb35b40.h5ad
+STM	intestinal crypt stem cell of colon	CL:0009043	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/d1c4e99e-28ed-45bc-9f67-d0ccbdb35b40.h5ad
+ASC	neoplastic cell	CL:0001063	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/d1c4e99e-28ed-45bc-9f67-d0ccbdb35b40.h5ad
+GOB	goblet cell	CL:0000160	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/d1c4e99e-28ed-45bc-9f67-d0ccbdb35b40.h5ad
+TUF	tuft cell	CL:0002204	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/d1c4e99e-28ed-45bc-9f67-d0ccbdb35b40.h5ad
+CT	intestinal epithelial cell	CL:0002563	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/d1c4e99e-28ed-45bc-9f67-d0ccbdb35b40.h5ad
+EE	intestinal enteroendocrine cell	CL:1001516	https://doi.org/10.1016/j.cell.2021.11.031	https://datasets.cellxgene.cziscience.com/d1c4e99e-28ed-45bc-9f67-d0ccbdb35b40.h5ad

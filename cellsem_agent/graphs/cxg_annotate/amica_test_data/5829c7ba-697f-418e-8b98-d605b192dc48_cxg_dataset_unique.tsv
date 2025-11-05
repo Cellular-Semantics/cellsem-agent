@@ -1,0 +1,8 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Olig_PLXDC2_SFRP1	oligodendrocyte	CL:0000128	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/6c5a3335-30fa-47a0-accc-2126efcbcaef.h5ad
+Olig_ENPP6_LUCAT1	oligodendrocyte	CL:0000128	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/6c5a3335-30fa-47a0-accc-2126efcbcaef.h5ad
+Olig_ENPP6_EMILIN2	oligodendrocyte	CL:0000128	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/6c5a3335-30fa-47a0-accc-2126efcbcaef.h5ad
+Olig_ENPP6_ACTN2	oligodendrocyte	CL:0000128	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/6c5a3335-30fa-47a0-accc-2126efcbcaef.h5ad
+Olig_PLXDC2_KCNAB1	oligodendrocyte	CL:0000128	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/6c5a3335-30fa-47a0-accc-2126efcbcaef.h5ad
+Olig_PLXDC2_KCNK10	oligodendrocyte	CL:0000128	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/6c5a3335-30fa-47a0-accc-2126efcbcaef.h5ad
+Olig_PLXDC2	oligodendrocyte	CL:0000128	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/6c5a3335-30fa-47a0-accc-2126efcbcaef.h5ad

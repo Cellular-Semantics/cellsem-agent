@@ -1,0 +1,182 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+PC	kidney collecting duct principal cell	CL:1001431		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+VSMC/MC/FIB	kidney interstitial cell	CL:1000500		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DTL/ATL	kidney loop of Henle thin descending limb epithelial cell	CL:1001111		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+EC	endothelial cell	CL:0000115		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+TAL	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DTL/ATL	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DTL/ATL	kidney loop of Henle thin ascending limb epithelial cell	CL:1001107		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+IC	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+T	cytotoxic T cell	CL:0000910		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PT	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MYL	non-classical monocyte	CL:0000875		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+IC	kidney collecting duct principal cell	CL:1001431		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MYL	conventional dendritic cell	CL:0000990		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+T	T cell	CL:0000084		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MYL	kidney interstitial alternatively activated macrophage	CL:1000695		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+T	mature NK T cell	CL:0000814		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+B	plasma cell	CL:0000786		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MYL	mononuclear phagocyte	CL:0000113		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MYL	monocyte	CL:0000576		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+B	B cell	CL:0000236		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+T	natural killer cell	CL:0000623		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MYL	plasmacytoid dendritic cell, human	CL:0001058		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MYL	mast cell	CL:0000097		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DCT/CNT	kidney distal convoluted tubule epithelial cell	CL:1000849		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+TAL	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+POD/PEC	podocyte	CL:0000653		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+EC	conventional dendritic cell	CL:0000990		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+EC	mast cell	CL:0000097		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+POD/PEC	parietal epithelial cell	CL:1000452		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PC	kidney connecting tubule epithelial cell	CL:1000768		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PC	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DCT/CNT	kidney connecting tubule epithelial cell	CL:1000768		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PT	kidney interstitial alternatively activated macrophage	CL:1000695		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PC	kidney distal convoluted tubule epithelial cell	CL:1000849		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PT	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DCT/CNT	kidney collecting duct principal cell	CL:1001431		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PT	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PT	kidney loop of Henle thin descending limb epithelial cell	CL:1001111		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+T	kidney interstitial alternatively activated macrophage	CL:1000695		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PC	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+TAL	kidney connecting tubule epithelial cell	CL:1000768		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+TAL	kidney collecting duct principal cell	CL:1001431		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+EC	kidney loop of Henle thin descending limb epithelial cell	CL:1001111		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PC	mononuclear phagocyte	CL:0000113		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PC	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DCT/CNT	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DTL/ATL	kidney collecting duct principal cell	CL:1001431		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+POD/PEC	conventional dendritic cell	CL:0000990		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+TAL	mast cell	CL:0000097		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+TAL	mononuclear phagocyte	CL:0000113		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DTL/ATL	kidney distal convoluted tubule epithelial cell	CL:1000849		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PT	mononuclear phagocyte	CL:0000113		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DTL/ATL	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+TAL	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DCT/CNT	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+TAL	conventional dendritic cell	CL:0000990		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+TAL	kidney loop of Henle thin descending limb epithelial cell	CL:1001111		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PC	kidney interstitial alternatively activated macrophage	CL:1000695		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+IC	mononuclear phagocyte	CL:0000113		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+T	plasmacytoid dendritic cell, human	CL:0001058		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DCT/CNT	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MYL	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PC	conventional dendritic cell	CL:0000990		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+TAL	kidney interstitial alternatively activated macrophage	CL:1000695		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+POD/PEC	kidney distal convoluted tubule epithelial cell	CL:1000849		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+IC	kidney distal convoluted tubule epithelial cell	CL:1000849		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+IC	kidney interstitial alternatively activated macrophage	CL:1000695		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DCT/CNT	kidney interstitial alternatively activated macrophage	CL:1000695		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DTL/ATL	mononuclear phagocyte	CL:0000113		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PT	kidney connecting tubule epithelial cell	CL:1000768		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+EC	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DTL/ATL	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+T	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MYL	B cell	CL:0000236		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PT	kidney collecting duct principal cell	CL:1001431		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+T	podocyte	CL:0000653		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+B	mononuclear phagocyte	CL:0000113		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+IC	kidney connecting tubule epithelial cell	CL:1000768		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+POD/PEC	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PT	kidney distal convoluted tubule epithelial cell	CL:1000849		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PT	mast cell	CL:0000097		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+IC	mast cell	CL:0000097		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+T	conventional dendritic cell	CL:0000990		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+POD/PEC	endothelial cell	CL:0000115		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+IMCD	kidney collecting duct principal cell	CL:1001431		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+VSMC/P	kidney interstitial cell	CL:1000500		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+dVSMC	kidney interstitial cell	CL:1000500		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DTL1	kidney loop of Henle thin descending limb epithelial cell	CL:1001111		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+EC-LYM	endothelial cell	CL:0000115		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+CNT-PC	kidney collecting duct principal cell	CL:1001431		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+cycEPI	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+aTAL1	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+ATL	kidney loop of Henle thin ascending limb epithelial cell	CL:1001107		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+EC-AEA	endothelial cell	CL:0000115		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+IC-A	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+T-CYT	cytotoxic T cell	CL:0000910		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+EC-PTC	endothelial cell	CL:0000115		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+dPC	kidney collecting duct principal cell	CL:1001431		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+aPT	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+ncMON	non-classical monocyte	CL:0000875		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MyoF	kidney interstitial cell	CL:1000500		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+aFIB	kidney interstitial cell	CL:1000500		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+tPC-IC	kidney collecting duct principal cell	CL:1001431		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+cDC	conventional dendritic cell	CL:0000990		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+FIB	kidney interstitial cell	CL:1000500		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MAC-M2	kidney interstitial alternatively activated macrophage	CL:1000695		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+NKT	mature NK T cell	CL:0000814		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PL	plasma cell	CL:0000786		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+dFIB	kidney interstitial cell	CL:1000500		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MDC	mononuclear phagocyte	CL:0000113		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MON	monocyte	CL:0000576		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+NK1	natural killer cell	CL:0000623		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+cycMNP	mononuclear phagocyte	CL:0000113		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+pDC	plasmacytoid dendritic cell, human	CL:0001058		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+cycT	T cell	CL:0000084		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MAST	mast cell	CL:0000097		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DCT1	kidney distal convoluted tubule epithelial cell	CL:1000849		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+EC-GC	endothelial cell	CL:0000115		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PT-S1/S2	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+IC-B	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+C-TAL	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PT-S3	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+VSMC	kidney interstitial cell	CL:1000500		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+dPT	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+POD	podocyte	CL:0000653		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+MC	kidney interstitial cell	CL:1000500		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+REN	kidney interstitial cell	CL:1000500		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+EC-AVR	endothelial cell	CL:0000115		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+PEC	parietal epithelial cell	CL:1000452		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+CNT-IC-A	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+CCD-PC	kidney collecting duct principal cell	CL:1001431		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+CNT	kidney connecting tubule epithelial cell	CL:1000768		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DCT2	kidney distal convoluted tubule epithelial cell	CL:1000849		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+aTAL2	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+M-TAL	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+ATL	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DCT2	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+DCT1	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+IC-A	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+VSMC/P	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+VSMC/P	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+VSMC/P	endothelial cell	CL:0000115		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+VSMC/P	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	kidney collecting duct principal cell	CL:1001431		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+interstitial cells	kidney interstitial cell	CL:1000500		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	kidney loop of Henle thin descending limb epithelial cell	CL:1001111		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+endothelial cells	endothelial cell	CL:0000115		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	kidney loop of Henle thin ascending limb epithelial cell	CL:1001107		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	cytotoxic T cell	CL:0000910		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	non-classical monocyte	CL:0000875		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	conventional dendritic cell	CL:0000990		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	T cell	CL:0000084		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	kidney interstitial alternatively activated macrophage	CL:1000695		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	mature NK T cell	CL:0000814		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	plasma cell	CL:0000786		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	mononuclear phagocyte	CL:0000113		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	monocyte	CL:0000576		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	B cell	CL:0000236		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	natural killer cell	CL:0000623		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	plasmacytoid dendritic cell, human	CL:0001058		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	mast cell	CL:0000097		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	kidney distal convoluted tubule epithelial cell	CL:1000849		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	podocyte	CL:0000653		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+endothelial cells	mast cell	CL:0000097		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	parietal epithelial cell	CL:1000452		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	kidney connecting tubule epithelial cell	CL:1000768		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	kidney interstitial alternatively activated macrophage	CL:1000695		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	endothelial cell	CL:0000115		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	kidney loop of Henle thin descending limb epithelial cell	CL:1001111		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	mononuclear phagocyte	CL:0000113		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	conventional dendritic cell	CL:0000990		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	mast cell	CL:0000097		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	kidney collecting duct intercalated cell	CL:1001432		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	epithelial cell of proximal tubule	CL:0002306		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+immune cells	podocyte	CL:0000653		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+epithelial cells	endothelial cell	CL:0000115		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad
+endothelial cells	conventional dendritic cell	CL:0000990		https://datasets.cellxgene.cziscience.com/1be76d4c-94aa-4c62-9254-f063872ba04f.h5ad

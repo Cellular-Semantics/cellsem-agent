@@ -1,0 +1,9 @@
+input_name	text	cl_id	cl_label
+CD36+ endothelial cells	CD36+ endothelial cell	CL:0000115	endothelial cell
+Endothelial cells CD36	Endothelial cell CD36	CL:0000115	endothelial cell
+ADAMDEC1+ fibroblasts	ADAMDEC1+ fibroblast	CL:0000057	fibroblast
+Fibroblasts ADAMDEC1	Fibroblast ADAMDEC1	CL:0000057	fibroblast
+SMOC2+ PTGIS+ fibroblasts	SMOC2+ PTGIS+ fibroblast	CL:0000057	fibroblast
+Fibroblasts SMOC2 PTGIS	Fibroblast SMOC2 PTGIS	CL:0000057	fibroblast
+HHIP+ NPNT+ myofibroblasts	HHIP+ NPNT+ myofibroblast	CL:0000186	myofibroblast cell
+Myofibroblasts HHIP NPNT	Myofibroblast HHIP NPNT	CL:0000186	myofibroblast cell

@@ -1,0 +1,12 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+T/NK-cell	mature NK T cell	CL:0000814	https://doi.org/10.1073/pnas.1914143116	https://datasets.cellxgene.cziscience.com/23f26a44-264a-45c0-aecd-1047bf684357.h5ad
+Macrophage	macrophage	CL:0000235	https://doi.org/10.1073/pnas.1914143116	https://datasets.cellxgene.cziscience.com/23f26a44-264a-45c0-aecd-1047bf684357.h5ad
+Melanocyte	melanocyte	CL:0000148	https://doi.org/10.1073/pnas.1914143116	https://datasets.cellxgene.cziscience.com/23f26a44-264a-45c0-aecd-1047bf684357.h5ad
+Schwann2	Schwann cell	CL:0002573	https://doi.org/10.1073/pnas.1914143116	https://datasets.cellxgene.cziscience.com/23f26a44-264a-45c0-aecd-1047bf684357.h5ad
+Pericyte	pericyte	CL:0000669	https://doi.org/10.1073/pnas.1914143116	https://datasets.cellxgene.cziscience.com/23f26a44-264a-45c0-aecd-1047bf684357.h5ad
+Fibroblast	fibroblast	CL:0000057	https://doi.org/10.1073/pnas.1914143116	https://datasets.cellxgene.cziscience.com/23f26a44-264a-45c0-aecd-1047bf684357.h5ad
+Endothelial	endothelial cell	CL:0000115	https://doi.org/10.1073/pnas.1914143116	https://datasets.cellxgene.cziscience.com/23f26a44-264a-45c0-aecd-1047bf684357.h5ad
+B-cell	B cell	CL:0000236	https://doi.org/10.1073/pnas.1914143116	https://datasets.cellxgene.cziscience.com/23f26a44-264a-45c0-aecd-1047bf684357.h5ad
+RPE	retinal pigment epithelial cell	CL:0002586	https://doi.org/10.1073/pnas.1914143116	https://datasets.cellxgene.cziscience.com/23f26a44-264a-45c0-aecd-1047bf684357.h5ad
+Mast-cell	mast cell	CL:0000097	https://doi.org/10.1073/pnas.1914143116	https://datasets.cellxgene.cziscience.com/23f26a44-264a-45c0-aecd-1047bf684357.h5ad
+Schwann1	Schwann cell	CL:0002573	https://doi.org/10.1073/pnas.1914143116	https://datasets.cellxgene.cziscience.com/23f26a44-264a-45c0-aecd-1047bf684357.h5ad

@@ -1,0 +1,16 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+NK cell	natural killer cell	CL:0000623	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+CD4, EM-like	effector CD4-positive, alpha-beta T cell	CL:0001044	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+CD8, non-EM-like	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+classical Monocyte	classical monocyte	CL:0000860	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+B cell, IgG+	IgG memory B cell	CL:0000979	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+DC	dendritic cell	CL:0000451	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+CD8, EM-like	effector CD8-positive, alpha-beta T cell	CL:0001050	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+B cell, IgG-	IgG-negative class switched memory B cell	CL:0002117	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+intermediate Monocyte	intermediate monocyte	CL:0002393	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+CD4, non-EM-like	CD4-positive helper T cell	CL:0000492	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+Platelet	platelet	CL:0000233	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+nonclassical Monocyte	non-classical monocyte	CL:0000875	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+Uncategorized1	blood cell	CL:0000081	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+RBC	erythrocyte	CL:0000232	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad
+Uncategorized2	blood cell	CL:0000081	https://doi.org/10.1126/sciimmunol.abd1554	https://datasets.cellxgene.cziscience.com/73cf0b7e-f013-4726-a035-093249011ec8.h5ad

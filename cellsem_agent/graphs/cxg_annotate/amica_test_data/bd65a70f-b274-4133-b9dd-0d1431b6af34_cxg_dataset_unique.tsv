@@ -1,0 +1,32 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+CD8A+ NK-like	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD8A+ Proliferating	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD8A+ Exhausted IEG	naive thymus-derived CD8-positive, alpha-beta T cell	CL:0000900	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+Conventional NK	mature NK T cell	CL:0000814	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD8A+ Tissue-resident	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD45- Vascular Endothelium	endothelial cell	CL:0000115	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+NK HSP+	mature NK T cell	CL:0000814	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD4+ Activated IEG	activated CD4-positive, alpha-beta T cell, human	CL:0001043	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+TAM/TCR (Ambiguos)	abnormal cell	CL:0001061	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD45- PAX8+ renal epithelium	myofibroblast cell	CL:0000186	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+TAM HLAhi	abnormal cell	CL:0001061	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD8A+ Exhausted	naive thymus-derived CD8-positive, alpha-beta T cell	CL:0000900	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD14+ Monocyte	CD14-positive monocyte	CL:0001054	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD14+/CD16+ Monocyte	CD14-positive, CD16-positive monocyte	CL:0002397	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD45- Myofibroblast	myofibroblast cell	CL:0000186	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD4+ Naive	naive T cell	CL:0000898	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+cDC2	conventional dendritic cell	CL:0000990	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+TAM HLAint	abnormal cell	CL:0001061	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+Ambiguous	unknown	unknown	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+Mast	mast cell	CL:0000097	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD4+ Proliferating	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD45- ccRCC CA9+	abnormal cell	CL:0001061	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD4+ Effector	effector CD4-positive, alpha-beta T cell	CL:0001044	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+TAM ISGint	abnormal cell	CL:0001061	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+B cell	B cell	CL:0000236	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+CD4+ Treg	regulatory T cell	CL:0000815	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+TAM ISGhi	abnormal cell	CL:0001061	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+cDC1	conventional dendritic cell	CL:0000990	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+Megakaryocyte	megakaryocyte	CL:0000556	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+pDC	dendritic cell, human	CL:0001056	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad
+Ambiguous/Dead	unknown	unknown	https://doi.org/10.1016/j.ccell.2021.03.007	https://datasets.cellxgene.cziscience.com/04e8a75c-86b7-494b-9b88-68a457306cb8.h5ad

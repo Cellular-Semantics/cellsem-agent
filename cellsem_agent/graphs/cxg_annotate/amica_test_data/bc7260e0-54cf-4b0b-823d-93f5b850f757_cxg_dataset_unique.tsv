@@ -1,0 +1,5 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Muller	Mueller cell	CL:0000636	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/e49d16f0-187e-4dab-b0c5-e74a798db461.h5ad
+MicroGlia	microglial cell	CL:0000129	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/e49d16f0-187e-4dab-b0c5-e74a798db461.h5ad
+Endothelium	endothelial cell	CL:0000115	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/e49d16f0-187e-4dab-b0c5-e74a798db461.h5ad
+Astrocytes	astrocyte	CL:0000127	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/e49d16f0-187e-4dab-b0c5-e74a798db461.h5ad

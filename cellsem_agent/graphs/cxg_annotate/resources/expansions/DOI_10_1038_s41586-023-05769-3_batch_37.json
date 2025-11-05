@@ -1,0 +1,32 @@
+[
+  {
+    "name": "dM-FIB",
+    "full_name": "degenerative medullary fibroblast",
+    "paper_synonyms": "FIB",
+    "tissue_context": "medulla"
+  },
+  {
+    "name": "cycDCT",
+    "full_name": "cycling distal convoluted tubule cell",
+    "paper_synonyms": "DCT",
+    "tissue_context": "distal convoluted tubule; cortex"
+  },
+  {
+    "name": "dPOD",
+    "full_name": "degenerative podocyte",
+    "paper_synonyms": "POD",
+    "tissue_context": "renal corpuscle; glomerulus"
+  },
+  {
+    "name": "pDC",
+    "full_name": "plasmacytoid dendritic cell",
+    "paper_synonyms": "",
+    "tissue_context": "cortex; medulla"
+  },
+  {
+    "name": "dDTL3",
+    "full_name": "degenerative descending thin limb cell type 3",
+    "paper_synonyms": "DTL3",
+    "tissue_context": "descending thin limb; medulla"
+  }
+]

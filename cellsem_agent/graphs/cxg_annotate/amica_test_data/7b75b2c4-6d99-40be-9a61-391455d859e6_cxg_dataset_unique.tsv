@@ -1,0 +1,4 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Rods	retinal rod cell	CL:0000604	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/35183fc2-e95c-4f90-9337-b53c3bb056d2.h5ad
+mlCones	retinal cone cell	CL:0000573	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/35183fc2-e95c-4f90-9337-b53c3bb056d2.h5ad
+sCones	retinal cone cell	CL:0000573	https://doi.org/10.1038/s41598-020-66092-9	https://datasets.cellxgene.cziscience.com/35183fc2-e95c-4f90-9337-b53c3bb056d2.h5ad

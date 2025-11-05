@@ -1,0 +1,25 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Pyr1	pyramidal neuron	CL:0000598	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Olig2	oligodendrocyte	CL:0000128	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Olig3	oligodendrocyte	CL:0000128	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Micro2	microglial cell	CL:0000129	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Micro1	microglial cell	CL:0000129	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Olig1	oligodendrocyte	CL:0000128	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Astro2	astrocyte	CL:0000127	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+OPC1	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Olig4	oligodendrocyte	CL:0000128	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+In1	interneuron	CL:0000099	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Den.Gyr1	cerebral cortex neuron	CL:0010012	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Astro1	astrocyte	CL:0000127	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Endo	endothelial cell	CL:0000115	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Pyr2	pyramidal neuron	CL:0000598	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Micro3	microglial cell	CL:0000129	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Olig5	oligodendrocyte	CL:0000128	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Den.Gyr3	cerebral cortex neuron	CL:0010012	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+In3	interneuron	CL:0000099	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Den.Gyr2	cerebral cortex neuron	CL:0010012	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+In2	interneuron	CL:0000099	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+OPC2	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+OPC4	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+Astro3	astrocyte	CL:0000127	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad
+OPC3	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1016/j.neuron.2021.05.003	https://datasets.cellxgene.cziscience.com/703771a1-236f-4eda-9c04-318d882e149b.h5ad

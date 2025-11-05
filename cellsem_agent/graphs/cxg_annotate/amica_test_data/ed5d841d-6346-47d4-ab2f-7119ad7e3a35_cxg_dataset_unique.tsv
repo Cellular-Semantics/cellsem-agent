@@ -1,0 +1,103 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Mono	CD14-positive monocyte	CL:0001054	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 T	central memory CD4-positive, alpha-beta T cell	CL:0000904	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 T	naive thymus-derived CD8-positive, alpha-beta T cell	CL:0000900	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+NK	natural killer cell	CL:0000623	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 T	effector memory CD8-positive, alpha-beta T cell	CL:0000913	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+Mono	CD14-low, CD16-positive monocyte	CL:0002396	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+B	B cell	CL:0000236	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 T	naive thymus-derived CD4-positive, alpha-beta T cell	CL:0000895	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 T	CD4-positive, alpha-beta cytotoxic T cell	CL:0000934	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+B	naive B cell	CL:0000788	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+other T	mucosal invariant T cell	CL:0000940	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+other T	gamma-delta T cell	CL:0000798	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 T	central memory CD8-positive, alpha-beta T cell	CL:0000907	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+other T	double negative thymocyte	CL:0002489	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+B	memory B cell	CL:0000787	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+other	unknown	unknown	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+DC	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 T	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 T	naive regulatory T cell	CL:0002677	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+B	plasmablast	CL:0000980	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 T	effector memory CD4-positive, alpha-beta T cell	CL:0000905	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 T	memory regulatory T cell	CL:0002678	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+DC	conventional dendritic cell	CL:0000990	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+other	hematopoietic stem cell	CL:0000037	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+other	platelet	CL:0000233	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+NK	CD16-negative, CD56-bright natural killer cell, human	CL:0000938	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 T	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+other	erythrocyte	CL:0000232	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+DC	myeloid dendritic cell, human	CL:0001057	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+other	innate lymphoid cell	CL:0001065	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD14 Mono	CD14-positive monocyte	CL:0001054	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 TCM	central memory CD4-positive, alpha-beta T cell	CL:0000904	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 Naive	naive thymus-derived CD8-positive, alpha-beta T cell	CL:0000900	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 TEM	effector memory CD8-positive, alpha-beta T cell	CL:0000913	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD16 Mono	CD14-low, CD16-positive monocyte	CL:0002396	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+B intermediate	B cell	CL:0000236	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 Naive	naive thymus-derived CD4-positive, alpha-beta T cell	CL:0000895	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 CTL	CD4-positive, alpha-beta cytotoxic T cell	CL:0000934	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+B naive	naive B cell	CL:0000788	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+MAIT	mucosal invariant T cell	CL:0000940	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+gdT	gamma-delta T cell	CL:0000798	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 TCM	central memory CD8-positive, alpha-beta T cell	CL:0000907	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+dnT	double negative thymocyte	CL:0002489	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+B memory	memory B cell	CL:0000787	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+Doublet	unknown	unknown	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+pDC	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 Proliferating	CD8-positive, alpha-beta T cell	CL:0000625	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+Treg	naive regulatory T cell	CL:0002677	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+Plasmablast	plasmablast	CL:0000980	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 TEM	effector memory CD4-positive, alpha-beta T cell	CL:0000905	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+Treg	memory regulatory T cell	CL:0002678	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+cDC2	conventional dendritic cell	CL:0000990	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+NK Proliferating	natural killer cell	CL:0000623	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+ASDC	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+HSPC	hematopoietic stem cell	CL:0000037	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+Platelet	platelet	CL:0000233	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+NK_CD56bright	CD16-negative, CD56-bright natural killer cell, human	CL:0000938	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 Proliferating	CD4-positive, alpha-beta T cell	CL:0000624	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+Eryth	erythrocyte	CL:0000232	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+cDC1	conventional dendritic cell	CL:0000990	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+ASDC	myeloid dendritic cell, human	CL:0001057	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+ILC	innate lymphoid cell	CL:0001065	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 TCM_1	central memory CD4-positive, alpha-beta T cell	CL:0000904	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+NK_2	natural killer cell	CL:0000623	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 TEM_1	effector memory CD8-positive, alpha-beta T cell	CL:0000913	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+B intermediate lambda	B cell	CL:0000236	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+B naive kappa	naive B cell	CL:0000788	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 TCM_3	central memory CD4-positive, alpha-beta T cell	CL:0000904	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 TCM_2	central memory CD4-positive, alpha-beta T cell	CL:0000904	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 TEM_2	effector memory CD8-positive, alpha-beta T cell	CL:0000913	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+gdT_3	gamma-delta T cell	CL:0000798	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+NK_1	natural killer cell	CL:0000623	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 TCM_1	central memory CD8-positive, alpha-beta T cell	CL:0000907	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+dnT_2	double negative thymocyte	CL:0002489	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+B intermediate kappa	B cell	CL:0000236	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+B memory kappa	memory B cell	CL:0000787	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 TEM_5	effector memory CD8-positive, alpha-beta T cell	CL:0000913	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+gdT_1	gamma-delta T cell	CL:0000798	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+B naive lambda	naive B cell	CL:0000788	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+NK_4	natural killer cell	CL:0000623	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 TCM_2	central memory CD8-positive, alpha-beta T cell	CL:0000907	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+Treg Naive	naive regulatory T cell	CL:0002677	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+Plasma	plasmablast	CL:0000980	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 TEM_1	effector memory CD4-positive, alpha-beta T cell	CL:0000905	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+Treg Memory	memory regulatory T cell	CL:0002678	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 TEM_3	effector memory CD4-positive, alpha-beta T cell	CL:0000905	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 TCM_3	central memory CD8-positive, alpha-beta T cell	CL:0000907	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+cDC2_1	conventional dendritic cell	CL:0000990	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 TEM_4	effector memory CD8-positive, alpha-beta T cell	CL:0000913	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+ASDC_pDC	plasmacytoid dendritic cell	CL:0000784	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 TEM_2	effector memory CD4-positive, alpha-beta T cell	CL:0000905	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+B memory lambda	memory B cell	CL:0000787	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+dnT_1	double negative thymocyte	CL:0002489	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+cDC2_2	conventional dendritic cell	CL:0000990	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD4 TEM_4	effector memory CD4-positive, alpha-beta T cell	CL:0000905	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 TEM_6	effector memory CD8-positive, alpha-beta T cell	CL:0000913	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 Naive_2	naive thymus-derived CD8-positive, alpha-beta T cell	CL:0000900	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+gdT_2	gamma-delta T cell	CL:0000798	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+NK_3	natural killer cell	CL:0000623	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+CD8 TEM_3	effector memory CD8-positive, alpha-beta T cell	CL:0000913	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+gdT_4	gamma-delta T cell	CL:0000798	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad
+ASDC_mDC	myeloid dendritic cell, human	CL:0001057	https://doi.org/10.1016/j.cell.2021.04.048	https://datasets.cellxgene.cziscience.com/3f3dec10-a48a-4c3d-a96e-8926da82b67e.h5ad

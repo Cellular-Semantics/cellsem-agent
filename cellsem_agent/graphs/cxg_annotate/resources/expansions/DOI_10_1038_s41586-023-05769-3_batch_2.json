@@ -1,0 +1,32 @@
+[
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "human kidney; nephron segments; renal tubules; cortex; outer medulla; inner medulla; papillary tip"
+  },
+  {
+    "name": "immune cells",
+    "full_name": "immune cells",
+    "paper_synonyms": "leukocytes",
+    "tissue_context": "human kidney; cortex; medulla; areas of injury; interstitial fibrosis"
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "human kidney; nephron segments; renal tubules; cortex; outer medulla; inner medulla; papillary tip"
+  },
+  {
+    "name": "immune cells",
+    "full_name": "immune cells",
+    "paper_synonyms": "leukocytes",
+    "tissue_context": "human kidney; cortex; medulla; areas of injury; interstitial fibrosis"
+  },
+  {
+    "name": "immune cells",
+    "full_name": "immune cells",
+    "paper_synonyms": "leukocytes",
+    "tissue_context": "human kidney; cortex; medulla; areas of injury; interstitial fibrosis"
+  }
+]

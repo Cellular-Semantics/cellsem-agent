@@ -1,0 +1,32 @@
+[
+  {
+    "name": "PL",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "human kidney"
+  },
+  {
+    "name": "dFIB",
+    "full_name": "degenerative fibroblast",
+    "paper_synonyms": null,
+    "tissue_context": "stroma; interstitium; cortex"
+  },
+  {
+    "name": "dC-TAL",
+    "full_name": "degenerative cortical thick ascending limb",
+    "paper_synonyms": "thick ascending limb (TAL); cortical thick ascending limb (C-TAL)",
+    "tissue_context": "cortical thick ascending limb (C-TAL); cortex"
+  },
+  {
+    "name": "VSMC",
+    "full_name": "vascular smooth muscle cell",
+    "paper_synonyms": "VSM/P; pericyte",
+    "tissue_context": "afferent/efferent arterioles; renal corpuscle"
+  },
+  {
+    "name": "SC/NEU",
+    "full_name": "Schwann/neuronal",
+    "paper_synonyms": "SCI/NEU",
+    "tissue_context": "human kidney"
+  }
+]

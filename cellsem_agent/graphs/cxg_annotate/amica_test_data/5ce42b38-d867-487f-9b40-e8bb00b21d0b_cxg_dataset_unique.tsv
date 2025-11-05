@@ -1,0 +1,14 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Paneth cells	paneth cell	CL:0000510	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/9826fca1-819b-4144-9f18-8a335cdd2347.h5ad
+Goblet cells MUC2 TFF1	goblet cell	CL:0000160	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/9826fca1-819b-4144-9f18-8a335cdd2347.h5ad
+Goblet cells MUC2 TFF1-	goblet cell	CL:0000160	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/9826fca1-819b-4144-9f18-8a335cdd2347.h5ad
+Enterocytes CA1 CA2 CA4-	enterocyte	CL:0000584	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/9826fca1-819b-4144-9f18-8a335cdd2347.h5ad
+Epithelial Cycling cells	epithelial cell	CL:0000066	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/9826fca1-819b-4144-9f18-8a335cdd2347.h5ad
+Stem cells OLFM4 LGR5	stem cell	CL:0000034	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/9826fca1-819b-4144-9f18-8a335cdd2347.h5ad
+Enteroendocrine cells	enteroendocrine cell	CL:0000164	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/9826fca1-819b-4144-9f18-8a335cdd2347.h5ad
+Enterocytes TMIGD1 MEP1A	enterocyte	CL:0000584	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/9826fca1-819b-4144-9f18-8a335cdd2347.h5ad
+Stem cells OLFM4 PCNA	stem cell	CL:0000034	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/9826fca1-819b-4144-9f18-8a335cdd2347.h5ad
+Stem cells OLFM4	stem cell	CL:0000034	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/9826fca1-819b-4144-9f18-8a335cdd2347.h5ad
+Enterocytes BEST4	enterocyte	CL:0000584	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/9826fca1-819b-4144-9f18-8a335cdd2347.h5ad
+Tuft cells	tuft cell	CL:0002204	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/9826fca1-819b-4144-9f18-8a335cdd2347.h5ad
+Goblet cells SPINK4	goblet cell	CL:0000160	https://doi.org/10.1016/j.immuni.2023.01.002	https://datasets.cellxgene.cziscience.com/9826fca1-819b-4144-9f18-8a335cdd2347.h5ad

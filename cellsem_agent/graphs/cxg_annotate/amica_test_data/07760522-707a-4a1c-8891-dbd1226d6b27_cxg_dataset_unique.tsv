@@ -1,0 +1,11 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Astro_GBP2_SPOCD1	astrocyte	CL:0000127	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/16c3e76a-ddc2-4329-9395-fb29d1e1c9fa.h5ad
+Astro_GJB6_OXTR	astrocyte	CL:0000127	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/16c3e76a-ddc2-4329-9395-fb29d1e1c9fa.h5ad
+Astro_CYP4F12	astrocyte	CL:0000127	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/16c3e76a-ddc2-4329-9395-fb29d1e1c9fa.h5ad
+Astro_GLYATL2	astrocyte	CL:0000127	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/16c3e76a-ddc2-4329-9395-fb29d1e1c9fa.h5ad
+Astro_GUCY1A2	astrocyte	CL:0000127	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/16c3e76a-ddc2-4329-9395-fb29d1e1c9fa.h5ad
+Astro_SERPINA3	astrocyte	CL:0000127	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/16c3e76a-ddc2-4329-9395-fb29d1e1c9fa.h5ad
+Astro_SIDT1	astrocyte	CL:0000127	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/16c3e76a-ddc2-4329-9395-fb29d1e1c9fa.h5ad
+Astro_VIM_TNFSRF12A	astrocyte	CL:0000127	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/16c3e76a-ddc2-4329-9395-fb29d1e1c9fa.h5ad
+Astro_VIM_LHX2	astrocyte	CL:0000127	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/16c3e76a-ddc2-4329-9395-fb29d1e1c9fa.h5ad
+Ependyma_ZBBX	ependymal cell	CL:0000065	https://doi.org/10.1038/s41593-022-01061-1	https://datasets.cellxgene.cziscience.com/16c3e76a-ddc2-4329-9395-fb29d1e1c9fa.h5ad

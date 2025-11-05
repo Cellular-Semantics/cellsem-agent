@@ -1,0 +1,32 @@
+[
+  {
+    "name": "M-IC-A",
+    "full_name": "intercalated cells",
+    "paper_synonyms": "IC",
+    "tissue_context": "connecting tubules (CNT-IC and CNT-PC); cortical, outer medullary and inner medullary collecting duct subpopulations (CCD, OMCD, IMCD)"
+  },
+  {
+    "name": "aTAL1",
+    "full_name": "adaptive thick ascending limb 1",
+    "paper_synonyms": "aTAL; aEpi",
+    "tissue_context": "thick ascending limb (TAL); cortical thick ascending limb (C-TAL)"
+  },
+  {
+    "name": "EC-AEA",
+    "full_name": "endothelial cells of the afferent/efferent arterioles",
+    "paper_synonyms": "AEA",
+    "tissue_context": "afferent/efferent arterioles; renal corpuscle"
+  },
+  {
+    "name": "DTL2",
+    "full_name": "descending thin limb 2",
+    "paper_synonyms": "DTL",
+    "tissue_context": "descending thin limb (DTL2); medulla"
+  },
+  {
+    "name": "N",
+    "full_name": "neutrophils",
+    "paper_synonyms": "MPO+ cells",
+    "tissue_context": "cortical or medullary epithelium (N6 and N11)"
+  }
+]

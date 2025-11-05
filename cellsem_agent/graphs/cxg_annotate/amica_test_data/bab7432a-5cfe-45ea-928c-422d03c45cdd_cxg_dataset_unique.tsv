@@ -1,0 +1,89 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+GC_diff_1_early	cerebellar granule cell	CL:0001031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+glut_DN_ventral	glutamatergic neuron	CL:0000679	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+progenitor_VZ_posterior	macroglial cell	CL:0000126	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+NTZ_mixed	unknown	unknown	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+progenitor_bipotent	macroglial cell	CL:0000126	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+Purkinje_defined_LB	Purkinje cell	CL:0000121	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+Purkinje_defined	Purkinje cell	CL:0000121	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+parabrachial	unknown	unknown	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+Purkinje_defined_EB	Purkinje cell	CL:0000121	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+progenitor_RL	macroglial cell	CL:0000126	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+Purkinje_diff	Purkinje cell	CL:0000121	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+VZ_neuroblast_3	neuroblast (sensu Vertebrata)	CL:0000031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+progenitor_VZ_early	macroglial cell	CL:0000126	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+glut_DN_posterior	glutamatergic neuron	CL:0000679	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+GABA_DN_defined	GABAergic neuron	CL:0000617	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+GC_diff_2_early	cerebellar granule cell	CL:0001031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+progenitor_gliogenic	macroglial cell	CL:0000126	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+VZ_neuroblast_2	neuroblast (sensu Vertebrata)	CL:0000031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+isth_N_Sst	unknown	unknown	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+GABA_MB	GABAergic neuron	CL:0000617	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+GCP	cerebellar granule cell precursor	CL:0002362	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+interneuron_diff	interneuron	CL:0000099	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+isth_N_Nr4a2	unknown	unknown	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+UBC_Trpc3	unipolar brush cell	CL:4023161	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+microglia	microglial cell	CL:0000129	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+UBC_Hcrtr2	unipolar brush cell	CL:4023161	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+VZ_neuroblast_1	neuroblast (sensu Vertebrata)	CL:0000031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+UBC_diff	unipolar brush cell	CL:4023161	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+GCP/UBCP	neuroblast (sensu Vertebrata)	CL:0000031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+progenitor_VZ_anterior	macroglial cell	CL:0000126	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+interneuron_early	interneuron	CL:0000099	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+pre_OPC	progenitor cell	CL:0011026	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+glioblast_PWM	glioblast	CL:0000030	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+progenitor_RL_early	macroglial cell	CL:0000126	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+progenitor_isthmic	macroglial cell	CL:0000126	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+noradrenergic	noradrenergic cell	CL:0000459	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+nonparenh_macrophage	central nervous system macrophage	CL:0000878	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+glut_DN_maturing	glutamatergic neuron	CL:0000679	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+mural/endoth	brain vascular cell	CL:4023072	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+erythroid	erythroid lineage cell	CL:0000764	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+immune	leukocyte	CL:0000738	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+interneuron_GL	interneuron	CL:0000099	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+NTZ_neuroblast_3	neuroblast (sensu Vertebrata)	CL:0000031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+interneuron_PL	interneuron	CL:0000099	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+OPC_early	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+NTZ_neuroblast_2	neuroblast (sensu Vertebrata)	CL:0000031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+isth_N_diff	unknown	unknown	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+interneuron_ML2	interneuron	CL:0000099	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+GC_diff_2_late	cerebellar granule cell	CL:0001031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+GC_diff_1_late	cerebellar granule cell	CL:0001031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+T-cell	T cell	CL:0000084	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+meningeal	meningeal macrophage	CL:0000879	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+Purkinje_maturing	unknown	unknown	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+astro_Bergmann	Bergmann glial cell	CL:0000644	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+astro_parenh	macroglial cell	CL:0000126	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+interneuron_ML1	interneuron	CL:0000099	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+GC_defined	cerebellar granule cell	CL:0001031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+COP_early	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+astroblast	immature astrocyte	CL:0002626	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+oligodendrocyte	oligodendrocyte	CL:0000128	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+isthmic_neuroblast	neuroblast (sensu Vertebrata)	CL:0000031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+OPC_late	committed oligodendrocyte precursor	CL:4023059	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+NTZ_neuroblast_1	neuroblast (sensu Vertebrata)	CL:0000031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+progenitor_Nckap5_neg	macroglial cell	CL:0000126	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+GC	cerebellar granule cell	CL:0001031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+glutamatergic_uncertain	unknown	unknown	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+glut_DN	glutamatergic neuron	CL:0000679	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+astroglia	macroglial cell	CL:0000126	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+Purkinje	Purkinje cell	CL:0000121	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+VZ_neuroblast	neuroblast (sensu Vertebrata)	CL:0000031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+GABA_DN	GABAergic neuron	CL:0000617	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+isth_N	unknown	unknown	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+GC	cerebellar granule cell precursor	CL:0002362	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+interneuron	interneuron	CL:0000099	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+UBC	unipolar brush cell	CL:4023161	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+immune	microglial cell	CL:0000129	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+GC/UBC	neuroblast (sensu Vertebrata)	CL:0000031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+oligo	progenitor cell	CL:0011026	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+astroglia	glioblast	CL:0000030	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+immune	central nervous system macrophage	CL:0000878	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+NTZ_neuroblast	neuroblast (sensu Vertebrata)	CL:0000031	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+oligo	oligodendrocyte precursor cell	CL:0002453	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+immune	T cell	CL:0000084	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+Purkinje	unknown	unknown	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+astroglia	Bergmann glial cell	CL:0000644	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+astroglia	immature astrocyte	CL:0002626	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+oligo	oligodendrocyte	CL:0000128	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
+oligo	committed oligodendrocyte precursor	CL:4023059	https://doi.org/10.1038/s41586-023-06884-x	https://datasets.cellxgene.cziscience.com/1201b573-417d-4a9d-86f7-c43cc2bc36e3.h5ad
