@@ -91,71 +91,103 @@ class GetGroundings(BaseNode[State, None, str]):
             )
         )
 
-        cache_dir = os.path.join(RESOURCES_DIR, "cache")
-        os.makedirs(cache_dir, exist_ok=True)
+        base_cache_dir = os.path.join(RESOURCES_DIR, "cache")
+        os.makedirs(base_cache_dir, exist_ok=True)
 
         batch_size = 4
         all_groundings = []
-        for i in range(0, len(annotations), batch_size):
-            batch_index = i // batch_size
-            batch = annotations[i : i + batch_size]
-            batch_cache_path = os.path.join(
-                cache_dir, f"groundings_batch_{batch_index}.json"
+
+        annotations_by_dataset: dict[str, list[dict]] = {}
+        for annotation in annotations:
+            dataset_name = annotation.get("dataset_name", "unknown_dataset")
+            annotations_by_dataset.setdefault(dataset_name, []).append(annotation)
+
+        for dataset_name in ctx.state.dataset_names:
+            dataset_annotations = annotations_by_dataset.get(dataset_name, [])
+            if not dataset_annotations:
+                continue
+
+            dataset_cache_dir = os.path.join(
+                base_cache_dir,
+                normalise_file_name(dataset_name),
             )
+            os.makedirs(dataset_cache_dir, exist_ok=True)
 
-            if os.path.exists(batch_cache_path):
-                print(f"Loading cached results for batch {batch_index}")
-                with open(batch_cache_path, "r") as f:
-                    batch_groundings = [
-                        TextAnnotation(**entry) for entry in json.load(f)
-                    ]
-            else:
-                print(
-                    "Processing batch: ",
-                    i // batch_size + 1,
-                    " of ",
-                    (len(annotations) + batch_size - 1) // batch_size,
+            for batch_index, batch_start in enumerate(
+                range(0, len(dataset_annotations), batch_size)
+            ):
+                batch = dataset_annotations[batch_start : batch_start + batch_size]
+                expected_inputs = [
+                    annotation.get("annotation_text", "") or "" for annotation in batch
+                ]
+                batch_cache_path = os.path.join(
+                    dataset_cache_dir, f"batch_{batch_index}.json"
                 )
-                expansions_json = json.dumps(
-                    [annotation["enrichment"].model_dump() for annotation in batch],
-                    indent=2,
-                )
-                agent_response = await annotator_agent.run(expansions_json)
-                batch_groundings = agent_response.output.annotations
-                with open(batch_cache_path, "w") as f:
-                    json.dump(
-                        [entry.model_dump() for entry in batch_groundings], f, indent=2
+
+                batch_groundings: list[TextAnnotation]
+                cache_hit = False
+                if os.path.exists(batch_cache_path):
+                    with open(batch_cache_path, "r") as f:
+                        cached_payload = json.load(f)
+                    if isinstance(cached_payload, list):
+                        cached_inputs = [
+                            entry.get("input_name", "") for entry in cached_payload
+                        ]
+                        if cached_inputs == expected_inputs:
+                            batch_groundings = [
+                                TextAnnotation(**entry) for entry in cached_payload
+                            ]
+                            cache_hit = True
+
+                if not cache_hit:
+                    print(
+                        "Processing batch: ",
+                        batch_index + 1,
+                        " of ",
+                        (len(dataset_annotations) + batch_size - 1) // batch_size,
                     )
-
-            all_groundings.extend(batch_groundings)
-            # update batch annotations with grounding results
-            for annotation in batch:
-                # convert enrichment to json to make df mode readable
-                annotation["enrichment"] = annotation["enrichment"].model_dump()
-                if "grounding_cl_id" not in annotation:
-                    related_groundings = [
-                        gr
-                        for gr in batch_groundings
-                        if gr.input_name == annotation["annotation_text"]
-                    ]
-                    if related_groundings:
-                        valid_grounding = next(
-                            (
-                                g
-                                for g in related_groundings
-                                if "NO MATCH" not in g.cl_id
-                            ),
-                            None,
+                    expansions_json = json.dumps(
+                        [annotation["enrichment"].model_dump() for annotation in batch],
+                        indent=2,
+                    )
+                    agent_response = await annotator_agent.run(expansions_json)
+                    batch_groundings = agent_response.output.annotations
+                    with open(batch_cache_path, "w") as f:
+                        json.dump(
+                            [entry.model_dump() for entry in batch_groundings],
+                            f,
+                            indent=2,
                         )
-                        if valid_grounding:
-                            grounding_to_use = valid_grounding
-                        else:
-                            grounding_to_use = related_groundings[0]
-                        annotation["grounding_cl_id"] = grounding_to_use.cl_id
-                        annotation["grounding_cl_label"] = grounding_to_use.cl_label
-                else:
-                    annotation["grounding_cl_id"] = ""
-                    annotation["grounding_cl_label"] = ""
+
+                all_groundings.extend(batch_groundings)
+                # update batch annotations with grounding results
+                for annotation in batch:
+                    # convert enrichment to json to make df mode readable
+                    annotation["enrichment"] = annotation["enrichment"].model_dump()
+                    if "grounding_cl_id" not in annotation:
+                        related_groundings = [
+                            gr
+                            for gr in batch_groundings
+                            if gr.input_name == annotation["annotation_text"]
+                        ]
+                        if related_groundings:
+                            valid_grounding = next(
+                                (
+                                    g
+                                    for g in related_groundings
+                                    if "NO MATCH" not in g.cl_id
+                                ),
+                                None,
+                            )
+                            if valid_grounding:
+                                grounding_to_use = valid_grounding
+                            else:
+                                grounding_to_use = related_groundings[0]
+                            annotation["grounding_cl_id"] = grounding_to_use.cl_id
+                            annotation["grounding_cl_label"] = grounding_to_use.cl_label
+                    else:
+                        annotation["grounding_cl_id"] = ""
+                        annotation["grounding_cl_label"] = ""
 
         # Create output directory
         os.makedirs(OUTPUT_DIR, exist_ok=True)
