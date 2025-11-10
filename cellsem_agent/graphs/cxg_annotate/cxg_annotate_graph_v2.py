@@ -82,6 +82,9 @@ class GetGroundings(BaseNode[State, None, str]):
                 )
             # delete tissue_context of all enrichments
             annotation["enrichment"].tissue_context = ""
+            # reset previous grounding results so reruns don't mix states
+            annotation["grounding_cl_id"] = None
+            annotation["grounding_cl_label"] = None
 
         # Sort annotations by article_id_doi, then annotation_text
         annotations.sort(
@@ -164,30 +167,26 @@ class GetGroundings(BaseNode[State, None, str]):
                 for annotation in batch:
                     # convert enrichment to json to make df mode readable
                     annotation["enrichment"] = annotation["enrichment"].model_dump()
-                    if "grounding_cl_id" not in annotation:
-                        related_groundings = [
-                            gr
-                            for gr in batch_groundings
-                            if gr.input_name == annotation["annotation_text"]
-                        ]
-                        if related_groundings:
-                            valid_grounding = next(
-                                (
-                                    g
-                                    for g in related_groundings
-                                    if "NO MATCH" not in g.cl_id
-                                ),
-                                None,
-                            )
-                            if valid_grounding:
-                                grounding_to_use = valid_grounding
-                            else:
-                                grounding_to_use = related_groundings[0]
-                            annotation["grounding_cl_id"] = grounding_to_use.cl_id
-                            annotation["grounding_cl_label"] = grounding_to_use.cl_label
-                    else:
-                        annotation["grounding_cl_id"] = ""
-                        annotation["grounding_cl_label"] = ""
+                    related_groundings = [
+                        gr
+                        for gr in batch_groundings
+                        if gr.input_name == annotation["annotation_text"]
+                    ]
+                    if related_groundings:
+                        valid_grounding = next(
+                            (
+                                g
+                                for g in related_groundings
+                                if "NO MATCH" not in g.cl_id
+                            ),
+                            None,
+                        )
+                        if valid_grounding:
+                            grounding_to_use = valid_grounding
+                        else:
+                            grounding_to_use = related_groundings[0]
+                        annotation["grounding_cl_id"] = grounding_to_use.cl_id
+                        annotation["grounding_cl_label"] = grounding_to_use.cl_label
 
         # Create output directory
         os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -235,37 +234,57 @@ class GetFullNames(BaseNode[State, None, str]):
         if not os.path.exists(EXPANSIONS_DIR):
             os.makedirs(EXPANSIONS_DIR)
         article_to_annotations = ctx.state.article_to_annotations
-        articles = sorted(
-            str(a) if a is not None else "" for a in set(article_to_annotations.keys())
-        )
-        index = 1
-        for article_pmc in articles:
-            print(f"Processing article: {article_pmc}  -  {index}/{len(articles)}")
-            index += 1
-            # get all annotations for this article
-            article_annotations = article_to_annotations[article_pmc]
-
-            for batch_index in range(
-                0, len(article_annotations), ANNOTATIONS_BATCH_SIZE
-            ):
-                batch = article_annotations[
-                    batch_index : batch_index + ANNOTATIONS_BATCH_SIZE
-                ]
-                dataset_cache = os.path.join(
-                    EXPANSIONS_DIR,
-                    f"{normalise_file_name(article_pmc)}_batch_{batch_index // ANNOTATIONS_BATCH_SIZE}.json",
+        annotations_by_dataset_and_article: dict[str, dict[str, list[dict]]] = {}
+        for article_pmc, article_annotations in article_to_annotations.items():
+            for annotation in article_annotations:
+                dataset_name = annotation.get("dataset_name", "unknown_dataset")
+                dataset_articles = annotations_by_dataset_and_article.setdefault(
+                    dataset_name, {}
                 )
-                cc_labels = [{"cc.label": ann["annotation_text"]} for ann in batch]
+                dataset_articles.setdefault(article_pmc, []).append(annotation)
 
-                if not os.path.exists(dataset_cache):
-                    full_text_path = os.path.join(
-                        PUBLICATIONS_DIR, f"{normalise_file_name(article_pmc)}.txt"
+        for dataset_name in ctx.state.dataset_names:
+            dataset_articles = annotations_by_dataset_and_article.get(dataset_name, {})
+            if not dataset_articles:
+                continue
+
+            dataset_cache_dir = os.path.join(
+                EXPANSIONS_DIR, normalise_file_name(dataset_name)
+            )
+            os.makedirs(dataset_cache_dir, exist_ok=True)
+
+            articles = sorted(
+                str(a) if a is not None else "" for a in dataset_articles.keys()
+            )
+            index = 1
+            for article_pmc in articles:
+                print(
+                    f"[{dataset_name}] Processing article: {article_pmc}  -  {index}/{len(articles)}"
+                )
+                index += 1
+                article_annotations = dataset_articles[article_pmc]
+
+                for batch_index in range(
+                    0, len(article_annotations), ANNOTATIONS_BATCH_SIZE
+                ):
+                    batch = article_annotations[
+                        batch_index : batch_index + ANNOTATIONS_BATCH_SIZE
+                    ]
+                    dataset_cache = os.path.join(
+                        dataset_cache_dir,
+                        f"{normalise_file_name(article_pmc)}_batch_{batch_index // ANNOTATIONS_BATCH_SIZE}.json",
                     )
-                    if os.path.exists(full_text_path):
-                        with open(full_text_path, "r", encoding="utf-8") as f:
-                            paper_full_text = f.read()
+                    cc_labels = [{"cc.label": ann["annotation_text"]} for ann in batch]
 
-                        prompt_instructions = f"""
+                    if not os.path.exists(dataset_cache):
+                        full_text_path = os.path.join(
+                            PUBLICATIONS_DIR, f"{normalise_file_name(article_pmc)}.txt"
+                        )
+                        if os.path.exists(full_text_path):
+                            with open(full_text_path, "r", encoding="utf-8") as f:
+                                paper_full_text = f.read()
+
+                            prompt_instructions = f"""
                             You are tasked with extracting cell type information from the provided academic paper content,
                             and the provided JSON data.
         
@@ -299,45 +318,49 @@ class GetFullNames(BaseNode[State, None, str]):
                             Do not ask for confirmation.
                             Provide the output as a JSON array of `CellTypeEntry` objects.
                             """
-                        agent_response = await celltype_agent.run(prompt_instructions)
-
-                        for entry in agent_response.output.cell_type_annotations:
-                            print(
-                                f"Name: {entry.name}, Full Name: {entry.full_name}, Synonyms: {entry.paper_synonyms}, Tissue Context: {entry.tissue_context}"
+                            agent_response = await celltype_agent.run(
+                                prompt_instructions
                             )
-                            # add entry to the related article_annotations
-                            for ann in article_annotations:
-                                if ann["annotation_text"] == entry.name:
-                                    ann["enrichment"] = entry
-                                    break
 
-                        # ctx.state.paper_expansion[article_pmc] = agent_response.output.cell_type_annotations
-                        expansions = agent_response.output.cell_type_annotations
-                        print(f"Saving results to cache for article: {article_pmc}")
-                        with open(dataset_cache, "w") as cache_file:
-                            json.dump(
-                                [entry.model_dump() for entry in expansions],
-                                cache_file,
-                                indent=2,
+                            for entry in agent_response.output.cell_type_annotations:
+                                entry_copy = entry.model_copy()
+                                print(
+                                    f"Name: {entry.name}, Full Name: {entry.full_name}, Synonyms: {entry.paper_synonyms}, Tissue Context: {entry.tissue_context}"
+                                )
+                                # add entry to the related article_annotations
+                                for ann in article_annotations:
+                                    if ann["annotation_text"] == entry.name:
+                                        ann["enrichment"] = entry_copy.model_copy()
+
+                            expansions = agent_response.output.cell_type_annotations
+                            print(
+                                f"Saving results to cache for dataset {dataset_name}, article: {article_pmc}"
+                            )
+                            with open(dataset_cache, "w") as cache_file:
+                                json.dump(
+                                    [entry.model_dump() for entry in expansions],
+                                    cache_file,
+                                    indent=2,
+                                )
+                        else:
+                            print(
+                                f"Error: Full text file not found for article for name expansion: {article_pmc}"
                             )
                     else:
                         print(
-                            f"Error: Full text file not found for article for name expansion: {article_pmc}"
+                            f"[{dataset_name}] Using cached data for article: {article_pmc}"
                         )
-                else:
-                    print(f"Using cached data for article: {article_pmc}")
-                    with open(dataset_cache, "r") as cache_file:
-                        cached_data = json.load(cache_file)
-                        for cached_entry in cached_data:
-                            for ann in article_annotations:
-                                if ann["annotation_text"] == cached_entry["name"]:
-                                    ann["enrichment"] = CellTypeEntry(**cached_entry)
-                                    print(
-                                        "Using cached enrichment data for annotation:",
-                                        ann["annotation_text"],
-                                    )
-                                    break
-                        # ctx.state.paper_expansion[article_pmc] = [CellTypeEntry(**entry) for entry in cached_data]
+                        with open(dataset_cache, "r") as cache_file:
+                            cached_data = json.load(cache_file)
+                            for cached_entry in cached_data:
+                                cached_model = CellTypeEntry(**cached_entry)
+                                for ann in article_annotations:
+                                    if ann["annotation_text"] == cached_model.name:
+                                        ann["enrichment"] = cached_model.model_copy()
+                                        print(
+                                            "Using cached enrichment data for annotation:",
+                                            ann["annotation_text"],
+                                        )
         return GetGroundings()
 
 
