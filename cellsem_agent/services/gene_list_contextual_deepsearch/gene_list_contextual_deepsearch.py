@@ -3,17 +3,21 @@ from dotenv import load_dotenv
 import os
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+SCHEMA_PATH = os.path.join(CURRENT_DIR, 'schema/deepsearch_results_schema.json')
 
 load_dotenv()
 #print(os.getenv('WORKDIR'))
 drc = DeepResearchClient()
 
-def run_contextual_deepsearch(gene_list, context, model=None):
-    with open(os.path.join(CURRENT_DIR, 'schema/deepsearch_results_schema.json'),
-              "r") as f:
-        schema = f.read()
 
-    user_prompt = f"""
+def _load_schema_text() -> str:
+    with open(SCHEMA_PATH, "r") as f:
+        return f.read()
+
+
+def build_deepsearch_prompt(gene_list: str, context: str, schema_text: str | None = None) -> str:
+    schema = schema_text or _load_schema_text()
+    return f"""
 Perform comprehensive literature analysis for the following gene list in the specified biological context.
 
 **Gene List**: {gene_list}
@@ -39,7 +43,12 @@ Perform comprehensive literature analysis for the following gene list in the spe
 ```json
 {schema}
 ```
-"""
+""".strip()
+
+
+def run_contextual_deepsearch(gene_list, context, model=None):
+    schema_text = _load_schema_text()
+    user_prompt = build_deepsearch_prompt(gene_list, context, schema_text)
     if not model:
         result: DeepResearchResult = drc.run(
             user_query=user_prompt

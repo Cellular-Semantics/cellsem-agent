@@ -1,0 +1,1502 @@
+{
+	"context": {
+		"cell_type": "glioblastoma cells",
+		"disease": "glioblastoma multiforme",
+		"tissue": "brain"
+	},
+	"input_genes": [
+		"SERPINE1",
+		"EMP1",
+		"SPOCD1",
+		"ARHGAP29",
+		"IL1R1",
+		"COL6A2",
+		"MYOF",
+		"F13A1",
+		"CXCL10",
+		"CHI3L1",
+		"MET",
+		"IL6",
+		"SAA2",
+		"BIRC3",
+		"MCTP2",
+		"ANGPTL4",
+		"ICAM1",
+		"CCN1",
+		"CAV1",
+		"APLN",
+		"FOSL1",
+		"SNTG2-AS1",
+		"TPD52L1",
+		"SAA4",
+		"KRT75",
+		"NFATC2",
+		"COL5A1",
+		"AC243829.2",
+		"CLCF1",
+		"ARSJ",
+		"PLA2G2A",
+		"HMGA2",
+		"PTX3",
+		"TLR2",
+		"LINC00698",
+		"ALPK2",
+		"TNFAIP3",
+		"TNFAIP2",
+		"NDRG1",
+		"SMOC2",
+		"ADGRL2",
+		"KANK4",
+		"GEM",
+		"FAS",
+		"CXCL8",
+		"CFH",
+		"ABCC3",
+		"CXCL14",
+		"ZFP36",
+		"RCAN2",
+		"GADD45A",
+		"COL1A2",
+		"LTF",
+		"DHRS3",
+		"IDO1",
+		"HAP1",
+		"AXL",
+		"ATP6V0D2",
+		"KLF5",
+		"ST6GALNAC5",
+		"GPD1",
+		"PAPPA2",
+		"BAG3",
+		"MYBPH",
+		"MYBPC1",
+		"MX2",
+		"APBB1IP",
+		"ANPEP",
+		"ALPL",
+		"GPRC5A",
+		"SPP1",
+		"CXCL2",
+		"GPC5",
+		"RRAD",
+		"LIF",
+		"CHRNA9",
+		"IL4R",
+		"NPNT",
+		"SAA1",
+		"NPR3",
+		"PROM1",
+		"SLIT3",
+		"ITGBL1",
+		"MYO5B",
+		"RPS5",
+		"RPS27",
+		"ETS2",
+		"PTGS2",
+		"RPS18",
+		"BNC2",
+		"CPA4",
+		"NPAS2",
+		"CD274",
+		"SLC10A6",
+		"LRAT",
+		"LINC01993",
+		"LINC02832",
+		"LINC02821",
+		"GBP5",
+		"AC021851.2",
+		"AKAP12",
+		"LINC02154",
+		"FN1",
+		"MIR222HG",
+		"VEGFA",
+		"GBP2",
+		"ZNF735",
+		"TSHZ2",
+		"TRPM2",
+		"LUCAT1",
+		"PI3"
+	],
+	"programs": [
+		{
+			"program_name": "Hypoxia-Driven Angiogenesis",
+			"theme": "Tumor microenvironment adaptation",
+			"description": "Hypoxia-inducible genes promoting angiogenesis and vascular remodeling in glioblastoma. VEGFA, ANGPTL4, and SERPINE1 are canonical hypoxia-response genes upregulated under low oxygen conditions. APLN acts through APLNR to promote tumor angiogenesis, while NDRG1 is a stress-responsive protein induced by hypoxia. These genes collectively drive neovascularization to support tumor growth.",
+			"atomic_biological_processes": [
+				{
+					"name": "angiogenesis",
+					"ontology_id": "GO:0001525",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "Investigating Glioblastoma Response to Hypoxia. Biomedicines 2020",
+							"id": "PMID:32847136",
+							"type": "PMID",
+							"notes": "VEGFA, ANGPTL4, and SERPINE1 upregulated during hypoxia in glioblastoma"
+						}
+					],
+					"Genes": [
+						"VEGFA",
+						"ANGPTL4",
+						"APLN",
+						"SERPINE1"
+					]
+				},
+				{
+					"name": "response to hypoxia",
+					"ontology_id": "GO:0001666",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "Hypoxia upregulates the expression of the NDRG1 gene. BMC Cancer 2004",
+							"id": "PMID:15339346",
+							"type": "PMID",
+							"notes": "NDRG1 induced by hypoxia in multiple cancers"
+						}
+					],
+					"Genes": [
+						"VEGFA",
+						"ANGPTL4",
+						"SERPINE1",
+						"NDRG1"
+					]
+				}
+			],
+			"atomic_cellular_components": [],
+			"predicted_cellular_impact": [
+				"Enhanced tumor vascularization and perfusion",
+				"Increased glioma cell survival under hypoxic stress",
+				"Promotion of therapy resistance through improved oxygen/nutrient delivery",
+				"Facilitation of tumor invasion via vascular co-option"
+			],
+			"evidence_summary": "VEGFA, ANGPTL4, and SERPINE1 are strongly upregulated in hypoxic glioblastoma and correlate with poor prognosis. APLN/APLNR signaling controls angiogenesis-dependent GBM growth. NDRG1 is hypoxia-induced and associated with chemoresistance.",
+			"citations": [
+				{
+					"reference": "Investigating Glioblastoma Response to Hypoxia. Biomedicines 2020",
+					"id": "PMID:32847136",
+					"type": "PMID"
+				},
+				{
+					"reference": "Apelin Controls Angiogenesis-Dependent Glioblastoma Growth. Int J Mol Sci 2020",
+					"type": "PMID"
+				},
+				{
+					"reference": "ANGPTL4 Induces TMZ Resistance of Glioblastoma. Int J Mol Sci 2019",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.92,
+			"significance_score": 0.95,
+			"supporting_genes": [
+				"VEGFA",
+				"ANGPTL4",
+				"APLN",
+				"SERPINE1",
+				"NDRG1"
+			],
+			"supporting_gene_count": 5,
+			"required_components_present": true
+		},
+		{
+			"program_name": "ECM Remodeling and Stiffness",
+			"theme": "Tumor microenvironment",
+			"description": "Coordinated expression of collagen family members and fibronectin that regulate extracellular matrix composition and biomechanical properties. COL1A2, COL5A1, and COL6A2 contribute to ECM stiffness, promoting glioma invasion and immunosuppression. FN1 supports cell adhesion and migration. Increased ECM stiffness correlates with glioblastoma progression and poor prognosis.",
+			"atomic_biological_processes": [
+				{
+					"name": "extracellular matrix organization",
+					"ontology_id": "GO:0030198",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "COL6A2: A Key Survival-Related Gene. Cancer Manag Res 2025",
+							"type": "PMID",
+							"notes": "COL6A2 promotes GBM proliferation, invasion, and immunosuppression"
+						}
+					],
+					"Genes": [
+						"COL1A2",
+						"COL5A1",
+						"COL6A2",
+						"FN1"
+					]
+				}
+			],
+			"atomic_cellular_components": [
+				{
+					"name": "collagen-containing extracellular matrix",
+					"ontology_id": "GO:0062023",
+					"ontology_label": "cellular_component",
+					"citation": [
+						{
+							"reference": "Physics of Brain Cancer: ECM Stiffening. Cancers 2022",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"COL1A2",
+						"COL5A1",
+						"COL6A2",
+						"FN1"
+					]
+				}
+			],
+			"predicted_cellular_impact": [
+				"Increased tumor tissue stiffness promoting invasion",
+				"Enhanced immune evasion through ECM barrier formation",
+				"Promotion of mesenchymal transition",
+				"Support for therapy resistance"
+			],
+			"evidence_summary": "COL1A2, COL5A1, COL6A2 are upregulated in high-grade glioma and associated with poor prognosis. COL6A2 specifically promotes chemoresistance and immunosuppression. ECM stiffness is a critical regulator of glioblastoma malignancy.",
+			"citations": [
+				{
+					"reference": "COL6A2: A Key Survival-Related Gene Restricting Antitumor Immunity in Glioblastoma",
+					"type": "PMID"
+				},
+				{
+					"reference": "Microenvironmental stiffness induces metabolic reprogramming in glioblastoma. Cell Rep 2023",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.88,
+			"significance_score": 0.85,
+			"supporting_genes": [
+				"COL1A2",
+				"COL5A1",
+				"COL6A2",
+				"FN1"
+			],
+			"supporting_gene_count": 4,
+			"required_components_present": true
+		},
+		{
+			"program_name": "CHI3L1-Mediated Immunosuppression",
+			"theme": "Immune evasion",
+			"description": "CHI3L1 (YKL-40) orchestrates multiple immunosuppressive mechanisms in glioblastoma. It drives M2 macrophage polarization via CD44 interaction and AKT pathway activation, promotes vascular mimicry in glioma stem cells, and correlates with immune checkpoint expression (CD274/PD-L1). CHI3L1 also activates NF-κB signaling in tumor cells and reprograms the tumor microenvironment to an immunosuppressive phenotype.",
+			"atomic_biological_processes": [
+				{
+					"name": "negative regulation of immune response",
+					"ontology_id": "GO:0050777",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "Chitinase-3-like-1 protein complexes modulate macrophage-mediated immune suppression. J Clin Invest 2021",
+							"type": "PMID",
+							"notes": "CHI3L1 binding with Galectin-3 promotes M2 TAM infiltration"
+						}
+					],
+					"Genes": [
+						"CHI3L1"
+					]
+				},
+				{
+					"name": "macrophage activation",
+					"ontology_id": "GO:0042116",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "Chitinase-3 like-protein-1 promotes glioma via NF-κB and TME reprogramming. Theranostics 2022",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"CHI3L1"
+					]
+				}
+			],
+			"atomic_cellular_components": [],
+			"predicted_cellular_impact": [
+				"Recruitment and M2 polarization of tumor-associated macrophages",
+				"Upregulation of immune checkpoint molecules (PD-L1, LAG3)",
+				"Creation of immunosuppressive tumor microenvironment",
+				"Enhancement of glioma stem cell properties via angiogenesis/vasculogenic mimicry"
+			],
+			"evidence_summary": "CHI3L1 is highly expressed in mesenchymal GBM and correlates with poor prognosis. It physically interacts with Galectin-3 to selectively recruit M2-like TAMs. CHI3L1 also activates kynurenine pathway metabolism to establish immunosuppressive microenvironment.",
+			"citations": [
+				{
+					"reference": "Chitinase-3-like-1 protein complexes modulate macrophage-mediated immune suppression in glioblastoma. J Clin Invest 2021",
+					"type": "PMID"
+				},
+				{
+					"reference": "Activated kynurenine pathway metabolism by YKL-40 establishes inhibitory immune microenvironment. Cancer Immunol Res 2024",
+					"type": "PMID"
+				},
+				{
+					"reference": "Chi3l1 Is a Modulator of Glioma Stem Cell States. Cell Stem Cell 2023",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.90,
+			"significance_score": 0.93,
+			"supporting_genes": [
+				"CHI3L1"
+			],
+			"supporting_gene_count": 1,
+			"required_components_present": true
+		},
+		{
+			"program_name": "Immune Checkpoint Signaling",
+			"theme": "Immune evasion",
+			"description": "Expression of immune checkpoint molecules CD274 (PD-L1) that inhibit T cell activation and promote immune escape. PD-L1 expression in glioblastoma induces and maintains regulatory T cells (Tregs) and is associated with immunosuppressive M2 macrophages. High PD-L1 expression correlates with therapy resistance and poor outcomes.",
+			"atomic_biological_processes": [
+				{
+					"name": "negative regulation of T cell activation",
+					"ontology_id": "GO:0050868",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "The immune checkpoint protein PD-L1 induces and maintains regulatory T cells in glioblastoma. Oncoimmunology 2018",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"CD274"
+					]
+				}
+			],
+			"atomic_cellular_components": [
+				{
+					"name": "plasma membrane",
+					"ontology_id": "GO:0005886",
+					"ontology_label": "cellular_component",
+					"citation": [
+						{
+							"reference": "Generic GO annotation",
+							"type": "URL"
+						}
+					],
+					"Genes": [
+						"CD274"
+					]
+				}
+			],
+			"predicted_cellular_impact": [
+				"Suppression of cytotoxic T cell function",
+				"Expansion and activation of regulatory T cells",
+				"Evasion of adaptive immune surveillance",
+				"Reduced efficacy of immunotherapy"
+			],
+			"evidence_summary": "PD-L1 is expressed in 61-88% of glioblastomas. PD-L1+ myeloid cells are associated with increased Treg abundance. PD-L1 expression correlates with M2 macrophage infiltration and radioresistance.",
+			"citations": [
+				{
+					"reference": "The immune checkpoint protein PD-L1 induces and maintains regulatory T cells. Oncoimmunology 2018",
+					"type": "PMID"
+				},
+				{
+					"reference": "The Prognostic and Therapeutic Value of PD-L1 in Glioma. Front Oncol 2019",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.87,
+			"significance_score": 0.89,
+			"supporting_genes": [
+				"CD274"
+			],
+			"supporting_gene_count": 1,
+			"required_components_present": true
+		},
+		{
+			"program_name": "IDO1-Mediated Immunosuppression",
+			"theme": "Metabolic immune evasion",
+			"description": "IDO1 catalyzes tryptophan degradation to kynurenine, creating an immunosuppressive microenvironment through both enzymatic and non-enzymatic mechanisms. IDO1 is expressed in >90% of glioblastomas and suppresses anti-tumor immunity via tryptophan depletion, kynurenine accumulation, and upregulation of complement factor H (CFH). Both enzymatic and non-canonical IDO1 functions contribute to immune suppression.",
+			"atomic_biological_processes": [
+				{
+					"name": "tryptophan catabolic process to kynurenine",
+					"ontology_id": "GO:0019441",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "Tumor Cell IDO Enhances Immune Suppression Independent of Tryptophan Metabolism. Clin Cancer Res 2021",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"IDO1"
+					]
+				},
+				{
+					"name": "negative regulation of T cell mediated immunity",
+					"ontology_id": "GO:0002710",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "Tryptophan Metabolism Contributes to Radiation-Induced Immune Checkpoint Reactivation. Clin Cancer Res 2018",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"IDO1",
+						"CFH"
+					]
+				}
+			],
+			"atomic_cellular_components": [],
+			"predicted_cellular_impact": [
+				"Depletion of tryptophan from tumor microenvironment",
+				"Accumulation of immunosuppressive kynurenine metabolites",
+				"Suppression of effector T cell function",
+				"Upregulation of complement inhibitors (CFH)",
+				"Promotion of regulatory T cell expansion"
+			],
+			"evidence_summary": "IDO1 is expressed in >90% of GBM and correlates with poor survival. Non-enzymatic IDO1 activity increases CFH expression independent of tryptophan metabolism. IDO1 also promotes angiogenesis via GCN2 pathway activation and VEGFA upregulation.",
+			"citations": [
+				{
+					"reference": "Tumor Cell IDO Enhances Immune Suppression and Decreases Survival Independent of Tryptophan Metabolism. Clin Cancer Res 2021",
+					"type": "PMID"
+				},
+				{
+					"reference": "IDO1 Inhibitor RY103 Suppresses Trp-GCN2-Mediated Angiogenesis in Glioblastoma. Pharmaceuticals 2024",
+					"type": "PMID"
+				},
+				{
+					"reference": "IDO1 in cancer: a Gemini of immune checkpoints. Semin Cancer Biol 2018",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.91,
+			"significance_score": 0.92,
+			"supporting_genes": [
+				"IDO1",
+				"CFH"
+			],
+			"supporting_gene_count": 2,
+			"required_components_present": true
+		},
+		{
+			"program_name": "SPP1-Driven Invasion",
+			"theme": "Tumor invasion and migration",
+			"description": "SPP1 (osteopontin) promotes glioblastoma invasion, migration, and stem cell self-renewal. It mediates macrophage recruitment and M2 polarization via integrin αvβ5 and CD44 receptors. SPP1 is overexpressed in glioma-initiating cells and regulated by GLI1 and OCT4, linking it to stemness pathways. Expression correlates with glioma grade and macrophage infiltration.",
+			"atomic_biological_processes": [
+				{
+					"name": "cell migration",
+					"ontology_id": "GO:0016477",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "The embryonic type of SPP1 transcriptional regulation is re-activated in glioblastoma. Oncotarget 2016",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"SPP1"
+					]
+				},
+				{
+					"name": "positive regulation of macrophage chemotaxis",
+					"ontology_id": "GO:0010759",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "Osteopontin mediates glioblastoma-associated macrophage infiltration. J Exp Med 2018",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"SPP1"
+					]
+				}
+			],
+			"atomic_cellular_components": [
+				{
+					"name": "extracellular region",
+					"ontology_id": "GO:0005576",
+					"ontology_label": "cellular_component",
+					"citation": [
+						{
+							"reference": "Generic GO annotation",
+							"type": "URL"
+						}
+					],
+					"Genes": [
+						"SPP1"
+					]
+				}
+			],
+			"predicted_cellular_impact": [
+				"Enhanced glioma cell migration and invasion",
+				"Recruitment of tumor-associated macrophages",
+				"Maintenance of glioma stem cell self-renewal",
+				"Promotion of M2 macrophage phenotype"
+			],
+			"evidence_summary": "SPP1 is overexpressed in high-grade gliomas and glioma stem cells. GLI1 and OCT4 bind SPP1 promoter/intron to drive expression. SPP1 knockdown reduces sphere formation and downregulates stemness markers. SPP1+ macrophages correlate with poor prognosis.",
+			"citations": [
+				{
+					"reference": "The embryonic type of SPP1 transcriptional regulation is re-activated in glioblastoma. Oncotarget 2016",
+					"type": "PMID"
+				},
+				{
+					"reference": "Osteopontin mediates glioblastoma-associated macrophage infiltration and is a potential therapeutic target. J Exp Med 2018",
+					"type": "PMID"
+				},
+				{
+					"reference": "Osteopontin is up-regulated and associated with neutrophil and macrophage infiltration in glioblastoma. Immunology 2010",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.89,
+			"significance_score": 0.88,
+			"supporting_genes": [
+				"SPP1"
+			],
+			"supporting_gene_count": 1,
+			"required_components_present": true
+		},
+		{
+			"program_name": "MET-Mediated EMT and Invasion",
+			"theme": "Receptor tyrosine kinase signaling",
+			"description": "MET receptor tyrosine kinase activation drives epithelial-to-mesenchymal transition, invasion, and therapy resistance in glioblastoma. HGF/MET signaling is upregulated in GBM compared to normal brain and correlates with poor prognosis. MET promotes mesenchymal transition and scattered cell phenotype, contributing to therapy resistance.",
+			"atomic_biological_processes": [
+				{
+					"name": "epithelial to mesenchymal transition",
+					"ontology_id": "GO:0001837",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "Targeting the epithelial to mesenchymal transition in glioblastoma: the emerging role of MET signaling. Oncotarget 2014",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"MET"
+					]
+				},
+				{
+					"name": "transmembrane receptor protein tyrosine kinase signaling pathway",
+					"ontology_id": "GO:0007169",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "MET in glioma: signaling pathways and targeted therapies. J Exp Clin Cancer Res 2019",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"MET"
+					]
+				}
+			],
+			"atomic_cellular_components": [
+				{
+					"name": "plasma membrane",
+					"ontology_id": "GO:0005886",
+					"ontology_label": "cellular_component",
+					"citation": [
+						{
+							"reference": "Generic GO annotation",
+							"type": "URL"
+						}
+					],
+					"Genes": [
+						"MET"
+					]
+				}
+			],
+			"predicted_cellular_impact": [
+				"Enhanced cell scattering and invasiveness",
+				"Promotion of mesenchymal phenotype",
+				"Increased resistance to radiotherapy",
+				"Activation of downstream PI3K/AKT and MAPK pathways"
+			],
+			"evidence_summary": "MET expression levels are significantly increased in glioblastomas. MET activation promotes invasive growth and EMT. MET inhibition combined with radiotherapy shows synergistic effects in preclinical models.",
+			"citations": [
+				{
+					"reference": "MET in glioma: signaling pathways and targeted therapies. J Exp Clin Cancer Res 2019",
+					"type": "PMID"
+				},
+				{
+					"reference": "Targeting the epithelial to mesenchymal transition in glioblastoma. Oncotarget 2014",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.86,
+			"significance_score": 0.84,
+			"supporting_genes": [
+				"MET"
+			],
+			"supporting_gene_count": 1,
+			"required_components_present": true
+		},
+		{
+			"program_name": "Chemokine-Mediated Myeloid Recruitment",
+			"theme": "Inflammatory response",
+			"description": "Expression of CXC chemokines (CXCL2, CXCL8, CXCL10, CXCL14) that recruit neutrophils and myeloid cells to the tumor microenvironment. These chemokines create a pro-tumorigenic inflammatory milieu and contribute to immunosuppression. CXCL10 is particularly associated with immune cell infiltration in glioblastoma.",
+			"atomic_biological_processes": [
+				{
+					"name": "neutrophil chemotaxis",
+					"ontology_id": "GO:0030593",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "Exploration of M2 macrophage-related biomarkers in glioblastoma. Front Immunol 2025",
+							"type": "PMID",
+							"notes": "Genes enriched in neutrophil migration and chemokine production"
+						}
+					],
+					"Genes": [
+						"CXCL2",
+						"CXCL8"
+					]
+				},
+				{
+					"name": "inflammatory response",
+					"ontology_id": "GO:0006954",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "General chemokine function",
+							"type": "URL"
+						}
+					],
+					"Genes": [
+						"CXCL2",
+						"CXCL8",
+						"CXCL10",
+						"CXCL14"
+					]
+				}
+			],
+			"atomic_cellular_components": [
+				{
+					"name": "extracellular region",
+					"ontology_id": "GO:0005576",
+					"ontology_label": "cellular_component",
+					"citation": [
+						{
+							"reference": "Generic GO annotation",
+							"type": "URL"
+						}
+					],
+					"Genes": [
+						"CXCL2",
+						"CXCL8",
+						"CXCL10",
+						"CXCL14"
+					]
+				}
+			],
+			"predicted_cellular_impact": [
+				"Recruitment of neutrophils and myeloid cells to tumor",
+				"Creation of inflammatory microenvironment",
+				"Promotion of angiogenesis via inflammatory signals",
+				"Potential contribution to immunosuppression"
+			],
+			"evidence_summary": "CXC chemokines are upregulated in glioblastoma and associated with immune cell infiltration. These chemokines are part of the broader inflammatory signature in GBM microenvironment.",
+			"citations": [
+				{
+					"reference": "Exploration of M2 macrophage-related biomarkers using hdWGCNA. Front Immunol 2025",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.75,
+			"significance_score": 0.72,
+			"supporting_genes": [
+				"CXCL2",
+				"CXCL8",
+				"CXCL10",
+				"CXCL14"
+			],
+			"supporting_gene_count": 4,
+			"required_components_present": true
+		},
+		{
+			"program_name": "IL4R-Driven M2 Polarization",
+			"theme": "Immune evasion",
+			"description": "IL4R (interleukin-4 receptor) signaling promotes M2 macrophage polarization, creating an immunosuppressive tumor microenvironment. IL-4 and IL-13 both signal through the shared IL-4Rα subunit to drive M2 phenotype characterized by increased CD206 expression. M2 macrophages suppress anti-tumor immunity and promote glioblastoma progression.",
+			"atomic_biological_processes": [
+				{
+					"name": "macrophage activation",
+					"ontology_id": "GO:0042116",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "IL-4/13 Blocking Peptide (KROS-401) Inhibits M2 Macrophage Polarization. J Immunother Cancer 2024",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"IL4R"
+					]
+				}
+			],
+			"atomic_cellular_components": [
+				{
+					"name": "plasma membrane",
+					"ontology_id": "GO:0005886",
+					"ontology_label": "cellular_component",
+					"citation": [
+						{
+							"reference": "Generic GO annotation",
+							"type": "URL"
+						}
+					],
+					"Genes": [
+						"IL4R"
+					]
+				}
+			],
+			"predicted_cellular_impact": [
+				"Polarization of macrophages to immunosuppressive M2 phenotype",
+				"Increased CD206 surface marker expression on macrophages",
+				"Promotion of tumor-associated macrophage protumor functions",
+				"Contribution to therapy resistance"
+			],
+			"evidence_summary": "IL-4/IL-13 signaling through IL-4Rα drives M2 macrophage polarization. Blocking IL4R reduces M2 markers and shows anti-tumor activity in GBM models. High M2 macrophage infiltration is associated with radioresistance and poor prognosis.",
+			"citations": [
+				{
+					"reference": "IL-4/13 Blocking Peptide Inhibits M2 Macrophage Polarization in GBM. J Immunother Cancer 2024",
+					"type": "PMID"
+				},
+				{
+					"reference": "Relationship between Macrophage and Radiosensitivity in Glioblastoma. Cancers 2022",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.84,
+			"significance_score": 0.86,
+			"supporting_genes": [
+				"IL4R"
+			],
+			"supporting_gene_count": 1,
+			"required_components_present": true
+		},
+		{
+			"program_name": "AXL-Driven Mesenchymal Program",
+			"theme": "Mesenchymal transition",
+			"description": "AXL receptor tyrosine kinase drives mesenchymal transition, invasion, and stem cell properties in glioblastoma. AXL is highly expressed in mesenchymal GBM subtype and promotes EMT via activation of AKT and NF-κB pathways. AXL regulates EZH2 and TGF-β1 to control stemness, migration, and invasion.",
+			"atomic_biological_processes": [
+				{
+					"name": "epithelial to mesenchymal transition",
+					"ontology_id": "GO:0001837",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "n-Butylidenephthalide Regulated Tumor Stem Cell Genes EZH2/AXL in Glioblastoma. Int J Mol Sci 2017",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"AXL"
+					]
+				},
+				{
+					"name": "cell migration",
+					"ontology_id": "GO:0016477",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "RNASE4 promotes malignant progression via AXL/AKT in hypoxic glioblastoma. Cancer Biol Med 2024",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"AXL"
+					]
+				}
+			],
+			"atomic_cellular_components": [
+				{
+					"name": "plasma membrane",
+					"ontology_id": "GO:0005886",
+					"ontology_label": "cellular_component",
+					"citation": [
+						{
+							"reference": "Generic GO annotation",
+							"type": "URL"
+						}
+					],
+					"Genes": [
+						"AXL"
+					]
+				}
+			],
+			"predicted_cellular_impact": [
+				"Promotion of mesenchymal phenotype transition",
+				"Enhanced glioma stem cell maintenance and invasiveness",
+				"Increased resistance to therapy",
+				"Activation of pro-survival AKT signaling"
+			],
+			"evidence_summary": "AXL is highly expressed in mesenchymal GBM and glioma stem cells. AXL regulates EZH2 and controls stemness, EMT, and invasion via AXL/EZH2/TGF-β1 axis. AXL inhibition reduces stem cell properties and invasion.",
+			"citations": [
+				{
+					"reference": "n-Butylidenephthalide Regulated EZH2/AXL and Reduced Migration in Glioblastoma. Int J Mol Sci 2017",
+					"type": "PMID"
+				},
+				{
+					"reference": "RNASE4 promotes malignant progression via activation of AXL/AKT in glioblastoma",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.87,
+			"significance_score": 0.85,
+			"supporting_genes": [
+				"AXL"
+			],
+			"supporting_gene_count": 1,
+			"required_components_present": true
+		},
+		{
+			"program_name": "FOSL1-Driven Mesenchymal Stemness",
+			"theme": "Glioma stem cell regulation",
+			"description": "FOSL1 (FRA-1), a component of AP-1 transcription factor, drives proneural-to-mesenchymal transition of glioma stem cells and promotes proliferation, invasion, and stemness. FOSL1 is predominantly expressed in mesenchymal GBM subtype and regulates UBC9/CYLD/NF-κB axis. It also activates STAT3 signaling and maintains stem cell properties.",
+			"atomic_biological_processes": [
+				{
+					"name": "epithelial to mesenchymal transition",
+					"ontology_id": "GO:0001837",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "FOSL1 promotes proneural-to-mesenchymal transition of GSCs via UBC9/CYLD/NF-κB. Cell Death Dis 2022",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"FOSL1"
+					]
+				},
+				{
+					"name": "regulation of cell proliferation",
+					"ontology_id": "GO:0042127",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "TRPM7 transactivates the FOSL1 gene through STAT3 and enhances glioma stemness. Mol Oncol 2023",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"FOSL1"
+					]
+				}
+			],
+			"atomic_cellular_components": [
+				{
+					"name": "nucleus",
+					"ontology_id": "GO:0005634",
+					"ontology_label": "cellular_component",
+					"citation": [
+						{
+							"reference": "Generic GO annotation for transcription factor",
+							"type": "URL"
+						}
+					],
+					"Genes": [
+						"FOSL1"
+					]
+				}
+			],
+			"predicted_cellular_impact": [
+				"Promotion of proneural-to-mesenchymal transition in GSCs",
+				"Enhancement of glioma stem cell self-renewal",
+				"Increased invasion and migration capacity",
+				"Activation of NF-κB and STAT3 pro-tumorigenic pathways"
+			],
+			"evidence_summary": "FOSL1 is predominantly expressed in mesenchymal GSCs. FOSL1 knockdown leads to loss of mesenchymal features. FOSL1 is activated by STAT3 and regulates stemness markers CD133 and ALDH1. TRIM21 enhances FOSL1 expression to promote GBM proliferation and invasion.",
+			"citations": [
+				{
+					"reference": "FOSL1 promotes proneural-to-mesenchymal transition via UBC9/CYLD/NF-κB axis. Cell Death Dis 2022",
+					"type": "PMID"
+				},
+				{
+					"reference": "TRPM7 transactivates FOSL1 through STAT3 and enhances stemness. Mol Oncol 2023",
+					"type": "PMID"
+				},
+				{
+					"reference": "TRIM21 functions as an oncogene by transactivating FOSL1 in glioblastoma. Cell Commun Signal 2025",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.89,
+			"significance_score": 0.88,
+			"supporting_genes": [
+				"FOSL1"
+			],
+			"supporting_gene_count": 1,
+			"required_components_present": true
+		},
+		{
+			"program_name": "BIRC3-Driven Therapy Resistance",
+			"theme": "Apoptosis evasion",
+			"description": "BIRC3 (cIAP2) is an inhibitor of apoptosis protein that promotes therapy resistance and stemness in glioblastoma. BIRC3 is upregulated in response to radiation and temozolomide treatment via STAT3 and PI3K signaling. It is essential for senescent GBM cell survival after therapy and promotes stemness reprogramming. BIRC3 is a biomarker of mesenchymal and hypoxia-driven GBM habitats.",
+			"atomic_biological_processes": [
+				{
+					"name": "negative regulation of apoptotic process",
+					"ontology_id": "GO:0043066",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "BIRC3 is a novel driver of therapeutic resistance in Glioblastoma. Sci Rep 2016",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"BIRC3"
+					]
+				},
+				{
+					"name": "cellular senescence",
+					"ontology_id": "GO:0090398",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "Targeting cIAP2 in a senolytic strategy prevents glioblastoma recurrence. EMBO Mol Med 2025",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"BIRC3"
+					]
+				}
+			],
+			"atomic_cellular_components": [],
+			"predicted_cellular_impact": [
+				"Evasion of therapy-induced apoptosis",
+				"Survival of senescent tumor cells after radiotherapy",
+				"Promotion of glioma stem cell self-renewal",
+				"Facilitation of tumor recurrence after treatment"
+			],
+			"evidence_summary": "BIRC3 is the only IAP whose expression is associated with long-term survival in GBM. BIRC3 expression increases with recurrence and is upregulated by RT/TMZ via STAT3/PI3K. Senescent GBM cells upregulate BIRC3 and rely on it for survival. BIRC3 drives stemness reprogramming and is a biomarker of mesenchymal/hypoxic GBM.",
+			"citations": [
+				{
+					"reference": "BIRC3 is a novel driver of therapeutic resistance in Glioblastoma. Sci Rep 2016",
+					"type": "PMID"
+				},
+				{
+					"reference": "Targeting cIAP2 prevents glioblastoma recurrence after radiotherapy. EMBO Mol Med 2025",
+					"type": "PMID"
+				},
+				{
+					"reference": "A Novel Role of BIRC3 in Stemness Reprogramming of Glioblastoma. Cancers 2021",
+					"type": "PMID"
+				},
+				{
+					"reference": "BIRC3 is a biomarker of mesenchymal habitat of glioblastoma. Sci Rep 2017",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.93,
+			"significance_score": 0.94,
+			"supporting_genes": [
+				"BIRC3"
+			],
+			"supporting_gene_count": 1,
+			"required_components_present": true
+		},
+		{
+			"program_name": "HMGA2-Mediated Stemness",
+			"theme": "Stem cell maintenance",
+			"description": "HMGA2 is an architectural transcription factor that promotes mesenchymal phenotype, stemness, and invasion in glioblastoma. It is highly expressed in glioma-initiating cells and correlates with poor prognosis. HMGA2 regulates let-7 microRNA pathway and activates MMP2 transcription via chromatin remodeling to promote invasion.",
+			"atomic_biological_processes": [
+				{
+					"name": "regulation of stem cell differentiation",
+					"ontology_id": "GO:2000736",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "The transcriptional modulator HMGA2 promotes stemness and tumorigenicity in glioblastoma. Oncotarget 2016",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"HMGA2"
+					]
+				},
+				{
+					"name": "cell invasion",
+					"ontology_id": "GO:0044409",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "HMGA2 promotes glioma invasion via long-range chromatin interaction. FEBS Lett 2018",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"HMGA2"
+					]
+				}
+			],
+			"atomic_cellular_components": [
+				{
+					"name": "nucleus",
+					"ontology_id": "GO:0005634",
+					"ontology_label": "cellular_component",
+					"citation": [
+						{
+							"reference": "Generic GO annotation",
+							"type": "URL"
+						}
+					],
+					"Genes": [
+						"HMGA2"
+					]
+				}
+			],
+			"predicted_cellular_impact": [
+				"Enhanced glioma stem cell self-renewal and stemness",
+				"Increased invasion and migration capacity",
+				"Promotion of mesenchymal phenotype",
+				"Chromatin remodeling to activate invasion genes (MMP2)"
+			],
+			"evidence_summary": "HMGA2 is highly expressed in GBM and glioma-initiating cells. HMGA2 knockdown decreases stemness, invasion, and tumorigenicity. HMGA2 sustains self-renewal of glioma-initiating cells and is associated with mesenchymal features. It induces chromatin conformational remodeling at MMP2 promoter.",
+			"citations": [
+				{
+					"reference": "The transcriptional modulator HMGA2 promotes stemness in glioblastoma. Oncotarget 2016",
+					"type": "PMID"
+				},
+				{
+					"reference": "HMGA2 sustains self-renewal and invasiveness of glioma-initiating cells. Oncotarget 2016",
+					"type": "PMID"
+				},
+				{
+					"reference": "HMGA2 promotes glioma invasion via long-range chromatin interaction. FEBS Lett 2018",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.90,
+			"significance_score": 0.89,
+			"supporting_genes": [
+				"HMGA2"
+			],
+			"supporting_gene_count": 1,
+			"required_components_present": true
+		},
+		{
+			"program_name": "PROM1 Stem Cell Properties",
+			"theme": "Glioma stem cells",
+			"description": "PROM1 (CD133) is a widely used marker for glioma stem cells and is associated with poor prognosis in glioblastoma. CD133+ cells display enhanced self-renewal, tumorigenicity, and therapy resistance. PROM1 expression is regulated epigenetically by Sp1/Myc transcription factors and promoter methylation. MTAP loss promotes PROM1 expression via hypomethylation.",
+			"atomic_biological_processes": [
+				{
+					"name": "stem cell maintenance",
+					"ontology_id": "GO:0019827",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "Epigenetic regulation of CD133/PROM1 expression by Sp1/myc. Neoplasia 2013",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"PROM1"
+					]
+				}
+			],
+			"atomic_cellular_components": [
+				{
+					"name": "plasma membrane",
+					"ontology_id": "GO:0005886",
+					"ontology_label": "cellular_component",
+					"citation": [
+						{
+							"reference": "Generic GO annotation",
+							"type": "URL"
+						}
+					],
+					"Genes": [
+						"PROM1"
+					]
+				}
+			],
+			"predicted_cellular_impact": [
+				"Maintenance of glioma stem cell properties",
+				"Enhanced tumor-initiating capacity",
+				"Increased therapy resistance",
+				"Promotion of self-renewal and proliferation"
+			],
+			"evidence_summary": "CD133 expression is a prognostic marker in glioma patient cohorts. MTAP loss results in hypomethylation of PROM1-associated stem cell pathways and increased CD133+ cells. CD133+ glioma stem cells display radioresistance via enhanced DNA damage response. Prominin1+ endothelium sustains proneural glioma growth.",
+			"citations": [
+				{
+					"reference": "MTAP loss promotes stemness via PROM1/CD133 hypomethylation. Cancer Res 2019",
+					"type": "PMID"
+				},
+				{
+					"reference": "Epigenetic regulation of CD133/PROM1 by Sp1/myc and methylation. Neoplasia 2013",
+					"type": "PMID"
+				},
+				{
+					"reference": "CD133 in brain tumor: the prognostic factor. Oncotarget 2016",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.85,
+			"significance_score": 0.83,
+			"supporting_genes": [
+				"PROM1"
+			],
+			"supporting_gene_count": 1,
+			"required_components_present": true
+		},
+		{
+			"program_name": "Interferon-Stimulated Genes",
+			"theme": "Innate immunity",
+			"description": "Expression of interferon-stimulated guanylate-binding proteins (GBP2, GBP5) that mediate antiviral and antimicrobial immunity. In glioblastoma, GBPs can have dual roles - mediating cell-autonomous immunity but also potentially promoting malignancy. GBP5 has been shown to drive malignancy via Src/ERK1/2/MMP3 pathway in mesenchymal GBM.",
+			"atomic_biological_processes": [
+				{
+					"name": "defense response to virus",
+					"ontology_id": "GO:0051607",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "Structural basis for GTP-induced dimerization and antiviral function of GBPs. PNAS 2021",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"GBP2",
+						"GBP5"
+					]
+				},
+				{
+					"name": "inflammatory response",
+					"ontology_id": "GO:0006954",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "GBP5 drives malignancy of glioblastoma via Src/ERK1/2/MMP3 pathway. Cell Death Dis 2021",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"GBP5"
+					]
+				}
+			],
+			"atomic_cellular_components": [],
+			"predicted_cellular_impact": [
+				"Activation of interferon-stimulated gene programs",
+				"In GBP5: promotion of proliferation and invasion via ERK/MMP3",
+				"Potential dual role in immunity and tumor progression",
+				"Association with mesenchymal GBM subtype"
+			],
+			"evidence_summary": "GBP2 and GBP5 are interferon-inducible GTPases. GBP5 is highly expressed in mesenchymal GBM and correlates with poor prognosis. GBP5 overexpression promotes proliferation and invasion via Src/ERK1/2/MMP3 pathway.",
+			"citations": [
+				{
+					"reference": "GBP5 drives malignancy of glioblastoma via the Src/ERK1/2/MMP3 pathway. Cell Death Dis 2021",
+					"type": "PMID"
+				},
+				{
+					"reference": "Development and validation of an interferon signature predicting prognosis for glioblastoma. Oncotarget 2019",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.78,
+			"significance_score": 0.76,
+			"supporting_genes": [
+				"GBP2",
+				"GBP5"
+			],
+			"supporting_gene_count": 2,
+			"required_components_present": true
+		},
+		{
+			"program_name": "NF-κB-Mediated Inflammation",
+			"theme": "Inflammatory signaling",
+			"description": "NF-κB pathway activation via multiple components including TNFAIP3 (A20), TNFAIP2, TLR2, and IL1R1. TNFAIP3 is a negative regulator of NF-κB but can be dysregulated in cancer. BIRC3 is also NF-κB regulated. This program drives inflammatory gene expression, SASP (senescence-associated secretory phenotype), and therapy resistance.",
+			"atomic_biological_processes": [
+				{
+					"name": "NF-kappaB signaling",
+					"ontology_id": "GO:0038061",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "Modulation of Angiogenic and Inflammatory Response by Hypoxia includes TNFAIP3 and BIRC3. Cancer Res 2009",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"TNFAIP3",
+						"TNFAIP2",
+						"BIRC3",
+						"TLR2",
+						"IL1R1"
+					]
+				},
+				{
+					"name": "inflammatory response",
+					"ontology_id": "GO:0006954",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "NF-κB Signalling in Glioblastoma. Biomedicines 2017",
+							"type": "PMID"
+						}
+					],
+					"Genes": [
+						"TNFAIP3",
+						"TNFAIP2",
+						"TLR2",
+						"IL1R1"
+					]
+				}
+			],
+			"atomic_cellular_components": [],
+			"predicted_cellular_impact": [
+				"Activation of pro-inflammatory gene expression",
+				"Promotion of senescence-associated secretory phenotype",
+				"Regulation of apoptosis and cell survival",
+				"Contribution to therapy resistance"
+			],
+			"evidence_summary": "TNFAIP3 and BIRC3 are upregulated by hypoxia in GBM and associated with chemotherapy resistance. NF-κB signaling is aberrantly activated in glioblastoma and regulates proliferation, invasion, and immune evasion. TLR2 and IL1R1 can activate NF-κB pathway in innate immune responses.",
+			"citations": [
+				{
+					"reference": "Modulation of Angiogenic and Inflammatory Response in Glioblastoma by Hypoxia. Cancer Res 2009",
+					"type": "PMID"
+				},
+				{
+					"reference": "NF-κB Signalling in Glioblastoma. Biomedicines 2017",
+					"type": "PMID"
+				},
+				{
+					"reference": "The Recent Research Progress of NF-κB Signaling in GBM. Biomolecules 2023",
+					"type": "PMID"
+				}
+			],
+			"confidence_score": 0.82,
+			"significance_score": 0.80,
+			"supporting_genes": [
+				"TNFAIP3",
+				"TNFAIP2",
+				"BIRC3",
+				"TLR2",
+				"IL1R1"
+			],
+			"supporting_gene_count": 5,
+			"required_components_present": true
+		},
+		{
+			"program_name": "Acute Phase Response",
+			"theme": "Systemic inflammatory response",
+			"description": "Expression of serum amyloid A family members (SAA1, SAA2, SAA4) that are acute phase proteins typically induced during inflammation. Their role in glioblastoma is less well-characterized but may contribute to systemic inflammatory signaling and potentially the tumor microenvironment.",
+			"atomic_biological_processes": [
+				{
+					"name": "acute-phase response",
+					"ontology_id": "GO:0006953",
+					"ontology_label": "biological_process",
+					"citation": [
+						{
+							"reference": "General acute phase protein function",
+							"type": "URL"
+						}
+					],
+					"Genes": [
+						"SAA1",
+						"SAA2",
+						"SAA4"
+					]
+				}
+			],
+			"atomic_cellular_components": [
+				{
+					"name": "extracellular region",
+					"ontology_id": "GO:0005576",
+					"ontology_label": "cellular_component",
+					"citation": [
+						{
+							"reference": "Generic GO annotation",
+							"type": "URL"
+						}
+					],
+					"Genes": [
+						"SAA1",
+						"SAA2",
+						"SAA4"
+					]
+				}
+			],
+			"predicted_cellular_impact": [
+				"Contribution to systemic inflammatory state",
+				"Potential role in tumor microenvironment signaling",
+				"Recruitment of immune cells",
+				"Modulation of lipid metabolism"
+			],
+			"evidence_summary": "SAA proteins are acute phase reactants upregulated during inflammation. Their specific role in glioblastoma is not well-established in the literature but their co-expression with other inflammatory markers suggests involvement in the inflammatory tumor microenvironment.",
+			"citations": [
+				{
+					"reference": "General acute phase response literature",
+					"type": "URL"
+				}
+			],
+			"confidence_score": 0.62,
+			"significance_score": 0.58,
+			"supporting_genes": [
+				"SAA1",
+				"SAA2",
+				"SAA4"
+			],
+			"supporting_gene_count": 3,
+			"required_components_present": true
+		}
+	],
+	"references": [
+		"[^1]: https://www.frontiersin.org/articles/10.3389/fmolb.2022.904098/full",
+		"[^2]: https://www.frontiersin.org/articles/10.3389/fmolb.2022.904098/pdf",
+		"[^3]: https://www.degruyter.com/document/doi/10.1515/med-2022-0572/html",
+		"[^4]: https://pmc.ncbi.nlm.nih.gov/articles/PMC7412812/",
+		"[^5]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6896086/",
+		"[^6]: https://pmc.ncbi.nlm.nih.gov/articles/PMC11805447/",
+		"[^7]: https://www.mdpi.com/2072-6694/11/11/1651",
+		"[^8]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10395518/",
+		"[^9]: https://www.tandfonline.com/doi/pdf/10.1080/21655979.2021.2018096?needAccess=true",
+		"[^10]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6585013/",
+		"[^11]: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/1878-0261.13571",
+		"[^12]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10009975/",
+		"[^13]: https://academic.oup.com/narcancer/article-pdf/2/2/zcaa011/33428092/zcaa011.pdf",
+		"[^14]: https://pmc.ncbi.nlm.nih.gov/articles/PMC11887670/",
+		"[^15]: https://pmc.ncbi.nlm.nih.gov/articles/PMC4211615/",
+		"[^16]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10766829/",
+		"[^17]: https://www.frontiersin.org/articles/10.3389/fonc.2023.1279923/full",
+		"[^18]: https://pmc.ncbi.nlm.nih.gov/articles/PMC7312290/",
+		"[^19]: https://pmc.ncbi.nlm.nih.gov/articles/PMC9219822/",
+		"[^20]: https://pmc.ncbi.nlm.nih.gov/articles/PMC5378489/",
+		"[^21]: https://pmc.ncbi.nlm.nih.gov/articles/PMC7170819/",
+		"[^22]: https://pmc.ncbi.nlm.nih.gov/articles/PMC11941181/",
+		"[^23]: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cam4.6316",
+		"[^24]: https://pmc.ncbi.nlm.nih.gov/articles/PMC11256543/",
+		"[^25]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10501277/",
+		"[^26]: https://www.frontiersin.org/articles/10.3389/fonc.2022.910728/full",
+		"[^27]: https://link.springer.com/10.1007/s00018-024-05497-5",
+		"[^28]: https://linkinghub.elsevier.com/retrieve/pii/S030438351830315X",
+		"[^29]: https://ashpublications.org/blood/article/142/Supplement 1/3996/501562/Increased-Circulating-Levels-of-YKL-40-Protein-in",
+		"[^30]: https://www.ijbs.com/v18p3731.htm",
+		"[^31]: https://www.oncotarget.com/lookup/doi/10.18632/oncotarget.5943",
+		"[^32]: http://biorxiv.org/lookup/doi/10.1101/2025.05.06.652369",
+		"[^33]: https://aacrjournals.org/cancerres/article/73/8_Supplement/3938/589552/Abstract-3938-Role-of-Chi3l1-YKL-40-in-the-tumor",
+		"[^34]: https://www.frontiersin.org/article/10.3389/fonc.2020.00478/full",
+		"[^35]: https://www.mdpi.com/1422-0067/21/17/6354",
+		"[^36]: https://pmc.ncbi.nlm.nih.gov/articles/PMC8363281/",
+		"[^37]: https://pmc.ncbi.nlm.nih.gov/articles/PMC8255457/",
+		"[^38]: https://www.thno.org/v12p6989.pdf",
+		"[^39]: https://pmc.ncbi.nlm.nih.gov/articles/PMC9576612/",
+		"[^40]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10267676/",
+		"[^41]: https://pmc.ncbi.nlm.nih.gov/articles/PMC4747349/",
+		"[^42]: https://pmc.ncbi.nlm.nih.gov/articles/PMC9666495/",
+		"[^43]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10847113/",
+		"[^44]: https://www.oncotarget.com/lookup/doi/10.18632/oncotarget.14092",
+		"[^45]: https://www.nature.com/articles/onc201655",
+		"[^46]: https://journal.whioce.com/index.php/apm/article/view/865",
+		"[^47]: https://academic.oup.com/neuro-oncology/article/25/Supplement_5/v36/7405763",
+		"[^48]: https://www.oncotarget.com/lookup/doi/10.18632/oncotarget.4161",
+		"[^49]: https://www.mdpi.com/2072-6694/15/8/2250",
+		"[^50]: https://www.nature.com/articles/s41389-020-00262-2",
+		"[^51]: https://www.mdpi.com/2072-6694/16/11/2089",
+		"[^52]: https://www.tandfonline.com/doi/full/10.1080/19336918.2021.1903684",
+		"[^53]: http://biorxiv.org/lookup/doi/10.1101/2025.05.28.656679",
+		"[^54]: https://pmc.ncbi.nlm.nih.gov/articles/PMC5369967/",
+		"[^55]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6307970/",
+		"[^56]: https://pmc.ncbi.nlm.nih.gov/articles/PMC5817947/",
+		"[^57]: https://pmc.ncbi.nlm.nih.gov/articles/PMC11832131/",
+		"[^58]: https://pmc.ncbi.nlm.nih.gov/articles/PMC3480271/",
+		"[^59]: https://pmc.ncbi.nlm.nih.gov/articles/PMC3015073/",
+		"[^60]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10587537/",
+		"[^61]: http://www.jbc.org/content/288/5/3097.full.pdf",
+		"[^62]: https://www.mdpi.com/2227-9059/8/9/310",
+		"[^63]: https://www.mdpi.com/1422-0067/25/14/7984",
+		"[^64]: https://academic.oup.com/neuro-oncology/article/26/Supplement_8/viii307/7890685",
+		"[^65]: https://www.oncotarget.com/lookup/doi/10.18632/oncotarget.10029",
+		"[^66]: https://www.mdpi.com/2571-6980/6/1/8",
+		"[^67]: https://www.aging-us.com/lookup/doi/10.18632/aging.100795",
+		"[^68]: https://aacrjournals.org/cancerres/article/80/5/964/647606/HIF2-Induced-Long-Noncoding-RNA-RAB11B-AS1",
+		"[^69]: https://www.frontiersin.org/articles/10.3389/fcell.2024.1385712/full",
+		"[^70]: https://www.frontiersin.org/articles/10.3389/fonc.2020.566430/full",
+		"[^71]: https://aacrjournals.org/cancerres/article/84/6_Supplement/3180/739535/Abstract-3180-Suppression-of-the-CPEB3-ribozyme",
+		"[^72]: https://pmc.ncbi.nlm.nih.gov/articles/PMC7555589/",
+		"[^73]: https://www.mdpi.com/2227-9059/8/9/310/pdf",
+		"[^74]: https://europepmc.org/articles/pmc7281616?pdf=render",
+		"[^75]: https://www.mdpi.com/1422-0067/22/22/12608/pdf",
+		"[^76]: https://pmc.ncbi.nlm.nih.gov/articles/PMC2694268/",
+		"[^77]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10334835/",
+		"[^78]: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jcmm.14507",
+		"[^79]: https://www.mdpi.com/1422-0067/20/22/5625/pdf",
+		"[^80]: https://onlinelibrary.wiley.com/doi/10.1111/cas.70218",
+		"[^81]: http://www.spandidos-publications.com/10.3892/etm.2023.12239",
+		"[^82]: https://www.dovepress.com/collagen-stiffness-promoted-non-muscle-invasive-bladder-cancer-progres-peer-reviewed-article-OTT",
+		"[^83]: https://pubs.acs.org/doi/10.1021/acs.jproteome.4c00071",
+		"[^84]: http://biorxiv.org/lookup/doi/10.1101/2025.09.22.677845",
+		"[^85]: https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-020-02509-3",
+		"[^86]: https://peerj.com/articles/18250",
+		"[^87]: https://www.frontiersin.org/articles/10.3389/fgene.2023.1217952/full",
+		"[^88]: https://aacrjournals.org/cancerres/article/75/15_Supplement/5281/604467/Abstract-5281-Prognostic-biomarkers-for",
+		"[^89]: https://pmc.ncbi.nlm.nih.gov/articles/PMC9145282/",
+		"[^90]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10842372/",
+		"[^91]: https://pmc.ncbi.nlm.nih.gov/articles/PMC11555893/",
+		"[^92]: https://www.mdpi.com/1999-4923/14/5/1031/pdf?version=1652696727",
+		"[^93]: https://www.mdpi.com/2072-6694/14/15/3659/pdf?version=1658929403",
+		"[^94]: https://pmc.ncbi.nlm.nih.gov/articles/PMC11040975/",
+		"[^95]: https://pmc.ncbi.nlm.nih.gov/articles/PMC9682678/",
+		"[^96]: https://pmc.ncbi.nlm.nih.gov/articles/PMC9367320/",
+		"[^97]: https://academic.oup.com/neuro-oncology/article/25/Supplement_5/v47/7405475",
+		"[^98]: https://aacrjournals.org/cancerres/article/78/13_Supplement/2763/627246/Abstract-2763-Tryptophan-metabolism-contributes-to",
+		"[^99]: https://faseb.onlinelibrary.wiley.com/doi/10.1096/fasebj.31.1_supplement.747.4",
+		"[^100]: https://aacrjournals.org/cancerimmunolres/article/3/10_Supplement/A59/467615/Abstract-A59-Novel-inhibitors-of-human-IDO1-and",
+		"[^101]: https://aacrjournals.org/cancerres/article/84/10/1659/745306/PABPC1L-Induces-IDO1-to-Promote-Tryptophan",
+		"[^102]: https://www.nature.com/articles/s41467-022-33285-x",
+		"[^103]: https://aacrjournals.org/clincancerres/article/27/23/6514/675057/Tumor-Cell-IDO-Enhances-Immune-Suppression-and",
+		"[^104]: https://www.nature.com/articles/s41392-022-01127-3",
+		"[^105]: https://www.mdpi.com/1999-4923/16/7/870",
+		"[^106]: https://pmc.ncbi.nlm.nih.gov/articles/PMC8639612/",
+		"[^107]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6847204/",
+		"[^108]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6068130/",
+		"[^109]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6591719/",
+		"[^110]: https://pmc.ncbi.nlm.nih.gov/articles/PMC11279595/",
+		"[^111]: https://pmc.ncbi.nlm.nih.gov/articles/PMC5514839/",
+		"[^112]: https://pmc.ncbi.nlm.nih.gov/articles/PMC4641522/",
+		"[^113]: https://pmc.ncbi.nlm.nih.gov/articles/PMC5850948/",
+		"[^114]: https://academic.oup.com/neuro-oncology/article/27/Supplement_3/iii40/8271986",
+		"[^115]: https://www.tandfonline.com/doi/full/10.1080/2162402X.2018.1448329",
+		"[^116]: http://e-crt.org/journal/view.php?doi=10.4143/crt.2019.440",
+		"[^117]: https://aacrjournals.org/cancerimmunolres/article/7/2_Supplement/B168/469349/Abstract-B168-A-Radiosensitivity-gene-signature",
+		"[^118]: https://www.frontiersin.org/article/10.3389/fphar.2018.01503/full", "[^119]: http://www.dustri.com/article_response_page.html?artId=13824\&doi=10.5414/NP300922\&L=0",
+		"[^120]: https://www.nature.com/articles/s42003-025-08092-x",
+		"[^121]: https://onlinelibrary.wiley.com/doi/10.1111/jnc.16224",
+		"[^122]: https://linkinghub.elsevier.com/retrieve/pii/S2331518024002609",
+		"[^123]: https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202310163",
+		"[^124]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6333638/",
+		"[^125]: https://www.frontiersin.org/articles/10.3389/fphar.2018.01503/pdf",
+		"[^126]: https://pmc.ncbi.nlm.nih.gov/articles/PMC4724183/",
+		"[^127]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6206227/",
+		"[^128]: https://pmc.ncbi.nlm.nih.gov/articles/PMC9298327/",
+		"[^129]: https://www.frontiersin.org/articles/10.3389/fonc.2018.00464/pdf",
+		"[^130]: https://pmc.ncbi.nlm.nih.gov/articles/PMC4185805/",
+		"[^131]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10847518/",
+		"[^132]: https://e-century.us/files/ajcr/14/9/ajcr0159191.pdf",
+		"[^133]: https://www.mdpi.com/1422-0067/18/2/372",
+		"[^134]: https://jeccr.biomedcentral.com/articles/10.1186/s13046-024-03038-3",
+		"[^135]: https://linkinghub.elsevier.com/retrieve/pii/S001429992200437X",
+		"[^136]: https://www.dovepress.com/galangin-gln-suppresses-proliferation-migration-and-invasion-of-human--peer-reviewed-article-OTT",
+		"[^137]: http://www.europeanreview.org/article/19791",
+		"[^138]: https://www.mdpi.com/2079-7737/12/6/818",
+		"[^139]: https://www.thno.org/v14p6392.htm",
+		"[^140]: https://www.mdpi.com/2227-9059/12/1/92",
+		"[^141]: https://www.tandfonline.com/doi/full/10.1080/15384047.2024.2321770",
+		"[^142]: https://pmc.ncbi.nlm.nih.gov/articles/PMC5496495/",
+		"[^143]: https://www.mdpi.com/2073-4425/13/2/244/pdf",
+		"[^144]: https://pmc.ncbi.nlm.nih.gov/articles/PMC4774466/",
+		"[^145]: https://pmc.ncbi.nlm.nih.gov/articles/PMC3712701/",
+		"[^146]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6912254/",
+		"[^147]: https://pmc.ncbi.nlm.nih.gov/articles/PMC11582338/",
+		"[^148]: https://pmc.ncbi.nlm.nih.gov/articles/PMC5341988/",
+		"[^149]: https://febs.onlinelibrary.wiley.com/doi/10.1002/1873-3468.14774",
+		"[^150]: https://biosignaling.biomedcentral.com/articles/10.1186/s12964-025-02325-6",
+		"[^151]: https://www.nature.com/articles/s41388-020-1306-4",
+		"[^152]: https://www.frontiersin.org/article/10.3389/fcell.2020.579629/full",
+		"[^153]: https://link.springer.com/10.1007/s10565-024-09890-5",
+		"[^154]: http://jeccr.biomedcentral.com/articles/10.1186/s13046-017-0555-8",
+		"[^155]: https://journals.aai.org/jimmunol/article/188/1_Supplement/111.49/48751/The-AP-1-transcription-factor-Fra-1-is-a-negative",
+		"[^156]: https://academic.oup.com/neuro-oncology/article/23/Supplement_6/vi26/6426598",
+		"[^157]: https://www.semanticscholar.org/paper/386b50efee4ef398ecd12b586c37a41e8f4c9982",
+		"[^158]: https://cco.amegroups.com/article/view/127607/html",
+		"[^159]: https://pmc.ncbi.nlm.nih.gov/articles/PMC11980931/",
+		"[^160]: https://pmc.ncbi.nlm.nih.gov/articles/PMC11121637/",
+		"[^161]: https://www.mdpi.com/1422-0067/25/10/5362/pdf?version=1715692239",
+		"[^162]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10409446/",
+		"[^163]: https://pmc.ncbi.nlm.nih.gov/articles/PMC9263249/",
+		"[^164]: https://pmc.ncbi.nlm.nih.gov/articles/PMC11638655/",
+		"[^165]: https://pmc.ncbi.nlm.nih.gov/articles/PMC10465393/",
+		"[^166]: https://pmc.ncbi.nlm.nih.gov/articles/PMC8290037/",
+		"[^167]: http://www.spandidos-publications.com/or/article.jsp?article_id=or_20_2_413",
+		"[^168]: https://www.spandidos-publications.com/10.3892/or.2017.5620",
+		"[^169]: https://aacrjournals.org/cancerres/article/85/8_Supplement_1/5110/758392/Abstract-5110-Solid-stress-reduces-synaptic",
+		"[^170]: https://cmbl.biomedcentral.com/articles/10.1186/s11658-025-00783-x",
+		"[^171]: https://www.nature.com/articles/s41420-025-02692-6",
+		"[^172]: https://www.nature.com/articles/s41419-020-03159-5",
+		"[^173]: http://dergipark.org.tr/en/doi/10.37212/jcnos.715227"
+	]
+}
