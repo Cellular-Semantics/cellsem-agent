@@ -69,10 +69,10 @@
         "citation": {
             "type": "object",
             "required": [
-                "url"
+                "source_id"
             ],
             "properties": {
-                source_id": {
+                "source_id": {
                     "type": "string",
                 },
                 "notes": {
