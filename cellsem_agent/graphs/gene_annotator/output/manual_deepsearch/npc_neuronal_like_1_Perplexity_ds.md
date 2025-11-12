@@ -267,29 +267,29 @@
       "atomic_biological_processes": [
         {
           "name": "extracellular matrix organization",
-          "citation": [{"url": "web:87"}, {"url": "web:88"}],
+          "citation": [{"source_id": "web:87"}, {"source_id": "web:88"}],
           "genes": ["COL21A1", "COL13A1", "COL23A1", "COL26A1", "POSTN", "THBS1", "HMCN1"]
         },
         {
           "name": "cell-matrix adhesion",
-          "citation": [{"url": "web:95"}, {"url": "web:105"}],
+          "citation": [{"source_id": "web:95"}, {"source_id": "web:105"}],
           "genes": ["POSTN", "THBS1"]
         },
         {
           "name": "regulation of angiogenesis",
-          "citation": [{"url": "web:120"}, {"url": "web:123"}, {"url": "web:125"}],
+          "citation": [{"source_id": "web:120"}, {"source_id": "web:123"}, {"source_id": "web:125"}],
           "genes": ["THBS1", "POSTN"]
         }
       ],
       "atomic_cellular_components": [
         {
           "name": "collagen-containing extracellular matrix",
-          "citation": [{"url": "web:87"}, {"url": "web:94"}],
+          "citation": [{"source_id": "web:87"}, {"source_id": "web:94"}],
           "genes": ["COL21A1", "COL13A1", "COL23A1", "COL26A1"]
         },
         {
           "name": "basement membrane",
-          "citation": [{"url": "web:87"}],
+          "citation": [{"source_id": "web:87"}],
           "genes": ["COL13A1", "HMCN1"]
         }
       ],
@@ -303,25 +303,25 @@
       "evidence_summary": "POSTN (periostin) directly promotes GBM invasion and is upregulated in high-grade gliomas, correlating with poor prognosis. THBS1 (thrombospondin-1) has a complex dual role: as an anti-angiogenic factor it can suppress tumor vasculature, but through CD47 interaction it promotes invasion and immune evasion. Multiple collagens contribute to ECM structure that facilitates invasion. The ECM serves as an active player in GBM progression beyond mechanical support.",
       "significance_score": 0.92,
       "citations": [
-        {"url": "web:87", "notes": "Matrix code defines functional GBM phenotypes and niches"},
-        {"url": "web:88", "notes": "ECM structural modifications shape GBM tumoral microenvironment"},
-        {"url": "web:95", "notes": "p73 activates POSTN expression to promote GBM invasion"},
-        {"url": "web:99", "notes": "POSTN activates NF-κB signaling promoting GBM progression and chemoresistance"},
-        {"url": "web:105", "notes": "POSTN overexpression correlates with GBM invasion, directly activated by p73"},
-        {"url": "web:107", "notes": "CLOCK regulates POSTN to promote tumor angiogenesis in GBM"},
-        {"url": "web:109", "notes": "POSTN is potent chemoattractant for tumor-associated macrophages in GBM"},
-        {"url": "web:112", "notes": "POSTN is robust marker of glioma malignancy via integrin interactions"},
-        {"url": "web:120", "notes": "TGFβ induces THBS1 via SMAD3; THBS1 contributes to invasive behavior through CD47"},
-        {"url": "web:121", "notes": "THBS1 predicts mesenchymal GBM subtype and correlates with immune infiltration"},
-        {"url": "web:123", "notes": "THBS1 silencing inhibits GBM invasion and growth, anti-angiogenic role"},
-        {"url": "web:124", "notes": "THBS1 is master regulator of GBM vascularization and infiltration"}
+        {"source_id": "web:87", "notes": "Matrix code defines functional GBM phenotypes and niches"},
+        {"source_id": "web:88", "notes": "ECM structural modifications shape GBM tumoral microenvironment"},
+        {"source_id": "web:95", "notes": "p73 activates POSTN expression to promote GBM invasion"},
+        {"source_id": "web:99", "notes": "POSTN activates NF-κB signaling promoting GBM progression and chemoresistance"},
+        {"source_id": "web:105", "notes": "POSTN overexpression correlates with GBM invasion, directly activated by p73"},
+        {"source_id": "web:107", "notes": "CLOCK regulates POSTN to promote tumor angiogenesis in GBM"},
+        {"source_id": "web:109", "notes": "POSTN is potent chemoattractant for tumor-associated macrophages in GBM"},
+        {"source_id": "web:112", "notes": "POSTN is robust marker of glioma malignancy via integrin interactions"},
+        {"source_id": "web:120", "notes": "TGFβ induces THBS1 via SMAD3; THBS1 contributes to invasive behavior through CD47"},
+        {"source_id": "web:121", "notes": "THBS1 predicts mesenchymal GBM subtype and correlates with immune infiltration"},
+        {"source_id": "web:123", "notes": "THBS1 silencing inhibits GBM invasion and growth, anti-angiogenic role"},
+        {"source_id": "web:124", "notes": "THBS1 is master regulator of GBM vascularization and infiltration"}
       ],
       "supporting_genes": ["POSTN", "THBS1", "COL21A1", "COL13A1", "COL23A1", "COL26A1", "HMCN1"],
       "required_genes_not_in_input": {
         "genes": ["FN1", "TNC", "VTN", "ITGAV", "ITGB3", "ITGB5"],
         "citations": [
-          {"url": "web:92", "notes": "Fibronectin FN1 is critical CAF-secreted factor mediating ECM functions in GBM"},
-          {"url": "web:112", "notes": "POSTN interacts with αvβ3 and αvβ5 integrins to promote malignancy"}
+          {"source_id": "web:92", "notes": "Fibronectin FN1 is critical CAF-secreted factor mediating ECM functions in GBM"},
+          {"source_id": "web:112", "notes": "POSTN interacts with αvβ3 and αvβ5 integrins to promote malignancy"}
         ]
       }
     },
@@ -331,29 +331,29 @@
       "atomic_biological_processes": [
         {
           "name": "chromatin remodeling",
-          "citation": [{"url": "web:265"}, {"url": "web:279"}],
+          "citation": [{"source_id": "web:265"}, {"source_id": "web:279"}],
           "genes": ["CHD5", "SATB1"]
         },
         {
           "name": "histone modification",
-          "citation": [{"url": "web:220"}, {"url": "web:221"}],
+          "citation": [{"source_id": "web:220"}, {"source_id": "web:221"}],
           "genes": ["PRMT8"]
         },
         {
           "name": "transcription regulatory region DNA binding",
-          "citation": [{"url": "web:256"}, {"url": "web:257"}],
+          "citation": [{"source_id": "web:256"}, {"source_id": "web:257"}],
           "genes": ["SATB1", "ZNF521", "PLAGL1"]
         }
       ],
       "atomic_cellular_components": [
         {
           "name": "nucleosome",
-          "citation": [{"url": "web:265"}, {"url": "web:279"}],
+          "citation": [{"source_id": "web:265"}, {"source_id": "web:279"}],
           "genes": ["CHD5"]
         },
         {
           "name": "nuclear matrix",
-          "citation": [{"url": "web:256"}, {"url": "web:257"}],
+          "citation": [{"source_id": "web:256"}, {"source_id": "web:257"}],
           "genes": ["SATB1"]
         }
       ],
@@ -367,25 +367,25 @@
       "evidence_summary": "CHD5 is a tumor suppressor frequently deleted in glioma (1p36 region) that remodels nucleosomes and suppresses proliferation; its loss is associated with worse prognosis. SATB1 is a chromatin organizer upregulated in GBM that promotes invasion and is associated with poor prognosis; phosphorylated SATB1 interacts with HDAC1 to regulate invasion-related genes. ZNF521 maintains stem cell self-renewal and its expression in medulloblastoma enhances clonogenicity and tumorigenic potential. PRMTs including PRMT8 are being investigated as therapeutic targets in brain tumors.",
       "significance_score": 0.85,
       "citations": [
-        {"url": "web:256", "notes": "Phosphorylated SATB1 associated with GBM progression; interacts with HDAC1"},
-        {"url": "web:257", "notes": "SATB1 upregulation in glioma promotes proliferation, invasion, adhesion, angiogenesis"},
-        {"url": "web:245", "notes": "miR-7-5p inhibits glioma invasion through targeting SATB1"},
-        {"url": "web:261", "notes": "SATB1 as chromatin organizer playing pivotal role in cancer progression"},
-        {"url": "web:270", "notes": "miR-500a-5p promotes glioma by targeting tumor suppressor CHD5"},
-        {"url": "web:273", "notes": "CHD5 forms NuRD-type chromatin remodeling complex"},
-        {"url": "web:274", "notes": "CHD5 tumor suppressor induced during neuronal differentiation; deleted in glioma"},
-        {"url": "web:275", "notes": "CHD5 requires PHD-mediated histone 3 binding for tumor suppression"},
-        {"url": "web:277", "notes": "CHD5 functions as tumor suppressor in gliomas through chromatin remodeling"},
-        {"url": "web:240", "notes": "ZNF521 controls growth, clonogenicity, tumorigenic potential of medulloblastoma"},
-        {"url": "web:221", "notes": "Arginine methylation by PRMTs in brain tumors including glioblastoma"},
-        {"url": "web:223", "notes": "PRMTs including PRMT8 as therapeutic targets for brain tumors"}
+        {"source_id": "web:256", "notes": "Phosphorylated SATB1 associated with GBM progression; interacts with HDAC1"},
+        {"source_id": "web:257", "notes": "SATB1 upregulation in glioma promotes proliferation, invasion, adhesion, angiogenesis"},
+        {"source_id": "web:245", "notes": "miR-7-5p inhibits glioma invasion through targeting SATB1"},
+        {"source_id": "web:261", "notes": "SATB1 as chromatin organizer playing pivotal role in cancer progression"},
+        {"source_id": "web:270", "notes": "miR-500a-5p promotes glioma by targeting tumor suppressor CHD5"},
+        {"source_id": "web:273", "notes": "CHD5 forms NuRD-type chromatin remodeling complex"},
+        {"source_id": "web:274", "notes": "CHD5 tumor suppressor induced during neuronal differentiation; deleted in glioma"},
+        {"source_id": "web:275", "notes": "CHD5 requires PHD-mediated histone 3 binding for tumor suppression"},
+        {"source_id": "web:277", "notes": "CHD5 functions as tumor suppressor in gliomas through chromatin remodeling"},
+        {"source_id": "web:240", "notes": "ZNF521 controls growth, clonogenicity, tumorigenic potential of medulloblastoma"},
+        {"source_id": "web:221", "notes": "Arginine methylation by PRMTs in brain tumors including glioblastoma"},
+        {"source_id": "web:223", "notes": "PRMTs including PRMT8 as therapeutic targets for brain tumors"}
       ],
       "supporting_genes": ["CHD5", "SATB1", "ZNF521", "ZNF804B", "PRMT8", "PLAGL1"],
       "required_genes_not_in_input": {
         "genes": ["HDAC1", "MTA2", "RBBP4", "EZH2"],
         "citations": [
-          {"url": "web:256", "notes": "HDAC1 interacts with phospho-SATB1 in GBM invasion"},
-          {"url": "web:273", "notes": "CHD5 forms NuRD complex with HDAC1, MTA2, RBBP4"}
+          {"source_id": "web:256", "notes": "HDAC1 interacts with phospho-SATB1 in GBM invasion"},
+          {"source_id": "web:273", "notes": "CHD5 forms NuRD complex with HDAC1, MTA2, RBBP4"}
         ]
       }
     },
@@ -395,29 +395,29 @@
       "atomic_biological_processes": [
         {
           "name": "metabotropic glutamate receptor signaling",
-          "citation": [{"url": "web:69"}, {"url": "web:75"}],
+          "citation": [{"source_id": "web:69"}, {"source_id": "web:75"}],
           "genes": ["GRM1", "GRM4"]
         },
         {
           "name": "GABA-A receptor signaling",
-          "citation": [{"url": "web:61"}, {"url": "web:62"}],
+          "citation": [{"source_id": "web:61"}, {"source_id": "web:62"}],
           "genes": ["GABRA5", "GABRG3"]
         },
         {
           "name": "G protein-activated potassium channel activity",
-          "citation": [{"url": "web:199"}],
+          "citation": [{"source_id": "web:199"}],
           "genes": ["KCNJ3"]
         }
       ],
       "atomic_cellular_components": [
         {
           "name": "GABA-A receptor complex",
-          "citation": [{"url": "web:61"}, {"url": "web:62"}],
+          "citation": [{"source_id": "web:61"}, {"source_id": "web:62"}],
           "genes": ["GABRA5", "GABRG3"]
         },
         {
           "name": "plasma membrane",
-          "citation": [{"url": "web:75"}],
+          "citation": [{"source_id": "web:75"}],
           "genes": ["GRM1", "GRM4", "GABRA5", "GABRG3", "KCNJ3"]
         }
       ],
@@ -431,22 +431,22 @@
       "evidence_summary": "GRM1 (mGluR1) aberrant expression drives glioma cell viability and proliferation through MAPK and PI3K/AKT activation. Glutamate released by glioma cells creates autocrine signaling loops. GABA receptor subunit expression is altered in glioma with reduced GABRA3 editing and variable GABRA5 expression correlating with aggressive subtypes. KCNJ3 encodes GIRK1, a G-protein activated potassium channel that can modulate neuronal excitability. Neurons promote glioma growth via paracrine and direct electrochemical mechanisms.",
       "significance_score": 0.78,
       "citations": [
-        {"url": "web:61", "notes": "GABRA5 expression examined in glioma subtypes with prognostic associations"},
-        {"url": "web:62", "notes": "GABRA5 implicated in aggressive pediatric brain tumor subgroups"},
-        {"url": "web:63", "notes": "Reduced GABRA3 RNA editing in glioma favors migration and invasion"},
-        {"url": "web:67", "notes": "GABA metabolism controls stem and proliferative cell state in glioma"},
-        {"url": "web:69", "notes": "GRM1 drives melanoma through glutamate signaling; parallel mechanism in glioma"},
-        {"url": "web:75", "notes": "GRM1 mRNA in glioma; GRM1 signaling supports glioma viability and proliferation"},
-        {"url": "web:187", "notes": "Glutamate-mediated calcium signaling promotes glioma progression"},
-        {"url": "web:37", "notes": "Glioma cells synaptically integrated; glutamate promotes growth, loss of GABAergic inhibition"},
-        {"url": "web:40", "notes": "Hyperexcitability in glioma stimulates proliferation and migration"}
+        {"source_id": "web:61", "notes": "GABRA5 expression examined in glioma subtypes with prognostic associations"},
+        {"source_id": "web:62", "notes": "GABRA5 implicated in aggressive pediatric brain tumor subgroups"},
+        {"source_id": "web:63", "notes": "Reduced GABRA3 RNA editing in glioma favors migration and invasion"},
+        {"source_id": "web:67", "notes": "GABA metabolism controls stem and proliferative cell state in glioma"},
+        {"source_id": "web:69", "notes": "GRM1 drives melanoma through glutamate signaling; parallel mechanism in glioma"},
+        {"source_id": "web:75", "notes": "GRM1 mRNA in glioma; GRM1 signaling supports glioma viability and proliferation"},
+        {"source_id": "web:187", "notes": "Glutamate-mediated calcium signaling promotes glioma progression"},
+        {"source_id": "web:37", "notes": "Glioma cells synaptically integrated; glutamate promotes growth, loss of GABAergic inhibition"},
+        {"source_id": "web:40", "notes": "Hyperexcitability in glioma stimulates proliferation and migration"}
       ],
       "supporting_genes": ["GRM1", "GRM4", "GABRA5", "GABRG3", "KCNJ3"],
       "required_genes_not_in_input": {
         "genes": ["GLS", "SLC1A3", "GRIK2", "GRIA2"],
         "citations": [
-          {"url": "web:69", "notes": "Glutaminase GLS produces glutamate for autocrine GRM1 activation"},
-          {"url": "web:187", "notes": "SLC1A3 glutamate transporter and ionotropic receptors in glioma signaling"}
+          {"source_id": "web:69", "notes": "Glutaminase GLS produces glutamate for autocrine GRM1 activation"},
+          {"source_id": "web:187", "notes": "SLC1A3 glutamate transporter and ionotropic receptors in glioma signaling"}
         ]
       }
     },
@@ -456,29 +456,29 @@
       "atomic_biological_processes": [
         {
           "name": "negative regulation of cell proliferation",
-          "citation": [{"url": "web:43"}, {"url": "web:55"}],
+          "citation": [{"source_id": "web:43"}, {"source_id": "web:55"}],
           "genes": ["RBMS3", "CHD5"]
         },
         {
           "name": "negative regulation of angiogenesis",
-          "citation": [{"url": "web:43"}, {"url": "web:55"}],
+          "citation": [{"source_id": "web:43"}, {"source_id": "web:55"}],
           "genes": ["RBMS3"]
         },
         {
           "name": "regulation of RNA stability",
-          "citation": [{"url": "web:45"}, {"url": "web:49"}],
+          "citation": [{"source_id": "web:45"}, {"source_id": "web:49"}],
           "genes": ["RBMS3"]
         }
       ],
       "atomic_cellular_components": [
         {
           "name": "cytoplasm",
-          "citation": [{"url": "web:53"}],
+          "citation": [{"source_id": "web:53"}],
           "genes": ["RBMS3"]
         },
         {
           "name": "nucleus",
-          "citation": [{"url": "web:53"}],
+          "citation": [{"source_id": "web:53"}],
           "genes": ["RBMS3", "CHD5"]
         }
       ],
@@ -491,18 +491,18 @@
       "evidence_summary": "RBMS3 is located on chromosome 3p (frequently deleted in cancers) and functions as a tumor suppressor. RBMS3 downregulation is detected in multiple cancer types and correlates with poor prognosis. RBMS3 inhibits cell proliferation, angiogenesis, and EMT. In glioblastoma specifically, RBMS3-induced circHECTD1 encodes a peptide that inhibits vasculogenic mimicry formation by mediating NR2F1 ubiquitination. Loss of RBMS3 removes these tumor suppressive functions.",
       "significance_score": 0.76,
       "citations": [
-        {"url": "web:43", "notes": "RBMS3 downregulation in gastric cancer correlates with angiogenesis and poor prognosis"},
-        {"url": "web:46", "notes": "RBMS3 is common EMT effector modulating triple-negative breast cancer progression"},
-        {"url": "web:48", "notes": "RBMS3 is downstream target of AMPK; inhibits lung cancer invasion and metastasis"},
-        {"url": "web:53", "notes": "RBMS3 tumor suppressor effect in breast cancer; reduced expression poor survival"},
-        {"url": "web:55", "notes": "RBMS3 at 3p24 inhibits nasopharyngeal carcinoma via inhibiting proliferation, angiogenesis, inducing apoptosis"},
-        {"url": "web:56", "notes": "RBMS3-induced circHECTD1 encodes peptide that suppresses vasculogenic mimicry in GBM"}
+        {"source_id": "web:43", "notes": "RBMS3 downregulation in gastric cancer correlates with angiogenesis and poor prognosis"},
+        {"source_id": "web:46", "notes": "RBMS3 is common EMT effector modulating triple-negative breast cancer progression"},
+        {"source_id": "web:48", "notes": "RBMS3 is downstream target of AMPK; inhibits lung cancer invasion and metastasis"},
+        {"source_id": "web:53", "notes": "RBMS3 tumor suppressor effect in breast cancer; reduced expression poor survival"},
+        {"source_id": "web:55", "notes": "RBMS3 at 3p24 inhibits nasopharyngeal carcinoma via inhibiting proliferation, angiogenesis, inducing apoptosis"},
+        {"source_id": "web:56", "notes": "RBMS3-induced circHECTD1 encodes peptide that suppresses vasculogenic mimicry in GBM"}
       ],
       "supporting_genes": ["RBMS3", "CHD5"],
       "required_genes_not_in_input": {
         "genes": ["TP53", "CDKN2A"],
         "citations": [
-          {"url": "web:277", "notes": "Tumor suppressors p53 and RB pathways cooperate with CHD5 in tumor suppression"}
+          {"source_id": "web:277", "notes": "Tumor suppressors p53 and RB pathways cooperate with CHD5 in tumor suppression"}
         ]
       }
     },
@@ -512,19 +512,19 @@
       "atomic_biological_processes": [
         {
           "name": "interleukin-6-mediated signaling",
-          "citation": [{"url": "web:131"}, {"url": "web:133"}],
+          "citation": [{"source_id": "web:131"}, {"source_id": "web:133"}],
           "genes": ["IL6R"]
         },
         {
           "name": "STAT3 activation",
-          "citation": [{"url": "web:133"}],
+          "citation": [{"source_id": "web:133"}],
           "genes": ["IL6R"]
         }
       ],
       "atomic_cellular_components": [
         {
           "name": "plasma membrane receptor complex",
-          "citation": [{"url": "web:131"}],
+          "citation": [{"source_id": "web:131"}],
           "genes": ["IL6R"]
         }
       ],
@@ -537,15 +537,15 @@
       "evidence_summary": "IL-6/IL6R signaling is overexpressed in GBM and upregulates PD-L1 through STAT3-dependent mechanisms, leading to immunosuppression and tumor progression. IL6 knockout in glioma models diminishes tumor growth and increases survival. NFAT1-regulated IL6 signaling contributes to aggressive glioma phenotypes. IL-6 also increases structural and electrophysiological connectivity in glioma, contributing to network remodeling.",
       "significance_score": 0.73,
       "citations": [
-        {"url": "web:131", "notes": "IL-6 upregulates PD-L1 in GBM via STAT3; IL6 knockout reduces tumor growth"},
-        {"url": "web:133", "notes": "NFAT1-regulated IL6/IL6R signaling contributes to aggressive glioma phenotypes"},
-        {"url": "web:139", "notes": "IL-6 blockade promotes tumor immunity and abrogates checkpoint blockade toxicity in GBM"}
+        {"source_id": "web:131", "notes": "IL-6 upregulates PD-L1 in GBM via STAT3; IL6 knockout reduces tumor growth"},
+        {"source_id": "web:133", "notes": "NFAT1-regulated IL6/IL6R signaling contributes to aggressive glioma phenotypes"},
+        {"source_id": "web:139", "notes": "IL-6 blockade promotes tumor immunity and abrogates checkpoint blockade toxicity in GBM"}
       ],
       "supporting_genes": ["IL6R", "BANK1", "FYB2"],
       "required_genes_not_in_input": {
         "genes": ["IL6", "IL6ST", "JAK1", "STAT3"],
         "citations": [
-          {"url": "web:133", "notes": "IL6, IL6ST (gp130), JAK1, and STAT3 form the complete IL-6 signaling cascade"}
+          {"source_id": "web:133", "notes": "IL6, IL6ST (gp130), JAK1, and STAT3 form the complete IL-6 signaling cascade"}
         ]
       }
     },
@@ -555,29 +555,29 @@
       "atomic_biological_processes": [
         {
           "name": "calcium ion transmembrane transport",
-          "citation": [{"url": "web:176"}, {"url": "web:187"}],
+          "citation": [{"source_id": "web:176"}, {"source_id": "web:187"}],
           "genes": ["CACNA2D1"]
         },
         {
           "name": "cAMP biosynthetic process",
-          "citation": [{"url": "web:153"}, {"url": "web:154"}],
+          "citation": [{"source_id": "web:153"}, {"source_id": "web:154"}],
           "genes": ["ADCY8"]
         },
         {
           "name": "regulation of intracellular calcium concentration",
-          "citation": [{"url": "web:187"}],
+          "citation": [{"source_id": "web:187"}],
           "genes": ["CACNA2D1", "ADCY8"]
         }
       ],
       "atomic_cellular_components": [
         {
           "name": "voltage-gated calcium channel complex",
-          "citation": [{"url": "web:176"}, {"url": "web:189"}],
+          "citation": [{"source_id": "web:176"}, {"source_id": "web:189"}],
           "genes": ["CACNA2D1"]
         },
         {
           "name": "plasma membrane",
-          "citation": [{"url": "web:153"}],
+          "citation": [{"source_id": "web:153"}],
           "genes": ["ADCY8", "CACNA2D1"]
         }
       ],
@@ -590,19 +590,19 @@
       "evidence_summary": "CACNA2D1 (α2δ-1 subunit) is expressed in glioblastoma and associated with cancer stem cell properties and tumorigenesis across multiple cancer types. Calcium channel activity contributes to glioma invasion and migration. ADCY8 (adenylyl cyclase 8) is involved in cAMP signaling and has been implicated in cancer therapy resistance and progression; SNPs in ADCY8 correlate with glioma risk in NF1 patients. Glutamate-mediated calcium signaling promotes glioma formation through metabolic reprogramming and cytoskeletal changes.",
       "significance_score": 0.67,
       "citations": [
-        {"url": "web:176", "notes": "CACNA2D1 expression in glioblastoma; α2δ-1+ cells have tumorigenic efficiency"},
-        {"url": "web:187", "notes": "Glutamate-mediated calcium signaling pathways promote glioma progression"},
-        {"url": "web:153", "notes": "ADCY8 (AC8) overexpression in breast cancer affects calcium entry and migration"},
-        {"url": "web:154", "notes": "ADCYs as key regulators in cAMP pathway related to cancer chemoresistance"},
-        {"url": "web:155", "notes": "ADCY8 SNPs correlated with glioma risk in NF1 patients; cooperating oncogenic role"},
-        {"url": "web:202", "notes": "Potassium channels in glioma proliferation and infiltration"},
-        {"url": "web:207", "notes": "Ion channels essential for glioma growth and invasion"}
+        {"source_id": "web:176", "notes": "CACNA2D1 expression in glioblastoma; α2δ-1+ cells have tumorigenic efficiency"},
+        {"source_id": "web:187", "notes": "Glutamate-mediated calcium signaling pathways promote glioma progression"},
+        {"source_id": "web:153", "notes": "ADCY8 (AC8) overexpression in breast cancer affects calcium entry and migration"},
+        {"source_id": "web:154", "notes": "ADCYs as key regulators in cAMP pathway related to cancer chemoresistance"},
+        {"source_id": "web:155", "notes": "ADCY8 SNPs correlated with glioma risk in NF1 patients; cooperating oncogenic role"},
+        {"source_id": "web:202", "notes": "Potassium channels in glioma proliferation and infiltration"},
+        {"source_id": "web:207", "notes": "Ion channels essential for glioma growth and invasion"}
       ],
       "supporting_genes": ["CACNA2D1", "ADCY8", "KCNJ3"],
       "required_genes_not_in_input": {
         "genes": ["CACNA1C", "CACNA1A", "TRPC6"],
         "citations": [
-          {"url": "web:187", "notes": "Multiple calcium channel alpha subunits coordinate calcium signaling in glioma"}
+          {"source_id": "web:187", "notes": "Multiple calcium channel alpha subunits coordinate calcium signaling in glioma"}
         ]
       }
     },
@@ -612,29 +612,29 @@
       "atomic_biological_processes": [
         {
           "name": "axonemal dynein complex assembly",
-          "citation": [{"url": "web:9"}],
+          "citation": [{"source_id": "web:9"}],
           "genes": ["DNAH12", "DNAH5", "DRC1", "DNAAF1"]
         },
         {
           "name": "radial spoke assembly",
-          "citation": [{"url": "web:9"}],
+          "citation": [{"source_id": "web:9"}],
           "genes": ["RSPH1", "LRRIQ1"]
         },
         {
           "name": "ciliary membrane organization",
-          "citation": [{"url": "web:4"}, {"url": "web:9"}],
+          "citation": [{"source_id": "web:4"}, {"source_id": "web:9"}],
           "genes": ["CFAP43", "CFAP52", "CFAP61", "CFAP73", "CFAP206", "CFAP47", "CFAP221", "CFAP157", "CFAP100"]
         }
       ],
       "atomic_cellular_components": [
         {
           "name": "axonemal dynein complex",
-          "citation": [{"url": "web:9"}],
+          "citation": [{"source_id": "web:9"}],
           "genes": ["DNAH12", "DNAH5", "DRC1"]
         },
         {
           "name": "radial spoke",
-          "citation": [{"url": "web:9"}],
+          "citation": [{"source_id": "web:9"}],
           "genes": ["RSPH1", "LRRIQ1", "CCDC170"]
         }
       ],
@@ -646,18 +646,18 @@
       "evidence_summary": "Multiple genes encoding motile cilia structural proteins (CFAP family members, dynein heavy chains, radial spoke proteins) are coordinately expressed. Primary cilia loss is common in many cancers including glioblastoma and restoring cilia can suppress proliferation. The expression of motile cilia genes may represent an aberrant transcriptional program or cellular dedifferentiation state rather than functional ciliary assembly.",
       "significance_score": 0.65,
       "citations": [
-        {"url": "web:4", "notes": "CFAP43 causes ciliary abnormalities and is preferentially expressed in tissues with motile cilia"},
-        {"url": "web:9", "notes": "3D structure of flagella/cilia showing organization of dynein arms and radial spokes"},
-        {"url": "web:17", "notes": "Primary cilium role in cancer signaling and progression"},
-        {"url": "web:18", "notes": "Loss of primary cilium in cancer cells; restoration can attenuate tumor growth"},
-        {"url": "web:20", "notes": "Primary cilium as mediator of GBM tumorigenesis and progression"},
-        {"url": "web:22", "notes": "Cilia-associated proteins in cancer including role in renal cell carcinoma and medulloblastoma"}
+        {"source_id": "web:4", "notes": "CFAP43 causes ciliary abnormalities and is preferentially expressed in tissues with motile cilia"},
+        {"source_id": "web:9", "notes": "3D structure of flagella/cilia showing organization of dynein arms and radial spokes"},
+        {"source_id": "web:17", "notes": "Primary cilium role in cancer signaling and progression"},
+        {"source_id": "web:18", "notes": "Loss of primary cilium in cancer cells; restoration can attenuate tumor growth"},
+        {"source_id": "web:20", "notes": "Primary cilium as mediator of GBM tumorigenesis and progression"},
+        {"source_id": "web:22", "notes": "Cilia-associated proteins in cancer including role in renal cell carcinoma and medulloblastoma"}
       ],
       "supporting_genes": ["CFAP43", "CFAP52", "CFAP61", "CFAP73", "CFAP206", "CFAP47", "CFAP221", "CFAP157", "CFAP100", "DNAH12", "DNAH5", "DRC1", "DNAAF1", "RSPH1", "LRRIQ1", "TTC29", "CCDC170"],
       "required_genes_not_in_input": {
         "genes": ["IFT88", "KIF3A", "TUBA1A"],
         "citations": [
-          {"url": "web:17", "notes": "Intraflagellar transport proteins required for ciliogenesis"}
+          {"source_id": "web:17", "notes": "Intraflagellar transport proteins required for ciliogenesis"}
         ]
       }
     },
@@ -667,19 +667,19 @@
       "atomic_biological_processes": [
         {
           "name": "microtubule cytoskeleton organization",
-          "citation": [{"url": "web:324"}, {"url": "web:326"}],
+          "citation": [{"source_id": "web:324"}, {"source_id": "web:326"}],
           "genes": ["MAP7"]
         },
         {
           "name": "regulation of kinesin-microtubule interaction",
-          "citation": [{"url": "web:315"}, {"url": "web:324"}],
+          "citation": [{"source_id": "web:315"}, {"source_id": "web:324"}],
           "genes": ["MAP7"]
         }
       ],
       "atomic_cellular_components": [
         {
           "name": "microtubule",
-          "citation": [{"url": "web:323"}, {"url": "web:324"}],
+          "citation": [{"source_id": "web:323"}, {"source_id": "web:324"}],
           "genes": ["MAP7"]
         }
       ],
@@ -691,18 +691,18 @@
       "evidence_summary": "MAP7 regulates microtubule organization and recruits kinesin-1 for cargo transport. MAP7 is upregulated in cervical cancer and correlates with worse prognosis and enhanced cell migration. In glioma, microtubule dynamics are essential for cell proliferation, migration, and invasion. Microtubule plus-end-related genes have been identified as prognostic biomarkers in glioma.",
       "significance_score": 0.61,
       "citations": [
-        {"url": "web:315", "notes": "MAP7 regulation of kinesin-1 by biphasic mechanism"},
-        {"url": "web:317", "notes": "MAP7 upregulation in cervical cancer promotes migration and predicts poor prognosis"},
-        {"url": "web:318", "notes": "Microtubule-associated protein 2 in PKA-induced decrease in glioma invasiveness"},
-        {"url": "web:324", "notes": "MAP7 recruits kinesin-1 to microtubules for organelle transport"},
-        {"url": "web:326", "notes": "MAP7 prevents axonal branch retraction by creating stable microtubule boundary"},
-        {"url": "web:328", "notes": "Microtubule plus-end genes as glioma biomarkers in tumor microenvironment"}
+        {"source_id": "web:315", "notes": "MAP7 regulation of kinesin-1 by biphasic mechanism"},
+        {"source_id": "web:317", "notes": "MAP7 upregulation in cervical cancer promotes migration and predicts poor prognosis"},
+        {"source_id": "web:318", "notes": "Microtubule-associated protein 2 in PKA-induced decrease in glioma invasiveness"},
+        {"source_id": "web:324", "notes": "MAP7 recruits kinesin-1 to microtubules for organelle transport"},
+        {"source_id": "web:326", "notes": "MAP7 prevents axonal branch retraction by creating stable microtubule boundary"},
+        {"source_id": "web:328", "notes": "Microtubule plus-end genes as glioma biomarkers in tumor microenvironment"}
       ],
       "supporting_genes": ["MAP7"],
       "required_genes_not_in_input": {
         "genes": ["TUBA1A", "TUBB3", "KIF5B"],
         "citations": [
-          {"url": "web:324", "notes": "Tubulins and kinesin-1 required for MAP7-mediated transport"}
+          {"source_id": "web:324", "notes": "Tubulins and kinesin-1 required for MAP7-mediated transport"}
         ]
       }
     },
@@ -712,19 +712,19 @@
       "atomic_biological_processes": [
         {
           "name": "ErbB signaling pathway",
-          "citation": [{"url": "web:35"}, {"url": "web:161"}],
+          "citation": [{"source_id": "web:35"}, {"source_id": "web:161"}],
           "genes": ["NRG3"]
         },
         {
           "name": "regulation of cell proliferation",
-          "citation": [{"url": "web:38"}, {"url": "web:164"}],
+          "citation": [{"source_id": "web:38"}, {"source_id": "web:164"}],
           "genes": ["NRG3"]
         }
       ],
       "atomic_cellular_components": [
         {
           "name": "extracellular space",
-          "citation": [{"url": "web:35"}],
+          "citation": [{"source_id": "web:35"}],
           "genes": ["NRG3"]
         }
       ],
@@ -736,18 +736,18 @@
       "evidence_summary": "Neuregulin family members including NRG1 and NRG2 are expressed in glioma and promote migration of glioma cells. NRG1 enhances cell adhesion molecule expression and promotes malignancy in glioma through ErbB receptor activation. While NRG3 is primarily studied in neural development and psychiatric disorders, its expression pattern overlaps with brain tissues where gliomas arise, and the neuregulin-ErbB signaling axis is an established pathway in glioma pathogenesis.",
       "significance_score": 0.58,
       "citations": [
-        {"url": "web:35", "notes": "Neuregulin family analysis in gliomas; NRG signaling in tumor microenvironment"},
-        {"url": "web:36", "notes": "NRG1 enhances CHL1 expression and promotes malignancy in human glioma"},
-        {"url": "web:38", "notes": "Neuregulin family proteins in glioma prognosis; modulation of NRG signaling"},
-        {"url": "web:161", "notes": "NRG1 promotes malignancy in human glioma cells"},
-        {"url": "web:164", "notes": "NRG2 expressed in gliomas promotes glioma cell migration"}
+        {"source_id": "web:35", "notes": "Neuregulin family analysis in gliomas; NRG signaling in tumor microenvironment"},
+        {"source_id": "web:36", "notes": "NRG1 enhances CHL1 expression and promotes malignancy in human glioma"},
+        {"source_id": "web:38", "notes": "Neuregulin family proteins in glioma prognosis; modulation of NRG signaling"},
+        {"source_id": "web:161", "notes": "NRG1 promotes malignancy in human glioma cells"},
+        {"source_id": "web:164", "notes": "NRG2 expressed in gliomas promotes glioma cell migration"}
       ],
       "supporting_genes": ["NRG3"],
       "required_genes_not_in_input": {
         "genes": ["ERBB2", "ERBB3", "ERBB4", "NRG1"],
         "citations": [
-          {"url": "web:35", "notes": "ErbB receptors required for neuregulin signaling in glioma"},
-          {"url": "web:173", "notes": "ErbB3 nuclear variant in glioblastoma cells with neuregulin-dependent expression"}
+          {"source_id": "web:35", "notes": "ErbB receptors required for neuregulin signaling in glioma"},
+          {"source_id": "web:173", "notes": "ErbB3 nuclear variant in glioblastoma cells with neuregulin-dependent expression"}
         ]
       }
     }
