@@ -1,0 +1,32 @@
+[
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": "",
+    "tissue_context": "nephron; cortex; outer medulla; inner medulla; papillary tip; interstitium"
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": "",
+    "tissue_context": "nephron; cortex; outer medulla; inner medulla; papillary tip; interstitium"
+  },
+  {
+    "name": "stroma cells",
+    "full_name": "stromal cells",
+    "paper_synonyms": "STR; stroma",
+    "tissue_context": "stroma; interstitium; cortex; medulla"
+  },
+  {
+    "name": "neural cells",
+    "full_name": "neural cells",
+    "paper_synonyms": "NEU; SCI/NEU; Schwann/neuronal",
+    "tissue_context": "human kidney; cortex; medulla"
+  },
+  {
+    "name": "immune cells",
+    "full_name": "immune cells",
+    "paper_synonyms": "IMM; leukocytes",
+    "tissue_context": "cortex; medulla; interstitium"
+  }
+]

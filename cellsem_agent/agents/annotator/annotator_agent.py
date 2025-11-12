@@ -1,6 +1,7 @@
 """
 Ontology based Annotator Agent.
 """
+
 import logging
 from typing import List, Optional
 
@@ -134,8 +135,8 @@ class TextAnnotationResult(BaseModel):
 
 
 annotator_agent = Agent(
-    # model="openai:gpt-5",
-    model="openai:gpt-4.1",
+    model="openai:gpt-5",
+    # model="openai:gpt-4.1",
     # model="openai:gpt-4o",
     # model="openai:gpt-4o-2024-11-20",
     deps_type=AnnotatorDependencies,

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "L5-L6 Near Projecting",
+    "full_name": "L5-L6 near projecting neuronal cluster",
+    "paper_synonyms": null,
+    "tissue_context": "frontal cortex"
+  },
+  {
+    "name": "Somatostatin Interneurons",
+    "full_name": "somatostatin interneurons",
+    "paper_synonyms": null,
+    "tissue_context": "frontal cortex"
+  },
+  {
+    "name": "Microglia",
+    "full_name": "microglia",
+    "paper_synonyms": null,
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "VIP Interneurons",
+    "full_name": "VIP interneurons",
+    "paper_synonyms": null,
+    "tissue_context": "frontal cortex"
+  },
+  {
+    "name": "L5 Extratelencephalic",
+    "full_name": "L5 extratelencephalic neurons",
+    "paper_synonyms": null,
+    "tissue_context": "frontal cortex"
+  }
+]

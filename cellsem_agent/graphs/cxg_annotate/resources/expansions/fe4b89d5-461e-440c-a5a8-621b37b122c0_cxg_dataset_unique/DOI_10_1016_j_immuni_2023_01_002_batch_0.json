@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Stem cells OLFM4 PCNA",
+    "full_name": "Stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum; colon"
+  },
+  {
+    "name": "Enterocytes TMIGD1 MEP1A",
+    "full_name": "Enterocytes TMIGD1+ MEP1A+",
+    "paper_synonyms": null,
+    "tissue_context": "colon"
+  },
+  {
+    "name": "Stem cells OLFM4",
+    "full_name": "Stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum; colon"
+  },
+  {
+    "name": "Goblet cells MUC2 TFF1-",
+    "full_name": "Goblet cells",
+    "paper_synonyms": "Goblets",
+    "tissue_context": "terminal ileum; colon"
+  },
+  {
+    "name": "Stem cells OLFM4 GSTA1",
+    "full_name": "Stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum; colon"
+  }
+]

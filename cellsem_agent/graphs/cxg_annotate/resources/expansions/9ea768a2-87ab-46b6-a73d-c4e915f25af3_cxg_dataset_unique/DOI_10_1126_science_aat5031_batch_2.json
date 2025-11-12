@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Type A intercalated cell",
+    "full_name": "type A intercalated cell",
+    "paper_synonyms": "intercalated cells (IC); IC (A+B); IC",
+    "tissue_context": "collecting duct"
+  },
+  {
+    "name": "Peritubular capillary endothelium 1",
+    "full_name": "peritubular capillary endothelium",
+    "paper_synonyms": "peritubular capillaries (PCap); PCE",
+    "tissue_context": "peritubular capillaries (PCap)"
+  },
+  {
+    "name": "Pelvic epithelium",
+    "full_name": "pelvic epithelium",
+    "paper_synonyms": "PE",
+    "tissue_context": "kidney pelvis; medulla/pelvis"
+  },
+  {
+    "name": "Glomerular endothelium",
+    "full_name": "glomerular endothelium",
+    "paper_synonyms": "GE; glomerular endothelial cells (GE)",
+    "tissue_context": "glomeruli; cortex; cortical/cortico-medullary"
+  },
+  {
+    "name": "Indistinct intercalated cell",
+    "full_name": "intercalated cell",
+    "paper_synonyms": "intercalated cells (IC); IC",
+    "tissue_context": "collecting duct"
+  }
+]

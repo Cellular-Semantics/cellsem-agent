@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Fibroblasts ADAMDEC1",
+    "full_name": "ADAMDEC1+ fibroblasts",
+    "paper_synonyms": "ADAMDEC+ Fibroblast clusters",
+    "tissue_context": "terminal ileum; colon; lamina propria"
+  },
+  {
+    "name": "Endothelial cells CD36",
+    "full_name": "CD36+ endothelial cells",
+    "paper_synonyms": "",
+    "tissue_context": "terminal ileum; colon; lamina propria"
+  },
+  {
+    "name": "Myofibroblasts HHIP NPNT",
+    "full_name": "HHIP+ NPNT+ myofibroblasts",
+    "paper_synonyms": "Myofibroblasts HHIP+ NPNT+",
+    "tissue_context": "terminal ileum; colon; lamina propria"
+  },
+  {
+    "name": "Fibroblasts SMOC2 PTGIS",
+    "full_name": "SMOC2+ PTGIS+ fibroblasts",
+    "paper_synonyms": "SMOC2+ PTGIS+ Fibroblast clusters",
+    "tissue_context": "terminal ileum; colon; lamina propria"
+  },
+  {
+    "name": "Endothelial cells DARC",
+    "full_name": "DARC/ACKR1+ endothelial cells",
+    "paper_synonyms": "ACKR1; DARC/ACKR1",
+    "tissue_context": "terminal ileum; colon; lamina propria"
+  }
+]

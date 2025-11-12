@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Uveal_Melanocyte",
+    "full_name": "uveal melanocyte",
+    "paper_synonyms": null,
+    "tissue_context": "ciliary muscle; anterior border layer and stroma of the iris; ciliary stroma"
+  },
+  {
+    "name": "Ciliary_Muscle",
+    "full_name": "ciliary muscle cells",
+    "paper_synonyms": "CM",
+    "tissue_context": "ciliary muscle; ciliary body (CB)"
+  },
+  {
+    "name": "CC_VenEndo",
+    "full_name": "Collector Channel/Venous Endothelium",
+    "paper_synonyms": null,
+    "tissue_context": "collector channels; aqueous veins; scleral venous plexuses; corneoscleral wedge (CSW)"
+  },
+  {
+    "name": "Lymphocyte",
+    "full_name": "lymphocyte",
+    "paper_synonyms": null,
+    "tissue_context": "central cornea; iris stroma; ciliary body (CB); corneoscleral wedge (CSW)"
+  },
+  {
+    "name": "K_Endo",
+    "full_name": "corneal endothelium",
+    "paper_synonyms": "corneal endothelial cells",
+    "tissue_context": "central cornea; corneal endothelium"
+  }
+]

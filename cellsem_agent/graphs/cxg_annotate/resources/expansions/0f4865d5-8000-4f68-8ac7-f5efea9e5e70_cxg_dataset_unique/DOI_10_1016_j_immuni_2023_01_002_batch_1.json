@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Fibroblasts NPY SLITRK6",
+    "full_name": "Fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum; colon; lamina propria"
+  },
+  {
+    "name": "Myofibroblasts GREM1 GREM2",
+    "full_name": "GREM1+ GREM2+ myofibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum; colon"
+  },
+  {
+    "name": "Endothelial cells CA4 CD36",
+    "full_name": "Endothelial cells CA4+ CD36+",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum"
+  },
+  {
+    "name": "Glial cells",
+    "full_name": "Glial cells",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum; colon"
+  },
+  {
+    "name": "Fibroblasts SFRP2 SLPI",
+    "full_name": "Fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum; colon; lamina propria"
+  }
+]

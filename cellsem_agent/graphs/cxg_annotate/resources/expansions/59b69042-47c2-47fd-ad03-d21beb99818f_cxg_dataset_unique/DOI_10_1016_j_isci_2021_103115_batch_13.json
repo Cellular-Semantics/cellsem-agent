@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Lymphoid_T/NK",
+    "full_name": "Lymphoid T and NK cells",
+    "paper_synonyms": "T cell; NK cell",
+    "tissue_context": "peripheral blood mononuclear cell (PBMC); bronchoalveolar lavage (BAL)"
+  },
+  {
+    "name": "Lymphoid_T/NK",
+    "full_name": "Lymphoid T and NK cells",
+    "paper_synonyms": "T cell; NK cell",
+    "tissue_context": "peripheral blood mononuclear cell (PBMC); bronchoalveolar lavage (BAL)"
+  },
+  {
+    "name": "Myeloid_G",
+    "full_name": "myeloid cells",
+    "paper_synonyms": "",
+    "tissue_context": "peripheral blood mononuclear cell (PBMC); bronchoalveolar lavage (BAL); lung parenchyma"
+  },
+  {
+    "name": "Myeloid_G",
+    "full_name": "myeloid cells",
+    "paper_synonyms": "",
+    "tissue_context": "peripheral blood mononuclear cell (PBMC); bronchoalveolar lavage (BAL); lung parenchyma"
+  }
+]

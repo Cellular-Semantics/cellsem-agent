@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Degenerative Medullary Thick Ascending Limb Cell",
+    "full_name": "degenerative medullary thick ascending limb cell",
+    "paper_synonyms": "TAL; M-TAL",
+    "tissue_context": "inner medulla; outer medullary stripe"
+  },
+  {
+    "name": "Ascending Vasa Recta Endothelial Cell",
+    "full_name": "ascending vasa recta endothelial cell",
+    "paper_synonyms": "EC-AVR",
+    "tissue_context": "vascular bundles in the medulla"
+  },
+  {
+    "name": "M2 Macrophage",
+    "full_name": "M2 macrophage",
+    "paper_synonyms": "MAC-M2",
+    "tissue_context": "region of fibrosis within the cortex; co-localized around vessels"
+  },
+  {
+    "name": "Cycling Proximal Tubule Epithelial Cell",
+    "full_name": "cycling proximal tubule epithelial cell",
+    "paper_synonyms": "PT",
+    "tissue_context": "cortical epithelium (N7 and N8)"
+  },
+  {
+    "name": "Outer Medullary Collecting Duct Intercalated Cell Type A",
+    "full_name": "outer medullary collecting duct intercalated cell",
+    "paper_synonyms": "OMCD; IC",
+    "tissue_context": "outer medulla; collecting duct"
+  }
+]

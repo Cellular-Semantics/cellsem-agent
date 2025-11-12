@@ -1,0 +1,32 @@
+[
+  {
+    "name": "PTVCAM1",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "kidney"
+  },
+  {
+    "name": "PODO",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "kidney"
+  },
+  {
+    "name": "PC",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "kidney"
+  },
+  {
+    "name": "MES",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "kidney"
+  },
+  {
+    "name": "FIB",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "kidney"
+  }
+]

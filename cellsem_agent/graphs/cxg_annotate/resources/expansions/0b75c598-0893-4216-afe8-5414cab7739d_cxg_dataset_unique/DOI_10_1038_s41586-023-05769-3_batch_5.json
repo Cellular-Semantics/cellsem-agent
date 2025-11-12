@@ -1,0 +1,32 @@
+[
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "nephron; renal tubules; cortex; medulla; corticomedullary axis"
+  },
+  {
+    "name": "Degenerative Proximal Tubule Epithelial Cell",
+    "full_name": "degenerative proximal tubule (PT) epithelial cell",
+    "paper_synonyms": "PT; degen",
+    "tissue_context": "cortex; proximal tubule (PT)"
+  },
+  {
+    "name": "Adaptive / Maladaptive / Repairing Proximal Tubule Epithelial Cell",
+    "full_name": "adaptive proximal tubule (aPT) epithelial cell (successful or maladaptive tubular repair)",
+    "paper_synonyms": "aPT; aEpi; Ad/Mal; PT",
+    "tissue_context": "cortex; proximal tubule (PT); tubules"
+  },
+  {
+    "name": "Medullary Fibroblast",
+    "full_name": "medullary fibroblast",
+    "paper_synonyms": "FIB",
+    "tissue_context": "medulla; interstitium; stroma"
+  },
+  {
+    "name": "Macula Densa Cell",
+    "full_name": "macula densa cell",
+    "paper_synonyms": "MD",
+    "tissue_context": "juxtaglomerular apparatus; renal corpuscle; cortex"
+  }
+]

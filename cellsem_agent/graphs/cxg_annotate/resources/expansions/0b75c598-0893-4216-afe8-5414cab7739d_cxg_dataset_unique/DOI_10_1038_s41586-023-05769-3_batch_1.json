@@ -1,0 +1,32 @@
+[
+  {
+    "name": "endothelial cells",
+    "full_name": "endothelial cells",
+    "paper_synonyms": "EC; endothelium",
+    "tissue_context": "renal corpuscle; glomerular capillaries (EC-GC); afferent/efferent arterioles (EC-AEA); lymphatics (EC-LYM); vasa recta (EC-AVR, EC-DVR)"
+  },
+  {
+    "name": "immune cells",
+    "full_name": "immune cells",
+    "paper_synonyms": "leukocytes",
+    "tissue_context": "cortex; medulla; interstitium; interstitial fibrosis; areas of tissue damage; around vessels"
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": "epithelium; tubular epithelium",
+    "tissue_context": "nephron segments; renal tubules; cortex; medulla"
+  },
+  {
+    "name": "immune cells",
+    "full_name": "immune cells",
+    "paper_synonyms": "leukocytes",
+    "tissue_context": "cortex; medulla; interstitium; interstitial fibrosis; areas of tissue damage; around vessels"
+  },
+  {
+    "name": "epithelial cells",
+    "full_name": "epithelial cells",
+    "paper_synonyms": "epithelium; tubular epithelium",
+    "tissue_context": "nephron segments; renal tubules; cortex; medulla"
+  }
+]

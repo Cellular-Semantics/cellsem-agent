@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Adaptive / Maladaptive / Repairing Thick Ascending Limb Cell",
+    "full_name": "adaptive (successful or maladaptive repair) thick ascending limb cell (aTAL)",
+    "paper_synonyms": "aTAL; adaptive epithelial (aEpi); Ad/Mal",
+    "tissue_context": "cortex; medulla; cortical thick ascending limb (C-TAL); medullary thick ascending limb (M-TAL)"
+  },
+  {
+    "name": "Afferent / Efferent Arteriole Endothelial Cell",
+    "full_name": "endothelial cell of the afferent/efferent arterioles (EC-AEA)",
+    "paper_synonyms": "EC-AEA",
+    "tissue_context": "afferent/efferent arterioles; renal corpuscle; cortex; macula densa (MD)"
+  },
+  {
+    "name": "Descending Thin Limb Cell Type 2",
+    "full_name": "descending thin limb cell type 2 (DTL2)",
+    "paper_synonyms": "DTL2",
+    "tissue_context": "medulla"
+  },
+  {
+    "name": "Neutrophil",
+    "full_name": "neutrophil",
+    "paper_synonyms": "N",
+    "tissue_context": "cortex; medulla; areas of injury"
+  },
+  {
+    "name": "Podocyte",
+    "full_name": "podocyte (POD)",
+    "paper_synonyms": "POD; PODs",
+    "tissue_context": "renal corpuscle; glomerulus; cortex"
+  }
+]

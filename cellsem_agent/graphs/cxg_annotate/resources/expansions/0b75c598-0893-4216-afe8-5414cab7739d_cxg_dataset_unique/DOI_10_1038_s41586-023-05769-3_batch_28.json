@@ -1,0 +1,32 @@
+[
+  {
+    "name": "M-IC-A",
+    "full_name": "medullary intercalated cell",
+    "paper_synonyms": null,
+    "tissue_context": "medulla"
+  },
+  {
+    "name": "aTAL1",
+    "full_name": "adaptive thick ascending limb 1",
+    "paper_synonyms": "aTAL",
+    "tissue_context": "cortex; corticomedullary sections"
+  },
+  {
+    "name": "EC-AEA",
+    "full_name": "endothelial cells of the afferent/efferent arterioles",
+    "paper_synonyms": null,
+    "tissue_context": "afferent/efferent arterioles; renal corpuscle; cortex"
+  },
+  {
+    "name": "DTL2",
+    "full_name": "descending thin limb cell type 2",
+    "paper_synonyms": null,
+    "tissue_context": "medulla"
+  },
+  {
+    "name": "N",
+    "full_name": "neutrophils",
+    "paper_synonyms": "MPO+ cells",
+    "tissue_context": "cortex; medulla"
+  }
+]

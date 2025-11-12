@@ -1,0 +1,32 @@
+[
+  {
+    "name": "K_Epi-Basal",
+    "full_name": "corneal basal epithelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "central cornea; corneal epithelium"
+  },
+  {
+    "name": "K_Epi-Wing",
+    "full_name": "corneal epithelium wing cells",
+    "paper_synonyms": "polygonal suprabasal cells",
+    "tissue_context": "central cornea; corneal epithelium"
+  },
+  {
+    "name": "K_Fibro",
+    "full_name": "corneal fibroblasts",
+    "paper_synonyms": "stromal keratocytes; corneal stromal keratocytes",
+    "tissue_context": "central cornea; corneal stroma"
+  },
+  {
+    "name": "K_Epi-Superficial",
+    "full_name": "corneal epithelium superficial cells",
+    "paper_synonyms": "superficial-most squamous epithelial cells",
+    "tissue_context": "central cornea; Corneal superficial epithelium"
+  },
+  {
+    "name": "K_Endo",
+    "full_name": "corneal endothelium",
+    "paper_synonyms": "corneal endothelial cells",
+    "tissue_context": "central cornea; corneal endothelium"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "MNP-d/Tissue macrophage",
+    "full_name": "mononuclear phagocyte d/Tissue macrophage",
+    "paper_synonyms": "MNPd",
+    "tissue_context": "mature human kidney; cortex; medulla/pelvis"
+  },
+  {
+    "name": "Fibroblast",
+    "full_name": "fibroblast",
+    "paper_synonyms": "Fib",
+    "tissue_context": "human kidney; stroma"
+  },
+  {
+    "name": "Distinct proximal tubule 1",
+    "full_name": "distinct proximal tubule 1",
+    "paper_synonyms": "dPT",
+    "tissue_context": "mature human kidney; cortical/cortico-medullary"
+  },
+  {
+    "name": "MNP-b/non-classical monocyte derived",
+    "full_name": "mononuclear phagocyte b/non-classical monocyte derived",
+    "paper_synonyms": "MNPb",
+    "tissue_context": "mature human kidney; deeper regions of the kidney; medulla/pelvis"
+  },
+  {
+    "name": "Distinct proximal tubule 2",
+    "full_name": "distinct proximal tubule 2",
+    "paper_synonyms": "dPT",
+    "tissue_context": "mature human kidney; cortical/cortico-medullary"
+  }
+]

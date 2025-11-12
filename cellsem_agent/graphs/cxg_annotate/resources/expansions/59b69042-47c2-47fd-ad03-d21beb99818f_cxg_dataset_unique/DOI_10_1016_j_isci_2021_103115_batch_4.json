@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CD8+ T naive",
+    "full_name": "CD8+ Naive T cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs); bronchoalveolar lavage (BAL)"
+  },
+  {
+    "name": "CD8+ T activated",
+    "full_name": "Activated CD8+ T cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs); bronchoalveolar lavage (BAL)"
+  },
+  {
+    "name": "NK activated",
+    "full_name": "Activated NK cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs); bronchoalveolar lavage (BAL)"
+  },
+  {
+    "name": "MAIT",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "Neutrophil",
+    "full_name": "Neutrophil",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs); bronchoalveolar lavage (BAL)"
+  }
+]

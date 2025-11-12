@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Plasmablast",
+    "full_name": "plasmablast",
+    "paper_synonyms": "",
+    "tissue_context": "peripheral blood mononuclear cell (PBMC); bronchoalveolar lavage (BAL)"
+  },
+  {
+    "name": "NK",
+    "full_name": "NK cell",
+    "paper_synonyms": "",
+    "tissue_context": "peripheral blood mononuclear cell (PBMC); bronchoalveolar lavage (BAL)"
+  },
+  {
+    "name": "B memory",
+    "full_name": "memory B cell",
+    "paper_synonyms": "",
+    "tissue_context": "peripheral blood mononuclear cell (PBMC)"
+  },
+  {
+    "name": "B naive",
+    "full_name": "naive B cell",
+    "paper_synonyms": "",
+    "tissue_context": "peripheral blood mononuclear cell (PBMC)"
+  },
+  {
+    "name": "cDC",
+    "full_name": "conventional dendritic cell",
+    "paper_synonyms": "",
+    "tissue_context": "peripheral blood mononuclear cell (PBMC); bronchoalveolar lavage (BAL)"
+  }
+]

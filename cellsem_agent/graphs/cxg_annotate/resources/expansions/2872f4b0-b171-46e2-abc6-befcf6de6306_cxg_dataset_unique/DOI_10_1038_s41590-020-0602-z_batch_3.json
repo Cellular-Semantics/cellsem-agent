@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Th17",
+    "full_name": "T helper 17 cell",
+    "paper_synonyms": "TH17; T helper (TH) 17 cells",
+    "tissue_context": "mesenteric lymph nodes (mLN); lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "cDC2",
+    "full_name": "conventional dendritic cell 2",
+    "paper_synonyms": null,
+    "tissue_context": "mesenteric lymph nodes (mLN); lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "cycling gd T",
+    "full_name": "cycling gammadelta T cell",
+    "paper_synonyms": "gammadelta T cells",
+    "tissue_context": "mesenteric lymph nodes (mLN); lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "Monocyte",
+    "full_name": "monocyte",
+    "paper_synonyms": null,
+    "tissue_context": "mesenteric lymph nodes (mLN); lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "cDC1",
+    "full_name": "conventional dendritic cell 1",
+    "paper_synonyms": null,
+    "tissue_context": "mesenteric lymph nodes (mLN); lamina propria of cecum, transverse colon and sigmoid colon"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "cone",
+    "full_name": "cone photoreceptor cell",
+    "paper_synonyms": "",
+    "tissue_context": "human neural retina; central retina; foveal"
+  },
+  {
+    "name": "RGC",
+    "full_name": "",
+    "paper_synonyms": "",
+    "tissue_context": "human neural retina; central retina"
+  },
+  {
+    "name": "Muller",
+    "full_name": "",
+    "paper_synonyms": "",
+    "tissue_context": "human neural retina; central retina"
+  },
+  {
+    "name": "cone-on-BC",
+    "full_name": "cone photoreceptor cell",
+    "paper_synonyms": "",
+    "tissue_context": "human neural retina; central retina"
+  },
+  {
+    "name": "cone-off-BC",
+    "full_name": "cone photoreceptor cell",
+    "paper_synonyms": "",
+    "tissue_context": "human neural retina; central retina"
+  }
+]

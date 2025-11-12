@@ -1,0 +1,32 @@
+[
+  {
+    "name": "POD",
+    "full_name": "podocytes",
+    "paper_synonyms": "PODs",
+    "tissue_context": "renal corpuscle"
+  },
+  {
+    "name": "ATL",
+    "full_name": "ascending thin limbs",
+    "paper_synonyms": "",
+    "tissue_context": "inner medulla"
+  },
+  {
+    "name": "IMM",
+    "full_name": "immune",
+    "paper_synonyms": "immune cells",
+    "tissue_context": "cortex; medulla"
+  },
+  {
+    "name": "PC",
+    "full_name": "principal cells",
+    "paper_synonyms": "",
+    "tissue_context": "collecting duct; medulla"
+  },
+  {
+    "name": "IMM",
+    "full_name": "immune",
+    "paper_synonyms": "immune cells",
+    "tissue_context": "cortex; medulla"
+  }
+]

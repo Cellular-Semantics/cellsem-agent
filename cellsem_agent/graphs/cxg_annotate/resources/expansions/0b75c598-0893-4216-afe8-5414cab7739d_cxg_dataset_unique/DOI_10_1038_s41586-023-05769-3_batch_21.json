@@ -1,0 +1,32 @@
+[
+  {
+    "name": "IC",
+    "full_name": "intercalated cells",
+    "paper_synonyms": null,
+    "tissue_context": "connecting tubules (CNT-IC and CNT-PC)"
+  },
+  {
+    "name": "EC",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "glomerular capillaries (EC-GC); afferent/efferent arterioles (EC-AEA); lymphatics (EC-LYM); vasa recta (EC-AVR, EC-DVR)"
+  },
+  {
+    "name": "IMM",
+    "full_name": "immune cells",
+    "paper_synonyms": null,
+    "tissue_context": "cortex; medulla; interstitium"
+  },
+  {
+    "name": "DTL",
+    "full_name": "descending thin limb",
+    "paper_synonyms": null,
+    "tissue_context": "medulla"
+  },
+  {
+    "name": "IMM",
+    "full_name": "immune cells",
+    "paper_synonyms": null,
+    "tissue_context": "cortex; medulla; interstitium"
+  }
+]

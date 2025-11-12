@@ -1,0 +1,32 @@
+[
+  {
+    "name": "HSPC",
+    "full_name": "Hematopoietic stem and progenitor cells",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs)"
+  },
+  {
+    "name": "CD4+ T naive",
+    "full_name": "CD4+ Naive T cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs)"
+  },
+  {
+    "name": "Platelet",
+    "full_name": "platelet",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs)"
+  },
+  {
+    "name": "CD8+ Tem",
+    "full_name": "CD8+ Effector Memory cell",
+    "paper_synonyms": "CD8+ TEM",
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs)"
+  },
+  {
+    "name": "CD4+ CTL",
+    "full_name": "CD4+ Cytotoxic T cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cells (PBMCs)"
+  }
+]

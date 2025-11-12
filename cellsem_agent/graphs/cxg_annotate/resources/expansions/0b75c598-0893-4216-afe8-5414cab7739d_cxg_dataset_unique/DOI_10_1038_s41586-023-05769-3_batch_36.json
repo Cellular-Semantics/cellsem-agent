@@ -1,0 +1,32 @@
+[
+  {
+    "name": "aFIB",
+    "full_name": "adaptive fibroblast",
+    "paper_synonyms": null,
+    "tissue_context": "cortex; interstitium; stroma"
+  },
+  {
+    "name": "cycCNT",
+    "full_name": "cycling connecting tubule cell",
+    "paper_synonyms": "CNT",
+    "tissue_context": "connecting tubule; cortex"
+  },
+  {
+    "name": "dIMCD",
+    "full_name": "degenerative inner medullary collecting duct cell",
+    "paper_synonyms": null,
+    "tissue_context": "inner medulla"
+  },
+  {
+    "name": "IMCD",
+    "full_name": "inner medullary collecting duct cell",
+    "paper_synonyms": null,
+    "tissue_context": "inner medulla; collecting duct"
+  },
+  {
+    "name": "dEC",
+    "full_name": "degenerative endothelial cell",
+    "paper_synonyms": "EC",
+    "tissue_context": "vasculature"
+  }
+]

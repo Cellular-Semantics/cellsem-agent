@@ -1,0 +1,32 @@
+[
+  {
+    "name": "B cell IgA Plasma",
+    "full_name": "IgA+ plasma cell",
+    "paper_synonyms": "",
+    "tissue_context": "lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "B cell memory",
+    "full_name": "memory B cell",
+    "paper_synonyms": "",
+    "tissue_context": "mesenteric lymph nodes (mLN); lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "CD8 T",
+    "full_name": "CD8+ T cell",
+    "paper_synonyms": "",
+    "tissue_context": "mesenteric lymph nodes (mLN); lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "gd T",
+    "full_name": "gammadelta T cell",
+    "paper_synonyms": "",
+    "tissue_context": "mesenteric lymph nodes (mLN); lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "Mast",
+    "full_name": "mast cell",
+    "paper_synonyms": "",
+    "tissue_context": "mesenteric lymph nodes (mLN); lamina propria of cecum, transverse colon and sigmoid colon"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Iris_PPE",
+    "full_name": "iris posterior pigmented epithelium",
+    "paper_synonyms": "posterior pigmented epithelium; PPE",
+    "tissue_context": "iris; posterior pigmented epithelium; posterior chamber"
+  },
+  {
+    "name": "Uveal_Melanocyte",
+    "full_name": "uveal melanocyte",
+    "paper_synonyms": "",
+    "tissue_context": "anterior border layer and stroma of the iris; ciliary muscle"
+  },
+  {
+    "name": "Iris_Fibro",
+    "full_name": "iris stromal fibroblast",
+    "paper_synonyms": "iris fibroblasts",
+    "tissue_context": "stroma and anterior border layer of the iris"
+  },
+  {
+    "name": "Iris_APE",
+    "full_name": "iris anterior pigmented epithelium",
+    "paper_synonyms": "anterior pigmented epithelium; APE; iris dilator muscle",
+    "tissue_context": "iris; iris dilator muscle; anterior pigmented epithelium"
+  },
+  {
+    "name": "Macrophage",
+    "full_name": "macrophage",
+    "paper_synonyms": "clump cells",
+    "tissue_context": "central cornea; limbus; iris stroma; ciliary stroma"
+  }
+]

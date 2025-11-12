@@ -1,0 +1,32 @@
+[
+  {
+    "name": "DTL1",
+    "full_name": "descending thin limb 1",
+    "paper_synonyms": "DTL; descending thin limb",
+    "tissue_context": "medulla"
+  },
+  {
+    "name": "MDC",
+    "full_name": "monocyte-derived cells",
+    "paper_synonyms": "MDCs",
+    "tissue_context": "cortex"
+  },
+  {
+    "name": "C-PC",
+    "full_name": "cortical principal cell",
+    "paper_synonyms": "PC; principal cells",
+    "tissue_context": "cortex"
+  },
+  {
+    "name": "EC-PTC",
+    "full_name": "endothelial cell PTC",
+    "paper_synonyms": "EC; endothelial cells",
+    "tissue_context": ""
+  },
+  {
+    "name": "PT-S1/2",
+    "full_name": "proximal tubule S1/2",
+    "paper_synonyms": "PT; proximal tubule",
+    "tissue_context": "cortex"
+  }
+]

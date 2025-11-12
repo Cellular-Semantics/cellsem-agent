@@ -1,0 +1,32 @@
+[
+  {
+    "name": "IMM",
+    "full_name": "immune cells",
+    "paper_synonyms": "leukocytes; immune cells",
+    "tissue_context": "cortex; medulla; interstitium"
+  },
+  {
+    "name": "PapE",
+    "full_name": "papillary tip epithelial cells abutting the calyx",
+    "paper_synonyms": "",
+    "tissue_context": "papillary tip; calyx"
+  },
+  {
+    "name": "dPT",
+    "full_name": "degenerative proximal tubule",
+    "paper_synonyms": "",
+    "tissue_context": "proximal tubule (PT)"
+  },
+  {
+    "name": "aPT",
+    "full_name": "adaptive proximal tubule",
+    "paper_synonyms": "",
+    "tissue_context": "proximal tubule (PT); cortex"
+  },
+  {
+    "name": "M-FIB",
+    "full_name": "medullary fibroblast",
+    "paper_synonyms": "",
+    "tissue_context": "medulla; interstitium"
+  }
+]

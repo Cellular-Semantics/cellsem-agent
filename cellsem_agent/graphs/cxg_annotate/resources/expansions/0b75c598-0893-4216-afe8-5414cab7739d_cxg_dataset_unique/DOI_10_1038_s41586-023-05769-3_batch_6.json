@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Natural Killer Cell / Natural Killer T Cell",
+    "full_name": "Natural killer cell / natural killer T cell",
+    "paper_synonyms": "NKT",
+    "tissue_context": "human kidney; cortex; medulla"
+  },
+  {
+    "name": "Transitional Principal-Intercalated Cell",
+    "full_name": "Transitional principal\u2013intercalated cell",
+    "paper_synonyms": "transitioning principal and intercalated cells; PC, principal cells; IC, intercalated cells",
+    "tissue_context": "medullary; collecting duct"
+  },
+  {
+    "name": "Descending Vasa Recta Endothelial Cell",
+    "full_name": "Descending vasa recta endothelial cell",
+    "paper_synonyms": "EC-DVR",
+    "tissue_context": "medulla; vascular bundles in the medulla"
+  },
+  {
+    "name": "Medullary Thick Ascending Limb Cell",
+    "full_name": "Medullary thick ascending limb cell",
+    "paper_synonyms": "M-TAL; thick ascending limb (TAL)",
+    "tissue_context": "inner medulla; outer medulla; outer medullary stripe"
+  },
+  {
+    "name": "Cortical Collecting Duct Intercalated Cell Type A",
+    "full_name": "Cortical collecting duct intercalated cell type A",
+    "paper_synonyms": "CCD; IC; collecting duct (CD)",
+    "tissue_context": "cortex; cortical collecting duct"
+  }
+]

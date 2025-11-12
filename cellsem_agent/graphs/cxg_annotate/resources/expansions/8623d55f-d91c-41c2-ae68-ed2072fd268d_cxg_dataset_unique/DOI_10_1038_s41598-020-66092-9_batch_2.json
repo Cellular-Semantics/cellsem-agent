@@ -1,0 +1,14 @@
+[
+  {
+    "name": "DB6",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "human retina; fovea; peripheral retina"
+  },
+  {
+    "name": "RB1",
+    "full_name": null,
+    "paper_synonyms": "rod bipolar cells; rod BCs",
+    "tissue_context": "human retina; fovea; peripheral retina"
+  }
+]

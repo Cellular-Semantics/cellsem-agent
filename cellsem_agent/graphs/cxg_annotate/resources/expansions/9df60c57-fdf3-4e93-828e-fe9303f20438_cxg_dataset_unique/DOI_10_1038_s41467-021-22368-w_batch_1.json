@@ -1,0 +1,32 @@
+[
+  {
+    "name": "ICA",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "adult human kidney"
+  },
+  {
+    "name": "ICB",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "adult human kidney"
+  },
+  {
+    "name": "PEC",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "adult human kidney"
+  },
+  {
+    "name": "CNT",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "adult human kidney"
+  },
+  {
+    "name": "ENDO",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "adult human kidney"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Degenerative Outer Medullary Collecting Duct Principal Cell",
+    "full_name": "Degenerative Outer Medullary Collecting Duct Principal Cell",
+    "paper_synonyms": "OMCD; PC; degenerative medullary principal cells; dM-PCs",
+    "tissue_context": "outer medulla; medulla; collecting duct"
+  },
+  {
+    "name": "T Cell",
+    "full_name": "T cell",
+    "paper_synonyms": "CD3+ cells; lymphoid (T) cells; T",
+    "tissue_context": "cortex; medulla; areas of tissue damage; fibrosis"
+  },
+  {
+    "name": "Plasma Cell",
+    "full_name": "Plasma cell",
+    "paper_synonyms": "PL",
+    "tissue_context": ""
+  },
+  {
+    "name": "Connecting Tubule Principal Cell",
+    "full_name": "Connecting tubule principal cell",
+    "paper_synonyms": "CNT-PC; CNT; PC",
+    "tissue_context": "connecting tubules (CNT); cortical distal nephrons; cortex"
+  },
+  {
+    "name": "Distal Convoluted Tubule Cell Type 1",
+    "full_name": "Distal convoluted tubule cell type 1",
+    "paper_synonyms": "DCT1",
+    "tissue_context": "distal convoluted tubule"
+  }
+]

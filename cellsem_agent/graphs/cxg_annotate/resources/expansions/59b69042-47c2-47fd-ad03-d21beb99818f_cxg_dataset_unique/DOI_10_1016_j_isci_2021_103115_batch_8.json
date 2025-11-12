@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CD8+ T cell",
+    "full_name": "CD8+ T cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cell (PBMC); bronchoalveolar lavage (BAL)"
+  },
+  {
+    "name": "CD8+ T cell",
+    "full_name": "CD8+ T cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cell (PBMC); bronchoalveolar lavage (BAL)"
+  },
+  {
+    "name": "CD8+ T cell",
+    "full_name": "CD8+ T cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cell (PBMC); bronchoalveolar lavage (BAL)"
+  },
+  {
+    "name": "Neutrophil",
+    "full_name": "Neutrophil",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cell (PBMC); bronchoalveolar lavage (BAL)"
+  },
+  {
+    "name": "Lymphoid_P",
+    "full_name": "lymphoid",
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

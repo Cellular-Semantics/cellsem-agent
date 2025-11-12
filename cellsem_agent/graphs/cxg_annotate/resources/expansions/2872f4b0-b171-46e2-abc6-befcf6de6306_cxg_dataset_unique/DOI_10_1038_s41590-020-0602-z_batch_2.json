@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Tcm",
+    "full_name": "central memory T cells",
+    "paper_synonyms": null,
+    "tissue_context": "mesenteric lymph nodes (mLN)"
+  },
+  {
+    "name": "B cell cycling",
+    "full_name": "MKI67+ cycling B cells",
+    "paper_synonyms": null,
+    "tissue_context": "intestinal lamina propria and mLN"
+  },
+  {
+    "name": "Treg",
+    "full_name": "T regulatory cells",
+    "paper_synonyms": "Treg cells; regulatory T cells",
+    "tissue_context": "mesenteric lymph nodes (mLN); cecum; transverse colon; sigmoid colon"
+  },
+  {
+    "name": "LYVE1 Macrophage",
+    "full_name": "LYVE1+ macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "intestinal lamina propria and mLN"
+  },
+  {
+    "name": "Th1",
+    "full_name": "T helper 1 cells",
+    "paper_synonyms": "TH1 cells",
+    "tissue_context": "cecum; transverse colon; sigmoid colon"
+  }
+]

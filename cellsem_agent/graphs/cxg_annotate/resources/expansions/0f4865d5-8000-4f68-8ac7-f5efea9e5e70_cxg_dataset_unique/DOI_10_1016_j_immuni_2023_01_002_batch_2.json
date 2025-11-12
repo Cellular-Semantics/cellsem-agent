@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Endothelial cells LTC4S SEMA3G",
+    "full_name": "Endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "lamina propria; terminal ileum; colon"
+  },
+  {
+    "name": "Pericytes HIGD1B STEAP4",
+    "full_name": "Pericytes",
+    "paper_synonyms": null,
+    "tissue_context": "lamina propria; terminal ileum; colon"
+  },
+  {
+    "name": "Activated fibroblasts CCL19 ADAMADEC1",
+    "full_name": "Fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "lamina propria; terminal ileum; colon"
+  },
+  {
+    "name": "Lymphatics",
+    "full_name": "Lymphatics",
+    "paper_synonyms": "lymphatic endothelial cells",
+    "tissue_context": "lamina propria; terminal ileum; colon"
+  },
+  {
+    "name": "Fibroblasts KCNN3 LY6H",
+    "full_name": "Fibroblasts",
+    "paper_synonyms": null,
+    "tissue_context": "lamina propria; terminal ileum; colon"
+  }
+]

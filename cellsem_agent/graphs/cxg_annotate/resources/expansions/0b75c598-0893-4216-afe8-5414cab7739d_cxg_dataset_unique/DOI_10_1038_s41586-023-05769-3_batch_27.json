@@ -1,0 +1,32 @@
+[
+  {
+    "name": "C-IC-A",
+    "full_name": "cortical intercalated cell A",
+    "paper_synonyms": "",
+    "tissue_context": "cortex"
+  },
+  {
+    "name": "dM-TAL",
+    "full_name": "degenerative medullary thick ascending limb cell",
+    "paper_synonyms": "",
+    "tissue_context": "medulla; outer medullary stripe"
+  },
+  {
+    "name": "EC-AVR",
+    "full_name": "endothelial cell of the vasa recta",
+    "paper_synonyms": "",
+    "tissue_context": "vasa recta; medulla"
+  },
+  {
+    "name": "MAC-M2",
+    "full_name": "M2 macrophage",
+    "paper_synonyms": "M2 macrophages",
+    "tissue_context": "cortex; vessels"
+  },
+  {
+    "name": "cycPT",
+    "full_name": "cycling proximal tubule cell",
+    "paper_synonyms": "",
+    "tissue_context": "proximal tubule"
+  }
+]

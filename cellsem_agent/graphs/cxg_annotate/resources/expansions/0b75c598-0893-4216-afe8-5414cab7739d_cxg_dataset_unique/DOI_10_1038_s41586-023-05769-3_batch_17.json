@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Adaptive / Maladaptive / Repairing Fibroblast",
+    "full_name": "adaptive fibroblast",
+    "paper_synonyms": "aFIB",
+    "tissue_context": "cortex; interstitium"
+  },
+  {
+    "name": "Parietal Epithelial Cell",
+    "full_name": "parietal epithelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "renal corpuscle"
+  },
+  {
+    "name": "Cycling Connecting Tubule Cell",
+    "full_name": "cycling connecting tubule cell",
+    "paper_synonyms": "CNT; Cyc",
+    "tissue_context": "connecting tubule"
+  },
+  {
+    "name": "Degenerative Inner Medullary Collecting Duct Cell",
+    "full_name": "degenerative inner medullary collecting duct cell",
+    "paper_synonyms": "IMCD; CD",
+    "tissue_context": "inner medulla"
+  },
+  {
+    "name": "Inner Medullary Collecting Duct Cell",
+    "full_name": "inner medullary collecting duct cell",
+    "paper_synonyms": "IMCD",
+    "tissue_context": "inner medulla"
+  }
+]

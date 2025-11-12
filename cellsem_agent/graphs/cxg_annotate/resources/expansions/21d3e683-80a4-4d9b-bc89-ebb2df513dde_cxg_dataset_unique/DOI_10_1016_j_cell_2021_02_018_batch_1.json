@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CD4-positive, alpha-beta memory T cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "CD8-positive, alpha-beta memory T cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "naive CD8+ T cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "naive CD4+ T cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "mucosal invariant T cell (MAIT)",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

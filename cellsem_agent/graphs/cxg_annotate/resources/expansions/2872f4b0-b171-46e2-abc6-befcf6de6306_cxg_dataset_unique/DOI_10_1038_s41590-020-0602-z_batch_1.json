@@ -1,0 +1,32 @@
+[
+  {
+    "name": "ILC",
+    "full_name": "innate lymphoid cells",
+    "paper_synonyms": "ILCs",
+    "tissue_context": "mesenteric lymph nodes (mLN) and lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "Macrophage",
+    "full_name": "macrophage",
+    "paper_synonyms": null,
+    "tissue_context": "mesenteric lymph nodes (mLN) and lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "NK",
+    "full_name": "natural killer cells",
+    "paper_synonyms": "NK cells",
+    "tissue_context": "mesenteric lymph nodes (mLN) and lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "Follicular B cell",
+    "full_name": "follicular B cell",
+    "paper_synonyms": null,
+    "tissue_context": "mesenteric lymph nodes (mLN) and lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "B cell IgG Plasma",
+    "full_name": "IgG+ plasma cells",
+    "paper_synonyms": null,
+    "tissue_context": "cecum, transverse colon and sigmoid colon"
+  }
+]

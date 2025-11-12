@@ -1,0 +1,32 @@
+[
+  {
+    "name": "IC-A",
+    "full_name": "intercalated cell A",
+    "paper_synonyms": null,
+    "tissue_context": "benign adjacent kidney; distal tubule"
+  },
+  {
+    "name": "PT-C",
+    "full_name": "proximal tubule C",
+    "paper_synonyms": null,
+    "tissue_context": "benign adjacent kidney; cortex; medullary; proximal tubule"
+  },
+  {
+    "name": "IC-B",
+    "full_name": "intercalated cell B",
+    "paper_synonyms": null,
+    "tissue_context": "benign adjacent kidney; distal tubule"
+  },
+  {
+    "name": "AVR",
+    "full_name": "ascending vasa recta",
+    "paper_synonyms": null,
+    "tissue_context": "benign adjacent kidney; ccRCC tumor tissues"
+  },
+  {
+    "name": "PT-B",
+    "full_name": "proximal tubule B",
+    "paper_synonyms": null,
+    "tissue_context": "benign kidney; cortex; medullary; proximal tubule"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CCD-PC",
+    "full_name": "cortical collecting duct principal cell",
+    "paper_synonyms": "CCD; cortical collecting duct; PC; principal cells",
+    "tissue_context": "cortex; cortical collecting duct"
+  },
+  {
+    "name": "OMCD-PC",
+    "full_name": "outer medullary collecting duct principal cell",
+    "paper_synonyms": "OMCD; outer medullary collecting duct; PC; principal cells",
+    "tissue_context": "outer medulla; outer medullary collecting duct"
+  },
+  {
+    "name": "dOMCD-PC",
+    "full_name": "degenerative outer medullary collecting duct principal cell",
+    "paper_synonyms": "OMCD; outer medullary collecting duct; PC; principal cells",
+    "tissue_context": "medulla; outer medulla; outer medullary collecting duct"
+  },
+  {
+    "name": "CNT-PC",
+    "full_name": "connecting tubule principal cell",
+    "paper_synonyms": "CNT; connecting tubule; PC; principal cells",
+    "tissue_context": "connecting tubules"
+  },
+  {
+    "name": "DCT1",
+    "full_name": "distal convoluted tubule cell 1",
+    "paper_synonyms": "DCT; distal convoluted tubule",
+    "tissue_context": "distal convoluted tubule"
+  }
+]

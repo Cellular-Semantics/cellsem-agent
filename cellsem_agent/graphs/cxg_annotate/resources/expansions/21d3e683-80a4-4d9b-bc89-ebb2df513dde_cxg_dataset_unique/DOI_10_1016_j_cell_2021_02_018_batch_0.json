@@ -1,0 +1,32 @@
+[
+  {
+    "name": "naive B cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "memory B cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "gamma-delta T cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "plasmablast",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "regulatory T cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

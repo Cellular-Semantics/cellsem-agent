@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Mono",
+    "full_name": "monocytes",
+    "paper_synonyms": null,
+    "tissue_context": "benign kidney; ccRCC"
+  },
+  {
+    "name": "tAL",
+    "full_name": "thin ascending limb cells",
+    "paper_synonyms": null,
+    "tissue_context": "benign renal tissues"
+  },
+  {
+    "name": "IC-PC",
+    "full_name": "intercalated cell\u2013principal cell",
+    "paper_synonyms": "transitional cell type between PC and IC cells",
+    "tissue_context": "benign adjacent kidney; distal tubule"
+  },
+  {
+    "name": "vSMC",
+    "full_name": "vascular smooth muscle cells",
+    "paper_synonyms": null,
+    "tissue_context": "benign kidney samples"
+  },
+  {
+    "name": "GC",
+    "full_name": "glomerular capillaries",
+    "paper_synonyms": null,
+    "tissue_context": "benign adjacent tissue"
+  }
+]

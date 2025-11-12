@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Epithelial cells METTL12 MAFB",
+    "full_name": "Epithelial cells METTL12+ MAFB+",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum"
+  },
+  {
+    "name": "Paneth cells",
+    "full_name": "Paneth cells",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum; colon"
+  },
+  {
+    "name": "Enterocytes TMIGD1 MEP1A GSTA1",
+    "full_name": "Enterocytes TMIGD1+ MEP1A+",
+    "paper_synonyms": null,
+    "tissue_context": "colon"
+  },
+  {
+    "name": "Goblet cells SPINK4",
+    "full_name": "Goblet cells",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum; colon"
+  },
+  {
+    "name": "Epithelial HBB HBA",
+    "full_name": "Epithelial cells HBB+ HBA+",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum"
+  }
+]

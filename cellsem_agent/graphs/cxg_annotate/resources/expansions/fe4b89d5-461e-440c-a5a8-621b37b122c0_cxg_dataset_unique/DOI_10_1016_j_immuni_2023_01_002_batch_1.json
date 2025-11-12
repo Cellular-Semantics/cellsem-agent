@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Goblet cells MUC2 TFF1",
+    "full_name": "Goblet cells",
+    "paper_synonyms": "Goblets",
+    "tissue_context": "terminal ileum (TI); colon"
+  },
+  {
+    "name": "Epithelial Cycling cells",
+    "full_name": "Cycling cells",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum (TI); colon"
+  },
+  {
+    "name": "Stem cells OLFM4 LGR5",
+    "full_name": "Stem cells",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum (TI); colon"
+  },
+  {
+    "name": "Enterocytes BEST4",
+    "full_name": "Enterocytes",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum (TI); colon"
+  },
+  {
+    "name": "L cells",
+    "full_name": "L-cells",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum (TI); TI epithelial compartment"
+  }
+]

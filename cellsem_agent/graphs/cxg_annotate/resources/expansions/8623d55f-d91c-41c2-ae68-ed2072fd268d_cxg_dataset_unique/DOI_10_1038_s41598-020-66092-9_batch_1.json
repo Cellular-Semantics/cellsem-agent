@@ -1,0 +1,32 @@
+[
+  {
+    "name": "BB+GB*",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "DB4",
+    "full_name": "bipolar type DB4",
+    "paper_synonyms": null,
+    "tissue_context": "fovea; peripheral retina; human retina"
+  },
+  {
+    "name": "DB2",
+    "full_name": "bipolar type DB2",
+    "paper_synonyms": null,
+    "tissue_context": "fovea; peripheral retina; human retina"
+  },
+  {
+    "name": "DB1",
+    "full_name": "bipolar type DB1",
+    "paper_synonyms": null,
+    "tissue_context": "human retina"
+  },
+  {
+    "name": "OFFx",
+    "full_name": "OFFx type",
+    "paper_synonyms": null,
+    "tissue_context": "human retina"
+  }
+]

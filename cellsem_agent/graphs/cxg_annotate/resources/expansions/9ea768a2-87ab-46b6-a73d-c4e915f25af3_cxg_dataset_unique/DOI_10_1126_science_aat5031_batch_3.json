@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Type B intercalated cell",
+    "full_name": "type B intercalated cell",
+    "paper_synonyms": "IC; intercalated cells; IC (A+B)",
+    "tissue_context": "collecting duct; human kidney"
+  },
+  {
+    "name": "Descending vasa recta endothelium",
+    "full_name": "descending vasa recta endothelium",
+    "paper_synonyms": "DVRE",
+    "tissue_context": "vasa recta; human kidney"
+  },
+  {
+    "name": "CD8 T cell",
+    "full_name": "CD8 T cell",
+    "paper_synonyms": "CD8 T",
+    "tissue_context": "mature kidney; fetal kidney; human kidney"
+  },
+  {
+    "name": "Epithelial progenitor cell",
+    "full_name": "epithelial progenitor cell",
+    "paper_synonyms": "EPC",
+    "tissue_context": "developing nephron epithelium; fetal kidney"
+  },
+  {
+    "name": "MNP-a/classical monocyte derived",
+    "full_name": "mononuclear phagocyte a/classical monocyte-derived",
+    "paper_synonyms": "MNPa",
+    "tissue_context": "mature kidney; inner regions of the kidney"
+  }
+]

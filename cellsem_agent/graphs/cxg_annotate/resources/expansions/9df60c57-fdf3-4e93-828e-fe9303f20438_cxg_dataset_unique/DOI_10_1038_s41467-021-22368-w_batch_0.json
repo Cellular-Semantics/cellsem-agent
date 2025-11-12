@@ -1,0 +1,32 @@
+[
+  {
+    "name": "PC",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "adult human kidney"
+  },
+  {
+    "name": "PT",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "adult human kidney"
+  },
+  {
+    "name": "TAL",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "adult human kidney"
+  },
+  {
+    "name": "DCT2",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "adult human kidney"
+  },
+  {
+    "name": "DCT1",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "adult human kidney"
+  }
+]

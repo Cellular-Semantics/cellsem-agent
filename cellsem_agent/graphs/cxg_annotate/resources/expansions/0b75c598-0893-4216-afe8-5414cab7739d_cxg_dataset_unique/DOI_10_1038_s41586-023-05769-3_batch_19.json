@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Plasmacytoid Dendritic Cell",
+    "full_name": "plasmacytoid dendritic cell",
+    "paper_synonyms": "pDC",
+    "tissue_context": "human kidney; cortex; medulla"
+  },
+  {
+    "name": "Degenerative Descending Thin Limb Cell Type 3",
+    "full_name": "degenerative descending thin limb cell type 3",
+    "paper_synonyms": "DTL3",
+    "tissue_context": "medulla"
+  },
+  {
+    "name": "Degenerative Distal Convoluted Tubule Cell",
+    "full_name": "degenerative distal convoluted tubule cell",
+    "paper_synonyms": "DCT",
+    "tissue_context": "cortex; distal convoluted tubule"
+  },
+  {
+    "name": "Cycling Myofibroblast",
+    "full_name": "cycling myofibroblast",
+    "paper_synonyms": "cycMyoF",
+    "tissue_context": "interstitium; interstitial fibrosis; cortex"
+  },
+  {
+    "name": "Papillary Tip Epithelial Cell",
+    "full_name": "papillary tip epithelial cell",
+    "paper_synonyms": "PapE",
+    "tissue_context": "papillary tip; calyx"
+  }
+]

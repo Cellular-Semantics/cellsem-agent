@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Activated CD4 T",
+    "full_name": "CD4+ T cells",
+    "paper_synonyms": null,
+    "tissue_context": "mesenteric lymph nodes (mLN); lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "pDC",
+    "full_name": "plasmacytoid DCs",
+    "paper_synonyms": "pDCs",
+    "tissue_context": "mesenteric lymph nodes (mLN); lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "Tfh",
+    "full_name": "follicular helper cells",
+    "paper_synonyms": null,
+    "tissue_context": "mesenteric lymph nodes (mLN)"
+  },
+  {
+    "name": "Lymphoid DC",
+    "full_name": "dendritic cells",
+    "paper_synonyms": "DCs",
+    "tissue_context": "mesenteric lymph nodes (mLN); lamina propria of cecum, transverse colon and sigmoid colon"
+  },
+  {
+    "name": "cycling DCs",
+    "full_name": "cycling dendritic cells",
+    "paper_synonyms": null,
+    "tissue_context": "mesenteric lymph nodes (mLN); lamina propria of cecum, transverse colon and sigmoid colon"
+  }
+]

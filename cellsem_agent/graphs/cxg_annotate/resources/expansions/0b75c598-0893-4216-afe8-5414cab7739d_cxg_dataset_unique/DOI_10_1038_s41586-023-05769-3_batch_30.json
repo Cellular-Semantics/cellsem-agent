@@ -1,0 +1,32 @@
+[
+  {
+    "name": "PT-S3",
+    "full_name": "proximal tubule S3",
+    "paper_synonyms": "proximal tubule (PT)",
+    "tissue_context": "proximal tubule (PT)"
+  },
+  {
+    "name": "C-TAL",
+    "full_name": "cortical thick ascending limb",
+    "paper_synonyms": "thick ascending limb (TAL)",
+    "tissue_context": "cortex"
+  },
+  {
+    "name": "M-PC",
+    "full_name": "medullary principal cell",
+    "paper_synonyms": "principal cell (PC)",
+    "tissue_context": "medulla"
+  },
+  {
+    "name": "dM-PC",
+    "full_name": "degenerative medullary principal cell",
+    "paper_synonyms": "degenerative medullary principal cells (dM-PCs)",
+    "tissue_context": "medulla; collecting duct"
+  },
+  {
+    "name": "T",
+    "full_name": "T cell",
+    "paper_synonyms": "CD3+ cells",
+    "tissue_context": "cortex; medulla"
+  }
+]

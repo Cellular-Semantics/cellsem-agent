@@ -1,0 +1,32 @@
+[
+  {
+    "name": "dDCT",
+    "full_name": "degenerative distal convoluted tubule cells",
+    "paper_synonyms": null,
+    "tissue_context": "human kidney; distal convoluted tubule"
+  },
+  {
+    "name": "cycMYOF",
+    "full_name": "cycling myofibroblasts",
+    "paper_synonyms": "cycMyoF; cycling MyoF",
+    "tissue_context": "stroma; interstitium"
+  },
+  {
+    "name": "cycNKC/T",
+    "full_name": "cycling T cells",
+    "paper_synonyms": null,
+    "tissue_context": "human kidney"
+  },
+  {
+    "name": "CCD-IC-A",
+    "full_name": "cortical collecting duct intercalated cells",
+    "paper_synonyms": null,
+    "tissue_context": "cortex; collecting duct"
+  },
+  {
+    "name": "OMCD-IC-A",
+    "full_name": "outer medullary collecting duct intercalated cells",
+    "paper_synonyms": null,
+    "tissue_context": "outer medulla; collecting duct"
+  }
+]

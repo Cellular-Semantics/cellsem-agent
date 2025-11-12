@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Inhibitory_4",
+    "full_name": "inhibitory neurons",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "Oligodendrocytes",
+    "full_name": "oligodendrocytes",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "Excitatory_2",
+    "full_name": "excitatory neurons",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "Inhibitory_2",
+    "full_name": "inhibitory neurons",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "Excitatory_4",
+    "full_name": "excitatory neurons",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex; occipital cortex"
+  }
+]

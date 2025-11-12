@@ -1,0 +1,32 @@
+[
+  {
+    "name": "DTL3",
+    "full_name": "descending thin limb 3",
+    "paper_synonyms": "DTL",
+    "tissue_context": "AQP1+ cells in the medulla"
+  },
+  {
+    "name": "EC-GC",
+    "full_name": "glomerular capillaries",
+    "paper_synonyms": "",
+    "tissue_context": "renal corpuscle; glomerulus; cortex"
+  },
+  {
+    "name": "VSMC/P",
+    "full_name": "vascular smooth muscle cell or pericyte",
+    "paper_synonyms": "VSM/P",
+    "tissue_context": "afferent/efferent arterioles; renal corpuscle"
+  },
+  {
+    "name": "cycMNP",
+    "full_name": "cycling MNP",
+    "paper_synonyms": "",
+    "tissue_context": ""
+  },
+  {
+    "name": "MYOF",
+    "full_name": "myofibroblasts",
+    "paper_synonyms": "MyoF",
+    "tissue_context": "stroma; interstitium"
+  }
+]

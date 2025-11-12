@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Iris_Sphincter",
+    "full_name": "iris sphincter muscle cell",
+    "paper_synonyms": null,
+    "tissue_context": "iris; iris sphincter muscle"
+  },
+  {
+    "name": "Schwann",
+    "full_name": "Schwann cell",
+    "paper_synonyms": null,
+    "tissue_context": "iris stroma; ciliary body"
+  },
+  {
+    "name": "Lymphocyte",
+    "full_name": "lymphocyte",
+    "paper_synonyms": null,
+    "tissue_context": "cornea; iris; ciliary body; corneoscleral wedge (CSW)"
+  },
+  {
+    "name": "Vasc_Endo",
+    "full_name": "vascular endothelium",
+    "paper_synonyms": null,
+    "tissue_context": "iris stroma; ciliary stroma; external limbus; conjunctival stroma"
+  }
+]

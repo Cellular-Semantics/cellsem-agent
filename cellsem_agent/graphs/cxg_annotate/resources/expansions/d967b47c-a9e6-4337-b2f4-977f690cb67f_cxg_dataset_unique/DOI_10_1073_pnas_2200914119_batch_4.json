@@ -1,0 +1,32 @@
+[
+  {
+    "name": "VascEndo",
+    "full_name": "vascular endothelium",
+    "paper_synonyms": "Vasc_Endo",
+    "tissue_context": "iris stroma; ciliary stroma; subepithelial stromal tissues of the external limbus; conjunctival stroma"
+  },
+  {
+    "name": "Pericyte",
+    "full_name": "pericytes",
+    "paper_synonyms": null,
+    "tissue_context": "trabecular meshwork (TM); ciliary body (CB); corneoscleral wedge (CSW)"
+  },
+  {
+    "name": "K_Fibro",
+    "full_name": "corneal fibroblasts",
+    "paper_synonyms": "K_Fibro; stromal keratocytes",
+    "tissue_context": "central cornea; cornea"
+  },
+  {
+    "name": "Goblet",
+    "full_name": "goblet cells",
+    "paper_synonyms": null,
+    "tissue_context": "conjunctival epithelium; conjunctiva; ocular surface"
+  },
+  {
+    "name": "Schlemm_Endo",
+    "full_name": "Schlemm canal endothelium",
+    "paper_synonyms": "SC endothelium",
+    "tissue_context": "limbus; iridocorneal angle; aqueous humor outflow pathways"
+  }
+]

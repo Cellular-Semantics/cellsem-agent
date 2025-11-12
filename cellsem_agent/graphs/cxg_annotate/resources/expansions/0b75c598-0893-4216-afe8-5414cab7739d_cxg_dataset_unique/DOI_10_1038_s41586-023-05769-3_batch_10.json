@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Proximal Tubule Epithelial Cell Segment 1 / Segment 2",
+    "full_name": "proximal tubule (PT) epithelial cell, segment 1/segment 2",
+    "paper_synonyms": "PT-S1; PT-S2; PT",
+    "tissue_context": "cortex"
+  },
+  {
+    "name": "Proximal Tubule Epithelial Cell Segment 3",
+    "full_name": "proximal tubule (PT) epithelial cell, segment 3",
+    "paper_synonyms": "PT-S3; PT",
+    "tissue_context": "corticomedullary sections; cortex"
+  },
+  {
+    "name": "Cortical Thick Ascending Limb Cell",
+    "full_name": "cortical thick ascending limb (C-TAL) cell",
+    "paper_synonyms": "C-TAL; TAL",
+    "tissue_context": "cortex"
+  },
+  {
+    "name": "Outer Medullary Collecting Duct Principal Cell",
+    "full_name": "outer medullary collecting duct principal cell",
+    "paper_synonyms": "OMCD; PC; M-PC",
+    "tissue_context": "outer medulla; collecting duct"
+  },
+  {
+    "name": "Fibroblast",
+    "full_name": "fibroblast (FIB)",
+    "paper_synonyms": "FIB",
+    "tissue_context": "interstitium; cortex"
+  }
+]

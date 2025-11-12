@@ -1,0 +1,32 @@
+[
+  {
+    "name": "ICA",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "kidney"
+  },
+  {
+    "name": "ICB",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "kidney"
+  },
+  {
+    "name": "PEC",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "kidney"
+  },
+  {
+    "name": "ENDO",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "kidney"
+  },
+  {
+    "name": "ATL",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "kidney"
+  }
+]

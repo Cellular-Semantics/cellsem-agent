@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Glomerular Capillary Endothelial Cell",
+    "full_name": "glomerular capillary endothelial cell",
+    "paper_synonyms": "EC-GC",
+    "tissue_context": "renal corpuscle; glomeruli"
+  },
+  {
+    "name": "Vascular Smooth Muscle Cell / Pericyte",
+    "full_name": "vascular smooth muscle cell or pericyte",
+    "paper_synonyms": "VSM/P; VSMC",
+    "tissue_context": "afferent/efferent arterioles"
+  },
+  {
+    "name": "Cycling Mononuclear Phagocyte",
+    "full_name": "cycling mononuclear phagocyte",
+    "paper_synonyms": "cycMNP",
+    "tissue_context": null
+  },
+  {
+    "name": "Myofibroblast",
+    "full_name": "myofibroblast",
+    "paper_synonyms": "MyoF",
+    "tissue_context": "interstitium; cortex"
+  },
+  {
+    "name": "Degenerative Peritubular Capilary Endothelial Cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

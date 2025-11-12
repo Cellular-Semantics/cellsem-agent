@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Conj_Melanocyte",
+    "full_name": "conjunctival melanocyte",
+    "paper_synonyms": "",
+    "tissue_context": "conjunctiva; basal layer of the conjunctiva"
+  },
+  {
+    "name": "Lymphatic_Endo",
+    "full_name": "lymphatic endothelium",
+    "paper_synonyms": "conjunctival lymphatic endothelium",
+    "tissue_context": "subepithelial vessels within the conjunctival stroma; conjunctival subepithelial stroma"
+  },
+  {
+    "name": "Uveal_Fibro",
+    "full_name": "uveal fibroblast",
+    "paper_synonyms": "ciliary fibroblasts",
+    "tissue_context": "uveal base of the TM; iris root; ciliary muscle"
+  },
+  {
+    "name": "Schwann",
+    "full_name": "Schwann cell",
+    "paper_synonyms": "",
+    "tissue_context": "iris stroma; ciliary body"
+  },
+  {
+    "name": "Sclera_Fibro",
+    "full_name": "scleral fibroblast",
+    "paper_synonyms": "",
+    "tissue_context": "sclera; limbus; corneoscleral wedge (CSW)"
+  }
+]

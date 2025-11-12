@@ -1,0 +1,32 @@
+[
+  {
+    "name": "dM-FIB",
+    "full_name": "degenerative medullary fibroblast",
+    "paper_synonyms": "FIB",
+    "tissue_context": "stroma; interstitium; medulla"
+  },
+  {
+    "name": "cycDCT",
+    "full_name": "cycling distal convoluted tubule",
+    "paper_synonyms": "DCT",
+    "tissue_context": "distal convoluted tubule"
+  },
+  {
+    "name": "dPOD",
+    "full_name": "degenerative podocyte",
+    "paper_synonyms": "PODs",
+    "tissue_context": "renal corpuscle; glomeruli; cortex"
+  },
+  {
+    "name": "pDC",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "dDTL3",
+    "full_name": "degenerative descending thin limb 3",
+    "paper_synonyms": "DTL3; DTL; descending thin limb",
+    "tissue_context": "medulla"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "beta_minor",
+    "full_name": "beta cells",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets"
+  },
+  {
+    "name": "duct_major",
+    "full_name": "ductal cells",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets"
+  },
+  {
+    "name": "immune_stellates",
+    "full_name": "immune and stellate cells",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets"
+  },
+  {
+    "name": "acinar_minor_mhcclassII",
+    "full_name": "MHC Class II acinar cells",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets"
+  },
+  {
+    "name": "hybrid",
+    "full_name": "Hybrid cells",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets"
+  }
+]

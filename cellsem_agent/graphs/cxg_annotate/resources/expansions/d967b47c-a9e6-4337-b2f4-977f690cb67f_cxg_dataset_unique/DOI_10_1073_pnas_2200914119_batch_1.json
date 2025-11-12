@@ -1,0 +1,32 @@
+[
+  {
+    "name": "K_Epi-Basal",
+    "full_name": "corneal epithelial basal cells",
+    "paper_synonyms": null,
+    "tissue_context": "central cornea; corneal epithelium"
+  },
+  {
+    "name": "Conj_Epi-Wing",
+    "full_name": "conjunctival epithelial wing cells",
+    "paper_synonyms": null,
+    "tissue_context": "conjunctival epithelium; corneoscleral wedge (CSW)"
+  },
+  {
+    "name": "Limbal_Epi-Basal",
+    "full_name": "limbal epithelial basal cells",
+    "paper_synonyms": null,
+    "tissue_context": "limbus"
+  },
+  {
+    "name": "Limbal_Epi-Wing",
+    "full_name": "limbal epithelial wing cells",
+    "paper_synonyms": null,
+    "tissue_context": "limbus"
+  },
+  {
+    "name": "TM_Fibro",
+    "full_name": "trabecular meshwork fibroblasts",
+    "paper_synonyms": "TM fibroblasts",
+    "tissue_context": "trabecular meshwork (TM); iridocorneal angle"
+  }
+]

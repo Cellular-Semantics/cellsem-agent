@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Classical Monocyte",
+    "full_name": "classical monocyte",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cell (PBMC)"
+  },
+  {
+    "name": "pDC",
+    "full_name": "plasmacytoid dendritic cell",
+    "paper_synonyms": "plasmacytoid dendritic cells",
+    "tissue_context": "peripheral blood mononuclear cell (PBMC); bronchoalveolar lavage (BAL)"
+  },
+  {
+    "name": "T/NK proliferative",
+    "full_name": "proliferative T and NK cells",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cell (PBMC)"
+  },
+  {
+    "name": "Non-classical Monocyte",
+    "full_name": "non-classical monocyte",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cell (PBMC)"
+  },
+  {
+    "name": "NK CD56bright",
+    "full_name": "CD56-bright NK cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cell (PBMC)"
+  }
+]

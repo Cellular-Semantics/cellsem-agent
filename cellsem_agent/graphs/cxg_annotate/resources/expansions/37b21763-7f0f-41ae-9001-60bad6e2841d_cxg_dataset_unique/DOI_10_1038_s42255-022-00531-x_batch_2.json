@@ -1,0 +1,26 @@
+[
+  {
+    "name": "acinar",
+    "full_name": "acinar cells",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets"
+  },
+  {
+    "name": "epsilon",
+    "full_name": "epsilon cells",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets; islets of Langerhans"
+  },
+  {
+    "name": "duct_acinar_related",
+    "full_name": "ductal-acinar related cells",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets"
+  },
+  {
+    "name": "pp",
+    "full_name": "PP cells",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets"
+  }
+]

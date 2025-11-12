@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Non-classical Monocyte",
+    "full_name": "non-classical monocyte",
+    "paper_synonyms": "ncMON",
+    "tissue_context": "human kidney"
+  },
+  {
+    "name": "Cycling Endothelial Cell",
+    "full_name": "endothelial cell, cycling state",
+    "paper_synonyms": "",
+    "tissue_context": "vasculature; human kidney"
+  },
+  {
+    "name": "Classical Dendritic Cell",
+    "full_name": "classical dendritic cell",
+    "paper_synonyms": "cDC",
+    "tissue_context": "human kidney"
+  },
+  {
+    "name": "Lymphatic Endothelial Cell",
+    "full_name": "endothelial cell of the lymphatics",
+    "paper_synonyms": "EC-LYM",
+    "tissue_context": "lymphatics; human kidney"
+  },
+  {
+    "name": "Distal Convoluted Tubule Cell Type 2",
+    "full_name": "distal convoluted tubule cell 2",
+    "paper_synonyms": "DCT2",
+    "tissue_context": "distal convoluted tubule"
+  }
+]

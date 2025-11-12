@@ -1,0 +1,26 @@
+[
+  {
+    "name": "TissueResMemT",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "double-positive T cell (DPT)",
+    "full_name": "double-positive T cell",
+    "paper_synonyms": "DPT",
+    "tissue_context": null
+  },
+  {
+    "name": "double negative T cell (DNT)",
+    "full_name": "double negative T cell",
+    "paper_synonyms": "DNT",
+    "tissue_context": null
+  },
+  {
+    "name": "TCRVbeta13.1pos",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

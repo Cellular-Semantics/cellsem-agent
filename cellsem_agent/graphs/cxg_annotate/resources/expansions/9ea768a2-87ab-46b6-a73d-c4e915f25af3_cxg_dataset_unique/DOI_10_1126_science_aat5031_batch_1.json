@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CD4 T cell",
+    "full_name": "CD4 T cell",
+    "paper_synonyms": "CD4 T",
+    "tissue_context": "mature kidney; fetal kidney"
+  },
+  {
+    "name": "Podocyte",
+    "full_name": "podocyte",
+    "paper_synonyms": "Podo",
+    "tissue_context": "cortical/cortico-medullary; cortex; glomeruli"
+  },
+  {
+    "name": "Transitional urothelium",
+    "full_name": "transitional epithelium of ureter",
+    "paper_synonyms": "TE; transitional epithelium; transitional epithelium of ureter",
+    "tissue_context": "medulla/pelvic pseudodepth; ureter; kidney pelvis"
+  },
+  {
+    "name": "B cell",
+    "full_name": "B cell",
+    "paper_synonyms": "B",
+    "tissue_context": "cortical samples; mature kidney; fetal kidney"
+  },
+  {
+    "name": "Ascending vasa recta endothelium",
+    "full_name": "ascending vasa recta endothelium",
+    "paper_synonyms": "AVRE",
+    "tissue_context": "mature kidney; vasa recta (VR)"
+  }
+]

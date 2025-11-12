@@ -1,0 +1,32 @@
+[
+  {
+    "name": "PC",
+    "full_name": "principal cells",
+    "paper_synonyms": null,
+    "tissue_context": "human kidney; benign adjacent kidney"
+  },
+  {
+    "name": "CNT",
+    "full_name": "connecting tubule",
+    "paper_synonyms": "connecting duct",
+    "tissue_context": "human kidney"
+  },
+  {
+    "name": "DCT",
+    "full_name": "distal convoluted tubule",
+    "paper_synonyms": null,
+    "tissue_context": "human kidney"
+  },
+  {
+    "name": "TAL",
+    "full_name": "thick ascending limb",
+    "paper_synonyms": null,
+    "tissue_context": "medullary regions"
+  },
+  {
+    "name": "Macro",
+    "full_name": "macrophages",
+    "paper_synonyms": null,
+    "tissue_context": "benign adjacent kidney; ccRCC tumor samples"
+  }
+]

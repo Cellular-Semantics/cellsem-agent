@@ -1,0 +1,32 @@
+[
+  {
+    "name": "non-classical monocyte",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "classical monocyte",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "NK_CD16hi",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "NK_CD56loCD16lo",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "plasmacytoid dendritic cell",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

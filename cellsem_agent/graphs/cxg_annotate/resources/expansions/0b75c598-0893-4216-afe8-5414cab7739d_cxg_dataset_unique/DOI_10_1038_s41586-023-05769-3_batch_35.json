@@ -1,0 +1,32 @@
+[
+  {
+    "name": "REN",
+    "full_name": "juxtaglomerular renin-producing granular cell",
+    "paper_synonyms": "renin-producing granular cells; juxtaglomerular renin-producing granular cells",
+    "tissue_context": "juxtaglomerular apparatus; afferent/efferent arterioles; renal corpuscle"
+  },
+  {
+    "name": "B",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "aTAL2",
+    "full_name": "adaptive thick ascending limb cell 2",
+    "paper_synonyms": "adaptive TAL; aTAL",
+    "tissue_context": "cortical thick ascending limb (C-TAL); cortex; injured tubules"
+  },
+  {
+    "name": "dC-IC-A",
+    "full_name": "degenerative cortical intercalated cell A",
+    "paper_synonyms": "intercalated cells (IC)",
+    "tissue_context": "cortex"
+  },
+  {
+    "name": "dCNT",
+    "full_name": "degenerative connecting tubule cell",
+    "paper_synonyms": "connecting tubules (CNT)",
+    "tissue_context": "connecting tubule"
+  }
+]

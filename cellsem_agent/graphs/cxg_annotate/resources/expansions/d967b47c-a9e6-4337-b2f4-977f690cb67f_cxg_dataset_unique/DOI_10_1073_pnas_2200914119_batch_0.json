@@ -1,0 +1,32 @@
+[
+  {
+    "name": "K_Epi-Wing",
+    "full_name": "corneal epithelial wing cell",
+    "paper_synonyms": "wing cells; polygonal suprabasal cells",
+    "tissue_context": "central cornea; corneal epithelium"
+  },
+  {
+    "name": "Limbal_Epi-Superficial",
+    "full_name": "limbal superficial epithelial cell",
+    "paper_synonyms": "",
+    "tissue_context": "limbus; ocular surface epithelium; corneoscleral wedge (CSW)"
+  },
+  {
+    "name": "Conj_Epi-Superficial",
+    "full_name": "conjunctival superficial epithelial cell",
+    "paper_synonyms": "",
+    "tissue_context": "conjunctival epithelium; corneoscleral wedge (CSW)"
+  },
+  {
+    "name": "Conj_Epi-Basal",
+    "full_name": "conjunctival basal epithelial cell",
+    "paper_synonyms": "",
+    "tissue_context": "conjunctival epithelium; corneoscleral wedge (CSW)"
+  },
+  {
+    "name": "K_Epi-Superficial",
+    "full_name": "corneal superficial epithelial cell",
+    "paper_synonyms": "superficial-most squamous epithelial cells",
+    "tissue_context": "central cornea; corneal superficial epithelium"
+  }
+]

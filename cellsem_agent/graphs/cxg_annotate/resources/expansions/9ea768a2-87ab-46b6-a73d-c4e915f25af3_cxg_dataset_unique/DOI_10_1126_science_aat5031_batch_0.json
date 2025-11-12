@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Thick ascending limb of Loop of Henle",
+    "full_name": "loop of Henle",
+    "paper_synonyms": "LOH; loop of Henle",
+    "tissue_context": "human kidney; nephron; mature kidney; fetal kidney"
+  },
+  {
+    "name": "Peritubular capillary endothelium 2",
+    "full_name": "peritubular capillary endothelium 2",
+    "paper_synonyms": "PCE; peritubular capillaries; PCap",
+    "tissue_context": "human kidney; peritubular capillaries"
+  },
+  {
+    "name": "Proximal tubule",
+    "full_name": "proximal tubule",
+    "paper_synonyms": "PT",
+    "tissue_context": "human kidney; cortex; cortico-medullary; mature kidney; fetal kidney"
+  },
+  {
+    "name": "NK cell",
+    "full_name": "natural killer cell",
+    "paper_synonyms": "NK",
+    "tissue_context": "mature kidney; fetal kidney; human kidney"
+  },
+  {
+    "name": "Proliferating Proximal Tubule",
+    "full_name": "proximal tubule",
+    "paper_synonyms": "PT",
+    "tissue_context": "human kidney; cortex; cortico-medullary"
+  }
+]

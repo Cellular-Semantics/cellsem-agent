@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Degenerative Ascending Thin Limb Cell",
+    "full_name": "Degenerative ascending thin limb cell",
+    "paper_synonyms": "ATL",
+    "tissue_context": "inner medulla"
+  },
+  {
+    "name": "Renin-positive Juxtaglomerular Granular Cell",
+    "full_name": "Juxtaglomerular renin-producing granular cell",
+    "paper_synonyms": "REN; renin-producing granular cell",
+    "tissue_context": "juxtaglomerular apparatus; afferent/efferent arterioles"
+  },
+  {
+    "name": "B Cell",
+    "full_name": "B cell",
+    "paper_synonyms": "B",
+    "tissue_context": "renal cortical and medullary structures"
+  },
+  {
+    "name": "Degenerative Cortical Intercalated Cell Type A",
+    "full_name": "Degenerative cortical intercalated cell",
+    "paper_synonyms": "IC",
+    "tissue_context": "cortex"
+  },
+  {
+    "name": "Degenerative Connecting Tubule Cell",
+    "full_name": "Degenerative connecting tubule cell",
+    "paper_synonyms": "CNT",
+    "tissue_context": "cortex; cortical distal nephron"
+  }
+]

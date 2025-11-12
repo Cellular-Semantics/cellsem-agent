@@ -439,6 +439,8 @@ def load_cxg_annotations():
         df = pd.read_csv(tsv_path, sep="\t")
 
         for _, row in df.iterrows():
+            if pd.isna(row["reference"]):
+                continue
             paper_doi = str(row["reference"]).replace("https://doi.org/", "DOI:")
             annotation = {
                 "annotation_text": row["author_cell_type"],

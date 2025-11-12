@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Tuft cells",
+    "full_name": "Tuft cells",
+    "paper_synonyms": null,
+    "tissue_context": "terminal ileum; colon"
+  },
+  {
+    "name": "Enterochromaffin cells",
+    "full_name": "Enterochromaffin cells",
+    "paper_synonyms": "EC cells; EC",
+    "tissue_context": "terminal ileum; colon"
+  }
+]

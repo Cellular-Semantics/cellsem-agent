@@ -1,0 +1,32 @@
+[
+  {
+    "name": "AEA-DVR",
+    "full_name": "afferent/efferent arterioles/descending vasa recta",
+    "paper_synonyms": "AEA/DVR",
+    "tissue_context": "benign kidney; benign adjacent kidney"
+  },
+  {
+    "name": "NKcell",
+    "full_name": "natural killer cells",
+    "paper_synonyms": "NK",
+    "tissue_context": "benign kidney; benign adjacent kidney; ccRCC tumor samples"
+  },
+  {
+    "name": "DL",
+    "full_name": "descending limb",
+    "paper_synonyms": null,
+    "tissue_context": "benign kidney"
+  },
+  {
+    "name": "Tcell",
+    "full_name": "T cells",
+    "paper_synonyms": null,
+    "tissue_context": "ccRCC tumor samples; benign adjacent kidney"
+  },
+  {
+    "name": "UC",
+    "full_name": "uncharacterized",
+    "paper_synonyms": null,
+    "tissue_context": "benign adjacent tissue; benign adjacent kidney"
+  }
+]

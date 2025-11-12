@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Excitatory_1",
+    "full_name": "excitatory neuron",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "Inhibitory_1",
+    "full_name": "inhibitory neuron",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "Astrocytes",
+    "full_name": "astrocytes",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "Excitatory_3",
+    "full_name": "excitatory neuron",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "Excitatory_5",
+    "full_name": "excitatory neuron",
+    "paper_synonyms": "",
+    "tissue_context": "frontal cortex; occipital cortex"
+  }
+]

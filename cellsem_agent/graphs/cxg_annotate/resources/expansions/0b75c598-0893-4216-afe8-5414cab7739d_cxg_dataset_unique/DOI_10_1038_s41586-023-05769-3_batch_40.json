@@ -1,0 +1,14 @@
+[
+  {
+    "name": "DCT2",
+    "full_name": "distal convoluted tubule cell 2",
+    "paper_synonyms": "DCT",
+    "tissue_context": "human kidney; distal convoluted tubule"
+  },
+  {
+    "name": "CNT-IC-A",
+    "full_name": "connecting tubule intercalated cell",
+    "paper_synonyms": "CNT-IC; IC",
+    "tissue_context": "human kidney; connecting tubules"
+  }
+]

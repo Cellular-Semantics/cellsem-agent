@@ -1,0 +1,32 @@
+[
+  {
+    "name": "MC",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "IC-B",
+    "full_name": "intercalated cell",
+    "paper_synonyms": "IC; CNT-IC",
+    "tissue_context": "connecting tubules (CNT-IC and CNT-PC)"
+  },
+  {
+    "name": "MAST",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "dVSMC",
+    "full_name": "vascular smooth muscle cell",
+    "paper_synonyms": "VSMC; VSM/P",
+    "tissue_context": "afferent/efferent arterioles"
+  },
+  {
+    "name": "dATL",
+    "full_name": "ascending thin limb",
+    "paper_synonyms": "ATL",
+    "tissue_context": "inner medulla"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "MD",
+    "full_name": "macula densa cells",
+    "paper_synonyms": "Macula Densa",
+    "tissue_context": "juxtaglomerular apparatus; renal corpuscle"
+  },
+  {
+    "name": "NKC/T",
+    "full_name": "T cells",
+    "paper_synonyms": "",
+    "tissue_context": "areas of tissue damage including presumptive epithelial degeneration and fibrosis"
+  },
+  {
+    "name": "tPC-IC",
+    "full_name": "transitioning principal and intercalated cells",
+    "paper_synonyms": "",
+    "tissue_context": "medullary region of acute tubular necrosis"
+  },
+  {
+    "name": "EC-DVR",
+    "full_name": "endothelial cells of the vasa recta",
+    "paper_synonyms": "",
+    "tissue_context": "vasa recta; medullary sampling"
+  },
+  {
+    "name": "M-TAL",
+    "full_name": "medullary thick ascending limb",
+    "paper_synonyms": "",
+    "tissue_context": "medullary thick ascending limb (M-TAL) of the outer medullary stripe; in the medulla"
+  }
+]

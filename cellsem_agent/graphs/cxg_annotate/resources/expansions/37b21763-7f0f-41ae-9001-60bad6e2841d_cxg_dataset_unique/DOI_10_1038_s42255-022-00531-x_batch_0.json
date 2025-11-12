@@ -1,0 +1,32 @@
+[
+  {
+    "name": "alpha",
+    "full_name": "alpha cell",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets"
+  },
+  {
+    "name": "beta_major",
+    "full_name": "beta cell",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets"
+  },
+  {
+    "name": "endothelial",
+    "full_name": "endothelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets"
+  },
+  {
+    "name": "delta",
+    "full_name": "delta cell",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets"
+  },
+  {
+    "name": "stellates",
+    "full_name": "stellate cell",
+    "paper_synonyms": null,
+    "tissue_context": "pancreatic islets"
+  }
+]

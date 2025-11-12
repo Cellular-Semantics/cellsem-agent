@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Cycling Natural Killer Cell / Natural Killer T Cell",
+    "full_name": "cycling natural killer cell / natural killer T cell",
+    "paper_synonyms": "NKT",
+    "tissue_context": "cortex; medulla"
+  },
+  {
+    "name": "PT",
+    "full_name": "proximal tubule",
+    "paper_synonyms": "proximal tubule (PT)",
+    "tissue_context": "proximal tubule (PT)"
+  },
+  {
+    "name": "FIB",
+    "full_name": "fibroblast",
+    "paper_synonyms": "fibroblast (FIB)",
+    "tissue_context": "interstitium; cortex"
+  },
+  {
+    "name": "TAL",
+    "full_name": "thick ascending limb",
+    "paper_synonyms": "thick ascending limb (TAL)",
+    "tissue_context": "medullary thick ascending limb (M-TAL); cortical thick ascending limb (C-TAL)"
+  },
+  {
+    "name": "IMM",
+    "full_name": "immune",
+    "paper_synonyms": "immune; immune cells",
+    "tissue_context": "cortex; medulla"
+  }
+]

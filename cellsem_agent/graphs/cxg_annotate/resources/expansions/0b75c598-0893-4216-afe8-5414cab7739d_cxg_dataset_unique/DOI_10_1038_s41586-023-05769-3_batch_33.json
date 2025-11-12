@@ -1,0 +1,32 @@
+[
+  {
+    "name": "dEC-PTC",
+    "full_name": "degenerative endothelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "vasculature; human kidney"
+  },
+  {
+    "name": "ncMON",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "human kidney"
+  },
+  {
+    "name": "cycEC",
+    "full_name": "cycling endothelial cell",
+    "paper_synonyms": null,
+    "tissue_context": "vasculature; human kidney"
+  },
+  {
+    "name": "cDC",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": "human kidney"
+  },
+  {
+    "name": "EC-LYM",
+    "full_name": "endothelial cells of the lymphatics",
+    "paper_synonyms": null,
+    "tissue_context": "human kidney; lymphatics"
+  }
+]

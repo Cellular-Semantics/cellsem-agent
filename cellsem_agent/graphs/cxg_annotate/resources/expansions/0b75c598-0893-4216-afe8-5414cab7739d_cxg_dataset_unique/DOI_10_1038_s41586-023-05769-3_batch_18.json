@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Degenerative Endothelial Cell",
+    "full_name": "Degenerative Endothelial Cell",
+    "paper_synonyms": "EC-AEA; EC-GC; EC-LYM; EC-AVR; EC-DVR; EC",
+    "tissue_context": "afferent/efferent arterioles; glomerular capillaries; lymphatics; vasa recta"
+  },
+  {
+    "name": "Degenerative Medullary Fibroblast",
+    "full_name": "Degenerative Medullary Fibroblast",
+    "paper_synonyms": "FIB",
+    "tissue_context": "medulla; interstitium; corticomedullary axis"
+  },
+  {
+    "name": "Connecting Tubule Intercalated Cell Type A",
+    "full_name": "Connecting Tubule Intercalated Cell Type A",
+    "paper_synonyms": "CNT-IC; IC; CNT",
+    "tissue_context": "connecting tubules (CNT)"
+  },
+  {
+    "name": "Cycling Distal Convoluted Tubule Cell",
+    "full_name": "Cycling Distal Convoluted Tubule Cell",
+    "paper_synonyms": "DCT; DCT1; DCT2",
+    "tissue_context": "distal convoluted tubule (DCT1, 2)"
+  },
+  {
+    "name": "Degenerative Podocyte",
+    "full_name": "Degenerative Podocyte",
+    "paper_synonyms": "POD; PODs",
+    "tissue_context": "renal corpuscle; glomeruli"
+  }
+]

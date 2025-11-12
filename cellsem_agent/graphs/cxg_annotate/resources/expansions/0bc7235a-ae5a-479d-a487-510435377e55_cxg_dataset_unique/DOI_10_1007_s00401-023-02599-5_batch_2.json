@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Microglia",
+    "full_name": "microglia",
+    "paper_synonyms": null,
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "OPCs",
+    "full_name": "oligodendrocyte progenitor cells",
+    "paper_synonyms": "OPCs",
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "Endo/Pericytes",
+    "full_name": "endothelial cells",
+    "paper_synonyms": null,
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "Excitatory_8",
+    "full_name": "excitatory neurons",
+    "paper_synonyms": null,
+    "tissue_context": "frontal cortex; occipital cortex"
+  },
+  {
+    "name": "Inhibitory_3",
+    "full_name": "inhibitory neurons",
+    "paper_synonyms": null,
+    "tissue_context": "frontal cortex; occipital cortex"
+  }
+]

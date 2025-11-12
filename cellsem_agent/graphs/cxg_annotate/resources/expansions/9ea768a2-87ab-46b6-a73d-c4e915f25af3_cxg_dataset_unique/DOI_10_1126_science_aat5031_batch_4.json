@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Neutrophil",
+    "full_name": "neutrophil",
+    "paper_synonyms": "NO",
+    "tissue_context": "mature kidney; kidney pelvis; pelvic epithelium"
+  },
+  {
+    "name": "Connecting tubule",
+    "full_name": "connecting nephron tubule",
+    "paper_synonyms": "CNT",
+    "tissue_context": "nephron epithelial cells; mature kidney; fetal kidney"
+  },
+  {
+    "name": "Myofibroblast",
+    "full_name": "myofibroblast",
+    "paper_synonyms": "MFib",
+    "tissue_context": "human kidney; mature kidney; fetal kidney"
+  },
+  {
+    "name": "MNP-c/dendritic cell",
+    "full_name": "mononuclear phagocyte c (dendritic cell)",
+    "paper_synonyms": "MNPc; classical myeloid DC; cDC",
+    "tissue_context": "mature kidney"
+  },
+  {
+    "name": "NKT cell",
+    "full_name": "natural killer T cell",
+    "paper_synonyms": "NKT",
+    "tissue_context": "mature kidney; human kidney"
+  }
+]

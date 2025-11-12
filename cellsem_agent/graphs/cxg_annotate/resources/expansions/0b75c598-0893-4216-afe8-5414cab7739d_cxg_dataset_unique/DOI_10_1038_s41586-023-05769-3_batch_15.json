@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Mesangial Cell",
+    "full_name": "mesangial cell",
+    "paper_synonyms": null,
+    "tissue_context": "renal corpuscle"
+  },
+  {
+    "name": "Intercalated Cell Type B",
+    "full_name": "intercalated cell",
+    "paper_synonyms": "IC",
+    "tissue_context": "connecting tubules; collecting duct"
+  },
+  {
+    "name": "Connecting Tubule Cell",
+    "full_name": "connecting tubule cell",
+    "paper_synonyms": "CNT",
+    "tissue_context": "connecting tubule and collecting duct"
+  },
+  {
+    "name": "Mast Cell",
+    "full_name": "mast cell",
+    "paper_synonyms": "MAST",
+    "tissue_context": null
+  },
+  {
+    "name": "Degenerative Vascular Smooth Muscle Cell",
+    "full_name": "degenerative vascular smooth muscle cell",
+    "paper_synonyms": "VSMC; VSM/P",
+    "tissue_context": "afferent/efferent arterioles"
+  }
+]

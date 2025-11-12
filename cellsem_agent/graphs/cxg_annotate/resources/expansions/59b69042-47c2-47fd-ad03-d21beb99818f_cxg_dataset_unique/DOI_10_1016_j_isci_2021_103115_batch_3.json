@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CD4+ Tcm",
+    "full_name": "CD4+ Central Memory T cell",
+    "paper_synonyms": "CD4+ TCM; CD4+ Central Memory T cell",
+    "tissue_context": "peripheral blood mononuclear cell (PBMC)"
+  },
+  {
+    "name": "Treg",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "RBC",
+    "full_name": "red blood cell",
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "B intermediate",
+    "full_name": "intermediate B cell",
+    "paper_synonyms": null,
+    "tissue_context": "peripheral blood mononuclear cell (PBMC)"
+  },
+  {
+    "name": "CD4+ T activated",
+    "full_name": "CD4+ activated T cell",
+    "paper_synonyms": "activated T cells",
+    "tissue_context": null
+  }
+]

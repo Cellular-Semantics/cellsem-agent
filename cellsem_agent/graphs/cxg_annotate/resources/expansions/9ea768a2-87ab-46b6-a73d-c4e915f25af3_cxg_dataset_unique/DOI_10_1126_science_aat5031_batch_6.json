@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Principal cell",
+    "full_name": "principal cell",
+    "paper_synonyms": "PC",
+    "tissue_context": "mature human kidneys; collecting duct"
+  },
+  {
+    "name": "Plasmacytoid dendritic cell",
+    "full_name": "plasmacytoid dendritic cell",
+    "paper_synonyms": "pDC",
+    "tissue_context": "mature kidney; fetal kidney"
+  },
+  {
+    "name": "Mast cell",
+    "full_name": "mast cell",
+    "paper_synonyms": "Mast",
+    "tissue_context": "mature kidney; fetal kidney"
+  },
+  {
+    "name": "Peritubular capillary endothelium",
+    "full_name": "peritubular capillary endothelium",
+    "paper_synonyms": "PCE",
+    "tissue_context": "human kidney; peritubular capillaries"
+  },
+  {
+    "name": "Intercalated cell",
+    "full_name": "intercalated cells (IC)",
+    "paper_synonyms": "IC; IC (A+B); type A and B intercalated cells",
+    "tissue_context": "mature human kidneys; collecting duct"
+  }
+]

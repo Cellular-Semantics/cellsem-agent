@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Mac--B-Doublet",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "MatB--RBC",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "CD4T--RBC-Doublet",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "cNK--RBC-Doublet",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  },
+  {
+    "name": "NKT",
+    "full_name": null,
+    "paper_synonyms": null,
+    "tissue_context": null
+  }
+]

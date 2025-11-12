@@ -1,0 +1,32 @@
+[
+  {
+    "name": "IMM",
+    "full_name": "immune cell",
+    "paper_synonyms": null,
+    "tissue_context": "cortex; medulla"
+  },
+  {
+    "name": "CNT",
+    "full_name": "connecting tubule",
+    "paper_synonyms": null,
+    "tissue_context": "cortex; cortical distal nephrons"
+  },
+  {
+    "name": "DCT",
+    "full_name": "distal convoluted tubule",
+    "paper_synonyms": null,
+    "tissue_context": "cortex; cortical distal nephrons"
+  },
+  {
+    "name": "VSM/P",
+    "full_name": "vascular smooth muscle cell or pericyte",
+    "paper_synonyms": "VSMC",
+    "tissue_context": "afferent/efferent arterioles; renal corpuscle"
+  },
+  {
+    "name": "NEU",
+    "full_name": "neuronal cell",
+    "paper_synonyms": "SCI/NEU; Schwann/neuronal",
+    "tissue_context": null
+  }
+]

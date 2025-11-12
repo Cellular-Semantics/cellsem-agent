@@ -1,0 +1,14 @@
+[
+  {
+    "name": "K_Epi-TA",
+    "full_name": "corneal epithelium transit amplifying cell",
+    "paper_synonyms": "TA; transit amplifying cells",
+    "tissue_context": "central cornea; corneal epithelium; basal cell layer"
+  },
+  {
+    "name": "Immune",
+    "full_name": "immune cells",
+    "paper_synonyms": "",
+    "tissue_context": "central cornea; iris stroma; ciliary body"
+  }
+]
