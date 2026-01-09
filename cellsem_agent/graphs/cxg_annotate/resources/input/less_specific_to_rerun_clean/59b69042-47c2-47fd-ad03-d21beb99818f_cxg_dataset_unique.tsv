@@ -1,0 +1,11 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+CD16+ Monocyte	non-classical monocyte	CL:0000875	DOI:10.1016/j.isci.2021.103115	59b69042-47c2-47fd-ad03-d21beb99818f_cxg_dataset_unique
+CD4+ T activated	activated CD4-positive, alpha-beta T cell, human	CL:0001043	DOI:10.1016/j.isci.2021.103115	59b69042-47c2-47fd-ad03-d21beb99818f_cxg_dataset_unique
+CD8+ T activated	activated CD8-positive, alpha-beta T cell, human	CL:0001049	DOI:10.1016/j.isci.2021.103115	59b69042-47c2-47fd-ad03-d21beb99818f_cxg_dataset_unique
+HSPC	hematopoietic stem cell	CL:0000037	DOI:10.1016/j.isci.2021.103115	59b69042-47c2-47fd-ad03-d21beb99818f_cxg_dataset_unique
+Hematopoietic_R	erythrocyte	CL:0000232	DOI:10.1016/j.isci.2021.103115	59b69042-47c2-47fd-ad03-d21beb99818f_cxg_dataset_unique
+Hematopoietic_SC	hematopoietic stem cell	CL:0000037	DOI:10.1016/j.isci.2021.103115	59b69042-47c2-47fd-ad03-d21beb99818f_cxg_dataset_unique
+Lymphoid_P	plasmablast	CL:0000980	DOI:10.1016/j.isci.2021.103115	59b69042-47c2-47fd-ad03-d21beb99818f_cxg_dataset_unique
+pDC	plasmacytoid dendritic cell, human	CL:0001058	DOI:10.1016/j.isci.2021.103115	59b69042-47c2-47fd-ad03-d21beb99818f_cxg_dataset_unique
+CD14+ Monocyte	classical monocyte	CL:0000860	DOI:10.1016/j.isci.2021.103115	59b69042-47c2-47fd-ad03-d21beb99818f_cxg_dataset_unique
+Hematopoietic_Mega	platelet	CL:0000233	DOI:10.1016/j.isci.2021.103115	59b69042-47c2-47fd-ad03-d21beb99818f_cxg_dataset_unique

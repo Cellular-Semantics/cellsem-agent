@@ -1,0 +1,5 @@
+annotation_text	cl_id	cl_label	article_id_doi	dataset_name	enrichment	grounding_cl_id	grounding_cl_label
+EpSC and undiff. progenitors	CL:1000428	stem cell of epidermis	DOI:10.1038/s42003-020-0922-4	124744b8-4681-474a-9894-683896122708_cxg_dataset_unique	{'name': 'EpSC and undiff. progenitors', 'full_name': '', 'paper_synonyms': '', 'tissue_context': ''}	CL:1000428	stem cell of epidermis
+Macrophages+DC	CL:0000235	macrophage	DOI:10.1038/s42003-020-0922-4	124744b8-4681-474a-9894-683896122708_cxg_dataset_unique	{'name': 'Macrophages+DC', 'full_name': '', 'paper_synonyms': '', 'tissue_context': ''}	CL:0000113	mononuclear phagocyte
+Mesenchymal fibroblasts	CL:0002620	skin fibroblast	DOI:10.1038/s42003-020-0922-4	124744b8-4681-474a-9894-683896122708_cxg_dataset_unique	{'name': 'Mesenchymal fibroblasts', 'full_name': '', 'paper_synonyms': '', 'tissue_context': ''}	CL:0000057	fibroblast
+Pro-inflammatory fibroblasts	CL:0002620	skin fibroblast	DOI:10.1038/s42003-020-0922-4	124744b8-4681-474a-9894-683896122708_cxg_dataset_unique	{'name': 'Pro-inflammatory fibroblasts', 'full_name': '', 'paper_synonyms': '', 'tissue_context': ''}	CL:0000057	fibroblast

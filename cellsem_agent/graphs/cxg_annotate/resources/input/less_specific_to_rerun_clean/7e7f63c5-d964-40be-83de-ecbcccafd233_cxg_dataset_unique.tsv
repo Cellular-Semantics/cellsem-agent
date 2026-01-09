@@ -1,0 +1,5 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+CdBC_01	ON-bipolar cell	CL:0000749	DOI:10.1016/j.cell.2020.08.013	7e7f63c5-d964-40be-83de-ecbcccafd233_cxg_dataset_unique
+CdBC_02	ON-bipolar cell	CL:0000749	DOI:10.1016/j.cell.2020.08.013	7e7f63c5-d964-40be-83de-ecbcccafd233_cxg_dataset_unique
+pigmented	retinal pigment epithelial cell	CL:0002586	DOI:10.1016/j.cell.2020.08.013	7e7f63c5-d964-40be-83de-ecbcccafd233_cxg_dataset_unique
+RBC	rod bipolar cell	CL:0000751	DOI:10.1016/j.cell.2020.08.013	7e7f63c5-d964-40be-83de-ecbcccafd233_cxg_dataset_unique

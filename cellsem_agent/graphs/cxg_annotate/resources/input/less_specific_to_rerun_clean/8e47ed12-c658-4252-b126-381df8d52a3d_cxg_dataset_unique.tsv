@@ -1,0 +1,7 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Activated T	activated CD4-positive, alpha-beta T cell, human	CL:0001043	DOI:10.1016/j.devcel.2020.11.010	8e47ed12-c658-4252-b126-381df8d52a3d_cxg_dataset_unique
+Goblet cell	intestine goblet cell	CL:0019031	DOI:10.1016/j.devcel.2020.11.010	8e47ed12-c658-4252-b126-381df8d52a3d_cxg_dataset_unique
+Tuft	intestinal tuft cell	CL:0019032	DOI:10.1016/j.devcel.2020.11.010	8e47ed12-c658-4252-b126-381df8d52a3d_cxg_dataset_unique
+activated DC	dendritic cell, human	CL:0001056	DOI:10.1016/j.devcel.2020.11.010	8e47ed12-c658-4252-b126-381df8d52a3d_cxg_dataset_unique
+Macrophage	glial cell	CL:0000125	DOI:10.1016/j.devcel.2020.11.010	8e47ed12-c658-4252-b126-381df8d52a3d_cxg_dataset_unique
+Paneth cell	glial cell	CL:0000125	DOI:10.1016/j.devcel.2020.11.010	8e47ed12-c658-4252-b126-381df8d52a3d_cxg_dataset_unique

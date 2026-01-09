@@ -1,0 +1,4 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+acinar	pancreatic acinar cell	CL:0002064	DOI:10.1038/s42255-022-00531-x	37b21763-7f0f-41ae-9001-60bad6e2841d_cxg_dataset_unique
+acinar_minor_mhcclassII	pancreatic acinar cell	CL:0002064	DOI:10.1038/s42255-022-00531-x	37b21763-7f0f-41ae-9001-60bad6e2841d_cxg_dataset_unique
+duct_acinar_related	pancreatic ductal cell	CL:0002079	DOI:10.1038/s42255-022-00531-x	37b21763-7f0f-41ae-9001-60bad6e2841d_cxg_dataset_unique

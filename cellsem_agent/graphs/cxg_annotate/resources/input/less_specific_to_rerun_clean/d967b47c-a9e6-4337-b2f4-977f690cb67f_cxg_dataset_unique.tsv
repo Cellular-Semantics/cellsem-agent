@@ -1,0 +1,6 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+K_Epi-Basal	basal cell	CL:0000646	DOI:10.1073/pnas.2200914119	d967b47c-a9e6-4337-b2f4-977f690cb67f_cxg_dataset_unique
+Limbal_Epi-Basal	basal cell	CL:0000646	DOI:10.1073/pnas.2200914119	d967b47c-a9e6-4337-b2f4-977f690cb67f_cxg_dataset_unique
+Limbal_Epi-Superficial	basal cell	CL:0000646	DOI:10.1073/pnas.2200914119	d967b47c-a9e6-4337-b2f4-977f690cb67f_cxg_dataset_unique
+Limbal_Epi-Wing	basal cell	CL:0000646	DOI:10.1073/pnas.2200914119	d967b47c-a9e6-4337-b2f4-977f690cb67f_cxg_dataset_unique
+TM_Fibro	fibroblast	CL:0000057	DOI:10.1073/pnas.2200914119	d967b47c-a9e6-4337-b2f4-977f690cb67f_cxg_dataset_unique

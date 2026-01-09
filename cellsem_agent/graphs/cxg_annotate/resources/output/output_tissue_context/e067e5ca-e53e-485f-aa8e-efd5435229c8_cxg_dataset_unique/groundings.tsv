@@ -1,0 +1,2 @@
+annotation_text	cl_id	cl_label	article_id_doi	dataset_name	enrichment	grounding_cl_id	grounding_cl_label	result
+PT	CL:0002306	epithelial cell of proximal tubule	DOI:10.1038/s41467-022-32972-z	e067e5ca-e53e-485f-aa8e-efd5435229c8_cxg_dataset_unique	{'name': 'PT', 'full_name': None, 'paper_synonyms': None, 'tissue_context': 'proximal tubule; kidney'}	CL:0002306	epithelial cell of proximal tubule	TRUE

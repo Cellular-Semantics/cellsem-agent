@@ -1,0 +1,12 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+C_EEC	enteroendocrine cell of colon	CL:0009042	DOI:10.1016/j.jcmgh.2022.02.007	019c7af2-c827-4454-9970-44d5e39ce068_cxg_dataset_unique
+C_ISC	intestinal crypt stem cell of colon	CL:0009043	DOI:10.1016/j.jcmgh.2022.02.007	019c7af2-c827-4454-9970-44d5e39ce068_cxg_dataset_unique
+C_TA	transit amplifying cell of colon	CL:0009011	DOI:10.1016/j.jcmgh.2022.02.007	019c7af2-c827-4454-9970-44d5e39ce068_cxg_dataset_unique
+C_goblet	colon goblet cell	CL:0009039	DOI:10.1016/j.jcmgh.2022.02.007	019c7af2-c827-4454-9970-44d5e39ce068_cxg_dataset_unique
+C_tuft	tuft cell of colon	CL:0009041	DOI:10.1016/j.jcmgh.2022.02.007	019c7af2-c827-4454-9970-44d5e39ce068_cxg_dataset_unique
+paneth	paneth cell of epithelium of small intestine	CL:1000343	DOI:10.1016/j.jcmgh.2022.02.007	019c7af2-c827-4454-9970-44d5e39ce068_cxg_dataset_unique
+C_lateACC	enterocyte of epithelium of large intestine	CL:0002071	DOI:10.1016/j.jcmgh.2022.02.007	019c7af2-c827-4454-9970-44d5e39ce068_cxg_dataset_unique
+C_lateCC	enterocyte of epithelium of large intestine	CL:0002071	DOI:10.1016/j.jcmgh.2022.02.007	019c7af2-c827-4454-9970-44d5e39ce068_cxg_dataset_unique
+FAE	microfold cell of epithelium of small intestine	CL:1000353	DOI:10.1016/j.jcmgh.2022.02.007	019c7af2-c827-4454-9970-44d5e39ce068_cxg_dataset_unique
+SI_FAE	microfold cell of epithelium of small intestine	CL:1000353	DOI:10.1016/j.jcmgh.2022.02.007	019c7af2-c827-4454-9970-44d5e39ce068_cxg_dataset_unique
+SI_earlyAE	enterocyte of epithelium of small intestine	CL:1000334	DOI:10.1016/j.jcmgh.2022.02.007	019c7af2-c827-4454-9970-44d5e39ce068_cxg_dataset_unique
