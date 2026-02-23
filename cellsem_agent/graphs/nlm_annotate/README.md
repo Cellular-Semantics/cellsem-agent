@@ -129,3 +129,70 @@ python cellsem_agent/graphs/nlm_annotate/grounding_statistics.py
 - **Recall**: TP / (TP + FN)
 - **F1 Score**: Harmonic mean of precision and recall
 
+
+## Version Information and Reproducibility
+
+### Cached Results Version
+
+The analysis results cached in `resources/` were generated using:
+
+- **Commit**: `da3a84e` (full hash: `da3a84ed7261ca8ec52ca00e3617e64d8bb82cbe`)
+- **Date**: October 1, 2025 at 14:14:30 +0100
+- **Package version**: 0.0.1
+- **Commit message**: "NLM data annotation full experiment completed"
+- **Author**: hkir-dev
+
+This commit added the full experiment results:
+- 3,601 rows in `cell_type_annotations_un_filtered.tsv`
+- 1,939 rows in `groundings.tsv`
+- Full-text papers and enrichment data in `publications/`
+
+### Comparison to Current Version
+
+**Current HEAD**: `3d0fe66` (November 14, 2025)
+
+**Code Stability** (60 commits between versions):
+- ✅ `nlm_annotate_graph.py` - **No changes**
+- ✅ `paper_celltype_agent.py` - **No changes**
+- ✅ `pubmed_utils.py` - **No changes**
+- ✅ `annotator_agent.py` - 1 blank line removed (cosmetic only)
+- ✅ Agent configuration and tools - **No changes**
+
+**Dependency Changes**:
+- ⚠️ **openai**: 1.109.1 → 2.3.0 (major version bump)
+  - Both agents use OpenAI models
+  - Could potentially affect API interactions or model behavior
+- 🔒 **pydantic-ai**: 0.2.0 (unchanged, now pinned to exact version)
+- Other: aiohttp, anthropic, and various minor dependency updates
+
+**Impact Assessment**:
+- **Low risk**: Python code logic is unchanged; pipeline structure and processing flow are identical
+- **Medium risk**: The OpenAI library major version update could affect API response formats, token counting, or model behavior
+
+### Ensuring Reproducibility
+
+To reproduce the exact cached results:
+
+1. **Checkout the specific commit**:
+   ```bash
+   git checkout da3a84e
+   ```
+
+2. **Install exact dependencies**:
+   ```bash
+   poetry install
+   ```
+
+3. **Set up environment variables** as documented in the Prerequisites section
+
+4. **Run the pipeline** on the same input data (`val_annotations.json`)
+
+### Future Recommendations
+
+For better reproducibility tracking, consider adding to output files:
+- Git commit hash
+- Timestamp of analysis
+- Package version
+- LLM model versions and parameters used
+- Dependency versions (poetry.lock snapshot)
+
