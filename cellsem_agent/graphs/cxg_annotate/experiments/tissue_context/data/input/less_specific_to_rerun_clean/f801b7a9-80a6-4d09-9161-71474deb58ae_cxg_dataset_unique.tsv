@@ -1,0 +1,5 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+AEA-DVR	vasa recta descending limb cell	CL:1001285	DOI:10.1073/pnas.2103240118	f801b7a9-80a6-4d09-9161-71474deb58ae_cxg_dataset_unique
+CNT	kidney collecting duct cell	CL:1001225	DOI:10.1073/pnas.2103240118	f801b7a9-80a6-4d09-9161-71474deb58ae_cxg_dataset_unique
+DL	vasa recta descending limb cell	CL:1001285	DOI:10.1073/pnas.2103240118	f801b7a9-80a6-4d09-9161-71474deb58ae_cxg_dataset_unique
+tAL	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106	DOI:10.1073/pnas.2103240118	f801b7a9-80a6-4d09-9161-71474deb58ae_cxg_dataset_unique

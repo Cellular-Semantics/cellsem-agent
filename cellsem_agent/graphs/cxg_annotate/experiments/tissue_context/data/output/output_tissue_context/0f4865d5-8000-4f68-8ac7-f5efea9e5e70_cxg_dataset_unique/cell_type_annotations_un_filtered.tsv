@@ -1,0 +1,2 @@
+annotation_text	cl_id	cl_label	article_id_doi	dataset_name	enrichment	grounding_cl_id	grounding_cl_label
+Lymphatics	CL:0000542	lymphocyte	DOI:10.1016/j.immuni.2023.01.002	0f4865d5-8000-4f68-8ac7-f5efea9e5e70_cxg_dataset_unique	{'name': 'Lymphatics', 'full_name': '', 'paper_synonyms': '', 'tissue_context': ''}	CL:0002138	endothelial cell of lymphatic vessel

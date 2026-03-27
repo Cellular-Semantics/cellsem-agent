@@ -17,7 +17,7 @@ cell_logger.addHandler(console)
 
 cell_logger.propagate = False
 
-from cellsem_agent.agents.cell.cell_tools import search_cl
+from cellsem_agent.agents.cell.cell_tools import search_cl, get_tissue_context
 from .annotator_config import AnnotatorDependencies
 
 ANNOTATOR_SYSTEM_PROMPT_NEW = """
@@ -46,7 +46,7 @@ ANNOTATOR_SYSTEM_PROMPT_NEW = """
             * **Prioritize a direct match.**
             * **If no direct match is found, be sure to try different combinations of synonyms.** This includes:
                 * Substituting terms in the span with common synonyms of those terms.
-                * Converting between the forms 'X Y' and 'Y of X' where X is a tissue or anatomical structure (potentially inferred from "tissue_context" of the input Json object or common knowledge) and Y is a cell type.
+                * Converting between the forms 'X Y' and 'Y of X' where X is a tissue or anatomical structure (extracted from the "tissue_context" field of the input JSON object or the "input text") and Y is a cell type.
         * **Construct TextAnnotation:** Create a `TextAnnotation` object with the following:
             * `input_name`: The value from the "name" field of the original input JSON object.
             * `text`: The exact text span that was used for the CL search (after pluralization conversion, but before any synonym substitutions used by the `search_cl` tool).
@@ -64,6 +64,8 @@ ANNOTATOR_SYSTEM_PROMPT_NEW = """
         If the input is a generic term, such as a base cell-type concept with no qualifiers (e.g., “myeloid progenitor”) or a single, broad adjective describing a tissue (e.g., “neural”), you must prefer the broader, canonical CL term. For an adjectival input, this is typically the '[adjective] cell' term or its direct synonym (e.g., 'neuron').
         * **Rule 4: Penalize Over-Specific Qualifiers.**
         Down-rank candidate terms that include qualifiers absent from the input, such as lineage restrictions (“lineage restricted”), activation states (“activated”), species (“human”), or protein markers (“CD4-positive”). Only select terms with these qualifiers if the input explicitly justifies that level of specificity.
+        * **Rule 5: Verify Anatomical Context.**
+        If the input text implies a specific location (e.g., "cortical neuron") or the input JSON provides a "tissue_context", use the `get_tissue_context` tool on candidate CL IDs. Prefer candidates where the returned relationships (part_of, has_soma_location) match the required tissue context.
         
     5.  **Assemble and Return TextAnnotationResult:**
         * After processing all text spans (`name`, `full_name`) for a single input JSON object and collecting all resulting `TextAnnotation` objects into `current_annotations`, order current_annotations so that any annotation derived from full_name appears first (if it exists).
@@ -71,7 +73,8 @@ ANNOTATOR_SYSTEM_PROMPT_NEW = """
         * Return this single `TextAnnotationResult` object for the current input JSON object.
 
     You can use different functions to support curators in their tasks:
-    - `search_cl` Search the Cell Ontology for a term.
+    - `search_cl`: Search the Cell Ontology for a term.
+    - `get_tissue_context`: Get anatomical relationships (part_of, has_soma_location) for a CL ID.
 """
 
 ANNOTATOR_SYSTEM_PROMPT = """
@@ -144,3 +147,4 @@ annotator_agent = Agent(
 )
 
 annotator_agent.tool(search_cl)
+annotator_agent.tool(get_tissue_context)

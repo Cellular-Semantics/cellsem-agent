@@ -1,0 +1,2 @@
+annotation_text	cl_id	cl_label	article_id_doi	dataset_name	enrichment	grounding_cl_id	grounding_cl_label	result
+ENDO	CL:1000892	kidney capillary endothelial cell	DOI:10.1038/s41467-021-22368-w	9df60c57-fdf3-4e93-828e-fe9303f20438_cxg_dataset_unique	{'name': 'ENDO', 'full_name': '', 'paper_synonyms': '', 'tissue_context': ''}	CL:0000115	endothelial cell	FALSE

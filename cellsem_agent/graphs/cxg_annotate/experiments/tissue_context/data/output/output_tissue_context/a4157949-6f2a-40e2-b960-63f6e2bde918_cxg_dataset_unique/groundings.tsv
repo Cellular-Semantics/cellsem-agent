@@ -1,0 +1,2 @@
+annotation_text	cl_id	cl_label	article_id_doi	dataset_name	enrichment	grounding_cl_id	grounding_cl_label	result
+K_Epi-Basal	CL:0000646	basal cell	DOI:10.1073/pnas.2200914119	a4157949-6f2a-40e2-b960-63f6e2bde918_cxg_dataset_unique	{'name': 'K_Epi-Basal', 'full_name': 'corneal basal epithelial cells', 'paper_synonyms': None, 'tissue_context': 'central cornea; corneal epithelium'}	CL:0000575	corneal epithelial cell	FALSE

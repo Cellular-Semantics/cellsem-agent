@@ -1,0 +1,12 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+AntiB	plasma cell	CL:0000786	DOI:10.1016/j.jhep.2023.12.023	1873a18a-66fd-4a4d-8277-a872c93f5b59_cxg_dataset_unique
+C-Hepato	centrilobular region hepatocyte	CL:0019029	DOI:10.1016/j.jhep.2023.12.023	1873a18a-66fd-4a4d-8277-a872c93f5b59_cxg_dataset_unique
+C-Hepato2	centrilobular region hepatocyte	CL:0019029	DOI:10.1016/j.jhep.2023.12.023	1873a18a-66fd-4a4d-8277-a872c93f5b59_cxg_dataset_unique
+Chol	intrahepatic cholangiocyte	CL:0002538	DOI:10.1016/j.jhep.2023.12.023	1873a18a-66fd-4a4d-8277-a872c93f5b59_cxg_dataset_unique
+CholMucus	intrahepatic cholangiocyte	CL:0002538	DOI:10.1016/j.jhep.2023.12.023	1873a18a-66fd-4a4d-8277-a872c93f5b59_cxg_dataset_unique
+I-Hepato	midzonal region hepatocyte	CL:0019028	DOI:10.1016/j.jhep.2023.12.023	1873a18a-66fd-4a4d-8277-a872c93f5b59_cxg_dataset_unique
+P-Hepato	periportal region hepatocyte	CL:0019026	DOI:10.1016/j.jhep.2023.12.023	1873a18a-66fd-4a4d-8277-a872c93f5b59_cxg_dataset_unique
+P-Hepato2	periportal region hepatocyte	CL:0019026	DOI:10.1016/j.jhep.2023.12.023	1873a18a-66fd-4a4d-8277-a872c93f5b59_cxg_dataset_unique
+cvEndo	vein endothelial cell	CL:0002543	DOI:10.1016/j.jhep.2023.12.023	1873a18a-66fd-4a4d-8277-a872c93f5b59_cxg_dataset_unique
+cvLSEC	endothelial cell of pericentral hepatic sinusoid	CL:0019022	DOI:10.1016/j.jhep.2023.12.023	1873a18a-66fd-4a4d-8277-a872c93f5b59_cxg_dataset_unique
+lrNK	hepatic pit cell	CL:2000054	DOI:10.1016/j.jhep.2023.12.023	1873a18a-66fd-4a4d-8277-a872c93f5b59_cxg_dataset_unique

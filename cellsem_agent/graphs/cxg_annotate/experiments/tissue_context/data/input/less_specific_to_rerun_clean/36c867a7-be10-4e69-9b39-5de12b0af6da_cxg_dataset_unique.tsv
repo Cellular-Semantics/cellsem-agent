@@ -1,0 +1,8 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Enterocytes	enterocyte of epithelium proper of ileum	CL:1000342	DOI:10.1016/j.cell.2019.08.008	36c867a7-be10-4e69-9b39-5de12b0af6da_cxg_dataset_unique
+Enteroendocrines	enteroendocrine cell of small intestine	CL:0009006	DOI:10.1016/j.cell.2019.08.008	36c867a7-be10-4e69-9b39-5de12b0af6da_cxg_dataset_unique
+Goblets	ileal goblet cell	CL:1000326	DOI:10.1016/j.cell.2019.08.008	36c867a7-be10-4e69-9b39-5de12b0af6da_cxg_dataset_unique
+Paneth cells	paneth cell of epithelium of small intestine	CL:1000343	DOI:10.1016/j.cell.2019.08.008	36c867a7-be10-4e69-9b39-5de12b0af6da_cxg_dataset_unique
+SM	smooth muscle fiber of ileum	CL:1000278	DOI:10.1016/j.cell.2019.08.008	36c867a7-be10-4e69-9b39-5de12b0af6da_cxg_dataset_unique
+T cells	alpha-beta T cell	CL:0000789	DOI:10.1016/j.cell.2019.08.008	36c867a7-be10-4e69-9b39-5de12b0af6da_cxg_dataset_unique
+TA	transit amplifying cell of small intestine	CL:0009012	DOI:10.1016/j.cell.2019.08.008	36c867a7-be10-4e69-9b39-5de12b0af6da_cxg_dataset_unique

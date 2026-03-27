@@ -1,0 +1,2 @@
+annotation_text	cl_id	cl_label	article_id_doi	dataset_name	enrichment	grounding_cl_id	grounding_cl_label	result
+Epithelial Cycling cells	CL:0000066	epithelial cell	DOI:10.1016/j.immuni.2023.01.002	fe4b89d5-461e-440c-a5a8-621b37b122c0_cxg_dataset_unique	{'name': 'Epithelial Cycling cells', 'full_name': '', 'paper_synonyms': '', 'tissue_context': ''}	CL:0000066	epithelial cell	TRUE

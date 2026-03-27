@@ -1,0 +1,5 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+Macrophages+DC	macrophage	CL:0000235	DOI:10.1038/s42003-020-0922-4	124744b8-4681-474a-9894-683896122708_cxg_dataset_unique
+Mesenchymal fibroblasts	skin fibroblast	CL:0002620	DOI:10.1038/s42003-020-0922-4	124744b8-4681-474a-9894-683896122708_cxg_dataset_unique
+Pro-inflammatory fibroblasts	skin fibroblast	CL:0002620	DOI:10.1038/s42003-020-0922-4	124744b8-4681-474a-9894-683896122708_cxg_dataset_unique
+EpSC and undiff. progenitors	stem cell of epidermis	CL:1000428	DOI:10.1038/s42003-020-0922-4	124744b8-4681-474a-9894-683896122708_cxg_dataset_unique

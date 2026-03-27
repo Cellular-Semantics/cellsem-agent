@@ -1,0 +1,5 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+astrocyte	retinal astrocyte	CL:4033015	DOI:10.1093/hmg/ddab140	f5be9ed2-5d41-4a52-91e4-4ff24ff84900_cxg_dataset_unique
+endothelial	retinal blood vessel endothelial cell	CL:0002585	DOI:10.1093/hmg/ddab140	f5be9ed2-5d41-4a52-91e4-4ff24ff84900_cxg_dataset_unique
+cone-off-BC	cone retinal bipolar cell	CL:0000752	DOI:10.1093/hmg/ddab140	f5be9ed2-5d41-4a52-91e4-4ff24ff84900_cxg_dataset_unique
+cone-on-BC	cone retinal bipolar cell	CL:0000752	DOI:10.1093/hmg/ddab140	f5be9ed2-5d41-4a52-91e4-4ff24ff84900_cxg_dataset_unique

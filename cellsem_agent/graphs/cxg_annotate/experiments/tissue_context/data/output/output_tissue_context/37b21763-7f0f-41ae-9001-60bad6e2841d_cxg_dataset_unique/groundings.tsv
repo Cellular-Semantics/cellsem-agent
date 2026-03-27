@@ -1,0 +1,4 @@
+annotation_text	cl_id	cl_label	article_id_doi	dataset_name	enrichment	grounding_cl_id	grounding_cl_label	result
+acinar	CL:0002064	pancreatic acinar cell	DOI:10.1038/s42255-022-00531-x	37b21763-7f0f-41ae-9001-60bad6e2841d_cxg_dataset_unique	{'name': 'acinar', 'full_name': '', 'paper_synonyms': '', 'tissue_context': ''}	CL:0000622	acinar cell	FALSE
+acinar_minor_mhcclassII	CL:0002064	pancreatic acinar cell	DOI:10.1038/s42255-022-00531-x	37b21763-7f0f-41ae-9001-60bad6e2841d_cxg_dataset_unique	{'name': 'acinar_minor_mhcclassII', 'full_name': '', 'paper_synonyms': '', 'tissue_context': ''}	CL:0000622	acinar cell	FALSE
+duct_acinar_related	CL:0002079	pancreatic ductal cell	DOI:10.1038/s42255-022-00531-x	37b21763-7f0f-41ae-9001-60bad6e2841d_cxg_dataset_unique	{'name': 'duct_acinar_related', 'full_name': '', 'paper_synonyms': '', 'tissue_context': ''}	CL:0000152	exocrine cell	FALSE

@@ -1,0 +1,5 @@
+author_cell_type	CL_label	CL_ID	reference	dataset_version
+retinal bipolar neuron type A	ON-bipolar cell	CL:0000749	DOI:10.15252/embj.2018100811	d5c67a4e-a8d9-456d-a273-fa01adb1b308_cxg_dataset_unique
+retinal bipolar neuron type B	OFF-bipolar cell	CL:0000750	DOI:10.15252/embj.2018100811	d5c67a4e-a8d9-456d-a273-fa01adb1b308_cxg_dataset_unique
+retinal bipolar neuron type C	ON-bipolar cell	CL:0000749	DOI:10.15252/embj.2018100811	d5c67a4e-a8d9-456d-a273-fa01adb1b308_cxg_dataset_unique
+retinal bipolar neuron type D	ON-bipolar cell	CL:0000749	DOI:10.15252/embj.2018100811	d5c67a4e-a8d9-456d-a273-fa01adb1b308_cxg_dataset_unique
