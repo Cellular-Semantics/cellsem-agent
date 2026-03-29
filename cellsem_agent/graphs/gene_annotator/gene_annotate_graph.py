@@ -8,7 +8,7 @@
 import asyncio
 import os.path
 import json
-from typing import Any
+from typing import Any, Optional
 import pandas as pd
 
 import logfire
@@ -36,10 +36,8 @@ logfire.configure()
 IS_TEST_MODE = False
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATASETS_DIR = os.path.join(CURRENT_DIR, "../../", "services/gene_list_contextual_deepsearch/examples")
-OUTPUT_DIR = os.path.join(CURRENT_DIR, "output")
-OUTPUT_DS_DIR = os.path.join(OUTPUT_DIR, "deepsearch")
-OUTPUT_ANNOT_DIR = os.path.join(OUTPUT_DIR, "mappings")
+DEFAULT_DATASETS_DIR = os.path.join(CURRENT_DIR, "../../", "services/gene_list_contextual_deepsearch/examples")
+DEFAULT_OUTPUT_DIR = os.path.join(CURRENT_DIR, "output")
 
 @dataclass
 class GeneData:
@@ -55,16 +53,24 @@ class GeneData:
 class State:
     gene_data: list[GeneData]
     is_test_mode: bool = IS_TEST_MODE
+    datasets_dir: str = DEFAULT_DATASETS_DIR
+    output_dir: str = DEFAULT_OUTPUT_DIR
+    skip_deepsearch: bool = False
+    deepsearch_model: Optional[str] = None
 
 @dataclass
 class AnnotateData(BaseNode[State, None, str]):
 
     async def run(self, ctx: GraphRunContext[State]) -> End:
-        os.makedirs(OUTPUT_ANNOT_DIR, exist_ok=True)
+        output_dir = ctx.state.output_dir
+        output_annot_dir = os.path.join(output_dir, "mappings")
+        os.makedirs(output_dir, exist_ok=True)
+        os.makedirs(output_annot_dir, exist_ok=True)
 
+        mapping_targets = []
         gene_data = ctx.state.gene_data
         for j in gene_data:
-            output_file = os.path.join(OUTPUT_DIR, j.file_name.replace(".json", "_result.json"))
+            output_file = os.path.join(output_dir, j.file_name.replace(".json", "_result.json"))
             # don't re-run existing results for cost reasons
             if not os.path.exists(output_file):
                 print("Ontology mapping for file: ", j.file_name)
@@ -77,15 +83,17 @@ class AnnotateData(BaseNode[State, None, str]):
                         await self.annotate_properties(program["atomic_biological_processes"], all_mappings)
                         await self.annotate_properties(program["atomic_cellular_components"], all_mappings)
                         iteration += 1
-                    await self.save_all_mappings(all_mappings, output_file)
+                    mapping_targets.append((all_mappings, output_file, output_annot_dir))
                 else:
                     print("No decompose result to annotate for file: ", j.file_name)
                 await write_json(j.deep_search_result, output_file)
+        for all_mappings, output_file, mapping_dir in mapping_targets:
+            await self.save_all_mappings(all_mappings, output_file, mapping_dir)
         return End("Results saved to the output folder.")
 
-    async def save_all_mappings(self, all_mappings: list[Any], output_file: str):
+    async def save_all_mappings(self, all_mappings: list[Any], output_file: str, mapping_dir: str):
         file_name = os.path.basename(output_file).replace(".json", ".csv")
-        mapping_file = os.path.join(OUTPUT_ANNOT_DIR, file_name)
+        mapping_file = os.path.join(mapping_dir, file_name)
         df = pd.DataFrame(all_mappings)
         df.to_csv(mapping_file, index=False)
 
@@ -159,13 +167,22 @@ class DeepSearchGene(BaseNode[State, None, str]):
 
     async def run(self, ctx: GraphRunContext[State]) -> AnnotateData:
         gene_data = ctx.state.gene_data
-        os.makedirs(OUTPUT_DS_DIR, exist_ok=True)
+        output_dir = ctx.state.output_dir
+        output_ds_dir = os.path.join(output_dir, "deepsearch")
+        os.makedirs(output_dir, exist_ok=True)
+        os.makedirs(output_ds_dir, exist_ok=True)
+        skip_deepsearch = ctx.state.skip_deepsearch
+        model = ctx.state.deepsearch_model
 
         for j in gene_data:
-            output_file = os.path.join(OUTPUT_DS_DIR, j.file_name.replace(".json", "_ds.json"))
+            output_file = os.path.join(output_ds_dir, j.file_name.replace(".json", "_ds.json"))
             if not os.path.exists(output_file):
+                if skip_deepsearch:
+                    raise FileNotFoundError(
+                        f"DeepSearch cache missing for {j.file_name}. Run a full pipeline first or remove --stage annotate-only."
+                    )
                 print("Deep searching for genes in file: ", j.file_name)
-                result = run_contextual_deepsearch(gene_list=','.join(j.genes), context=j.context)
+                result = run_contextual_deepsearch(gene_list=','.join(j.genes), context=j.context, model=model)
                 if result:
                     print("Deep search result obtained for file: ", j.file_name)
                     result = result.replace("```json", "").replace("```", "").strip()
@@ -186,10 +203,13 @@ class DeepSearchGene(BaseNode[State, None, str]):
 class ReadGeneData(BaseNode[State, None, str]):
 
     async def run(self, ctx: GraphRunContext[State]) -> DeepSearchGene:
+        datasets_dir = ctx.state.datasets_dir
+        if not os.path.isdir(datasets_dir):
+            raise FileNotFoundError(f"Datasets directory not found: {datasets_dir}")
         # iterate the json files in the examples folder and read them into the state
-        for file in os.listdir(DATASETS_DIR):
+        for file in os.listdir(datasets_dir):
             if file.endswith(".json"):
-                file_path = os.path.join(DATASETS_DIR, file)
+                file_path = os.path.join(datasets_dir, file)
                 with open(file_path, "r") as f:
                     data = json.load(f)
 
@@ -229,11 +249,29 @@ async def write_json(data: Any, output_file: str):
     with open(output_file, "w") as f:
         json.dump(data, f, indent=4)
 
-async def main():
-    state = State(list(), is_test_mode=IS_TEST_MODE)
+async def run_gene_annotation_workflow(
+    *,
+    datasets_dir: Optional[str] = None,
+    output_dir: Optional[str] = None,
+    is_test_mode: bool = IS_TEST_MODE,
+    skip_deepsearch: bool = False,
+    deepsearch_model: Optional[str] = None,
+) -> str:
+    state = State(
+        list(),
+        is_test_mode=is_test_mode,
+        datasets_dir=os.path.abspath(datasets_dir or DEFAULT_DATASETS_DIR),
+        output_dir=os.path.abspath(output_dir or DEFAULT_OUTPUT_DIR),
+        skip_deepsearch=skip_deepsearch,
+        deepsearch_model=deepsearch_model,
+    )
     validation_graph = Graph(nodes=(ReadGeneData, DeepSearchGene, AnnotateData))
     result = await validation_graph.run(ReadGeneData(), state=state)
-    print(result.output)
+    return result.output
+
+async def main():
+    output = await run_gene_annotation_workflow()
+    print(output)
     # print(validation_graph.mermaid_code())
 
 if __name__ == "__main__":

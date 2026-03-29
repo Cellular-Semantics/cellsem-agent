@@ -1,609 +1,325 @@
 #!/usr/bin/env python3
 """
-Modern CLI for Gene List Annotation Workflow
+CLI entry point for running the Gene Annotator workflow.
 
-This provides a clean, extensible command-line interface for the gene list annotation
-system that could serve as a model for future CLI architecture.
+This utility now targets the dataset-driven pipeline implemented in
+`cellsem_agent.graphs.gene_annotator.gene_annotate_graph`. It can run the
+entire DeepSearch→annotation workflow or re-run just the final ontology
+mapping stage (using cached DeepSearch outputs).
 """
+
 import asyncio
 import json
 import os
 import sys
 from pathlib import Path
-from typing import List, Dict, Any, Optional
+from typing import Optional
 
 import click
 from dotenv import load_dotenv
 
-# Conditional import with mock fallback to handle dependency issues
 try:
-    from cellsem_agent.graphs.gene_list_annotation.gene_list_annotation_graph import run_gene_annotation_workflow
+    from cellsem_agent.graphs.gene_annotator.gene_annotate_graph import (
+        DEFAULT_DATASETS_DIR,
+        DEFAULT_OUTPUT_DIR,
+        run_gene_annotation_workflow,
+    )
+
     WORKFLOW_AVAILABLE = True
-except ImportError as e:
+    WORKFLOW_IMPORT_ERROR = ""
+except ImportError as exc:
     WORKFLOW_AVAILABLE = False
-    IMPORT_ERROR = str(e)
+    WORKFLOW_IMPORT_ERROR = str(exc)
+    BASE_DIR = Path(__file__).parent
+    DEFAULT_DATASETS_DIR = BASE_DIR / "cellsem_agent" / "services" / "gene_list_contextual_deepsearch" / "examples"
+    DEFAULT_OUTPUT_DIR = BASE_DIR / "cellsem_agent" / "graphs" / "gene_annotator" / "output"
 
-    # Mock function for testing CLI without dependencies
-    async def run_gene_annotation_workflow(
-        gene_list,
-        context_description,
-        output_schema_example=None,
-        is_test_mode=False,
-        deep_search_timeout=300
-    ):
-        return f"[MOCK MODE] Would analyze {len(gene_list)} genes: {', '.join(gene_list[:3])}... with context: {context_description[:50]}... (timeout: {deep_search_timeout}s)"
+    async def run_gene_annotation_workflow(**_: object) -> str:  # type: ignore[override]
+        return "[MOCK MODE] Gene annotator graph is unavailable (import error)."
 
+try:
+    from cellsem_agent.services.gene_list_contextual_deepsearch.gene_list_contextual_deepsearch import (
+        build_deepsearch_prompt,
+    )
 
-# Version and metadata
-__version__ = "0.1.0"
+    PROMPT_BUILDER_AVAILABLE = True
+    PROMPT_IMPORT_ERROR = ""
+except ImportError as exc:
+    PROMPT_BUILDER_AVAILABLE = False
+    PROMPT_IMPORT_ERROR = str(exc)
+    def build_deepsearch_prompt(*args, **kwargs):  # type: ignore[override]
+        raise RuntimeError("DeepSearch prompt builder unavailable")
 
-# Default example datasets
-EXAMPLE_DATASETS = {
-    "dna_repair": {
-        "genes": ["BRCA1", "BRCA2", "TP53", "ATM", "CHEK2", "PALB2", "RAD51", "BARD1", "NBN"],
-        "context": "DNA damage response and repair in breast cancer susceptibility",
-        "description": "DNA repair genes associated with hereditary breast cancer"
-    },
-    "neuronal_dev": {
-        "genes": ["NEUROD1", "NEUROG2", "ASCL1", "HES1", "NOTCH1", "SOX2", "PAX6", "TBR2"],
-        "context": "Neuronal differentiation and cortical development",
-        "description": "Transcription factors controlling neurogenesis"
-    },
-    "immune_response": {
-        "genes": ["TNF", "IL6", "IFNG", "TLR4", "MYD88", "STAT3", "NFKB1", "IRF3"],
-        "context": "Innate immune response to bacterial pathogens",
-        "description": "Key mediators of inflammatory and immune responses"
-    },
-    "metabolism": {
-        "genes": ["PPARG", "SREBF1", "ACACA", "FASN", "SCD", "FABP4", "ADIPOQ", "LEP"],
-        "context": "Adipocyte differentiation and lipid metabolism",
-        "description": "Regulators of fat cell development and metabolic function"
-    }
-}
+__version__ = "0.2.0"
+STAGE_CHOICES = ("full", "annotate-only")
 
 
 class GeneAnnotationCLI:
-    """Clean, modular CLI for gene list annotation."""
+    """Thin wrapper that validates paths and invokes the async workflow."""
 
-    def __init__(self):
-        self.output_dir = Path("./gene_annotation_output")
-        self.examples_dir = Path(__file__).parent / "cellsem_agent" / "graphs" / "gene_list_annotation" / "examples"
-
-    def ensure_output_dir(self):
-        """Ensure output directory exists."""
-        self.output_dir.mkdir(exist_ok=True)
-
-    def load_gene_list_from_file(self, filepath: str, verbose: bool = False) -> List[str]:
-        """Load gene list from various file formats."""
-        path = Path(filepath)
-
-        if verbose:
-            click.echo(f"🔍 Loading gene list from: {filepath}")
-
-        if not path.exists():
-            raise click.FileError(f"Gene list file not found: {filepath}")
-
-        try:
-            if path.suffix.lower() == '.json':
-                if verbose:
-                    click.echo(f"  📄 Parsing as JSON file")
-                with open(path, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    if isinstance(data, list):
-                        if verbose:
-                            click.echo(f"  ✅ Found gene list with {len(data)} entries")
-                        return data
-                    elif isinstance(data, dict) and 'genes' in data:
-                        if verbose:
-                            click.echo(f"  ✅ Found 'genes' key with {len(data['genes'])} entries")
-                        return data['genes']
-                    elif isinstance(data, dict) and 'gene_list' in data:
-                        if verbose:
-                            click.echo(f"  ✅ Found 'gene_list' key with {len(data['gene_list'])} entries")
-                        return data['gene_list']
-                    elif isinstance(data, dict) and 'gene_symbols' in data:
-                        if verbose:
-                            click.echo(f"  ✅ Found 'gene_symbols' key with {len(data['gene_symbols'])} entries")
-                        return data['gene_symbols']
-                    else:
-                        if verbose:
-                            click.echo(f"  ❌ JSON structure not recognized. Keys: {list(data.keys()) if isinstance(data, dict) else 'not a dict'}")
-                        raise click.BadParameter(f"JSON gene file must contain a list of genes or dict with 'genes'/'gene_list'/'gene_symbols' key. File: {filepath}")
-
-            elif path.suffix.lower() in ['.txt', '.csv', '.tsv']:
-                if verbose:
-                    click.echo(f"  📄 Parsing as {path.suffix.upper()} file")
-
-                with open(path, 'r', encoding='utf-8') as f:
-                    genes = []
-                    line_count = 0
-                    for line_num, line in enumerate(f, 1):
-                        line = line.strip()
-                        if line and not line.startswith('#') and not line.startswith('//'):
-                            line_count += 1
-                            # Handle CSV/TSV format
-                            if ',' in line:
-                                line_genes = [g.strip() for g in line.split(',') if g.strip()]
-                                genes.extend(line_genes)
-                                if verbose and line_count <= 3:
-                                    click.echo(f"    Line {line_num}: Found {len(line_genes)} genes (comma-separated)")
-                            elif '\t' in line:
-                                line_genes = [g.strip() for g in line.split('\t') if g.strip()]
-                                genes.extend(line_genes)
-                                if verbose and line_count <= 3:
-                                    click.echo(f"    Line {line_num}: Found {len(line_genes)} genes (tab-separated)")
-                            elif ' ' in line and not line.count(' ') > 10:  # Likely space-separated, not description
-                                line_genes = [g.strip() for g in line.split() if g.strip()]
-                                genes.extend(line_genes)
-                                if verbose and line_count <= 3:
-                                    click.echo(f"    Line {line_num}: Found {len(line_genes)} genes (space-separated)")
-                            else:
-                                genes.append(line)
-                                if verbose and line_count <= 3:
-                                    click.echo(f"    Line {line_num}: Single gene: {line}")
-
-                    if verbose:
-                        click.echo(f"  ✅ Processed {line_count} lines, found {len(genes)} genes total")
-
-                    if not genes:
-                        raise click.BadParameter(f"No genes found in file: {filepath}")
-
-                    return genes
-
-            else:
-                raise click.BadParameter(f"Unsupported gene file format: {path.suffix}. Supported: .json, .txt, .csv, .tsv. File: {filepath}")
-
-        except json.JSONDecodeError as e:
-            raise click.BadParameter(f"Invalid JSON in gene file {filepath}: {str(e)}")
-        except UnicodeDecodeError as e:
-            raise click.BadParameter(f"Unable to read gene file {filepath} - encoding issue: {str(e)}")
-        except Exception as e:
-            raise click.BadParameter(f"Error reading gene file {filepath}: {str(e)}")
-
-    def load_context_from_file(self, filepath: str, verbose: bool = False) -> str:
-        """Load context description from a text file."""
-        path = Path(filepath)
-
-        if verbose:
-            click.echo(f"🔍 Loading context from: {filepath}")
-
-        if not path.exists():
-            raise click.FileError(f"Context file not found: {filepath}")
-
-        try:
-            with open(path, 'r', encoding='utf-8') as f:
-                content = f.read().strip()
-
-            if verbose:
-                click.echo(f"  📄 Read {len(content)} characters")
-                if content:
-                    preview = content[:100] + "..." if len(content) > 100 else content
-                    click.echo(f"  📝 Preview: {preview}")
-
-            if not content:
-                raise click.BadParameter(f"Context file is empty: {filepath}")
-
-            if verbose:
-                click.echo(f"  ✅ Context loaded successfully")
-
-            return content
-
-        except UnicodeDecodeError as e:
-            raise click.BadParameter(f"Unable to read context file {filepath} - encoding issue: {str(e)}")
-        except Exception as e:
-            raise click.BadParameter(f"Error reading context file {filepath}: {str(e)}")
-
-    def load_combined_input_file(self, filepath: str) -> Dict[str, Any]:
-        """Load combined input file containing genes, context, and optional schema."""
-        path = Path(filepath)
-
-        if not path.exists():
-            raise click.FileError(f"File not found: {filepath}")
-
-        if path.suffix.lower() == '.json':
-            with open(path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-
-            result = {}
-
-            # Extract genes
-            if 'genes' in data:
-                result['genes'] = data['genes']
-            elif 'gene_list' in data:
-                result['genes'] = data['gene_list']
-            elif 'gene_symbols' in data:
-                result['genes'] = data['gene_symbols']
-            else:
-                raise click.BadParameter("Combined file must contain 'genes', 'gene_list', or 'gene_symbols'")
-
-            # Extract context
-            if 'context' in data:
-                result['context'] = data['context']
-            elif 'context_description' in data:
-                result['context'] = data['context_description']
-            elif 'description' in data:
-                result['context'] = data['description']
-
-            # Extract optional schema
-            if 'schema' in data:
-                result['schema'] = data['schema']
-            elif 'output_schema' in data:
-                result['schema'] = data['output_schema']
-            elif 'schema_example' in data:
-                result['schema'] = data['schema_example']
-
-            return result
-
-        elif path.suffix.lower() in ['.yaml', '.yml']:
-            try:
-                import yaml
-                with open(path, 'r', encoding='utf-8') as f:
-                    data = yaml.safe_load(f)
-                return self._extract_from_structured_data(data)
-            except ImportError:
-                raise click.BadParameter("YAML support requires PyYAML: pip install pyyaml")
-
-        else:
-            raise click.BadParameter(f"Combined input file must be JSON or YAML format, got: {path.suffix}")
-
-    def _extract_from_structured_data(self, data: Dict[str, Any]) -> Dict[str, Any]:
-        """Extract genes, context, and schema from structured data."""
-        result = {}
-
-        # Extract genes
-        for key in ['genes', 'gene_list', 'gene_symbols']:
-            if key in data:
-                result['genes'] = data[key]
-                break
-
-        # Extract context
-        for key in ['context', 'context_description', 'description']:
-            if key in data:
-                result['context'] = data[key]
-                break
-
-        # Extract schema
-        for key in ['schema', 'output_schema', 'schema_example']:
-            if key in data:
-                result['schema'] = data[key]
-                break
-
-        return result
-
-    async def run_annotation(
+    def __init__(
         self,
-        genes: List[str],
-        context: str,
-        output_prefix: Optional[str] = None,
-        schema_data: Optional[Dict[str, Any]] = None,
-        test_mode: bool = False,
-        timeout: int = 300
-    ) -> str:
-        """Run the gene list annotation workflow."""
+        *,
+        datasets_dir: Optional[str],
+        output_dir: Optional[str],
+        verbose: int = 0,
+    ) -> None:
+        self.verbose = verbose
+        self.datasets_dir = self._resolve_path(datasets_dir or DEFAULT_DATASETS_DIR)
+        self.output_dir = self._resolve_path(output_dir or DEFAULT_OUTPUT_DIR)
 
-        # Check if workflow is available
-        if not WORKFLOW_AVAILABLE:
-            click.echo(f"⚠️  Workflow not available due to dependency issue: {IMPORT_ERROR}")
-            click.echo("🔧 Running in mock mode for CLI testing...")
+        if WORKFLOW_AVAILABLE:
+            self._validate_datasets_dir()
+            self._ensure_output_dir()
 
-        # Use provided schema data
-        schema_example = schema_data
+    def _resolve_path(self, path_like: os.PathLike[str] | str) -> Path:
+        return Path(path_like).expanduser().resolve()
 
-        # Set output directory in environment
-        os.environ['GENE_ANNOTATION_OUTPUT_DIR'] = str(self.output_dir.absolute())
+    def update_datasets_dir(self, path: Optional[str]) -> None:
+        if path:
+            self.datasets_dir = self._resolve_path(path)
+            if WORKFLOW_AVAILABLE:
+                self._validate_datasets_dir()
 
-        try:
-            result = await run_gene_annotation_workflow(
-                gene_list=genes,
-                context_description=context,
-                output_schema_example=schema_example,
-                is_test_mode=test_mode,
-                deep_search_timeout=timeout
+    def update_output_dir(self, path: Optional[str]) -> None:
+        if path:
+            self.output_dir = self._resolve_path(path)
+            if WORKFLOW_AVAILABLE:
+                self._ensure_output_dir()
+
+    def _validate_datasets_dir(self) -> None:
+        if not self.datasets_dir.exists() or not self.datasets_dir.is_dir():
+            raise click.BadParameter(f"Datasets directory not found: {self.datasets_dir}")
+
+    def _ensure_output_dir(self) -> None:
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+
+    def describe_plan(
+        self,
+        *,
+        stage: str,
+        test_mode: bool,
+        deepsearch_model: Optional[str],
+    ) -> None:
+        click.echo("\nExecution Plan:")
+        click.echo(f"  Stage: {stage}")
+        click.echo(f"  Test mode: {test_mode}")
+        click.echo(f"  DeepSearch model: {deepsearch_model or 'default'}")
+        click.echo(f"  Datasets directory: {self.datasets_dir}")
+        click.echo(f"  Output directory: {self.output_dir}")
+
+    def export_deepsearch_prompt(self, destination: str, source_file: Optional[str]) -> Path:
+        if not PROMPT_BUILDER_AVAILABLE:
+            raise click.ClickException(
+                f"DeepSearch prompt builder unavailable: {PROMPT_IMPORT_ERROR}"
             )
-            return result
-        except Exception as e:
-            raise click.ClickException(f"Annotation workflow failed: {str(e)}")
+        genes, context, source_label = self._load_dataset_entry(source_file)
+        gene_list_str = ",".join(genes)
+        prompt_text = build_deepsearch_prompt(gene_list_str, context)
+        destination_path = self._resolve_path(destination)
+        if destination_path.exists():
+            raise click.ClickException(
+                f"Destination {destination_path} already exists; refusing to overwrite."
+            )
+        destination_path.parent.mkdir(parents=True, exist_ok=True)
+        destination_path.write_text(prompt_text, encoding="utf-8")
+        if self.verbose:
+            click.echo(f"Wrote DeepSearch prompt for {source_label}")
+        return destination_path
+
+    def _load_dataset_entry(self, dataset_path: Optional[str]) -> tuple[list[str], str, str]:
+        if dataset_path:
+            selected_file = self._resolve_path(dataset_path)
+        else:
+            json_files = sorted(self.datasets_dir.glob("*.json"))
+            if not json_files:
+                raise click.ClickException(f"No dataset JSON files found in {self.datasets_dir}")
+            selected_file = json_files[0]
+        if not selected_file.exists():
+            raise click.ClickException(f"Dataset file not found: {selected_file}")
+        with selected_file.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+        if "examples" in data:
+            examples = data.get("examples", [])
+            if not examples:
+                raise click.ClickException(f"No examples found in {selected_file}")
+            entry = examples[0]
+            source_label = f"{selected_file.name} (example {entry.get('id', 0)})"
+        else:
+            entry = data
+            source_label = selected_file.name
+        genes = entry.get("genes")
+        if not genes:
+            raise click.ClickException(f"'genes' missing or empty in {source_label}")
+        context = entry.get("context") or entry.get("description")
+        if not context:
+            raise click.ClickException(f"'context' missing in {source_label}")
+        return genes, context, source_label
+
+    async def run_workflow(
+        self,
+        *,
+        skip_deepsearch: bool,
+        test_mode: bool,
+        deepsearch_model: Optional[str],
+    ) -> str:
+        return await run_gene_annotation_workflow(
+            datasets_dir=str(self.datasets_dir),
+            output_dir=str(self.output_dir),
+            is_test_mode=test_mode,
+            skip_deepsearch=skip_deepsearch,
+            deepsearch_model=deepsearch_model,
+        )
 
 
-# CLI command setup
 @click.group(invoke_without_command=True)
-@click.option('--version', is_flag=True, help='Show version and exit')
-@click.option('-v', '--verbose', count=True, help='Increase verbosity')
-@click.option('--output-dir', type=click.Path(), help='Output directory for results')
+@click.option("--version", is_flag=True, help="Show CLI version and exit.")
+@click.option("-v", "--verbose", count=True, help="Increase verbosity.")
+@click.option(
+    "--datasets-dir",
+    type=click.Path(file_okay=False, dir_okay=True),
+    help="Directory containing workflow dataset JSON files.",
+)
+@click.option(
+    "--output-dir",
+    "output_dir_opt",
+    type=click.Path(file_okay=False, dir_okay=True),
+    help="Directory where workflow outputs should be written.",
+)
 @click.pass_context
-def cli(ctx, version, verbose, output_dir):
-    """
-    Gene List Annotation CLI
-
-    A modern command-line interface for annotating gene lists with cellular function
-    implications using a multi-agent workflow.
-
-    Examples:
-
-    \b
-    # Run with example dataset
-    gene-annotate run --example dna_repair
-
-    \b
-    # Run with custom gene list
-    gene-annotate run --genes BRCA1,BRCA2,TP53 --context "DNA repair in cancer"
-
-    \b
-    # Run with gene list from file
-    gene-annotate run --file genes.txt --context "Custom context"
-
-    \b
-    # Launch interactive UI
-    gene-annotate ui
-    """
+def cli(ctx, version, verbose, datasets_dir, output_dir_opt):
+    """Gene Annotator CLI."""
     if version:
-        click.echo(f"Gene List Annotation CLI v{__version__}")
+        click.echo(f"Gene Annotator CLI v{__version__}")
         return
 
-    # Set up context
     ctx.ensure_object(dict)
-    ctx.obj['verbose'] = verbose
+    cli_instance = GeneAnnotationCLI(
+        datasets_dir=datasets_dir,
+        output_dir=output_dir_opt,
+        verbose=verbose,
+    )
+    ctx.obj["cli"] = cli_instance
+    ctx.obj["verbose"] = verbose
 
-    # Initialize CLI instance
-    cli_instance = GeneAnnotationCLI()
-    if output_dir:
-        cli_instance.output_dir = Path(output_dir)
-    ctx.obj['cli'] = cli_instance
-
-    # If no command is provided, show help
     if ctx.invoked_subcommand is None:
         click.echo(ctx.get_help())
 
 
 @cli.command()
-@click.option('--genes', '-g', help='Comma-separated list of gene symbols')
-@click.option('--gene-file', '-f', type=click.Path(exists=True),
-              help='File containing gene list (JSON, TXT, CSV, TSV)')
-@click.option('--context', '-c', help='Cellular/tissue/disease context for analysis')
-@click.option('--context-file', type=click.Path(exists=True),
-              help='File containing context description (TXT)')
-@click.option('--input-file', '-i', type=click.Path(exists=True),
-              help='Combined input file with genes, context, and optional schema (JSON/YAML)')
-@click.option('--example', '-e', type=click.Choice(list(EXAMPLE_DATASETS.keys())),
-              help='Use a predefined example dataset')
-@click.option('--schema', '-s', type=click.Path(exists=True),
-              help='JSON file with custom output schema example')
-@click.option('--output-prefix', '-o', help='Prefix for output files')
-@click.option('--test-mode', is_flag=True, help='Run in test mode (faster, limited scope)')
-@click.option('--timeout', type=int, default=300, help='Deep research timeout in seconds (default: 300)')
-@click.option('--dry-run', is_flag=True, help='Show what would be run without executing')
-@click.option('--debug', is_flag=True, help='Enable debug mode with full stack traces')
+@click.option(
+    "--stage",
+    type=click.Choice(STAGE_CHOICES, case_sensitive=False),
+    default="full",
+    show_default=True,
+    help="Which portion of the workflow to run.",
+)
+@click.option("--test-mode", is_flag=True, help="Process only the first dataset for quick smoke tests.")
+@click.option(
+    "--deepsearch-model",
+    help="Override the DeepSearch model identifier (defaults to the graph's built-in constant).",
+)
+@click.option(
+    "--export-deepsearch-prompt",
+    is_flag=True,
+    help="Export the DeepSearch prompt for the first dataset and exit.",
+)
+@click.option(
+    "--prompt-output",
+    type=click.Path(dir_okay=False),
+    help="Destination file for --export-deepsearch-prompt.",
+)
+@click.option(
+    "--prompt-source",
+    type=click.Path(dir_okay=False),
+    help="Dataset JSON to use when exporting the DeepSearch prompt (defaults to the first dataset).",
+)
+@click.option("--dry-run", is_flag=True, help="Show the execution plan without running the workflow.")
+@click.option("--debug", is_flag=True, help="Show stack traces on failure.")
 @click.pass_context
-def run(ctx, genes, gene_file, context, context_file, input_file, example, schema, output_prefix, test_mode, timeout, dry_run, debug):
-    """
-    Run gene list annotation workflow.
+def run(
+    ctx,
+    stage,
+    test_mode,
+    deepsearch_model,
+    export_deepsearch_prompt,
+    prompt_output,
+    prompt_source,
+    dry_run,
+    debug,
+):
+    """Run the Gene Annotator workflow."""
+    cli_instance: GeneAnnotationCLI = ctx.obj["cli"]
+    skip_deepsearch = stage.lower() == "annotate-only"
 
-    Specify input via:
-    - Individual options: --genes, --context
-    - File options: --gene-file, --context-file
-    - Combined file: --input-file (JSON/YAML with all data)
-    - Example: --example <dataset_name>
-    """
-    cli_instance = ctx.obj['cli']
-    cli_instance.ensure_output_dir()
+    if prompt_output and not export_deepsearch_prompt:
+        raise click.BadParameter("--prompt-output is only valid with --export-deepsearch-prompt")
 
-    # Set debug mode in context
-    ctx.obj['debug'] = debug
-    is_verbose = ctx.obj.get('verbose', 0) > 0 or debug
+    cli_instance.describe_plan(stage=stage, test_mode=test_mode, deepsearch_model=deepsearch_model)
 
-    if debug:
-        click.echo("🐛 Debug mode enabled - full stack traces will be shown")
-        # Enable debug logging for deep research
-        import logging
-        deepsearch_logger = logging.getLogger('cellsem_agent.agents.deepsearch.deepsearch_service')
-        deepsearch_logger.setLevel(logging.DEBUG)
-        # Ensure the console handler shows debug messages
-        for handler in deepsearch_logger.handlers:
-            handler.setLevel(logging.DEBUG)
+    if prompt_source and not export_deepsearch_prompt:
+        raise click.BadParameter("--prompt-source is only valid with --export-deepsearch-prompt")
 
-    # Handle combined input file first
-    if input_file:
-        click.echo(f"Loading combined input from {input_file}")
-        combined_data = cli_instance.load_combined_input_file(input_file)
-
-        gene_list = combined_data.get('genes', [])
-        context = combined_data.get('context', context)  # CLI context can override
-
-        # Handle embedded schema
-        if 'schema' in combined_data and not schema:
-            schema_data = combined_data['schema']
-        else:
-            schema_data = None
-
-        click.echo(f"Loaded {len(gene_list)} genes from combined input file")
-
-    else:
-        # Determine gene list source
-        gene_list = None
-        schema_data = None
-
-        if example:
-            dataset = EXAMPLE_DATASETS[example]
-            gene_list = dataset['genes']
-            if not context or context == dataset['context']:
-                context = dataset['context']
-            click.echo(f"Using example dataset: {example}")
-            click.echo(f"Description: {dataset['description']}")
-        elif gene_file:
-            gene_list = cli_instance.load_gene_list_from_file(gene_file, verbose=is_verbose)
-            click.echo(f"Loaded {len(gene_list)} genes from {gene_file}")
-        elif genes:
-            gene_list = [g.strip() for g in genes.split(',')]
-            click.echo(f"Using {len(gene_list)} genes from command line")
-        else:
-            raise click.BadParameter("Must specify genes via --genes, --gene-file, --input-file, or --example")
-
-    # Handle context from file if provided
-    if context_file:
-        file_context = cli_instance.load_context_from_file(context_file, verbose=is_verbose)
-        if context and context != file_context:
-            click.echo(f"Warning: Using context from file, ignoring command-line context")
-        context = file_context
-        click.echo(f"Loaded context from {context_file}")
-
-    # Validate inputs
-    if not gene_list:
-        raise click.BadParameter("No genes provided")
-
-    if not context:
-        raise click.BadParameter("Context is required. Provide via --context, --context-file, --input-file, or --example")
-
-    if len(gene_list) > 50 and not test_mode:
-        click.confirm(f"Processing {len(gene_list)} genes. This may take a while. Continue?", abort=True)
-
-    # Show execution plan
-    click.echo(f"\nExecution Plan:")
-    click.echo(f"  Genes: {', '.join(gene_list[:5])}{'...' if len(gene_list) > 5 else ''} ({len(gene_list)} total)")
-    click.echo(f"  Context: {context}")
-    click.echo(f"  Schema: {schema or 'default'}")
-    click.echo(f"  Test mode: {test_mode}")
-    click.echo(f"  Output directory: {cli_instance.output_dir}")
-
-    if dry_run:
-        click.echo("\n[DRY RUN] Would execute the workflow with above parameters.")
+    if export_deepsearch_prompt:
+        if not prompt_output:
+            raise click.BadParameter(
+                "--prompt-output must be provided when using --export-deepsearch-prompt"
+            )
+        destination_path = cli_instance.export_deepsearch_prompt(prompt_output, prompt_source)
+        click.echo(f"\n📄 DeepSearch prompt written to {destination_path}")
         return
 
-    # Load environment
+    if dry_run:
+        click.echo("\n[DRY RUN] Workflow not executed.")
+        return
+
+    if not WORKFLOW_AVAILABLE:
+        click.echo(f"⚠️  Workflow unavailable (import error): {WORKFLOW_IMPORT_ERROR}")
+        click.echo("Running in mock mode—no API calls will be made.")
+
     load_dotenv()
 
-    # Run the workflow
-    click.echo("\n🚀 Starting gene list annotation workflow...")
-
     try:
-        # Handle schema - either from file or embedded in input
-        schema_to_use = None
-        if input_file and 'schema_data' in locals() and schema_data:
-            schema_to_use = schema_data
-        elif schema:
-            # Load schema from separate file
-            if is_verbose:
-                click.echo(f"🔍 Loading schema from: {schema}")
-            try:
-                with open(schema, 'r') as f:
-                    schema_to_use = json.load(f)
-                if is_verbose:
-                    click.echo(f"  ✅ Schema loaded successfully")
-            except FileNotFoundError:
-                raise click.FileError(f"Schema file not found: {schema}")
-            except json.JSONDecodeError as e:
-                raise click.BadParameter(f"Invalid JSON in schema file {schema}: {str(e)}")
-            except Exception as e:
-                raise click.BadParameter(f"Error reading schema file {schema}: {str(e)}")
-
-        result = asyncio.run(cli_instance.run_annotation(
-            genes=gene_list,
-            context=context,
-            output_prefix=output_prefix,
-            schema_data=schema_to_use,
-            test_mode=test_mode,
-            timeout=timeout
-        ))
-
+        click.echo("\n🚀 Starting workflow...")
+        result = asyncio.run(
+            cli_instance.run_workflow(
+                skip_deepsearch=skip_deepsearch,
+                test_mode=test_mode,
+                deepsearch_model=deepsearch_model,
+            )
+        )
         click.echo("\n✅ Workflow completed successfully!")
         click.echo(result)
-
-    except Exception as e:
+    except Exception as exc:
         if debug:
             import traceback
-            click.echo(f"\n❌ Workflow failed with full stack trace:", err=True)
+
+            click.echo("\n❌ Workflow failed with full stack trace:", err=True)
             click.echo(traceback.format_exc(), err=True)
         else:
-            click.echo(f"\n❌ Workflow failed: {str(e)}", err=True)
-            click.echo("💡 Use --debug for full stack trace", err=True)
+            click.echo(f"\n❌ Workflow failed: {exc}", err=True)
+            click.echo("💡 Re-run with --debug for the full stack trace.", err=True)
         sys.exit(1)
-
-
-@cli.command()
-@click.option('--port', '-p', default=7860, help='Port for Gradio interface')
-@click.option('--share', is_flag=True, help='Create public shareable link')
-@click.pass_context
-def ui(ctx, port, share):
-    """Launch interactive Gradio interface for gene list annotation."""
-    try:
-        from .gene_annotation_gradio import launch_gradio_interface
-        click.echo(f"🚀 Launching Gradio interface on port {port}...")
-        launch_gradio_interface(port=port, share=share)
-    except ImportError:
-        click.echo("❌ Gradio interface not available. Install with: pip install gradio", err=True)
-        sys.exit(1)
-
-
-@cli.command()
-def examples():
-    """List available example datasets."""
-    click.echo("Available example datasets:\n")
-
-    for key, dataset in EXAMPLE_DATASETS.items():
-        click.echo(f"🧬 {click.style(key, fg='blue', bold=True)}")
-        click.echo(f"   Description: {dataset['description']}")
-        click.echo(f"   Genes: {', '.join(dataset['genes'][:3])}... ({len(dataset['genes'])} total)")
-        click.echo(f"   Context: {dataset['context']}")
-        click.echo()
-
-    click.echo("Usage: gene-annotate run --example <dataset_name>")
-
-
-@cli.command()
-@click.option('--genes', prompt='Enter gene symbols (comma-separated)')
-@click.option('--context', prompt='Enter cellular/tissue/disease context')
-@click.option('--output-prefix', help='Prefix for output files')
-@click.pass_context
-def interactive(ctx, genes, context, output_prefix):
-    """Interactive mode with prompts for input."""
-    cli_instance = ctx.obj['cli']
-    cli_instance.ensure_output_dir()
-
-    gene_list = [g.strip() for g in genes.split(',')]
-
-    click.echo(f"\n📝 Summary:")
-    click.echo(f"   Genes: {', '.join(gene_list)} ({len(gene_list)} total)")
-    click.echo(f"   Context: {context}")
-
-    if click.confirm('\nProceed with analysis?'):
-        load_dotenv()
-
-        try:
-            result = asyncio.run(cli_instance.run_annotation(
-                genes=gene_list,
-                context=context,
-                output_prefix=output_prefix,
-                timeout=300  # Use default timeout for interactive mode
-            ))
-
-            click.echo("\n✅ Analysis completed!")
-            click.echo(result)
-
-        except Exception as e:
-            click.echo(f"\n❌ Analysis failed: {str(e)}", err=True)
 
 
 @cli.command()
 @click.pass_context
 def config(ctx):
-    """Show configuration and environment information."""
-    click.echo("🔧 Gene List Annotation CLI Configuration\n")
+    """Show the currently configured paths and environment information."""
+    cli_instance: GeneAnnotationCLI = ctx.obj["cli"]
+    click.echo("🔧 Gene Annotator CLI Configuration\n")
+    click.echo(f"Workflow available: {'yes' if WORKFLOW_AVAILABLE else 'no'}")
+    if not WORKFLOW_AVAILABLE:
+        click.echo(f"Import error: {WORKFLOW_IMPORT_ERROR}")
 
-    cli_instance = ctx.obj['cli']
-
-    # Environment check
-    click.echo("Environment Variables:")
-    env_vars = ['OPENAI_API_KEY']
-    for var in env_vars:
-        value = os.environ.get(var)
-        status = "✅ Set" if value else "❌ Not set"
+    click.echo(f"\nDatasets directory: {cli_instance.datasets_dir}")
+    click.echo(f"Output directory:   {cli_instance.output_dir}")
+    click.echo(f"Verbosity: {ctx.obj.get('verbose', 0)}")
+    click.echo("\nEnvironment variables:")
+    for var in ("OPENAI_API_KEY", "LOGFIRE_TOKEN"):
+        status = "set" if os.environ.get(var) else "not set"
         click.echo(f"  {var}: {status}")
 
-    click.echo(f"\nPaths:")
-    click.echo(f"  Output directory: {cli_instance.output_dir}")
-    click.echo(f"  Examples directory: {cli_instance.examples_dir}")
 
-    click.echo(f"\nCLI Version: {__version__}")
-
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     cli()

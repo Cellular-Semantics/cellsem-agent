@@ -1,174 +1,211 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Gene Program Functional Analysis",
-  "description": "Comprehensive literature-based functional analysis of gene lists in specific biological contexts. Perform systematic analysis to identify gene programs - clusters of genes acting together in pathways, processes, or cellular states. For each program, predict functional implications for the specified cell type in the context of the provided disease and tissue environment. Prioritize well-established functions with strong literature support, but highlight emerging evidence if contextually relevant. Rank predictions higher when multiple genes from input list act in same process and when most/all required pathway components are present.",
-  "type": "object",
-  "required": ["context", "input_genes", "programs", "version"],
-  "definitions": {
-    "atomic_term": {
-      "type": "object",
-      "required": ["name", "citation"],
-      "properties": {
-        "ontology_id": {
-          "type": "string",
-          "description": "ontology term CURIE e.g., GO:0005576, GO:0008150, GO:0003674."
-        },
-        "name": {
-          "type": "string",
-          "description": "atomic term to be mapped"
-        },
-        "ontology_label": {
-          "type": "string",
-          "description": "ontology label e.g., cellular_component, biological_process, molecular_function"
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Gene Program Functional Analysis",
+    "description": "Comprehensive literature-based functional analysis of gene lists in specific biological contexts. Perform systematic analysis to identify gene programs - clusters of genes acting together in pathways, processes, or cellular states. For each program, predict functional implications for the specified cell type in the context of the provided disease and tissue environment. Prioritize well-established functions with strong literature support, but highlight emerging evidence if contextually relevant. Rank predictions higher when multiple genes from input list act in same process and when most/all required pathway components are present.",
+    "type": "object",
+    "required": [
+        "context",
+        "input_genes",
+        "programs",
+        "version"
+    ],
+    "definitions": {
+        "atomic_term": {
+            "type": "object",
+            "required": [
+                "name",
+                "citation",
+                "genes"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "A minimal component of the gene program, representing a single biological process or cell component."
+                },
+                "citation": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/citation"
+                    },
+                    "description": "list of citations supporting the role of the listed genes in the name biological process or cell component"
+                },
+                "genes": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Genes of the program whose products are involved in this biological process or cell component."
+                }
+            },
+            "additionalProperties": false
         },
         "citation": {
-          "type":"array",
-          "items": {
-            "$ref": "#/definitions/citation"
-          },
-          "description": "Citations supporting "
-        },
-          "Genes": {
-              "type": "array",
-              "items": {
-                  "type": "string"
-              },
-              "description": "Genes of the program whose products are involved in this process or compoent."
-          }
-      },
-      "additionalProperties": false
-    },
-    "citation": {
-      "type": "object",
-      "required": ["reference"],
-      "properties": {
-        "reference": {
-          "type": "string",
-          "description": "Free-text reference (e.g., authors, title, journal, year)"
-        },
-        "id": {
-          "type": "string",
-          "description": "Optional PMID, DOI, or URL"
-        },
-        "type": {
-          "type": "string",
-          "enum": ["PMID", "DOI", "URL"]
-        },
-        "notes": {
-          "type": "string",
-          "description": "Why this citation supports the claim"
+            "type": "object",
+            "required": [
+                "url"
+            ],
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "description": "PMID, DOI, or URL that supports the claim"
+                },
+                "notes": {
+                    "type": "string",
+                    "description": "Why this citation supports the claim"
+                }
+            },
+            "additionalProperties": false
         }
-      },
-      "additionalProperties": false
-    }
-  },
-  "properties": {
-    "context": {
-      "type": "object",
-      "required": ["cell_type", "disease"],
-      "properties": {
-        "cell_type": {
-          "type": "string",
-          "description": "Extract and specify the primary cell type from the provided biological context (e.g., 'astrocytes', 'neurons', 'microglia'). Use standard cell type terminology. Leave blank if not specified."
-        },
-        "disease": {
-          "type": "string",
-          "description": "Extract and specify the disease or pathological condition from the provided biological context (e.g., 'IDH-mutant astrocytoma', 'Alzheimer disease', 'multiple sclerosis'). Use standard disease terminology. Leave blank if not specified."
-        },
-        "tissue": {
-          "type": "string",
-          "description": "Extract and specify the tissue or anatomical location if mentioned in the biological context (e.g., 'brain', 'cerebral cortex', 'hippocampus'). Leave blank if not specified."
-        }
-      },
-      "additionalProperties": false
     },
-    "input_genes": {
-      "type": "array",
-      "items": { "type": "string", "minLength": 1 },
-      "minItems": 1,
-      "uniqueItems": true
-    },
-    "programs": {
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "object",
-        "required": [
-          "program_name",
-          "description",
-          "predicted_cellular_impact",
-          "evidence_summary",
-          "citations",
-          "confidence_score",
-          "significance_score",
-          "supporting_genes",
-          "supporting_gene_count"
-        ],
-        "properties": {
-          "program_name": {
-            "type": "string",
-            "minLength": 1,
-            "description": "Provide a concise, descriptive name for this gene program that captures its primary biological function or pathway (e.g., 'Astrocyte Water Homeostasis', 'Synaptic Vesicle Recycling', 'ECM Remodeling'). Use 2-5 words maximum. Avoid programs that group 2 loosely related processes with 'and'."
-          },
-          "theme": { "type": "string", "description": "Optional higher-order theme" },
-          "description": { "type": "string", "minLength": 1 },
-          "atomic_biological_processes": {
+    "properties": {
+        "context": {
+            "type": "object",
+            "required": [
+                "cell_type",
+                "disease"
+            ],
+            "properties": {
+                "cell_type": {
+                    "type": "string",
+                    "description": "Extract and specify the name or names of the primary cell type(s) from the provided biological context. Use standard cell type terminology. Leave blank if not specified."
+                },
+                "disease": {
+                    "type": "string",
+                    "description": "Extract and specify the disease or pathological condition from the provided biological context (e.g., 'IDH-mutant astrocytoma', 'Alzheimer disease', 'multiple sclerosis'). Use standard disease terminology. Leave blank if not specified."
+                },
+                "tissue": {
+                    "type": "string",
+                    "description": "Extract and specify the tissue or anatomical location if mentioned in the biological context (e.g., 'brain', 'cerebral cortex', 'hippocampus'). Leave blank if not specified."
+                }
+            },
+            "additionalProperties": false
+        },
+        "input_genes": {
             "type": "array",
-            "description": "A list of atomic biological process terms extracted from the description.",
-            "items": { "$ref": "#/definitions/atomic_term" }
-          },
-          "atomic_cellular_components": {
-            "type": "array",
-            "description": "A list of atomic cellular component terms extracted from the description.",
-            "items": { "$ref": "#/definitions/atomic_term" }
-          },
-          "predicted_cellular_impact": {
-            "type": "array",
-            "minItems": 1,
             "items": {
-              "type": "string",
-              "description": "Concise bullet-level impacts (e.g., ‘enhanced focal adhesion signaling’)"
-            }
-          },
-          "evidence_summary": { "type": "string", "minLength": 1 },
-          "citations": {
-            "type": "array",
+                "type": "string",
+                "minLength": 1
+            },
             "minItems": 1,
-            "items": {
-              "$ref": "#/definitions/citation"
-            }
-          },
-          "confidence_score": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
-          "significance_score": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
-          "supporting_genes": {
-            "type": "array",
-            "minItems": 1,
-            "items": { "type": "string" },
             "uniqueItems": true
-          },
-          "supporting_gene_count": { "type": "integer", "minimum": 1 },
-          "required_components_present": {
-            "type": "boolean",
-            "description": "Whether most/all required pathway components are present"
-          }
         },
-        "additionalProperties": false
-      }
-    },
-    "method": {
-      "type": "object",
-      "description": "Optional trace of how programs were derived",
-      "properties": {
-        "clustering_basis": {
-          "type": "array",
-          "items": { "type": "string" },
-          "description": "e.g., pathway databases, co-citation, PPI, co-expression"
+        "programs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "required": [
+                    "program_name",
+                    "description",
+                    "predicted_cellular_impact",
+                    "evidence_summary",
+                    "significance_score",
+                    "citations",
+                    "supporting_genes"
+                ],
+                "description": "A gene program, relevant to the provided context. Avoid programs that group 2 or more loosely related processes",
+                "properties": {
+                    "program_name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "Provide a concise, descriptive name for this gene program that captures its primary biological function or pathway. Use 2-5 words maximum."
+                    },
+                    "description": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "A more detailed description of the gene program."
+                    },
+                    "atomic_biological_processes": {
+                        "type": "array",
+                        "description": "A list of atomic biological process terms extracted from the description.",
+                        "items": {
+                            "$ref": "#/definitions/atomic_term"
+                        }
+                    },
+                    "atomic_cellular_components": {
+                        "type": "array",
+                        "description": "A list of atomic cellular component terms extracted from the description.",
+                        "items": {
+                            "$ref": "#/definitions/atomic_term"
+                        }
+                    },
+                    "predicted_cellular_impact": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                            "type": "string",
+                            "description": "Concise bullet-level impacts (e.g., ‘enhanced focal adhesion signaling’)"
+                        }
+                    },
+                    "evidence_summary": {
+                        "type": "string",
+                        "minLength": 1
+                    },
+                    "significance_score": {
+                        "description": "A value between 0 and 1 that ranks this gene program by the number of supporting genes, the number of supporting references and relevance to the context.",
+                        "type": "number",
+                        "minimum": 0.0,
+                        "maximum": 1.0
+                    },
+                    "citations": {
+                        "description": "Array of citations supporting the role of the listed genes in this gene program.",
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                            "$ref": "#/definitions/citation"
+                        }
+                    },
+                    "supporting_genes": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                            "type": "string"
+                        },
+                        "uniqueItems": true
+                    },
+                    "required_genes_not_in_input": {
+                        "description": "Genes required for this program that are NOT present in the input genes.",
+                        "type": "object",
+                        "properties": {
+                            "genes": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "citations": {
+                                "type": "array",
+                                "minItems": 1,
+                                "items": {
+                                    "$ref": "#/definitions/citation"
+                                }
+                            }
+                        }
+                    }
+                },
+                "additionalProperties": false
+            }
         },
-        "notes": { "type": "string" }
-      },
-      "additionalProperties": false
+        "method": {
+            "type": "object",
+            "description": "Optional trace of how programs were derived",
+            "properties": {
+                "clustering_basis": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "e.g., pathway databases, co-citation, PPI, co-expression"
+                },
+                "notes": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "version": {
+            "type": "string"
+        }
     },
-    "version": { "type": "string" }
-  },
-  "additionalProperties": false
+    "additionalProperties": false
 }

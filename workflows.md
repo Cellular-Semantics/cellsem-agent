@@ -1,6 +1,6 @@
 # Workflow Overview
 
-This repository hosts several standalone workflow graphs under `cellsem_agent/graphs`. Each graph is an async pipeline built with `pydantic_graph` and launched via `python -m …`. None of them register a fully wired CLI, so running them requires invoking the module directly (typically with `poetry run`). The sections below capture the current state of every workflow on `main`, the steps they execute, their inputs/outputs, and any caveats.
+This repository hosts several standalone workflow graphs under `cellsem_agent/graphs`. Each graph is an async pipeline built with `pydantic_graph` and can be launched via `python -m …` (typically with `poetry run`); the Gene Annotator graph additionally exposes a dedicated CLI front-end. The sections below capture the current state of every workflow on `main`, the steps they execute, their inputs/outputs, and any caveats.
 
 ## Gene Annotator (`cellsem_agent/graphs/gene_annotator/gene_annotate_graph.py`)
 
@@ -15,7 +15,7 @@ This repository hosts several standalone workflow graphs under `cellsem_agent/gr
   ```
   Be sure to place an `.env` file (or export env vars) with `OPENAI_API_KEY`, `LOGFIRE_TOKEN` (if required), and any ontology-tooling dependencies (`WORKDIR` is created automatically if unset).
 - **Caching/Test Mode**: Delete the corresponding `*_ds.json`/`*_result.json`/`mappings/*.csv` files to re-run specific inputs. Set `IS_TEST_MODE = True` inside the module to stop after the first example.
-- **CLI status**: `gene_list_annotation_cli.py` still imports `cellsem_agent.graphs.gene_list_annotation.gene_list_annotation_graph`, which does not exist. As a result, `gene-annotate …` only executes the built-in mock function. Use the module entry point above until the CLI is rewired.
+- **CLI**: `gene_list_annotation_cli.py` now targets this workflow. Run `gene-annotate run --stage full` for the full DeepSearch→ontology pipeline or `--stage annotate-only` to recompute the final mapping step using cached DeepSearch outputs. Use `--datasets-dir`/`--output-dir` to override default locations, `--deepsearch-model` to test alternative DeepSearch backends, and combine `--export-deepsearch-prompt --prompt-output prompt.txt [--prompt-source dataset.json]` to emit the exact DeepSearch prompt for a specific dataset without running the workflow (the command refuses to overwrite existing files).
 
 ## CXG Annotate (legacy, `cellsem_agent/graphs/cxg_annotate/cxg_annotate_graph.py`)
 
